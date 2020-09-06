@@ -37,7 +37,7 @@ resolutions:
       these researches.
 - dates:
   - 1975-06-02
-  subject: Recommended value for the speed of light*
+  subject: Recommended value for the speed of light
   identifier: 2
   approvals:
   - type: affirmative
@@ -212,7 +212,7 @@ resolutions:
       *_becquerel_*, symbol Bq, equal to one reciprocal second.
 - dates:
   - 1975-06-02
-  subject: 'SI units for ionizing radiation: gray*'
+  subject: 'SI units for ionizing radiation: gray'
   identifier: 9
   approvals:
   - type: affirmative
@@ -234,7 +234,7 @@ resolutions:
       Note: The gray is the SI unit of absorbed dose. In the field of ionizing radiation the gray may also be used with other physical quantities also expressed in joules per kilogram: the Comité Consultatif des Unités is made responsible for studying this matter in collaboration with the competent international organizations.
 - dates:
   - 1975-06-02
-  subject: SI prefixes peta and exa*
+  subject: SI prefixes peta and exa
   identifier: 10
   approvals:
   - type: affirmative

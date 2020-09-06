@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1971-10-08
-  subject: International Atomic Time, function of CIPM*
+  subject: International Atomic Time, function of CIPM
   identifier: 1
   approvals:
   - type: affirmative
@@ -68,7 +68,7 @@ resolutions:
       de l'échelle de Temps atomique international à définir par le Comité international."
 - dates:
   - 1971-10-08
-  subject: SI unit of amount of substance (mole)*
+  subject: SI unit of amount of substance (mole)
   identifier: 3
   approvals:
   - type: affirmative

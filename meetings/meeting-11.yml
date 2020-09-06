@@ -161,7 +161,7 @@ resolutions:
       et suivantes.
 - dates:
   - 1960-10-20
-  subject: Definition of the metre*
+  subject: Definition of the metre
   identifier: 6
   approvals:
   - type: affirmative
@@ -192,27 +192,10 @@ resolutions:
   - type: affirmative
     degree: unanimous
     message: La Onzième Conférence générale des poids et mesures,
-  considerations: []
-  actions:
-  - type: invites / further invites
+  considerations:
+  - type: considering
     date_effective: 1960-10-20
-    message: "invite le Comité international\n\n. à établir des instructions pour
-      la mise en pratique de la nouvelle définition du mètre (^1^) ;\n. à choisir
-      des étalons secondaires de longueur d'onde pour la mesure interférentielle des
-      longueurs et à établir des instructions pour leur emploi ;\n. à poursuivre les
-      études entreprises en vue d'améliorer les étalons de longueur.\n\n&nbsp;\n\n(^1^)
-      Dans sa session d'octobre 1960, le Comité international des poids et mesures
-      a adopté la Recommandation suivante concernant les premières instructions pour
-      la mise en pratique de la définition du mètre :\n\n« Conformément au paragraphe
-      1 de la Résolution 7 adoptée par la Onzième Conférence générale des poids et
-      mesures (octobre 1960), le Comité international des poids et mesures recommande
-      que la radiation du krypton 86 adoptée comme étalon fondamental de longueur
-      soit réalisée au moyen d'une lampe à décharge à cathode chaude contenant du
-      krypton 86 d'une pureté non inférieure à 99 pour cent, en quantité suffisante
-      pour assurer la présence de krypton solide à la température de 64 °K, cette
-      lampe étant munie d'un capillaire ayant les caractéristiques suivantes : diamètre
-      intérieur 2 à 4 millimètres, épaisseur des parois 1 millimètre environ.\n\n«
-      On estime que la longueur d'onde de la radiation émise par la colonne positive
+    message: "estime que la longueur d'onde de la radiation émise par la colonne positive
       est égale, à 1 cent millionième (10^\x968^) près, à la longueur d'onde correspondant
       à la transition entre les niveaux non perturbés, lorsque les conditions suivantes
       sont satisfaites :\n\n. le capillaire est observé en bout de façon que les rayons
@@ -221,6 +204,23 @@ resolutions:
       bain réfrigérant maintenu à la température du point triple de l'azote, à 1 degré
       près ;\n. la densité du courant dans le capillaire est 0,3 image::/utils/special/Math/plusminus.gif[]
       0,1 ampère par centimètre carr&eacute. »"
+  actions:
+  - type: invites / further invites
+    date_effective: 1960-10-20
+    message: |-
+      invite le Comité international
+
+      . à établir des instructions pour la mise en pratique de la nouvelle définition du mètre (^1^) ;
+      . à choisir des étalons secondaires de longueur d'onde pour la mesure interférentielle des longueurs et à établir des instructions pour leur emploi ;
+      . à poursuivre les études entreprises en vue d'améliorer les étalons de longueur.
+
+      &nbsp;
+
+      (^1^) Dans sa session d'octobre 1960, le Comité international des poids et mesures a adopté la Recommandation suivante concernant les premières instructions pour la mise en pratique de la définition du mètre :
+
+      « Conformément au paragraphe 1 de la Résolution 7 adoptée par la Onzième Conférence générale des poids et mesures (octobre 1960), le Comité international des poids et mesures recommande que la radiation du krypton 86 adoptée comme étalon fondamental de longueur soit réalisée au moyen d'une lampe à décharge à cathode chaude contenant du krypton 86 d'une pureté non inférieure à 99 pour cent, en quantité suffisante pour assurer la présence de krypton solide à la température de 64 °K, cette lampe étant munie d'un capillaire ayant les caractéristiques suivantes : diamètre intérieur 2 à 4 millimètres, épaisseur des parois 1 millimètre environ.
+
+      « On
 - dates:
   - 1960-10-20
   subject: Définition du mètre
@@ -241,7 +241,7 @@ resolutions:
       par le passé les Prototypes nationaux.
 - dates:
   - 1960-10-20
-  subject: Definition of the unit of time (second)*
+  subject: Definition of the unit of time (second)
   identifier: 9
   approvals:
   - type: affirmative
@@ -317,7 +317,7 @@ resolutions:
       accélération est connue avec une exactitude suffisante.
 - dates:
   - 1960-10-20
-  subject: Système International d'Unités*
+  subject: Système International d'Unités
   identifier: 12
   approvals:
   - type: affirmative

@@ -56,7 +56,7 @@ resolutions:
       the determination of physical constants."
 - dates:
   - 1979-10-12
-  subject: SI unit of luminous intensity (candela)*
+  subject: SI unit of luminous intensity (candela)
   identifier: 3
   approvals:
   - type: affirmative
@@ -103,7 +103,7 @@ resolutions:
       photometric calibration procedures and methods of international comparisons.
 - dates:
   - 1979-10-12
-  subject: Special name for the SI unit of dose equivalent (sievert)*
+  subject: Special name for the SI unit of dose equivalent (sievert)
   identifier: 5
   approvals:
   - type: affirmative
@@ -126,7 +126,7 @@ resolutions:
       joule per kilogram."
 - dates:
   - 1979-10-12
-  subject: Symbols for the litre*
+  subject: Symbols for the litre
   identifier: 6
   approvals:
   - type: affirmative

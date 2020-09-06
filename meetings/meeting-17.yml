@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1983-10-21
-  subject: Definition of the metre*
+  subject: Definition of the metre
   identifier: 1
   approvals:
   - type: affirmative
@@ -52,7 +52,7 @@ resolutions:
       . The definition of the metre in force since 1960, based upon the transition between the levels 2p~10~ and 5d~5~ of the atom of krypton 86, is abrogated.
 - dates:
   - 1983-10-21
-  subject: On the realization of the definition of the metre*
+  subject: On the realization of the definition of the metre
   identifier: 2
   approvals:
   - type: affirmative

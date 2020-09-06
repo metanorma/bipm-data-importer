@@ -207,7 +207,7 @@ resolutions:
        that the name litre should not be employed to give the results of high-accuracy volume measurements.
 - dates:
   - 1964-10-13
-  subject: Curie*
+  subject: Curie
   identifier: 7
   approvals:
   - type: affirmative
@@ -229,7 +229,7 @@ resolutions:
   actions: []
 - dates:
   - 1964-10-13
-  subject: SI prefixes femto and atto*
+  subject: SI prefixes femto and atto
   identifier: 8
   approvals:
   - type: affirmative

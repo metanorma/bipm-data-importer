@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1967-10-16
-  subject: SI unit of time (second)*
+  subject: SI unit of time (second)
   identifier: 1
   approvals:
   - type: affirmative
@@ -52,7 +52,7 @@ resolutions:
       étalons atomiques de fréquence à poursuivre activement leurs études.
 - dates:
   - 1967-10-16
-  subject: SI unit of thermodynamic temperature (kelvin)*
+  subject: SI unit of thermodynamic temperature (kelvin)
   identifier: 3
   approvals:
   - type: affirmative
@@ -78,7 +78,7 @@ resolutions:
       . the decisions mentioned in the opening paragraph concerning the name of the unit of thermodynamic temperature, its symbol and the designation of the unit to express an interval or a difference of temperatures are abrogated, but the usages which derive from these decisions remain permissible for the time being.
 - dates:
   - 1967-10-16
-  subject: Definition of the SI unit of thermodynamic temperature (kelvin)*
+  subject: Definition of the SI unit of thermodynamic temperature (kelvin)
   identifier: 4
   approvals:
   - type: affirmative
@@ -99,7 +99,7 @@ resolutions:
       "The kelvin, unit of thermodynamic temperature, is the fraction 1/273.16 of the thermodynamic temperature of the triple point of water."
 - dates:
   - 1967-10-16
-  subject: SI unit of luminous intensity (candela)*
+  subject: SI unit of luminous intensity (candela)
   identifier: 5
   approvals:
   - type: affirmative
@@ -121,7 +121,7 @@ resolutions:
       "The candela is the luminous intensity, in the perpendicular direction, of a surface of 1/600 000 square metre of a black body at the temperature of freezing platinum under a pressure of 101 325 newtons per square metre."
 - dates:
   - 1967-10-16
-  subject: SI derived units*
+  subject: SI derived units
   identifier: 6
   approvals:
   - type: affirmative
