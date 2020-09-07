@@ -66,6 +66,9 @@ meetings_fr = VCR.use_cassette 'meetings-fr' do
   a.get "https://www.bipm.org/fr/worldwide-metrology/cgpm/resolutions.html"
 end
 
+FileUtils.rm_rf "meetings"
+FileUtils.rm_rf "meetings-fr"
+
 (meetings_en.css('select[name="cgpm_value"] option') +
  meetings_fr.css('select[name="cgpm_value"] option')).each do |option|
 
@@ -231,5 +234,5 @@ end
   end
 
   FileUtils.mkdir_p("meetings#{meeting_lang_sfx}")
-  File.write("meetings#{meeting_lang_sfx}/meeting-#{meeting_id}.yml", YAML.dump(h))
+  File.write("meetings#{meeting_lang_sfx}/meeting-#{"%02d" % meeting_id}.yml", YAML.dump(h))
 end
