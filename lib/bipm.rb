@@ -68,6 +68,7 @@ end
 
 FileUtils.rm_rf "meetings"
 FileUtils.rm_rf "meetings-fr"
+FileUtils.rm_rf "meetings-en"
 
 (meetings_en.css('select[name="cgpm_value"] option') +
  meetings_fr.css('select[name="cgpm_value"] option')).each do |option|
@@ -77,7 +78,8 @@ FileUtils.rm_rf "meetings-fr"
 
   meeting_id = url.split('/').last.to_i
   meeting_lang = url.split('/')[1]
-  meeting_lang_sfx = (meeting_lang == 'fr') ? "-fr" : ""
+  meeting_lang_sfx     = (meeting_lang == 'fr') ? "-fr" : ""
+  meeting_lang_sfx_dir = (meeting_lang == 'fr') ? "-fr" : "-en"
   meeting = VCR.use_cassette("meeting-#{meeting_id}#{meeting_lang_sfx}") { a.get url }
 
   title_part = meeting.at_css('.GrosTitre').text.chomp
@@ -233,6 +235,6 @@ FileUtils.rm_rf "meetings-fr"
     r
   end
 
-  FileUtils.mkdir_p("meetings#{meeting_lang_sfx}")
-  File.write("meetings#{meeting_lang_sfx}/meeting-#{"%02d" % meeting_id}.yml", YAML.dump(h))
+  FileUtils.mkdir_p("meetings#{meeting_lang_sfx_dir}")
+  File.write("meetings#{meeting_lang_sfx_dir}/meeting-#{"%02d" % meeting_id}.yml", YAML.dump(h))
 end
