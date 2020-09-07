@@ -677,14 +677,14 @@ resolutions:
       fondamentales ou atomiques et qui pourraient, dans l'avenir, servir de base
       à une nouvelle définition du kilogramme », \n de nombreux progrès ont été réalisés
       ces dernières années pour relier la masse du prototype international à la constante
-      de Planck, _h_, ou à la constante d'Avogadro, _N_~A~, \n les initiatives prises
-      pour déterminer la valeur d'un certain nombre de constantes fondamentales, y
-      compris celle de la constante de Boltzmann _k_~B~, \n que des implications significatives
-      et des avantages potentiels découlent de nouvelles définitions du kilogramme,
-      de l'ampère, du kelvin et de la mole, suite aux progrès récents accomplis, \n
-      la Recommandation 1 (CI-2005) du Comité international adoptée lors de sa session
-      d'octobre 2005 et diverses recommandations des Comités consultatifs sur la redéfinition
-      d'une ou plusieurs unités de base du SI,"
+      de Planck, stem:[h], ou à la constante d'Avogadro, stem:[N_(A)], \n les initiatives
+      prises pour déterminer la valeur d'un certain nombre de constantes fondamentales,
+      y compris celle de la constante de Boltzmann stem:[k_(B)], \n que des implications
+      significatives et des avantages potentiels découlent de nouvelles définitions
+      du kilogramme, de l'ampère, du kelvin et de la mole, suite aux progrès récents
+      accomplis, \n la Recommandation 1 (CI-2005) du Comité international adoptée
+      lors de sa session d'octobre 2005 et diverses recommandations des Comités consultatifs
+      sur la redéfinition d'une ou plusieurs unités de base du SI,"
   - type: noting
     date_effective: 2007-11-16
     message: 'notant que les changements dans les définitions des unités du SI doivent

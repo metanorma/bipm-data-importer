@@ -174,9 +174,9 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1933-10-10
-    message: "considérant la construction récente de quatre kilogrammes en platine
-      iridié destinés \x96 les kilogrammes de la première coulée ayant tous été distribués
-      \x96 à permettre de répondre aux demandes d'acquéreurs nouveaux,"
+    message: considérant la construction récente de quatre kilogrammes en platine
+      iridié destinés - les kilogrammes de la première coulée ayant tous été distribués
+      - à permettre de répondre aux demandes d'acquéreurs nouveaux,
   - type: considering
     date_effective: 1933-10-10
     message: considérant l'achat d'un de ces kilogrammes par le Gouvernement Tchécoslovaque,

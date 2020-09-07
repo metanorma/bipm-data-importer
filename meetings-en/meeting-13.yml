@@ -179,11 +179,19 @@ resolutions:
   actions:
   - type: decides
     date_effective: 1967-10-16
-    message: "*decides* to add:\n\n|===\n.>| wave number .>| 1 per metre .>| m^\x961^\n\n.<|
-      entropy .<| joule per kelvin .<| J/K\n.<| specific heat capacity .<| joule per
-      kilogram kelvin .<| J/(kg × K)\n.<| thermal conductivity .<| watt per metre
-      kelvin .<| W/(m × K)\n.<| radiant intensity .<| watt per steradian .<| W/sr\n.>|
-      activity (of a radioactive source) .>| 1 per second .>| s^\x961^\n\n|==="
+    message: |-
+      *decides* to add:
+
+      |===
+      .>| wave number .>| 1 per metre .>| m^-1^
+
+      .<| entropy .<| joule per kelvin .<| J/K
+      .<| specific heat capacity .<| joule per kilogram kelvin .<| J/(kg × K)
+      .<| thermal conductivity .<| watt per metre kelvin .<| W/(m × K)
+      .<| radiant intensity .<| watt per steradian .<| W/sr
+      .>| activity (of a radioactive source) .>| 1 per second .>| s^-1^
+
+      |===
 - dates:
   - 1967-10-16
   title: Abrogation of earlier decisions (micron, new candle)

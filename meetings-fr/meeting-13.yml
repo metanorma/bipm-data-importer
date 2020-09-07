@@ -181,12 +181,19 @@ resolutions:
   actions:
   - type: decides
     date_effective: 1967-10-16
-    message: "*décide* d'y ajouter&nbsp;:\n\n|===\n.>| nombre d'ondes .>| 1 par mètre
-      .>| m^\x961^\n\n.<| entropie .<| joule par kelvin .<| J/K\n.<| chaleur massique
-      .<| joule par kilogramme kelvin .<| J/(kg × K)\n.<| conductivité thermique .<|
-      watt par mètre kelvin .<| W/(m × K)\n.<| intensité énergétique .<| watt par
-      stéradian .<| W/sr\n.>| activité (d'une source radioactive) .>| 1 par seconde
-      .>| s^\x961^\n\n|==="
+    message: |-
+      *décide* d'y ajouter&nbsp;:
+
+      |===
+      .>| nombre d'ondes .>| 1 par mètre .>| m^-1^
+
+      .<| entropie .<| joule par kelvin .<| J/K
+      .<| chaleur massique .<| joule par kilogramme kelvin .<| J/(kg × K)
+      .<| conductivité thermique .<| watt par mètre kelvin .<| W/(m × K)
+      .<| intensité énergétique .<| watt par stéradian .<| W/sr
+      .>| activité (d'une source radioactive) .>| 1 par seconde .>| s^-1^
+
+      |===
 - dates:
   - 1967-10-16
   title: Abrogation de décisions antérieures (micron, bougie nouvelle)

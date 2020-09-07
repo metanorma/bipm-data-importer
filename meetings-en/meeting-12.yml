@@ -247,11 +247,11 @@ resolutions:
   - type: recognizing
     date_effective: 1964-10-13
     message: "*recognizing* that in the Système International d'Unités (SI), the unit
-      of this activity is the second to the power of minus one (s^\x961^),"
+      of this activity is the second to the power of minus one (s^-1^),"
   - type: acknowledging
     date_effective: 1964-10-13
     message: "*accepts* that the curie be still retained, outside SI, as unit of activity,
-      with the value 3.7 ´ 10^10^ s^\x961^. The symbol for this unit is Ci."
+      with the value stem:[3.7 * 10^(10)] s^-1^. The symbol for this unit is Ci."
   actions: []
 - dates:
   - 1964-10-13
@@ -267,11 +267,17 @@ resolutions:
   actions:
   - type: decides
     date_effective: 1964-10-13
-    message: "decides to add to the list of prefixes for the formation of names of
-      multiples and submultiples of units, adopted by the 11th CGPM, link:/en/CGPM/db/11/12/#para3[Resolution
-      12], paragraph 3, the following two new prefixes:\n\n|===\n.| Multiplying factor
-      .| Prefix .| Symbol\n\n3+|\n.>| 10^\x9615^ .>| femto .>| f\n.>| 10^\x9618^ .>|
-      atto .>| a\n\n|==="
+    message: |-
+      decides to add to the list of prefixes for the formation of names of multiples and submultiples of units, adopted by the 11th CGPM, link:/en/CGPM/db/11/12/#para3[Resolution 12], paragraph 3, the following two new prefixes:
+
+      |===
+      .| Multiplying factor .| Prefix .| Symbol
+
+      3+|
+      .>| stem:[10^(-15)] .>| femto .>| f
+      .>| stem:[10^(-18)] .>| atto .>| a
+
+      |===
 - dates:
   - 1964-10-13
   title: Coefficient gyromagnétique du proton (poursuite des études)

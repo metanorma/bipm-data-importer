@@ -105,9 +105,9 @@ resolutions:
     date_effective: 1979-10-12
     message: considering that the relation between luminous quantities of photometry
       and radiometric quantities, namely the value of 683 lumens per watt for the
-      spectral luminous efficacy of monochromatic radiation of frequency 540 x 10^12^
-      hertz, has been adopted by the Comité International des Poids et Mesures (CIPM)
-      in 1977,
+      spectral luminous efficacy of monochromatic radiation of frequency stem:[540
+      * 10^(12)] hertz, has been adopted by the Comité International des Poids et
+      Mesures (CIPM) in 1977,
   - type: considering
     date_effective: 1979-10-12
     message: considering that this value has been accepted as being sufficiently accurate
@@ -124,8 +124,8 @@ resolutions:
   - type: decides
     date_effective: 1979-10-12
     message: decides The candela is the luminous intensity, in a given direction,
-      of a source that emits monochromatic radiation of frequency 540 x 10^12^ hertz
-      and that has a radiant intensity in that direction of 1/683 watt per steradian.
+      of a source that emits monochromatic radiation of frequency stem:[540 * 10^(12)]
+      hertz and that has a radiant intensity in that direction of 1/683 watt per steradian.
   - type: decides
     date_effective: 1979-10-12
     message: decides The definition of the candela (at the time called new candle)
@@ -252,14 +252,12 @@ resolutions:
       as a result of difficult economic conditions,
   - type: considering
     date_effective: 1979-10-12
-    message: "*considering*\n\n* that following the adherence of the People's Republic
-      of China to the Convention du Metre, the annual budget which serves as the base
-      for the calculation of the budget for the years 1981\x961984 is obtained by
-      multiplying the annual budget of the BIPM for the year 1980 voted by the 15th
-      CGPM, by a factor (100 + _x_)/100,\n\nwhere _x_ represents the repartition percentage
-      calculated for the People's Republic of China from the United Nations coefficient
-      in force on the 1st January 1980 on applying the procedure adopted by the 11th
-      CGPM,"
+    message: |-
+      *considering*
+
+      * that following the adherence of the People's Republic of China to the Convention du Metre, the annual budget which serves as the base for the calculation of the budget for the years 1981-1984 is obtained by multiplying the annual budget of the BIPM for the year 1980 voted by the 15th CGPM, by a factor (stem:[100 + x])/100,
+
+      where stem:[x] represents the repartition percentage calculated for the People's Republic of China from the United Nations coefficient in force on the 1st January 1980 on applying the procedure adopted by the 11th CGPM,
   - type: acknowledging
     date_effective: 1979-10-12
     message: accepting without any opposing vote the principle of the proposal of
@@ -279,6 +277,6 @@ resolutions:
     message: |-
       *decides*
 
-      * that as from January 1st 1981 the maximum and minimum repartition percentages adopted by the 11th CGPM will be multiplied by a factor 100/(100 + _x_),
+      * that as from January 1st 1981 the maximum and minimum repartition percentages adopted by the 11th CGPM will be multiplied by a factor 100/(stem:[100 + x]),
 
-      where _x_ represents the repartition percentage calculated for the People's Republic of China, from the United Nations coefficient in force on January 1st 1980, on applying the procedure adopted by the 11th CGPM.
+      where stem:[x] represents the repartition percentage calculated for the People's Republic of China, from the United Nations coefficient in force on January 1st 1980, on applying the procedure adopted by the 11th CGPM.

@@ -670,12 +670,12 @@ resolutions:
     date_effective: 2007-11-16
     message: 'considering the many advances, made in recent years, in experiments
       which relate the mass of the international prototype to the Planck constant
-      _h_ or the Avogadro constant _N_~A~, '
+      stem:[h] or the Avogadro constant stem:[N_(A)], '
   - type: considering
     date_effective: 2007-11-16
     message: 'considering initiatives to determine the value of a number of relevant
       fundamental constants, including work to redetermine the Boltzmann constant
-      _k_~B~, '
+      stem:[k_(B)], '
   - type: considering
     date_effective: 2007-11-16
     message: 'considering that as a result of recent advances, there are significant

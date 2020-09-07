@@ -236,15 +236,12 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1960-10-20
-    message: "estime que la longueur d'onde de la radiation émise par la colonne positive
-      est égale, à 1 cent millionième (10^\x968^) près, à la longueur d'onde correspondant
-      à la transition entre les niveaux non perturbés, lorsque les conditions suivantes
-      sont satisfaites :\n\n. le capillaire est observé en bout de façon que les rayons
-      lumineux utilisés cheminent du côté cathodique vers le côté anodique ;\n. la
-      partie inférieure de la lampe, y compris le capillaire, est immergée dans un
-      bain réfrigérant maintenu à la température du point triple de l'azote, à 1 degré
-      près ;\n. la densité du courant dans le capillaire est 0,3 image::/utils/special/Math/plusminus.gif[]
-      0,1 ampère par centimètre carr&eacute. »"
+    message: |-
+      estime que la longueur d'onde de la radiation émise par la colonne positive est égale, à 1 cent millionième (stem:[10^(-8)]) près, à la longueur d'onde correspondant à la transition entre les niveaux non perturbés, lorsque les conditions suivantes sont satisfaites :
+
+      . le capillaire est observé en bout de façon que les rayons lumineux utilisés cheminent du côté cathodique vers le côté anodique ;
+      . la partie inférieure de la lampe, y compris le capillaire, est immergée dans un bain réfrigérant maintenu à la température du point triple de l'azote, à 1 degré près ;
+      . la densité du courant dans le capillaire est stem:[0","3  +-  0","1] ampère par centimètre carr&eacute. »
   actions:
   - type: invites / further invites
     date_effective: 1960-10-20
@@ -391,20 +388,29 @@ resolutions:
   actions:
   - type: decides
     date_effective: 1960-10-20
-    message: "*decides*\n\n. the system founded on the six base units above is called
-      the \"Système International d'Unités\";\n. the international abbreviation of
-      the name of the system is SI;\n. names of multiples and submultiples of the
-      units are formed by means of the following prefixes:\n +\n +\n\n|===\n2+^.<|
-      Multiplying factor | .<| Prefix .<| Symbol | 2+^.<| Multiplying factor | .<|
-      Prefix .<| Symbol\n\n11+|\n>.>| 1 000 000 000 000 .>| = 10^12^ | | tera | T
-      | >.>| 0.1 .>| = 10^\x961^ | | deci | d\n>.>| 1 000 000 000 .>| = 10^9^ | |
-      giga | G | >.>| 0.01 .>| = 10^\x962^ | | centi | c\n>.>| 1 000 000 .>| = 10^6^
-      | | mega | M | >.>| 0.001 .>| = 10^\x963^ | | milli | m\n>.>| 1 000 | = 10^3^
-      | | kilo | k | >.>| 0.000 001 | = 10^\x966^ | | micro | µ\n>.<| 100 .>| = 10^2^
-      | | hecto | h | >.>| 0.000 000 001 .>| = 10^\x969^ | | nano | n\n>| 10 | = 10^1^
-      | | deca | da | >| 0.000 000 000 001 | = 10^\x9612^ | | pico | p\n\n|===\n +\n.
-      the units listed below are used in the system, without excluding others which
-      might be added later."
+    message: |-
+      *decides*
+
+      . the system founded on the six base units above is called the "Système International d'Unités";
+      . the international abbreviation of the name of the system is SI;
+      . names of multiples and submultiples of the units are formed by means of the following prefixes:
+       +
+       +
+
+      |===
+      2+^.<| Multiplying factor | .<| Prefix .<| Symbol | 2+^.<| Multiplying factor | .<| Prefix .<| Symbol
+
+      11+|
+      >.>| 1 000 000 000 000 .>| = stem:[10^(12)] | | tera | T | >.>| 0.1 .>| = stem:[10^(-1)] | | deci | d
+      >.>| 1 000 000 000 .>| = stem:[10^(9)] | | giga | G | >.>| 0.01 .>| = stem:[10^(-2)] | | centi | c
+      >.>| 1 000 000 .>| = stem:[10^(6)] | | mega | M | >.>| 0.001 .>| = stem:[10^(-3)] | | milli | m
+      >.>| 1 000 | = stem:[10^(3)] | | kilo | k | >.>| 0.000 001 | = stem:[10^(-6)] | | micro | µ
+      >.<| 100 .>| = stem:[10^(2)] | | hecto | h | >.>| 0.000 000 001 .>| = stem:[10^(-9)] | | nano | n
+      >| 10 | = stem:[10^(1)] | | deca | da | >| 0.000 000 000 001 | = stem:[10^(-12)] | | pico | p
+
+      |===
+       +
+      . the units listed below are used in the system, without excluding others which might be added later.
   - type: decides
     date_effective: 1960-10-20
     message: |-
@@ -442,7 +448,7 @@ resolutions:
        electromotive force
       .>| volt .>| V .>| W/A
       .>| electric field strength .>| volt per metre .>| V/m .>| &nbsp;
-      .>| electric resistance .>| ohm .>| image::/utils/special/14/omega_maj.gif[ohm] .>| V/A
+      .>| electric resistance .>| ohm .>| stem:[ sf Omega ] .>| V/A
       .>| capacitance .>| farad .>| F .| A · s/V
       .>| magnetic flux .>| weber .>| Wb .>| V · s
       .>| inductance .>| henry .>| H .>| V · s/A
@@ -468,7 +474,7 @@ resolutions:
   - type: considering
     date_effective: 1960-10-20
     message: considering that the cubic decimetre and the litre are unequal and differ
-      by about 28 parts in 10^6^,
+      by about 28 parts in stem:[10^(6)],
   - type: considering
     date_effective: 1960-10-20
     message: considering that determinations of physical quantities which involve

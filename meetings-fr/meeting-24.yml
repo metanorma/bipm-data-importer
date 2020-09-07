@@ -35,8 +35,8 @@ resolutions:
     message: considérant qu'un exemple marquant du succès de ces efforts est la définition
       actuelle de l'unité de longueur du SI, le mètre (17^e^ réunion de la CGPM, 1983,
       link:/fr/CGPM/db/17/1/[Résolution 1]), qui relie l'unité à une valeur exacte
-      de la vitesse de la lumière dans le vide _c_, à savoir 299 792 458 mètres par
-      seconde,
+      de la vitesse de la lumière dans le vide stem:[c], à savoir 299 792 458 mètres
+      par seconde,
   - type: considering
     date_effective: 2011-10-21
     message: considérant que parmi les sept unités de base du SI, seul le kilogramme
@@ -62,7 +62,7 @@ resolutions:
   - type: considering
     date_effective: 2011-10-21
     message: considérant que de nombreux progrès ont été effectués ces dernières années
-      pour relier la masse du prototype international à la constante de Planck _h_,
+      pour relier la masse du prototype international à la constante de Planck stem:[h],
       par des méthodes telles que les expériences de la balance du watt ou les mesures
       de la masse d'un atome de silicium,
   - type: considering
@@ -70,11 +70,11 @@ resolutions:
     message: considérant que les incertitudes associées à l'ensemble des unités électriques
       du SI réalisées, directement ou indirectement, au moyen de l'effet Josephson
       et de l'effet Hall quantique et à partir des valeurs dans le SI des constantes
-      de Josephson et de von Klitzing, _K_~J~ et _R_~K~, pourraient être réduites
-      de manière significative si le kilogramme était redéfini de façon à ce qu'il
-      soit relié à une valeur numérique exacte de _h_, et si l'ampère était redéfini
-      de façon à ce qu'il soit relié à une valeur numérique exacte de la charge élémentaire
-      _e_,
+      de Josephson et de von Klitzing, stem:[K_(J)] et stem:[R_(K)], pourraient être
+      réduites de manière significative si le kilogramme était redéfini de façon à
+      ce qu'il soit relié à une valeur numérique exacte de stem:[h], et si l'ampère
+      était redéfini de façon à ce qu'il soit relié à une valeur numérique exacte
+      de la charge élémentaire stem:[e],
   - type: considering
     date_effective: 2011-10-21
     message: considérant que la définition actuelle du kelvin se fonde sur une propriété
@@ -83,21 +83,22 @@ resolutions:
   - type: considering
     date_effective: 2011-10-21
     message: considérant qu'il est possible de redéfinir le kelvin de façon à le relier
-      à une valeur numérique exacte de la constante de Boltzmann _k_,
+      à une valeur numérique exacte de la constante de Boltzmann stem:[k],
   - type: considering
     date_effective: 2011-10-21
     message: considérant qu'il est également possible de redéfinir la mole de façon
-      à la relier à une valeur numérique exacte de la constante d'Avogadro _N_~A~,
+      à la relier à une valeur numérique exacte de la constante d'Avogadro stem:[N_(A)],
       de sorte qu'elle ne dépende plus de la définition du kilogramme, même lorsque
       le kilogramme sera défini de façon à le relier à une valeur numérique exacte
-      de _h_, ce qui mettrait en évidence la distinction entre les grandeurs quantité
-      de matière et masse,
+      de stem:[h], ce qui mettrait en évidence la distinction entre les grandeurs
+      quantité de matière et masse,
   - type: considering
     date_effective: 2011-10-21
     message: considérant que les incertitudes liées aux valeurs d'autres constantes
       fondamentales et facteurs de conversion d'énergie importants seraient éliminées
-      ou réduites de façon considérable si _h_, _e_, _k_ et _N_~A~ avaient des valeurs
-      numériques exactes lorsqu'elles sont exprimées en unités du SI,
+      ou réduites de façon considérable si stem:[h], stem:[e], stem:[k] et stem:[N_(A)]
+      avaient des valeurs numériques exactes lorsqu'elles sont exprimées en unités
+      du SI,
   - type: considering
     date_effective: 2011-10-21
     message: considérant que la CGPM, lors de sa 23^e^ réunion en 2007, a adopté la
@@ -118,107 +119,71 @@ resolutions:
       claire et détaillée de ce qui sera sans doute proposé,
   - type: noting
     date_effective: 2011-10-21
-    message: "*prend acte* de l'intention du Comité international des poids et mesures
-      de proposer une révision du SI qui se présenterait de la manière suivante :\n\n*
-      le Système international d'unités, le SI, sera le système d'unités selon lequel
-      :\n\n** la fréquence de la transition hyperfine dans l'état fondamental de l'atome
-      de césium 133 Δν(^133^Cs)~hfs~ est égale à exactement 9 192 631 770 hertz,\n**
-      la vitesse de la lumière dans le vide _c_ est égale à exactement 299 792 458
-      mètres par seconde,\n** la constante de Planck _h_ est égale à exactement 6,626
-      06X ×10^-34^ joule seconde,\n** la charge élémentaire _e_ est égale à exactement
-      1,602 17X ×10^-19^ coulomb,\n** la constante de Boltzmann _k_ est égale à exactement
-      1,380 6X ×10^-23^ joule par kelvin,\n** la constante d'Avogadro _N_~A~ est égale
-      à exactement 6,022 14X ×10^23^ par mole,\n** l'efficacité lumineuse _K_~cd~
-      d'un rayonnement monochromatique de fréquence 540 ×10^12^ Hz est égale à exactement
-      683 lumens par watt,\n\noù\n\n(i) les unités hertz, joule, coulomb, lumen et
-      watt, qui ont respectivement pour symbole Hz, J, C, lm, et W, sont reliées aux
-      unités seconde, mètre, kilogramme, ampère, kelvin, mole et candela, qui ont
-      respectivement pour symbole s, m, kg, A, K, mol, et cd, selon les relations
-      Hz = s^-1^, J = m^2^ kg s^-2^, C = s A, lm = cd m^2^ m^-2^ = cd sr, et W = m^2^
-      kg s^-3^, +\n(ii) le symbole X dans le présent projet de résolution correspond
-      à un ou plusieurs chiffres qui devront être ajoutés aux valeurs numériques de
-      _h_, _e_, _k_, et _N_~A~ selon les valeurs résultant de l'ajustement le plus
-      récent fourni par la CODATA,\n\nce qui signifie que le SI continuera à être
-      établi sur les sept unités de base actuelles et que notamment\n\n** le kilogramme
-      restera l'unité de masse mais son amplitude sera déterminée en fixant la valeur
-      numérique de la constante de Planck à exactement 6,626 06X × 10^\x9634^ lorsqu'elle
-      sera exprimée en m^2^ kg s^-1^, unité du SI égale au joule seconde, J s,\n**
-      l'ampère restera l'unité de courant électrique mais son amplitude sera déterminée
-      en fixant la valeur numérique de la charge élémentaire à exactement 1,602 17X
-      × 10^\x9619^ lorsqu'elle sera exprimée en s A, unité du SI égale au coulomb,
-      C,\n** le kelvin restera l'unité de température thermodynamique mais son amplitude
-      sera déterminée en fixant la valeur numérique de la constante de Boltzmann à
-      exactement 1,380 6X × 10^\x9623^ lorsqu'elle sera exprimée en m^2^ kg s^\x962^
-      K^\x961^, unité du SI égale au joule par kelvin, J K^\x961^,\n** la mole restera
-      l'unité de quantité de matière d'une entité élémentaire spécifique, c'est-à-dire
-      un atome, une molécule, un ion, un électron, ou toute autre particule ou groupe
-      particulier de telles particules, mais son amplitude sera déterminée en fixant
-      la valeur numérique de la constante d'Avogadro à exactement 6,022 14X ×10^23^
-      lorsqu'elle sera exprimée en unité du SI mol^-1^.\n +\n\nLa Conférence générale
-      des poids et mesures"
+    message: |-
+      *prend acte* de l'intention du Comité international des poids et mesures de proposer une révision du SI qui se présenterait de la manière suivante :
+
+      * le Système international d'unités, le SI, sera le système d'unités selon lequel :
+
+      ** la fréquence de la transition hyperfine dans l'état fondamental de l'atome de césium 133 Δν(^133^Cs)~hfs~ est égale à exactement 9 192 631 770 hertz,
+      ** la vitesse de la lumière dans le vide stem:[c] est égale à exactement 299 792 458 mètres par seconde,
+      ** la constante de Planck stem:[h] est égale à exactement 6,626 06X ×stem:[10^(-34)] joule seconde,
+      ** la charge élémentaire stem:[e] est égale à exactement 1,602 17X ×stem:[10^(-19)] coulomb,
+      ** la constante de Boltzmann stem:[k] est égale à exactement 1,380 6X ×stem:[10^(-23)] joule par kelvin,
+      ** la constante d'Avogadro stem:[N_(A)] est égale à exactement 6,022 14X ×stem:[10^(23)] par mole,
+      ** l'efficacité lumineuse stem:[K_(cd)] d'un rayonnement monochromatique de fréquence stem:[540 * 10^(12)] Hz est égale à exactement 683 lumens par watt,
+
+      où
+
+      (i) les unités hertz, joule, coulomb, lumen et watt, qui ont respectivement pour symbole Hz, J, C, lm, et W, sont reliées aux unités seconde, mètre, kilogramme, ampère, kelvin, mole et candela, qui ont respectivement pour symbole s, m, kg, A, K, mol, et cd, selon les relations Hz = s^-1^, J = m^2^ kg s^-2^, C = s A, lm = cd m^2^ m^-2^ = cd sr, et W = m^2^ kg s^-3^, +
+      (ii) le symbole X dans le présent projet de résolution correspond à un ou plusieurs chiffres qui devront être ajoutés aux valeurs numériques de stem:[h], stem:[e], stem:[k], et stem:[N_(A)] selon les valeurs résultant de l'ajustement le plus récent fourni par la CODATA,
+
+      ce qui signifie que le SI continuera à être établi sur les sept unités de base actuelles et que notamment
+
+      ** le kilogramme restera l'unité de masse mais son amplitude sera déterminée en fixant la valeur numérique de la constante de Planck à exactement 6,626 06X × stem:[10^(-34)] lorsqu'elle sera exprimée en m^2^ kg s^-1^, unité du SI égale au joule seconde, J s,
+      ** l'ampère restera l'unité de courant électrique mais son amplitude sera déterminée en fixant la valeur numérique de la charge élémentaire à exactement 1,602 17X × stem:[10^(-19)] lorsqu'elle sera exprimée en s A, unité du SI égale au coulomb, C,
+      ** le kelvin restera l'unité de température thermodynamique mais son amplitude sera déterminée en fixant la valeur numérique de la constante de Boltzmann à exactement 1,380 6X × stem:[10^(-23)] lorsqu'elle sera exprimée en m^2^ kg s^-2^ K^-1^, unité du SI égale au joule par kelvin, J K^-1^,
+      ** la mole restera l'unité de quantité de matière d'une entité élémentaire spécifique, c'est-à-dire un atome, une molécule, un ion, un électron, ou toute autre particule ou groupe particulier de telles particules, mais son amplitude sera déterminée en fixant la valeur numérique de la constante d'Avogadro à exactement 6,022 14X ×stem:[10^(23)] lorsqu'elle sera exprimée en unité du SI mol^-1^.
+       +
+
+      La Conférence générale des poids et mesures
   - type: noting
     date_effective: 2011-10-21
-    message: "*note également*\n\n* que les nouvelles définitions du kilogramme, de
-      l'ampère, du kelvin et de la mole seront rédigées en utilisant une formulation
-      dite « à constante explicite», c'est-à-dire une définition dans laquelle l'unité
-      est définie indirectement en donnant explicitement une valeur exacte à une constante
-      fondamentale reconnue,\n* que la définition actuelle du mètre est reliée à une
-      valeur exacte de la vitesse de la lumière dans le vide, qui est également une
-      constante fondamentale reconnue,\n* que la définition actuelle de la seconde
-      est reliée à une valeur exacte caractérisant une propriété bien définie de l'atome
-      de césium, qui constitue également une constante de la nature,\n* que la définition
-      existante de la candela n'est pas liée à une constante fondamentale mais qu'elle
-      peut être considérée comme étant reliée à une valeur exacte d'une constante
-      de la nature,\n* que l'intelligibilité du Système international d'unités serait
-      renforcée si toutes ses unités de base étaient définies en utilisant la même
-      formulation,\n\nc'est pourquoi le Comité international des poids et mesures
-      proposera également\n\nde reformuler les définitions actuelles de la seconde,
-      du mètre et de la candela selon une forme complètement équivalente qui pourrait
-      être la suivante :\n\n* la seconde, symbole s, est l'unité de temps ; son amplitude
-      est déterminée en fixant la valeur numérique de la fréquence de la transition
-      hyperfine de l'état fondamental de l'atome de césium 133 au repos, à une température
-      de 0 K, à exactement 9 192 631 770 lorsqu'elle est exprimée en s^\x961^, unité
-      du SI égale au hertz, Hz,\n* le mètre, symbole m, est l'unité de longueur ;
-      son amplitude est déterminée en fixant la valeur numérique de la vitesse de
-      la lumière dans le vide à exactement 299 792 458 lorsqu'elle est exprimée en
-      unité du SI m s^\x961^,\n* la candela, symbole cd, est l'unité d'intensité lumineuse
-      dans une direction donnée ; son amplitude est déterminée en fixant la valeur
-      numérique de l'efficacité lumineuse d'un rayonnement monochromatique d'une fréquence
-      de 540 ×10^12^ Hz à exactement 683 lorsqu'elle est exprimée en m^-2^ kg^1^ s^3^
-      cd sr ou en cd sr W^-1^, unité du SI égale au lumen par watt, lm W^-1^.\nIl
-      sera ainsi manifeste que les définitions des sept unités de base du SI découlent
-      naturellement des sept constantes précédemment indiquées. +\n\nEn conséquence,
-      à la date choisie pour mettre en œuvre la révision du SI\n\n** la définition
-      du kilogramme en vigueur depuis 1889, établie à partir de la masse du prototype
-      international du kilogramme (1^re^ réunion de la CGPM, 1889 ; 3^e^ réunion de
-      la CGPM, 1901), sera abrogée,\n** la définition de l'ampère en vigueur depuis
-      1948 (9^e^ réunion de la CGPM, 1948), établie à partir de la définition proposée
-      par le Comité international des poids et mesures (CIPM, 1946, link:/fr/CIPM/db/1946/2/[Résolution
-      2]), sera abrogée,\n** les valeurs conventionnelles de la constante de Josephson
-      _K_~J-90~ et de la constante de von Klitzing _R_~K-90~ adoptées par le Comité
-      international des poids et mesures (CIPM, 1988, Recommandations 1 et 2) à la
-      demande de la CGPM (18^e^ réunion de la CGPM, 1987, link:/fr/CGPM/db/18/6/[Résolution
-      6]) pour l'établissement des représentations du volt et de l'ohm à l'aide des
-      effets Josephson et Hall quantique, respectivement, seront abrogées,\n** la
-      définition du kelvin en vigueur depuis 1967/68 (13^e^ réunion de la CGPM, 1967/68),
-      établie à partir d'une définition antérieure moins explicite (10^e^ réunion
-      de la CGPM, 1954, link:/fr/CGPM/db/10/3/[Résolution 3]), sera abrogée,\n** la
-      définition de la mole en vigueur depuis 1971 (14^e^ réunion de la CGPM, 1971,
-      link:/fr/CGPM/db/14/3/[Résolution 3]), selon laquelle la masse molaire du carbone
-      12 a la valeur exacte de 0,012 kg mol^-1^, sera abrogée,\n** les définitions
-      existantes du mètre, de la seconde et de la candela, en vigueur depuis leur
-      adoption par la CGPM lors de ses 17^e^ (1983, link:/fr/CGPM/db/17/1/[Résolution
-      1]), 13^e^ (1967/68, link:/fr/CGPM/db/13/1/[Résolution 1]) et 16^e^ (1979, link:/fr/CGPM/db/16/3/[Résolution
-      3]) réunions respectivement, seront abrogées.\n +\nLa Conférence générale des
-      poids et mesures,"
+    message: |-
+      *note également*
+
+      * que les nouvelles définitions du kilogramme, de l'ampère, du kelvin et de la mole seront rédigées en utilisant une formulation dite « à constante explicite», c'est-à-dire une définition dans laquelle l'unité est définie indirectement en donnant explicitement une valeur exacte à une constante fondamentale reconnue,
+      * que la définition actuelle du mètre est reliée à une valeur exacte de la vitesse de la lumière dans le vide, qui est également une constante fondamentale reconnue,
+      * que la définition actuelle de la seconde est reliée à une valeur exacte caractérisant une propriété bien définie de l'atome de césium, qui constitue également une constante de la nature,
+      * que la définition existante de la candela n'est pas liée à une constante fondamentale mais qu'elle peut être considérée comme étant reliée à une valeur exacte d'une constante de la nature,
+      * que l'intelligibilité du Système international d'unités serait renforcée si toutes ses unités de base étaient définies en utilisant la même formulation,
+
+      c'est pourquoi le Comité international des poids et mesures proposera également
+
+      de reformuler les définitions actuelles de la seconde, du mètre et de la candela selon une forme complètement équivalente qui pourrait être la suivante :
+
+      * la seconde, symbole s, est l'unité de temps ; son amplitude est déterminée en fixant la valeur numérique de la fréquence de la transition hyperfine de l'état fondamental de l'atome de césium 133 au repos, à une température de 0 K, à exactement 9 192 631 770 lorsqu'elle est exprimée en s^-1^, unité du SI égale au hertz, Hz,
+      * le mètre, symbole m, est l'unité de longueur ; son amplitude est déterminée en fixant la valeur numérique de la vitesse de la lumière dans le vide à exactement 299 792 458 lorsqu'elle est exprimée en unité du SI m s^-1^,
+      * la candela, symbole cd, est l'unité d'intensité lumineuse dans une direction donnée ; son amplitude est déterminée en fixant la valeur numérique de l'efficacité lumineuse d'un rayonnement monochromatique d'une fréquence de stem:[540 * 10^(12)] Hz à exactement 683 lorsqu'elle est exprimée en m^-2^ kg^1^ s^3^ cd sr ou en cd sr W^-1^, unité du SI égale au lumen par watt, lm W^-1^.
+      Il sera ainsi manifeste que les définitions des sept unités de base du SI découlent naturellement des sept constantes précédemment indiquées. +
+
+      En conséquence, à la date choisie pour mettre en œuvre la révision du SI
+
+      ** la définition du kilogramme en vigueur depuis 1889, établie à partir de la masse du prototype international du kilogramme (1^re^ réunion de la CGPM, 1889 ; 3^e^ réunion de la CGPM, 1901), sera abrogée,
+      ** la définition de l'ampère en vigueur depuis 1948 (9^e^ réunion de la CGPM, 1948), établie à partir de la définition proposée par le Comité international des poids et mesures (CIPM, 1946, link:/fr/CIPM/db/1946/2/[Résolution 2]), sera abrogée,
+      ** les valeurs conventionnelles de la constante de Josephson stem:[K_(J-90)] et de la constante de von Klitzing stem:[R_(K-90)] adoptées par le Comité international des poids et mesures (CIPM, 1988, Recommandations 1 et 2) à la demande de la CGPM (18^e^ réunion de la CGPM, 1987, link:/fr/CGPM/db/18/6/[Résolution 6]) pour l'établissement des représentations du volt et de l'ohm à l'aide des effets Josephson et Hall quantique, respectivement, seront abrogées,
+      ** la définition du kelvin en vigueur depuis 1967/68 (13^e^ réunion de la CGPM, 1967/68), établie à partir d'une définition antérieure moins explicite (10^e^ réunion de la CGPM, 1954, link:/fr/CGPM/db/10/3/[Résolution 3]), sera abrogée,
+      ** la définition de la mole en vigueur depuis 1971 (14^e^ réunion de la CGPM, 1971, link:/fr/CGPM/db/14/3/[Résolution 3]), selon laquelle la masse molaire du carbone 12 a la valeur exacte de 0,012 kg mol^-1^, sera abrogée,
+      ** les définitions existantes du mètre, de la seconde et de la candela, en vigueur depuis leur adoption par la CGPM lors de ses stem:[17^(e)] (1983, link:/fr/CGPM/db/17/1/[Résolution 1]), stem:[13^(e)] (1967/68, link:/fr/CGPM/db/13/1/[Résolution 1]) et stem:[16^(e)] (1979, link:/fr/CGPM/db/16/3/[Résolution 3]) réunions respectivement, seront abrogées.
+       +
+      La Conférence générale des poids et mesures,
   - type: taking into account
     date_effective: 2011-10-21
     message: |-
       *prend en considération* qu'à la même date
-      * la masse du prototype international du kilogramme _m_(_K_) sera égale à 1 kg, avec cependant une incertitude relative égale à celle de la valeur recommandée de _h_ juste avant la redéfinition, puis sa valeur sera déterminée de façon expérimentale,
-      * la constante magnétique (la perméabilité du vide) µ0 sera égale à 4π x 10^-7^ H m^-1^, avec cependant une incertitude relative égale à celle de la valeur recommandée de la constante de structure fine α, puis sa valeur sera déterminée de façon expérimentale,
-      * la température thermodynamique du point triple de l'eau _T_~TPW~ sera égale à 273,16 K, avec cependant une incertitude relative égale à celle de la valeur recommandée de k juste avant la redéfinition, puis sa valeur sera déterminée de façon expérimentale,
-      * la masse molaire du carbone 12 _M_(^12^C) sera égale à 0,012 kg mol^-1^, avec cependant une incertitude relative égale à celle de la valeur recommandée de _N_~A~_h_ juste avant la redéfinition, puis sa valeur sera déterminée de façon expérimentale.
+      * la masse du prototype international du kilogramme stem:[m(K)] sera égale à 1 kg, avec cependant une incertitude relative égale à celle de la valeur recommandée de stem:[h] juste avant la redéfinition, puis sa valeur sera déterminée de façon expérimentale,
+      * la constante magnétique (la perméabilité du vide) µ0 sera égale à 4π x stem:[10^(-7)] H m^-1^, avec cependant une incertitude relative égale à celle de la valeur recommandée de la constante de structure fine α, puis sa valeur sera déterminée de façon expérimentale,
+      * la température thermodynamique du point triple de l'eau stem:[T_(TPW)] sera égale à 273,16 K, avec cependant une incertitude relative égale à celle de la valeur recommandée de k juste avant la redéfinition, puis sa valeur sera déterminée de façon expérimentale,
+      * la masse molaire du carbone stem:[12 M](^12^C) sera égale à 0,012 kg mol^-1^, avec cependant une incertitude relative égale à celle de la valeur recommandée de stem:[N_(A)h] juste avant la redéfinition, puis sa valeur sera déterminée de façon expérimentale.
        +
 
       La Conférence générale des poids et mesures,
@@ -228,8 +193,8 @@ resolutions:
     message: encourage les chercheurs des laboratoires nationaux de métrologie, le
       BIPM et les institutions universitaires à poursuivre leurs efforts et à transmettre
       à la communauté scientifique en général et à la CODATA en particulier les résultats
-      de leurs travaux sur la détermination des constantes de _h_, _e_, _k_, et _N_~A~,
-      et
+      de leurs travaux sur la détermination des constantes de stem:[h], stem:[e],
+      stem:[k], et stem:[N_(A)], et
   - type: encourages
     date_effective: 2011-10-21
     message: encourage le BIPM à poursuivre son travail afin d'assurer la traçabilité
@@ -449,7 +414,7 @@ resolutions:
     message: |-
       *notant*
 
-      * les décisions prises par le CIPM à ses 98^e^ et 99^e^ sessions d'adopter les critères suivants lui permettant d'examiner s'il est approprié qu'un État Associé accède à la Convention du Mètre :
+      * les décisions prises par le CIPM à ses stem:[98^(e)] et 99^e^ sessions d'adopter les critères suivants lui permettant d'examiner s'il est approprié qu'un État Associé accède à la Convention du Mètre :
 
       ** signature de l'Arrangement du CIPM par le laboratoire national de métrologie de l'État Associé,
       ** publication de résultats de comparaison dans la base de données du BIPM sur les comparaisons clés (KCDB),

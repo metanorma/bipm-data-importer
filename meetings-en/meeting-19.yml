@@ -80,15 +80,15 @@ resolutions:
     date_effective: 1991-10-03
     message: noting the decisions made by the Comité International des Poids et Mesures
       in 1988, during its 77th Meeting concerning these adjustments, in particular
-      the conventional values _K_~J-90~ (equal to 483 597,9 GHz/V) and _R_~K-90~ (equal
-      to 25 812,807 image::/utils/special/14/omega_maj.gif[capital omega]) attributed
-      to the Josephson constant _K_~J~ and the von Klitzing constant _R_~K~ used in
-      representations of the volt and the ohm respectively,
+      the conventional values stem:[K_(J-90)] (equal to 483 597,9 GHz/V) and stem:[R_(K-90)]
+      (equal to stem:[25 812","807  sf Omega ]) attributed to the Josephson constant
+      stem:[K_(J)] and the von Klitzing constant stem:[R_(K)] used in representations
+      of the volt and the ohm respectively,
   actions:
   - type: recommends
     date_effective: 1991-10-03
     message: recommends that national laboratories continue their efforts to reduce
-      the uncertainty in the knowledge of the ratios _K_~J-90~/_K_~J~ and _R_~K-90~/_R_~K~,
+      the uncertainty in the knowledge of the ratios stem:[K_(J-90)/K_(J)] and stem:[R_(K-90)/R_(K)],
   - type: recommends
     date_effective: 1991-10-03
     message: recommends that research be continued into the basic theory of the Josephson
@@ -141,10 +141,16 @@ resolutions:
   actions:
   - type: decides
     date_effective: 1991-10-03
-    message: "decides to add to the list of SI prefixes to be used for multiples and
-      submultiples of units, adopted by the 11th CGPM, link:/en/CGPM/db/11/12/#para3[Resolution
-      12], paragraph 3, the 12th CGPM, link:/en/CGPM/db/12/8/[Resolution 8], and the
-      15th CGPM, link:/en/CGPM/db/15/10/[Resolution 10], the following prefixes:\n\n|===\n.<|
-      Multiplying factor .<| Prefix .<| Symbol\n\n3+|\n.<| 10^21^ .<| zetta .<| Z\n.<|
-      10^\x9621^ .<| zepto .<| z\n.<| 10^24^ .<| yotta .<| Y\n.<| 10^\x9624^ .<| yocto
-      .<| y\n\n|==="
+    message: |-
+      decides to add to the list of SI prefixes to be used for multiples and submultiples of units, adopted by the 11th CGPM, link:/en/CGPM/db/11/12/#para3[Resolution 12], paragraph 3, the 12th CGPM, link:/en/CGPM/db/12/8/[Resolution 8], and the 15th CGPM, link:/en/CGPM/db/15/10/[Resolution 10], the following prefixes:
+
+      |===
+      .<| Multiplying factor .<| Prefix .<| Symbol
+
+      3+|
+      .<| stem:[10^(21)] .<| zetta .<| Z
+      .<| stem:[10^(-21)] .<| zepto .<| z
+      .<| stem:[10^(24)] .<| yotta .<| Y
+      .<| stem:[10^(-24)] .<| yocto .<| y
+
+      |===

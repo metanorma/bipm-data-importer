@@ -238,15 +238,12 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1960-10-20
-    message: "estime que la longueur d'onde de la radiation émise par la colonne positive
-      est égale, à 1 cent millionième (10^\x968^) près, à la longueur d'onde correspondant
-      à la transition entre les niveaux non perturbés, lorsque les conditions suivantes
-      sont satisfaites :\n\n. le capillaire est observé en bout de façon que les rayons
-      lumineux utilisés cheminent du côté cathodique vers le côté anodique ;\n. la
-      partie inférieure de la lampe, y compris le capillaire, est immergée dans un
-      bain réfrigérant maintenu à la température du point triple de l'azote, à 1 degré
-      près ;\n. la densité du courant dans le capillaire est 0,3 image::/utils/special/Math/plusminus.gif[]
-      0,1 ampère par centimètre carr&eacute. »"
+    message: |-
+      estime que la longueur d'onde de la radiation émise par la colonne positive est égale, à 1 cent millionième (stem:[10^(-8)]) près, à la longueur d'onde correspondant à la transition entre les niveaux non perturbés, lorsque les conditions suivantes sont satisfaites :
+
+      . le capillaire est observé en bout de façon que les rayons lumineux utilisés cheminent du côté cathodique vers le côté anodique ;
+      . la partie inférieure de la lampe, y compris le capillaire, est immergée dans un bain réfrigérant maintenu à la température du point triple de l'azote, à 1 degré près ;
+      . la densité du courant dans le capillaire est stem:[0","3  +-  0","1] ampère par centimètre carr&eacute. »
   actions:
   - type: invites / further invites
     date_effective: 1960-10-20
@@ -405,22 +402,33 @@ resolutions:
   actions:
   - type: decides
     date_effective: 1960-10-20
-    message: "*décide*\n\n. le système fondé sur les six unités de base ci-dessus
-      est désigné sous le nom de « Système international d'unités » ;\n. l'abréviation
-      internationale du nom de ce Système est : SI ;\n. les noms des multiples et
-      sous-multiples des unités sont formés au moyen des préfixes suivants :\n\n[width=100%]\n|===\n11+a|
-      +\n\n2+^a| Facteur par lequel +\n l'unité est multipliée\n| &nbsp; .>| Préfixe
-      .>| Symbole | &nbsp 2+^a| Facteur par lequel +\nl'unité est multipliée\n| &nbsp;
-      .>| Préfixe .>| Symbole\n5+| | 5+|\n>| 1 000 000 000 000 | = 10^12^ | &nbsp;
-      | téra 2+| T >| 0,1 | = 10^\x961^ | &nbsp; | déci | d\n>| 1 000 000 000 | =
-      10^9^ | &nbsp; | giga 2+| G >| 0,01 | = 10^\x962^ | &nbsp; | centi | c\n>| 1
-      000 000 | = 10^6^ | &nbsp; | méga 2+| M >| 0,001 | = 10^\x963^ | &nbsp; | milli
-      | m\n>| 1 000 | = 10^3^ | &nbsp; | kilo 2+| k >| 0,000 001 | = 10^\x966^ | &nbsp;
-      | micro | µ\n>| 100 | = 10^2^ | &nbsp; | hecto 2+| h >| 0,000 000 001 | = 10^\x969^
-      | &nbsp; | nano | n\n>| 10 | = 10^1^ | &nbsp; | déca 2+| da >| 0,000 000 000
-      001 | = 10^\x9612^ | &nbsp; | pico | p\n11+a| +\n\n|===\n. sont employées dans
-      ce Système les unités ci-dessous, sans préjudice d'autres unités qu'on pourrait
-      ajouter à l'avenir"
+    message: |-
+      *décide*
+
+      . le système fondé sur les six unités de base ci-dessus est désigné sous le nom de « Système international d'unités » ;
+      . l'abréviation internationale du nom de ce Système est : SI ;
+      . les noms des multiples et sous-multiples des unités sont formés au moyen des préfixes suivants :
+
+      [width=100%]
+      |===
+      11+a| +
+
+      2+^a| Facteur par lequel +
+       l'unité est multipliée
+      | &nbsp; .>| Préfixe .>| Symbole | &nbsp 2+^a| Facteur par lequel +
+      l'unité est multipliée
+      | &nbsp; .>| Préfixe .>| Symbole
+      5+| | 5+|
+      >| 1 000 000 000 000 | = stem:[10^(12)] | &nbsp; | téra 2+| T >| 0,1 | = stem:[10^(-1)] | &nbsp; | déci | d
+      >| 1 000 000 000 | = stem:[10^(9)] | &nbsp; | giga 2+| G >| 0,01 | = stem:[10^(-2)] | &nbsp; | centi | c
+      >| 1 000 000 | = stem:[10^(6)] | &nbsp; | méga 2+| M >| 0,001 | = stem:[10^(-3)] | &nbsp; | milli | m
+      >| 1 000 | = stem:[10^(3)] | &nbsp; | kilo 2+| k >| 0,000 001 | = stem:[10^(-6)] | &nbsp; | micro | µ
+      >| 100 | = stem:[10^(2)] | &nbsp; | hecto 2+| h >| 0,000 000 001 | = stem:[10^(-9)] | &nbsp; | nano | n
+      >| 10 | = stem:[10^(1)] | &nbsp; | déca 2+| da >| 0,000 000 000 001 | = stem:[10^(-12)] | &nbsp; | pico | p
+      11+a| +
+
+      |===
+      . sont employées dans ce Système les unités ci-dessous, sans préjudice d'autres unités qu'on pourrait ajouter à l'avenir
   - type: decides
     date_effective: 1960-10-20
     message: |-

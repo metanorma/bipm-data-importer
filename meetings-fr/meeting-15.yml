@@ -54,8 +54,8 @@ resolutions:
     message: "*considérant* l'excellent accord entre les résultats des mesures de
       longueur d'onde portant sur des radiations de lasers asservis sur une raie d'absorption
       moléculaire dans la région visible ou infrarouge, avec une incertitude estimée
-      à image::/utils/special/Math/plusminus.gif[] 4 x 10^\x969^ qui correspond à
-      l'indétermination de la réalisation du mètre,"
+      à stem:[ +-  4 * 10^(-9)] qui correspond à l'indétermination de la réalisation
+      du mètre,"
   - type: considering
     date_effective: 1975-06-02
     message: "*considérant* aussi les mesures concordantes de la fréquence de plusieurs
@@ -64,8 +64,8 @@ resolutions:
   - type: recommends
     date_effective: 1975-06-02
     message: "*recommande* l'emploi de la valeur qui en résulte pour la vitesse de
-      propagation des ondes électromagnétiques dans le vide _c_ = 299 792 458 mètres
-      par seconde."
+      propagation des ondes électromagnétiques dans le vide stem:[c = 299 792 458]
+      mètres par seconde."
 - dates:
   - 1975-06-02
   title: Étalons du kilogramme (poursuite des études pour améliorer la précision des
@@ -280,8 +280,8 @@ resolutions:
       .>| Préfixe .>| Symbole
 
       3+|
-      | 10^15^ | peta | P
-      | 10^18^ | exa | E
+      | stem:[10^(15)] | peta | P
+      | stem:[10^(18)] | exa | E
 
       |===
 - dates:

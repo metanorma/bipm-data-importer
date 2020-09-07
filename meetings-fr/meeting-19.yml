@@ -84,17 +84,17 @@ resolutions:
     date_effective: 1991-10-03
     message: tenant compte des décisions prises par le Comité international des poids
       et mesures en 1988, lors de sa 77^e^ session, au sujet de ces ajustements, et
-      en particulier des valeurs _K_~J-90~ (égale à 483 597,9 GHz/V) et _R_~K-90~
-      (égale à 25 812,807 image::/utils/special/14/omega_maj.gif[omega maj.] attribuées
-      par convention, respectivement, à la constante de Josephson _K_~J~ lorsqu'elle
-      est utilisée pour représenter le volt et à la constante de von Klitzing _R_~K~
-      lorsqu'elle est utilisée pour représenter l'ohm,
+      en particulier des valeurs stem:[K_(J-90)] (égale à 483 597,9 GHz/V) et stem:[R_(K-90)]
+      (égale à stem:[25 812","807  sf Omega ] attribuées par convention, respectivement,
+      à la constante de Josephson stem:[K_(J)] lorsqu'elle est utilisée pour représenter
+      le volt et à la constante de von Klitzing stem:[R_(K)] lorsqu'elle est utilisée
+      pour représenter l'ohm,
   actions:
   - type: recommends
     date_effective: 1991-10-03
     message: recommande que les laboratoires nationaux poursuivent leurs efforts pour
-      réduire l'incertitude sur la connaissance que l'on a des rapports _K_~J-90~/_K_~J~
-      et _R_~K-90~/_R_~K~_,_
+      réduire l'incertitude sur la connaissance que l'on a des rapports stem:[K_(J-90)/K_(J)]
+      et stem:[R_(K-90)/R_(K)],
   - type: recommends
     date_effective: 1991-10-03
     message: recommande que soient poursuivies les recherches concernant la théorie
@@ -156,10 +156,18 @@ resolutions:
   actions:
   - type: decides
     date_effective: 1991-10-03
-    message: "décide d'ajouter à la liste des préfixes SI pour la formation des noms
-      des multiples et sous-multiples des unités, adoptée par la 11^e^ CGPM, link:/fr/CGPM/db/11/12/#para3[Résolution
-      12], paragraphe 3, la 12^e^ CGPM, link:/fr/CGPM/db/12/8/[Résolution 8] et la
-      15^e^ CGPM, link:/fr/CGPM/db/15/10/[Résolution 10], les préfixes suivants :\n\n|===\n.>a|
-      Facteur par lequel +\nl'unité est multipliée\n.>| Préfixe .>| Symbole\n\n3+|\n.>|
-      10^21^ .>| zetta .>| Z\n.>| 10^\x9621^ .>| zepto .>| z\n.>| 10^24^ .>| yotta
-      .>| Y\n.>| 10^\x9624^ .>| yocto .>| y\n\n|==="
+    message: |-
+      décide d'ajouter à la liste des préfixes SI pour la formation des noms des multiples et sous-multiples des unités, adoptée par la 11^e^ CGPM, link:/fr/CGPM/db/11/12/#para3[Résolution 12], paragraphe 3, la 12^e^ CGPM, link:/fr/CGPM/db/12/8/[Résolution 8] et la 15^e^ CGPM, link:/fr/CGPM/db/15/10/[Résolution 10], les préfixes suivants :
+
+      |===
+      .>a| Facteur par lequel +
+      l'unité est multipliée
+      .>| Préfixe .>| Symbole
+
+      3+|
+      .>| stem:[10^(21)] .>| zetta .>| Z
+      .>| stem:[10^(-21)] .>| zepto .>| z
+      .>| stem:[10^(24)] .>| yotta .>| Y
+      .>| stem:[10^(-24)] .>| yocto .>| y
+
+      |===

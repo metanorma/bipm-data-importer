@@ -8,6 +8,8 @@ require 'fileutils'
 
 require 'pry'
 
+require_relative 'asciimath'
+
 VCR.configure do |c|
   c.cassette_library_dir = 'cassettes'
   c.hook_into :webmock
@@ -126,6 +128,7 @@ FileUtils.rm_rf "meetings-en"
     #binding.pry if ps.count != 1
 
     doc = ps.inner_html.encode('utf-8').gsub("\r", '').gsub(%r'</?nobr>','')
+    # doc = AsciiMath.html_to_asciimath(doc)
     parts = doc.split(/(\n(?:<p>)?<b>.*?<\/b>|<p>(?:après examen |après avoir entendu )|having noted that |decides to define |décide de définir |considers that|estime que|declares<\/p>)/)
     nparts = [parts.shift]
     while parts.length > 0
@@ -145,7 +148,7 @@ FileUtils.rm_rf "meetings-en"
           r["considerations"] << prev = {
             "type" => v,
             "date_effective" => date,
-            "message" => ReverseAdoc.convert(part).strip,
+            "message" => AsciiMath.asciidoc_extract_math(ReverseAdoc.convert(part).strip),
           }
         end
       end && next
@@ -155,7 +158,7 @@ FileUtils.rm_rf "meetings-en"
           r["actions"] << prev = {
             "type" => v,
             "date_effective" => date,
-            "message" => ReverseAdoc.convert(part).strip,
+            "message" => AsciiMath.asciidoc_extract_math(ReverseAdoc.convert(part).strip),
           }
         end
       end && next
@@ -164,13 +167,13 @@ FileUtils.rm_rf "meetings-en"
         r["appendices"] ||= []
         r["appendices"] << prev = {
           "identifier" => $1.to_i,
-          "message" => ReverseAdoc.convert(part).strip,
+          "message" => AsciiMath.asciidoc_extract_math(ReverseAdoc.convert(part).strip),
         }
         next
       end
 
       if parse =~ /\A(becquerel|gray, symbol)/
-        prev["message"] += "\n" + ReverseAdoc.convert(part).strip
+        prev["message"] += "\n" + AsciiMath.asciidoc_extract_math(ReverseAdoc.convert(part).strip)
         next
       end
 

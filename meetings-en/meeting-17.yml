@@ -41,16 +41,16 @@ resolutions:
     date_effective: 1983-10-21
     message: considering that there is an advantage, notably for astronomy and geodesy,
       in maintaining unchanged the value of the speed of light recommended in 1975
-      by the link:/en/CGPM/db/15/2/[15th CGPM in its Resolution 2] (_c_ = 299 792
-      458 m/s),
+      by the link:/en/CGPM/db/15/2/[15th CGPM in its Resolution 2] (stem:[c = 299
+      792 458] m/s),
   - type: considering
     date_effective: 1983-10-21
-    message: "considering that a new definition of the metre has been envisaged in
+    message: considering that a new definition of the metre has been envisaged in
       various forms all of which have the effect of giving the speed of light an exact
       value, equal to the recommended value, and that this introduces no appreciable
       discontinuity into the unit of length, taking into account the relative uncertainty
-      of image::/utils/special/Math/plusminus.gif[] 4 ´ 10^\x969^ of the best realizations
-      of the present definition of the metre,"
+      of stem:[ +-  4 * 10^(-9)] of the best realizations of the present definition
+      of the metre,
   - type: considering
     date_effective: 1983-10-21
     message: considering that these various forms, making reference either to the
