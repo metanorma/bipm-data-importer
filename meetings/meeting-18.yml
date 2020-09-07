@@ -45,15 +45,28 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1987-10-15
-    message: |-
-      considering
-
-       that long-term stability is one of the essential characteristics of mass standards,
-       that improvements in balances now allow variations in mass of only a few micrograms in a kilogram to be observed,
-       that variations of this order have been observed and have been attributed to surface effects due in particular to atmospheric agents,
-       that present methods of cleaning the surfaces of mass standards may have unsuspected effects,
-       that a wide range of methods now exist for the study of the surfaces of alloys used in mass standards,
-       that important results have already been obtained using these methods for the study of the surface contamination of mass standards,
+    message: considering that long-term stability is one of the essential characteristics
+      of mass standards,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering that improvements in balances now allow variations in mass
+      of only a few micrograms in a kilogram to be observed,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering that variations of this order have been observed and have
+      been attributed to surface effects due in particular to atmospheric agents,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering that present methods of cleaning the surfaces of mass standards
+      may have unsuspected effects,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering that a wide range of methods now exist for the study of the
+      surfaces of alloys used in mass standards,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering that important results have already been obtained using these
+      methods for the study of the surface contamination of mass standards,
   actions:
   - type: recommends
     date_effective: 1987-10-15
@@ -109,13 +122,21 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1987-10-15
-    message: |-
-      considering
-
-       that high-precision timing is rapidly becoming an essential part of modern telecommunications,
-       that two-way satellite links allow international time comparisons at very high precision,
-       that it appears possible to exchange pseudo-random-noise timing signals simultaneously but without interference with other uses of the channel,
-       that such pseudo-random-noise techniques also allow high-precision ranging,
+    message: considering that high-precision timing is rapidly becoming an essential
+      part of modern telecommunications,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering that two-way satellite links allow international time comparisons
+      at very high precision,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering that it appears possible to exchange pseudo-random-noise
+      timing signals simultaneously but without interference with other uses of the
+      channel,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering that such pseudo-random-noise techniques also allow high-precision
+      ranging,
   actions:
   - type: recommends
     date_effective: 1987-10-15
@@ -145,11 +166,12 @@ resolutions:
   actions:
   - type: recommends
     date_effective: 1987-10-15
-    message: |-
-      recommends
-
-       that theoretical studies of all perturbing effects be developed
-       that experiments in order to identify these effects, to verify their theoretical interpretation and to evaluate the uncertainty of the corresponding corrections be actively pursued.
+    message: recommends that theoretical studies of all perturbing effects be developed
+  - type: recommends
+    date_effective: 1987-10-15
+    message: recommends that experiments in order to identify these effects, to verify
+      their theoretical interpretation and to evaluate the uncertainty of the corresponding
+      corrections be actively pursued.
 - dates:
   - 1987-10-15
   title: Forthcoming adjustment to the representations of the volt and of the ohm
@@ -161,13 +183,26 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1987-10-15
-    message: |-
-      *considering*
-
-      * that world-wide uniformity and long-term stability of national representations of the electrical units are of major importance for science, commerce and industry from both the technical and economic points of view,
-      * that many national laboratories use the Josephson effect and are beginning to use the quantum Hall effect to maintain, respectively, representations of the volt and of the ohm, as these offer the best guarantees of long-term stability,
-      * that because of the importance of coherence among the units of measurement of the various physical quantities the values adopted for these representations must be as closely as possible in agreement with the SI,
-      * that the results of recent and current experiment will permit the establishment of an acceptable value, sufficiently compatible with the SI, for the coefficient which relates each of these effects to the corresponding electrical unit,
+    message: considering that world-wide uniformity and long-term stability of national
+      representations of the electrical units are of major importance for science,
+      commerce and industry from both the technical and economic points of view,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering that many national laboratories use the Josephson effect
+      and are beginning to use the quantum Hall effect to maintain, respectively,
+      representations of the volt and of the ohm, as these offer the best guarantees
+      of long-term stability,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering that because of the importance of coherence among the units
+      of measurement of the various physical quantities the values adopted for these
+      representations must be as closely as possible in agreement with the SI,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering that the results of recent and current experiment will permit
+      the establishment of an acceptable value, sufficiently compatible with the SI,
+      for the coefficient which relates each of these effects to the corresponding
+      electrical unit,
   actions:
   - type: invites / further invites
     date_effective: 1987-10-15
@@ -194,13 +229,26 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1987-10-15
-    message: |-
-      *considering*
-
-      * that world-wide uniformity and long-term stability of temperature measurements are of major importance for science, commerce and industry from both the technical and economic points of view,
-      * that the value of a temperature on the practical scale must correspond closely to the value of the thermodynamic temperature in the SI,
-      * that the 15th Conférence Générale des Poids et Mesures, taking cognizance of the differences that have been demonstrated between values of temperature on the International Practical Temperature Scale of 1968 (IPTS-68) and the corresponding values of thermodynamic temperature, has instructed the Comité International des Poids et Mesures to establish a new, substantially more accurate scale,
-      * that it will be possible to propose in 1989 a new scale for which any remaining departures from thermodynamic temperature will be inconsequential for many years to come,
+    message: considering that world-wide uniformity and long-term stability of temperature
+      measurements are of major importance for science, commerce and industry from
+      both the technical and economic points of view,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering that the value of a temperature on the practical scale must
+      correspond closely to the value of the thermodynamic temperature in the SI,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering that the 15th Conférence Générale des Poids et Mesures, taking
+      cognizance of the differences that have been demonstrated between values of
+      temperature on the International Practical Temperature Scale of 1968 (IPTS-68)
+      and the corresponding values of thermodynamic temperature, has instructed the
+      Comité International des Poids et Mesures to establish a new, substantially
+      more accurate scale,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering that it will be possible to propose in 1989 a new scale for
+      which any remaining departures from thermodynamic temperature will be inconsequential
+      for many years to come,
   actions:
   - type: invites / further invites
     date_effective: 1987-10-15
@@ -243,12 +291,17 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1987-10-15
-    message: |-
-      considering
-
-       the importance of the work carried out by the Bureau International des Poids et Mesures (BIPM) and of the services that it provides to all countries,
-       the necessity of furnishing the BIPM minimum resources to avoid endangering the pursuit of these activities and
-       the difficulty of foreseeing, in the present economic circumstances, the minimal financial means that would permit the BIPM to fulfil its mission of world centre of scientific metrology,
+    message: considering the importance of the work carried out by the Bureau International
+      des Poids et Mesures (BIPM) and of the services that it provides to all countries,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering the necessity of furnishing the BIPM minimum resources to
+      avoid endangering the pursuit of these activities and
+  - type: considering
+    date_effective: 1987-10-15
+    message: considering the difficulty of foreseeing, in the present economic circumstances,
+      the minimal financial means that would permit the BIPM to fulfil its mission
+      of world centre of scientific metrology,
   actions:
   - type: decides
     date_effective: 1987-10-15

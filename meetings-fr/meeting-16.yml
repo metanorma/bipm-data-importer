@@ -15,20 +15,28 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1979-10-12
-    message: |-
-      considérant
-
-       que l'exactitude des mesures de masse suppose une parfaire conservation des étalons du kilogramme, en particulier des Kilogrammes prototypes en platine iridié,
-       que la transmission de cette exactitude aux étalons du kilogramme constitués d'autres matériaux comme les aciers inoxydables est limitée par une connaissance insuffisante de la correction due à la poussée de l'air,
-       que cette poussée de l'air est le plus souvent calculée à partir des conditions ambiantes, mais qu'il existe des divergences significatives entre les formules utilisées pour ce calcul dans différents laboratoires,
+    message: considérant que l'exactitude des mesures de masse suppose une parfaire
+      conservation des étalons du kilogramme, en particulier des Kilogrammes prototypes
+      en platine iridié,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considérant que la transmission de cette exactitude aux étalons du kilogramme
+      constitués d'autres matériaux comme les aciers inoxydables est limitée par une
+      connaissance insuffisante de la correction due à la poussée de l'air,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considérant que cette poussée de l'air est le plus souvent calculée à
+      partir des conditions ambiantes, mais qu'il existe des divergences significatives
+      entre les formules utilisées pour ce calcul dans différents laboratoires,
   actions:
   - type: recommends
     date_effective: 1979-10-12
-    message: |-
-      recommande
-
-       que les laboratoires étudient l'influence des conditions ambiantes sur les étalons du kilogramme et les moyens d'améliorer leur conservation,
-       que les laboratoires intensifient les travaux en vue d'une meilleure détermination de la correction due à la poussée de l'air.
+    message: recommande que les laboratoires étudient l'influence des conditions ambiantes
+      sur les étalons du kilogramme et les moyens d'améliorer leur conservation,
+  - type: recommends
+    date_effective: 1979-10-12
+    message: recommande que les laboratoires intensifient les travaux en vue d'une
+      meilleure détermination de la correction due à la poussée de l'air.
 - dates:
   - 1979-10-12
   title: Étalons électriques (poursuite des recherches sur la réalisation des unités
@@ -41,14 +49,26 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1979-10-12
-    message: |-
-      considérant
-
-       l'importance pour toutes les applications des mesures électriques d'une réalisation plus exacte des unités SI, en particulier du volt et de l'ampère,
-       les progrès récents accomplis dans ces réalisations, soit par des méthodes directes, soit indirectement par des déterminations de constantes physiques,
-       les divergences qui subsistent entre les résultats donnés par ces différentes méthodes,
-       la nécessité de pouvoir comparer des réalisations indépendantes entre elles pour élucider l'origine de ces divergences,
-       l'amélioration de l'exactitude que l'on obtiendra dès qu'une meilleure cohérence permettra de fixer des valeurs plus exactes pour les différentes réalisations de ces unités,
+    message: considérant l'importance pour toutes les applications des mesures électriques
+      d'une réalisation plus exacte des unités SI, en particulier du volt et de l'ampère,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considérant les progrès récents accomplis dans ces réalisations, soit
+      par des méthodes directes, soit indirectement par des déterminations de constantes
+      physiques,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considérant les divergences qui subsistent entre les résultats donnés
+      par ces différentes méthodes,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considérant la nécessité de pouvoir comparer des réalisations indépendantes
+      entre elles pour élucider l'origine de ces divergences,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considérant l'amélioration de l'exactitude que l'on obtiendra dès qu'une
+      meilleure cohérence permettra de fixer des valeurs plus exactes pour les différentes
+      réalisations de ces unités,
   actions:
   - type: recommends
     date_effective: 1979-10-12
@@ -66,22 +86,47 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1979-10-12
-    message: |-
-      *considérant*
-
-       que malgré les efforts méritoires de quelques laboratoires, il subsiste des divergences excessives entre les résultats de la réalisation de la candela à l'aide du corps noir étalon primaire actuel,
-       que les techniques radiométriques se développent rapidement, autorisant des précisions qui sont déjà analogues à celles de la photométrie et que ces techniques sont déjà en usage dans des laboratoires nationaux pour réaliser la candela sans avoir à construire un corps noir,
-       que la relation entre les grandeurs lumineuses de la photométrie et les grandeurs énergétiques, à savoir la valeur 683 lumens par watt pour l'efficacité lumineuse spectrale de la radiation monochromatique de fréquence 540 ´ 10^12^ hertz, a été adoptée par le Comité international des poids et mesures en 1977,
-       que cette valeur a été reconnue suffisamment exacte pour le système des grandeurs lumineuses photopiques, qu'elle n'entraîne qu'un changement d'environ 3 % pour le système des grandeurs lumineuses scotopiques et que par conséquent elle assure une continuité satisfaisante,
-       que le moment est venu de donner à la candela une définition susceptible d'améliorer la facilité d'établissement des étalons photométriques et leur précision, et qui s'applique aux grandeurs photopiques et scotopiques de la photométrie et aux grandeurs à définir dans le domaine mésopique,
+    message: considérant que malgré les efforts méritoires de quelques laboratoires,
+      il subsiste des divergences excessives entre les résultats de la réalisation
+      de la candela à l'aide du corps noir étalon primaire actuel,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considérant que les techniques radiométriques se développent rapidement,
+      autorisant des précisions qui sont déjà analogues à celles de la photométrie
+      et que ces techniques sont déjà en usage dans des laboratoires nationaux pour
+      réaliser la candela sans avoir à construire un corps noir,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considérant que la relation entre les grandeurs lumineuses de la photométrie
+      et les grandeurs énergétiques, à savoir la valeur 683 lumens par watt pour l'efficacité
+      lumineuse spectrale de la radiation monochromatique de fréquence 540 ´ 10^12^
+      hertz, a été adoptée par le Comité international des poids et mesures en 1977,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considérant que cette valeur a été reconnue suffisamment exacte pour
+      le système des grandeurs lumineuses photopiques, qu'elle n'entraîne qu'un changement
+      d'environ 3 % pour le système des grandeurs lumineuses scotopiques et que par
+      conséquent elle assure une continuité satisfaisante,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considérant que le moment est venu de donner à la candela une définition
+      susceptible d'améliorer la facilité d'établissement des étalons photométriques
+      et leur précision, et qui s'applique aux grandeurs photopiques et scotopiques
+      de la photométrie et aux grandeurs à définir dans le domaine mésopique,
   actions:
   - type: decides
     date_effective: 1979-10-12
-    message: |-
-      *décide*
-
-      . La candela est l'intensité lumineuse, dans une direction donnée, d'une source qui émet un rayonnement monochromatique de fréquence 540 ´ 10^12^ hertz et dont l'intensité énergétique dans cette direction est 1/683 watt par stéradian.
-      . La définition de la candela (à l'époque appelée bougie nouvelle) décidée par le Comité international des poids et mesures en 1946 en vertu des pouvoirs conférés par la 8^e^ Conférence générale des poids et mesures (CGPM) en 1933, ratifiée par la 9^e^ CGPM en 1948, puis amendée par la 13^e^ CGPM en 1967, est abrogée.
+    message: décide La candela est l'intensité lumineuse, dans une direction donnée,
+      d'une source qui émet un rayonnement monochromatique de fréquence 540 ´ 10^12^
+      hertz et dont l'intensité énergétique dans cette direction est 1/683 watt par
+      stéradian.
+  - type: decides
+    date_effective: 1979-10-12
+    message: décide La définition de la candela (à l'époque appelée bougie nouvelle)
+      décidée par le Comité international des poids et mesures en 1946 en vertu des
+      pouvoirs conférés par la 8^e^ Conférence générale des poids et mesures (CGPM)
+      en 1933, ratifiée par la 9^e^ CGPM en 1948, puis amendée par la 13^e^ CGPM en
+      1967, est abrogée.
 - dates:
   - 1979-10-12
   title: Définition de la candela - amélioration des procédés d'étalonnage photométrique
@@ -113,12 +158,19 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1979-10-12
-    message: |-
-      *considérant*
-
-      * l'effort fait pour introduire les unités SI dans le domaine des rayonnements ionisants,
-      * les risques que peuvent encourir des être humains soumis à des irradiations sous-estimées, risques qui pourraient résulter de la confusion entre dose absorbée et équivalent de dose,
-      * que la prolifération des noms spéciaux représente un danger pour le Système international d'unités et doit être évitée dans toute la mesure du possible, mais que cette règle peut être transgressée lorsqu'il s'agit de sauvegarder la santé humaine,
+    message: considérant l'effort fait pour introduire les unités SI dans le domaine
+      des rayonnements ionisants,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considérant les risques que peuvent encourir des être humains soumis
+      à des irradiations sous-estimées, risques qui pourraient résulter de la confusion
+      entre dose absorbée et équivalent de dose,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considérant que la prolifération des noms spéciaux représente un danger
+      pour le Système international d'unités et doit être évitée dans toute la mesure
+      du possible, mais que cette règle peut être transgressée lorsqu'il s'agit de
+      sauvegarder la santé humaine,
   actions:
   - type: adopts
     date_effective: 1979-10-12
@@ -178,12 +230,18 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1979-10-12
-    message: |-
-      considérant
-
-       l'importance des recherches effectuées et des services rendus par le Bureau international des poids et mesures dans les dernières années,
-       la nécessité d'étendre son activité, d'améliorer constamment ses méthodes de travail et ses équipements ainsi que la qualification et la compétence de son personnel, afin de lui permettre de remplir sa mission de centre mondial de la métrologie scientifique,
-       les retards inévitables accumulés depuis plusieurs années en raison d'une conjoncture économique difficile,
+    message: considérant l'importance des recherches effectuées et des services rendus
+      par le Bureau international des poids et mesures dans les dernières années,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considérant la nécessité d'étendre son activité, d'améliorer constamment
+      ses méthodes de travail et ses équipements ainsi que la qualification et la
+      compétence de son personnel, afin de lui permettre de remplir sa mission de
+      centre mondial de la métrologie scientifique,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considérant les retards inévitables accumulés depuis plusieurs années
+      en raison d'une conjoncture économique difficile,
   - type: considering
     date_effective: 1979-10-12
     message: |-

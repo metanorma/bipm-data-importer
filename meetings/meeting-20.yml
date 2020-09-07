@@ -16,15 +16,35 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1995-10-13
-    message: |-
-      considering that
-
-       the effects on the geosphere and biosphere of industrial and commercial activities and of many other human pursuits, and the consequences for human health and well-being, are the subject of major studies world-wide,
-       governments are increasingly faced with decisions of great economic and political significance concerning the regulation of these activities,
-       the policies of governments are influenced by studies depending critically on accurate and mutually compatible measurements often requiring very large economic investments,
-       much of the important scientific evidence required for decisions by governments comes from measurements of small changes in certain key parameters, measurements sometimes extending over several decades,
-       certain critical measurements have traditionally been made in _ad hoc_ units based upon special instrumentation or procedures, and not in the well-characterized and internationally agreed SI units,
-       experience over many years has shown that measurements not directly linked to the SI cannot be relied upon in the long term, cannot be compared with similar measurements made elsewhere and do not adequately bring out possible relationships with measurements made in other scientific disciplines,
+    message: considering that the effects on the geosphere and biosphere of industrial
+      and commercial activities and of many other human pursuits, and the consequences
+      for human health and well-being, are the subject of major studies world-wide,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that governments are increasingly faced with decisions of
+      great economic and political significance concerning the regulation of these
+      activities,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that the policies of governments are influenced by studies
+      depending critically on accurate and mutually compatible measurements often
+      requiring very large economic investments,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that much of the important scientific evidence required for
+      decisions by governments comes from measurements of small changes in certain
+      key parameters, measurements sometimes extending over several decades,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that certain critical measurements have traditionally been
+      made in _ad hoc_ units based upon special instrumentation or procedures, and
+      not in the well-characterized and internationally agreed SI units,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that experience over many years has shown that measurements
+      not directly linked to the SI cannot be relied upon in the long term, cannot
+      be compared with similar measurements made elsewhere and do not adequately bring
+      out possible relationships with measurements made in other scientific disciplines,
   actions:
   - type: recommends
     date_effective: 1995-10-13
@@ -45,15 +65,29 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1995-10-13
-    message: |-
-      *considering*
-
-       the increasingly stringent requirements of science, technology and international trade for traceability in measurement at many levels of accuracy,
-       the existence of groups of cooperating national metrology laboratories in different regions of the world,
-       the need to demonstrate world-wide equivalence or traceability of measurement standards among national laboratories and regional groups of cooperating national laboratories,
-       the calibration services of the Bureau International des Poids et Mesures (BIPM) for the national laboratories,
-       the role of the BIPM in carrying out and coordinating world-wide comparisons of standards at the highest level among the national laboratories,
-       the necessary participation of national laboratories in international comparisons,
+    message: considering the increasingly stringent requirements of science, technology
+      and international trade for traceability in measurement at many levels of accuracy,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering the existence of groups of cooperating national metrology
+      laboratories in different regions of the world,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering the need to demonstrate world-wide equivalence or traceability
+      of measurement standards among national laboratories and regional groups of
+      cooperating national laboratories,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering the calibration services of the Bureau International des
+      Poids et Mesures (BIPM) for the national laboratories,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering the role of the BIPM in carrying out and coordinating world-wide
+      comparisons of standards at the highest level among the national laboratories,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering the necessary participation of national laboratories in international
+      comparisons,
   - type: recognizing
     date_effective: 1995-10-13
     message: "*recognizes* the global advantages of interconnections between the comparisons
@@ -68,12 +102,20 @@ resolutions:
       comparisons carried out by the BIPM or the Comités Consultatifs,"
   - type: recommends
     date_effective: 1995-10-13
-    message: |-
-      *recommends*
-
-       that national metrology laboratories, in collaboration with the BIPM, ensure that the necessary comparisons between national standards are carried out in sufficient number to demonstrate international traceability of measurement standards,
-       that adequate interconnections are maintained between the comparisons carried out under the auspices of the BIPM and those carried out by the regional groups,
-       and that the results of comparisons carried out by the regional groups be communicated to the BIPM in appropriate form for them to be published by the BIPM and thereby given wide international recognition.
+    message: recommends that national metrology laboratories, in collaboration with
+      the BIPM, ensure that the necessary comparisons between national standards are
+      carried out in sufficient number to demonstrate international traceability of
+      measurement standards,
+  - type: recommends
+    date_effective: 1995-10-13
+    message: recommends that adequate interconnections are maintained between the
+      comparisons carried out under the auspices of the BIPM and those carried out
+      by the regional groups,
+  - type: recommends
+    date_effective: 1995-10-13
+    message: recommends and that the results of comparisons carried out by the regional
+      groups be communicated to the BIPM in appropriate form for them to be published
+      by the BIPM and thereby given wide international recognition.
 - dates:
   - 1995-10-13
   title: The need for long-term metrological research
@@ -85,12 +127,18 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1995-10-13
-    message: |-
-      *considering*
-
-       the continual increase in demand for accurate and efficient measurement in science, technology and international trade,
-       that the development of improved measurement standards and techniques needs to be carried out well in advance of their application in science and industry,
-       that these developments can only take place on the basis of a solid foundation of long-term metrological research closely linked to advances in science,
+    message: considering the continual increase in demand for accurate and efficient
+      measurement in science, technology and international trade,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that the development of improved measurement standards and
+      techniques needs to be carried out well in advance of their application in science
+      and industry,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that these developments can only take place on the basis
+      of a solid foundation of long-term metrological research closely linked to advances
+      in science,
   actions:
   - type: recommends
     date_effective: 1995-10-13
@@ -122,12 +170,19 @@ resolutions:
        that in response to this invitation the Comité International made recommendations in 1983 concerning the practical realization of the metre (the _mise en pratique_),
   - type: considering
     date_effective: 1995-10-13
-    message: |-
-      *considering*
-
-       that science and technology continue to demand improved accuracy in the realization of the metre,
-       that since 1983 work in national laboratories, the Bureau International des Poids et Mesures and elsewhere has substantially improved the reproducibility of radiations which are suitable for the practical realization of the metre,
-       that such work has also substantially reduced the uncertainty in the determined values of the frequencies and wavelengths of some of these radiations,
+    message: considering that science and technology continue to demand improved accuracy
+      in the realization of the metre,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that since 1983 work in national laboratories, the Bureau
+      International des Poids et Mesures and elsewhere has substantially improved
+      the reproducibility of radiations which are suitable for the practical realization
+      of the metre,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that such work has also substantially reduced the uncertainty
+      in the determined values of the frequencies and wavelengths of some of these
+      radiations,
   actions:
   - type: welcomes
     date_effective: 1995-10-13
@@ -151,13 +206,23 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1995-10-13
-    message: |-
-      *considering*
-
-       the results of the third periodic verification of national prototypes of the kilogram, which showed drifts, with respect to the international prototype, of the national prototypes and of the working copies and official copies held by the Bureau International des Poids et Mesures,
-       the fundamental impossibility of drawing definite conclusions from these results about the long-term stability of the international prototype and its copies,
-       the results of work in many national laboratories aimed at understanding the processes that lead to the instability of mass standards,
-       the progress now being made in various laboratories towards independent methods of monitoring the stability of mass standards,
+    message: considering the results of the third periodic verification of national
+      prototypes of the kilogram, which showed drifts, with respect to the international
+      prototype, of the national prototypes and of the working copies and official
+      copies held by the Bureau International des Poids et Mesures,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering the fundamental impossibility of drawing definite conclusions
+      from these results about the long-term stability of the international prototype
+      and its copies,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering the results of work in many national laboratories aimed at
+      understanding the processes that lead to the instability of mass standards,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering the progress now being made in various laboratories towards
+      independent methods of monitoring the stability of mass standards,
   actions:
   - type: recommends
     date_effective: 1995-10-13
@@ -176,13 +241,22 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1995-10-13
-    message: |-
-      *considering*
-
-       the need for long distance time transfer at the highest possible level of accuracy,
-       that successful time transfer with a precision of 100 ps has been achieved between Western Europe and North America using the LASSO (Laser Synchronization from Satellite Orbit) experiment on a geostationary satellite,
-       that time transfer techniques, such as GPS (Global Positioning System), GLONASS (Global Navigation Satellite System) and two-way satellite time transfer, need an independent means of assessment of their accuracy,
-       that solutions have been proposed that may lead to clock synchronization by laser techniques using non-geostationary satellites,
+    message: considering the need for long distance time transfer at the highest possible
+      level of accuracy,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that successful time transfer with a precision of 100 ps
+      has been achieved between Western Europe and North America using the LASSO (Laser
+      Synchronization from Satellite Orbit) experiment on a geostationary satellite,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that time transfer techniques, such as GPS (Global Positioning
+      System), GLONASS (Global Navigation Satellite System) and two-way satellite
+      time transfer, need an independent means of assessment of their accuracy,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that solutions have been proposed that may lead to clock
+      synchronization by laser techniques using non-geostationary satellites,
   - type: recalling / further recalling
     date_effective: 1995-10-13
     message: "*recalling* link:/en/CGPM/db/18/4/[Resolution 4 of the 18th Conférence
@@ -204,13 +278,22 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1995-10-13
-    message: |-
-      *considering*
-
-       that reliability in the results of quantitative chemical analyses is important for international trade, for the protection of the environment, and for human health and safety,
-       that reliability implies world-wide uniformity and long-term stability and can only be achieved by firmly linking measurements to the Système International d'Unités,
-       that formidable difficulties exist in establishing international traceability for measurements in chemistry,
-       that national metrology laboratories are increasingly involved in establishing such a system,
+    message: considering that reliability in the results of quantitative chemical
+      analyses is important for international trade, for the protection of the environment,
+      and for human health and safety,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that reliability implies world-wide uniformity and long-term
+      stability and can only be achieved by firmly linking measurements to the Système
+      International d'Unités,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that formidable difficulties exist in establishing international
+      traceability for measurements in chemistry,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that national metrology laboratories are increasingly involved
+      in establishing such a system,
   actions:
   - type: welcomes
     date_effective: 1995-10-13
@@ -236,12 +319,21 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1995-10-13
-    message: |-
-      *considering*
-
-       that the 11th Conférence Générale in 1960 in its link:/en/CGPM/db/11/12/[Resolution 12], establishing the Système International d'Unités, SI, distinguished between three classes of SI units&nbsp;: the base units, the derived units, and the supplementary units, the last of these comprising the radian and the steradian,
-       that the status of the supplementary units in relation to the base units and the derived units gave rise to debate,
-       that the Comité International des Poids et Mesures, in 1980, having observed that the ambiguous status of the supplementary units compromises the internal coherence of the SI, has in its link:/en/CIPM/db/1980/1/[Recommendation 1 (CI-1980)] interpreted the supplementary units, in the SI, as dimensionless derived units,
+    message: 'considering that the 11th Conférence Générale in 1960 in its link:/en/CGPM/db/11/12/[Resolution
+      12], establishing the Système International d''Unités, SI, distinguished between
+      three classes of SI units&nbsp;: the base units, the derived units, and the
+      supplementary units, the last of these comprising the radian and the steradian,'
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that the status of the supplementary units in relation to
+      the base units and the derived units gave rise to debate,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that the Comité International des Poids et Mesures, in 1980,
+      having observed that the ambiguous status of the supplementary units compromises
+      the internal coherence of the SI, has in its link:/en/CIPM/db/1980/1/[Recommendation
+      1 (CI-1980)] interpreted the supplementary units, in the SI, as dimensionless
+      derived units,
   actions:
   - type: approves
     date_effective: 1995-10-13
@@ -249,11 +341,14 @@ resolutions:
       1980,"
   - type: decides
     date_effective: 1995-10-13
-    message: |-
-      *decides*
-
-       to interpret the supplementary units in the SI, namely the radian and the steradian, as dimensionless derived units, the names and symbols of which may, but need not, be used in expressions for other SI derived units, as is convenient,
-       and, consequently, to eliminate the class of supplementary units as a separate class in the SI.
+    message: decides to interpret the supplementary units in the SI, namely the radian
+      and the steradian, as dimensionless derived units, the names and symbols of
+      which may, but need not, be used in expressions for other SI derived units,
+      as is convenient,
+  - type: decides
+    date_effective: 1995-10-13
+    message: decides and, consequently, to eliminate the class of supplementary units
+      as a separate class in the SI.
 - dates:
   - 1995-10-13
   title: Dotation of the BIPM
@@ -265,13 +360,21 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1995-10-13
-    message: |-
-      *considering*
-
-       the importance of the work carried out by the Bureau International des Poids et Mesures (BIPM) and the services it renders to Member States of the Convention du Mètre,
-       the considerable efforts made by the BIPM to enhance the efficiency of its operation, and its commitment to continue these efforts,
-       the need to provide the resources necessary for the efficient carrying out of the tasks given to it by the Conférence Générale,
-       the difficult economic situation now existing in many Member States of the Convention du Mètre,
+    message: considering the importance of the work carried out by the Bureau International
+      des Poids et Mesures (BIPM) and the services it renders to Member States of
+      the Convention du Mètre,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering the considerable efforts made by the BIPM to enhance the
+      efficiency of its operation, and its commitment to continue these efforts,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering the need to provide the resources necessary for the efficient
+      carrying out of the tasks given to it by the Conférence Générale,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering the difficult economic situation now existing in many Member
+      States of the Convention du Mètre,
   actions:
   - type: decides
     date_effective: 1995-10-13
@@ -295,12 +398,20 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1995-10-13
-    message: |-
-      *considering*
-
-       the proposal made by the French government for a rapprochement between the organizations created by the Convention du Mètre and the Treaty of the Organisation Internationale de Métrologie Légale (OIML) with a view to a possible fusion of the two organizations,
-       the agreement among many Member States of the Convention du Mètre that the joint discussions envisaged in the French proposal would be desirable,
-       that these discussions should take into particular account the continuing need to optimize the effectiveness of intergovernmental organizations in carrying out their tasks, now as well as in the long term,
+    message: considering the proposal made by the French government for a rapprochement
+      between the organizations created by the Convention du Mètre and the Treaty
+      of the Organisation Internationale de Métrologie Légale (OIML) with a view to
+      a possible fusion of the two organizations,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering the agreement among many Member States of the Convention
+      du Mètre that the joint discussions envisaged in the French proposal would be
+      desirable,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering that these discussions should take into particular account
+      the continuing need to optimize the effectiveness of intergovernmental organizations
+      in carrying out their tasks, now as well as in the long term,
   actions:
   - type: invites / further invites
     date_effective: 1995-10-13
@@ -332,11 +443,12 @@ resolutions:
       for long-term metrological research,"
   - type: considering
     date_effective: 1995-10-13
-    message: |-
-      *considering*
-
-       the particular impact of metrology on the economic growth and international trade of Member States,
-       the contribution to these of the Bureau International des Poids et Mesures (BIPM) and the national metrological laboratories,
+    message: considering the particular impact of metrology on the economic growth
+      and international trade of Member States,
+  - type: considering
+    date_effective: 1995-10-13
+    message: considering the contribution to these of the Bureau International des
+      Poids et Mesures (BIPM) and the national metrological laboratories,
   actions:
   - type: requests
     date_effective: 1995-10-13

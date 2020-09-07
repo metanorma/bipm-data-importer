@@ -73,11 +73,15 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1975-06-02
-    message: |-
-      *considérant*
-
-      * que l'unité de masse, et les unités de toutes les grandeurs qui dépendent de la masse, pour être réalisées exactement, nécessitent l'emploi du Prototype international du kilogramme en platine iridié conservé par le Bureau international des poids et mesures depuis 1889,
-      * que pour le moment aucun moyen n'est en vue qui permettrait de définir l'unité de masse en termes de constantes atomiques avec une précision équivalente,
+    message: considérant que l'unité de masse, et les unités de toutes les grandeurs
+      qui dépendent de la masse, pour être réalisées exactement, nécessitent l'emploi
+      du Prototype international du kilogramme en platine iridié conservé par le Bureau
+      international des poids et mesures depuis 1889,
+  - type: considering
+    date_effective: 1975-06-02
+    message: considérant que pour le moment aucun moyen n'est en vue qui permettrait
+      de définir l'unité de masse en termes de constantes atomiques avec une précision
+      équivalente,
   actions:
   - type: requests
     date_effective: 1975-06-02

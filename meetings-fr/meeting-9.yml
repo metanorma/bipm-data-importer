@@ -44,11 +44,14 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1948-10-21
-    message: |-
-      considérant
-
-       le développement remarquable des mesures de gravité relative pour lesquelles la base actuellement admise date d'un demi-siècle et semble erronée d'une quantité appréciable,
-       que les déterminations les plus récentes ne présentent pas encore une concordance suffisante et qu'il serait, par suite, désirable d'en contrôler les résultats par l'emploi de méthodes plus modernes,
+    message: considérant le développement remarquable des mesures de gravité relative
+      pour lesquelles la base actuellement admise date d'un demi-siècle et semble
+      erronée d'une quantité appréciable,
+  - type: considering
+    date_effective: 1948-10-21
+    message: considérant que les déterminations les plus récentes ne présentent pas
+      encore une concordance suffisante et qu'il serait, par suite, désirable d'en
+      contrôler les résultats par l'emploi de méthodes plus modernes,
   - type: recognizing
     date_effective: 1948-10-21
     message: reconnaît l'intérêt des déterminations absolues de l'intensité de la
@@ -95,11 +98,17 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1948-10-21
-    message: |-
-      *considérant*
-
-      * la Convention du Mètre qui assigne au Bureau international des poids et mesures le rôle de coordonner et d'unifier les mesures, ce qui a pour conséquence de faciliter les relations entre les pays dans les domaines de la Science, de l'Industrie et du Commerce,
-      * que, aux termes du préambule de sa Convention, l'Unesco a été créée pour constituer l'Institution spécialisée des Nations unies dans le domaine de l'Éducation, de la Science et de la Culture afin d'atteindre graduellement, au moyen de la coopération dans ces trois domaines, le but de paix internationale et de prospérité commune de l'humanité proclamé dans la Charte des Nations unies.
+    message: considérant la Convention du Mètre qui assigne au Bureau international
+      des poids et mesures le rôle de coordonner et d'unifier les mesures, ce qui
+      a pour conséquence de faciliter les relations entre les pays dans les domaines
+      de la Science, de l'Industrie et du Commerce,
+  - type: considering
+    date_effective: 1948-10-21
+    message: considérant que, aux termes du préambule de sa Convention, l'Unesco a
+      été créée pour constituer l'Institution spécialisée des Nations unies dans le
+      domaine de l'Éducation, de la Science et de la Culture afin d'atteindre graduellement,
+      au moyen de la coopération dans ces trois domaines, le but de paix internationale
+      et de prospérité commune de l'humanité proclamé dans la Charte des Nations unies.
   - type: considering
     date_effective: 1948-10-21
     message: "*considérant d'autre part,* les avantages qui peuvent résulter d'une
@@ -130,20 +139,26 @@ resolutions:
       au mois de juin 1948,
   - type: noting
     date_effective: 1948-10-21
-    message: |-
-      constate
-
-       que le chiffre de la dotation n'a pas été modifié depuis 20 ans,
-       que, dans cette même période, les attributions du Bureau ont reçu une extension importante entraînant une augmentation corrélative des dépenses d'entretien,
-       que, dans ces conditions, il paraît nécessaire de relever le montant de la dotation,
+    message: constate que le chiffre de la dotation n'a pas été modifié depuis 20
+      ans,
+  - type: noting
+    date_effective: 1948-10-21
+    message: constate que, dans cette même période, les attributions du Bureau ont
+      reçu une extension importante entraînant une augmentation corrélative des dépenses
+      d'entretien,
+  - type: noting
+    date_effective: 1948-10-21
+    message: constate que, dans ces conditions, il paraît nécessaire de relever le
+      montant de la dotation,
   actions:
   - type: decides
     date_effective: 1948-10-21
-    message: |-
-      décide
-
-      . le chiffre de la dotation annuelle est porté en principal de 150 000 francs-or à 175 000 francs-or,
-      . l'application de cette disposition sera différée jusqu'à la date où le Japon et l'Allemagne auront repris leurs paiements statutaires.
+    message: décide le chiffre de la dotation annuelle est porté en principal de 150
+      000 francs-or à 175 000 francs-or,
+  - type: decides
+    date_effective: 1948-10-21
+    message: décide l'application de cette disposition sera différée jusqu'à la date
+      où le Japon et l'Allemagne auront repris leurs paiements statutaires.
 - dates:
   - 1948-10-21
   title: Proposition d'établissement d'un système pratique d'unités de mesure
@@ -155,11 +170,17 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1948-10-21
-    message: |-
-      *considérant*
-
-       que le Comité international des poids et mesures a été saisi d'une demande de l'Union internationale de physique le sollicitant d'adopter pour les relations internationales un système pratique international d'unités, recommandant le système MKS et une unité électrique du système pratique absolu, tout en ne recommandant pas que le système CGS soit abandonné par les physiciens ;
-       qu'elle-même a reçu du Gouvernement français une demande analogue, accompagnée d'un projet destiné à servir de base de discussion pour l'établissement d'une réglementation complète des unités de mesure ;
+    message: considérant que le Comité international des poids et mesures a été saisi
+      d'une demande de l'Union internationale de physique le sollicitant d'adopter
+      pour les relations internationales un système pratique international d'unités,
+      recommandant le système MKS et une unité électrique du système pratique absolu,
+      tout en ne recommandant pas que le système CGS soit abandonné par les physiciens
+      ;
+  - type: considering
+    date_effective: 1948-10-21
+    message: considérant qu'elle-même a reçu du Gouvernement français une demande
+      analogue, accompagnée d'un projet destiné à servir de base de discussion pour
+      l'établissement d'une réglementation complète des unités de mesure ;
   actions:
   - type: appoints
     date_effective: 1948-10-21
@@ -213,12 +234,19 @@ resolutions:
       |===
   - type: affirms / reaffirming
     date_effective: 1948-10-21
-    message: |-
-      Remarques
-
-      . Les symboles dont les unités sont précédées d'un point sont ceux qui avaient déjà été antérieurement adoptés par une décision du Comité international.
-      . L'unité de volume stère, employée dans le mesurage des bois, aura pour symbole « st » et non plus « s », qui lui avait été précédemment affecté par le Comité international.
-      . S'il s'agit, non d'une température, mais d'un intervalle ou d'une différence de température, le mot « degré » doit être écrit en toutes lettres ou par l'abréviation « deg ».
+    message: Remarques Les symboles dont les unités sont précédées d'un point sont
+      ceux qui avaient déjà été antérieurement adoptés par une décision du Comité
+      international.
+  - type: affirms / reaffirming
+    date_effective: 1948-10-21
+    message: Remarques L'unité de volume stère, employée dans le mesurage des bois,
+      aura pour symbole « st » et non plus « s », qui lui avait été précédemment affecté
+      par le Comité international.
+  - type: affirms / reaffirming
+    date_effective: 1948-10-21
+    message: Remarques S'il s'agit, non d'une température, mais d'un intervalle ou
+      d'une différence de température, le mot « degré » doit être écrit en toutes
+      lettres ou par l'abréviation « deg ».
 - dates:
   - 1948-10-21
   title: "(Concernant la dotation du BIPM)"

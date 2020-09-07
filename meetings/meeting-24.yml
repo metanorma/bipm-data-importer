@@ -16,23 +16,98 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2011-10-21
-    message: |-
-      *considering*
-      * the international consensus on the importance, value, and potential benefits of a redefinition of a number of units of the International System of Units (SI),
-      * that the national metrology institutes (NMIs) as well as the International Bureau of Weights and Measures (BIPM) have rightfully expended significant effort during the last several decades to advance the International System of Units (SI) by extending the frontiers of metrology so that SI base units can be defined in terms of the invariants of nature - the fundamental physical constants or properties of atoms,
-      * that a prominent example of the success of such efforts is the current definition of the SI unit of length, the metre (17th meeting of the CGPM, 1983, link:/en/CGPM/db/17/1/[Resolution 1]), which links it to an exact value of the speed of light in vacuum _c_, namely, 299 792 458 metre per second,
-      * that of the seven base units of the SI, only the kilogram is still defined in terms of a material artefact, namely, the international prototype of the kilogram (1st meeting of the CGPM, 1889, 3rd meeting of the CGPM, 1901), and that the definitions of the ampere, mole and candela depend on the kilogram,
-      * that although the international prototype has served science and technology well since it was sanctioned by the CGPM at its 1st meeting in 1889, it has a number of important limitations, one of the most significant being that its mass is not explicitly linked to an invariant of nature and in consequence its long-term stability is not assured,
-      * that the CGPM at its 21st meeting in 1999 adopted link:/en/CGPM/db/21/7/[Resolution 7] in which it recommended that "national laboratories continue their efforts to refine experiments that link the unit of mass to fundamental or atomic constants with a view to a future redefinition of the kilogram",
-      * that many advances have been made in recent years in relating the mass of the international prototype to the Planck constant _h_, by methods which include watt balances and measurements of the mass of a silicon atom,
-      * that the uncertainties of all SI electrical units realized directly or indirectly by means of the Josephson and quantum Hall effects together with the SI values of the Josephson and von Klitzing constants _K_~J~ and _R_~K~ could be significantly reduced if the kilogram were redefined so as to be linked to an exact numerical value of _h_, and if the ampere were to be redefined so as to be linked to an exact numerical value of the elementary charge _e_,
-      * that the kelvin is currently defined in terms of an intrinsic property of water that, while being an invariant of nature, in practice depends on the purity and isotopic composition of the water used,
-      * that it is possible to redefine the kelvin so that it is linked to an exact numerical value of the Boltzmann constant _k_,
-      * that it is also possible to redefine the mole so that it is linked to an exact numerical value of the Avogadro constant _N_~A~, and is thus no longer dependent on the definition of the kilogram even when the kilogram is defined so that it is linked to an exact numerical value of _h_, thereby emphasizing the distinction between amount of substance and mass,
-      * that the uncertainties of the values of many other important fundamental constants and energy conversion factors would be eliminated or greatly reduced if _h_, _e_, _k_ and _N_~A~ had exact numerical values when expressed in SI units,
-      * that the General Conference, at its 23rd meeting in 2007, adopted link:/en/CGPM/db/23/12/[Resolution 12] in which it outlined the work that should be carried out by the NMIs, the BIPM and the International Committee for Weights and Measures (CIPM) together with its Consultative Committees (CCs) so that new definitions of the kilogram, ampere, kelvin, and mole in terms of fundamental constants could be adopted,
-      * that, although this work has progressed well, not all the requirements set out in link:/en/CGPM/db/23/12/[Resolution 12] adopted by the General Conference at its 23rd meeting in 2007 have been satisfied and so the International Committee for Weights and Measures is not yet ready to make a final proposal,
-      * that, nevertheless, a clear and detailed explanation of what is likely to be proposed can now be presented,
+    message: considering the international consensus on the importance, value, and
+      potential benefits of a redefinition of a number of units of the International
+      System of Units (SI),
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that the national metrology institutes (NMIs) as well as
+      the International Bureau of Weights and Measures (BIPM) have rightfully expended
+      significant effort during the last several decades to advance the International
+      System of Units (SI) by extending the frontiers of metrology so that SI base
+      units can be defined in terms of the invariants of nature - the fundamental
+      physical constants or properties of atoms,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that a prominent example of the success of such efforts is
+      the current definition of the SI unit of length, the metre (17th meeting of
+      the CGPM, 1983, link:/en/CGPM/db/17/1/[Resolution 1]), which links it to an
+      exact value of the speed of light in vacuum _c_, namely, 299 792 458 metre per
+      second,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that of the seven base units of the SI, only the kilogram
+      is still defined in terms of a material artefact, namely, the international
+      prototype of the kilogram (1st meeting of the CGPM, 1889, 3rd meeting of the
+      CGPM, 1901), and that the definitions of the ampere, mole and candela depend
+      on the kilogram,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that although the international prototype has served science
+      and technology well since it was sanctioned by the CGPM at its 1st meeting in
+      1889, it has a number of important limitations, one of the most significant
+      being that its mass is not explicitly linked to an invariant of nature and in
+      consequence its long-term stability is not assured,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that the CGPM at its 21st meeting in 1999 adopted link:/en/CGPM/db/21/7/[Resolution
+      7] in which it recommended that "national laboratories continue their efforts
+      to refine experiments that link the unit of mass to fundamental or atomic constants
+      with a view to a future redefinition of the kilogram",
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that many advances have been made in recent years in relating
+      the mass of the international prototype to the Planck constant _h_, by methods
+      which include watt balances and measurements of the mass of a silicon atom,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that the uncertainties of all SI electrical units realized
+      directly or indirectly by means of the Josephson and quantum Hall effects together
+      with the SI values of the Josephson and von Klitzing constants _K_~J~ and _R_~K~
+      could be significantly reduced if the kilogram were redefined so as to be linked
+      to an exact numerical value of _h_, and if the ampere were to be redefined so
+      as to be linked to an exact numerical value of the elementary charge _e_,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that the kelvin is currently defined in terms of an intrinsic
+      property of water that, while being an invariant of nature, in practice depends
+      on the purity and isotopic composition of the water used,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that it is possible to redefine the kelvin so that it is
+      linked to an exact numerical value of the Boltzmann constant _k_,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that it is also possible to redefine the mole so that it
+      is linked to an exact numerical value of the Avogadro constant _N_~A~, and is
+      thus no longer dependent on the definition of the kilogram even when the kilogram
+      is defined so that it is linked to an exact numerical value of _h_, thereby
+      emphasizing the distinction between amount of substance and mass,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that the uncertainties of the values of many other important
+      fundamental constants and energy conversion factors would be eliminated or greatly
+      reduced if _h_, _e_, _k_ and _N_~A~ had exact numerical values when expressed
+      in SI units,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that the General Conference, at its 23rd meeting in 2007,
+      adopted link:/en/CGPM/db/23/12/[Resolution 12] in which it outlined the work
+      that should be carried out by the NMIs, the BIPM and the International Committee
+      for Weights and Measures (CIPM) together with its Consultative Committees (CCs)
+      so that new definitions of the kilogram, ampere, kelvin, and mole in terms of
+      fundamental constants could be adopted,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that, although this work has progressed well, not all the
+      requirements set out in link:/en/CGPM/db/23/12/[Resolution 12] adopted by the
+      General Conference at its 23rd meeting in 2007 have been satisfied and so the
+      International Committee for Weights and Measures is not yet ready to make a
+      final proposal,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that, nevertheless, a clear and detailed explanation of what
+      is likely to be proposed can now be presented,
   - type: noting
     date_effective: 2011-10-21
     message: |-
@@ -108,20 +183,44 @@ resolutions:
   actions:
   - type: encourages
     date_effective: 2011-10-21
-    message: |-
-      *encourages*
-
-      * researchers in national metrology institutes, the BIPM and academic institutions to continue their efforts and make known to the scientific community in general and to CODATA in particular, the outcome of their work relevant to the determination of the constants _h_, _e_, _k_, and _N_~A~, and
-      * the BIPM to continue its work on relating the traceability of the prototypes it maintains to the international prototype of the kilogram, and in developing a pool of reference standards to facilitate the dissemination of the unit of mass when redefined,
+    message: encourages researchers in national metrology institutes, the BIPM and
+      academic institutions to continue their efforts and make known to the scientific
+      community in general and to CODATA in particular, the outcome of their work
+      relevant to the determination of the constants _h_, _e_, _k_, and _N_~A~, and
+  - type: encourages
+    date_effective: 2011-10-21
+    message: encourages the BIPM to continue its work on relating the traceability
+      of the prototypes it maintains to the international prototype of the kilogram,
+      and in developing a pool of reference standards to facilitate the dissemination
+      of the unit of mass when redefined,
   - type: invites / further invites
     date_effective: 2011-10-21
-    message: |-
-      *invites*
-
-      * CODATA to continue to provide adjusted values of the fundamental physical constants based on all relevant information available and to make the results known to the International Committee through its Consultative Committee for Units since these CODATA values and uncertainties will be those used for the revised SI,
-      * the CIPM to make a proposal for the revision of the SI as soon as the recommendations of Resolution 12 of the 23rd meeting of the General Conference are fulfilled, in particular the preparation of _mises en pratique_ for the new definitions of the kilogram, ampere, kelvin and mole,
-      * the CIPM to continue its work towards improved formulations for the definitions of the SI base units in terms of fundamental constants, having as far as possible a more easily understandable description for users in general, consistent with scientific rigour and clarity,
-      * the CIPM, the Consultative Committees, the BIPM, the OIML and National Metrology Institutes significantly to increase their efforts to initiate awareness campaigns aimed at alerting user communities and the general public to the intention to redefine various units of the SI and to encourage consideration of the practical, technical, and legislative implications of such redefinitions, so that comments and contributions can be solicited from the wider scientific and user communities.
+    message: invites CODATA to continue to provide adjusted values of the fundamental
+      physical constants based on all relevant information available and to make the
+      results known to the International Committee through its Consultative Committee
+      for Units since these CODATA values and uncertainties will be those used for
+      the revised SI,
+  - type: invites / further invites
+    date_effective: 2011-10-21
+    message: invites the CIPM to make a proposal for the revision of the SI as soon
+      as the recommendations of Resolution 12 of the 23rd meeting of the General Conference
+      are fulfilled, in particular the preparation of _mises en pratique_ for the
+      new definitions of the kilogram, ampere, kelvin and mole,
+  - type: invites / further invites
+    date_effective: 2011-10-21
+    message: invites the CIPM to continue its work towards improved formulations for
+      the definitions of the SI base units in terms of fundamental constants, having
+      as far as possible a more easily understandable description for users in general,
+      consistent with scientific rigour and clarity,
+  - type: invites / further invites
+    date_effective: 2011-10-21
+    message: invites the CIPM, the Consultative Committees, the BIPM, the OIML and
+      National Metrology Institutes significantly to increase their efforts to initiate
+      awareness campaigns aimed at alerting user communities and the general public
+      to the intention to redefine various units of the SI and to encourage consideration
+      of the practical, technical, and legislative implications of such redefinitions,
+      so that comments and contributions can be solicited from the wider scientific
+      and user communities.
 - dates:
   - 2011-10-21
   title: On the importance of international collaboration so as to place measurements
@@ -203,18 +302,28 @@ resolutions:
       of work for 2013-2015,"
   - type: considering
     date_effective: 2011-10-21
-    message: "*considering*\n\n* the increased importance of the work of the International
+    message: considering the increased importance of the work of the International
       Bureau of Weights and Measures (BIPM) to international trade, industrial innovation,
       climate change, human health and medicine, food and forensic science in all
-      States Parties to the Metre Convention,\n* the recognition of the BIPM as a
-      technically expert intergovernmental organization which reacts to the needs
-      of the States Parties to the Metre Convention,\n* the way in which the BIPM
-      continues to adopt best management practice and improve the efficiency of its
-      staff, \n* the need to replenish the level of the BIPM Capital Investment Fund,\n*
-      that by sharing the cost of the proposed facilities and funding the BIPM, States
-      Parties to the Metre Convention make substantial savings and increase the efficiency
-      and effectiveness of both their national metrology structures and their international
-      metrology activities,"
+      States Parties to the Metre Convention,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering the recognition of the BIPM as a technically expert intergovernmental
+      organization which reacts to the needs of the States Parties to the Metre Convention,
+  - type: considering
+    date_effective: 2011-10-21
+    message: 'considering the way in which the BIPM continues to adopt best management
+      practice and improve the efficiency of its staff, '
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering the need to replenish the level of the BIPM Capital Investment
+      Fund,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that by sharing the cost of the proposed facilities and funding
+      the BIPM, States Parties to the Metre Convention make substantial savings and
+      increase the efficiency and effectiveness of both their national metrology structures
+      and their international metrology activities,
   actions:
   - type: thanks / expresses-appreciation
     date_effective: 2011-10-21
@@ -222,11 +331,14 @@ resolutions:
       contributions of all kinds to the BIPM,"
   - type: urges
     date_effective: 2011-10-21
-    message: |-
-      *urges*
-
-      * National Metrology Institutes to increase the number of staff seconded to the BIPM to work on projects of mutual interest integrated into the programme of work of the BIPM,
-      * States Parties, as well as international organizations, private organizations and foundations also to provide additional voluntary financial support of all kinds to support specific BIPM mission-related activities,
+    message: urges National Metrology Institutes to increase the number of staff seconded
+      to the BIPM to work on projects of mutual interest integrated into the programme
+      of work of the BIPM,
+  - type: urges
+    date_effective: 2011-10-21
+    message: urges States Parties, as well as international organizations, private
+      organizations and foundations also to provide additional voluntary financial
+      support of all kinds to support specific BIPM mission-related activities,
   - type: decides
     date_effective: 2011-10-21
     message: |-
@@ -246,20 +358,32 @@ resolutions:
   considerations:
   - type: recalling / further recalling
     date_effective: 2011-10-21
-    message: |-
-      *recalling*
-
-      * link:/en/CGPM/db/21/3/[Resolution 3 adopted by the CGPM at its 21st meeting] in 1999,
-      * link:/en/CGPM/db/23/5/[Resolution 5 adopted by the CGPM at its 23rd meeting] in 2007,
+    message: recalling link:/en/CGPM/db/21/3/[Resolution 3 adopted by the CGPM at
+      its 21st meeting] in 1999,
+  - type: recalling / further recalling
+    date_effective: 2011-10-21
+    message: recalling link:/en/CGPM/db/23/5/[Resolution 5 adopted by the CGPM at
+      its 23rd meeting] in 2007,
   - type: considering
     date_effective: 2011-10-21
-    message: |-
-      *considering*
-
-      * the growing participation of Associate States of the CGPM in the work carried out under the Metre Convention,
-      * the scientific and economic benefits gained by Associate States, in particular from their participation in the _Mutual Recognition Arrangement of National Measurement Standards and of Calibration and Measurement Certificates issued by National Metrology Institutes_ (CIPM MRA) and from some services of the International Bureau of Weights and Measures (BIPM) that the International Committee for Weights and Measures (CIPM) made available to them,
-      * the increasing effective costs for the States Parties to the Metre Convention of these benefits for the Associate States,
-      * that the status of Associate State could constitute a first step to accede to the Metre Convention,
+    message: considering the growing participation of Associate States of the CGPM
+      in the work carried out under the Metre Convention,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering the scientific and economic benefits gained by Associate
+      States, in particular from their participation in the _Mutual Recognition Arrangement
+      of National Measurement Standards and of Calibration and Measurement Certificates
+      issued by National Metrology Institutes_ (CIPM MRA) and from some services of
+      the International Bureau of Weights and Measures (BIPM) that the International
+      Committee for Weights and Measures (CIPM) made available to them,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering the increasing effective costs for the States Parties to
+      the Metre Convention of these benefits for the Associate States,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that the status of Associate State could constitute a first
+      step to accede to the Metre Convention,
   - type: noting
     date_effective: 2011-10-21
     message: |-
@@ -273,16 +397,48 @@ resolutions:
   actions:
   - type: decides
     date_effective: 2011-10-21
-    message: |-
-      *decides* that
-
-      * during an initial 5-year period following the accession to the status of Associate of the CGPM, Associate States shall pay an annual subscription determined from their contributions to the United Nations Organisation, as for States Parties to the Metre Convention, with a minimum equal to 0.1 % of the annual _dotation_ of the BIPM,
-      * this decision will be applicable to current Associate States for the calculation of their subscription starting for the year 2013,
-      * after the above-mentioned initial 5-year period, if the CIPM considers, on the basis of the criteria it adopted, that it would be appropriate for an Associate State to become a State Party to the Metre Convention, the amount of subscription for such an Associate will be progressively and irreversibly increased each year so that it reaches, in five years, an amount equivalent to 90 % of the annual contribution it would pay as a State Party to the Metre Convention,
-      * this progressive and irreversible increase will be applicable starting on the 1st January of the second year following the CIPM decision to encourage an Associate State to become a State Party to the Metre Convention,
-      * the CIPM review of the situation of Associate States in 2011 will be used in application of the present Resolution and that the first increase of the subscriptions will become effective in 2013,
-      * such increase will not apply to Associate States whose annual subscription is already equal to the contribution they would pay as a State Party to the Metre Convention,
-      * as long as an Associate State does not fulfil the above-mentioned criteria to be encouraged to become a State Party to the Metre Convention, it will continue to benefit from the advantages of the Associate Status, as provided for in link:/en/CGPM/db/21/3/[Resolution 3 adopted by the CGPM at its 21st meeting (1999)], and from the BIPM services that the CIPM made available to them, and its subscription will continue to be determined as during the initial 5-year period,
+    message: decides that during an initial 5-year period following the accession
+      to the status of Associate of the CGPM, Associate States shall pay an annual
+      subscription determined from their contributions to the United Nations Organisation,
+      as for States Parties to the Metre Convention, with a minimum equal to 0.1 %
+      of the annual _dotation_ of the BIPM,
+  - type: decides
+    date_effective: 2011-10-21
+    message: decides that this decision will be applicable to current Associate States
+      for the calculation of their subscription starting for the year 2013,
+  - type: decides
+    date_effective: 2011-10-21
+    message: decides that after the above-mentioned initial 5-year period, if the
+      CIPM considers, on the basis of the criteria it adopted, that it would be appropriate
+      for an Associate State to become a State Party to the Metre Convention, the
+      amount of subscription for such an Associate will be progressively and irreversibly
+      increased each year so that it reaches, in five years, an amount equivalent
+      to 90 % of the annual contribution it would pay as a State Party to the Metre
+      Convention,
+  - type: decides
+    date_effective: 2011-10-21
+    message: decides that this progressive and irreversible increase will be applicable
+      starting on the 1st January of the second year following the CIPM decision to
+      encourage an Associate State to become a State Party to the Metre Convention,
+  - type: decides
+    date_effective: 2011-10-21
+    message: decides that the CIPM review of the situation of Associate States in
+      2011 will be used in application of the present Resolution and that the first
+      increase of the subscriptions will become effective in 2013,
+  - type: decides
+    date_effective: 2011-10-21
+    message: decides that such increase will not apply to Associate States whose annual
+      subscription is already equal to the contribution they would pay as a State
+      Party to the Metre Convention,
+  - type: decides
+    date_effective: 2011-10-21
+    message: decides that as long as an Associate State does not fulfil the above-mentioned
+      criteria to be encouraged to become a State Party to the Metre Convention, it
+      will continue to benefit from the advantages of the Associate Status, as provided
+      for in link:/en/CGPM/db/21/3/[Resolution 3 adopted by the CGPM at its 21st meeting
+      (1999)], and from the BIPM services that the CIPM made available to them, and
+      its subscription will continue to be determined as during the initial 5-year
+      period,
   - type: invites / further invites
     date_effective: 2011-10-21
     message: |-
@@ -464,14 +620,28 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2011-10-21
-    message: |-
-      *considering* that
-
-      * the Metre Convention, which established the Bureau International des Poids et Mesures, was signed in 1875 and last modified in 1921,
-      * the Annexed Regulations of the Metre Convention were amended on a number of occasions since then,
-      * the role and mission of the BIPM were reconfirmed in link:/en/CGPM/db/23/2/[Resolution 2 adopted by the CGPM at its 23rd meeting],
-      * the governance was last examined by an _ad hoc_ Working Group set up at the 16th meeting of the CGPM, that the conclusions of this ad hoc Working Group were that changes to the Metre Convention at that time were neither necessary nor desirable, and that these conclusions were approved by the CGPM at its 17th meeting in 1983,
-      * expectations of financial management and accountability have continued to increase both in national administrations and international organizations,
+    message: considering that the Metre Convention, which established the Bureau International
+      des Poids et Mesures, was signed in 1875 and last modified in 1921,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that the Annexed Regulations of the Metre Convention were
+      amended on a number of occasions since then,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that the role and mission of the BIPM were reconfirmed in
+      link:/en/CGPM/db/23/2/[Resolution 2 adopted by the CGPM at its 23rd meeting],
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that the governance was last examined by an _ad hoc_ Working
+      Group set up at the 16th meeting of the CGPM, that the conclusions of this ad
+      hoc Working Group were that changes to the Metre Convention at that time were
+      neither necessary nor desirable, and that these conclusions were approved by
+      the CGPM at its 17th meeting in 1983,
+  - type: considering
+    date_effective: 2011-10-21
+    message: considering that expectations of financial management and accountability
+      have continued to increase both in national administrations and international
+      organizations,
   - type: noting
     date_effective: 2011-10-21
     message: |-
@@ -487,10 +657,26 @@ resolutions:
   actions:
   - type: invites / further invites
     date_effective: 2011-10-21
-    message: |-
-      *invites*
-
-      * the CIPM to establish an _ad hoc_ Working Group under the Chairmanship of the President of the CIPM, with representation from the CIPM, States Parties to the Metre Convention (with maximum, intermediary and minimum contributions) and NMIs, properly balanced to represent all regions, and the Director of the BIPM, charged with conducting a Review of the role, mission, objectives, long-term financial stability, strategic direction and governance of the BIPM,
-      * the _ad hoc_ Working Group to present the findings of this Review to the CIPM, States Parties to the Metre Convention and NMI Directors in October 2012,
-      * the CIPM to formulate proposed actions on the basis of the findings of the ad hoc Working Group and implement those within its authority, subject to support from the representatives of States Parties to the Metre Convention and NMI Directors, during the 2013-2014 timeframe,
-      * the CIPM to report to the CGPM at its 25th meeting on recommendations from the Review of the _ad hoc_ Working Group, actions consequently taken by the CIPM and proposals for additional actions that require the approval of the CGPM.
+    message: invites the CIPM to establish an _ad hoc_ Working Group under the Chairmanship
+      of the President of the CIPM, with representation from the CIPM, States Parties
+      to the Metre Convention (with maximum, intermediary and minimum contributions)
+      and NMIs, properly balanced to represent all regions, and the Director of the
+      BIPM, charged with conducting a Review of the role, mission, objectives, long-term
+      financial stability, strategic direction and governance of the BIPM,
+  - type: invites / further invites
+    date_effective: 2011-10-21
+    message: invites the _ad hoc_ Working Group to present the findings of this Review
+      to the CIPM, States Parties to the Metre Convention and NMI Directors in October
+      2012,
+  - type: invites / further invites
+    date_effective: 2011-10-21
+    message: invites the CIPM to formulate proposed actions on the basis of the findings
+      of the ad hoc Working Group and implement those within its authority, subject
+      to support from the representatives of States Parties to the Metre Convention
+      and NMI Directors, during the 2013-2014 timeframe,
+  - type: invites / further invites
+    date_effective: 2011-10-21
+    message: invites the CIPM to report to the CGPM at its 25th meeting on recommendations
+      from the Review of the _ad hoc_ Working Group, actions consequently taken by
+      the CIPM and proposals for additional actions that require the approval of the
+      CGPM.

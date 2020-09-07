@@ -15,20 +15,28 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1979-10-12
-    message: |-
-      *considering*
-
-      * that the accuracy of mass measurements rests upon the perfect conservation of kilogram standards, in particular platinum iridium prototype Kilograms,
-      * that the transmission of this accuracy to kilogram standards made of other materials such as stainless steels is limited by an insufficient knowledge of the air buoyancy correction,
-      * that this air buoyancy correction is usually calculated on the basis of ambient conditions, but there exist significant differences between the formulas used for this calculation among the different laboratories,
+    message: considering that the accuracy of mass measurements rests upon the perfect
+      conservation of kilogram standards, in particular platinum iridium prototype
+      Kilograms,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considering that the transmission of this accuracy to kilogram standards
+      made of other materials such as stainless steels is limited by an insufficient
+      knowledge of the air buoyancy correction,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considering that this air buoyancy correction is usually calculated on
+      the basis of ambient conditions, but there exist significant differences between
+      the formulas used for this calculation among the different laboratories,
   actions:
   - type: recommends
     date_effective: 1979-10-12
-    message: |-
-      *recommends*
-
-      * that laboratories study the effects of ambient conditions upon kilogram standards and the methods for improving their conservation,
-      * that laboratories intensify their work aimed at an improved determination of the air buoyancy correction.
+    message: recommends that laboratories study the effects of ambient conditions
+      upon kilogram standards and the methods for improving their conservation,
+  - type: recommends
+    date_effective: 1979-10-12
+    message: recommends that laboratories intensify their work aimed at an improved
+      determination of the air buoyancy correction.
 - dates:
   - 1979-10-12
   title: Realization of electrical units
@@ -40,14 +48,26 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1979-10-12
-    message: |-
-      *considering*
-
-      * the importance for all applications of electrical measurements of more accurate realizations of the SI units, in particular the volt and the ampere,
-      * the recent improvement in these realizations both by direct methods and by indirect methods through the determination of physical constants,
-      * the divergences which remain between the results given by these different methods,
-      * the need to be able to compare independent realizations among themselves to elucidate the origin of these divergences,
-      * the improvement in accuracy that will be obtained as soon as a better coherence permits the establishment of more accurate values for the different realizations of these units,
+    message: considering the importance for all applications of electrical measurements
+      of more accurate realizations of the SI units, in particular the volt and the
+      ampere,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considering the recent improvement in these realizations both by direct
+      methods and by indirect methods through the determination of physical constants,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considering the divergences which remain between the results given by
+      these different methods,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considering the need to be able to compare independent realizations among
+      themselves to elucidate the origin of these divergences,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considering the improvement in accuracy that will be obtained as soon
+      as a better coherence permits the establishment of more accurate values for
+      the different realizations of these units,
   actions:
   - type: recommends
     date_effective: 1979-10-12
@@ -65,22 +85,46 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1979-10-12
-    message: |-
-      *considering*
-
-      * that despite the notable efforts of some laboratories there remain excessive divergences between the results of realizations of the candela based upon the present black body primary standard,
-      * that radiometric techniques are developing rapidly, allowing precisions that are already equivalent to those of photometry and that these techniques are already in use in national laboratories to realize the candela without having to construct a black body,
-      * that the relation between luminous quantities of photometry and radiometric quantities, namely the value of 683 lumens per watt for the spectral luminous efficacy of monochromatic radiation of frequency 540 x 10^12^ hertz, has been adopted by the Comité International des Poids et Mesures (CIPM) in 1977,
-      * that this value has been accepted as being sufficiently accurate for the system of luminous photopic quantities, that it implies a change of only about 3 % for the system of luminous scotopic quantities, and that it therefore ensures satisfactory continuity,
-      * that the time has come to give the candela a definition that will allow an improvement in both the ease of realization and the precision of photometric standards, and that applies to both photopic and scotopic photometric quantities and to quantities yet to be defined in the mesopic field,
+    message: considering that despite the notable efforts of some laboratories there
+      remain excessive divergences between the results of realizations of the candela
+      based upon the present black body primary standard,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considering that radiometric techniques are developing rapidly, allowing
+      precisions that are already equivalent to those of photometry and that these
+      techniques are already in use in national laboratories to realize the candela
+      without having to construct a black body,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considering that the relation between luminous quantities of photometry
+      and radiometric quantities, namely the value of 683 lumens per watt for the
+      spectral luminous efficacy of monochromatic radiation of frequency 540 x 10^12^
+      hertz, has been adopted by the Comité International des Poids et Mesures (CIPM)
+      in 1977,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considering that this value has been accepted as being sufficiently accurate
+      for the system of luminous photopic quantities, that it implies a change of
+      only about 3 % for the system of luminous scotopic quantities, and that it therefore
+      ensures satisfactory continuity,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considering that the time has come to give the candela a definition that
+      will allow an improvement in both the ease of realization and the precision
+      of photometric standards, and that applies to both photopic and scotopic photometric
+      quantities and to quantities yet to be defined in the mesopic field,
   actions:
   - type: decides
     date_effective: 1979-10-12
-    message: |-
-      *decides*
-
-      . The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540 x 10^12^ hertz and that has a radiant intensity in that direction of 1/683 watt per steradian.
-      . The definition of the candela (at the time called new candle) adopted by the CIPM in 1946 by reason of the powers conferred by the 8th CGPM in 1933, ratified by the 9th CGPM in 1948, then amended by the 13th CGPM in 1967, is abrogated.
+    message: decides The candela is the luminous intensity, in a given direction,
+      of a source that emits monochromatic radiation of frequency 540 x 10^12^ hertz
+      and that has a radiant intensity in that direction of 1/683 watt per steradian.
+  - type: decides
+    date_effective: 1979-10-12
+    message: decides The definition of the candela (at the time called new candle)
+      adopted by the CIPM in 1946 by reason of the powers conferred by the 8th CGPM
+      in 1933, ratified by the 9th CGPM in 1948, then amended by the 13th CGPM in
+      1967, is abrogated.
 - dates:
   - 1979-10-12
   title: Definition of the candela - Improvement of photometric accuracy
@@ -112,12 +156,18 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1979-10-12
-    message: |-
-      *considering*
-
-      * the effort made to introduce SI units into the field of ionizing radiations,
-      * the risk to human beings of an underestimated radiation dose, a risk that could result from a confusion between absorbed dose and dose equivalent,
-      * that the proliferation of special names represents a danger for the Système International d'Unités and must be avoided in every possible way, but that this rule can be broken when it is a matter of safeguarding human health,
+    message: considering the effort made to introduce SI units into the field of ionizing
+      radiations,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considering the risk to human beings of an underestimated radiation dose,
+      a risk that could result from a confusion between absorbed dose and dose equivalent,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considering that the proliferation of special names represents a danger
+      for the Système International d'Unités and must be avoided in every possible
+      way, but that this rule can be broken when it is a matter of safeguarding human
+      health,
   actions:
   - type: adopts
     date_effective: 1979-10-12
@@ -173,12 +223,18 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1979-10-12
-    message: |-
-      *considering*
-
-      * the importance of the research carried out and of the services rendered by the BIPM in recent years,
-      * the necessity to widen its activities, to improve continually its methods of work and its equipment as well as the qualifications and competence of its staff, to enable it to maintain its role as the world centre for scientific metrology,
-      * the delays inevitably accumulated over a number of years as a result of difficult economic conditions,
+    message: considering the importance of the research carried out and of the services
+      rendered by the BIPM in recent years,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considering the necessity to widen its activities, to improve continually
+      its methods of work and its equipment as well as the qualifications and competence
+      of its staff, to enable it to maintain its role as the world centre for scientific
+      metrology,
+  - type: considering
+    date_effective: 1979-10-12
+    message: considering the delays inevitably accumulated over a number of years
+      as a result of difficult economic conditions,
   - type: considering
     date_effective: 1979-10-12
     message: "*considering*\n\n* that following the adherence of the People's Republic
@@ -191,17 +247,18 @@ resolutions:
       CGPM,"
   - type: acknowledging
     date_effective: 1979-10-12
-    message: |-
-      *accepting*
-
-      * without any opposing vote the principle of the proposal of the CIPM duly notified in advance to Governments in conformity with Article 6 (1921), paragraph 5 of the Rules annexed to the Convention du Metre of 1875,
+    message: accepting without any opposing vote the principle of the proposal of
+      the CIPM duly notified in advance to Governments in conformity with Article
+      6 (1921), paragraph 5 of the Rules annexed to the Convention du Metre of 1875,
   actions:
   - type: decides
     date_effective: 1979-10-12
-    message: |-
-      *decides*
-
-      * that the fixed part of the annual budget of the Bureau International shall be increased in such a way that the sum of the fixed part and the complementary part (defined in Article 6 (1921) of the Rules annexed to the Convention du Metre) for the member States of the Convention du Metre at the time of the 16th CGPM, be obtained for the years 1981, 1982, 1983 et 1984 by multiplying the base budget by 1,12, (1,12)^2^, (1,12)^3^ and (1,12)^4^ respectively.
+    message: decides that the fixed part of the annual budget of the Bureau International
+      shall be increased in such a way that the sum of the fixed part and the complementary
+      part (defined in Article 6 (1921) of the Rules annexed to the Convention du
+      Metre) for the member States of the Convention du Metre at the time of the 16th
+      CGPM, be obtained for the years 1981, 1982, 1983 et 1984 by multiplying the
+      base budget by 1,12, (1,12)^2^, (1,12)^3^ and (1,12)^4^ respectively.
   - type: decides
     date_effective: 1979-10-12
     message: |-

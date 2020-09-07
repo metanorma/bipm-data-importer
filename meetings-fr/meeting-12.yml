@@ -42,11 +42,12 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1964-10-13
-    message: |-
-      considérant
-
-       l'état d'avancement de l'organisation de la section des étalons de mesure des radiations ionisantes et le travail déjà effectué,
-       la nécessité de compléter d'urgence les travaux de génie civil et l'équipement de base nécessaires au fonctionnement de cette section,
+    message: considérant l'état d'avancement de l'organisation de la section des étalons
+      de mesure des radiations ionisantes et le travail déjà effectué,
+  - type: considering
+    date_effective: 1964-10-13
+    message: considérant la nécessité de compléter d'urgence les travaux de génie
+      civil et l'équipement de base nécessaires au fonctionnement de cette section,
   actions:
   - type: decides
     date_effective: 1964-10-13
@@ -65,11 +66,14 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1964-10-13
-    message: |-
-      considérant
-
-       les commentaires du Comité international des poids et mesures joints à la Convocation de la Conférence, pour exposer la fonction du Bureau international des poids et mesures et les besoins absolus d'un organisme scientifique vivant, qui veut maintenir une activité efficace,
-       les avis recueillis depuis décembre 1963 dans les milieux compétents qui ont étudié ces commentaires ;
+    message: considérant les commentaires du Comité international des poids et mesures
+      joints à la Convocation de la Conférence, pour exposer la fonction du Bureau
+      international des poids et mesures et les besoins absolus d'un organisme scientifique
+      vivant, qui veut maintenir une activité efficace,
+  - type: considering
+    date_effective: 1964-10-13
+    message: considérant les avis recueillis depuis décembre 1963 dans les milieux
+      compétents qui ont étudié ces commentaires ;
   - type: noting
     date_effective: 1964-10-13
     message: constate que les moyens évalués par ce Comité sont en conformité avec
@@ -100,12 +104,17 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1964-10-13
-    message: |-
-      considérant
-
-       l'extension des fonctions que le Bureau international assume vis-à-vis des États,
-       l'accroissement de la précision des étalons de base dont le Bureau international s'occupe et la complexité des techniques exigées par cette précision,
-       le personnel et l'équipement scientifique nécessaires au Bureau international pour l'accomplissement de ses fonctions,
+    message: considérant l'extension des fonctions que le Bureau international assume
+      vis-à-vis des États,
+  - type: considering
+    date_effective: 1964-10-13
+    message: considérant l'accroissement de la précision des étalons de base dont
+      le Bureau international s'occupe et la complexité des techniques exigées par
+      cette précision,
+  - type: considering
+    date_effective: 1964-10-13
+    message: considérant le personnel et l'équipement scientifique nécessaires au
+      Bureau international pour l'accomplissement de ses fonctions,
   - type: having / having regard
     date_effective: 1964-10-13
     message: ayant considéré la proposition du Comité international des poids et mesures
@@ -156,11 +165,17 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1964-10-13
-    message: |-
-      *considérant*
-
-       que la Onzième Conférence générale des poids et mesures a constaté dans sa link:/fr/CGPM/db/11/10/[Résolution 10] l'urgence pour les buts de la haute métrologie d'arriver à un étalon atomique ou moléculaire d'intervalle de temps,
-       que, malgré les résultats acquis dans l'utilisation des étalons atomiques de fréquence à césium, le moment n'est pas encore venu pour la Conférence générale d'adopter une nouvelle définition de la seconde, unité de base du Système international d'unités, en raison des progrès nouveaux et importants qui peuvent être obtenus à la suite des études en cours,
+    message: considérant que la Onzième Conférence générale des poids et mesures a
+      constaté dans sa link:/fr/CGPM/db/11/10/[Résolution 10] l'urgence pour les buts
+      de la haute métrologie d'arriver à un étalon atomique ou moléculaire d'intervalle
+      de temps,
+  - type: considering
+    date_effective: 1964-10-13
+    message: considérant que, malgré les résultats acquis dans l'utilisation des étalons
+      atomiques de fréquence à césium, le moment n'est pas encore venu pour la Conférence
+      générale d'adopter une nouvelle définition de la seconde, unité de base du Système
+      international d'unités, en raison des progrès nouveaux et importants qui peuvent
+      être obtenus à la suite des études en cours,
   - type: considering
     date_effective: 1964-10-13
     message: "*considérant aussi* qu'on ne peut pas attendre davantage pour fonder
@@ -201,9 +216,8 @@ resolutions:
       donné au décimètre cube,"
   - type: recommends
     date_effective: 1964-10-13
-    message: |-
-      *recommande*
-       que le nom de litre ne soit pas utilisé pour exprimer les résultats des mesures de volume de haute précision.
+    message: recommande que le nom de litre ne soit pas utilisé pour exprimer les
+      résultats des mesures de volume de haute précision.
 - dates:
   - 1964-10-13
   title: Curie
@@ -296,11 +310,14 @@ resolutions:
   actions:
   - type: thanks / expresses-appreciation
     date_effective: 1964-10-13
-    message: |-
-      appréciant
-
-       les résultats expérimentaux obtenus par des laboratoires compétents pour connaître les différences existant entre la température thermodynamique et celle définie par l'Échelle internationale pratique de température,
-       les progrès déjà faits pour l'extension de l'Échelle internationale pratique de température au-dessous de 90°K jusqu'à 12°K et l'introduction des échelles de température au-dessous de 5°K,
+    message: appréciant les résultats expérimentaux obtenus par des laboratoires compétents
+      pour connaître les différences existant entre la température thermodynamique
+      et celle définie par l'Échelle internationale pratique de température,
+  - type: thanks / expresses-appreciation
+    date_effective: 1964-10-13
+    message: appréciant les progrès déjà faits pour l'extension de l'Échelle internationale
+      pratique de température au-dessous de 90°K jusqu'à 12°K et l'introduction des
+      échelles de température au-dessous de 5°K,
   - type: invites / further invites
     date_effective: 1964-10-13
     message: |-

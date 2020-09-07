@@ -15,13 +15,28 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2018-11-16
-    message: |-
-      *considering*
-
-      * the essential requirement for an International System of Units (SI) that is uniform and accessible world-wide for international trade, high-technology manufacturing, human health and safety, protection of the environment, global climate studies and the basic science that underpins all these,
-      * that the SI units must be stable in the long term, internally self consistent and practically realizable being based on the present theoretical description of nature at the highest level,
-      * that a revision of the SI to meet these requirements was proposed in Resolution 1 adopted unanimously by the CGPM at its 24th meeting (2011) that laid out in detail a new way of defining the SI based on a set of seven defining constants, drawn from the fundamental constants of physics and other constants of nature, from which the definitions of the seven base units are deduced,
-      * that the conditions set by the CGPM at its 24th meeting (2011), confirmed at its 25th meeting (2014), before such a revised SI could be adopted have now been met,
+    message: considering the essential requirement for an International System of
+      Units (SI) that is uniform and accessible world-wide for international trade,
+      high-technology manufacturing, human health and safety, protection of the environment,
+      global climate studies and the basic science that underpins all these,
+  - type: considering
+    date_effective: 2018-11-16
+    message: considering that the SI units must be stable in the long term, internally
+      self consistent and practically realizable being based on the present theoretical
+      description of nature at the highest level,
+  - type: considering
+    date_effective: 2018-11-16
+    message: considering that a revision of the SI to meet these requirements was
+      proposed in Resolution 1 adopted unanimously by the CGPM at its 24th meeting
+      (2011) that laid out in detail a new way of defining the SI based on a set of
+      seven defining constants, drawn from the fundamental constants of physics and
+      other constants of nature, from which the definitions of the seven base units
+      are deduced,
+  - type: considering
+    date_effective: 2018-11-16
+    message: considering that the conditions set by the CGPM at its 24th meeting (2011),
+      confirmed at its 25th meeting (2014), before such a revised SI could be adopted
+      have now been met,
   - type: noting
     date_effective: 2018-11-16
     message: "*notes* the consequences as set out in Resolution 1 adopted by the CGPM
@@ -146,70 +161,112 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2018-11-16
-    message: "*considering* that\n\n* link:/en/CGPM/db/14/1/[Resolution 1 adopted
-      by the CGPM at its 14th meeting (1971)] requested the CIPM to define International
-      Atomic Time (TAI), \n* no complete self-contained definition of TAI has been
-      provided officially by the CIPM, \n* the Consultative Committee for the Definition
-      of the Second (CCDS) proposed in its Recommendation S2 (1970) a definition which
-      was extended by a Declaration of the CCDS in 1980, \n* the CGPM at its 15th
-      meeting (1975) noted that Coordinated Universal Time (UTC), derived from TAI,
-      provides the basis of civil time, and strongly endorsed this usage,"
+    message: 'considering that link:/en/CGPM/db/14/1/[Resolution 1 adopted by the
+      CGPM at its 14th meeting (1971)] requested the CIPM to define International
+      Atomic Time (TAI), '
+  - type: considering
+    date_effective: 2018-11-16
+    message: 'considering that no complete self-contained definition of TAI has been
+      provided officially by the CIPM, '
+  - type: considering
+    date_effective: 2018-11-16
+    message: 'considering that the Consultative Committee for the Definition of the
+      Second (CCDS) proposed in its Recommendation S2 (1970) a definition which was
+      extended by a Declaration of the CCDS in 1980, '
+  - type: considering
+    date_effective: 2018-11-16
+    message: considering that the CGPM at its 15th meeting (1975) noted that Coordinated
+      Universal Time (UTC), derived from TAI, provides the basis of civil time, and
+      strongly endorsed this usage,
   - type: recognizing
     date_effective: 2018-11-16
-    message: "*recognizing* that\n\n* the mission of the BIPM is to ensure and promote
-      the global comparability of measurements, including the provision of a coherent
-      international system of units, \n* the International Astronomical Union (IAU)
-      and the International Union of Geodesy and Geophysics (IUGG) with the International
+    message: 'recognizing that the mission of the BIPM is to ensure and promote the
+      global comparability of measurements, including the provision of a coherent
+      international system of units, '
+  - type: recognizing
+    date_effective: 2018-11-16
+    message: 'recognizing that the International Astronomical Union (IAU) and the
+      International Union of Geodesy and Geophysics (IUGG) with the International
       Association of Geodesy (IAG) are responsible for defining reference systems
-      for Earth and space applications, \n* the International Telecommunication Union
-      Radiocommunication Sector (ITU-R) is responsible for coordinating the dissemination
-      of time and frequency signals and making relevant recommendations, \n* the International
-      Earth Rotation and Reference Systems Service (IERS), a service of the IAU and
-      IUGG, is responsible for providing information required to relate terrestrial
-      and celestial reference systems, including time-varying measurements of the
-      Earth's rotation angle, UT1 - UTC, the low-precision prediction of UT1 - UTC
-      for time signal broadcasts, DUT1, and for deciding and announcing leap second
-      insertions,"
+      for Earth and space applications, '
+  - type: recognizing
+    date_effective: 2018-11-16
+    message: 'recognizing that the International Telecommunication Union Radiocommunication
+      Sector (ITU-R) is responsible for coordinating the dissemination of time and
+      frequency signals and making relevant recommendations, '
+  - type: recognizing
+    date_effective: 2018-11-16
+    message: recognizing that the International Earth Rotation and Reference Systems
+      Service (IERS), a service of the IAU and IUGG, is responsible for providing
+      information required to relate terrestrial and celestial reference systems,
+      including time-varying measurements of the Earth's rotation angle, UT1 - UTC,
+      the low-precision prediction of UT1 - UTC for time signal broadcasts, DUT1,
+      and for deciding and announcing leap second insertions,
   - type: noting
     date_effective: 2018-11-16
-    message: "*noting* that\n\n* Resolution A4 (1991) of the IAU defined, in Recommendations
+    message: 'noting that Resolution A4 (1991) of the IAU defined, in Recommendations
       I and II, the Geocentric Reference System as a system of space-time coordinates
       for the Earth within the framework of general relativity, and, in Recommendation
-      III, named the time coordinate of that reference system \"Geocentric Coordinate
-      Time\" (TCG), \n* Resolution A4 (1991) of the IAU further defined, in Recommendation
+      III, named the time coordinate of that reference system "Geocentric Coordinate
+      Time" (TCG), '
+  - type: noting
+    date_effective: 2018-11-16
+    message: 'noting that Resolution A4 (1991) of the IAU further defined, in Recommendation
       IV, Terrestrial Time (TT) as another time coordinate in the Geocentric Reference
       System, differing from TCG by a constant rate; the unit of measurement of TT
-      being chosen to agree with the SI second on the geoid, \n* Resolution B1.9 (2000)
-      of the IAU redefined TT to be a time scale differing from TCG by a constant
-      rate: _d_TT/_d_TCG = 1 \x96 _L_~G~, where _L_~G~ = 6.969 290 134 × 10^\x9610^
-      is a defining constant (the numerical value of _L_~G~ was chosen to conform
-      to the value _W_~0~ = 62 636 856.0 m^2^s^\x962^ for the gravity potential on
-      the geoid as recommended by Special Commission 3 of the IAG in 1999), \n* the
-      redefinition of TT in 2000 introduced an ambiguity between TT and TAI as the
-      CCDS had stated in 1980 that TAI was to have \"_the SI second as realized on
-      the rotating geoid as the scale unit_\" while the definition of TT does not
-      refer to the geoid,"
+      being chosen to agree with the SI second on the geoid, '
+  - type: noting
+    date_effective: 2018-11-16
+    message: "noting that Resolution B1.9 (2000) of the IAU redefined TT to be a time
+      scale differing from TCG by a constant rate: _d_TT/_d_TCG = 1 \x96 _L_~G~, where
+      _L_~G~ = 6.969 290 134 × 10^\x9610^ is a defining constant (the numerical value
+      of _L_~G~ was chosen to conform to the value _W_~0~ = 62 636 856.0 m^2^s^\x962^
+      for the gravity potential on the geoid as recommended by Special Commission
+      3 of the IAG in 1999), "
+  - type: noting
+    date_effective: 2018-11-16
+    message: noting that the redefinition of TT in 2000 introduced an ambiguity between
+      TT and TAI as the CCDS had stated in 1980 that TAI was to have "_the SI second
+      as realized on the rotating geoid as the scale unit_" while the definition of
+      TT does not refer to the geoid,
   actions:
   - type: affirms / reaffirming
     date_effective: 2018-11-16
-    message: "*states* that \n* TAI is a continuous time scale produced by the BIPM
-      based on the best realizations of the SI second, and is a realization of TT
-      as defined by IAU Resolution B1.9 (2000), \n* in the transformation from the
-      proper time of a clock to TAI, the relativistic rate shift is computed with
-      respect to the conventionally adopted equipotential _W_~0~ = 62 636 856.0 m^2^s^\x962^
-      of the Earth's gravity potential, which conforms to the constant _L_~G~ defining
-      the rate of TT,\n* as stated in the IAU Resolution A4 (1991), TT - TAI = 32.184
+    message: 'states that TAI is a continuous time scale produced by the BIPM based
+      on the best realizations of the SI second, and is a realization of TT as defined
+      by IAU Resolution B1.9 (2000), '
+  - type: affirms / reaffirming
+    date_effective: 2018-11-16
+    message: "states that in the transformation from the proper time of a clock to
+      TAI, the relativistic rate shift is computed with respect to the conventionally
+      adopted equipotential _W_~0~ = 62 636 856.0 m^2^s^\x962^ of the Earth's gravity
+      potential, which conforms to the constant _L_~G~ defining the rate of TT,"
+  - type: affirms / reaffirming
+    date_effective: 2018-11-16
+    message: 'states that as stated in the IAU Resolution A4 (1991), TT - TAI = 32.184
       s exactly at 1 January 1977, 0h TAI at the geocentre, in order to ensure continuity
-      of TT with Ephemeris Time, \n* UTC produced by the BIPM, based on TAI, is the
-      only recommended time scale for international reference and the basis of civil
-      time in most countries, \n* UTC differs from TAI only by an integral number
-      of seconds as published by the BIPM, \n* users can derive the rotation angle
-      of the Earth by applying to UTC the observed or predicted values of UT1 - UTC,
-      as provided by the IERS, \n* UTC provides a means to measure time intervals
-      and to disseminate the standard of frequency during intervals in which leap
-      seconds do not occur, \n* traceability to UTC is obtained through local real-time
-      realizations \"UTC(_k_)\" maintained by laboratories contributing data to the
-      calculation of UTC, identified by \"_k_\","
+      of TT with Ephemeris Time, '
+  - type: affirms / reaffirming
+    date_effective: 2018-11-16
+    message: 'states that UTC produced by the BIPM, based on TAI, is the only recommended
+      time scale for international reference and the basis of civil time in most countries, '
+  - type: affirms / reaffirming
+    date_effective: 2018-11-16
+    message: 'states that UTC differs from TAI only by an integral number of seconds
+      as published by the BIPM, '
+  - type: affirms / reaffirming
+    date_effective: 2018-11-16
+    message: 'states that users can derive the rotation angle of the Earth by applying
+      to UTC the observed or predicted values of UT1 - UTC, as provided by the IERS, '
+  - type: affirms / reaffirming
+    date_effective: 2018-11-16
+    message: 'states that UTC provides a means to measure time intervals and to disseminate
+      the standard of frequency during intervals in which leap seconds do not occur, '
+  - type: affirms / reaffirming
+    date_effective: 2018-11-16
+    message: states that traceability to UTC is obtained through local real-time realizations
+      "UTC(_k_)" maintained by laboratories contributing data to the calculation of
+      UTC, identified by "_k_",
   - type: confirms
     date_effective: 2018-11-16
     message: "*confirms* that\n\n* International Atomic Time (TAI) is a continuous
@@ -236,9 +293,12 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2018-11-16
-    message: "*considering*\n\n* the world-wide use of the metric system - now the
-      International System of Units (SI), \n* link:/en/CGPM/db/21/3/[Resolution 3
-      adopted by the CGPM at its 21st meeting (1999)], which"
+    message: 'considering the world-wide use of the metric system - now the International
+      System of Units (SI), '
+  - type: considering
+    date_effective: 2018-11-16
+    message: considering link:/en/CGPM/db/21/3/[Resolution 3 adopted by the CGPM at
+      its 21st meeting (1999)], which
   - type: considering
     date_effective: 2018-11-16
     message: "considers that all States, not only those that are Parties to the Metre
@@ -260,28 +320,47 @@ resolutions:
       of the BIPM by those States with emerging metrology systems,"
   - type: noting
     date_effective: 2018-11-16
-    message: "*noting*\n\n* the importance of the use of the SI for innovation, industrial
-      and societal needs, \n* the continuing role of the BIPM following the revision
-      of the International System of Units (SI), \n* the success of the CIPM MRA and
-      the implementation of the recommendations following its recent review, \n* the
-      core role of metrology within the international Quality Infrastructure and the
-      importance of international recognition of measurements for conformity assessment,
-      \n* the growing interest in participation in the activities of the BIPM, particularly
-      from States with emerging metrology systems,"
+    message: 'noting the importance of the use of the SI for innovation, industrial
+      and societal needs, '
+  - type: noting
+    date_effective: 2018-11-16
+    message: 'noting the continuing role of the BIPM following the revision of the
+      International System of Units (SI), '
+  - type: noting
+    date_effective: 2018-11-16
+    message: 'noting the success of the CIPM MRA and the implementation of the recommendations
+      following its recent review, '
+  - type: noting
+    date_effective: 2018-11-16
+    message: 'noting the core role of metrology within the international Quality Infrastructure
+      and the importance of international recognition of measurements for conformity
+      assessment, '
+  - type: noting
+    date_effective: 2018-11-16
+    message: noting the growing interest in participation in the activities of the
+      BIPM, particularly from States with emerging metrology systems,
   actions:
   - type: welcomes
     date_effective: 2018-11-16
-    message: "*welcomes*\n\n* the revised strategy and objectives for the BIPM, agreed
-      by the CIPM, allowing planning beyond the four-year cycle of the BIPM Work Programme
+    message: 'welcomes the revised strategy and objectives for the BIPM, agreed by
+      the CIPM, allowing planning beyond the four-year cycle of the BIPM Work Programme
       and leading to best use of resources, including investment in people, infrastructure
-      and equipment, \n* the development of a long-term strategic view which, together
+      and equipment, '
+  - type: welcomes
+    date_effective: 2018-11-16
+    message: 'welcomes the development of a long-term strategic view which, together
       with a consolidated planning process, underpins the development of the BIPM
-      Work Programme in consultation with Member States, \n* the continuous efforts
-      of the BIPM to engage more States in its activities, \n* the recognition of
-      a common definition for the Quality Infrastructure by the World Bank and the
-      ten international and intergovernmental organizations that form the network
-      on metrology, accreditation, standardization and conformity assessment for developing
-      countries (DCMAS Network), including the BIPM,"
+      Work Programme in consultation with Member States, '
+  - type: welcomes
+    date_effective: 2018-11-16
+    message: 'welcomes the continuous efforts of the BIPM to engage more States in
+      its activities, '
+  - type: welcomes
+    date_effective: 2018-11-16
+    message: welcomes the recognition of a common definition for the Quality Infrastructure
+      by the World Bank and the ten international and intergovernmental organizations
+      that form the network on metrology, accreditation, standardization and conformity
+      assessment for developing countries (DCMAS Network), including the BIPM,
   - type: confirms
     date_effective: 2018-11-16
     message: "*confirms*\n\nthat the objectives of the BIPM are to:\n\n* represent
@@ -305,29 +384,34 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2018-11-16
-    message: "*considering*\n\n* the increased importance of the work of the International
+    message: 'considering the increased importance of the work of the International
       Bureau of Weights and Measures (BIPM) to international trade, to industrial
       innovation, to monitor the global environment, to human health and medicine,
-      to food and forensic science in all Member States, \n* the recognition of the
-      BIPM as the scientifically expert intergovernmental organization in metrology
-      and the added value and cost efficiency it provides to all Member States in
-      technical and economic terms, \n* the manner in which the BIPM continues to
-      adopt best management practice and to improve the efficiency of its operation,
-      \n* link:/en/CGPM/db/16/7/[Resolution 7 adopted by the CGPM at its 16th meeting
-      (1979)] establishing a principle for the determination of the base dotation,"
+      to food and forensic science in all Member States, '
+  - type: considering
+    date_effective: 2018-11-16
+    message: 'considering the recognition of the BIPM as the scientifically expert
+      intergovernmental organization in metrology and the added value and cost efficiency
+      it provides to all Member States in technical and economic terms, '
+  - type: considering
+    date_effective: 2018-11-16
+    message: 'considering the manner in which the BIPM continues to adopt best management
+      practice and to improve the efficiency of its operation, '
+  - type: considering
+    date_effective: 2018-11-16
+    message: considering link:/en/CGPM/db/16/7/[Resolution 7 adopted by the CGPM at
+      its 16th meeting (1979)] establishing a principle for the determination of the
+      base dotation,
   - type: noting
     date_effective: 2018-11-16
-    message: |-
-      *noting*
-
-      * the current world financial situation and the financial constraints that Member States continue to experience,
+    message: noting the current world financial situation and the financial constraints
+      that Member States continue to experience,
   actions:
   - type: welcomes
     date_effective: 2018-11-16
-    message: |-
-      *welcomes*
-
-      * the support of all kinds provided to the BIPM by National Metrology Institutes, in particular by way of secondment of staff to the BIPM, and support for the BIPM Capacity Building and Knowledge Transfer programme,
+    message: welcomes the support of all kinds provided to the BIPM by National Metrology
+      Institutes, in particular by way of secondment of staff to the BIPM, and support
+      for the BIPM Capacity Building and Knowledge Transfer programme,
   - type: decides
     date_effective: 2018-11-16
     message: |-
@@ -336,10 +420,11 @@ resolutions:
       the annual dotation of the BIPM, as defined in link:/utils/common/documents/official/metre-convention.pdf#page=16[Article 6 (1921) of the Regulations annexed to the Metre Convention], will be set in such a way that, for those States that are Parties to the Metre Convention at the time of the 26th meeting of the CGPM, it shall be: <center>12 356 526 euros in 2020</center><center>12 480 091 euros in 2021</center><center>12 604 892 euros in 2022</center><center>12 730 941 euros in 2023</center>
   - type: encourages
     date_effective: 2018-11-16
-    message: |-
-      *encourages*
-
-      * Member States, as well as international organizations, private organizations and foundations to maintain the provision of additional voluntary support of all kinds to support specific BIPM mission related activities, particularly those that facilitate participation in the activities of the BIPM by those countries without well-developed metrology infrastructure.
+    message: encourages Member States, as well as international organizations, private
+      organizations and foundations to maintain the provision of additional voluntary
+      support of all kinds to support specific BIPM mission related activities, particularly
+      those that facilitate participation in the activities of the BIPM by those countries
+      without well-developed metrology infrastructure.
 - dates:
   - 2018-11-16
   title: On the financial arrears of Member States and the process of exclusion
@@ -368,40 +453,55 @@ resolutions:
       obligations,"
   - type: noting
     date_effective: 2018-11-16
-    message: "*observing* that\n\n* paragraphs 6 and 7 of Article 6 of the Annexed
-      Regulations foresee that whilst the advantages and prerogatives of Member States
-      are suspended for those States in arrears by three years, their contributions
-      remain due, \n* historical practice has always been to apply paragraphs 6 and
-      7 of Article 6 of the Annexed Regulations,"
+    message: 'observing that paragraphs 6 and 7 of Article 6 of the Annexed Regulations
+      foresee that whilst the advantages and prerogatives of Member States are suspended
+      for those States in arrears by three years, their contributions remain due, '
   - type: noting
     date_effective: 2018-11-16
-    message: "*noting* that\n\n* historical practice has been at variance with the
-      provisions of paragraph 8 of Article 6 of the Annexed Regulations by not excluding
-      Member States when they have defaulted on their contributions for more than
-      six years and by not re-establishing the calculation of contributions, \n* historical
-      practice has resulted in certain Member States remaining in a state of suspension
-      for periods considerably exceeding the three-year period envisaged in the Annexed
-      Regulations, leading to the accumulation of their arrears and the consequent
-      distribution of their contributions among all other Member States, \n* link:/en/CGPM/db/23/8/[Resolution
-      8 adopted by the CGPM at its 23rd meeting (2007)] introduced a procedure for
-      the exclusion of a defaulting Member State that requires a decision of the CGPM,
-      and consequently, the period of suspension prior to exclusion depends on the
-      scheduling of CGPM meetings and thus defaulting Member States may not be treated
-      equally, \n* link:/en/CGPM/db/23/8/[Resolution 8 (2007)] partly addressed the
-      issues raised by historical practice,"
+    message: observing that historical practice has always been to apply paragraphs
+      6 and 7 of Article 6 of the Annexed Regulations,
+  - type: noting
+    date_effective: 2018-11-16
+    message: 'noting that historical practice has been at variance with the provisions
+      of paragraph 8 of Article 6 of the Annexed Regulations by not excluding Member
+      States when they have defaulted on their contributions for more than six years
+      and by not re-establishing the calculation of contributions, '
+  - type: noting
+    date_effective: 2018-11-16
+    message: 'noting that historical practice has resulted in certain Member States
+      remaining in a state of suspension for periods considerably exceeding the three-year
+      period envisaged in the Annexed Regulations, leading to the accumulation of
+      their arrears and the consequent distribution of their contributions among all
+      other Member States, '
+  - type: noting
+    date_effective: 2018-11-16
+    message: 'noting that link:/en/CGPM/db/23/8/[Resolution 8 adopted by the CGPM
+      at its 23rd meeting (2007)] introduced a procedure for the exclusion of a defaulting
+      Member State that requires a decision of the CGPM, and consequently, the period
+      of suspension prior to exclusion depends on the scheduling of CGPM meetings
+      and thus defaulting Member States may not be treated equally, '
+  - type: noting
+    date_effective: 2018-11-16
+    message: noting that link:/en/CGPM/db/23/8/[Resolution 8 (2007)] partly addressed
+      the issues raised by historical practice,
   - type: recalling / further recalling
     date_effective: 2018-11-16
-    message: "*further recalling* that\n\n* procedural clarity and fair treatment
-      of Member States are matters of good governance and are beneficial to all parties,
-      \n* the International Committee for Weights and Measures (CIPM), as the permanent
-      supervisory organ of the BIPM, could apply Article 6 paragraph 8 of the Annexed
-      Regulations in a timely manner,"
+    message: 'further recalling that procedural clarity and fair treatment of Member
+      States are matters of good governance and are beneficial to all parties, '
+  - type: recalling / further recalling
+    date_effective: 2018-11-16
+    message: further recalling that the International Committee for Weights and Measures
+      (CIPM), as the permanent supervisory organ of the BIPM, could apply Article
+      6 paragraph 8 of the Annexed Regulations in a timely manner,
   actions:
   - type: decides
     date_effective: 2018-11-16
-    message: "*decides* that\n\n* the CIPM shall implement Article 6 paragraph 8 of
-      the Annexed Regulations, \n* the CIPM shall address the situation where historical
-      practice has resulted in the accumulation of arrears,"
+    message: 'decides that the CIPM shall implement Article 6 paragraph 8 of the Annexed
+      Regulations, '
+  - type: decides
+    date_effective: 2018-11-16
+    message: decides that the CIPM shall address the situation where historical practice
+      has resulted in the accumulation of arrears,
   - type: confirms
     date_effective: 2018-11-16
     message: "*confirms* that\n\n* the CIPM shall notify the French Ministry for Europe

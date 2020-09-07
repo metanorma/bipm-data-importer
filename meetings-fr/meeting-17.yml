@@ -15,43 +15,62 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1983-10-21
-    message: "*considérant*\n\n* que la définition actuelle ne permet pas une réalisation
-      du mètre suffisamment précise pour tous les besoins,\n* que les progrès réalisés
-      dans l'asservissement des lasers permettent d'obtenir des radiations plus reproductibles
-      et plus faciles à utiliser que la radiation étalon émise par une lampe à krypton
-      86,\n* que les progrès réalisés dans la mesure des fréquences et des longueurs
-      d'onde de ces radiations ont abouti à des déterminations concordantes de la
-      vitesse de la lumière dont l'exactitude est limitée principalement par la réalisation
-      du mètre dans sa définition actuelle,\n* que les valeurs des longueurs d'onde
-      déterminées à partir de mesures de fréquence et d'une valeur donnée de la vitesse
-      de la lumière ont une précision supérieure à celle qui peut être obtenue par
-      comparaison avec la longueur d'onde de la radiation étalon du krypton 86,\n*
-      qu'il y a avantage, notamment pour l'astronomie et la géodésie, à maintenir
-      inchangée la valeur de la vitesse de la lumière recommandée en 1975 par la link:/fr/CGPM/db/15/2/[15^e^
-      Conférence générale des poids et mesures, dans sa Résolution 2] (_c_ = 299 792
-      458 m/s),\n* qu'une nouvelle définition du mètre a été envisagée sous diverses
-      formes qui ont toutes pour effet de donner à la vitesse de la lumière une valeur
-      exacte, égale à la valeur recommandée, et que cela n'introduit aucune discontinuité
-      appréciable de l'unité de longueur, compte tenu de l'incertitude relative de
-      image::/utils/special/Math/plusminus.gif[] 4 ´ 10^\x969^ des meilleures réalisations
-      du mètre dans sa définition actuelle,\n* que ces diverses formes, faisant appel
-      soit au trajet parcouru par la lumière dans un intervalle de temps spécifié,
-      soit à la longueur d'onde d'une radiation de fréquence mesurée ou de fréquence
-      spécifiée, ont fait l'objet de consultations et de discussions approfondies,
-      qu'elles ont été reconnues équivalentes et qu'un consensus s'est dégagé en faveur
-      de la première forme,\n* que le Comité consultatif pour la définition du mètre
-      est dès maintenant en mesure de donner des instructions pour la mise en pratique
+    message: considérant que la définition actuelle ne permet pas une réalisation
+      du mètre suffisamment précise pour tous les besoins,
+  - type: considering
+    date_effective: 1983-10-21
+    message: considérant que les progrès réalisés dans l'asservissement des lasers
+      permettent d'obtenir des radiations plus reproductibles et plus faciles à utiliser
+      que la radiation étalon émise par une lampe à krypton 86,
+  - type: considering
+    date_effective: 1983-10-21
+    message: considérant que les progrès réalisés dans la mesure des fréquences et
+      des longueurs d'onde de ces radiations ont abouti à des déterminations concordantes
+      de la vitesse de la lumière dont l'exactitude est limitée principalement par
+      la réalisation du mètre dans sa définition actuelle,
+  - type: considering
+    date_effective: 1983-10-21
+    message: considérant que les valeurs des longueurs d'onde déterminées à partir
+      de mesures de fréquence et d'une valeur donnée de la vitesse de la lumière ont
+      une précision supérieure à celle qui peut être obtenue par comparaison avec
+      la longueur d'onde de la radiation étalon du krypton 86,
+  - type: considering
+    date_effective: 1983-10-21
+    message: considérant qu'il y a avantage, notamment pour l'astronomie et la géodésie,
+      à maintenir inchangée la valeur de la vitesse de la lumière recommandée en 1975
+      par la link:/fr/CGPM/db/15/2/[15^e^ Conférence générale des poids et mesures,
+      dans sa Résolution 2] (_c_ = 299 792 458 m/s),
+  - type: considering
+    date_effective: 1983-10-21
+    message: "considérant qu'une nouvelle définition du mètre a été envisagée sous
+      diverses formes qui ont toutes pour effet de donner à la vitesse de la lumière
+      une valeur exacte, égale à la valeur recommandée, et que cela n'introduit aucune
+      discontinuité appréciable de l'unité de longueur, compte tenu de l'incertitude
+      relative de image::/utils/special/Math/plusminus.gif[] 4 ´ 10^\x969^ des meilleures
+      réalisations du mètre dans sa définition actuelle,"
+  - type: considering
+    date_effective: 1983-10-21
+    message: considérant que ces diverses formes, faisant appel soit au trajet parcouru
+      par la lumière dans un intervalle de temps spécifié, soit à la longueur d'onde
+      d'une radiation de fréquence mesurée ou de fréquence spécifiée, ont fait l'objet
+      de consultations et de discussions approfondies, qu'elles ont été reconnues
+      équivalentes et qu'un consensus s'est dégagé en faveur de la première forme,
+  - type: considering
+    date_effective: 1983-10-21
+    message: considérant que le Comité consultatif pour la définition du mètre est
+      dès maintenant en mesure de donner des instructions pour la mise en pratique
       d'une telle définition, instructions qui pourront inclure l'emploi de la radiation
       orangée du krypton 86 utilisée jusqu'ici comme étalon et qui pourront être complétées
-      ou révisées par la suite,"
+      ou révisées par la suite,
   actions:
   - type: decides
     date_effective: 1983-10-21
-    message: |-
-      *décide*
-
-      . Le mètre est la longueur du trajet parcouru dans le vide par la lumière pendant une durée de 1/299 792 458 de seconde.
-      . La définition du mètre en vigueur depuis 1960, fondée sur la transition entre les niveaux 2p~10~ et 5d~5~ de l'atome de krypton 86, est abrogée.
+    message: décide Le mètre est la longueur du trajet parcouru dans le vide par la
+      lumière pendant une durée de 1/299 792 458 de seconde.
+  - type: decides
+    date_effective: 1983-10-21
+    message: décide La définition du mètre en vigueur depuis 1960, fondée sur la transition
+      entre les niveaux 2p~10~ et 5d~5~ de l'atome de krypton 86, est abrogée.
 - dates:
   - 1983-10-21
   title: Sur la mise en pratique de la définition du mètre
@@ -108,12 +127,17 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1983-10-21
-    message: |-
-      considérant
-
-      * l'importance des travaux effectués par le Bureau international des poids et mesures (BIPM) et des services qu'il rend à tous les pays,
-      * la nécessité d'assurer au BIPM des ressources minimales qui ne mettent pas en danger la poursuite de ces activités et
-      * la difficulté de prévoir, dans les circonstances économiques actuelles, les moyens financiers minimaux nécessaires pour permettre au BIPM de remplir sa mission de centre mondial de la métrologie scientifique,
+    message: considérant l'importance des travaux effectués par le Bureau international
+      des poids et mesures (BIPM) et des services qu'il rend à tous les pays,
+  - type: considering
+    date_effective: 1983-10-21
+    message: considérant la nécessité d'assurer au BIPM des ressources minimales qui
+      ne mettent pas en danger la poursuite de ces activités et
+  - type: considering
+    date_effective: 1983-10-21
+    message: considérant la difficulté de prévoir, dans les circonstances économiques
+      actuelles, les moyens financiers minimaux nécessaires pour permettre au BIPM
+      de remplir sa mission de centre mondial de la métrologie scientifique,
   actions:
   - type: decides
     date_effective: 1983-10-21

@@ -42,11 +42,12 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1964-10-13
-    message: |-
-      considérant
-
-       l'état d'avancement de l'organisation de la section des étalons de mesure des radiations ionisantes et le travail déjà effectué,
-       la nécessité de compléter d'urgence les travaux de génie civil et l'équipement de base nécessaires au fonctionnement de cette section,
+    message: considérant l'état d'avancement de l'organisation de la section des étalons
+      de mesure des radiations ionisantes et le travail déjà effectué,
+  - type: considering
+    date_effective: 1964-10-13
+    message: considérant la nécessité de compléter d'urgence les travaux de génie
+      civil et l'équipement de base nécessaires au fonctionnement de cette section,
   actions:
   - type: decides
     date_effective: 1964-10-13
@@ -65,11 +66,14 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1964-10-13
-    message: |-
-      considérant
-
-       les commentaires du Comité international des poids et mesures joints à la Convocation de la Conférence, pour exposer la fonction du Bureau international des poids et mesures et les besoins absolus d'un organisme scientifique vivant, qui veut maintenir une activité efficace,
-       les avis recueillis depuis décembre 1963 dans les milieux compétents qui ont étudié ces commentaires ;
+    message: considérant les commentaires du Comité international des poids et mesures
+      joints à la Convocation de la Conférence, pour exposer la fonction du Bureau
+      international des poids et mesures et les besoins absolus d'un organisme scientifique
+      vivant, qui veut maintenir une activité efficace,
+  - type: considering
+    date_effective: 1964-10-13
+    message: considérant les avis recueillis depuis décembre 1963 dans les milieux
+      compétents qui ont étudié ces commentaires ;
   - type: noting
     date_effective: 1964-10-13
     message: constate que les moyens évalués par ce Comité sont en conformité avec
@@ -100,12 +104,17 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1964-10-13
-    message: |-
-      considérant
-
-       l'extension des fonctions que le Bureau international assume vis-à-vis des États,
-       l'accroissement de la précision des étalons de base dont le Bureau international s'occupe et la complexité des techniques exigées par cette précision,
-       le personnel et l'équipement scientifique nécessaires au Bureau international pour l'accomplissement de ses fonctions,
+    message: considérant l'extension des fonctions que le Bureau international assume
+      vis-à-vis des États,
+  - type: considering
+    date_effective: 1964-10-13
+    message: considérant l'accroissement de la précision des étalons de base dont
+      le Bureau international s'occupe et la complexité des techniques exigées par
+      cette précision,
+  - type: considering
+    date_effective: 1964-10-13
+    message: considérant le personnel et l'équipement scientifique nécessaires au
+      Bureau international pour l'accomplissement de ses fonctions,
   - type: having / having regard
     date_effective: 1964-10-13
     message: ayant considéré la proposition du Comité international des poids et mesures
@@ -156,13 +165,16 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1964-10-13
-    message: "*considering*\n\n that the 11th CGPM noted in its link:/jsp/fr/ViewCGPMResolution.jsp?CGPM=11&RES=10[Resolution
+    message: 'considering that the 11th CGPM noted in its link:/jsp/fr/ViewCGPMResolution.jsp?CGPM=11&RES=10[Resolution
       10] the urgency, in the interests of accurate metrology, of adopting an atomic
-      or molecular standard of time interval, \n that, in spite of the results already
-      obtained with caesium atomic frequency standards, the time has not yet come
-      for the CGPM to adopt a new definition of the second, base unit of the Système
-      International d'Unités, because of the new and considerable improvements likely
-      to be obtained from work now in progress,"
+      or molecular standard of time interval, '
+  - type: considering
+    date_effective: 1964-10-13
+    message: considering that, in spite of the results already obtained with caesium
+      atomic frequency standards, the time has not yet come for the CGPM to adopt
+      a new definition of the second, base unit of the Système International d'Unités,
+      because of the new and considerable improvements likely to be obtained from
+      work now in progress,
   - type: considering
     date_effective: 1964-10-13
     message: "*considering also* that it is not desirable to wait any longer before
@@ -202,9 +214,8 @@ resolutions:
       for the cubic decimetre,"
   - type: recommends
     date_effective: 1964-10-13
-    message: |-
-      *recommends*
-       that the name litre should not be employed to give the results of high-accuracy volume measurements.
+    message: recommends that the name litre should not be employed to give the results
+      of high-accuracy volume measurements.
 - dates:
   - 1964-10-13
   title: Curie
@@ -295,11 +306,14 @@ resolutions:
   actions:
   - type: thanks / expresses-appreciation
     date_effective: 1964-10-13
-    message: |-
-      appréciant
-
-       les résultats expérimentaux obtenus par des laboratoires compétents pour connaître les différences existant entre la température thermodynamique et celle définie par l'Échelle internationale pratique de température,
-       les progrès déjà faits pour l'extension de l'Échelle internationale pratique de température au-dessous de 90°K jusqu'à 12°K et l'introduction des échelles de température au-dessous de 5°K,
+    message: appréciant les résultats expérimentaux obtenus par des laboratoires compétents
+      pour connaître les différences existant entre la température thermodynamique
+      et celle définie par l'Échelle internationale pratique de température,
+  - type: thanks / expresses-appreciation
+    date_effective: 1964-10-13
+    message: appréciant les progrès déjà faits pour l'extension de l'Échelle internationale
+      pratique de température au-dessous de 90°K jusqu'à 12°K et l'introduction des
+      échelles de température au-dessous de 5°K,
   - type: invites / further invites
     date_effective: 1964-10-13
     message: |-

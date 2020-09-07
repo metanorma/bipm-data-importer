@@ -72,11 +72,14 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1975-06-02
-    message: |-
-      *considering*
-
-      * that the accurate realization of the unit of mass, and of the units of all the quantities depending on mass, requires the use of the international Pt-Ir prototype kilogram held by the Bureau International des Poids et Mesures since 1889,
-      * that there is no immediate prospect of defining the mass unit in terms of atomic constants with a comparable precision,
+    message: considering that the accurate realization of the unit of mass, and of
+      the units of all the quantities depending on mass, requires the use of the international
+      Pt-Ir prototype kilogram held by the Bureau International des Poids et Mesures
+      since 1889,
+  - type: considering
+    date_effective: 1975-06-02
+    message: considering that there is no immediate prospect of defining the mass
+      unit in terms of atomic constants with a comparable precision,
   actions:
   - type: asks
     date_effective: 1975-06-02

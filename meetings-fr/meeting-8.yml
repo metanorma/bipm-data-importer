@@ -16,14 +16,27 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1933-10-10
-    message: |-
-      considérant
-
-       le sanctionnement des nouveaux prototypes métriques par la Première Conférence générale des poids et mesures,
-       la décision prise par la Quatrième Conférence générale des poids et mesures de faire procéder à la vérification périodique des mètres prototypes nationaux,
-       les nouvelles déterminations de la dilatabilité exécutées à l'occasion de cette première vérification périodique, qui ont conduit à adopter un coefficient identique pour toutes les règles des alliages Johnson-Matthey d'une part, et de 1874 d'autre part,
-       le Rapport du Directeur du Bureau international des poids et mesures relatif à ladite vérification,
-       la déclaration du Président du Comité international des poids et mesures approuvant ce Rapport,
+    message: considérant le sanctionnement des nouveaux prototypes métriques par la
+      Première Conférence générale des poids et mesures,
+  - type: considering
+    date_effective: 1933-10-10
+    message: considérant la décision prise par la Quatrième Conférence générale des
+      poids et mesures de faire procéder à la vérification périodique des mètres prototypes
+      nationaux,
+  - type: considering
+    date_effective: 1933-10-10
+    message: considérant les nouvelles déterminations de la dilatabilité exécutées
+      à l'occasion de cette première vérification périodique, qui ont conduit à adopter
+      un coefficient identique pour toutes les règles des alliages Johnson-Matthey
+      d'une part, et de 1874 d'autre part,
+  - type: considering
+    date_effective: 1933-10-10
+    message: considérant le Rapport du Directeur du Bureau international des poids
+      et mesures relatif à ladite vérification,
+  - type: considering
+    date_effective: 1933-10-10
+    message: considérant la déclaration du Président du Comité international des poids
+      et mesures approuvant ce Rapport,
   actions:
   - type: appoints
     date_effective: 1933-10-10
@@ -43,13 +56,21 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1933-10-10
-    message: |-
-      considérant
-
-       le sanctionnement des nouveaux prototypes métriques par la Première Conférence générale des poids et mesures,
-       la décision prise par la Quatrième Conférence générale des poids et mesures de faire procéder à la vérification périodique des mètres prototypes nationaux,
-       le Rapport du Directeur du Bureau international des poids et mesures relatif à ladite vérification,
-       la déclaration du Président du Comité international des poids et mesures approuvant, au nom du Comité, les termes de ce Rapport,
+    message: considérant le sanctionnement des nouveaux prototypes métriques par la
+      Première Conférence générale des poids et mesures,
+  - type: considering
+    date_effective: 1933-10-10
+    message: considérant la décision prise par la Quatrième Conférence générale des
+      poids et mesures de faire procéder à la vérification périodique des mètres prototypes
+      nationaux,
+  - type: considering
+    date_effective: 1933-10-10
+    message: considérant le Rapport du Directeur du Bureau international des poids
+      et mesures relatif à ladite vérification,
+  - type: considering
+    date_effective: 1933-10-10
+    message: considérant la déclaration du Président du Comité international des poids
+      et mesures approuvant, au nom du Comité, les termes de ce Rapport,
   actions:
   - type: decides
     date_effective: 1933-10-10
@@ -74,18 +95,20 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1933-10-10
-    message: |-
-      considérant
-
-       que le Mètre n° 7 n'avait pas participé aux premières comparaisons, faites en 1889, sur certains des autres prototypes de l'alliage de 1874,
-       que ce Mètre, devenu seulement en 1929 la propriété du Gouvernement Tchécoslovaque, n'a été vérifié au Bureau international qu'en 1929,
+    message: considérant que le Mètre n° 7 n'avait pas participé aux premières comparaisons,
+      faites en 1889, sur certains des autres prototypes de l'alliage de 1874,
+  - type: considering
+    date_effective: 1933-10-10
+    message: considérant que ce Mètre, devenu seulement en 1929 la propriété du Gouvernement
+      Tchécoslovaque, n'a été vérifié au Bureau international qu'en 1929,
   - type: acknowledging
     date_effective: 1933-10-10
-    message: |-
-      entendu
-
-       le Rapport du Directeur du Bureau international des poids et mesures relatif à ladite vérification,
-       la déclaration du Président du Comité international des poids et mesures approuvant ce Rapport, au nom du Comité,
+    message: entendu le Rapport du Directeur du Bureau international des poids et
+      mesures relatif à ladite vérification,
+  - type: acknowledging
+    date_effective: 1933-10-10
+    message: entendu la déclaration du Président du Comité international des poids
+      et mesures approuvant ce Rapport, au nom du Comité,
   actions:
   - type: decides
     date_effective: 1933-10-10
@@ -102,18 +125,21 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1933-10-10
-    message: |-
-      considérant
-
-       la sanction donnée à l'équation des nouveaux prototypes métriques par la Première Conférence générale des poids et mesures,
-       la décision prise par la Deuxième Conférence générale des poids et mesures, de faire procéder à la vérification périodique des kilogrammes prototypes nationaux,
+    message: considérant la sanction donnée à l'équation des nouveaux prototypes métriques
+      par la Première Conférence générale des poids et mesures,
+  - type: considering
+    date_effective: 1933-10-10
+    message: considérant la décision prise par la Deuxième Conférence générale des
+      poids et mesures, de faire procéder à la vérification périodique des kilogrammes
+      prototypes nationaux,
   - type: acknowledging
     date_effective: 1933-10-10
-    message: |-
-      entendu
-
-       le Rapport du Directeur du Bureau international des poids et mesures relatif à ladite vérification,
-       la déclaration du Président du Comité international des poids et mesures approuvant, au nom du Comité, les termes de ce Rapport,
+    message: entendu le Rapport du Directeur du Bureau international des poids et
+      mesures relatif à ladite vérification,
+  - type: acknowledging
+    date_effective: 1933-10-10
+    message: entendu la déclaration du Président du Comité international des poids
+      et mesures approuvant, au nom du Comité, les termes de ce Rapport,
   actions:
   - type: decides
     date_effective: 1933-10-10
@@ -137,18 +163,21 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1933-10-10
-    message: "considérant\n\n la construction récente de quatre kilogrammes en platine
+    message: "considérant la construction récente de quatre kilogrammes en platine
       iridié destinés \x96 les kilogrammes de la première coulée ayant tous été distribués
-      \x96 à permettre de répondre aux demandes d'acquéreurs nouveaux,\n l'achat d'un
-      de ces kilogrammes par le Gouvernement Tchécoslovaque, et les déterminations
-      au Bureau de sa densité et de sa masse,"
+      \x96 à permettre de répondre aux demandes d'acquéreurs nouveaux,"
+  - type: considering
+    date_effective: 1933-10-10
+    message: considérant l'achat d'un de ces kilogrammes par le Gouvernement Tchécoslovaque,
+      et les déterminations au Bureau de sa densité et de sa masse,
   - type: acknowledging
     date_effective: 1933-10-10
-    message: |-
-      entendu
-
-       le Rapport du Directeur du Bureau international des poids et mesures relatif auxdites déterminations,
-       la déclaration du Président du Comité international des poids et mesures approuvant ce rapport, au nom du Comité,
+    message: entendu le Rapport du Directeur du Bureau international des poids et
+      mesures relatif auxdites déterminations,
+  - type: acknowledging
+    date_effective: 1933-10-10
+    message: entendu la déclaration du Président du Comité international des poids
+      et mesures approuvant ce rapport, au nom du Comité,
   actions:
   - type: decides
     date_effective: 1933-10-10

@@ -16,34 +16,48 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1960-10-20
-    message: "considérant\n\n que le développement de l'énergie atomique et de la
-      recherche nucléaire nécessite que soit assurée l'uniformité des étalons de mesure
-      des radiations ionisantes,\n que l'uniformité internationale des mesures des
-      principales grandeurs physiques a été obtenue, maintenue et améliorée avec un
-      succès incontesté depuis 85 ans par l'action du Comité international et du Bureau
-      international des poids et mesures,\n que les grands Laboratoires nationaux
-      d'étalonnage chargés de l'uniformité des mesures dans leurs pays respectifs,
-      ayant trouvé au Bureau international et dans les réunions des Comités consultatifs
-      les facilités qu'ils souhaitaient pour \x9Cuvrer en commun à l'uniformité mondiale
-      des mesures physiques, ont exprimé leur désir que les laboratoires et le personnel
-      scientifique du Bureau international soient agrandis et complétés afin que l'\x9Cuvre
-      commune d'unification des mesures s'étende aux étalons de mesure des radiations
-      ionisantes,\n que la Commission internationale des unités et mesures radiologiques
+    message: considérant que le développement de l'énergie atomique et de la recherche
+      nucléaire nécessite que soit assurée l'uniformité des étalons de mesure des
+      radiations ionisantes,
+  - type: considering
+    date_effective: 1960-10-20
+    message: considérant que l'uniformité internationale des mesures des principales
+      grandeurs physiques a été obtenue, maintenue et améliorée avec un succès incontesté
+      depuis 85 ans par l'action du Comité international et du Bureau international
+      des poids et mesures,
+  - type: considering
+    date_effective: 1960-10-20
+    message: "considérant que les grands Laboratoires nationaux d'étalonnage chargés
+      de l'uniformité des mesures dans leurs pays respectifs, ayant trouvé au Bureau
+      international et dans les réunions des Comités consultatifs les facilités qu'ils
+      souhaitaient pour \x9Cuvrer en commun à l'uniformité mondiale des mesures physiques,
+      ont exprimé leur désir que les laboratoires et le personnel scientifique du
+      Bureau international soient agrandis et complétés afin que l'\x9Cuvre commune
+      d'unification des mesures s'étende aux étalons de mesure des radiations ionisantes,"
+  - type: considering
+    date_effective: 1960-10-20
+    message: considérant que la Commission internationale des unités et mesures radiologiques
       (ICRU), qui a joué un rôle déterminant dans le choix des étalons et leurs comparaisons
       dans le domaine des radiations ionisantes, déclare maintenant vouloir se dessaisir
       de cette partie de son activité à la condition qu'elle soit reprise par le Bureau
       international parce que ce Bureau est seul capable d'étendre cette activité
-      avec une autorité incontestée,\n que le travail d'unification internationale
-      des étalons de mesure des radiations ionisantes nécessite un centre directeur
-      scientifique permanent et unique établi et subventionné par un accord intergouvernemental
+      avec une autorité incontestée,
+  - type: considering
+    date_effective: 1960-10-20
+    message: considérant que le travail d'unification internationale des étalons de
+      mesure des radiations ionisantes nécessite un centre directeur scientifique
+      permanent et unique établi et subventionné par un accord intergouvernemental
       sans desseins politiques, et que le Bureau international des poids et mesures
-      répond à ces conditions,\n que les expériences physiques pour la préparation
-      et l'exécution des comparaisons des étalons de mesure des radiations ionisantes
-      nécessitent l'emploi d'étalons de mesure d'autres grandeurs physiques, que ces
-      derniers étalons existent dans les formes les plus exactes au Bureau international,
-      et que le personnel de ce Bureau, enrichi d'une longue tradition, connaît à
-      fond les règles générales de la métrologie et les règles particulières à chaque
-      forme d'étalon,"
+      répond à ces conditions,
+  - type: considering
+    date_effective: 1960-10-20
+    message: considérant que les expériences physiques pour la préparation et l'exécution
+      des comparaisons des étalons de mesure des radiations ionisantes nécessitent
+      l'emploi d'étalons de mesure d'autres grandeurs physiques, que ces derniers
+      étalons existent dans les formes les plus exactes au Bureau international, et
+      que le personnel de ce Bureau, enrichi d'une longue tradition, connaît à fond
+      les règles générales de la métrologie et les règles particulières à chaque forme
+      d'étalon,
   actions:
   - type: approves
     date_effective: 1960-10-20
@@ -139,12 +153,18 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1960-10-20
-    message: |-
-      considérant
-
-       que la précision exigée dans les mesures dont le Bureau international des poids et mesures a la charge s'améliore constamment et exige des instruments de plus en plus coûteux,
-       que les domaines d'activité du Bureau international sont étendus aux étalons de mesure des radiations ionisantes,
-       que dans toutes ses activités le Bureau international doit être servi par un personnel de haute qualification scientifique de recrutement difficile,
+    message: considérant que la précision exigée dans les mesures dont le Bureau international
+      des poids et mesures a la charge s'améliore constamment et exige des instruments
+      de plus en plus coûteux,
+  - type: considering
+    date_effective: 1960-10-20
+    message: considérant que les domaines d'activité du Bureau international sont
+      étendus aux étalons de mesure des radiations ionisantes,
+  - type: considering
+    date_effective: 1960-10-20
+    message: considérant que dans toutes ses activités le Bureau international doit
+      être servi par un personnel de haute qualification scientifique de recrutement
+      difficile,
   - type: having / having regard
     date_effective: 1960-10-20
     message: acceptant sans avis contraire la proposition du Comité international
@@ -170,20 +190,26 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1960-10-20
-    message: |-
-      *considering*
-
-       that the international Prototype does not define the metre with an accuracy adequate for the present needs of metrology,
-       that it is moreover desirable to adopt a natural and indestructible standard,
+    message: considering that the international Prototype does not define the metre
+      with an accuracy adequate for the present needs of metrology,
+  - type: considering
+    date_effective: 1960-10-20
+    message: considering that it is moreover desirable to adopt a natural and indestructible
+      standard,
   actions:
   - type: decides
     date_effective: 1960-10-20
-    message: |-
-      *decides*
-
-      . The metre is the length equal to 1 650 763,73 wavelengths in vacuum of the radiation corresponding to the transition between the levels 2p~10~ and 5d~5~ of the krypton 86 atom.
-      . The definition of the metre in force since 1889, based on the international Prototype of platinum-iridium, is abrogated.
-      . The international Prototype of the metre sanctioned by the 1st CGPM in 1889 shall be kept at the BIPM under the conditions specified in 1889.
+    message: decides The metre is the length equal to 1 650 763,73 wavelengths in
+      vacuum of the radiation corresponding to the transition between the levels 2p~10~
+      and 5d~5~ of the krypton 86 atom.
+  - type: decides
+    date_effective: 1960-10-20
+    message: decides The definition of the metre in force since 1889, based on the
+      international Prototype of platinum-iridium, is abrogated.
+  - type: decides
+    date_effective: 1960-10-20
+    message: decides The international Prototype of the metre sanctioned by the 1st
+      CGPM in 1889 shall be kept at the BIPM under the conditions specified in 1889.
 - dates:
   - 1960-10-20
   title: Définition du mètre
@@ -250,11 +276,11 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1960-10-20
-    message: |-
-      *considering*
-
-       the powers given to the Comité International des Poids et Mesures (CIPM) by the 10th CGPM to define the fundamental unit of time,
-       the decision taken by the CIPM in 1956,
+    message: considering the powers given to the Comité International des Poids et
+      Mesures (CIPM) by the 10th CGPM to define the fundamental unit of time,
+  - type: considering
+    date_effective: 1960-10-20
+    message: considering the decision taken by the CIPM in 1956,
   actions:
   - type: decides
     date_effective: 1960-10-20
@@ -284,11 +310,14 @@ resolutions:
       peut être réalisé et reproduit avec une précision très élevée,
   - type: invites / further invites
     date_effective: 1960-10-20
-    message: |-
-      invite
-
-       les laboratoires nationaux et internationaux experts dans ce domaine à poursuivre aussi activement que possible leurs études,
-       le Comité international des poids et mesures à coopérer sans retard avec les organismes internationaux intéressés et à coordonner les travaux en vue de permettre à la Douzième Conférence générale de prendre une résolution sur ce point.
+    message: invite les laboratoires nationaux et internationaux experts dans ce domaine
+      à poursuivre aussi activement que possible leurs études,
+  - type: invites / further invites
+    date_effective: 1960-10-20
+    message: invite le Comité international des poids et mesures à coopérer sans retard
+      avec les organismes internationaux intéressés et à coordonner les travaux en
+      vue de permettre à la Douzième Conférence générale de prendre une résolution
+      sur ce point.
 - dates:
   - 1960-10-20
   title: Système gravimétrique
@@ -411,11 +440,13 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1960-10-20
-    message: |-
-      considering
-
-       that the cubic decimetre and the litre are unequal and differ by about 28 parts in 10^6^,
-       that determinations of physical quantities which involve measurements of volume are being made more and more accurately, thus increasing the risk of confusion between the cubic decimetre and the litre,
+    message: considering that the cubic decimetre and the litre are unequal and differ
+      by about 28 parts in 10^6^,
+  - type: considering
+    date_effective: 1960-10-20
+    message: considering that determinations of physical quantities which involve
+      measurements of volume are being made more and more accurately, thus increasing
+      the risk of confusion between the cubic decimetre and the litre,
   actions:
   - type: requests
     date_effective: 1960-10-20
@@ -432,11 +463,15 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1960-10-20
-    message: |-
-      considérant
-
-       que tous les pays bénéficient des heureux résultats des travaux du Comité international et du Bureau international des poids et mesures, particulièrement illustrés par le rapport de son Président sur l'activité de ce Comité pendant la période 1954-1960,
-       que le développement de la science et de la technique contemporaines serait favorisé par une extension de plus en plus grande du Système Métrique dans le monde entier,
+    message: considérant que tous les pays bénéficient des heureux résultats des travaux
+      du Comité international et du Bureau international des poids et mesures, particulièrement
+      illustrés par le rapport de son Président sur l'activité de ce Comité pendant
+      la période 1954-1960,
+  - type: considering
+    date_effective: 1960-10-20
+    message: considérant que le développement de la science et de la technique contemporaines
+      serait favorisé par une extension de plus en plus grande du Système Métrique
+      dans le monde entier,
   actions:
   - type: asks
     date_effective: 1960-10-20

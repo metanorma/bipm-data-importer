@@ -15,16 +15,41 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1971-10-08
-    message: |-
-      *considering*
-
-       that the second, unit of time of the Système International d'Unités, has since 1967 been defined in terms of a natural atomic frequency, and no longer in terms of the time scales provided by astronomical motions,
-       that the need for an International Atomic Time (TAI) scale is a consequence of the atomic definition of the second,
-       that several international organizations have ensured and are still successfully ensuring the establishment of the time scales based on astronomical motions, particularly thanks to the permanent services of the Bureau International de l'Heure (BIH),
-       that the BIH has started to establish an atomic time scale of recognized quality and proven usefulness,
-       that the atomic frequency standards for realizing the second have been considered and must continue to be considered by the Comité International des Poids et Mesures (CIPM) helped by a Consultative Committee, and that the unit interval of the International Atomic Time scale must be the second realized according to its atomic definition,
-       that all the competent international scientific organizations and the national laboratories active in this field have expressed the wish that the CIPM and the CGPM should give a definition of International Atomic Time, and should contribute to the establishment of the International Atomic Time scale,
-       that the usefulness of International Atomic Time entails close coordination with the time scales based on astronomical motions,
+    message: considering that the second, unit of time of the Système International
+      d'Unités, has since 1967 been defined in terms of a natural atomic frequency,
+      and no longer in terms of the time scales provided by astronomical motions,
+  - type: considering
+    date_effective: 1971-10-08
+    message: considering that the need for an International Atomic Time (TAI) scale
+      is a consequence of the atomic definition of the second,
+  - type: considering
+    date_effective: 1971-10-08
+    message: considering that several international organizations have ensured and
+      are still successfully ensuring the establishment of the time scales based on
+      astronomical motions, particularly thanks to the permanent services of the Bureau
+      International de l'Heure (BIH),
+  - type: considering
+    date_effective: 1971-10-08
+    message: considering that the BIH has started to establish an atomic time scale
+      of recognized quality and proven usefulness,
+  - type: considering
+    date_effective: 1971-10-08
+    message: considering that the atomic frequency standards for realizing the second
+      have been considered and must continue to be considered by the Comité International
+      des Poids et Mesures (CIPM) helped by a Consultative Committee, and that the
+      unit interval of the International Atomic Time scale must be the second realized
+      according to its atomic definition,
+  - type: considering
+    date_effective: 1971-10-08
+    message: considering that all the competent international scientific organizations
+      and the national laboratories active in this field have expressed the wish that
+      the CIPM and the CGPM should give a definition of International Atomic Time,
+      and should contribute to the establishment of the International Atomic Time
+      scale,
+  - type: considering
+    date_effective: 1971-10-08
+    message: considering that the usefulness of International Atomic Time entails
+      close coordination with the time scales based on astronomical motions,
   actions:
   - type: requests
     date_effective: 1971-10-08
@@ -45,11 +70,12 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1971-10-08
-    message: |-
-      *considérant*
-
-       qu'une échelle de Temps atomique international doit être mise à la disposition des utilisateurs,
-       que le Bureau international de l'heure a prouvé qu'il est capable d'assurer ce service ;
+    message: considérant qu'une échelle de Temps atomique international doit être
+      mise à la disposition des utilisateurs,
+  - type: considering
+    date_effective: 1971-10-08
+    message: considérant que le Bureau international de l'heure a prouvé qu'il est
+      capable d'assurer ce service ;
   actions:
   - type: thanks / expresses-appreciation
     date_effective: 1971-10-08
@@ -84,12 +110,17 @@ resolutions:
   actions:
   - type: decides
     date_effective: 1971-10-08
-    message: |-
-      *decides*
-
-      . The mole is the amount of substance of a system which contains as many elementary entities as there are atoms in 0.012 kilogram of carbon 12; its symbol is "mol".
-      . When the mole is used, the elementary entities must be specified and may be atoms, molecules, ions, electrons, other particles, or specified groups of such particles.
-      . The mole is a base unit of the Système International d'Unités.
+    message: decides The mole is the amount of substance of a system which contains
+      as many elementary entities as there are atoms in 0.012 kilogram of carbon 12;
+      its symbol is "mol".
+  - type: decides
+    date_effective: 1971-10-08
+    message: decides When the mole is used, the elementary entities must be specified
+      and may be atoms, molecules, ions, electrons, other particles, or specified
+      groups of such particles.
+  - type: decides
+    date_effective: 1971-10-08
+    message: decides The mole is a base unit of the Système International d'Unités.
 - dates:
   - 1971-10-08
   title: Approbation du programme de travail du Bureau international des poids et
@@ -137,15 +168,20 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1971-10-08
-    message: "considérant\n\n que le programme d'activité du Bureau international
-      des poids et mesures proposé par le Comité international des poids et mesures
-      a été approuvé,\n que ce programme comporte la mise au point et la mise en \x9Cuvre
-      permanente de techniques métrologiques nouvelles, particulièrement pour les
-      mesures de longueur et les mesures électriques, nécessitant des investissements
-      en matériel et en personnel compétent,\n qu'un accroissement annuel de 9 pour
-      cent de la dotation du Bureau international est déjà devenu insuffisant pour
-      le maintien des activités à leur niveau actuel, compte tenu de l'évolution des
-      prix et des salaires et du niveau scientifique croissant exigé du personnel,"
+    message: considérant que le programme d'activité du Bureau international des poids
+      et mesures proposé par le Comité international des poids et mesures a été approuvé,
+  - type: considering
+    date_effective: 1971-10-08
+    message: "considérant que ce programme comporte la mise au point et la mise en
+      \x9Cuvre permanente de techniques métrologiques nouvelles, particulièrement
+      pour les mesures de longueur et les mesures électriques, nécessitant des investissements
+      en matériel et en personnel compétent,"
+  - type: considering
+    date_effective: 1971-10-08
+    message: considérant qu'un accroissement annuel de 9 pour cent de la dotation
+      du Bureau international est déjà devenu insuffisant pour le maintien des activités
+      à leur niveau actuel, compte tenu de l'évolution des prix et des salaires et
+      du niveau scientifique croissant exigé du personnel,
   actions:
   - type: decides
     date_effective: 1971-10-08

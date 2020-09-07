@@ -15,7 +15,7 @@ end
 
 CONSIDERATIONS = {
   /(?:having(?: regard)?|ayant|acceptant|concerne|referring|se référant|vu la)/i => "having / having regard",
-  /(?:noting|notes|observing|observant que|taking note|takes note|constatant|constate|that|note|notant|notant que|(?:prend|prenant) (?:acte|note))/i => "noting",
+  /(?:noting|notes|observing|observant que|taking note|takes note|constatant|constate|that|note|notant|notant que|note également|(?:prend|prenant) (?:acte|note))/i => "noting",
   /(?:recognizing|recognizes|reconnaissant|reconnaît)/i => "recognizing",
   /(?:acknowledging|accept(?:s|ing)|admet|entendu)/i => "acknowledging",
   /(?:(?:further )?recall(?:ing|s)|rappelant|rappelle)/i => "recalling / further recalling",
@@ -52,7 +52,9 @@ ACTIONS = {
   /(?:affirms|reaffirming|réaffirmant|states|remarks|remarques)/i => "affirms / reaffirming",
 }
 
-PREFIX=/\A(?:La Conférence |The Conference |and |et |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir )?/i
+PREFIX=/(?:La Conférence |The Conference |and |et |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir )?/i
+
+SUFFIX=/(?: (?:the )?(.{0,80}?) (?:to)\b| (?:that|que)\b|)/
 
 a = Mechanize.new
 
@@ -129,7 +131,7 @@ end
       parse = Nokogiri::HTML(part).text.strip
 
       CONSIDERATIONS.any? do |k,v|
-        if parse =~ /#{PREFIX}#{k}\b/i
+        if parse =~ /\A#{PREFIX}#{k}\b/i
           r["considerations"] << prev = {
             "type" => v,
             "date_effective" => date,
@@ -139,7 +141,7 @@ end
       end && next
 
       ACTIONS.any? do |k,v|
-        if parse =~ /#{PREFIX}#{k}\b/i
+        if parse =~ /\A#{PREFIX}#{k}\b/i
           r["actions"] << prev = {
             "type" => v,
             "date_effective" => date,
@@ -164,6 +166,60 @@ end
 
       r["x-unparsed"] ||= []
       r["x-unparsed"] << parse #ReverseAdoc.convert(part).strip
+    end
+
+    %w[considerations actions].each do |type|
+      map = type == 'actions' ? ACTIONS : CONSIDERATIONS
+      r[type] = r[type].map do |i|
+        islist = false
+
+        kk = nil
+
+        if map.any? { |k,v| (i["message"].split("\n").first =~ /\A\s*(\*?)(#{PREFIX}#{k})\1?(#{SUFFIX})\1?\s*\z/i) && (kk = k) }
+          prefix = $2
+          suffix = $3
+          subject = $4
+
+          listmarker = nil
+          listitems = []
+          if (i["message"].split("\n").all? { |j|
+            case j
+            when /\A\s*\*?#{PREFIX}#{kk}/i
+              true
+            when /\A\s*\z/
+              true
+            when /\A(\. |\* | )(\S.*?)\z/
+              listitems << $2
+              listmarker = $1 if !listmarker
+              listmarker == $1
+            else
+              false
+            end
+          })
+            islist = true if listitems.length >= 1
+          end
+        end
+
+        if subject
+          #p subject
+          r['subject'] ||= []
+          r['subject'] << subject
+        end
+
+        if islist
+          suffix = suffix.strip
+          suffix = nil if suffix == ''
+          listitems.map do |li|
+            i.merge 'message' => [prefix, suffix, li].compact.join(" ")
+          end
+        else
+          i
+        end
+      end.flatten
+    end
+
+    if r['subject']
+      r['subject'] = r['subject'].uniq.join(" and ")
     end
 
     r

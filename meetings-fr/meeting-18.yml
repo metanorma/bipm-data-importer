@@ -45,22 +45,37 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1987-10-15
-    message: |-
-      considérant
-
-       que la stabilité à long terme est l'une des caractéristiques essentielles des étalons de masse,
-       que les perfectionnements apportés aux balances permettent aujourd'hui de mettre en évidence des variations de masse de quelques microgrammes sur un kilogramme,
-       que des variations de cet ordre ont été observées et ont pu être attribuées à des effets superficiels dus en particulier à la pollution par les agents atmosphériques,
-       que les méthodes utilisées pour nettoyer la surface des étalons de masse pourraient avoir des effets insoupçonnés,
-       que diverses méthodes modernes permettent d'étudier le comportement superficiel des alliages dont sont constitués les étalons de masse,
-       que des résultats importants ont déjà été obtenus à l'aide de ces méthodes concernant la contamination des surfaces,
+    message: considérant que la stabilité à long terme est l'une des caractéristiques
+      essentielles des étalons de masse,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant que les perfectionnements apportés aux balances permettent
+      aujourd'hui de mettre en évidence des variations de masse de quelques microgrammes
+      sur un kilogramme,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant que des variations de cet ordre ont été observées et ont
+      pu être attribuées à des effets superficiels dus en particulier à la pollution
+      par les agents atmosphériques,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant que les méthodes utilisées pour nettoyer la surface des étalons
+      de masse pourraient avoir des effets insoupçonnés,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant que diverses méthodes modernes permettent d'étudier le comportement
+      superficiel des alliages dont sont constitués les étalons de masse,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant que des résultats importants ont déjà été obtenus à l'aide
+      de ces méthodes concernant la contamination des surfaces,
   actions:
   - type: recommends
     date_effective: 1987-10-15
-    message: |-
-      recommande
-
-       que les laboratoires appliquent les diverses techniques maintenant disponibles pour étudier la composition et le comportement superficiels du platine allié à 10 % d'iridium et des autres alliages dont sont constitués les étalons de masse.
+    message: recommande que les laboratoires appliquent les diverses techniques maintenant
+      disponibles pour étudier la composition et le comportement superficiels du platine
+      allié à 10 % d'iridium et des autres alliages dont sont constitués les étalons
+      de masse.
 - dates:
   - 1987-10-15
   title: Prise en charge du Temps atomique international
@@ -104,13 +119,22 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1987-10-15
-    message: |-
-      considérant
-
-       que la synchronisation de haute précision devient rapidement une condition essentielle des télécommunications modernes,
-       que les liaisons aller et retour par satellite permettent d'effectuer des comparaisons de temps à l'échelle internationale avec une très grande précision,
-       qu'il apparaît possible de transmettre des signaux horaires pseudo-aléatoires superposés à une utilisation normale des voies de communication sans qu'il y ait interférence,
-       que ces techniques de signaux pseudo-aléatoires permettent aussi de mesurer la distance du satellite avec une grande précision,
+    message: considérant que la synchronisation de haute précision devient rapidement
+      une condition essentielle des télécommunications modernes,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant que les liaisons aller et retour par satellite permettent
+      d'effectuer des comparaisons de temps à l'échelle internationale avec une très
+      grande précision,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant qu'il apparaît possible de transmettre des signaux horaires
+      pseudo-aléatoires superposés à une utilisation normale des voies de communication
+      sans qu'il y ait interférence,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant que ces techniques de signaux pseudo-aléatoires permettent
+      aussi de mesurer la distance du satellite avec une grande précision,
   actions:
   - type: recommends
     date_effective: 1987-10-15
@@ -153,13 +177,27 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1987-10-15
-    message: |-
-      *considérant*
-
-      * que l'uniformité mondiale et la constance à long terme des représentations nationales des unités électriques sont d'une importance majeure pour la science, le commerce et l'industrie du point de vue technique comme du point de vue économique,
-      * que de nombreux laboratoires nationaux utilisent l'effet Josephson et commencent à utiliser l'effet Hall quantique pour conserver respectivement des représentations du volt et de l'ohm qui donnent les meilleures garanties de stabilité à long terme,
-      * qu'en raison de l'importance de la cohérence entre les unités de mesure des diverses grandeurs physiques les valeurs attribuées à ces représentations doivent être autant que possible en accord avec le SI,
-      * que l'ensemble des résultats des expériences en cours ou récemment achevées permettra d'établir une valeur acceptable, suffisamment compatible avec le SI, pour le coefficient qui relie chacun de ces effets à l'unité électrique correspondante,
+    message: considérant que l'uniformité mondiale et la constance à long terme des
+      représentations nationales des unités électriques sont d'une importance majeure
+      pour la science, le commerce et l'industrie du point de vue technique comme
+      du point de vue économique,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant que de nombreux laboratoires nationaux utilisent l'effet
+      Josephson et commencent à utiliser l'effet Hall quantique pour conserver respectivement
+      des représentations du volt et de l'ohm qui donnent les meilleures garanties
+      de stabilité à long terme,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant qu'en raison de l'importance de la cohérence entre les unités
+      de mesure des diverses grandeurs physiques les valeurs attribuées à ces représentations
+      doivent être autant que possible en accord avec le SI,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant que l'ensemble des résultats des expériences en cours ou
+      récemment achevées permettra d'établir une valeur acceptable, suffisamment compatible
+      avec le SI, pour le coefficient qui relie chacun de ces effets à l'unité électrique
+      correspondante,
   actions:
   - type: invites / further invites
     date_effective: 1987-10-15
@@ -186,13 +224,27 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1987-10-15
-    message: |-
-      *considérant*
-
-      * que l'uniformité mondiale et la stabilité à long terme des mesures de température sont d'une importance majeure pour la science, le commerce et l'industrie, du point de vue technique comme du point de vue économique,
-      * que la valeur de la température dans l'échelle pratique doit correspondre étroitement à la valeur de la température thermodynamique dans le SI,
-      * que la Quinzième Conférence générale des poids et mesures, ayant pris connaissance des écarts qui ont été mis en évidence entre la valeur de la température dans l'Échelle internationale pratique de température de 1968 (EIPT-68) et la valeur correspondante de la température thermodynamique, a chargé le Comité international des poids et mesures d'établir une nouvelle échelle qui devrait être sensiblement plus exacte,
-      * qu'une nouvelle échelle pourra être proposée en 1989, échelle telle que les écarts résiduels avec la température thermodynamique seront négligeables pendant de nombreuses années à venir,
+    message: considérant que l'uniformité mondiale et la stabilité à long terme des
+      mesures de température sont d'une importance majeure pour la science, le commerce
+      et l'industrie, du point de vue technique comme du point de vue économique,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant que la valeur de la température dans l'échelle pratique doit
+      correspondre étroitement à la valeur de la température thermodynamique dans
+      le SI,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant que la Quinzième Conférence générale des poids et mesures,
+      ayant pris connaissance des écarts qui ont été mis en évidence entre la valeur
+      de la température dans l'Échelle internationale pratique de température de 1968
+      (EIPT-68) et la valeur correspondante de la température thermodynamique, a chargé
+      le Comité international des poids et mesures d'établir une nouvelle échelle
+      qui devrait être sensiblement plus exacte,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant qu'une nouvelle échelle pourra être proposée en 1989, échelle
+      telle que les écarts résiduels avec la température thermodynamique seront négligeables
+      pendant de nombreuses années à venir,
   actions:
   - type: invites / further invites
     date_effective: 1987-10-15
@@ -235,12 +287,17 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1987-10-15
-    message: |-
-      considérant
-
-       l'importance des travaux effectués par le Bureau international des poids et mesures et des services qu'il rend à tous les pays,
-       la nécessité d'assurer au Bureau international des ressources minimales qui ne mettent pas en danger la poursuite de ces activités et
-       la difficulté de prévoir, dans les circonstances économiques actuelles, les moyens financiers minimaux nécessaires pour permettre au Bureau international de remplir sa mission de centre mondial de la métrologie scientifique,
+    message: considérant l'importance des travaux effectués par le Bureau international
+      des poids et mesures et des services qu'il rend à tous les pays,
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant la nécessité d'assurer au Bureau international des ressources
+      minimales qui ne mettent pas en danger la poursuite de ces activités et
+  - type: considering
+    date_effective: 1987-10-15
+    message: considérant la difficulté de prévoir, dans les circonstances économiques
+      actuelles, les moyens financiers minimaux nécessaires pour permettre au Bureau
+      international de remplir sa mission de centre mondial de la métrologie scientifique,
   actions:
   - type: decides
     date_effective: 1987-10-15

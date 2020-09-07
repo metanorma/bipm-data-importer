@@ -24,14 +24,19 @@ resolutions:
   actions:
   - type: welcomes
     date_effective: 2007-11-16
-    message: "welcomes\n\n the joint statement by the CIPM and the ILAC on the role
-      and responsibilities of National Metrology Institutes and recognized National
-      Accreditation Bodies, \n the regular meetings now taking place internationally,
-      regionally and nationally to strengthen the relationship, \n the work of the
-      International Bureau of Weights and Measures (BIPM) and the ILAC to identify
-      areas of collaboration between the two bodies so as to strengthen the integrity
-      of traceable measurements worldwide with the aim of benefiting users of the
-      world metrology system,"
+    message: 'welcomes the joint statement by the CIPM and the ILAC on the role and
+      responsibilities of National Metrology Institutes and recognized National Accreditation
+      Bodies, '
+  - type: welcomes
+    date_effective: 2007-11-16
+    message: 'welcomes the regular meetings now taking place internationally, regionally
+      and nationally to strengthen the relationship, '
+  - type: welcomes
+    date_effective: 2007-11-16
+    message: welcomes the work of the International Bureau of Weights and Measures
+      (BIPM) and the ILAC to identify areas of collaboration between the two bodies
+      so as to strengthen the integrity of traceable measurements worldwide with the
+      aim of benefiting users of the world metrology system,
   - type: recommends
     date_effective: 2007-11-16
     message: recommends Member States to take note of the joint statement and to adapt
@@ -53,57 +58,79 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2007-11-16
-    message: "considering\n\n Resolution 5 of the 22nd General Conference which noted
+    message: 'considering Resolution 5 of the 22nd General Conference which noted
       the report on the long-term needs related to metrology, and which invited the
       International Committee to keep a careful watch on the increasing demands placed
-      on National Metrology Institutes and the BIPM in relation to evolving needs,
-      \n the request of the 22nd General Conference to the International Committee
-      to report to the 23rd General Conference on the adequacy of the response of
-      the BIPM to meet these needs, together with any financial and programme implications
+      on National Metrology Institutes and the BIPM in relation to evolving needs, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: considering the request of the 22nd General Conference to the International
+      Committee to report to the 23rd General Conference on the adequacy of the response
+      of the BIPM to meet these needs, together with any financial and programme implications
       there may be in meeting such international needs through the activities of the
-      BIPM, and to update its 2003 Report,"
+      BIPM, and to update its 2003 Report,
   - type: noting
     date_effective: 2007-11-16
-    message: "notes\n\n the continuing rise of requirements for improved measurement
-      standards; for adoption of metrological concepts in new areas; and for an increase
-      in national and international resources to address such issues, \n the relevance
-      of metrology to trade, innovation and emerging technologies, \n the initiatives
-      taken by the BIPM and the Consultative Committees of the International Committee
-      to liaise, and collaborate, with an increasing number of intergovernmental organizations
-      and international bodies with responsibilities in areas such as environment
-      and climate change, health, food, drugs, and forensic work, \n that as a result
-      of this collaboration, there has been an expansion of the impact and influence
-      of the scientific and technical activities carried out under the auspices of
-      the Metre Convention,"
+    message: 'notes the continuing rise of requirements for improved measurement standards;
+      for adoption of metrological concepts in new areas; and for an increase in national
+      and international resources to address such issues, '
+  - type: noting
+    date_effective: 2007-11-16
+    message: 'notes the relevance of metrology to trade, innovation and emerging technologies, '
+  - type: noting
+    date_effective: 2007-11-16
+    message: 'notes the initiatives taken by the BIPM and the Consultative Committees
+      of the International Committee to liaise, and collaborate, with an increasing
+      number of intergovernmental organizations and international bodies with responsibilities
+      in areas such as environment and climate change, health, food, drugs, and forensic
+      work, '
   actions:
   - type: welcomes
     date_effective: 2007-11-16
-    message: "welcomes\n\n the updated report \"Evolving Needs for Metrology in Trade,
-      Industry and Society, and the Role of the BIPM\", presented to the 23rd General
-      Conference, \n the initiatives taken by the International Committee to address
-      the issues of traceability in materials metrology, \n proposals to address a
-      number of these evolving needs in the BIPM programme of work, \n thanks the
-      many organizations and individuals who contributed to the report of the International
-      Committee, and"
+    message: 'welcomes the updated report "Evolving Needs for Metrology in Trade,
+      Industry and Society, and the Role of the BIPM", presented to the 23rd General
+      Conference, '
+  - type: welcomes
+    date_effective: 2007-11-16
+    message: 'welcomes the initiatives taken by the International Committee to address
+      the issues of traceability in materials metrology, '
+  - type: welcomes
+    date_effective: 2007-11-16
+    message: 'welcomes proposals to address a number of these evolving needs in the
+      BIPM programme of work, '
+  - type: welcomes
+    date_effective: 2007-11-16
+    message: welcomes thanks the many organizations and individuals who contributed
+      to the report of the International Committee, and
   - type: invites / further invites
     date_effective: 2007-11-16
-    message: "*invites*\n\n the International Committee, Member States, and National
-      Metrology Institutes to support initiatives to intensify the impact of concepts
-      such as traceability to the International System of Units and uncertainty of
-      measurement into as many areas of economic and societal activity as possible,
-      \n the International Committee to identify the highest priorities for improved
-      metrology in areas such as nanotechnology, biosciences, medicine, food and environmental
-      measurements and to prepare proposals for initiatives to be taken by the BIPM
-      at the international level, \n National Metrology Institutes to address evolving
-      needs and to note the liaison and other work of the BIPM at the intergovernmental
-      and international level so as to develop the collaborations necessary to pursue
-      them at a national level, \n the International Committee to report to the next
-      General Conference on the adequacy of the response of the BIPM to meet these
-      needs and to consider whether they have implications for the coordination or
-      the laboratory work of the BIPM and to come forward, if necessary, to the 24th
-      General Conference with proposals in the BIPM programme of work for 2013-2016,
-      \n the International Committee to continue to report to subsequent General Conferences
-      on evolving needs in metrology."
+    message: 'invites the International Committee, Member States, and National Metrology
+      Institutes to support initiatives to intensify the impact of concepts such as
+      traceability to the International System of Units and uncertainty of measurement
+      into as many areas of economic and societal activity as possible, '
+  - type: invites / further invites
+    date_effective: 2007-11-16
+    message: 'invites the International Committee to identify the highest priorities
+      for improved metrology in areas such as nanotechnology, biosciences, medicine,
+      food and environmental measurements and to prepare proposals for initiatives
+      to be taken by the BIPM at the international level, '
+  - type: invites / further invites
+    date_effective: 2007-11-16
+    message: 'invites National Metrology Institutes to address evolving needs and
+      to note the liaison and other work of the BIPM at the intergovernmental and
+      international level so as to develop the collaborations necessary to pursue
+      them at a national level, '
+  - type: invites / further invites
+    date_effective: 2007-11-16
+    message: 'invites the International Committee to report to the next General Conference
+      on the adequacy of the response of the BIPM to meet these needs and to consider
+      whether they have implications for the coordination or the laboratory work of
+      the BIPM and to come forward, if necessary, to the 24th General Conference with
+      proposals in the BIPM programme of work for 2013-2016, '
+  - type: invites / further invites
+    date_effective: 2007-11-16
+    message: invites the International Committee to continue to report to subsequent
+      General Conferences on evolving needs in metrology.
 - dates:
   - 2007-11-16
   title: Dotation of the International Bureau of Weights and Measures (BIPM) for the
@@ -116,22 +143,41 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2007-11-16
-    message: "considering\n\n the increased importance of the work of the BIPM to
-      facilitate international trade and industrial innovation, to the assessment
-      of climate change and human health, and the nutritional content and safety of
-      food in all Member States, \n the record of the BIPM as a scientifically expert
-      body which reacts to the needs of Member States, \n the broadened responsibilities
-      contained in the programme of work for 2005-2008 and which would be further
-      broadened in the proposed 2009-2012 programme of work, \n the way in which the
-      BIPM continues to adopt best management practice and improve the efficiency
-      and effectiveness of its staff, \n the difficulty of the BIPM, for financial
-      reasons, to recruit an adequate number of staff to meet programme goals presented
-      to Member States, \n the initiatives taken by the BIPM to attract a greater
-      number of its staff through secondments and fixed-term contracts or other short-term
-      arrangements, \n that the BIPM's financial reserves need to be at a level which
-      ensures that the BIPM can operate with adequate financial security in a changing
-      world, \n the overall impact of previous financial and other decisions by the
-      CGPM on the BIPM's budget,"
+    message: 'considering the increased importance of the work of the BIPM to facilitate
+      international trade and industrial innovation, to the assessment of climate
+      change and human health, and the nutritional content and safety of food in all
+      Member States, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering the record of the BIPM as a scientifically expert body which
+      reacts to the needs of Member States, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering the broadened responsibilities contained in the programme
+      of work for 2005-2008 and which would be further broadened in the proposed 2009-2012
+      programme of work, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering the way in which the BIPM continues to adopt best management
+      practice and improve the efficiency and effectiveness of its staff, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering the difficulty of the BIPM, for financial reasons, to recruit
+      an adequate number of staff to meet programme goals presented to Member States, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering the initiatives taken by the BIPM to attract a greater number
+      of its staff through secondments and fixed-term contracts or other short-term
+      arrangements, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering that the BIPM''s financial reserves need to be at a level
+      which ensures that the BIPM can operate with adequate financial security in
+      a changing world, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: considering the overall impact of previous financial and other decisions
+      by the CGPM on the BIPM's budget,
   - type: noting
     date_effective: 2007-11-16
     message: "*notes* that some Member States and NMIs have already expressed their
@@ -194,16 +240,20 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2007-11-16
-    message: "considering\n\n that in order to facilitate trade, it is necessary to
-      reduce or eliminate barriers which may exist as a result of a lack of equivalence
-      of the realization of the International System of Units at a national level,
-      \n that the CIPM Mutual Recognition Arrangement, the Arrangement of the International
-      Laboratory Accreditation Cooperation (ILAC) and the Mutual Acceptance Arrangement
-      of the International Organization of Legal Metrology (OIML) complement each
-      other and support a uniform worldwide metrology system, \n the role of the Technical
-      Barriers to Trade Committee (TBT) of the World Trade Organization (WTO) and
-      the mutual benefit which would be achieved through a joint activity to address
-      traceability issues,"
+    message: 'considering that in order to facilitate trade, it is necessary to reduce
+      or eliminate barriers which may exist as a result of a lack of equivalence of
+      the realization of the International System of Units at a national level, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering that the CIPM Mutual Recognition Arrangement, the Arrangement
+      of the International Laboratory Accreditation Cooperation (ILAC) and the Mutual
+      Acceptance Arrangement of the International Organization of Legal Metrology
+      (OIML) complement each other and support a uniform worldwide metrology system, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: considering the role of the Technical Barriers to Trade Committee (TBT)
+      of the World Trade Organization (WTO) and the mutual benefit which would be
+      achieved through a joint activity to address traceability issues,
   - type: noting
     date_effective: 2007-11-16
     message: "noting and welcoming\n\n the initiatives taken by the International
@@ -237,13 +287,23 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2007-11-16
-    message: "considering\n\n Resolution 3 of the 21st General Conference, \n that
-      the status of Associate State should be a possible first step to accede to the
-      Metre Convention, \n the technical and economic benefits gained by Associates,
-      \n the level of the financial subscription of the Associates in relation to
-      these activities and benefits, \n the increasing costs to Member States of the
-      participation of Associates in the CIPM MRA and in some elements of the work
-      of Consultative Committees,"
+    message: 'considering Resolution 3 of the 21st General Conference, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering that the status of Associate State should be a possible
+      first step to accede to the Metre Convention, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering the technical and economic benefits gained by Associates, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering the level of the financial subscription of the Associates
+      in relation to these activities and benefits, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: considering the increasing costs to Member States of the participation
+      of Associates in the CIPM MRA and in some elements of the work of Consultative
+      Committees,
   actions:
   - type: invites / further invites
     date_effective: 2007-11-16
@@ -253,14 +313,19 @@ resolutions:
       to the conditions regarding the status of Associate,"
   - type: decides
     date_effective: 2007-11-16
-    message: "decides\n\n that the International Committee will review the situation
-      of each Associate State five years after its admission as an Associate with
-      a view to encouraging it to accede to the Metre Convention, \n that an application
-      to become an Associate of the CGPM will not be considered from States which
-      were previously a State party to the Metre Convention, and\n that an Associate
-      State which accedes to the Metre Convention will pay an entrance fee from which
-      its subscriptions paid as Associate of the CGPM, will be deducted, up to a maximum
-      of five years subscription."
+    message: 'decides that the International Committee will review the situation of
+      each Associate State five years after its admission as an Associate with a view
+      to encouraging it to accede to the Metre Convention, '
+  - type: decides
+    date_effective: 2007-11-16
+    message: decides that an application to become an Associate of the CGPM will not
+      be considered from States which were previously a State party to the Metre Convention,
+      and
+  - type: decides
+    date_effective: 2007-11-16
+    message: decides that an Associate State which accedes to the Metre Convention
+      will pay an entrance fee from which its subscriptions paid as Associate of the
+      CGPM, will be deducted, up to a maximum of five years subscription.
 - dates:
   - 2007-11-16
   title: On the acceptance of Economies as Associates of the General Conference
@@ -272,19 +337,29 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2007-11-16
-    message: "considering\n\n Resolution 3 of the 21st General Conference, \n the
-      discussions at the 22nd General Conference concerning the admission of formal
-      regional economic cooperations as Associate Economies of the General Conference,
-      \n that the Associate status has been granted to such an Economy, \n the desirability
-      of setting criteria against which such applications be assessed,"
+    message: 'considering Resolution 3 of the 21st General Conference, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering the discussions at the 22nd General Conference concerning
+      the admission of formal regional economic cooperations as Associate Economies
+      of the General Conference, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering that the Associate status has been granted to such an Economy, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: considering the desirability of setting criteria against which such applications
+      be assessed,
   actions:
   - type: decides
     date_effective: 2007-11-16
-    message: "decides\n\n that the International Committee shall develop criteria
-      against which applications from Economies to become Associates of the CGPM should
-      be assessed and to submit these criteria for approval to the next CGPM, \n that
-      no further Economies shall become Associates of the CGPM until these criteria
-      are approved by the CGPM."
+    message: 'decides that the International Committee shall develop criteria against
+      which applications from Economies to become Associates of the CGPM should be
+      assessed and to submit these criteria for approval to the next CGPM, '
+  - type: decides
+    date_effective: 2007-11-16
+    message: decides that no further Economies shall become Associates of the CGPM
+      until these criteria are approved by the CGPM.
 - dates:
   - 2007-11-16
   title: On the importance of promoting the work carried out under the Metre Convention
@@ -328,19 +403,28 @@ resolutions:
       Associate of the CGPM,
   - type: decides
     date_effective: 2007-11-16
-    message: "decides\n\n that the BIPM should undertake a limited outreach activity
-      to alert NMIs of States in development and in transition to the benefit of becoming
-      a Member State or an Associate of the CGPM, \n that the BIPM shall set a policy
-      open to the NMIs of those States which did neither accede to the Metre Convention
-      nor become Associates of the General Conference, giving access to information
-      related to the activities of the BIPM and enabling them to participate in seminars
-      or meetings initiated, organized, or supported by the BIPM and which are dedicated
-      to those States which address issues such as the international recognition of
-      national metrology infrastructures, and encouraging those States and their NMIs
-      to participate in RMOs, \n that an NMI wishing to take advantage of this policy
-      may do so by application to the Director of the BIPM, \n that such an NMI shall
-      be encouraged to work with the appropriate authorities in its State to accede
-      to the Metre Convention or to become an Associate of the General Conference."
+    message: 'decides that the BIPM should undertake a limited outreach activity to
+      alert NMIs of States in development and in transition to the benefit of becoming
+      a Member State or an Associate of the CGPM, '
+  - type: decides
+    date_effective: 2007-11-16
+    message: 'decides that the BIPM shall set a policy open to the NMIs of those States
+      which did neither accede to the Metre Convention nor become Associates of the
+      General Conference, giving access to information related to the activities of
+      the BIPM and enabling them to participate in seminars or meetings initiated,
+      organized, or supported by the BIPM and which are dedicated to those States
+      which address issues such as the international recognition of national metrology
+      infrastructures, and encouraging those States and their NMIs to participate
+      in RMOs, '
+  - type: decides
+    date_effective: 2007-11-16
+    message: 'decides that an NMI wishing to take advantage of this policy may do
+      so by application to the Director of the BIPM, '
+  - type: decides
+    date_effective: 2007-11-16
+    message: decides that such an NMI shall be encouraged to work with the appropriate
+      authorities in its State to accede to the Metre Convention or to become an Associate
+      of the General Conference.
 - dates:
   - 2007-11-16
   title: On financial arrears of Member States
@@ -364,13 +448,17 @@ resolutions:
       _«11. Les Gouvernements qui useraient de la faculté, réservée à tout État, d'accéder à la présente Convention, seront tenus d'acquitter une contribution dont le montant sera déterminé par le Comité sur les bases établies à l'article 9, et qui sera affectée à l'amélioration du matériel scientifique du Bureau.»_
   - type: considering
     date_effective: 2007-11-16
-    message: "considering\n\n the importance of the work carried out by the International
-      Bureau of Weights and Measures (BIPM) and the services delivered to Member States,
-      \n the absolute necessity that contributions of Member States be paid timely
-      and consistently to allow the BIPM to fulfil its mission and to avoid financial
-      problems in the day-to-day operation of the BIPM, \n the need to define the
-      decision-making process and a procedure governing the recovery of arrears and
-      exclusion,"
+    message: 'considering the importance of the work carried out by the International
+      Bureau of Weights and Measures (BIPM) and the services delivered to Member States, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering the absolute necessity that contributions of Member States
+      be paid timely and consistently to allow the BIPM to fulfil its mission and
+      to avoid financial problems in the day-to-day operation of the BIPM, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: considering the need to define the decision-making process and a procedure
+      governing the recovery of arrears and exclusion,
   actions:
   - type: invites / further invites
     date_effective: 2007-11-16
@@ -421,14 +509,18 @@ resolutions:
   actions:
   - type: welcomes
     date_effective: 2007-11-16
-    message: "welcomes\n\n the activities of the Joint Working Group of the Consultative
+    message: 'welcomes the activities of the Joint Working Group of the Consultative
       Committee for Length and the Consultative Committee for Time and Frequency to
-      review the frequencies of optically-based representations of the second, \n
-      the additions to the _mise en pratique_ of the definition of the metre and to
-      the list of recommended radiations made by the International Committee in 2002,
-      2003, 2005, 2006, and 2007, \n the initiative taken by the International Bureau
-      of Weights and Measures (BIPM) to raise the issue of how to compare optical
-      frequency standards,"
+      review the frequencies of optically-based representations of the second, '
+  - type: welcomes
+    date_effective: 2007-11-16
+    message: 'welcomes the additions to the _mise en pratique_ of the definition of
+      the metre and to the list of recommended radiations made by the International
+      Committee in 2002, 2003, 2005, 2006, and 2007, '
+  - type: welcomes
+    date_effective: 2007-11-16
+    message: welcomes the initiative taken by the International Bureau of Weights
+      and Measures (BIPM) to raise the issue of how to compare optical frequency standards,
   - type: recommends
     date_effective: 2007-11-16
     message: "recommends that:\n\n NMIs commit resources to the development of optical
@@ -446,12 +538,18 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2007-11-16
-    message: "considering\n\n that the kelvin, unit of thermodynamic temperature,
-      is defined as the fraction 1/273.16 of the thermodynamic temperature of the
-      triple point of water, \n that the temperature of the triple point depends on
-      the relative amount of isotopes of hydrogen and oxygen present in the sample
-      of water used, \n that this effect is now one of the major sources of the observed
-      variability between different realizations of the water triple point,"
+    message: 'considering that the kelvin, unit of thermodynamic temperature, is defined
+      as the fraction 1/273.16 of the thermodynamic temperature of the triple point
+      of water, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering that the temperature of the triple point depends on the
+      relative amount of isotopes of hydrogen and oxygen present in the sample of
+      water used, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: considering that this effect is now one of the major sources of the observed
+      variability between different realizations of the water triple point,
   - type: noting
     date_effective: 2007-11-16
     message: "notes and welcomes the decision by the International Committee for Weights
@@ -485,15 +583,24 @@ resolutions:
       the environment, human well-being and related issues,
   - type: considering
     date_effective: 2007-11-16
-    message: "considering\n\n the expansion in the number of international and national
+    message: 'considering the expansion in the number of international and national
       initiatives to address the challenges and implications of climate change for
-      the world, \n working arrangements between the CIPM and the World Meteorological
-      Organization (WMO), \n the increasing importance of optical radiation measurements
+      the world, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering working arrangements between the CIPM and the World Meteorological
+      Organization (WMO), '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering the increasing importance of optical radiation measurements
       and physico-chemical measurements of air, ground-based as well as air-borne,
       and physico-chemical measurements of ocean water, which support research into
-      the understanding of the causes and impacts of climate change, \n the importance
-      of basing long-term measurements which relate to climate change on the stable
-      references of the International System of Units (SI),"
+      the understanding of the causes and impacts of climate change, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: considering the importance of basing long-term measurements which relate
+      to climate change on the stable references of the International System of Units
+      (SI),
   actions:
   - type: welcomes
     date_effective: 2007-11-16
@@ -517,37 +624,60 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2007-11-16
-    message: "considering\n\n that, for many years, National Metrology Institutes
-      (NMIs) as well as the International Bureau of Weights and Measures (BIPM) have
-      made considerable efforts to advance and improve the International System of
-      Units (SI) by extending the frontiers of metrology so that the SI base units
-      could be defined in terms of the invariants of nature - the fundamental physical
-      constants, \n that, of the seven base units of the SI, only the kilogram is
-      still defined in terms of a material artefact - the international prototype
+    message: 'considering that, for many years, National Metrology Institutes (NMIs)
+      as well as the International Bureau of Weights and Measures (BIPM) have made
+      considerable efforts to advance and improve the International System of Units
+      (SI) by extending the frontiers of metrology so that the SI base units could
+      be defined in terms of the invariants of nature - the fundamental physical constants, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering that, of the seven base units of the SI, only the kilogram
+      is still defined in terms of a material artefact - the international prototype
       of the kilogram (2nd CGPM, 1889, 3rd CGPM, 1901) and that the definitions of
-      the ampere, mole and candela depend on the kilogram, \n Resolution 7 of the
-      21st General Conference (1999) which recommended that \"national laboratories
-      continue their efforts to refine experiments that link the unit of mass to fundamental
-      or atomic constants with a view to a future redefinition of the kilogram\",\n
-      the many advances, made in recent years, in experiments which relate the mass
-      of the international prototype to the Planck constant _h_ or the Avogadro constant
-      _N_~A~, \n initiatives to determine the value of a number of relevant fundamental
-      constants, including work to redetermine the Boltzmann constant _k_~B~, \n that
-      as a result of recent advances, there are significant implications for, and
-      potential benefits from, redefinitions of the kilogram, the ampere, the kelvin
-      and the mole, \n Recommendation 1 of the International Committee (C1-2005) at
-      its meeting in October 2005, and various Recommendations of Consultative Committees
-      on the subject of a redefinition of one or more of the base units of the SI,"
+      the ampere, mole and candela depend on the kilogram, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: considering Resolution 7 of the 21st General Conference (1999) which
+      recommended that "national laboratories continue their efforts to refine experiments
+      that link the unit of mass to fundamental or atomic constants with a view to
+      a future redefinition of the kilogram",
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering the many advances, made in recent years, in experiments
+      which relate the mass of the international prototype to the Planck constant
+      _h_ or the Avogadro constant _N_~A~, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering initiatives to determine the value of a number of relevant
+      fundamental constants, including work to redetermine the Boltzmann constant
+      _k_~B~, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: 'considering that as a result of recent advances, there are significant
+      implications for, and potential benefits from, redefinitions of the kilogram,
+      the ampere, the kelvin and the mole, '
+  - type: considering
+    date_effective: 2007-11-16
+    message: considering Recommendation 1 of the International Committee (C1-2005)
+      at its meeting in October 2005, and various Recommendations of Consultative
+      Committees on the subject of a redefinition of one or more of the base units
+      of the SI,
   - type: noting
     date_effective: 2007-11-16
-    message: "noting\n\n that any changes in definitions of units of the SI must be
-      constrained by self-consistency, \n that it is desirable that definitions of
-      the base units should be easily understood, \n the work of the International
-      Committee and the Consultative Committees, \n the need to monitor the results
-      of relevant experiments, \n the importance of soliciting comments and contributions
-      from the wider scientific and user communities, and\n the decision of the International
-      Committee in 2005 to approve, in principle, the preparation of new definitions
-      of the kilogram, ampere, kelvin and the possibility of redefining the mole,"
+    message: 'noting the work of the International Committee and the Consultative
+      Committees, '
+  - type: noting
+    date_effective: 2007-11-16
+    message: 'noting the need to monitor the results of relevant experiments, '
+  - type: noting
+    date_effective: 2007-11-16
+    message: noting the importance of soliciting comments and contributions from the
+      wider scientific and user communities, and
+  - type: noting
+    date_effective: 2007-11-16
+    message: noting the decision of the International Committee in 2005 to approve,
+      in principle, the preparation of new definitions of the kilogram, ampere, kelvin
+      and the possibility of redefining the mole,
   actions:
   - type: recommends
     date_effective: 2007-11-16

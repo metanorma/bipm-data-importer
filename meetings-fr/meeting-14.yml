@@ -15,16 +15,42 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1971-10-08
-    message: |-
-      *considérant*
-
-       que la seconde, unité de temps du Système international d'unités, est définie depuis 1967 d'après une fréquence atomique naturelle, et non plus d'après des échelles de temps fournies par des mouvements astronomiques,
-       que le besoin d'une échelle de Temps atomique international (TAI) est une conséquence de la définition atomique de la seconde,
-       que plusieurs organisations internationales ont assuré et assurent encore avec succès l'établissement des échelles de temps fondées sur des mouvements astronomiques, particulièrement grâce aux services permanents du Bureau international de l'heure (BIH),
-       que le Bureau international de l'heure a commencé à établir une échelle de temps atomique dont les qualités sont reconnues et qui a prouvé son utilité,
-       que les étalons atomiques de fréquence servant à la réalisation de la seconde ont été considérés et doivent continuer de l'être par le Comité international des poids et mesures assisté d'un comité consultatif, et que l'intervalle unitaire de l'échelle de Temps atomique international doit être la seconde réalisée conformément à sa définition atomique,
-       que toutes les organisations scientifiques internationales compétentes et les laboratoires nationaux actifs dans ce domaine ont exprimé le désir que le Comité international et la Conférence générale des poids et mesures donnent une définition du Temps atomique international, et contribuent à l'établissement de l'échelle de Temps atomique international,
-       que l'utilité du Temps atomique international nécessite une coordination étroite avec les échelles de temps fondées sur des mouvements astronomiques,
+    message: considérant que la seconde, unité de temps du Système international d'unités,
+      est définie depuis 1967 d'après une fréquence atomique naturelle, et non plus
+      d'après des échelles de temps fournies par des mouvements astronomiques,
+  - type: considering
+    date_effective: 1971-10-08
+    message: considérant que le besoin d'une échelle de Temps atomique international
+      (TAI) est une conséquence de la définition atomique de la seconde,
+  - type: considering
+    date_effective: 1971-10-08
+    message: considérant que plusieurs organisations internationales ont assuré et
+      assurent encore avec succès l'établissement des échelles de temps fondées sur
+      des mouvements astronomiques, particulièrement grâce aux services permanents
+      du Bureau international de l'heure (BIH),
+  - type: considering
+    date_effective: 1971-10-08
+    message: considérant que le Bureau international de l'heure a commencé à établir
+      une échelle de temps atomique dont les qualités sont reconnues et qui a prouvé
+      son utilité,
+  - type: considering
+    date_effective: 1971-10-08
+    message: considérant que les étalons atomiques de fréquence servant à la réalisation
+      de la seconde ont été considérés et doivent continuer de l'être par le Comité
+      international des poids et mesures assisté d'un comité consultatif, et que l'intervalle
+      unitaire de l'échelle de Temps atomique international doit être la seconde réalisée
+      conformément à sa définition atomique,
+  - type: considering
+    date_effective: 1971-10-08
+    message: considérant que toutes les organisations scientifiques internationales
+      compétentes et les laboratoires nationaux actifs dans ce domaine ont exprimé
+      le désir que le Comité international et la Conférence générale des poids et
+      mesures donnent une définition du Temps atomique international, et contribuent
+      à l'établissement de l'échelle de Temps atomique international,
+  - type: considering
+    date_effective: 1971-10-08
+    message: considérant que l'utilité du Temps atomique international nécessite une
+      coordination étroite avec les échelles de temps fondées sur des mouvements astronomiques,
   actions:
   - type: requests
     date_effective: 1971-10-08
@@ -45,11 +71,12 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1971-10-08
-    message: |-
-      *considérant*
-
-       qu'une échelle de Temps atomique international doit être mise à la disposition des utilisateurs,
-       que le Bureau international de l'heure a prouvé qu'il est capable d'assurer ce service ;
+    message: considérant qu'une échelle de Temps atomique international doit être
+      mise à la disposition des utilisateurs,
+  - type: considering
+    date_effective: 1971-10-08
+    message: considérant que le Bureau international de l'heure a prouvé qu'il est
+      capable d'assurer ce service ;
   actions:
   - type: thanks / expresses-appreciation
     date_effective: 1971-10-08
@@ -84,12 +111,17 @@ resolutions:
   actions:
   - type: decides
     date_effective: 1971-10-08
-    message: |-
-      *décide*
-
-      . La mole est la quantité de matière d'un système contenant autant d'entités élémentaires qu'il y a d'atomes dans 0,012 kilogramme de carbone 12 ; son symbole est « mol ».
-      . Lorsqu'on emploie la mole, les entités élémentaires doivent être spécifiées et peuvent être des atomes, des molécules, des ions, des électrons, d'autres particules ou des groupements spécifiés de telles particules.
-      . La mole est une unité de base du Système international d'unités.
+    message: décide La mole est la quantité de matière d'un système contenant autant
+      d'entités élémentaires qu'il y a d'atomes dans 0,012 kilogramme de carbone 12
+      ; son symbole est « mol ».
+  - type: decides
+    date_effective: 1971-10-08
+    message: décide Lorsqu'on emploie la mole, les entités élémentaires doivent être
+      spécifiées et peuvent être des atomes, des molécules, des ions, des électrons,
+      d'autres particules ou des groupements spécifiés de telles particules.
+  - type: decides
+    date_effective: 1971-10-08
+    message: décide La mole est une unité de base du Système international d'unités.
 - dates:
   - 1971-10-08
   title: Approbation du programme de travail du Bureau international des poids et
@@ -137,15 +169,20 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1971-10-08
-    message: "considérant\n\n que le programme d'activité du Bureau international
-      des poids et mesures proposé par le Comité international des poids et mesures
-      a été approuvé,\n que ce programme comporte la mise au point et la mise en \x9Cuvre
-      permanente de techniques métrologiques nouvelles, particulièrement pour les
-      mesures de longueur et les mesures électriques, nécessitant des investissements
-      en matériel et en personnel compétent,\n qu'un accroissement annuel de 9 pour
-      cent de la dotation du Bureau international est déjà devenu insuffisant pour
-      le maintien des activités à leur niveau actuel, compte tenu de l'évolution des
-      prix et des salaires et du niveau scientifique croissant exigé du personnel,"
+    message: considérant que le programme d'activité du Bureau international des poids
+      et mesures proposé par le Comité international des poids et mesures a été approuvé,
+  - type: considering
+    date_effective: 1971-10-08
+    message: "considérant que ce programme comporte la mise au point et la mise en
+      \x9Cuvre permanente de techniques métrologiques nouvelles, particulièrement
+      pour les mesures de longueur et les mesures électriques, nécessitant des investissements
+      en matériel et en personnel compétent,"
+  - type: considering
+    date_effective: 1971-10-08
+    message: considérant qu'un accroissement annuel de 9 pour cent de la dotation
+      du Bureau international est déjà devenu insuffisant pour le maintien des activités
+      à leur niveau actuel, compte tenu de l'évolution des prix et des salaires et
+      du niveau scientifique croissant exigé du personnel,
   actions:
   - type: decides
     date_effective: 1971-10-08

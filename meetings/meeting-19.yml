@@ -28,12 +28,20 @@ resolutions:
        allows a better synchronization of national time scales,
   - type: recommends
     date_effective: 1991-10-03
-    message: |-
-      recommends
-
-       the construction of new primary caesium standards, the improvement of the frequency accuracy of existing primary standards and the study of the systematic differences in frequency which exist between them,
-       that the laboratories participating in International Atomic Time (TAI) stabilize the environmental conditions of each contributing clock, keep careful records of these environmental conditions and report them to the BIPM,
-       that the coordinates adopted for antennas used in single-way time comparison by satellite techniques correspond to their real position in the terrestrial reference system of the International Earth Rotation Service.
+    message: recommends the construction of new primary caesium standards, the improvement
+      of the frequency accuracy of existing primary standards and the study of the
+      systematic differences in frequency which exist between them,
+  - type: recommends
+    date_effective: 1991-10-03
+    message: recommends that the laboratories participating in International Atomic
+      Time (TAI) stabilize the environmental conditions of each contributing clock,
+      keep careful records of these environmental conditions and report them to the
+      BIPM,
+  - type: recommends
+    date_effective: 1991-10-03
+    message: recommends that the coordinates adopted for antennas used in single-way
+      time comparison by satellite techniques correspond to their real position in
+      the terrestrial reference system of the International Earth Rotation Service.
 - dates:
   - 1991-10-03
   title: The Josephson and quantum-Hall effects
@@ -45,12 +53,19 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1991-10-03
-    message: |-
-      considering
-
-       that worldwide uniformity and long-term stability of the national representations of electrical units are of great importance for science, industry and commerce for both technical and economic reasons,
-       that many national laboratories now use the Josephson and quantum-Hall effects for the conservation of their representations of the volt and the ohm respectively, a practice giving complete security in terms of long-term stability,
-       that the values attributed to their representations should be in as close as possible agreement with the SI,
+    message: considering that worldwide uniformity and long-term stability of the
+      national representations of electrical units are of great importance for science,
+      industry and commerce for both technical and economic reasons,
+  - type: considering
+    date_effective: 1991-10-03
+    message: considering that many national laboratories now use the Josephson and
+      quantum-Hall effects for the conservation of their representations of the volt
+      and the ohm respectively, a practice giving complete security in terms of long-term
+      stability,
+  - type: considering
+    date_effective: 1991-10-03
+    message: considering that the values attributed to their representations should
+      be in as close as possible agreement with the SI,
   - type: recalling / further recalling
     date_effective: 1991-10-03
     message: recalling link:/en/CGPM/db/18/6/[Resolution 6 of the 18th Conférence
@@ -67,11 +82,12 @@ resolutions:
   actions:
   - type: recommends
     date_effective: 1991-10-03
-    message: |-
-      recommends
-
-       that national laboratories continue their efforts to reduce the uncertainty in the knowledge of the ratios _K_~J-90~/_K_~J~ and _R_~K-90~/_R_~K~,
-       that research be continued into the basic theory of the Josephson and quantum-Hall effects.
+    message: recommends that national laboratories continue their efforts to reduce
+      the uncertainty in the knowledge of the ratios _K_~J-90~/_K_~J~ and _R_~K-90~/_R_~K~,
+  - type: recommends
+    date_effective: 1991-10-03
+    message: recommends that research be continued into the basic theory of the Josephson
+      and quantum-Hall effects.
 - dates:
   - 1991-10-03
   title: The International Temperature Scale of 1990 (ITS-90) and future work in thermometry
@@ -83,11 +99,13 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1991-10-03
-    message: |-
-      considering
-
-       that worldwide uniformity and long-term stability in the measurement of temperature are of great importance for science, industry and commerce for both technical and economic reasons,
-       that the international temperature scale should be as close as possible to thermodynamic temperature,
+    message: considering that worldwide uniformity and long-term stability in the
+      measurement of temperature are of great importance for science, industry and
+      commerce for both technical and economic reasons,
+  - type: considering
+    date_effective: 1991-10-03
+    message: considering that the international temperature scale should be as close
+      as possible to thermodynamic temperature,
   - type: noting
     date_effective: 1991-10-03
     message: |-
