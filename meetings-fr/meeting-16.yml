@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1979-10-12
-  subject: Étalons du kilogramme (conservation ; correction de poussée de l'air)
+  title: Étalons du kilogramme (conservation ; correction de poussée de l'air)
   identifier: 1
   approvals:
   - type: affirmative
@@ -31,7 +31,7 @@ resolutions:
        que les laboratoires intensifient les travaux en vue d'une meilleure détermination de la correction due à la poussée de l'air.
 - dates:
   - 1979-10-12
-  subject: Étalons électriques (poursuite des recherches sur la réalisation des unités
+  title: Étalons électriques (poursuite des recherches sur la réalisation des unités
     électriques)
   identifier: 2
   approvals:
@@ -57,7 +57,7 @@ resolutions:
       par des déterminations de constantes physiques.
 - dates:
   - 1979-10-12
-  subject: Unité SI d'intensité lumineuse (candela)
+  title: Unité SI d'intensité lumineuse (candela)
   identifier: 3
   approvals:
   - type: affirmative
@@ -84,7 +84,7 @@ resolutions:
       . La définition de la candela (à l'époque appelée bougie nouvelle) décidée par le Comité international des poids et mesures en 1946 en vertu des pouvoirs conférés par la 8^e^ Conférence générale des poids et mesures (CGPM) en 1933, ratifiée par la 9^e^ CGPM en 1948, puis amendée par la 13^e^ CGPM en 1967, est abrogée.
 - dates:
   - 1979-10-12
-  subject: Définition de la candela - amélioration des procédés d'étalonnage photométrique
+  title: Définition de la candela - amélioration des procédés d'étalonnage photométrique
   identifier: 4
   approvals:
   - type: affirmative
@@ -104,7 +104,7 @@ resolutions:
       des procédés d'étalonnage photométrique et des méthodes de comparaison internationale.
 - dates:
   - 1979-10-12
-  subject: Nom spécial pour l'unité SI d'équivalent de dose (sievert)
+  title: Nom spécial pour l'unité SI d'équivalent de dose (sievert)
   identifier: 5
   approvals:
   - type: affirmative
@@ -127,7 +127,7 @@ resolutions:
       par kilogramme."
 - dates:
   - 1979-10-12
-  subject: Symboles du litre
+  title: Symboles du litre
   identifier: 6
   approvals:
   - type: affirmative
@@ -169,7 +169,7 @@ resolutions:
       poids et mesures son avis sur la possibilité de supprimer l'un d'eux.
 - dates:
   - 1979-10-12
-  subject: Dotation du BIPM pour la période 1981-1984
+  title: Dotation du BIPM pour la période 1981-1984
   identifier: 7
   approvals:
   - type: affirmative

@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 2014-11-20
-  subject: Sur la révision à venir du Système international d'unités, le SI
+  title: Sur la révision à venir du Système international d'unités, le SI
   identifier: 1
   approvals:
   - type: affirmative
@@ -46,7 +46,7 @@ resolutions:
        le CIPM et ses Comités consultatifs, les laboratoires nationaux de métrologie, le BIPM, ainsi que d'autres organisations telles que l'Organisation internationale de métrologie légale (OIML), à poursuivre leurs efforts afin d'effectuer les travaux nécessaires pour que la CGPM adopte, lors de sa 26^e^ réunion, une résolution permettant de remplacer le SI actuel par le SI révisé, sous réserve que les données obtenues, tant concernant leur nombre, les incertitudes associées ou leur niveau de cohérence, soient jugées satisfaisantes.
 - dates:
   - 2014-11-20
-  subject: Sur l'élection du Comité international des poids et mesures
+  title: Sur l'élection du Comité international des poids et mesures
   identifier: 2
   approvals:
   - type: affirmative
@@ -88,7 +88,7 @@ resolutions:
       du CIPM."
 - dates:
   - 2014-11-20
-  subject: Sur la Caisse de retraite et de prévoyance du BIPM
+  title: Sur la Caisse de retraite et de prévoyance du BIPM
   identifier: 3
   approvals:
   - type: affirmative
@@ -125,7 +125,7 @@ resolutions:
        à tenir informés les États Membres des conclusions des études actuarielles sur les actifs et les passifs de la Caisse de retraite et de prévoyance du BIPM, par le biais des publications financières habituelles du CIPM et lors de la prochaine réunion de la CGPM.
 - dates:
   - 2014-11-20
-  subject: "Dotation du Bureau international des poids et mesures pour\r\nles années
+  title: "Dotation du Bureau international des poids et mesures pour\r\nles années
     2016 à 2019"
   identifier: 4
   approvals:
@@ -170,7 +170,7 @@ resolutions:
       métrologique bien développée."
 - dates:
   - 2014-11-20
-  subject: Sur l'importance de l'Arrangement de reconnaissance mutuelle du CIPM
+  title: Sur l'importance de l'Arrangement de reconnaissance mutuelle du CIPM
   identifier: 5
   approvals:
   - type: affirmative

@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1987-10-15
-  subject: Third verification of the national  prototypes of the kilogram
+  title: Third verification of the national  prototypes of the kilogram
   identifier: 1
   approvals:
   - type: affirmative
@@ -36,7 +36,7 @@ resolutions:
       in platinum-iridium for a general comparison of these prototypes.
 - dates:
   - 1987-10-15
-  subject: Study of the surface condition of mass standards
+  title: Study of the surface condition of mass standards
   identifier: 2
   approvals:
   - type: affirmative
@@ -62,7 +62,7 @@ resolutions:
       other alloys used in mass standards.
 - dates:
   - 1987-10-15
-  subject: Assumption of responsibility for International Atomic Time
+  title: Assumption of responsibility for International Atomic Time
   identifier: 3
   approvals:
   - type: affirmative
@@ -100,7 +100,7 @@ resolutions:
       improving International Atomic Time.
 - dates:
   - 1987-10-15
-  subject: Time comparisons using satellite links
+  title: Time comparisons using satellite links
   identifier: 4
   approvals:
   - type: affirmative
@@ -126,7 +126,7 @@ resolutions:
       Atomic Time.
 - dates:
   - 1987-10-15
-  subject: Study of perturbing effects in the realization of the second
+  title: Study of perturbing effects in the realization of the second
   identifier: 5
   approvals:
   - type: affirmative
@@ -152,7 +152,7 @@ resolutions:
        that experiments in order to identify these effects, to verify their theoretical interpretation and to evaluate the uncertainty of the corresponding corrections be actively pursued.
 - dates:
   - 1987-10-15
-  subject: Forthcoming adjustment to the representations of the volt and of the ohm
+  title: Forthcoming adjustment to the representations of the volt and of the ohm
   identifier: 6
   approvals:
   - type: affirmative
@@ -185,7 +185,7 @@ resolutions:
       on 1 January 1990.
 - dates:
   - 1987-10-15
-  subject: Development of a new international temperature scale
+  title: Development of a new international temperature scale
   identifier: 7
   approvals:
   - type: affirmative
@@ -212,7 +212,7 @@ resolutions:
       on January 1st 1990.
 - dates:
   - 1987-10-15
-  subject: Apportionment of contributions
+  title: Apportionment of contributions
   identifier: 8
   approvals:
   - type: affirmative
@@ -234,7 +234,7 @@ resolutions:
       by the 11th and 16th CGPM.
 - dates:
   - 1987-10-15
-  subject: Funding of the BIPM
+  title: Funding of the BIPM
   identifier: 9
   approvals:
   - type: affirmative

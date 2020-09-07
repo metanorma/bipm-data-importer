@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 2018-11-16
-  subject: Sur la révision du Système international d'unités (SI)
+  title: Sur la révision du Système international d'unités (SI)
   identifier: 1
   approvals:
   - type: affirmative
@@ -138,7 +138,7 @@ resolutions:
       Delta]image::/utils/special/14/ital/nu.gif[nu]~Cs~."
 - dates:
   - 2018-11-16
-  subject: Sur la définition des échelles de temps
+  title: Sur la définition des échelles de temps
   identifier: 2
   approvals:
   - type: affirmative
@@ -237,7 +237,7 @@ resolutions:
       les futures exigences des utilisateurs."
 - dates:
   - 2018-11-16
-  subject: Sur les objectifs du BIPM
+  title: Sur les objectifs du BIPM
   identifier: 3
   approvals:
   - type: affirmative
@@ -304,7 +304,7 @@ resolutions:
       * le transfert de connaissances, qui permet de garantir que le travail du BIPM a le plus grand impact possible.
 - dates:
   - 2018-11-16
-  subject: Sur la dotation du BIPM pour les années 2020 à 2023
+  title: Sur la dotation du BIPM pour les années 2020 à 2023
   identifier: 4
   approvals:
   - type: affirmative
@@ -353,7 +353,7 @@ resolutions:
       * les États Membres, ainsi que les organisations internationales, les organismes privés et les fondations à continuer à apporter un soutien volontaire supplémentaire de toutes sortes afin de soutenir des activités spécifiques liées à la mission du BIPM, en particulier celles qui facilitent la participation aux activités du BIPM de pays qui ne disposent pas d'une infrastructure métrologique bien développée.
 - dates:
   - 2018-11-16
-  subject: Sur les contributions arriérées des États Membres et la  procédure d'exclusion
+  title: Sur les contributions arriérées des États Membres et la  procédure d'exclusion
   identifier: 5
   approvals:
   - type: affirmative

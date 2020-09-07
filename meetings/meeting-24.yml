@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 2011-10-21
-  subject: "On the possible future revision of the International System of Units,\r\nthe
+  title: "On the possible future revision of the International System of Units,\r\nthe
     SI"
   identifier: 1
   approvals:
@@ -124,7 +124,7 @@ resolutions:
       * the CIPM, the Consultative Committees, the BIPM, the OIML and National Metrology Institutes significantly to increase their efforts to initiate awareness campaigns aimed at alerting user communities and the general public to the intention to redefine various units of the SI and to encourage consideration of the practical, technical, and legislative implications of such redefinitions, so that comments and contributions can be solicited from the wider scientific and user communities.
 - dates:
   - 2011-10-21
-  subject: On the importance of international collaboration so as to place measurements
+  title: On the importance of international collaboration so as to place measurements
     to monitor climate change on an SI traceable basis
   identifier: 2
   approvals:
@@ -183,7 +183,7 @@ resolutions:
       to the Metre Convention.\n +"
 - dates:
   - 2011-10-21
-  subject: Dotation of the BIPM for the years 2013 to 2015
+  title: Dotation of the BIPM for the years 2013 to 2015
   identifier: 3
   approvals:
   - type: affirmative
@@ -237,7 +237,7 @@ resolutions:
       11 810 000 euros in 2015</center>
 - dates:
   - 2011-10-21
-  subject: On the status of Associate State of the General Conference
+  title: On the status of Associate State of the General Conference
   identifier: 4
   approvals:
   - type: affirmative
@@ -291,7 +291,7 @@ resolutions:
       all Associate States, whether fulfilling or not the criteria adopted by the CIPM to encourage Associate States to become States Parties to the Metre Convention, to accede to the Metre Convention as such accession can only be beneficial for the strengthening of the world's measurement system.
 - dates:
   - 2011-10-21
-  subject: On the acceptance of Economies as Associate of the General Conference
+  title: On the acceptance of Economies as Associate of the General Conference
   identifier: 5
   approvals:
   - type: affirmative
@@ -322,7 +322,7 @@ resolutions:
        the International Committee for Weights and Measures (CIPM) to consider further appropriate means by which intergovernmental organizations, in particular those from regions without well-developed metrology infrastructure, can be involved in the work of the BIPM and to bring forward proposals to the next meeting of the CGPM on how this can best be achieved.
 - dates:
   - 2011-10-21
-  subject: On financial arrears of States Parties to the Metre Convention
+  title: On financial arrears of States Parties to the Metre Convention
   identifier: 6
   approvals:
   - type: affirmative
@@ -361,7 +361,7 @@ resolutions:
       </name>
 - dates:
   - 2011-10-21
-  subject: On rescheduling agreements between the International Committee for Weights
+  title: On rescheduling agreements between the International Committee for Weights
     and Measures and defaulting States Parties to the Metre Convention for the payment
     of their financial arrears
   identifier: 7
@@ -403,7 +403,7 @@ resolutions:
       </name>
 - dates:
   - 2011-10-21
-  subject: On the revision of the mise en pratique of the metre and the development
+  title: On the revision of the mise en pratique of the metre and the development
     of new optical frequency standards
   identifier: 8
   approvals:
@@ -431,7 +431,7 @@ resolutions:
        the BIPM supports the coordination of an international project with the participation of NMIs, oriented to the study of the techniques which could serve to compare optical frequency standards.
 - dates:
   - 2011-10-21
-  subject: On the adoption of a common terrestrial reference system
+  title: On the adoption of a common terrestrial reference system
   identifier: 9
   approvals:
   - type: affirmative
@@ -454,8 +454,8 @@ resolutions:
       reference system for terrestrial reference frames for all metrological applications."
 - dates:
   - 2011-10-21
-  subject: On the role, mission, objectives, long-term strategy and governance of
-    the BIPM
+  title: On the role, mission, objectives, long-term strategy and governance of the
+    BIPM
   identifier: 10
   approvals:
   - type: affirmative

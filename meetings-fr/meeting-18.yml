@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1987-10-15
-  subject: Troisième vérification des prototypes du kilogramme
+  title: Troisième vérification des prototypes du kilogramme
   identifier: 1
   approvals:
   - type: affirmative
@@ -36,7 +36,7 @@ resolutions:
       en platine iridié, en vue d'une comparaison générale de ces prototypes."
 - dates:
   - 1987-10-15
-  subject: Étude de l'état superficiel des étalons de masse
+  title: Étude de l'état superficiel des étalons de masse
   identifier: 2
   approvals:
   - type: affirmative
@@ -63,7 +63,7 @@ resolutions:
        que les laboratoires appliquent les diverses techniques maintenant disponibles pour étudier la composition et le comportement superficiels du platine allié à 10 % d'iridium et des autres alliages dont sont constitués les étalons de masse.
 - dates:
   - 1987-10-15
-  subject: Prise en charge du Temps atomique international
+  title: Prise en charge du Temps atomique international
   identifier: 3
   approvals:
   - type: affirmative
@@ -95,7 +95,7 @@ resolutions:
       et *recommande* aux institutions nationales concernées de poursuivre avec le Bureau international des poids et mesures leur collaboration pour l'établissement et l'amélioration du Temps atomique international.
 - dates:
   - 1987-10-15
-  subject: Comparaisons de temps utilisant les liaisons par satellites
+  title: Comparaisons de temps utilisant les liaisons par satellites
   identifier: 4
   approvals:
   - type: affirmative
@@ -120,7 +120,7 @@ resolutions:
       que les organes nationaux et internationaux responsables apportent leur soutien aux expériences utilisant les liaisons de télécommunication par satellites, notamment à l'aide de signaux pseudo-aléatoires, dans le cadre des programmes internationaux de liaisons horaires faisant partie de l'établissement du Temps atomique international.
 - dates:
   - 1987-10-15
-  subject: Étude des effets perturbateurs dans la réalisation de la seconde
+  title: Étude des effets perturbateurs dans la réalisation de la seconde
   identifier: 5
   approvals:
   - type: affirmative
@@ -144,7 +144,7 @@ resolutions:
   actions: []
 - dates:
   - 1987-10-15
-  subject: Ajustement prévu des représentations du volt et de l'ohm
+  title: Ajustement prévu des représentations du volt et de l'ohm
   identifier: 6
   approvals:
   - type: affirmative
@@ -177,7 +177,7 @@ resolutions:
       adoptée au 1^er^ janvier 1990.
 - dates:
   - 1987-10-15
-  subject: Mise au point d'une nouvelle échelle internationale de température
+  title: Mise au point d'une nouvelle échelle internationale de température
   identifier: 7
   approvals:
   - type: affirmative
@@ -204,7 +204,7 @@ resolutions:
       intervenir au 1^er^ janvier 1990."
 - dates:
   - 1987-10-15
-  subject: Répartition des contributions
+  title: Répartition des contributions
   identifier: 8
   approvals:
   - type: affirmative
@@ -226,7 +226,7 @@ resolutions:
       et modifiés par la Onzième et la Seizième Conférence générale des poids et mesures.
 - dates:
   - 1987-10-15
-  subject: Dotation du BIPM
+  title: Dotation du BIPM
   identifier: 9
   approvals:
   - type: affirmative

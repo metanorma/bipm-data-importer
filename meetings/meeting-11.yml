@@ -6,8 +6,8 @@ metadata:
 resolutions:
 - dates:
   - 1960-10-20
-  subject: Extension des activités du Bureau international au domaine des étalons
-    de mesure des radiations ionisantes
+  title: Extension des activités du Bureau international au domaine des étalons de
+    mesure des radiations ionisantes
   identifier: 1
   approvals:
   - type: affirmative
@@ -59,8 +59,8 @@ resolutions:
       autres.
 - dates:
   - 1960-10-20
-  subject: Extension des activités du Bureau international au domaine des étalons
-    de mesure des radiations ionisantes
+  title: Extension des activités du Bureau international au domaine des étalons de
+    mesure des radiations ionisantes
   identifier: 2
   approvals:
   - type: affirmative
@@ -87,8 +87,8 @@ resolutions:
       sans difficulté.
 - dates:
   - 1960-10-20
-  subject: Extension des activités du Bureau international au domaine des étalons
-    de mesure des radiations ionisantes
+  title: Extension des activités du Bureau international au domaine des étalons de
+    mesure des radiations ionisantes
   identifier: 3
   approvals:
   - type: affirmative
@@ -106,8 +106,8 @@ resolutions:
     message: autorise le Bureau international à prendre en charge cet Étalon.
 - dates:
   - 1960-10-20
-  subject: Extension des activités du Bureau international au domaine des étalons
-    de mesure des radiations ionisantes
+  title: Extension des activités du Bureau international au domaine des étalons de
+    mesure des radiations ionisantes
   identifier: 4
   approvals:
   - type: affirmative
@@ -130,7 +130,7 @@ resolutions:
       Conférence générale.
 - dates:
   - 1960-10-20
-  subject: Dotation du Bureau international
+  title: Dotation du Bureau international
   identifier: 5
   approvals:
   - type: affirmative
@@ -161,7 +161,7 @@ resolutions:
       et suivantes.
 - dates:
   - 1960-10-20
-  subject: Definition of the metre
+  title: Definition of the metre
   identifier: 6
   approvals:
   - type: affirmative
@@ -186,7 +186,7 @@ resolutions:
       . The international Prototype of the metre sanctioned by the 1st CGPM in 1889 shall be kept at the BIPM under the conditions specified in 1889.
 - dates:
   - 1960-10-20
-  subject: Définition du mètre
+  title: Définition du mètre
   identifier: 7
   approvals:
   - type: affirmative
@@ -223,7 +223,7 @@ resolutions:
       « On
 - dates:
   - 1960-10-20
-  subject: Définition du mètre
+  title: Définition du mètre
   identifier: 8
   approvals:
   - type: affirmative
@@ -241,7 +241,7 @@ resolutions:
       par le passé les Prototypes nationaux.
 - dates:
   - 1960-10-20
-  subject: Definition of the unit of time (second)
+  title: Definition of the unit of time (second)
   identifier: 9
   approvals:
   - type: affirmative
@@ -264,7 +264,7 @@ resolutions:
       "The second is the fraction 1/31 556 925.9747 of the tropical year for 1900 January 0 at 12 hours ephemeris time."
 - dates:
   - 1960-10-20
-  subject: Définition de l'unité de temps
+  title: Définition de l'unité de temps
   identifier: 10
   approvals:
   - type: affirmative
@@ -291,7 +291,7 @@ resolutions:
        le Comité international des poids et mesures à coopérer sans retard avec les organismes internationaux intéressés et à coordonner les travaux en vue de permettre à la Douzième Conférence générale de prendre une résolution sur ce point.
 - dates:
   - 1960-10-20
-  subject: Système gravimétrique
+  title: Système gravimétrique
   identifier: 11
   approvals:
   - type: affirmative
@@ -317,7 +317,7 @@ resolutions:
       accélération est connue avec une exactitude suffisante.
 - dates:
   - 1960-10-20
-  subject: Système International d'Unités
+  title: Système International d'Unités
   identifier: 12
   approvals:
   - type: affirmative
@@ -402,7 +402,7 @@ resolutions:
       |===
 - dates:
   - 1960-10-20
-  subject: Cubic decimetre and litre
+  title: Cubic decimetre and litre
   identifier: 13
   approvals:
   - type: affirmative
@@ -423,7 +423,7 @@ resolutions:
       and submit its conclusions to the 12th CGPM.
 - dates:
   - 1960-10-20
-  subject: Adhésion des Pays à la Convention du Mètre
+  title: Adhésion des Pays à la Convention du Mètre
   identifier: 14
   approvals:
   - type: affirmative
@@ -449,7 +449,7 @@ resolutions:
       dans ce sens, en utilisant leurs liens scientifiques et techniques.
 - dates:
   - 1960-10-20
-  subject: Négociation d'un accord de siège avec le Gouvernment français
+  title: Négociation d'un accord de siège avec le Gouvernment français
   identifier: 15
   approvals:
   - type: affirmative
@@ -476,7 +476,7 @@ resolutions:
       en attendant son approbation par la Douzième Conférence générale.
 - dates:
   - 1960-10-20
-  subject: Révision de la Convention du Mètre
+  title: Révision de la Convention du Mètre
   identifier: 16
   approvals:
   - type: affirmative

@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1971-10-08
-  subject: Temps atomique international ; rôle du CIPM
+  title: Temps atomique international ; rôle du CIPM
   identifier: 1
   approvals:
   - type: affirmative
@@ -35,7 +35,7 @@ resolutions:
       . de prendre les mesures nécessaires, en accord avec les organisations internationales intéressées, pour que les compétences scientifiques et les moyens d'action existants soient utilisés au mieux pour la réalisation de l'échelle de Temps atomique international, et pour que soient satisfaits les besoins des utilisateurs du Temps atomique international.
 - dates:
   - 1971-10-08
-  subject: Temps atomique international ; arrangements avec le Bureau international
+  title: Temps atomique international ; arrangements avec le Bureau international
     de l'heure
   identifier: 2
   approvals:
@@ -68,7 +68,7 @@ resolutions:
       de l'échelle de Temps atomique international à définir par le Comité international."
 - dates:
   - 1971-10-08
-  subject: Unité SI de quantité de matière (mole)
+  title: Unité SI de quantité de matière (mole)
   identifier: 3
   approvals:
   - type: affirmative
@@ -92,7 +92,7 @@ resolutions:
       . La mole est une unité de base du Système international d'unités.
 - dates:
   - 1971-10-08
-  subject: Approbation du programme de travail du Bureau international des poids et
+  title: Approbation du programme de travail du Bureau international des poids et
     mesures pour 1973-1976
   identifier: 4
   approvals:
@@ -128,7 +128,7 @@ resolutions:
       pour les quatre années 1973-1976.
 - dates:
   - 1971-10-08
-  subject: Dotation du Bureau international pour la période 1973-1976
+  title: Dotation du Bureau international pour la période 1973-1976
   identifier: 5
   approvals:
   - type: affirmative

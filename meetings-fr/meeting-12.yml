@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1964-10-13
-  subject: Section des radiations ionisantes du Bureau international ; troisième dotation
+  title: Section des radiations ionisantes du Bureau international ; troisième dotation
     exceptionnelle
   identifier: 1
   approvals:
@@ -32,7 +32,7 @@ resolutions:
       selon les instructions de la Résolution 1 de la Onzième Conférence générale.
 - dates:
   - 1964-10-13
-  subject: Section des radiations ionisantes du Bureau international ; troisième dotation
+  title: Section des radiations ionisantes du Bureau international ; troisième dotation
     exceptionnelle
   identifier: 2
   approvals:
@@ -56,7 +56,7 @@ resolutions:
       que la dotation ordinaire annuelle et payable dès que possible.
 - dates:
   - 1964-10-13
-  subject: Dotation du Bureau international
+  title: Dotation du Bureau international
   identifier: 3
   approvals:
   - type: affirmative
@@ -91,7 +91,7 @@ resolutions:
       de nouveaux États.
 - dates:
   - 1964-10-13
-  subject: Dotation du Bureau international
+  title: Dotation du Bureau international
   identifier: 4
   approvals:
   - type: affirmative
@@ -147,7 +147,7 @@ resolutions:
       </center>
 - dates:
   - 1964-10-13
-  subject: Étalon atomique de fréquence
+  title: Étalon atomique de fréquence
   identifier: 5
   approvals:
   - type: affirmative
@@ -177,7 +177,7 @@ resolutions:
       à poursuivre les études utiles à une nouvelle définition de la seconde."
 - dates:
   - 1964-10-13
-  subject: Litre
+  title: Litre
   identifier: 6
   approvals:
   - type: affirmative
@@ -206,7 +206,7 @@ resolutions:
        que le nom de litre ne soit pas utilisé pour exprimer les résultats des mesures de volume de haute précision.
 - dates:
   - 1964-10-13
-  subject: Curie
+  title: Curie
   identifier: 7
   approvals:
   - type: affirmative
@@ -229,7 +229,7 @@ resolutions:
   actions: []
 - dates:
   - 1964-10-13
-  subject: Préfixes SI femto et atto
+  title: Préfixes SI femto et atto
   identifier: 8
   approvals:
   - type: affirmative
@@ -247,7 +247,7 @@ resolutions:
       10^\x9615^ .>| femto .>| f\n.>| 10^\x9618^ .>| atto .>| a\n\n|==="
 - dates:
   - 1964-10-13
-  subject: Coefficient gyromagnétique du proton (poursuite des études)
+  title: Coefficient gyromagnétique du proton (poursuite des études)
   identifier: 9
   approvals:
   - type: affirmative
@@ -274,7 +274,7 @@ resolutions:
       de la reproductibilité de l'ampère, unité de base du Système international d'unités.
 - dates:
   - 1964-10-13
-  subject: Échelle internationale pratique de température (recherches à effectuer)
+  title: Échelle internationale pratique de température (recherches à effectuer)
   identifier: 10
   approvals:
   - type: affirmative

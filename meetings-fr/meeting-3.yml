@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1901-10-22
-  subject: Déclaration concernant la définition du litre
+  title: Déclaration concernant la définition du litre
   identifier: 1
   approvals:
   - type: affirmative
@@ -25,7 +25,7 @@ resolutions:
       La Conférence charge le Comité international de faire poursuivre au Bureau les mesures destinées à faire encore mieux connaître le rapport de ces deux grandeurs, et de publier le plus tôt possible les résultats des recherches déjà effectuées au Bureau, afin de permettre d'utiliser à l'avenir, dans les travaux scientifiques ou techniques de haute précision, la valeur la plus probable de ce rapport.
 - dates:
   - 1901-10-22
-  subject: Déclaration relative à l'unité de masse et à la définition du poids ; valeur
+  title: Déclaration relative à l'unité de masse et à la définition du poids ; valeur
     conventionnelle de gn
   identifier: 2
   approvals:

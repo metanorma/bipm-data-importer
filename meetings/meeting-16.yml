@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1979-10-12
-  subject: Kilogram standards
+  title: Kilogram standards
   identifier: 1
   approvals:
   - type: affirmative
@@ -31,7 +31,7 @@ resolutions:
       * that laboratories intensify their work aimed at an improved determination of the air buoyancy correction.
 - dates:
   - 1979-10-12
-  subject: Realization of electrical units
+  title: Realization of electrical units
   identifier: 2
   approvals:
   - type: affirmative
@@ -56,7 +56,7 @@ resolutions:
       the determination of physical constants."
 - dates:
   - 1979-10-12
-  subject: SI unit of luminous intensity (candela)
+  title: SI unit of luminous intensity (candela)
   identifier: 3
   approvals:
   - type: affirmative
@@ -83,7 +83,7 @@ resolutions:
       . The definition of the candela (at the time called new candle) adopted by the CIPM in 1946 by reason of the powers conferred by the 8th CGPM in 1933, ratified by the 9th CGPM in 1948, then amended by the 13th CGPM in 1967, is abrogated.
 - dates:
   - 1979-10-12
-  subject: Definition of the candela - Improvement of photometric accuracy
+  title: Definition of the candela - Improvement of photometric accuracy
   identifier: 4
   approvals:
   - type: affirmative
@@ -103,7 +103,7 @@ resolutions:
       photometric calibration procedures and methods of international comparisons.
 - dates:
   - 1979-10-12
-  subject: Special name for the SI unit of dose equivalent (sievert)
+  title: Special name for the SI unit of dose equivalent (sievert)
   identifier: 5
   approvals:
   - type: affirmative
@@ -126,7 +126,7 @@ resolutions:
       joule per kilogram."
 - dates:
   - 1979-10-12
-  subject: Symbols for the litre
+  title: Symbols for the litre
   identifier: 6
   approvals:
   - type: affirmative
@@ -164,7 +164,7 @@ resolutions:
       of them.
 - dates:
   - 1979-10-12
-  subject: BIPM budget for the years 1981-1984
+  title: BIPM budget for the years 1981-1984
   identifier: 7
   approvals:
   - type: affirmative

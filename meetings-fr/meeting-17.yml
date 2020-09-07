@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1983-10-21
-  subject: Définition du mètre
+  title: Définition du mètre
   identifier: 1
   approvals:
   - type: affirmative
@@ -54,7 +54,7 @@ resolutions:
       . La définition du mètre en vigueur depuis 1960, fondée sur la transition entre les niveaux 2p~10~ et 5d~5~ de l'atome de krypton 86, est abrogée.
 - dates:
   - 1983-10-21
-  subject: Sur la mise en pratique de la définition du mètre
+  title: Sur la mise en pratique de la définition du mètre
   identifier: 2
   approvals:
   - type: affirmative
@@ -72,7 +72,7 @@ resolutions:
       * à poursuivre les études entreprises pour améliorer ces étalons.
 - dates:
   - 1983-10-21
-  subject: Sur la masse volumique de l'air
+  title: Sur la masse volumique de l'air
   identifier: 3
   approvals:
   - type: affirmative
@@ -99,7 +99,7 @@ resolutions:
       * à mettre à jour la formule recommandée lorsque de meilleures déterminations expérimentales le permettront.
 - dates:
   - 1983-10-21
-  subject: Dotation du BIPM
+  title: Dotation du BIPM
   identifier: 4
   approvals:
   - type: affirmative

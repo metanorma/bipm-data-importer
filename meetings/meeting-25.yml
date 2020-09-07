@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 2014-11-20
-  subject: On the future revision of the International System of Units, the SI
+  title: On the future revision of the International System of Units, the SI
   identifier: 1
   approvals:
   - type: affirmative
@@ -53,7 +53,7 @@ resolutions:
       * continued effort by the CIPM, together with its Consultative Committees, the NMIs, the BIPM, and other organizations such as the International Organization of Legal Metrology (OIML), to complete all work necessary for the CGPM at its 26th meeting to adopt a resolution that would replace the current SI with the revised SI, provided the amount of data, their uncertainties, and level of consistency are deemed satisfactory.
 - dates:
   - 2014-11-20
-  subject: On the election of the International Committee for Weights and Measures
+  title: On the election of the International Committee for Weights and Measures
   identifier: 2
   approvals:
   - type: affirmative
@@ -99,7 +99,7 @@ resolutions:
       * Member States to participate actively in the CIPM election process.
 - dates:
   - 2014-11-20
-  subject: On the Pension and Provident Fund of the BIPM
+  title: On the Pension and Provident Fund of the BIPM
   identifier: 3
   approvals:
   - type: affirmative
@@ -146,7 +146,7 @@ resolutions:
       * inform Member States about the outcome of actuarial studies on the assets and liabilities of the BIPM Pension and Provident Fund in its regular financial publications and at the next meeting of the General Conference.
 - dates:
   - 2014-11-20
-  subject: Dotation of the BIPM for the years 2016 to 2019
+  title: Dotation of the BIPM for the years 2016 to 2019
   identifier: 4
   approvals:
   - type: affirmative
@@ -190,7 +190,7 @@ resolutions:
       * Member States, as well as international organizations, private organizations and foundations to maintain the provision of additional voluntary support of all kinds to support specific BIPM mission-related activities, particularly those that facilitate participation in the activities of the BIPM by those countries without well-developed metrology infrastructure.
 - dates:
   - 2014-11-20
-  subject: On the importance of the CIPM Mutual Recognition Arrangement
+  title: On the importance of the CIPM Mutual Recognition Arrangement
   identifier: 5
   approvals:
   - type: affirmative

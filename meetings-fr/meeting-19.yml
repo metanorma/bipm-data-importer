@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1991-10-03
-  subject: Étalons de temps et comparaisons de temps
+  title: Étalons de temps et comparaisons de temps
   identifier: 1
   approvals:
   - type: affirmative
@@ -36,7 +36,7 @@ resolutions:
        que les coordonnées adoptées pour les antennes utilisées pour les comparaisons d'horloges par satellite, à sens unique, correspondent à leur position réelle dans le système de référence terrestre du Service international de la rotation terrestre.
 - dates:
   - 1991-10-03
-  subject: L'effet Josephson et l'effet Hall quantique
+  title: L'effet Josephson et l'effet Hall quantique
   identifier: 2
   approvals:
   - type: affirmative
@@ -75,7 +75,7 @@ resolutions:
        que soient poursuivies les recherches concernant la théorie fondamentale de l'effet Josephson et de l'effet Hall quantique.
 - dates:
   - 1991-10-03
-  subject: L'Échelle internationale de température de 1990 et les travaux futurs en
+  title: L'Échelle internationale de température de 1990 et les travaux futurs en
     thermométrie
   identifier: 3
   approvals:
@@ -106,7 +106,7 @@ resolutions:
       de leurs programmes de recherche fondamentale en thermométrie."
 - dates:
   - 1991-10-03
-  subject: Préfixes SI zetta, zepto, yotta et yocto
+  title: Préfixes SI zetta, zepto, yotta et yocto
   identifier: 4
   approvals:
   - type: affirmative

@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1995-10-13
-  subject: Nécessité d'utiliser les unités du SI dans les recherches sur les ressources
+  title: Nécessité d'utiliser les unités du SI dans les recherches sur les ressources
     terrestres, l'environnement, la sécurité humaine et les études  connexes
   identifier: 1
   approvals:
@@ -37,7 +37,7 @@ resolutions:
       du Mètre.
 - dates:
   - 1995-10-13
-  subject: Traçabilité des étalons au niveau mondial
+  title: Traçabilité des étalons au niveau mondial
   identifier: 2
   approvals:
   - type: affirmative
@@ -80,7 +80,7 @@ resolutions:
       au niveau international."
 - dates:
   - 1995-10-13
-  subject: Besoin de recherches métrologiques à long terme
+  title: Besoin de recherches métrologiques à long terme
   identifier: 3
   approvals:
   - type: affirmative
@@ -105,7 +105,7 @@ resolutions:
        informent régulièrement le Bureau international des poids et mesures des résultats des travaux liés à la métrologie fondamentale.
 - dates:
   - 1995-10-13
-  subject: Révision de la mise en pratique de la définition du mètre
+  title: Révision de la mise en pratique de la définition du mètre
   identifier: 4
   approvals:
   - type: affirmative
@@ -146,7 +146,7 @@ resolutions:
       encore la base expérimentale du Système international d'unités."
 - dates:
   - 1995-10-13
-  subject: Contrôle de la stabilité du prototype international du kilogramme
+  title: Contrôle de la stabilité du prototype international du kilogramme
   identifier: 5
   approvals:
   - type: affirmative
@@ -171,7 +171,7 @@ resolutions:
       définition de l'unité de masse fondée sur des constantes fondamentales ou atomiques."
 - dates:
   - 1995-10-13
-  subject: Comparaison d'horloges à l'aide de techniques par laser visant des satellites
+  title: Comparaison d'horloges à l'aide de techniques par laser visant des satellites
   identifier: 6
   approvals:
   - type: affirmative
@@ -200,7 +200,7 @@ resolutions:
       utilisant des techniques par laser visant des satellites."
 - dates:
   - 1995-10-13
-  subject: Métrologie en chimie
+  title: Métrologie en chimie
   identifier: 7
   approvals:
   - type: affirmative
@@ -232,7 +232,7 @@ resolutions:
       chimiques."
 - dates:
   - 1995-10-13
-  subject: Suppression de la classe des unités supplémentaires dans le SI
+  title: Suppression de la classe des unités supplémentaires dans le SI
   identifier: 8
   approvals:
   - type: affirmative
@@ -260,7 +260,7 @@ resolutions:
        et, par conséquent, de supprimer la classe des unités supplémentaires en tant que classe séparée dans le SI.
 - dates:
   - 1995-10-13
-  subject: Dotation du BIPM
+  title: Dotation du BIPM
   identifier: 9
   approvals:
   - type: affirmative
@@ -290,7 +290,7 @@ resolutions:
       </table></center>
 - dates:
   - 1995-10-13
-  subject: Futures relations avec l'Organisation internationale de métrologie légale
+  title: Futures relations avec l'Organisation internationale de métrologie légale
   identifier: 10
   approvals:
   - type: affirmative
@@ -320,7 +320,7 @@ resolutions:
       au sujet de l'opportunité de poursuivre des actions dans ce sens."
 - dates:
   - 1995-10-13
-  subject: 'Métrologie : besoins à long terme'
+  title: 'Métrologie : besoins à long terme'
   identifier: 11
   approvals:
   - type: affirmative

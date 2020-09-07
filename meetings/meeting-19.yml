@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1991-10-03
-  subject: Time standards and time comparisons
+  title: Time standards and time comparisons
   identifier: 1
   approvals:
   - type: affirmative
@@ -36,7 +36,7 @@ resolutions:
        that the coordinates adopted for antennas used in single-way time comparison by satellite techniques correspond to their real position in the terrestrial reference system of the International Earth Rotation Service.
 - dates:
   - 1991-10-03
-  subject: The Josephson and quantum-Hall effects
+  title: The Josephson and quantum-Hall effects
   identifier: 2
   approvals:
   - type: affirmative
@@ -74,8 +74,7 @@ resolutions:
        that research be continued into the basic theory of the Josephson and quantum-Hall effects.
 - dates:
   - 1991-10-03
-  subject: The International Temperature Scale of 1990 (ITS-90) and future work in
-    thermometry
+  title: The International Temperature Scale of 1990 (ITS-90) and future work in thermometry
   identifier: 3
   approvals:
   - type: affirmative
@@ -105,7 +104,7 @@ resolutions:
       on fundamental thermometry.
 - dates:
   - 1991-10-03
-  subject: SI prefixes zetta, zepto, yotta and yocto
+  title: SI prefixes zetta, zepto, yotta and yocto
   identifier: 4
   approvals:
   - type: affirmative

@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1999-10-15
-  subject: Long-term needs relating to metrology
+  title: Long-term needs relating to metrology
   identifier: 1
   approvals:
   - type: affirmative
@@ -44,8 +44,8 @@ resolutions:
       to the study and the report of the International Committee."
 - dates:
   - 1999-10-15
-  subject: Mutual recognition of national measurement standards and of calibration
-    and measurement certificates issued by national metrology institutes
+  title: Mutual recognition of national measurement standards and of calibration and
+    measurement certificates issued by national metrology institutes
   identifier: 2
   approvals:
   - type: affirmative
@@ -85,7 +85,7 @@ resolutions:
        all States to use this arrangement as the basis for recognizing the national measurement standards and calibration and measurement certificates of signatory national metrology institutes.
 - dates:
   - 1999-10-15
-  subject: Associates of the Conférence Générale des Poids et Mesures
+  title: Associates of the Conférence Générale des Poids et Mesures
   identifier: 3
   approvals:
   - type: affirmative
@@ -134,7 +134,7 @@ resolutions:
       cease to be an Associate; it may be reinstated on payment of these arrears."
 - dates:
   - 1999-10-15
-  subject: The need to use SI units in studies of Earth resources, the environment,
+  title: The need to use SI units in studies of Earth resources, the environment,
     human well-being and related issues
   identifier: 4
   approvals:
@@ -165,7 +165,7 @@ resolutions:
       established and maintained under the Metre Convention."
 - dates:
   - 1999-10-15
-  subject: Revision of the mise en pratique of the definition of the metre
+  title: Revision of the mise en pratique of the definition of the metre
   identifier: 5
   approvals:
   - type: affirmative
@@ -203,7 +203,7 @@ resolutions:
       and *recommends* that national laboratories pursue experimental and theoretical research on optical wavelength and frequency standards, including the development of new techniques for the comparison of different standards over a wide range of wavelength and frequency to improve yet further the experimental basis of the International System of Units.
 - dates:
   - 1999-10-15
-  subject: Requirements for dimensional metrology
+  title: Requirements for dimensional metrology
   identifier: 6
   approvals:
   - type: affirmative
@@ -229,7 +229,7 @@ resolutions:
       to meet the diverse and growing demands in the field of dimensional metrology."
 - dates:
   - 1999-10-15
-  subject: The definition of the kilogram
+  title: The definition of the kilogram
   identifier: 7
   approvals:
   - type: affirmative
@@ -254,7 +254,7 @@ resolutions:
       a view to a future redefinition of the kilogram."
 - dates:
   - 1999-10-15
-  subject: Operational primary frequency standards
+  title: Operational primary frequency standards
   identifier: 8
   approvals:
   - type: affirmative
@@ -280,7 +280,7 @@ resolutions:
       the accuracy of TAI and UTC will be based."
 - dates:
   - 1999-10-15
-  subject: Extension of the International Temperature Scale below 0.65 K
+  title: Extension of the International Temperature Scale below 0.65 K
   identifier: 9
   approvals:
   - type: affirmative
@@ -304,7 +304,7 @@ resolutions:
       an extension of the ITS-90 below its present lower limit of 0.65 K."
 - dates:
   - 1999-10-15
-  subject: Metrology in chemistry
+  title: Metrology in chemistry
   identifier: 10
   approvals:
   - type: affirmative
@@ -334,7 +334,7 @@ resolutions:
        in collaboration with the International Committee, work to define the areas of priority and essential international comparisons which are key to the traceability of measurements in chemistry, both worldwide and within regions.
 - dates:
   - 1999-10-15
-  subject: Metrology in biotechnology
+  title: Metrology in biotechnology
   identifier: 11
   approvals:
   - type: affirmative
@@ -359,7 +359,7 @@ resolutions:
        to collaborate with the international scientific unions and the international organizations concerned in the establishment of an adequate international measurement infrastructure to ensure traceability to the SI in measurements in biotechnology.
 - dates:
   - 1999-10-15
-  subject: Special name for the SI derived unit mole per second, the katal, for the
+  title: Special name for the SI derived unit mole per second, the katal, for the
     expression of catalytic activity
   identifier: 12
   approvals:
@@ -391,7 +391,7 @@ resolutions:
       and *recommends* that when the katal is used, the measurand be specified by reference to the measurement procedure; the measurement procedure must identify the indicator reaction.
 - dates:
   - 1999-10-15
-  subject: Dotation of the BIPM
+  title: Dotation of the BIPM
   identifier: 13
   approvals:
   - type: affirmative

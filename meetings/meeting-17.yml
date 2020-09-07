@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1983-10-21
-  subject: Definition of the metre
+  title: Definition of the metre
   identifier: 1
   approvals:
   - type: affirmative
@@ -52,7 +52,7 @@ resolutions:
       . The definition of the metre in force since 1960, based upon the transition between the levels 2p~10~ and 5d~5~ of the atom of krypton 86, is abrogated.
 - dates:
   - 1983-10-21
-  subject: On the realization of the definition of the metre
+  title: On the realization of the definition of the metre
   identifier: 2
   approvals:
   - type: affirmative
@@ -70,7 +70,7 @@ resolutions:
       * to pursue studies undertaken to improve these standards.
 - dates:
   - 1983-10-21
-  subject: Density of air
+  title: Density of air
   identifier: 3
   approvals:
   - type: affirmative
@@ -97,7 +97,7 @@ resolutions:
       * to bring up to date the recommended equation when better experimental determinations permit.
 - dates:
   - 1983-10-21
-  subject: Appropriation for the BIPM
+  title: Appropriation for the BIPM
   identifier: 4
   approvals:
   - type: affirmative

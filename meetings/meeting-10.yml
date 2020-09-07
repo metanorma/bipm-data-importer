@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1954-10-14
-  subject: Définition du mètre
+  title: Définition du mètre
   identifier: 1
   approvals:
   - type: affirmative
@@ -39,7 +39,7 @@ resolutions:
     message: et décide de ne pas encore changer la définition du mètre.
 - dates:
   - 1954-10-14
-  subject: Retraçage des mètres
+  title: Retraçage des mètres
   identifier: 2
   approvals:
   - type: affirmative
@@ -59,7 +59,7 @@ resolutions:
       faisant munir d'un nouveau tracé.
 - dates:
   - 1954-10-14
-  subject: Definition of the thermodynamic  temperature scale
+  title: Definition of the thermodynamic  temperature scale
   identifier: 3
   approvals:
   - type: affirmative
@@ -74,7 +74,7 @@ resolutions:
       temperature 273,16 degrees Kelvin, exactly.
 - dates:
   - 1954-10-14
-  subject: Definition of the standard atmosphere
+  title: Definition of the standard atmosphere
   identifier: 4
   approvals:
   - type: affirmative
@@ -97,7 +97,7 @@ resolutions:
       i.e., 101 325 newtons per square metre.
 - dates:
   - 1954-10-14
-  subject: Définition de l'unité de temps
+  title: Définition de l'unité de temps
   identifier: 5
   approvals:
   - type: affirmative
@@ -118,7 +118,7 @@ resolutions:
       sur ce point.
 - dates:
   - 1954-10-14
-  subject: Practical system of units
+  title: Practical system of units
   identifier: 6
   approvals:
   - type: affirmative

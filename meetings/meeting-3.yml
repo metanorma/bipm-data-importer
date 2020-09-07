@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1901-10-22
-  subject: Declaration concerning the definition of the litre
+  title: Declaration concerning the definition of the litre
   identifier: 1
   approvals:
   - type: affirmative
@@ -23,7 +23,7 @@ resolutions:
       . . . .
 - dates:
   - 1901-10-22
-  subject: Declaration on the unit of mass and on the definition of weight; conventional
+  title: Declaration on the unit of mass and on the definition of weight; conventional
     value of gn
   identifier: 2
   approvals:

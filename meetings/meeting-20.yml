@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1995-10-13
-  subject: The need to use SI units in studies of Earth resources, the environment,
+  title: The need to use SI units in studies of Earth resources, the environment,
     human well-being and related issues
   identifier: 1
   approvals:
@@ -36,7 +36,7 @@ resolutions:
       established and maintained under the Convention du Mètre."
 - dates:
   - 1995-10-13
-  subject: World-wide traceability of measurement standards
+  title: World-wide traceability of measurement standards
   identifier: 2
   approvals:
   - type: affirmative
@@ -76,7 +76,7 @@ resolutions:
        and that the results of comparisons carried out by the regional groups be communicated to the BIPM in appropriate form for them to be published by the BIPM and thereby given wide international recognition.
 - dates:
   - 1995-10-13
-  subject: The need for long-term metrological research
+  title: The need for long-term metrological research
   identifier: 3
   approvals:
   - type: affirmative
@@ -101,7 +101,7 @@ resolutions:
        keep the Bureau International des Poids et Mesures informed as to the results of the work related to fundamental metrology.
 - dates:
   - 1995-10-13
-  subject: Revision of the mise en pratique of the definition of the metre
+  title: Revision of the mise en pratique of the definition of the metre
   identifier: 4
   approvals:
   - type: affirmative
@@ -142,7 +142,7 @@ resolutions:
       of the Système International d'Unités."
 - dates:
   - 1995-10-13
-  subject: Monitoring the stability of the international prototype of the kilogram
+  title: Monitoring the stability of the international prototype of the kilogram
   identifier: 5
   approvals:
   - type: affirmative
@@ -167,7 +167,7 @@ resolutions:
       of the unit of mass based upon fundamental or atomic constants."
 - dates:
   - 1995-10-13
-  subject: Clock comparison by satellite laser techniques
+  title: Clock comparison by satellite laser techniques
   identifier: 6
   approvals:
   - type: affirmative
@@ -195,7 +195,7 @@ resolutions:
       techniques."
 - dates:
   - 1995-10-13
-  subject: Metrology in chemistry
+  title: Metrology in chemistry
   identifier: 7
   approvals:
   - type: affirmative
@@ -227,7 +227,7 @@ resolutions:
       measurements in chemistry."
 - dates:
   - 1995-10-13
-  subject: Elimination of the class of supplementary units in the SI
+  title: Elimination of the class of supplementary units in the SI
   identifier: 8
   approvals:
   - type: affirmative
@@ -256,7 +256,7 @@ resolutions:
        and, consequently, to eliminate the class of supplementary units as a separate class in the SI.
 - dates:
   - 1995-10-13
-  subject: Dotation of the BIPM
+  title: Dotation of the BIPM
   identifier: 9
   approvals:
   - type: affirmative
@@ -286,7 +286,7 @@ resolutions:
       </table></center>
 - dates:
   - 1995-10-13
-  subject: Future relations with the Organisation Internationale de Métrologie Légale
+  title: Future relations with the Organisation Internationale de Métrologie Légale
   identifier: 10
   approvals:
   - type: affirmative
@@ -316,7 +316,7 @@ resolutions:
       further action should be taken."
 - dates:
   - 1995-10-13
-  subject: 'Metrology: long-term needs'
+  title: 'Metrology: long-term needs'
   identifier: 11
   approvals:
   - type: affirmative

@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 2007-11-16
-  subject: Initiatives prises pour renforcer la collaboration entre les laboratoires
+  title: Initiatives prises pour renforcer la collaboration entre les laboratoires
     nationaux de métrologie et les organismes d'accréditation reconnus au niveau national
   identifier: 1
   approvals:
@@ -44,7 +44,7 @@ resolutions:
       développer leur collaboration et un dialogue régulier.
 - dates:
   - 2007-11-16
-  subject: Au sujet du rapport du Comité international à la Conférence générale sur
+  title: Au sujet du rapport du Comité international à la Conférence générale sur
     l'évolution des besoins dans le domaine de la métrologie pour le commerce, l'industrie
     et la société et le rôle du Bureau international des poids et mesures (BIPM)
   identifier: 2
@@ -115,7 +115,7 @@ resolutions:
       de la métrologie aux prochaines Conférences générales."
 - dates:
   - 2007-11-16
-  subject: Dotation du Bureau international des poids et mesures (BIPM) pour les années
+  title: Dotation du Bureau international des poids et mesures (BIPM) pour les années
     2009 à 2012
   identifier: 3
   approvals:
@@ -193,9 +193,8 @@ resolutions:
       *et demande* au directeur et au Comité international de fixer des priorités pour les activités proposées dans le programme de travail, au vu de la dotation approuvée par la Conférence générale.
 - dates:
   - 2007-11-16
-  subject: Sur l'importance de l'Arrangement de reconnaissance mutuelle du Comité
-    international des poids et mesures (CIPM) et des autres arrangements connexes
-    pour le commerce
+  title: Sur l'importance de l'Arrangement de reconnaissance mutuelle du Comité international
+    des poids et mesures (CIPM) et des autres arrangements connexes pour le commerce
   identifier: 4
   approvals:
   - type: affirmative
@@ -237,7 +236,7 @@ resolutions:
       tout ce qui fait obstacle à l'acceptation de cette demande du BIPM."
 - dates:
   - 2007-11-16
-  subject: Sur les États associés à la Conférence générale
+  title: Sur les États associés à la Conférence générale
   identifier: 5
   approvals:
   - type: affirmative
@@ -272,8 +271,7 @@ resolutions:
       pour un montant maximum correspondant à cinq ans de souscriptions."
 - dates:
   - 2007-11-16
-  subject: Sur l'acceptation d'entités économiques comme Associés à la Conférence
-    générale
+  title: Sur l'acceptation d'entités économiques comme Associés à la Conférence générale
   identifier: 6
   approvals:
   - type: affirmative
@@ -298,7 +296,7 @@ resolutions:
       générale avant que ces critères n'aient été approuvés par la Conférence générale."
 - dates:
   - 2007-11-16
-  subject: Sur l'importance de promouvoir les activités menées sous les auspices de
+  title: Sur l'importance de promouvoir les activités menées sous les auspices de
     la Convention du Mètre afin d'encourager davantage d'États à adhérer à la Convention
     du Mètre ou à devenir Associés à la Conférence générale
   identifier: 7
@@ -360,7 +358,7 @@ resolutions:
       du Mètre ou qu'il adopte le statut d'Associé à la Conférence générale."
 - dates:
   - 2007-11-16
-  subject: Sur les contributions arriérées des États Membres
+  title: Sur les contributions arriérées des États Membres
   identifier: 8
   approvals:
   - type: affirmative
@@ -419,8 +417,8 @@ resolutions:
       dont le montant est égal à sa première année de contribution."
 - dates:
   - 2007-11-16
-  subject: Sur la révision de la mise en pratique de la définition du mètre et sur
-    la mise au point de nouveaux étalons optiques de fréquence
+  title: Sur la révision de la mise en pratique de la définition du mètre et sur la
+    mise au point de nouveaux étalons optiques de fréquence
   identifier: 9
   approvals:
   - type: affirmative
@@ -458,7 +456,7 @@ resolutions:
       de fréquence."
 - dates:
   - 2007-11-16
-  subject: Sur la clarification de la définition du kelvin, unité de température thermodynamique
+  title: Sur la clarification de la définition du kelvin, unité de température thermodynamique
   identifier: 10
   approvals:
   - type: affirmative
@@ -493,7 +491,7 @@ resolutions:
   actions: []
 - dates:
   - 2007-11-16
-  subject: Sur l'importance des mesures traçables au Système international d'unités
+  title: Sur l'importance des mesures traçables au Système international d'unités
     (SI) pour l'observation du changement climatique
   identifier: 11
   approvals:
@@ -538,7 +536,7 @@ resolutions:
       établir cette traçabilité dans les mesures terrestres et spatiales."
 - dates:
   - 2007-11-16
-  subject: Sur l'éventuelle redéfinition de certaines unités de base du Système international
+  title: Sur l'éventuelle redéfinition de certaines unités de base du Système international
     d'unités (SI)
   identifier: 12
   approvals:

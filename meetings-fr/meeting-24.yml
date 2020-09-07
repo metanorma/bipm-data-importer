@@ -6,8 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 2011-10-21
-  subject: Sur l'éventuelle révision à venir du Système international d'unités, le
-    SI
+  title: Sur l'éventuelle révision à venir du Système international d'unités, le SI
   identifier: 1
   approvals:
   - type: affirmative
@@ -172,9 +171,9 @@ resolutions:
       et des utilisateurs."
 - dates:
   - 2011-10-21
-  subject: Sur l'importance d'une collaboration internationale afin de rendre les
-    mesures nécessaires à l'observation du changement climatique traçables au Système
-    international d'unités (SI)
+  title: Sur l'importance d'une collaboration internationale afin de rendre les mesures
+    nécessaires à l'observation du changement climatique traçables au Système international
+    d'unités (SI)
   identifier: 2
   approvals:
   - type: affirmative
@@ -238,7 +237,7 @@ resolutions:
       des États Parties à la Convention du Mètre."
 - dates:
   - 2011-10-21
-  subject: Dotation du Bureau international des poids et mesures pour les années 2013
+  title: Dotation du Bureau international des poids et mesures pour les années 2013
     à 2015
   identifier: 3
   approvals:
@@ -288,7 +287,7 @@ resolutions:
       <center>11 577 000 euros en 2013</center><center>11 693 000 euros en 2014</center><center>11 810 000 euros en 2015</center>
 - dates:
   - 2011-10-21
-  subject: Sur le statut d'État Associé à la Conférence générale
+  title: Sur le statut d'État Associé à la Conférence générale
   identifier: 4
   approvals:
   - type: affirmative
@@ -342,7 +341,7 @@ resolutions:
       tous les États Associés, qu'ils remplissent ou non les critères adoptés par le CIPM afin d'encourager les États Associés à devenir États Parties à la Convention du Mètre, à adhérer à la Convention du Mètre en ce qu'une telle adhésion ne peut qu'être bénéfique au renforcement du système de mesure mondial.
 - dates:
   - 2011-10-21
-  subject: Sur l'acceptation d'entités économiques comme Associé à la Conférence générale
+  title: Sur l'acceptation d'entités économiques comme Associé à la Conférence générale
   identifier: 5
   approvals:
   - type: affirmative
@@ -373,7 +372,7 @@ resolutions:
        le Comité international des poids et mesures (CIPM) à réfléchir à d'autres moyens appropriés d'impliquer des organisations intergouvernementales, en particulier celles de régions ne disposant pas d'une infrastructure métrologique bien développée, au travail du BIPM et à présenter lors de la prochaine réunion de la CGPM des propositions sur la façon la plus adéquate d'y parvenir.
 - dates:
   - 2011-10-21
-  subject: Sur les contributions arriérées des États Parties à la Convention du Mètre
+  title: Sur les contributions arriérées des États Parties à la Convention du Mètre
   identifier: 6
   approvals:
   - type: affirmative
@@ -403,7 +402,7 @@ resolutions:
        que le calcul des contributions est rétabli conformément aux dispositions applicables dès l'année civile suivant l'exclusion.
 - dates:
   - 2011-10-21
-  subject: Sur les accords de rééchelonnement conclus entre le Comité international
+  title: Sur les accords de rééchelonnement conclus entre le Comité international
     des poids et mesures et les États Parties à la Convention du Mètre débiteurs pour
     le paiement de leurs contributions arriérées
   identifier: 7
@@ -435,8 +434,8 @@ resolutions:
        si l'État ne respecte pas les termes de l'accord de rééchelonnement pendant plus de 12 mois, il sera automatiquement exclu.
 - dates:
   - 2011-10-21
-  subject: Sur la révision de la mise en pratique de la définition du mètre et sur
-    la mise au point de nouveaux étalons optiques de fréquence
+  title: Sur la révision de la mise en pratique de la définition du mètre et sur la
+    mise au point de nouveaux étalons optiques de fréquence
   identifier: 8
   approvals:
   - type: affirmative
@@ -465,7 +464,7 @@ resolutions:
        le BIPM aide à la coordination d'un projet international auquel participeraient les laboratoires nationaux de métrologie, portant sur l'étude des techniques qui pourraient être utilisées pour comparer les étalons optiques de fréquence.
 - dates:
   - 2011-10-21
-  subject: Sur l'adoption d'un système de référence terrestre commun
+  title: Sur l'adoption d'un système de référence terrestre commun
   identifier: 9
   approvals:
   - type: affirmative
@@ -489,8 +488,8 @@ resolutions:
       unique pour les repères terrestres."
 - dates:
   - 2011-10-21
-  subject: Sur le rôle, la mission, les objectifs, la stratégie à long terme et la
-    gouvernance du BIPM
+  title: Sur le rôle, la mission, les objectifs, la stratégie à long terme et la gouvernance
+    du BIPM
   identifier: 10
   approvals:
   - type: affirmative

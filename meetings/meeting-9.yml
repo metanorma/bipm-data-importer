@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1948-10-21
-  subject: "(Vers une nouvelle définition du mètre)"
+  title: "(Vers une nouvelle définition du mètre)"
   identifier: 1
   approvals:
   - type: affirmative
@@ -35,7 +35,7 @@ resolutions:
       spécifiées.
 - dates:
   - 1948-10-21
-  subject: "(Concernant les mesures de gravité)"
+  title: "(Concernant les mesures de gravité)"
   identifier: 2
   approvals:
   - type: affirmative
@@ -61,7 +61,7 @@ resolutions:
       base fondamentale plus précise puisse être proposée pour cette grandeur.
 - dates:
   - 1948-10-21
-  subject: Triple point of water; thermodynamic scale with a single fixed point; unit
+  title: Triple point of water; thermodynamic scale with a single fixed point; unit
     of quantity of heat (joule)
   identifier: 3
   approvals:
@@ -86,7 +86,7 @@ resolutions:
   actions: []
 - dates:
   - 1948-10-21
-  subject: "(Concernant un accord avec l'Unesco)"
+  title: "(Concernant un accord avec l'Unesco)"
   identifier: 4
   approvals:
   - type: affirmative
@@ -115,7 +115,7 @@ resolutions:
       leurs activités communes »."
 - dates:
   - 1948-10-21
-  subject: "(Dotation du BIPM)"
+  title: "(Dotation du BIPM)"
   identifier: 5
   approvals:
   - type: affirmative
@@ -146,7 +146,7 @@ resolutions:
       . l'application de cette disposition sera différée jusqu'à la date où le Japon et l'Allemagne auront repris leurs paiements statutaires.
 - dates:
   - 1948-10-21
-  subject: Proposal for establishing a practical system of units of measurement
+  title: Proposal for establishing a practical system of units of measurement
   identifier: 6
   approvals:
   - type: affirmative
@@ -171,7 +171,7 @@ resolutions:
        to make recommendations for a single practical system of units of measurement, suitable for adoption by all countries adhering to the Metre Convention.
 - dates:
   - 1948-10-21
-  subject: Writing and printing of unit symbols and of numbers
+  title: Writing and printing of unit symbols and of numbers
   identifier: 7
   approvals:
   - type: affirmative
@@ -221,7 +221,7 @@ resolutions:
       |===
 - dates:
   - 1948-10-21
-  subject: "(Concernant la dotation du BIPM)"
+  title: "(Concernant la dotation du BIPM)"
   identifier: 8
   approvals:
   - type: affirmative
@@ -241,7 +241,7 @@ resolutions:
       mêmes grands services que par le passé.
 - dates:
   - 1948-10-21
-  subject: "(Concernant la question des retouches à apporter à la Convention du Mètre)"
+  title: "(Concernant la question des retouches à apporter à la Convention du Mètre)"
   identifier: 9
   approvals:
   - type: affirmative
@@ -261,7 +261,7 @@ resolutions:
       Dans la suite, sur la base de ces recommandations, le Comité international des poids et mesures devra établir un projet, qui, étudié par lui-même, sera soumis à l'approbation de la Dixième Conférence générale des poids et mesures.
 - dates:
   - 1948-10-21
-  subject: "(Concernant la poursuite des résolutions)"
+  title: "(Concernant la poursuite des résolutions)"
   identifier: 10
   approvals:
   - type: affirmative

@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1967-10-16
-  subject: Unité SI de temps (seconde)
+  title: Unité SI de temps (seconde)
   identifier: 1
   approvals:
   - type: affirmative
@@ -33,7 +33,7 @@ resolutions:
       . La link:/fr/CIPM/db/1956/1/[Résolution 1] adoptée par le Comité international des poids et mesures à sa session de 1956 et la link:/fr/CGPM/db/11/9/[Résolution 9] de la Onzième Conférence générale des poids et mesures sont abrogées.
 - dates:
   - 1967-10-16
-  subject: Unité SI de temps (seconde)
+  title: Unité SI de temps (seconde)
   identifier: 2
   approvals:
   - type: affirmative
@@ -52,7 +52,7 @@ resolutions:
       étalons atomiques de fréquence à poursuivre activement leurs études.
 - dates:
   - 1967-10-16
-  subject: Unité SI de température thermodynamique (kelvin)
+  title: Unité SI de température thermodynamique (kelvin)
   identifier: 3
   approvals:
   - type: affirmative
@@ -78,7 +78,7 @@ resolutions:
       . les décisions mentionnées au premier considérant concernant le nom de l'unité de température thermodynamique, son symbole et la désignation de l'unité pour exprimer un intervalle ou une différence de température sont abrogées, mais les usages qui sont la conséquence de ces décisions restent admis temporairement.
 - dates:
   - 1967-10-16
-  subject: Définition de l'unité SI de température thermodynamique (kelvin)
+  title: Définition de l'unité SI de température thermodynamique (kelvin)
   identifier: 4
   approvals:
   - type: affirmative
@@ -98,7 +98,7 @@ resolutions:
       « Le kelvin, unité de température thermodynamique, est la fraction 1/273,16 de la température thermodynamique du point triple de l'eau. »
 - dates:
   - 1967-10-16
-  subject: Unité SI d'intensité lumineuse (candela)
+  title: Unité SI d'intensité lumineuse (candela)
   identifier: 5
   approvals:
   - type: affirmative
@@ -120,7 +120,7 @@ resolutions:
       « La candela est l'intensité lumineuse, dans la direction perpendiculaire, d'une surface de 1/600 000 mètre carré d'un corps noir à la température de congélation du platine sous la pression de 101 325 newtons par mètre carré. »
 - dates:
   - 1967-10-16
-  subject: Unités SI dérivées
+  title: Unités SI dérivées
   identifier: 6
   approvals:
   - type: affirmative
@@ -143,7 +143,7 @@ resolutions:
       .>| s^\x961^\n\n|==="
 - dates:
   - 1967-10-16
-  subject: Abrogation de décisions antérieures (micron, bougie nouvelle)
+  title: Abrogation de décisions antérieures (micron, bougie nouvelle)
   identifier: 7
   approvals:
   - type: affirmative
@@ -166,7 +166,7 @@ resolutions:
       . le nom d'unité « bougie nouvelle ».
 - dates:
   - 1967-10-16
-  subject: Échelle internationale pratique de température (révision prochaine)
+  title: Échelle internationale pratique de température (révision prochaine)
   identifier: 8
   approvals:
   - type: affirmative
@@ -190,7 +190,7 @@ resolutions:
       le Comité international à sa 57^e^ session (octobre 1968).
 - dates:
   - 1967-10-16
-  subject: Colorimétrie et radiométrie
+  title: Colorimétrie et radiométrie
   identifier: 9
   approvals:
   - type: affirmative
@@ -210,7 +210,7 @@ resolutions:
       fondamentaux de la colorimétrie et de la radiométrie.
 - dates:
   - 1967-10-16
-  subject: Dotation du Bureau international pour la période 1969-1972
+  title: Dotation du Bureau international pour la période 1969-1972
   identifier: 10
   approvals:
   - type: affirmative
@@ -244,7 +244,7 @@ resolutions:
       décision sur l'avenir du Bureau international.
 - dates:
   - 1967-10-16
-  subject: Dates des séances
+  title: Dates des séances
   identifier: 11
   approvals:
   - type: affirmative
@@ -262,7 +262,7 @@ resolutions:
     message: décide de reprendre sa session le mercredi 5 juin 1968.
 - dates:
   - 1967-10-16
-  subject: Dotation du Bureau international pour la période 1969-1972
+  title: Dotation du Bureau international pour la période 1969-1972
   identifier: 12
   approvals:
   - type: affirmative

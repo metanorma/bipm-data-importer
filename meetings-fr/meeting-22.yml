@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 2003-10-17
-  subject: Liaisons avec d'autres organisations
+  title: Liaisons avec d'autres organisations
   identifier: 1
   approvals:
   - type: affirmative
@@ -46,7 +46,7 @@ resolutions:
       national plutôt qu'au niveau international."
 - dates:
   - 2003-10-17
-  subject: Métrologie et commerce
+  title: Métrologie et commerce
   identifier: 2
   approvals:
   - type: affirmative
@@ -73,7 +73,7 @@ resolutions:
       pour que cette candidature soit agréée dès que possible.
 - dates:
   - 2003-10-17
-  subject: Coordination des initiatives en faveur des actions liées à la métrologie,
+  title: Coordination des initiatives en faveur des actions liées à la métrologie,
     à l'accréditation et à la normalisation dans les pays et les entités économiques
     en voie de dévelopement
   identifier: 3
@@ -116,8 +116,8 @@ resolutions:
       membres de la Convention du Mètre."
 - dates:
   - 2003-10-17
-  subject: Valeur et avantages de la Convention du Mètre pour les États membres et
-    les associés à la Conférence générale
+  title: Valeur et avantages de la Convention du Mètre pour les États membres et les
+    associés à la Conférence générale
   identifier: 4
   approvals:
   - type: affirmative
@@ -148,8 +148,8 @@ resolutions:
       appropriés.
 - dates:
   - 2003-10-17
-  subject: Rapport sur l'évolution des besoins métrologiques dans les domaines des
-    échanges commerciaux, de l'industrie et de la société, et le rôle du Bureau international
+  title: Rapport sur l'évolution des besoins métrologiques dans les domaines des échanges
+    commerciaux, de l'industrie et de la société, et le rôle du Bureau international
     des poids et mesures
   identifier: 5
   approvals:
@@ -188,8 +188,8 @@ resolutions:
        si nécessaire, d'actualiser le Rapport de 2002.
 - dates:
   - 2003-10-17
-  subject: Sur l'importance de l'Arrangement de reconnaissance mutuelle du Comité
-    international des poids et mesures
+  title: Sur l'importance de l'Arrangement de reconnaissance mutuelle du Comité international
+    des poids et mesures
   identifier: 6
   approvals:
   - type: affirmative
@@ -228,8 +228,8 @@ resolutions:
       Conférence générale.
 - dates:
   - 2003-10-17
-  subject: Implication des laboratoires nationaux de métrologie dans les activités
-    de la Convention du Mètre
+  title: Implication des laboratoires nationaux de métrologie dans les activités de
+    la Convention du Mètre
   identifier: 7
   approvals:
   - type: affirmative
@@ -261,7 +261,7 @@ resolutions:
        qu'ils mettent leurs infrastructures au service d'autres organisations, dans les domaines industriel, scientifique, médical ou autres, qui ont besoin ou tireraient profit de résultats d'étalonnages traçables au Système international d'unités.
 - dates:
   - 2003-10-17
-  subject: Révision de la mise en pratique de la définition du mètre
+  title: Révision de la mise en pratique de la définition du mètre
   identifier: 8
   approvals:
   - type: affirmative
@@ -304,7 +304,7 @@ resolutions:
       en particulier en vue d'une éventuelle redéfinition de la seconde.
 - dates:
   - 2003-10-17
-  subject: Exigences pour le transport transfrontalier d'étalons de mesure, d'équipements
+  title: Exigences pour le transport transfrontalier d'étalons de mesure, d'équipements
     métrologiques et de matériaux de référence
   identifier: 9
   approvals:
@@ -349,7 +349,7 @@ resolutions:
       cette Résolution."
 - dates:
   - 2003-10-17
-  subject: Symbole du séparateur décimal
+  title: Symbole du séparateur décimal
   identifier: 10
   approvals:
   - type: affirmative
@@ -383,7 +383,7 @@ resolutions:
       la ligne ou la virgule sur la ligne,
 - dates:
   - 2003-10-17
-  subject: Relations entre les laboratoires nationaux de métrologie et les organismes
+  title: Relations entre les laboratoires nationaux de métrologie et les organismes
     d'accréditation reconnus au niveau national
   identifier: 11
   approvals:
@@ -448,7 +448,7 @@ resolutions:
       et *note* que les étalonnages ne sont pas une évaluation de la conformité.
 - dates:
   - 2003-10-17
-  subject: Dotation du Bureau international pour les années 2005 à 2008
+  title: Dotation du Bureau international pour les années 2005 à 2008
   identifier: 12
   approvals:
   - type: affirmative

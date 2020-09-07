@@ -96,7 +96,7 @@ end
 
     r = {
       "dates" => [date],
-      "subject" => res.at_css(".txt12pt .SousTitre").text.strip.gsub(/\*\Z/, ''),
+      "title" => res.at_css(".txt12pt .SousTitre").text.strip.gsub(/\*\Z/, ''),
       "identifier" => res_id,
 
       "approvals" => [{

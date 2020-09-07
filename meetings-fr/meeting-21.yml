@@ -6,7 +6,7 @@ metadata:
 resolutions:
 - dates:
   - 1999-10-15
-  subject: 'Métrologie : besoins à long terme'
+  title: 'Métrologie : besoins à long terme'
   identifier: 1
   approvals:
   - type: affirmative
@@ -54,7 +54,7 @@ resolutions:
       leur contribution à cette étude et au rapport du Comité international."
 - dates:
   - 1999-10-15
-  subject: Reconnaissance mutuelle des étalons nationaux de mesure et des certificats
+  title: Reconnaissance mutuelle des étalons nationaux de mesure et des certificats
     d'étalonnage et de mesurage émis par les laboratoires nationaux de métrologie
   identifier: 2
   approvals:
@@ -99,7 +99,7 @@ resolutions:
       de métrologie signataires."
 - dates:
   - 1999-10-15
-  subject: Associés à la Conférence générale des poids et mesures
+  title: Associés à la Conférence générale des poids et mesures
   identifier: 3
   approvals:
   - type: affirmative
@@ -135,7 +135,7 @@ resolutions:
         qu'un État associé ou une entité économique associée n'ayant pas réglé sa souscription pendant trois années cesse d'être associé(e) ; il ou elle peut le redevenir en acquittant ces arriérés.
 - dates:
   - 1999-10-15
-  subject: Nécessité d'utiliser les unités du SI dans les recherches sur les ressources
+  title: Nécessité d'utiliser les unités du SI dans les recherches sur les ressources
     terrestres, l'environnement, la sécurité humaine et les études connexes
   identifier: 4
   approvals:
@@ -167,7 +167,7 @@ resolutions:
       du Mètre."
 - dates:
   - 1999-10-15
-  subject: Révision de la mise en pratique de la définition du mètre
+  title: Révision de la mise en pratique de la définition du mètre
   identifier: 5
   approvals:
   - type: affirmative
@@ -205,7 +205,7 @@ resolutions:
       et *recommande* que les laboratoires nationaux poursuivent des recherches expérimentales et théoriques sur les étalons optiques de longueur d'onde et de fréquence, incluant de nouvelles techniques de comparaison des différents étalons sur une gamme étendue de longueur d'onde et de fréquence afin d'améliorer encore le fondement expérimental du Système international d'unités.
 - dates:
   - 1999-10-15
-  subject: Besoins en métrologie dimensionnelle
+  title: Besoins en métrologie dimensionnelle
   identifier: 6
   approvals:
   - type: affirmative
@@ -236,7 +236,7 @@ resolutions:
       et diversifiées dans le domaine de la métrologie dimensionnelle."
 - dates:
   - 1999-10-15
-  subject: La définition du kilogramme
+  title: La définition du kilogramme
   identifier: 7
   approvals:
   - type: affirmative
@@ -262,7 +262,7 @@ resolutions:
       définition du kilogramme."
 - dates:
   - 1999-10-15
-  subject: Étalons primaires de fréquence opérationnels
+  title: Étalons primaires de fréquence opérationnels
   identifier: 8
   approvals:
   - type: affirmative
@@ -288,8 +288,7 @@ resolutions:
       ces nouveaux étalons sur lesquels sera fondée l'exactitude du TAI et de l'UTC."
 - dates:
   - 1999-10-15
-  subject: Extension de l'Échelle internationale de température au-dessous de 0,65
-    K
+  title: Extension de l'Échelle internationale de température au-dessous de 0,65 K
   identifier: 9
   approvals:
   - type: affirmative
@@ -314,7 +313,7 @@ resolutions:
       inférieure actuelle de 0,65 K."
 - dates:
   - 1999-10-15
-  subject: Métrologie en chimie
+  title: Métrologie en chimie
   identifier: 10
   approvals:
   - type: affirmative
@@ -344,7 +343,7 @@ resolutions:
        définissent, en collaboration avec le Comité international, les domaines prioritaires et les comparaisons clés internationales essentielles pour établir la traçabilité des mesures en chimie, aussi bien au niveau mondial qu'au niveau régional.
 - dates:
   - 1999-10-15
-  subject: Métrologie en biotechnologie
+  title: Métrologie en biotechnologie
   identifier: 11
   approvals:
   - type: affirmative
@@ -369,7 +368,7 @@ resolutions:
        collaborent avec les unions scientifiques internationales et autres organisations internationales concernées pour établir, à l'échelle mondiale, une infrastructure adéquate pour garantir la traçabilité au SI des mesures en biotechnologie.
 - dates:
   - 1999-10-15
-  subject: Nom spécial donné à l'unité SI mole par seconde, le katal, pour exprimer
+  title: Nom spécial donné à l'unité SI mole par seconde, le katal, pour exprimer
     l'activité catalytique
   identifier: 12
   approvals:
@@ -401,7 +400,7 @@ resolutions:
       et *recommande* que, lorsque le katal est utilisé, le mesurande soit spécifié en faisant référence au mode opératoire de mesure ; le mode opératoire de mesure doit mentionner le produit indicateur de la réaction mesurée.
 - dates:
   - 1999-10-15
-  subject: Dotation du BIPM
+  title: Dotation du BIPM
   identifier: 13
   approvals:
   - type: affirmative
