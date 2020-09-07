@@ -3,11 +3,14 @@ metadata:
   title: 'Résolutions de la CGPM : 26e réunion'
   date: 2018-11-16
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/fr/CGPM/db/26
 resolutions:
 - dates:
   - 2018-11-16
   title: Sur la révision du Système international d'unités (SI)
   identifier: 1
+  url: https://www.bipm.org/fr/CGPM/db/26/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM26.pdf#page=210
   approvals:
   - type: affirmative
     degree: unanimous
@@ -156,6 +159,8 @@ resolutions:
   - 2018-11-16
   title: Sur la définition des échelles de temps
   identifier: 2
+  url: https://www.bipm.org/fr/CGPM/db/26/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM26.pdf#page=213
   approvals:
   - type: affirmative
     degree: unanimous
@@ -308,6 +313,8 @@ resolutions:
   - 2018-11-16
   title: Sur les objectifs du BIPM
   identifier: 3
+  url: https://www.bipm.org/fr/CGPM/db/26/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM26.pdf#page=215
   approvals:
   - type: affirmative
     degree: unanimous
@@ -399,6 +406,8 @@ resolutions:
   - 2018-11-16
   title: Sur la dotation du BIPM pour les années 2020 à 2023
   identifier: 4
+  url: https://www.bipm.org/fr/CGPM/db/26/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM26.pdf#page=217
   approvals:
   - type: affirmative
     degree: unanimous
@@ -459,6 +468,8 @@ resolutions:
   - 2018-11-16
   title: Sur les contributions arriérées des États Membres et la  procédure d'exclusion
   identifier: 5
+  url: https://www.bipm.org/fr/CGPM/db/26/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM26.pdf#page=218
   approvals:
   - type: affirmative
     degree: unanimous

@@ -3,11 +3,14 @@ metadata:
   title: 'Resolutions of the CGPM: 7th meeting'
   date: 1927-10-06
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/en/CGPM/db/7
 resolutions:
 - dates:
   - 1927-10-06
   title: Definition of the metre by the international Prototype
   identifier: 1
+  url: https://www.bipm.org/en/CGPM/db/7/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM7.pdf#page=49
   approvals:
   - type: affirmative
     degree: unanimous

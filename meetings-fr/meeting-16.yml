@@ -3,11 +3,14 @@ metadata:
   title: 'Résolutions de la CGPM : 16e réunion'
   date: 1979-10-12
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/fr/CGPM/db/16
 resolutions:
 - dates:
   - 1979-10-12
   title: Étalons du kilogramme (conservation ; correction de poussée de l'air)
   identifier: 1
+  url: https://www.bipm.org/fr/CGPM/db/16/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM16.pdf#page=99
   approvals:
   - type: affirmative
     degree: unanimous
@@ -42,6 +45,8 @@ resolutions:
   title: Étalons électriques (poursuite des recherches sur la réalisation des unités
     électriques)
   identifier: 2
+  url: https://www.bipm.org/fr/CGPM/db/16/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM16.pdf#page=99
   approvals:
   - type: affirmative
     degree: unanimous
@@ -79,6 +84,8 @@ resolutions:
   - 1979-10-12
   title: Unité SI d'intensité lumineuse (candela)
   identifier: 3
+  url: https://www.bipm.org/fr/CGPM/db/16/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM16.pdf#page=100
   approvals:
   - type: affirmative
     degree: unanimous
@@ -131,6 +138,8 @@ resolutions:
   - 1979-10-12
   title: Définition de la candela - amélioration des procédés d'étalonnage photométrique
   identifier: 4
+  url: https://www.bipm.org/fr/CGPM/db/16/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM16.pdf#page=100
   approvals:
   - type: affirmative
     degree: unanimous
@@ -151,6 +160,8 @@ resolutions:
   - 1979-10-12
   title: Nom spécial pour l'unité SI d'équivalent de dose (sievert)
   identifier: 5
+  url: https://www.bipm.org/fr/CGPM/db/16/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM16.pdf#page=100
   approvals:
   - type: affirmative
     degree: unanimous
@@ -181,6 +192,8 @@ resolutions:
   - 1979-10-12
   title: Symboles du litre
   identifier: 6
+  url: https://www.bipm.org/fr/CGPM/db/16/6/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM16.pdf#page=101
   approvals:
   - type: affirmative
     degree: unanimous
@@ -223,6 +236,8 @@ resolutions:
   - 1979-10-12
   title: Dotation du BIPM pour la période 1981-1984
   identifier: 7
+  url: https://www.bipm.org/fr/CGPM/db/16/7/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM16.pdf#page=101
   approvals:
   - type: affirmative
     degree: unanimous

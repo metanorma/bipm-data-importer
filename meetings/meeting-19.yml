@@ -3,11 +3,14 @@ metadata:
   title: 'Resolutions of the CGPM: 19th meeting'
   date: 1991-10-03
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/en/CGPM/db/19
 resolutions:
 - dates:
   - 1991-10-03
   title: Time standards and time comparisons
   identifier: 1
+  url: https://www.bipm.org/en/CGPM/db/19/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM19.pdf#page=183
   approvals:
   - type: affirmative
     degree: unanimous
@@ -46,6 +49,8 @@ resolutions:
   - 1991-10-03
   title: The Josephson and quantum-Hall effects
   identifier: 2
+  url: https://www.bipm.org/en/CGPM/db/19/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM19.pdf#page=184
   approvals:
   - type: affirmative
     degree: unanimous
@@ -92,6 +97,8 @@ resolutions:
   - 1991-10-03
   title: The International Temperature Scale of 1990 (ITS-90) and future work in thermometry
   identifier: 3
+  url: https://www.bipm.org/en/CGPM/db/19/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM19.pdf#page=185
   approvals:
   - type: affirmative
     degree: unanimous
@@ -124,6 +131,8 @@ resolutions:
   - 1991-10-03
   title: SI prefixes zetta, zepto, yotta and yocto
   identifier: 4
+  url: https://www.bipm.org/en/CGPM/db/19/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM19.pdf#page=185
   approvals:
   - type: affirmative
     degree: unanimous

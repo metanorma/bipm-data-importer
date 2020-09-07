@@ -3,11 +3,14 @@ metadata:
   title: 'Resolutions of the CGPM: 3rd meeting'
   date: 1901-10-22
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/en/CGPM/db/3
 resolutions:
 - dates:
   - 1901-10-22
   title: Declaration concerning the definition of the litre
   identifier: 1
+  url: https://www.bipm.org/en/CGPM/db/3/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM3.pdf#page=38
   approvals:
   - type: affirmative
     degree: unanimous
@@ -27,6 +30,8 @@ resolutions:
   title: Declaration on the unit of mass and on the definition of weight; conventional
     value of gn
   identifier: 2
+  url: https://www.bipm.org/en/CGPM/db/3/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM3.pdf#page=70
   approvals:
   - type: affirmative
     degree: unanimous

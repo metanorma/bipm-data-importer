@@ -3,11 +3,14 @@ metadata:
   title: 'Resolutions of the CGPM: 22nd meeting'
   date: 2003-10-17
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/en/CGPM/db/22
 resolutions:
 - dates:
   - 2003-10-17
   title: Links with other organizations
   identifier: 1
+  url: https://www.bipm.org/en/CGPM/db/22/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM22.pdf#page=374
   approvals:
   - type: affirmative
     degree: unanimous
@@ -48,6 +51,8 @@ resolutions:
   - 2003-10-17
   title: Metrology and trade
   identifier: 2
+  url: https://www.bipm.org/en/CGPM/db/22/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM22.pdf#page=374
   approvals:
   - type: affirmative
     degree: unanimous
@@ -80,6 +85,8 @@ resolutions:
   title: On the coordination of the initiatives to support the implementation of metrology,
     accreditation, and standadization in developing countries and economies
   identifier: 3
+  url: https://www.bipm.org/en/CGPM/db/22/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM22.pdf#page=375
   approvals:
   - type: affirmative
     degree: unanimous
@@ -126,6 +133,8 @@ resolutions:
   title: Value and benefits of the Metre Convention for Member States and for Associates
     of the General Conference
   identifier: 4
+  url: https://www.bipm.org/en/CGPM/db/22/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM22.pdf#page=376
   approvals:
   - type: affirmative
     degree: unanimous
@@ -167,6 +176,8 @@ resolutions:
   title: Report on evolving needs for metrology in trade, industry and society, and
     the role of the International Bureau of Weights and Measures
   identifier: 5
+  url: https://www.bipm.org/en/CGPM/db/22/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM22.pdf#page=376
   approvals:
   - type: affirmative
     degree: unanimous
@@ -209,6 +220,8 @@ resolutions:
   - 2003-10-17
   title: On the importance of the CIPM Mutual Recognition Arrangement
   identifier: 6
+  url: https://www.bipm.org/en/CGPM/db/22/6/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM22.pdf#page=377
   approvals:
   - type: affirmative
     degree: unanimous
@@ -261,6 +274,8 @@ resolutions:
   title: Involvement of national metrology institutes in the complete range of work
     of the Metre Convention
   identifier: 7
+  url: https://www.bipm.org/en/CGPM/db/22/7/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM22.pdf#page=378
   approvals:
   - type: affirmative
     degree: unanimous
@@ -303,6 +318,8 @@ resolutions:
   - 2003-10-17
   title: Revision of the mise en pratique of the definition of the metre
   identifier: 8
+  url: https://www.bipm.org/en/CGPM/db/22/8/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM22.pdf#page=379
   approvals:
   - type: affirmative
     degree: unanimous
@@ -363,6 +380,8 @@ resolutions:
   title: Requirements for cross-border transport of measurement standards, metrological
     equipment and reference materials
   identifier: 9
+  url: https://www.bipm.org/en/CGPM/db/22/9/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM22.pdf#page=380
   approvals:
   - type: affirmative
     degree: unanimous
@@ -415,6 +434,8 @@ resolutions:
   - 2003-10-17
   title: Symbol for the decimal marker
   identifier: 10
+  url: https://www.bipm.org/en/CGPM/db/22/10/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM22.pdf#page=381
   approvals:
   - type: affirmative
     degree: unanimous
@@ -484,6 +505,8 @@ resolutions:
   title: Relationship between National Metrology Institutes and nationally recognized
     accreditation bodies
   identifier: 11
+  url: https://www.bipm.org/en/CGPM/db/22/11/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM22.pdf#page=382
   approvals:
   - type: affirmative
     degree: unanimous
@@ -561,6 +584,8 @@ resolutions:
   - 2003-10-17
   title: Dotation of the BIPM for the years 2005 to 2008
   identifier: 12
+  url: https://www.bipm.org/en/CGPM/db/22/12/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM22.pdf#page=383
   approvals:
   - type: affirmative
     degree: unanimous

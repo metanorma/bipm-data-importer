@@ -88,7 +88,8 @@ end
     "metadata" => {
       "title" => title,
       "date" => date,
-      "source" => "BIPM - Pavillon de Breteuil"
+      "source" => "BIPM - Pavillon de Breteuil",
+      "url" => meeting.uri.to_s
     }
   }
 
@@ -96,10 +97,14 @@ end
     res_id = res_link.href.split('/')[-1].to_i
     res = VCR.use_cassette("resolution-#{meeting_id}-#{res_id}#{meeting_lang_sfx}") { res_link.click }
 
+    refs = res.css('a.intros[href*=".pdf"]')
+
     r = {
       "dates" => [date],
       "title" => res.at_css(".txt12pt .SousTitre").text.strip.gsub(/\*\Z/, ''),
       "identifier" => res_id,
+      "url" => res.uri.to_s,
+      "reference" => res.uri.merge(refs.first.attr('href')).to_s,
 
       "approvals" => [{
         "type" => "affirmative",

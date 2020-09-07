@@ -3,11 +3,14 @@ metadata:
   title: 'Resolutions of the CGPM: 10th meeting'
   date: 1954-10-14
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/en/CGPM/db/10
 resolutions:
 - dates:
   - 1954-10-14
   title: Définition du mètre
   identifier: 1
+  url: https://www.bipm.org/en/CGPM/db/10/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM10.pdf#page=78
   approvals:
   - type: affirmative
     degree: unanimous
@@ -41,6 +44,8 @@ resolutions:
   - 1954-10-14
   title: Retraçage des mètres
   identifier: 2
+  url: https://www.bipm.org/en/CGPM/db/10/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM10.pdf#page=79
   approvals:
   - type: affirmative
     degree: unanimous
@@ -61,6 +66,8 @@ resolutions:
   - 1954-10-14
   title: Definition of the thermodynamic  temperature scale
   identifier: 3
+  url: https://www.bipm.org/en/CGPM/db/10/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM10.pdf#page=79
   approvals:
   - type: affirmative
     degree: unanimous
@@ -76,6 +83,8 @@ resolutions:
   - 1954-10-14
   title: Definition of the standard atmosphere
   identifier: 4
+  url: https://www.bipm.org/en/CGPM/db/10/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM10.pdf#page=79
   approvals:
   - type: affirmative
     degree: unanimous
@@ -99,6 +108,8 @@ resolutions:
   - 1954-10-14
   title: Définition de l'unité de temps
   identifier: 5
+  url: https://www.bipm.org/en/CGPM/db/10/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM10.pdf#page=80
   approvals:
   - type: affirmative
     degree: unanimous
@@ -120,6 +131,8 @@ resolutions:
   - 1954-10-14
   title: Practical system of units
   identifier: 6
+  url: https://www.bipm.org/en/CGPM/db/10/6/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM10.pdf#page=80
   approvals:
   - type: affirmative
     degree: unanimous

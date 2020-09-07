@@ -3,11 +3,14 @@ metadata:
   title: 'Resolutions of the CGPM: 26th meeting'
   date: 2018-11-16
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/en/CGPM/db/26
 resolutions:
 - dates:
   - 2018-11-16
   title: On the revision of the International System of Units (SI)
   identifier: 1
+  url: https://www.bipm.org/en/CGPM/db/26/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM26.pdf#page=472
   approvals:
   - type: affirmative
     degree: unanimous
@@ -154,6 +157,8 @@ resolutions:
   - 2018-11-16
   title: On the definition of time scales
   identifier: 2
+  url: https://www.bipm.org/en/CGPM/db/26/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM26.pdf#page=475
   approvals:
   - type: affirmative
     degree: unanimous
@@ -286,6 +291,8 @@ resolutions:
   - 2018-11-16
   title: On the objectives of the BIPM
   identifier: 3
+  url: https://www.bipm.org/en/CGPM/db/26/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM26.pdf#page=477
   approvals:
   - type: affirmative
     degree: unanimous
@@ -377,6 +384,8 @@ resolutions:
   - 2018-11-16
   title: On the dotation of the BIPM for the years 2020 to 2023
   identifier: 4
+  url: https://www.bipm.org/en/CGPM/db/26/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM26.pdf#page=479
   approvals:
   - type: affirmative
     degree: unanimous
@@ -429,6 +438,8 @@ resolutions:
   - 2018-11-16
   title: On the financial arrears of Member States and the process of exclusion
   identifier: 5
+  url: https://www.bipm.org/en/CGPM/db/26/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM26.pdf#page=480
   approvals:
   - type: affirmative
     degree: unanimous

@@ -3,12 +3,15 @@ metadata:
   title: 'Resolutions of the CGPM: 12th meeting'
   date: 1964-10-13
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/en/CGPM/db/12
 resolutions:
 - dates:
   - 1964-10-13
   title: Section des radiations ionisantes du Bureau international ; troisième dotation
     exceptionnelle
   identifier: 1
+  url: https://www.bipm.org/en/CGPM/db/12/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM12.pdf#page=91
   approvals:
   - type: affirmative
     degree: unanimous
@@ -35,6 +38,8 @@ resolutions:
   title: Section des radiations ionisantes du Bureau international ; troisième dotation
     exceptionnelle
   identifier: 2
+  url: https://www.bipm.org/en/CGPM/db/12/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM12.pdf#page=91
   approvals:
   - type: affirmative
     degree: unanimous
@@ -59,6 +64,8 @@ resolutions:
   - 1964-10-13
   title: Dotation du Bureau international
   identifier: 3
+  url: https://www.bipm.org/en/CGPM/db/12/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM12.pdf#page=91
   approvals:
   - type: affirmative
     degree: unanimous
@@ -97,6 +104,8 @@ resolutions:
   - 1964-10-13
   title: Dotation du Bureau international
   identifier: 4
+  url: https://www.bipm.org/en/CGPM/db/12/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM12.pdf#page=92
   approvals:
   - type: affirmative
     degree: unanimous
@@ -158,6 +167,8 @@ resolutions:
   - 1964-10-13
   title: Atomic standard of frequency
   identifier: 5
+  url: https://www.bipm.org/en/CGPM/db/12/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM12.pdf#page=93
   approvals:
   - type: affirmative
     degree: unanimous
@@ -192,6 +203,8 @@ resolutions:
   - 1964-10-13
   title: Litre
   identifier: 6
+  url: https://www.bipm.org/en/CGPM/db/12/6/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM12.pdf#page=93
   approvals:
   - type: affirmative
     degree: unanimous
@@ -220,6 +233,8 @@ resolutions:
   - 1964-10-13
   title: Curie
   identifier: 7
+  url: https://www.bipm.org/en/CGPM/db/12/7/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM12.pdf#page=94
   approvals:
   - type: affirmative
     degree: unanimous
@@ -242,6 +257,8 @@ resolutions:
   - 1964-10-13
   title: SI prefixes femto and atto
   identifier: 8
+  url: https://www.bipm.org/en/CGPM/db/12/8/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM12.pdf#page=94
   approvals:
   - type: affirmative
     degree: unanimous
@@ -259,6 +276,8 @@ resolutions:
   - 1964-10-13
   title: Coefficient gyromagnétique du proton (poursuite des études)
   identifier: 9
+  url: https://www.bipm.org/en/CGPM/db/12/9/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM12.pdf#page=94
   approvals:
   - type: affirmative
     degree: unanimous
@@ -286,6 +305,8 @@ resolutions:
   - 1964-10-13
   title: Échelle internationale pratique de température (recherches à effectuer)
   identifier: 10
+  url: https://www.bipm.org/en/CGPM/db/12/10/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM12.pdf#page=94
   approvals:
   - type: affirmative
     degree: unanimous

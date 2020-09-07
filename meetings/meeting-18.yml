@@ -3,11 +3,14 @@ metadata:
   title: 'Resolutions of the CGPM: 18th meeting'
   date: 1987-10-15
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/en/CGPM/db/18
 resolutions:
 - dates:
   - 1987-10-15
   title: Third verification of the national  prototypes of the kilogram
   identifier: 1
+  url: https://www.bipm.org/en/CGPM/db/18/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM18.pdf#page=97
   approvals:
   - type: affirmative
     degree: unanimous
@@ -38,6 +41,8 @@ resolutions:
   - 1987-10-15
   title: Study of the surface condition of mass standards
   identifier: 2
+  url: https://www.bipm.org/en/CGPM/db/18/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM18.pdf#page=98
   approvals:
   - type: affirmative
     degree: unanimous
@@ -77,6 +82,8 @@ resolutions:
   - 1987-10-15
   title: Assumption of responsibility for International Atomic Time
   identifier: 3
+  url: https://www.bipm.org/en/CGPM/db/18/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM18.pdf#page=98
   approvals:
   - type: affirmative
     degree: unanimous
@@ -115,6 +122,8 @@ resolutions:
   - 1987-10-15
   title: Time comparisons using satellite links
   identifier: 4
+  url: https://www.bipm.org/en/CGPM/db/18/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM18.pdf#page=99
   approvals:
   - type: affirmative
     degree: unanimous
@@ -149,6 +158,8 @@ resolutions:
   - 1987-10-15
   title: Study of perturbing effects in the realization of the second
   identifier: 5
+  url: https://www.bipm.org/en/CGPM/db/18/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM18.pdf#page=99
   approvals:
   - type: affirmative
     degree: unanimous
@@ -176,6 +187,8 @@ resolutions:
   - 1987-10-15
   title: Forthcoming adjustment to the representations of the volt and of the ohm
   identifier: 6
+  url: https://www.bipm.org/en/CGPM/db/18/6/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM18.pdf#page=100
   approvals:
   - type: affirmative
     degree: unanimous
@@ -222,6 +235,8 @@ resolutions:
   - 1987-10-15
   title: Development of a new international temperature scale
   identifier: 7
+  url: https://www.bipm.org/en/CGPM/db/18/7/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM18.pdf#page=101
   approvals:
   - type: affirmative
     degree: unanimous
@@ -262,6 +277,8 @@ resolutions:
   - 1987-10-15
   title: Apportionment of contributions
   identifier: 8
+  url: https://www.bipm.org/en/CGPM/db/18/8/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM18.pdf#page=101
   approvals:
   - type: affirmative
     degree: unanimous
@@ -284,6 +301,8 @@ resolutions:
   - 1987-10-15
   title: Funding of the BIPM
   identifier: 9
+  url: https://www.bipm.org/en/CGPM/db/18/9/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM18.pdf#page=102
   approvals:
   - type: affirmative
     degree: unanimous

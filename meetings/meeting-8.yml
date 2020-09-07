@@ -3,12 +3,15 @@ metadata:
   title: 'Resolutions of the CGPM: 8th meeting'
   date: 1933-10-10
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/en/CGPM/db/8
 resolutions:
 - dates:
   - 1933-10-10
   title: Dilatabilité des mètres prototypes provenant des alliages Johnson-Matthey
     et de 1874
   identifier: 1
+  url: https://www.bipm.org/en/CGPM/db/8/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM8.pdf#page=36
   approvals:
   - type: affirmative
     degree: unanimous
@@ -49,6 +52,8 @@ resolutions:
   - 1933-10-10
   title: Équations des mètres prototypes nos 1, 8, 14, 15, 17, 18, 21, 22, 23 et 26
   identifier: 2
+  url: https://www.bipm.org/en/CGPM/db/8/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM8.pdf#page=37
   approvals:
   - type: affirmative
     degree: unanimous
@@ -88,6 +93,8 @@ resolutions:
   - 1933-10-10
   title: L'équation du Mètre prototype n° 7, alliage de 1874
   identifier: 3
+  url: https://www.bipm.org/en/CGPM/db/8/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM8.pdf#page=37
   approvals:
   - type: affirmative
     degree: unanimous
@@ -118,6 +125,8 @@ resolutions:
   - 1933-10-10
   title: Équations des kilogrammes prototypes n° 14 et 15
   identifier: 4
+  url: https://www.bipm.org/en/CGPM/db/8/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM8.pdf#page=38
   approvals:
   - type: affirmative
     degree: unanimous
@@ -156,6 +165,8 @@ resolutions:
   - 1933-10-10
   title: Équation du kilogramme prototype n° 41
   identifier: 5
+  url: https://www.bipm.org/en/CGPM/db/8/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM8.pdf#page=39
   approvals:
   - type: affirmative
     degree: unanimous
@@ -188,6 +199,8 @@ resolutions:
   - 1933-10-10
   title: Institution d'un Comité consultatif de photométrie
   identifier: 9
+  url: https://www.bipm.org/en/CGPM/db/8/9/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM8.pdf#page=52
   approvals:
   - type: affirmative
     degree: unanimous
@@ -220,6 +233,8 @@ resolutions:
   title: Substitution des unités électriques absolues aux unités dites « internationales
     »
   identifier: 10
+  url: https://www.bipm.org/en/CGPM/db/8/10/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM8.pdf#page=53
   approvals:
   - type: affirmative
     degree: unanimous
@@ -250,6 +265,8 @@ resolutions:
   - 1933-10-10
   title: Pouvoirs au Comité en vue de l'établissement d'un étalon de lumière
   identifier: 11
+  url: https://www.bipm.org/en/CGPM/db/8/11/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM8.pdf#page=55
   approvals:
   - type: affirmative
     degree: unanimous
@@ -273,6 +290,8 @@ resolutions:
   title: Confirmation des pouvoirs nécessaires pour modifier les instructions de la
     Conférence de Londres
   identifier: 12
+  url: https://www.bipm.org/en/CGPM/db/8/12/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM8.pdf#page=56
   approvals:
   - type: affirmative
     degree: unanimous
@@ -292,6 +311,8 @@ resolutions:
   - 1933-10-10
   title: Mesures à prendre pour favoriser l'extension du Système métrique
   identifier: 13
+  url: https://www.bipm.org/en/CGPM/db/8/13/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM8.pdf#page=60
   approvals:
   - type: affirmative
     degree: unanimous
@@ -316,6 +337,8 @@ resolutions:
   - 1933-10-10
   title: Réponse aux propositions présentées par la Délégation de l'U.R.S.S.
   identifier: 14
+  url: https://www.bipm.org/en/CGPM/db/8/14/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM8.pdf#page=64
   approvals:
   - type: affirmative
     degree: unanimous
@@ -344,6 +367,8 @@ resolutions:
   - 1933-10-10
   title: Étude de la création d'un Comité consultatif de métrologie pratique
   identifier: 15
+  url: https://www.bipm.org/en/CGPM/db/8/15/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM8.pdf#page=65
   approvals:
   - type: affirmative
     degree: unanimous

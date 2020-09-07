@@ -3,11 +3,14 @@ metadata:
   title: 'Résolutions de la CGPM : 13e réunion'
   date: 1967-10-16
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/fr/CGPM/db/13
 resolutions:
 - dates:
   - 1967-10-16
   title: Unité SI de temps (seconde)
   identifier: 1
+  url: https://www.bipm.org/fr/CGPM/db/13/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=103
   approvals:
   - type: affirmative
     degree: unanimous
@@ -49,6 +52,8 @@ resolutions:
   - 1967-10-16
   title: Unité SI de temps (seconde)
   identifier: 2
+  url: https://www.bipm.org/fr/CGPM/db/13/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=103
   approvals:
   - type: affirmative
     degree: unanimous
@@ -68,6 +73,8 @@ resolutions:
   - 1967-10-16
   title: Unité SI de température thermodynamique (kelvin)
   identifier: 3
+  url: https://www.bipm.org/fr/CGPM/db/13/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=104
   approvals:
   - type: affirmative
     degree: unanimous
@@ -109,6 +116,8 @@ resolutions:
   - 1967-10-16
   title: Définition de l'unité SI de température thermodynamique (kelvin)
   identifier: 4
+  url: https://www.bipm.org/fr/CGPM/db/13/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=104
   approvals:
   - type: affirmative
     degree: unanimous
@@ -129,6 +138,8 @@ resolutions:
   - 1967-10-16
   title: Unité SI d'intensité lumineuse (candela)
   identifier: 5
+  url: https://www.bipm.org/fr/CGPM/db/13/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=104
   approvals:
   - type: affirmative
     degree: unanimous
@@ -155,6 +166,8 @@ resolutions:
   - 1967-10-16
   title: Unités SI dérivées
   identifier: 6
+  url: https://www.bipm.org/fr/CGPM/db/13/6/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=105
   approvals:
   - type: affirmative
     degree: unanimous
@@ -178,6 +191,8 @@ resolutions:
   - 1967-10-16
   title: Abrogation de décisions antérieures (micron, bougie nouvelle)
   identifier: 7
+  url: https://www.bipm.org/fr/CGPM/db/13/7/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=105
   approvals:
   - type: affirmative
     degree: unanimous
@@ -201,6 +216,8 @@ resolutions:
   - 1967-10-16
   title: Échelle internationale pratique de température (révision prochaine)
   identifier: 8
+  url: https://www.bipm.org/fr/CGPM/db/13/8/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=105
   approvals:
   - type: affirmative
     degree: unanimous
@@ -227,6 +244,8 @@ resolutions:
   - 1967-10-16
   title: Colorimétrie et radiométrie
   identifier: 9
+  url: https://www.bipm.org/fr/CGPM/db/13/9/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=105
   approvals:
   - type: affirmative
     degree: unanimous
@@ -247,6 +266,8 @@ resolutions:
   - 1967-10-16
   title: Dotation du Bureau international pour la période 1969-1972
   identifier: 10
+  url: https://www.bipm.org/fr/CGPM/db/13/10/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=106
   approvals:
   - type: affirmative
     degree: unanimous
@@ -288,6 +309,8 @@ resolutions:
   - 1967-10-16
   title: Dates des séances
   identifier: 11
+  url: https://www.bipm.org/fr/CGPM/db/13/11/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=106
   approvals:
   - type: affirmative
     degree: unanimous
@@ -308,6 +331,8 @@ resolutions:
   - 1967-10-16
   title: Dotation du Bureau international pour la période 1969-1972
   identifier: 12
+  url: https://www.bipm.org/fr/CGPM/db/13/12/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=106
   approvals:
   - type: affirmative
     degree: unanimous

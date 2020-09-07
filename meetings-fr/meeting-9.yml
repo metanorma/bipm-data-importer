@@ -3,11 +3,14 @@ metadata:
   title: 'Résolutions de la CGPM : 9e réunion'
   date: 1948-10-21
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/fr/CGPM/db/9
 resolutions:
 - dates:
   - 1948-10-21
   title: "(Vers une nouvelle définition du mètre)"
   identifier: 1
+  url: https://www.bipm.org/fr/CGPM/db/9/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM9.pdf#page=44
   approvals:
   - type: affirmative
     degree: unanimous
@@ -37,6 +40,8 @@ resolutions:
   - 1948-10-21
   title: "(Concernant les mesures de gravité)"
   identifier: 2
+  url: https://www.bipm.org/fr/CGPM/db/9/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM9.pdf#page=52
   approvals:
   - type: affirmative
     degree: unanimous
@@ -67,6 +72,8 @@ resolutions:
   title: Point triple de l'eau ; échelle thermodynamique à un seul point fixe ; unité
     de quantité de chaleur (joule)
   identifier: 3
+  url: https://www.bipm.org/fr/CGPM/db/9/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM9.pdf#page=55
   approvals:
   - type: affirmative
     degree: unanimous
@@ -91,6 +98,8 @@ resolutions:
   - 1948-10-21
   title: "(Concernant un accord avec l'Unesco)"
   identifier: 4
+  url: https://www.bipm.org/fr/CGPM/db/9/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM9.pdf#page=57
   approvals:
   - type: affirmative
     degree: unanimous
@@ -126,6 +135,8 @@ resolutions:
   - 1948-10-21
   title: "(Dotation du BIPM)"
   identifier: 5
+  url: https://www.bipm.org/fr/CGPM/db/9/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM9.pdf#page=59
   approvals:
   - type: affirmative
     degree: unanimous
@@ -163,6 +174,8 @@ resolutions:
   - 1948-10-21
   title: Proposition d'établissement d'un système pratique d'unités de mesure
   identifier: 6
+  url: https://www.bipm.org/fr/CGPM/db/9/6/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM9.pdf#page=64
   approvals:
   - type: affirmative
     degree: unanimous
@@ -194,6 +207,8 @@ resolutions:
   - 1948-10-21
   title: Ecriture des symboles d'unités et des nombres
   identifier: 7
+  url: https://www.bipm.org/fr/CGPM/db/9/7/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM9.pdf#page=70
   approvals:
   - type: affirmative
     degree: unanimous
@@ -251,6 +266,8 @@ resolutions:
   - 1948-10-21
   title: "(Concernant la dotation du BIPM)"
   identifier: 8
+  url: https://www.bipm.org/fr/CGPM/db/9/8/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM9.pdf#page=72
   approvals:
   - type: affirmative
     degree: unanimous
@@ -271,6 +288,8 @@ resolutions:
   - 1948-10-21
   title: "(Concernant la question des retouches à apporter à la Convention du Mètre)"
   identifier: 9
+  url: https://www.bipm.org/fr/CGPM/db/9/9/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM9.pdf#page=72
   approvals:
   - type: affirmative
     degree: unanimous
@@ -291,6 +310,8 @@ resolutions:
   - 1948-10-21
   title: "(Concernant la poursuite des résolutions)"
   identifier: 10
+  url: https://www.bipm.org/fr/CGPM/db/9/10/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM9.pdf#page=73
   approvals:
   - type: affirmative
     degree: unanimous

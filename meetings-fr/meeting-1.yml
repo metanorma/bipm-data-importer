@@ -3,11 +3,14 @@ metadata:
   title: 'Résolutions de la CGPM : 1re réunion'
   date: 1889-09-28
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/fr/CGPM/db/1
 resolutions:
 - dates:
   - 1889-09-28
   title: Sanction des prototypes internationaux du mètre et du kilogramme
   identifier: 1
+  url: https://www.bipm.org/fr/CGPM/db/1/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM1.pdf#page=34
   approvals:
   - type: affirmative
     degree: unanimous

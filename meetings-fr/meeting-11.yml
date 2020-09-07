@@ -3,12 +3,15 @@ metadata:
   title: 'Résolutions de la CGPM : 11e réunion'
   date: 1960-10-20
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/fr/CGPM/db/11
 resolutions:
 - dates:
   - 1960-10-20
   title: Extension des activités du Bureau international au domaine des étalons de
     mesure des radiations ionisantes
   identifier: 1
+  url: https://www.bipm.org/fr/CGPM/db/11/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=83
   approvals:
   - type: affirmative
     degree: unanimous
@@ -76,6 +79,8 @@ resolutions:
   title: Extension des activités du Bureau international au domaine des étalons de
     mesure des radiations ionisantes
   identifier: 2
+  url: https://www.bipm.org/fr/CGPM/db/11/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=84
   approvals:
   - type: affirmative
     degree: unanimous
@@ -104,6 +109,8 @@ resolutions:
   title: Extension des activités du Bureau international au domaine des étalons de
     mesure des radiations ionisantes
   identifier: 3
+  url: https://www.bipm.org/fr/CGPM/db/11/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=84
   approvals:
   - type: affirmative
     degree: unanimous
@@ -123,6 +130,8 @@ resolutions:
   title: Extension des activités du Bureau international au domaine des étalons de
     mesure des radiations ionisantes
   identifier: 4
+  url: https://www.bipm.org/fr/CGPM/db/11/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=84
   approvals:
   - type: affirmative
     degree: unanimous
@@ -146,6 +155,8 @@ resolutions:
   - 1960-10-20
   title: Dotation du Bureau international
   identifier: 5
+  url: https://www.bipm.org/fr/CGPM/db/11/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=84
   approvals:
   - type: affirmative
     degree: unanimous
@@ -183,6 +194,8 @@ resolutions:
   - 1960-10-20
   title: Définition du mètre
   identifier: 6
+  url: https://www.bipm.org/fr/CGPM/db/11/6/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=85
   approvals:
   - type: affirmative
     degree: unanimous
@@ -216,6 +229,8 @@ resolutions:
   - 1960-10-20
   title: Définition du mètre
   identifier: 7
+  url: https://www.bipm.org/fr/CGPM/db/11/7/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=85
   approvals:
   - type: affirmative
     degree: unanimous
@@ -253,6 +268,8 @@ resolutions:
   - 1960-10-20
   title: Définition du mètre
   identifier: 8
+  url: https://www.bipm.org/fr/CGPM/db/11/8/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=85
   approvals:
   - type: affirmative
     degree: unanimous
@@ -271,6 +288,8 @@ resolutions:
   - 1960-10-20
   title: Définition de l'unité de temps (seconde)
   identifier: 9
+  url: https://www.bipm.org/fr/CGPM/db/11/9/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=86
   approvals:
   - type: affirmative
     degree: unanimous
@@ -296,6 +315,8 @@ resolutions:
   - 1960-10-20
   title: Définition de l'unité de temps
   identifier: 10
+  url: https://www.bipm.org/fr/CGPM/db/11/10/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=86
   approvals:
   - type: affirmative
     degree: unanimous
@@ -326,6 +347,8 @@ resolutions:
   - 1960-10-20
   title: Système gravimétrique
   identifier: 11
+  url: https://www.bipm.org/fr/CGPM/db/11/11/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=86
   approvals:
   - type: affirmative
     degree: unanimous
@@ -352,6 +375,8 @@ resolutions:
   - 1960-10-20
   title: Système international d'unités
   identifier: 12
+  url: https://www.bipm.org/fr/CGPM/db/11/12/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=87
   approvals:
   - type: affirmative
     degree: unanimous
@@ -413,6 +438,8 @@ resolutions:
   - 1960-10-20
   title: Décimètre cube et litre
   identifier: 13
+  url: https://www.bipm.org/fr/CGPM/db/11/13/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=88
   approvals:
   - type: affirmative
     degree: unanimous
@@ -436,6 +463,8 @@ resolutions:
   - 1960-10-20
   title: Adhésion des Pays à la Convention du Mètre
   identifier: 14
+  url: https://www.bipm.org/fr/CGPM/db/11/14/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=88
   approvals:
   - type: affirmative
     degree: unanimous
@@ -466,6 +495,8 @@ resolutions:
   - 1960-10-20
   title: Négociation d'un accord de siège avec le Gouvernment français
   identifier: 15
+  url: https://www.bipm.org/fr/CGPM/db/11/15/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=89
   approvals:
   - type: affirmative
     degree: unanimous
@@ -493,6 +524,8 @@ resolutions:
   - 1960-10-20
   title: Révision de la Convention du Mètre
   identifier: 16
+  url: https://www.bipm.org/fr/CGPM/db/11/16/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM11.pdf#page=89
   approvals:
   - type: affirmative
     degree: unanimous

@@ -3,11 +3,14 @@ metadata:
   title: 'Résolutions de la CGPM : 3e réunion'
   date: 1901-10-22
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/fr/CGPM/db/3
 resolutions:
 - dates:
   - 1901-10-22
   title: Déclaration concernant la définition du litre
   identifier: 1
+  url: https://www.bipm.org/fr/CGPM/db/3/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM3.pdf#page=38
   approvals:
   - type: affirmative
     degree: unanimous
@@ -28,6 +31,8 @@ resolutions:
   title: Déclaration relative à l'unité de masse et à la définition du poids ; valeur
     conventionnelle de gn
   identifier: 2
+  url: https://www.bipm.org/fr/CGPM/db/3/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM3.pdf#page=70
   approvals:
   - type: affirmative
     degree: unanimous

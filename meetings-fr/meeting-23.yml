@@ -3,12 +3,15 @@ metadata:
   title: 'Résolutions de la CGPM : 23e réunion'
   date: 2007-11-16
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/fr/CGPM/db/23
 resolutions:
 - dates:
   - 2007-11-16
   title: Initiatives prises pour renforcer la collaboration entre les laboratoires
     nationaux de métrologie et les organismes d'accréditation reconnus au niveau national
   identifier: 1
+  url: https://www.bipm.org/fr/CGPM/db/23/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM23.pdf#page=162
   approvals:
   - type: affirmative
     degree: unanimous
@@ -53,6 +56,8 @@ resolutions:
     l'évolution des besoins dans le domaine de la métrologie pour le commerce, l'industrie
     et la société et le rôle du Bureau international des poids et mesures (BIPM)
   identifier: 2
+  url: https://www.bipm.org/fr/CGPM/db/23/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM23.pdf#page=162
   approvals:
   - type: affirmative
     degree: unanimous
@@ -151,6 +156,8 @@ resolutions:
   title: Dotation du Bureau international des poids et mesures (BIPM) pour les années
     2009 à 2012
   identifier: 3
+  url: https://www.bipm.org/fr/CGPM/db/23/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM23.pdf#page=164
   approvals:
   - type: affirmative
     degree: unanimous
@@ -229,6 +236,8 @@ resolutions:
   title: Sur l'importance de l'Arrangement de reconnaissance mutuelle du Comité international
     des poids et mesures (CIPM) et des autres arrangements connexes pour le commerce
   identifier: 4
+  url: https://www.bipm.org/fr/CGPM/db/23/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM23.pdf#page=166
   approvals:
   - type: affirmative
     degree: unanimous
@@ -276,6 +285,8 @@ resolutions:
   - 2007-11-16
   title: Sur les États associés à la Conférence générale
   identifier: 5
+  url: https://www.bipm.org/fr/CGPM/db/23/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM23.pdf#page=167
   approvals:
   - type: affirmative
     degree: unanimous
@@ -316,6 +327,8 @@ resolutions:
   - 2007-11-16
   title: Sur l'acceptation d'entités économiques comme Associés à la Conférence générale
   identifier: 6
+  url: https://www.bipm.org/fr/CGPM/db/23/6/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM23.pdf#page=167
   approvals:
   - type: affirmative
     degree: unanimous
@@ -346,6 +359,8 @@ resolutions:
     la Convention du Mètre afin d'encourager davantage d'États à adhérer à la Convention
     du Mètre ou à devenir Associés à la Conférence générale
   identifier: 7
+  url: https://www.bipm.org/fr/CGPM/db/23/7/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM23.pdf#page=168
   approvals:
   - type: affirmative
     degree: unanimous
@@ -414,6 +429,8 @@ resolutions:
   - 2007-11-16
   title: Sur les contributions arriérées des États Membres
   identifier: 8
+  url: https://www.bipm.org/fr/CGPM/db/23/8/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM23.pdf#page=170
   approvals:
   - type: affirmative
     degree: unanimous
@@ -487,6 +504,8 @@ resolutions:
   title: Sur la révision de la mise en pratique de la définition du mètre et sur la
     mise au point de nouveaux étalons optiques de fréquence
   identifier: 9
+  url: https://www.bipm.org/fr/CGPM/db/23/9/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM23.pdf#page=171
   approvals:
   - type: affirmative
     degree: unanimous
@@ -543,6 +562,8 @@ resolutions:
   - 2007-11-16
   title: Sur la clarification de la définition du kelvin, unité de température thermodynamique
   identifier: 10
+  url: https://www.bipm.org/fr/CGPM/db/23/10/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM23.pdf#page=172
   approvals:
   - type: affirmative
     degree: unanimous
@@ -585,6 +606,8 @@ resolutions:
   title: Sur l'importance des mesures traçables au Système international d'unités
     (SI) pour l'observation du changement climatique
   identifier: 11
+  url: https://www.bipm.org/fr/CGPM/db/23/11/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM23.pdf#page=173
   approvals:
   - type: affirmative
     degree: unanimous
@@ -630,6 +653,8 @@ resolutions:
   title: Sur l'éventuelle redéfinition de certaines unités de base du Système international
     d'unités (SI)
   identifier: 12
+  url: https://www.bipm.org/fr/CGPM/db/23/12/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM23.pdf#page=174
   approvals:
   - type: affirmative
     degree: unanimous

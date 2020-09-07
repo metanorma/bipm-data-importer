@@ -3,12 +3,15 @@ metadata:
   title: 'Résolutions de la CGPM : 20e réunion'
   date: 1995-10-13
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/fr/CGPM/db/20
 resolutions:
 - dates:
   - 1995-10-13
   title: Nécessité d'utiliser les unités du SI dans les recherches sur les ressources
     terrestres, l'environnement, la sécurité humaine et les études  connexes
   identifier: 1
+  url: https://www.bipm.org/fr/CGPM/db/20/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM20.pdf#page=117
   approvals:
   - type: affirmative
     degree: unanimous
@@ -64,6 +67,8 @@ resolutions:
   - 1995-10-13
   title: Traçabilité des étalons au niveau mondial
   identifier: 2
+  url: https://www.bipm.org/fr/CGPM/db/20/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM20.pdf#page=118
   approvals:
   - type: affirmative
     degree: unanimous
@@ -128,6 +133,8 @@ resolutions:
   - 1995-10-13
   title: Besoin de recherches métrologiques à long terme
   identifier: 3
+  url: https://www.bipm.org/fr/CGPM/db/20/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM20.pdf#page=119
   approvals:
   - type: affirmative
     degree: unanimous
@@ -160,6 +167,8 @@ resolutions:
   - 1995-10-13
   title: Révision de la mise en pratique de la définition du mètre
   identifier: 4
+  url: https://www.bipm.org/fr/CGPM/db/20/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM20.pdf#page=119
   approvals:
   - type: affirmative
     degree: unanimous
@@ -208,6 +217,8 @@ resolutions:
   - 1995-10-13
   title: Contrôle de la stabilité du prototype international du kilogramme
   identifier: 5
+  url: https://www.bipm.org/fr/CGPM/db/20/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM20.pdf#page=120
   approvals:
   - type: affirmative
     degree: unanimous
@@ -245,6 +256,8 @@ resolutions:
   - 1995-10-13
   title: Comparaison d'horloges à l'aide de techniques par laser visant des satellites
   identifier: 6
+  url: https://www.bipm.org/fr/CGPM/db/20/6/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM20.pdf#page=120
   approvals:
   - type: affirmative
     degree: unanimous
@@ -286,6 +299,8 @@ resolutions:
   - 1995-10-13
   title: Métrologie en chimie
   identifier: 7
+  url: https://www.bipm.org/fr/CGPM/db/20/7/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM20.pdf#page=121
   approvals:
   - type: affirmative
     degree: unanimous
@@ -327,6 +342,8 @@ resolutions:
   - 1995-10-13
   title: Suppression de la classe des unités supplémentaires dans le SI
   identifier: 8
+  url: https://www.bipm.org/fr/CGPM/db/20/8/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM20.pdf#page=121
   approvals:
   - type: affirmative
     degree: unanimous
@@ -367,6 +384,8 @@ resolutions:
   - 1995-10-13
   title: Dotation du BIPM
   identifier: 9
+  url: https://www.bipm.org/fr/CGPM/db/20/9/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM20.pdf#page=122
   approvals:
   - type: affirmative
     degree: unanimous
@@ -406,6 +425,8 @@ resolutions:
   - 1995-10-13
   title: Futures relations avec l'Organisation internationale de métrologie légale
   identifier: 10
+  url: https://www.bipm.org/fr/CGPM/db/20/10/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM20.pdf#page=122
   approvals:
   - type: affirmative
     degree: unanimous
@@ -444,6 +465,8 @@ resolutions:
   - 1995-10-13
   title: 'Métrologie : besoins à long terme'
   identifier: 11
+  url: https://www.bipm.org/fr/CGPM/db/20/11/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM20.pdf#page=123
   approvals:
   - type: affirmative
     degree: unanimous

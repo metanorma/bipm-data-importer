@@ -3,11 +3,14 @@ metadata:
   title: 'Résolutions de la CGPM : 21e réunion'
   date: 1999-10-15
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/fr/CGPM/db/21
 resolutions:
 - dates:
   - 1999-10-15
   title: 'Métrologie : besoins à long terme'
   identifier: 1
+  url: https://www.bipm.org/fr/CGPM/db/21/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM21.pdf#page=135
   approvals:
   - type: affirmative
     degree: unanimous
@@ -64,6 +67,8 @@ resolutions:
   title: Reconnaissance mutuelle des étalons nationaux de mesure et des certificats
     d'étalonnage et de mesurage émis par les laboratoires nationaux de métrologie
   identifier: 2
+  url: https://www.bipm.org/fr/CGPM/db/21/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM21.pdf#page=136
   approvals:
   - type: affirmative
     degree: unanimous
@@ -124,6 +129,8 @@ resolutions:
   - 1999-10-15
   title: Associés à la Conférence générale des poids et mesures
   identifier: 3
+  url: https://www.bipm.org/fr/CGPM/db/21/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM21.pdf#page=137
   approvals:
   - type: affirmative
     degree: unanimous
@@ -176,6 +183,8 @@ resolutions:
   title: Nécessité d'utiliser les unités du SI dans les recherches sur les ressources
     terrestres, l'environnement, la sécurité humaine et les études connexes
   identifier: 4
+  url: https://www.bipm.org/fr/CGPM/db/21/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM21.pdf#page=138
   approvals:
   - type: affirmative
     degree: unanimous
@@ -235,6 +244,8 @@ resolutions:
   - 1999-10-15
   title: Révision de la mise en pratique de la définition du mètre
   identifier: 5
+  url: https://www.bipm.org/fr/CGPM/db/21/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM21.pdf#page=139
   approvals:
   - type: affirmative
     degree: unanimous
@@ -291,6 +302,8 @@ resolutions:
   - 1999-10-15
   title: Besoins en métrologie dimensionnelle
   identifier: 6
+  url: https://www.bipm.org/fr/CGPM/db/21/6/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM21.pdf#page=141
   approvals:
   - type: affirmative
     degree: unanimous
@@ -335,6 +348,8 @@ resolutions:
   - 1999-10-15
   title: La définition du kilogramme
   identifier: 7
+  url: https://www.bipm.org/fr/CGPM/db/21/7/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM21.pdf#page=141
   approvals:
   - type: affirmative
     degree: unanimous
@@ -372,6 +387,8 @@ resolutions:
   - 1999-10-15
   title: Étalons primaires de fréquence opérationnels
   identifier: 8
+  url: https://www.bipm.org/fr/CGPM/db/21/8/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM21.pdf#page=142
   approvals:
   - type: affirmative
     degree: unanimous
@@ -411,6 +428,8 @@ resolutions:
   - 1999-10-15
   title: Extension de l'Échelle internationale de température au-dessous de 0,65 K
   identifier: 9
+  url: https://www.bipm.org/fr/CGPM/db/21/9/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM21.pdf#page=143
   approvals:
   - type: affirmative
     degree: unanimous
@@ -446,6 +465,8 @@ resolutions:
   - 1999-10-15
   title: Métrologie en chimie
   identifier: 10
+  url: https://www.bipm.org/fr/CGPM/db/21/10/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM21.pdf#page=143
   approvals:
   - type: affirmative
     degree: unanimous
@@ -484,6 +505,8 @@ resolutions:
   - 1999-10-15
   title: Métrologie en biotechnologie
   identifier: 11
+  url: https://www.bipm.org/fr/CGPM/db/21/11/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM21.pdf#page=144
   approvals:
   - type: affirmative
     degree: unanimous
@@ -515,6 +538,8 @@ resolutions:
   title: Nom spécial donné à l'unité SI mole par seconde, le katal, pour exprimer
     l'activité catalytique
   identifier: 12
+  url: https://www.bipm.org/fr/CGPM/db/21/12/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM21.pdf#page=145
   approvals:
   - type: affirmative
     degree: unanimous
@@ -566,6 +591,8 @@ resolutions:
   - 1999-10-15
   title: Dotation du BIPM
   identifier: 13
+  url: https://www.bipm.org/fr/CGPM/db/21/13/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM21.pdf#page=146
   approvals:
   - type: affirmative
     degree: unanimous

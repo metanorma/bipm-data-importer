@@ -3,11 +3,14 @@ metadata:
   title: 'Résolutions de la CGPM : 19e réunion'
   date: 1991-10-03
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/fr/CGPM/db/19
 resolutions:
 - dates:
   - 1991-10-03
   title: Étalons de temps et comparaisons de temps
   identifier: 1
+  url: https://www.bipm.org/fr/CGPM/db/19/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM19.pdf#page=95
   approvals:
   - type: affirmative
     degree: unanimous
@@ -49,6 +52,8 @@ resolutions:
   - 1991-10-03
   title: L'effet Josephson et l'effet Hall quantique
   identifier: 2
+  url: https://www.bipm.org/fr/CGPM/db/19/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM19.pdf#page=96
   approvals:
   - type: affirmative
     degree: unanimous
@@ -99,6 +104,8 @@ resolutions:
   title: L'Échelle internationale de température de 1990 et les travaux futurs en
     thermométrie
   identifier: 3
+  url: https://www.bipm.org/fr/CGPM/db/19/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM19.pdf#page=97
   approvals:
   - type: affirmative
     degree: unanimous
@@ -139,6 +146,8 @@ resolutions:
   - 1991-10-03
   title: Préfixes SI zetta, zepto, yotta et yocto
   identifier: 4
+  url: https://www.bipm.org/fr/CGPM/db/19/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM19.pdf#page=97
   approvals:
   - type: affirmative
     degree: unanimous

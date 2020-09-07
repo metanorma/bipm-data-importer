@@ -3,11 +3,14 @@ metadata:
   title: 'Résolutions de la CGPM : 14e réunion'
   date: 1971-10-08
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/fr/CGPM/db/14
 resolutions:
 - dates:
   - 1971-10-08
   title: Temps atomique international ; rôle du CIPM
   identifier: 1
+  url: https://www.bipm.org/fr/CGPM/db/14/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM14.pdf#page=77
   approvals:
   - type: affirmative
     degree: unanimous
@@ -64,6 +67,8 @@ resolutions:
   title: Temps atomique international ; arrangements avec le Bureau international
     de l'heure
   identifier: 2
+  url: https://www.bipm.org/fr/CGPM/db/14/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM14.pdf#page=78
   approvals:
   - type: affirmative
     degree: unanimous
@@ -97,6 +102,8 @@ resolutions:
   - 1971-10-08
   title: Unité SI de quantité de matière (mole)
   identifier: 3
+  url: https://www.bipm.org/fr/CGPM/db/14/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM14.pdf#page=78
   approvals:
   - type: affirmative
     degree: unanimous
@@ -127,6 +134,8 @@ resolutions:
   title: Approbation du programme de travail du Bureau international des poids et
     mesures pour 1973-1976
   identifier: 4
+  url: https://www.bipm.org/fr/CGPM/db/14/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM14.pdf#page=79
   approvals:
   - type: affirmative
     degree: unanimous
@@ -162,6 +171,8 @@ resolutions:
   - 1971-10-08
   title: Dotation du Bureau international pour la période 1973-1976
   identifier: 5
+  url: https://www.bipm.org/fr/CGPM/db/14/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM14.pdf#page=79
   approvals:
   - type: affirmative
     degree: unanimous

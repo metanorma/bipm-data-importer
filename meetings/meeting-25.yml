@@ -3,11 +3,14 @@ metadata:
   title: 'Resolutions of the CGPM: 25th meeting'
   date: 2014-11-20
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/en/CGPM/db/25
 resolutions:
 - dates:
   - 2014-11-20
   title: On the future revision of the International System of Units, the SI
   identifier: 1
+  url: https://www.bipm.org/en/CGPM/db/25/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM25.pdf#page=416
   approvals:
   - type: affirmative
     degree: unanimous
@@ -89,6 +92,8 @@ resolutions:
   - 2014-11-20
   title: On the election of the International Committee for Weights and Measures
   identifier: 2
+  url: https://www.bipm.org/en/CGPM/db/25/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM25.pdf#page=418
   approvals:
   - type: affirmative
     degree: unanimous
@@ -167,6 +172,8 @@ resolutions:
   - 2014-11-20
   title: On the Pension and Provident Fund of the BIPM
   identifier: 3
+  url: https://www.bipm.org/en/CGPM/db/25/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM25.pdf#page=420
   approvals:
   - type: affirmative
     degree: unanimous
@@ -240,6 +247,8 @@ resolutions:
   - 2014-11-20
   title: Dotation of the BIPM for the years 2016 to 2019
   identifier: 4
+  url: https://www.bipm.org/en/CGPM/db/25/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM25.pdf#page=422
   approvals:
   - type: affirmative
     degree: unanimous
@@ -303,6 +312,8 @@ resolutions:
   - 2014-11-20
   title: On the importance of the CIPM Mutual Recognition Arrangement
   identifier: 5
+  url: https://www.bipm.org/en/CGPM/db/25/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM25.pdf#page=423
   approvals:
   - type: affirmative
     degree: unanimous

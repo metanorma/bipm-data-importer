@@ -3,11 +3,14 @@ metadata:
   title: 'Résolutions de la CGPM : 17e réunion'
   date: 1983-10-21
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/fr/CGPM/db/17
 resolutions:
 - dates:
   - 1983-10-21
   title: Définition du mètre
   identifier: 1
+  url: https://www.bipm.org/fr/CGPM/db/17/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM17.pdf#page=97
   approvals:
   - type: affirmative
     degree: unanimous
@@ -75,6 +78,8 @@ resolutions:
   - 1983-10-21
   title: Sur la mise en pratique de la définition du mètre
   identifier: 2
+  url: https://www.bipm.org/fr/CGPM/db/17/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM17.pdf#page=98
   approvals:
   - type: affirmative
     degree: unanimous
@@ -93,6 +98,8 @@ resolutions:
   - 1983-10-21
   title: Sur la masse volumique de l'air
   identifier: 3
+  url: https://www.bipm.org/fr/CGPM/db/17/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM17.pdf#page=99
   approvals:
   - type: affirmative
     degree: unanimous
@@ -120,6 +127,8 @@ resolutions:
   - 1983-10-21
   title: Dotation du BIPM
   identifier: 4
+  url: https://www.bipm.org/fr/CGPM/db/17/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM17.pdf#page=99
   approvals:
   - type: affirmative
     degree: unanimous

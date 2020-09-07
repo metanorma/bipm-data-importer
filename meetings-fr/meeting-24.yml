@@ -3,11 +3,14 @@ metadata:
   title: 'Résolutions de la CGPM : 24e réunion'
   date: 2011-10-21
   source: BIPM - Pavillon de Breteuil
+  url: https://www.bipm.org/fr/CGPM/db/24
 resolutions:
 - dates:
   - 2011-10-21
   title: Sur l'éventuelle révision à venir du Système international d'unités, le SI
   identifier: 1
+  url: https://www.bipm.org/fr/CGPM/db/24/1/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM24.pdf#page=212
   approvals:
   - type: affirmative
     degree: unanimous
@@ -268,6 +271,8 @@ resolutions:
     nécessaires à l'observation du changement climatique traçables au Système international
     d'unités (SI)
   identifier: 2
+  url: https://www.bipm.org/fr/CGPM/db/24/2/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM24.pdf#page=217
   approvals:
   - type: affirmative
     degree: unanimous
@@ -333,6 +338,8 @@ resolutions:
   title: Dotation du Bureau international des poids et mesures pour les années 2013
     à 2015
   identifier: 3
+  url: https://www.bipm.org/fr/CGPM/db/24/3/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM24.pdf#page=219
   approvals:
   - type: affirmative
     degree: unanimous
@@ -402,6 +409,8 @@ resolutions:
   - 2011-10-21
   title: Sur le statut d'État Associé à la Conférence générale
   identifier: 4
+  url: https://www.bipm.org/fr/CGPM/db/24/4/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM24.pdf#page=221
   approvals:
   - type: affirmative
     degree: unanimous
@@ -499,6 +508,8 @@ resolutions:
   - 2011-10-21
   title: Sur l'acceptation d'entités économiques comme Associé à la Conférence générale
   identifier: 5
+  url: https://www.bipm.org/fr/CGPM/db/24/5/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM24.pdf#page=223
   approvals:
   - type: affirmative
     degree: unanimous
@@ -530,6 +541,8 @@ resolutions:
   - 2011-10-21
   title: Sur les contributions arriérées des États Parties à la Convention du Mètre
   identifier: 6
+  url: https://www.bipm.org/fr/CGPM/db/24/6/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM24.pdf#page=224
   approvals:
   - type: affirmative
     degree: unanimous
@@ -562,6 +575,8 @@ resolutions:
     des poids et mesures et les États Parties à la Convention du Mètre débiteurs pour
     le paiement de leurs contributions arriérées
   identifier: 7
+  url: https://www.bipm.org/fr/CGPM/db/24/7/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM24.pdf#page=225
   approvals:
   - type: affirmative
     degree: unanimous
@@ -593,6 +608,8 @@ resolutions:
   title: Sur la révision de la mise en pratique de la définition du mètre et sur la
     mise au point de nouveaux étalons optiques de fréquence
   identifier: 8
+  url: https://www.bipm.org/fr/CGPM/db/24/8/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM24.pdf#page=227
   approvals:
   - type: affirmative
     degree: unanimous
@@ -622,6 +639,8 @@ resolutions:
   - 2011-10-21
   title: Sur l'adoption d'un système de référence terrestre commun
   identifier: 9
+  url: https://www.bipm.org/fr/CGPM/db/24/9/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM24.pdf#page=228
   approvals:
   - type: affirmative
     degree: unanimous
@@ -647,6 +666,8 @@ resolutions:
   title: Sur le rôle, la mission, les objectifs, la stratégie à long terme et la gouvernance
     du BIPM
   identifier: 10
+  url: https://www.bipm.org/fr/CGPM/db/24/10/
+  reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM24.pdf#page=229
   approvals:
   - type: affirmative
     degree: unanimous
