@@ -188,8 +188,8 @@ resolutions:
     message: |-
       considering
 
-        cgpm-resolution:en/20/11[Resolution&nbsp;11] of the 20th&nbsp;General Conference, which recommended to the International Committee that it study the long-term needs relating to metrology,
-        cgpm-resolution:en/21/1[Resolution&nbsp;1] of the 21st General Conference, which noted the Report to the General Conference on long-term needs relating to metrology,
+        cgpm-resolution:en/20/11[Resolution 11] of the 20th General Conference, which recommended to the International Committee that it study the long-term needs relating to metrology,
+        cgpm-resolution:en/21/1[Resolution 1] of the 21st General Conference, which noted the Report to the General Conference on long-term needs relating to metrology,
        the new Report adopted by the International Committee in October 2002,
   - type: noting
     date_effective: 2003-10-17
@@ -252,8 +252,8 @@ resolutions:
       trade organizations and national authorities,
   - type: noting
     date_effective: 2003-10-17
-    message: noting the use of the CIPM&nbsp;MRA, for example, in facilitating the
-      European Union/United States trade agreement,
+    message: noting the use of the CIPM MRA, for example, in facilitating the European
+      Union/United States trade agreement,
   actions:
   - type: welcomes
     date_effective: 2003-10-17
@@ -308,8 +308,8 @@ resolutions:
   - type: noting
     date_effective: 2003-10-17
     message: noting that the official notification of changes to the list of designated
-      institutes in Appendix&nbsp;A of the CIPM Mutual Recognition Arrangement (MRA)
-      is transmitted to the International Bureau of Weights and Measures through the
+      institutes in Appendix A of the CIPM Mutual Recognition Arrangement (MRA) is
+      transmitted to the International Bureau of Weights and Measures through the
       signatory national metrology institute,
   actions:
   - type: recommends
@@ -503,8 +503,8 @@ resolutions:
     date_effective: 2003-10-17
     message: reaffirms that "Numbers may be divided in groups of three in order to
       facilitate reading; neither dots nor commas are ever inserted in the spaces
-      between groups", as stated in cgpm-resolution:en/9/7[Resolution&nbsp;7] of the
-      9th&nbsp;CGPM, 1948.
+      between groups", as stated in cgpm-resolution:en/9/7[Resolution 7] of the 9th
+      CGPM, 1948.
   actions:
   - type: decides
     date_effective: 2003-10-17
@@ -617,13 +617,13 @@ resolutions:
       States of the Metre Convention,
   - type: considering
     date_effective: 2003-10-17
-    message: considering the broadened responsibilities given to the BIPM at the 21st&nbsp;General
-      Conference in 1999 but without any corresponding increase in dotation,
+    message: considering the broadened responsibilities given to the BIPM at the 21st
+      General Conference in 1999 but without any corresponding increase in dotation,
   - type: considering
     date_effective: 2003-10-17
     message: considering the additional increase in workload, unforeseen at the time
-      of the 21st&nbsp;General Conference, that has also been absorbed by the BIPM
-      since the last&nbsp;General Conference,
+      of the 21st General Conference, that has also been absorbed by the BIPM since
+      the last General Conference,
   - type: considering
     date_effective: 2003-10-17
     message: considering the extension of the range of work under the Metre Convention
@@ -657,7 +657,7 @@ resolutions:
     message: |-
       invites national metrology institutes (NMIs)
 
-       to arrange, at their expense, a continuing series of short-term placements or secondments of their staff to the BIPM to work on projects of mutual interest&nbsp;integrated into the BIPM programme,
+       to arrange, at their expense, a continuing series of short-term placements or secondments of their staff to the BIPM to work on projects of mutual interest integrated into the BIPM programme,
        to accept staff of the BIPM to work in their institutes on programmes of mutual interest,
        to sponsor a permanent programme of Fellowships at the BIPM for suitable staff with a view to establishing four such Fellowships at the BIPM by the end of 2004 on projects of mutual interest to the sponsoring NMI and the BIPM,
   - type: invites / further invites
@@ -693,6 +693,6 @@ resolutions:
       |===
   - type: requests
     date_effective: 2003-10-17
-    message: requests Member States to declare to the BIPM, at the latest by 1&nbsp;April
+    message: requests Member States to declare to the BIPM, at the latest by 1 April
       2004, their intention to pay for the full four years their share of this discretionary
       contribution.

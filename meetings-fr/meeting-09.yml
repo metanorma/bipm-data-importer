@@ -217,36 +217,23 @@ resolutions:
   actions:
   - type: decides
     date_effective: 1948-10-21
-    message: |-
-      Principes
-
-      Les symboles des unités sont exprimés en caractères romains, en général minuscules ; toutefois, si les symboles sont dérivés de noms propres, les caractères romains majuscules sont utilisés. Ces symboles ne sont pas suivis d'un point.
-
-      Dans les nombres, la virgule (usage français) ou le point (usage britannique) sont utilisés seulement pour séparer la partie entière des nombres de leur partie décimale. Pour faciliter la lecture, les nombres peuvent être partagés en tranches de trois chiffres : ces tranches ne sont jamais séparées par des points, ni par des virgules.
-
-      [width=80%]
-      |===
-      .<| Unités .<| Symboles .17+| .<| Unités .<| Symboles
-
-      2+| 2+|
-      .<| ·mètre .<| m .<| ampère .<| A
-      .<| ·mètre carré .<| m^2^ .<| volt .<| V
-      .<| ·mètre cube .<| m^3^ .<| watt .<| W
-      .<| ·micron .<| µ .<| ohm .<| stem:[ sf Omega ]
-      .<| ·litre .<| l .<| coulomb .<| C
-      .<| ·gramme .<| g .<| farad .<| F
-      .<| ·tonne .<| t .<| henry .<| H
-      .<| seconde .<| s .<| hertz .<| Hz
-      .<| erg .<| erg .<| poise .<| P
-      .<| dyne .<| dyn .<| newton .<| N
-      .<| degré Celsius .<| °C .<| ·candela .<| &nbsp;
-      .<| &nbsp; .<| &nbsp; .<| (bougie nouvelle) .<| cd
-      .<| ·degré absolu .<| °K .<| lux .<| lx
-      .<| calorie .<| cal .<| lumen .<| lm
-      .<| bar .<| bar .<| stilb .<| sb
-      .<| heure .<| h .<| &nbsp; .<| &nbsp;
-
-      |===
+    message: "Principes\n\nLes symboles des unités sont exprimés en caractères romains,
+      en général minuscules ; toutefois, si les symboles sont dérivés de noms propres,
+      les caractères romains majuscules sont utilisés. Ces symboles ne sont pas suivis
+      d'un point.\n\nDans les nombres, la virgule (usage français) ou le point (usage
+      britannique) sont utilisés seulement pour séparer la partie entière des nombres
+      de leur partie décimale. Pour faciliter la lecture, les nombres peuvent être
+      partagés en tranches de trois chiffres : ces tranches ne sont jamais séparées
+      par des points, ni par des virgules.\n\n[width=80%]\n|===\n.<| Unités .<| Symboles
+      .17+| .<| Unités .<| Symboles\n\n2+| 2+|\n.<| ·mètre .<| m .<| ampère .<| A\n.<|
+      ·mètre carré .<| m^2^ .<| volt .<| V\n.<| ·mètre cube .<| m^3^ .<| watt .<|
+      W\n.<| ·micron .<| µ .<| ohm .<| stem:[ sf Omega ]\n.<| ·litre .<| l .<| coulomb
+      .<| C\n.<| ·gramme .<| g .<| farad .<| F\n.<| ·tonne .<| t .<| henry .<| H\n.<|
+      seconde .<| s .<| hertz .<| Hz\n.<| erg .<| erg .<| poise .<| P\n.<| dyne .<|
+      dyn .<| newton .<| N\n.<| degré Celsius .<| °C .<| ·candela .<|  \n.<|   .<|
+      \  .<| (bougie nouvelle) .<| cd\n.<| ·degré absolu .<| °K .<| lux .<| lx\n.<|
+      calorie .<| cal .<| lumen .<| lm\n.<| bar .<| bar .<| stilb .<| sb\n.<| heure
+      .<| h .<|   .<|  \n\n|==="
   - type: affirms / reaffirming
     date_effective: 1948-10-21
     message: Remarques Les symboles dont les unités sont précédées d'un point sont

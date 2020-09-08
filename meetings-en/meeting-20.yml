@@ -342,8 +342,8 @@ resolutions:
     date_effective: 1995-10-13
     message: 'considering that the 11th Conférence Générale in 1960 in its cgpm-resolution:en/11/12[Resolution
       12], establishing the Système International d''Unités, SI, distinguished between
-      three classes of SI units&nbsp;: the base units, the derived units, and the
-      supplementary units, the last of these comprising the radian and the steradian,'
+      three classes of SI units : the base units, the derived units, and the supplementary
+      units, the last of these comprising the radian and the steradian,'
   - type: considering
     date_effective: 1995-10-13
     message: considering that the status of the supplementary units in relation to

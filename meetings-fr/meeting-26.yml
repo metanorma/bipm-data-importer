@@ -31,68 +31,67 @@ resolutions:
   - type: considering
     date_effective: 2018-11-16
     message: considérant qu'une révision du SI visant à satisfaire ces exigences a
-      été proposée dans la Résolution&nbsp;1 adoptée à l'unanimité par la CGPM à sa
-      24^e^&nbsp;réunion (2011), qui expose en détail une nouvelle façon de définir
-      le SI à partir d'un ensemble de sept&nbsp;constantes, choisies parmi les constantes
-      fondamentales de la physique et d'autres constantes de la nature, à partir desquelles
-      les définitions des sept&nbsp;unités de base sont déduites,
+      été proposée dans la Résolution 1 adoptée à l'unanimité par la CGPM à sa 24^e^
+      réunion (2011), qui expose en détail une nouvelle façon de définir le SI à partir
+      d'un ensemble de sept constantes, choisies parmi les constantes fondamentales
+      de la physique et d'autres constantes de la nature, à partir desquelles les
+      définitions des sept unités de base sont déduites,
   - type: considering
     date_effective: 2018-11-16
     message: considérant que les conditions requises par la CGPM à sa 24^e^ réunion
-      (2011), confirmées à sa 25^e^&nbsp;réunion (2014), pour procéder à l'adoption
-      d'une telle révision du SI sont désormais remplies,
+      (2011), confirmées à sa 25^e^ réunion (2014), pour procéder à l'adoption d'une
+      telle révision du SI sont désormais remplies,
   - type: noting
     date_effective: 2018-11-16
     message: "*prend acte* des conséquences de la révision du SI concernant les unités
-      de base du SI, énoncées dans la Résolution 1 adoptée par la CGPM à sa 24^e^&nbsp;réunion
-      (2011), et les confirme dans les annexes de la présente résolution, qui ont
-      même force que la résolution elle-même,"
+      de base du SI, énoncées dans la Résolution 1 adoptée par la CGPM à sa 24^e^
+      réunion (2011), et les confirme dans les annexes de la présente résolution,
+      qui ont même force que la résolution elle-même,"
   actions:
   - type: decides
     date_effective: 2018-11-16
     message: |-
-      *décide* qu'à compter du 20 mai 2019, le Système international d'unités, le SI, est le système d'unités selon lequel&nbsp;:
+      *décide* qu'à compter du 20 mai 2019, le Système international d'unités, le SI, est le système d'unités selon lequel :
 
-      * la fréquence de la transition hyperfine de l'état fondamental de l'atome de césium 133 non perturbé, stem:[ sf Delta  nu _(Cs)], est égale à 9&nbsp;192&nbsp;631&nbsp;770 Hz,
-      * la vitesse de la lumière dans le vide, stem:[c], est égale à 299&nbsp;792&nbsp;458 m/s,
-      * la constante de Planck, stem:[h], est égale à 6,626&nbsp;070 15&nbsp;×&nbsp;stem:[10^(-34)] J s,
-      * la charge élémentaire, stem:[e], est égale à 1,602&nbsp;176&nbsp;634&nbsp;×&nbsp;stem:[10^(-19)] C,
-      * la constante de Boltzmann, stem:[k], est égale à 1,380&nbsp;649&nbsp;×&nbsp;stem:[10^(-23)] J/K,
-      * la constante d'Avogadro, stem:[N_(A)], est égale à 6,022&nbsp;140&nbsp;76&nbsp;×&nbsp;stem:[10^(23)] mol^-1^,
-      * l'efficacité lumineuse d'un rayonnement monochromatique de fréquence 540&nbsp;×&nbsp;stem:[10^(12)] Hz, stem:[K_(cd)], est égale à 683 lm/W,
+      * la fréquence de la transition hyperfine de l'état fondamental de l'atome de césium 133 non perturbé, stem:[ sf Delta  nu _(Cs)], est égale à 9 192 631 770 Hz,
+      * la vitesse de la lumière dans le vide, stem:[c], est égale à 299 792 458 m/s,
+      * la constante de Planck, stem:[h], est égale à stem:[6","626 070 15 * 10^(-34)] J s,
+      * la charge élémentaire, stem:[e], est égale à stem:[1","602 176 634 * 10^(-19)] C,
+      * la constante de Boltzmann, stem:[k], est égale à stem:[1","380 649 * 10^(-23)] J/K,
+      * la constante d'Avogadro, stem:[N_(A)], est égale à stem:[6","022 140 76 * 10^(23)] mol^-1^,
+      * l'efficacité lumineuse d'un rayonnement monochromatique de fréquence stem:[540 * 10^(12)] Hz, stem:[K_(cd)], est égale à 683 lm/W,
 
-      où les unités hertz, joule, coulomb, lumen et watt, qui ont respectivement pour symbole Hz, J, C, lm et W, sont reliées aux unités seconde, mètre, kilogramme, ampère, kelvin, mole et candela, qui ont respectivement pour symbole s, m, kg, A, K, mol et cd, selon les relations Hz = s^-1^, J = kg&nbsp;m^2^&nbsp;s^-2^, C = A s, lm = cd m^2^ m^-2^ = cd sr, et W = kg&nbsp;m^2^ s^-3^,
+      où les unités hertz, joule, coulomb, lumen et watt, qui ont respectivement pour symbole Hz, J, C, lm et W, sont reliées aux unités seconde, mètre, kilogramme, ampère, kelvin, mole et candela, qui ont respectivement pour symbole s, m, kg, A, K, mol et cd, selon les relations Hz = s^-1^, J = kg m^2^ s^-2^, C = A s, lm = cd m^2^ m^-2^ = cd sr, et W = kg m^2^ s^-3^,
   - type: invites / further invites
     date_effective: 2018-11-16
-    message: |-
-      *invite* le Comité international des poids et mesures (CIPM) à publier une nouvelle édition de la Brochure sur le SI, «&nbsp;Le Système international d'unités&nbsp;», contenant une description complète du SI révisé.
-
-      &nbsp;
+    message: "*invite* le Comité international des poids et mesures (CIPM) à publier
+      une nouvelle édition de la Brochure sur le SI, « Le Système international d'unités
+      », contenant une description complète du SI révisé.\n\n "
   appendices:
   - identifier: 1
     message: |-
       *Annexe 1. Abrogation des précédentes définitions des unités de base*
 
-      Il résulte de la nouvelle définition du SI décrite ci-dessus qu'à compter du 20&nbsp;mai 2019&nbsp;:
+      Il résulte de la nouvelle définition du SI décrite ci-dessus qu'à compter du 20 mai 2019 :
 
-      * la définition de la seconde en vigueur depuis 1967/68 (13^e^&nbsp;réunion de la CGPM, Résolution&nbsp;1) est abrogée,
-      * la définition du mètre en vigueur depuis 1983 (17^e^&nbsp;réunion de la CGPM, Résolution&nbsp;1) est abrogée,
-      * la définition du kilogramme en vigueur depuis 1889 (1^ère^&nbsp;réunion de la CGPM, 1889, 3e&nbsp;réunion de la CGPM, 1901), établie à partir de la masse du prototype international du kilogramme, est abrogée,
-      * la définition de l'ampère en vigueur depuis 1948 (9^e^&nbsp;réunion de la CGPM), établie à partir de la définition proposée par le CIPM (1946, Résolution&nbsp;2), est abrogée,
-      * la définition du kelvin en vigueur depuis 1967/68 (13^e^&nbsp;réunion de la CGPM, Résolution 4) est abrogée,
-      * la définition de la mole en vigueur depuis 1971 (14^e^&nbsp;réunion de la CGPM, Résolution&nbsp;3) est abrogée,
-      * la définition de la candela en vigueur depuis 1979 (16^e^&nbsp;réunion de la CGPM, Résolution 3) est abrogée,
-      * la décision d'adopter les valeurs conventionnelles de la constante de Josephson stem:[K_(J-90)] et de la constante de von Klitzing stem:[R_(K-90)], prise par le CIPM (1988, Recommandations 1 et 2) à la demande de la CGPM (18^e^&nbsp;réunion de la CGPM, 1987, Résolution 6) pour l'établissement des représentations du volt et de l'ohm à l'aide des effets Josephson et Hall quantique, respectivement, est&nbsp;abrogée.
+      * la définition de la seconde en vigueur depuis 1967/68 (13^e^ réunion de la CGPM, Résolution 1) est abrogée,
+      * la définition du mètre en vigueur depuis 1983 (17^e^ réunion de la CGPM, Résolution 1) est abrogée,
+      * la définition du kilogramme en vigueur depuis 1889 (1^ère^ réunion de la CGPM, 1889, 3e réunion de la CGPM, 1901), établie à partir de la masse du prototype international du kilogramme, est abrogée,
+      * la définition de l'ampère en vigueur depuis 1948 (9^e^ réunion de la CGPM), établie à partir de la définition proposée par le CIPM (1946, Résolution 2), est abrogée,
+      * la définition du kelvin en vigueur depuis 1967/68 (13^e^ réunion de la CGPM, Résolution 4) est abrogée,
+      * la définition de la mole en vigueur depuis 1971 (14^e^ réunion de la CGPM, Résolution 3) est abrogée,
+      * la définition de la candela en vigueur depuis 1979 (16^e^ réunion de la CGPM, Résolution 3) est abrogée,
+      * la décision d'adopter les valeurs conventionnelles de la constante de Josephson stem:[K_(J-90)] et de la constante de von Klitzing stem:[R_(K-90)], prise par le CIPM (1988, Recommandations 1 et 2) à la demande de la CGPM (18^e^ réunion de la CGPM, 1987, Résolution 6) pour l'établissement des représentations du volt et de l'ohm à l'aide des effets Josephson et Hall quantique, respectivement, est abrogée.
   - identifier: 2
     message: |-
       *Annexe 2. Statut des constantes utilisées antérieurement dans les anciennes définitions*
 
-      Il résulte de la nouvelle définition du SI décrite ci-dessus, et des valeurs recommandées dans l'ajustement spécial de 2017 du Committee on Data for Science and Technology (CODATA), sur lesquelles se fondent les valeurs des constantes choisies pour définir le SI, qu'à compter du 20&nbsp;mai&nbsp;2019&nbsp;:
+      Il résulte de la nouvelle définition du SI décrite ci-dessus, et des valeurs recommandées dans l'ajustement spécial de 2017 du Committee on Data for Science and Technology (CODATA), sur lesquelles se fondent les valeurs des constantes choisies pour définir le SI, qu'à compter du 20 mai 2019 :
 
-      * la masse du prototype international du kilogramme, stem:[m](K), est égale à 1&nbsp;kg avec une incertitude-type relative égale à celle de la valeur recommandée de stem:[h] au moment de l'adoption de la présente résolution, à savoir 1,0&nbsp;×&nbsp;stem:[10^(-8)]&nbsp;; dans le futur, sa valeur sera déterminée de façon expérimentale,
-      * la perméabilité magnétique du vide, ~stem:[ mu ]~~0~, est égale à stem:[4 sf pi ] ×&nbsp;stem:[10^(-7)]&nbsp;H m^-1^ avec une incertitude-type relative égale à celle de la valeur recommandée de la constante de structure fine stem:[ alpha ] au moment de l'adoption de la présente résolution, à savoir 2,3&nbsp;×&nbsp;stem:[10^(-10)]&nbsp;; dans le futur, sa valeur sera déterminée de façon expérimentale,
-      * la température thermodynamique du point triple de l'eau, stem:[T_(TPW)], est égale à 273,16&nbsp;K avec une incertitude-type relative presque égale à celle de la valeur recommandée de stem:[k] au moment de l'adoption de la présente résolution, à savoir 3,7&nbsp;×&nbsp;stem:[10^(-7)]&nbsp;; dans le futur, sa valeur sera déterminée de façon expérimentale,
-      * la masse molaire du carbone 12, stem:[M](^12^C), est égale à 0,012&nbsp;kg mol^-1^ avec une incertitude-type relative égale à celle de la valeur recommandée de stem:[N_(A) h] au moment de l'adoption de la présente résolution, à savoir 4,5&nbsp;×&nbsp;stem:[10^(-10)]&nbsp;; dans le futur, sa valeur sera déterminée de façon expérimentale.
+      * la masse du prototype international du kilogramme, stem:[m](K), est égale à 1 kg avec une incertitude-type relative égale à celle de la valeur recommandée de stem:[h] au moment de l'adoption de la présente résolution, à savoir stem:[1","0 * 10^(-8)] ; dans le futur, sa valeur sera déterminée de façon expérimentale,
+      * la perméabilité magnétique du vide, ~stem:[ mu ]~~0~, est égale à stem:[4 sf pi  * 10^(-7)] H m^-1^ avec une incertitude-type relative égale à celle de la valeur recommandée de la constante de structure fine stem:[ alpha ] au moment de l'adoption de la présente résolution, à savoir stem:[2","3 * 10^(-10)] ; dans le futur, sa valeur sera déterminée de façon expérimentale,
+      * la température thermodynamique du point triple de l'eau, stem:[T_(TPW)], est égale à 273,16 K avec une incertitude-type relative presque égale à celle de la valeur recommandée de stem:[k] au moment de l'adoption de la présente résolution, à savoir stem:[3","7 * 10^(-7)] ; dans le futur, sa valeur sera déterminée de façon expérimentale,
+      * la masse molaire du carbone 12, stem:[M](^12^C), est égale à 0,012 kg mol^-1^ avec une incertitude-type relative égale à celle de la valeur recommandée de stem:[N_(A) h] au moment de l'adoption de la présente résolution, à savoir stem:[4","5 * 10^(-10)] ; dans le futur, sa valeur sera déterminée de façon expérimentale.
   - identifier: 3
     message: |-
       *Annexe 3. Les unités de base du SI*
@@ -158,11 +157,10 @@ resolutions:
     message: 'reconnaissant que le Service international de la rotation terrestre
       et des systèmes de référence (IERS), un service de l''UAI et de l''UGGI, a pour
       responsabilité de fournir les informations requises afin de relier les systèmes
-      de référence terrestre et céleste, parmi lesquelles&nbsp;: les mesures variant
-      dans le temps de l''angle de rotation de la Terre, UT1&nbsp;-&nbsp;UTC&nbsp;;
-      la prédiction de faible précision d''UT1&nbsp;-&nbsp;UTC transmise par les signaux
-      de temps, DUT1&nbsp;; et les données permettant de décider et d''annoncer l''insertion
-      des secondes intercalaires,'
+      de référence terrestre et céleste, parmi lesquelles : les mesures variant dans
+      le temps de l''angle de rotation de la Terre, UT1 - UTC ; la prédiction de faible
+      précision d''UT1 - UTC transmise par les signaux de temps, DUT1 ; et les données
+      permettant de décider et d''annoncer l''insertion des secondes intercalaires,'
   - type: noting
     date_effective: 2018-11-16
     message: notant que la Résolution A4 (1991) de l'UAI définit, dans ses Recommandations
@@ -181,11 +179,11 @@ resolutions:
     date_effective: 2018-11-16
     message: 'notant que la Résolution B1.9 (2000) de l''UAI redéfinit TT comme une
       échelle de temps qui diffère du TCG par une marche constante : stem:[d]TT/stem:[d]TCG
-      = 1 - stem:[L_(G)], où stem:[L_(G)]&nbsp;= stem:[6","969 290 134 * 10^(-10)]
-      est une constante de définition (la valeur numérique de stem:[L_(G)] a été choisie
-      pour se conformer à la valeur de stem:[W_(0)]&nbsp;= 62 636 856,0 m^2^&nbsp;s^-2^
-      pour le potentiel de pesanteur sur le géoïde tel que recommandé par la Commission
-      spéciale 3 de l''AIG en 1999),'
+      = 1 - stem:[L_(G)], où stem:[L_(G) = 6","969 290 134 * 10^(-10)] est une constante
+      de définition (la valeur numérique de stem:[L_(G)] a été choisie pour se conformer
+      à la valeur de stem:[W_(0) = 62 636 856","0] m^2^ s^-2^ pour le potentiel de
+      pesanteur sur le géoïde tel que recommandé par la Commission spéciale 3 de l''AIG
+      en 1999),'
   - type: noting
     date_effective: 2018-11-16
     message: notant que une redéfinition de TT en 2000 a introduit une ambiguïté entre
@@ -202,13 +200,13 @@ resolutions:
     date_effective: 2018-11-16
     message: déclare que pour la conversion du temps propre d'une horloge en TAI,
       le décalage relativiste de fréquence est calculé par rapport à la surface équipotentielle
-      stem:[W_(0) = 62 636 856","0] m^2^&nbsp;s^-2^ du potentiel de pesanteur de la
-      Terre, adoptée de façon conventionnelle, en conformité avec la constante LG
-      définissant la marche de TT,
+      stem:[W_(0) = 62 636 856","0] m^2^ s^-2^ du potentiel de pesanteur de la Terre,
+      adoptée de façon conventionnelle, en conformité avec la constante LG définissant
+      la marche de TT,
   - type: decides
     date_effective: 2018-11-16
     message: déclare que tel qu'indiqué dans la Résolution A4 (1991) de l'UAI, TT
-      - TAI est égal à 32,184&nbsp;s exactement au 1^er^ janvier 1977, 0h TAI au géocentre,
+      - TAI est égal à 32,184 s exactement au 1^er^ janvier 1977, 0h TAI au géocentre,
       pour assurer une continuité de TT avec le temps des éphémérides,
   - type: decides
     date_effective: 2018-11-16
@@ -387,7 +385,7 @@ resolutions:
   - type: noting
     date_effective: 2018-11-16
     message: notant la situation financière mondiale actuelle et les contraintes financières
-      auxquelles les États&nbsp;Membres continuent d'être soumis,
+      auxquelles les États Membres continuent d'être soumis,
   actions:
   - type: welcomes
     date_effective: 2018-11-16
@@ -400,7 +398,7 @@ resolutions:
     message: |-
       *décide* que
 
-      * la dotation annuelle du BIPM, telle que définie à l'article 6 (1921) du Règlement annexé à la Convention du Mètre, sera fixée de façon à ce qu'elle corresponde, pour les États Parties à la Convention du Mètre au moment de la 26^e^ réunion de la CGPM, à&nbsp;:
+      * la dotation annuelle du BIPM, telle que définie à l'article 6 (1921) du Règlement annexé à la Convention du Mètre, sera fixée de façon à ce qu'elle corresponde, pour les États Parties à la Convention du Mètre au moment de la 26^e^ réunion de la CGPM, à :
        +
 
       12 356 526 euros en 2020 +
@@ -431,7 +429,7 @@ resolutions:
     message: |-
       *rappelant*
 
-      * l'article 6, alinéas 6 à 8 (1921), du Règlement annexé à la Convention du Mètre selon lequel&nbsp;:
+      * l'article 6, alinéas 6 à 8 (1921), du Règlement annexé à la Convention du Mètre selon lequel :
       « _6. Si un État est demeuré trois années sans effectuer le versement de sa contribution, celle-ci est répartie entre les autres États, au prorata de leurs propres contributions. Les sommes supplémentaires, versées ainsi par les États pour parfaire le montant de la dotation du Bureau, sont considérées comme une avance faite à l'État retardataire, et leur sont remboursées si celui-ci vient à acquitter ses contributions arriérées. +
       7. Les avantages et prérogatives conférés par l'adhésion à la Convention du Mètre sont suspendus à l'égard des États déficitaires de trois années. +
       8. Après trois nouvelles années, l'État déficitaire est exclu de la Convention, et le calcul des contributions est rétabli conformément aux dispositions de l'article 20 du présent Règlement._ » +
@@ -460,7 +458,7 @@ resolutions:
     date_effective: 2018-11-16
     message: 'notant que la Résolution 8 adoptée par la CGPM à sa 23^e^ réunion (2007)
       a mis en place une procédure régissant l''exclusion d''un État Membre débiteur
-      qui requiert une décision de la CGPM&nbsp;: par conséquent, la période de suspension
+      qui requiert une décision de la CGPM : par conséquent, la période de suspension
       des avantages et prérogatives précédant l''exclusion dépend du calendrier des
       réunions de la CGPM et les États Membres débiteurs peuvent donc ne pas être
       traités de façon équitable,'

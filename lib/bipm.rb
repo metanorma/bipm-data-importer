@@ -213,7 +213,7 @@ FileUtils.rm_rf "meetings-en"
           r["considerations"] << prev = {
             "type" => v,
             "date_effective" => date,
-            "message" => AsciiMath.asciidoc_extract_math(ReverseAdoc.convert(part).strip),
+            "message" => AsciiMath.asciidoc_extract_math(ReverseAdoc.convert(part).strip.gsub("&nbsp;", ' ')),
           }
         end
       end && next
@@ -223,7 +223,7 @@ FileUtils.rm_rf "meetings-en"
           r["actions"] << prev = {
             "type" => v,
             "date_effective" => date,
-            "message" => AsciiMath.asciidoc_extract_math(ReverseAdoc.convert(part).strip),
+            "message" => AsciiMath.asciidoc_extract_math(ReverseAdoc.convert(part).strip.gsub("&nbsp;", ' ')),
           }
         end
       end && next
@@ -232,13 +232,13 @@ FileUtils.rm_rf "meetings-en"
         r["appendices"] ||= []
         r["appendices"] << prev = {
           "identifier" => $1.to_i,
-          "message" => AsciiMath.asciidoc_extract_math(ReverseAdoc.convert(part).strip),
+          "message" => AsciiMath.asciidoc_extract_math(ReverseAdoc.convert(part).strip.gsub("&nbsp;", ' ')),
         }
         next
       end
 
       if parse =~ /\A(becquerel|gray, symbol)/
-        prev["message"] += "\n" + AsciiMath.asciidoc_extract_math(ReverseAdoc.convert(part).strip)
+        prev["message"] += "\n" + AsciiMath.asciidoc_extract_math(ReverseAdoc.convert(part).strip.gsub("&nbsp;", ' '))
         next
       end
 
