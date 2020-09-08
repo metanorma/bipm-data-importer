@@ -104,11 +104,15 @@ FileUtils.rm_rf "meetings-en"
     res_id = res_link.href.split('/')[-1].to_i
     res = VCR.use_cassette("resolution-#{meeting_id}-#{res_id}#{meeting_lang_sfx}") { res_link.click }
 
-    refs = res.css('a.intros[href*=".pdf"]')
+    # Reparse the document after fixing upstream syntax
+    fixed_body = res.body.gsub("<name=", "<a name=")
+    ng = Nokogiri::HTML(fixed_body, res.uri.to_s, "iso-8859-1", Nokogiri::XML::ParseOptions.new.default_html.noent)
+
+    refs = ng.css('a.intros[href*=".pdf"]')
 
     r = {
       "dates" => [date],
-      "title" => res.at_css(".txt12pt .SousTitre").text.strip.gsub(/\*\Z/, ''),
+      "title" => ng.at_css(".txt12pt .SousTitre").text.strip.gsub(/\*\Z/, ''),
       "identifier" => res_id,
       "url" => res.uri.to_s,
       "reference" => res.uri.merge(refs.first.attr('href')).to_s,
@@ -123,7 +127,7 @@ FileUtils.rm_rf "meetings-en"
       "actions" => [],
     }
 
-    ps = res.css('td.txt12pt:not([align])')
+    ps = ng.css('td.txt12pt:not([align])')
 
     #binding.pry if ps.count != 1
 
@@ -189,6 +193,7 @@ FileUtils.rm_rf "meetings-en"
 
     doc = ps.inner_html.encode('utf-8').gsub("\r", '').gsub(%r'</?nobr>','')
     # doc = AsciiMath.html_to_asciimath(doc)
+
     parts = doc.split(/(\n(?:<p>)?<b>.*?<\/b>|<p>(?:après examen |après avoir entendu )|having noted that |decides to define |décide de définir |considers that|estime que|declares<\/p>)/)
     nparts = [parts.shift]
     while parts.length > 0
