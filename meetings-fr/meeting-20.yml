@@ -286,9 +286,9 @@ resolutions:
       à défilement,
   - type: recalling / further recalling
     date_effective: 1995-10-13
-    message: "*rappelant* la https://www.bipm.org/fr/CGPM/db/18/4/[Résolution 4 de
-      la 18^e^ Conférence générale] en 1987, qui concerne aussi les comparaisons d'horloges
-      au moyen de satellites,"
+    message: "*rappelant* la cgpm-resolution:fr/18/4[Résolution 4 de la 18^e^ Conférence
+      générale] en 1987, qui concerne aussi les comparaisons d'horloges au moyen de
+      satellites,"
   actions:
   - type: recommends
     date_effective: 1995-10-13
@@ -351,7 +351,7 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1995-10-13
-    message: considérant que la 11^e^ Conférence générale, en 1960, dans sa https://www.bipm.org/fr/CGPM/db/11/12/[Résolution
+    message: considérant que la 11^e^ Conférence générale, en 1960, dans sa cgpm-resolution:fr/11/12[Résolution
       12] établissant le Système international d'unités, SI, a distingué trois classes
       d'unités, celle des unités de base, celle des unités dérivées et celle des unités
       supplémentaires, cette dernière comprenant seulement le radian et le stéradian,
@@ -476,11 +476,10 @@ resolutions:
   considerations:
   - type: having / having regard
     date_effective: 1995-10-13
-    message: "*se référant* à la https://www.bipm.org/fr/CGPM/db/20/1/[Résolution
-      1] : Nécessité d'utiliser les unités du SI dans les recherches sur les ressources
-      terrestres, l'environnement, la sécurité humaine et les études connexes, à la
-      https://www.bipm.org/fr/CGPM/db/20/2/[Résolution 2] : Traçabilité des étalons
-      au niveau mondial, et à la https://www.bipm.org/fr/CGPM/db/20/3/[Résolution
+    message: "*se référant* à la cgpm-resolution:fr/20/1[Résolution 1] : Nécessité
+      d'utiliser les unités du SI dans les recherches sur les ressources terrestres,
+      l'environnement, la sécurité humaine et les études connexes, à la cgpm-resolution:fr/20/2[Résolution
+      2] : Traçabilité des étalons au niveau mondial, et à la cgpm-resolution:fr/20/3[Résolution
       3] : Besoin de recherches métrologiques à long terme,"
   - type: considering
     date_effective: 1995-10-13

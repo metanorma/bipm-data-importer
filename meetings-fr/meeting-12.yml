@@ -19,10 +19,10 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1964-10-13
-    message: considérant la https://www.bipm.org/fr/CGPM/db/11/1/[Résolution 1] de
-      la Onzième Conférence générale des poids et mesures invitant le Comité international
-      des poids et mesures à organiser au Bureau international des poids et mesures
-      une section des étalons de mesure des radiations ionisantes,
+    message: considérant la cgpm-resolution:fr/11/1[Résolution 1] de la Onzième Conférence
+      générale des poids et mesures invitant le Comité international des poids et
+      mesures à organiser au Bureau international des poids et mesures une section
+      des étalons de mesure des radiations ionisantes,
   actions:
   - type: approves
     date_effective: 1964-10-13
@@ -162,9 +162,9 @@ resolutions:
   - type: considering
     date_effective: 1964-10-13
     message: considérant que la Onzième Conférence générale des poids et mesures a
-      constaté dans sa https://www.bipm.org/fr/CGPM/db/11/10/[Résolution 10] l'urgence
-      pour les buts de la haute métrologie d'arriver à un étalon atomique ou moléculaire
-      d'intervalle de temps,
+      constaté dans sa cgpm-resolution:fr/11/10[Résolution 10] l'urgence pour les
+      buts de la haute métrologie d'arriver à un étalon atomique ou moléculaire d'intervalle
+      de temps,
   - type: considering
     date_effective: 1964-10-13
     message: considérant que, malgré les résultats acquis dans l'utilisation des étalons
@@ -199,9 +199,9 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1964-10-13
-    message: considérant la https://www.bipm.org/fr/CGPM/db/11/13/[Résolution 13]
-      adoptée par la Onzième Conférence générale en 1960 et la Recommandation adoptée
-      par le Comité international des poids et mesures à sa session de 1961,
+    message: considérant la cgpm-resolution:fr/11/13[Résolution 13] adoptée par la
+      Onzième Conférence générale en 1960 et la Recommandation adoptée par le Comité
+      international des poids et mesures à sa session de 1961,
   actions:
   - type: decides
     date_effective: 1964-10-13
@@ -256,7 +256,7 @@ resolutions:
   - type: decides
     date_effective: 1964-10-13
     message: |-
-      *décide* d'ajouter à la liste des préfixes pour la formation des noms des multiples et des sous-multiples des unités, adoptée par la Onzième Conférence générale, https://www.bipm.org/fr/CGPM/db/11/12/#para3[Résolution 12], paragraphe 3, les deux nouveaux préfixes suivants :
+      *décide* d'ajouter à la liste des préfixes pour la formation des noms des multiples et des sous-multiples des unités, adoptée par la Onzième Conférence générale, cgpm-resolution:fr/11/12#para3[Résolution 12], paragraphe 3, les deux nouveaux préfixes suivants :
 
       |===
       .a| Facteur par lequel +

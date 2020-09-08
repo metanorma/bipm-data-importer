@@ -34,9 +34,9 @@ resolutions:
     date_effective: 2011-10-21
     message: considering that a prominent example of the success of such efforts is
       the current definition of the SI unit of length, the metre (17th meeting of
-      the CGPM, 1983, https://www.bipm.org/en/CGPM/db/17/1/[Resolution 1]), which
-      links it to an exact value of the speed of light in vacuum stem:[c], namely,
-      299 792 458 metre per second,
+      the CGPM, 1983, cgpm-resolution:en/17/1[Resolution 1]), which links it to an
+      exact value of the speed of light in vacuum stem:[c], namely, 299 792 458 metre
+      per second,
   - type: considering
     date_effective: 2011-10-21
     message: considering that of the seven base units of the SI, only the kilogram
@@ -53,7 +53,7 @@ resolutions:
       consequence its long-term stability is not assured,
   - type: considering
     date_effective: 2011-10-21
-    message: considering that the CGPM at its 21st meeting in 1999 adopted https://www.bipm.org/en/CGPM/db/21/7/[Resolution
+    message: considering that the CGPM at its 21st meeting in 1999 adopted cgpm-resolution:en/21/7[Resolution
       7] in which it recommended that "national laboratories continue their efforts
       to refine experiments that link the unit of mass to fundamental or atomic constants
       with a view to a future redefinition of the kilogram",
@@ -98,18 +98,18 @@ resolutions:
   - type: considering
     date_effective: 2011-10-21
     message: considering that the General Conference, at its 23rd meeting in 2007,
-      adopted https://www.bipm.org/en/CGPM/db/23/12/[Resolution 12] in which it outlined
-      the work that should be carried out by the NMIs, the BIPM and the International
-      Committee for Weights and Measures (CIPM) together with its Consultative Committees
-      (CCs) so that new definitions of the kilogram, ampere, kelvin, and mole in terms
-      of fundamental constants could be adopted,
+      adopted cgpm-resolution:en/23/12[Resolution 12] in which it outlined the work
+      that should be carried out by the NMIs, the BIPM and the International Committee
+      for Weights and Measures (CIPM) together with its Consultative Committees (CCs)
+      so that new definitions of the kilogram, ampere, kelvin, and mole in terms of
+      fundamental constants could be adopted,
   - type: considering
     date_effective: 2011-10-21
     message: considering that, although this work has progressed well, not all the
-      requirements set out in https://www.bipm.org/en/CGPM/db/23/12/[Resolution 12]
-      adopted by the General Conference at its 23rd meeting in 2007 have been satisfied
-      and so the International Committee for Weights and Measures is not yet ready
-      to make a final proposal,
+      requirements set out in cgpm-resolution:en/23/12[Resolution 12] adopted by the
+      General Conference at its 23rd meeting in 2007 have been satisfied and so the
+      International Committee for Weights and Measures is not yet ready to make a
+      final proposal,
   - type: considering
     date_effective: 2011-10-21
     message: considering that, nevertheless, a clear and detailed explanation of what
@@ -167,10 +167,10 @@ resolutions:
 
       * the definition of the kilogram in force since 1889 based upon the mass of the international prototype of the kilogram (1st meeting of the CGPM, 1889, 3rd meeting of the CGPM, 1901) will be abrogated,
       * the definition of the ampere in force since 1948 (9th meeting of the CGPM, 1948) based upon the definition proposed by the International Committee (CIPM, 1946, https://www.bipm.org/en/CIPM/db/1946/2/[Resolution 2]) will be abrogated,
-      * the conventional values of the Josephson constant stem:[K_(J-90)] and of the von Klitzing constant stem:[R_(K-90)] adopted by the International Committee (CIPM, 1988, Recommendations 1 and 2) at the request of the General Conference (18th meeting of the CGPM, 1987, https://www.bipm.org/en/CGPM/db/18/6/[Resolution 6]) for the establishment of representations of the volt and the ohm using the Josephson and quantum Hall effects, respectively, will be abrogated,
-      * the definition of the kelvin in force since 1967/68 (13th meeting of the CGPM, 1967/68, https://www.bipm.org/en/CGPM/db/13/4/[Resolution 4]) based upon a less explicit, earlier definition (10th meeting of the CGPM, 1954, Resolution 3) will be abrogated,
-      * the definition of the mole in force since 1971 (14th meeting of the CGPM, 1971, https://www.bipm.org/en/CGPM/db/14/3/[Resolution 3]) based upon a definition whereby the molar mass of carbon 12 had the exact value 0.012 kg mol^-1^ will be abrogated,
-      * the existing definitions of the metre, second and candela in force since they were adopted by the CGPM at its 17th (1983, https://www.bipm.org/en/CGPM/db/17/1/[Resolution 1]), 13th (1967/68, https://www.bipm.org/en/CGPM/db/13/1/[Resolution 1]) and 16th (1979, https://www.bipm.org/en/CGPM/db/16/3/[Resolution 3]) meetings, respectively, will be abrogated.
+      * the conventional values of the Josephson constant stem:[K_(J-90)] and of the von Klitzing constant stem:[R_(K-90)] adopted by the International Committee (CIPM, 1988, Recommendations 1 and 2) at the request of the General Conference (18th meeting of the CGPM, 1987, cgpm-resolution:en/18/6[Resolution 6]) for the establishment of representations of the volt and the ohm using the Josephson and quantum Hall effects, respectively, will be abrogated,
+      * the definition of the kelvin in force since 1967/68 (13th meeting of the CGPM, 1967/68, cgpm-resolution:en/13/4[Resolution 4]) based upon a less explicit, earlier definition (10th meeting of the CGPM, 1954, Resolution 3) will be abrogated,
+      * the definition of the mole in force since 1971 (14th meeting of the CGPM, 1971, cgpm-resolution:en/14/3[Resolution 3]) based upon a definition whereby the molar mass of carbon 12 had the exact value 0.012 kg mol^-1^ will be abrogated,
+      * the existing definitions of the metre, second and candela in force since they were adopted by the CGPM at its 17th (1983, cgpm-resolution:en/17/1[Resolution 1]), 13th (1967/68, cgpm-resolution:en/13/1[Resolution 1]) and 16th (1979, cgpm-resolution:en/16/3[Resolution 3]) meetings, respectively, will be abrogated.
        +
 
       The General Conference on Weights and Measures
@@ -243,8 +243,8 @@ resolutions:
   - type: recalling / further recalling
     date_effective: 2011-10-21
     message: |-
-      *recalling* https://www.bipm.org/en/CGPM/db/21/4/[Resolution 4] adopted by the General Conference on Weights and Measures at its 21st meeting in 1999 concerning the need to use SI units in studies of Earth resources, the environment, human wellbeing and related issues,
-        https://www.bipm.org/en/CGPM/db/23/11/[Resolution 11] adopted by the General Conference on Weights and Measures at its 23rd meeting in 2007 on the importance of SI traceable measurements to monitor climate change,
+      *recalling* cgpm-resolution:en/21/4[Resolution 4] adopted by the General Conference on Weights and Measures at its 21st meeting in 1999 concerning the need to use SI units in studies of Earth resources, the environment, human wellbeing and related issues,
+        cgpm-resolution:en/23/11[Resolution 11] adopted by the General Conference on Weights and Measures at its 23rd meeting in 2007 on the importance of SI traceable measurements to monitor climate change,
   - type: considering
     date_effective: 2011-10-21
     message: "*considering* the expansion in the number of international and national
@@ -371,12 +371,12 @@ resolutions:
   considerations:
   - type: recalling / further recalling
     date_effective: 2011-10-21
-    message: recalling https://www.bipm.org/en/CGPM/db/21/3/[Resolution 3 adopted
-      by the CGPM at its 21st meeting] in 1999,
+    message: recalling cgpm-resolution:en/21/3[Resolution 3 adopted by the CGPM at
+      its 21st meeting] in 1999,
   - type: recalling / further recalling
     date_effective: 2011-10-21
-    message: recalling https://www.bipm.org/en/CGPM/db/23/5/[Resolution 5 adopted
-      by the CGPM at its 23rd meeting] in 2007,
+    message: recalling cgpm-resolution:en/23/5[Resolution 5 adopted by the CGPM at
+      its 23rd meeting] in 2007,
   - type: considering
     date_effective: 2011-10-21
     message: considering the growing participation of Associate States of the CGPM
@@ -448,9 +448,9 @@ resolutions:
     message: decides that as long as an Associate State does not fulfil the above-mentioned
       criteria to be encouraged to become a State Party to the Metre Convention, it
       will continue to benefit from the advantages of the Associate Status, as provided
-      for in https://www.bipm.org/en/CGPM/db/21/3/[Resolution 3 adopted by the CGPM
-      at its 21st meeting (1999)], and from the BIPM services that the CIPM made available
-      to them, and its subscription will continue to be determined as during the initial
+      for in cgpm-resolution:en/21/3[Resolution 3 adopted by the CGPM at its 21st
+      meeting (1999)], and from the BIPM services that the CIPM made available to
+      them, and its subscription will continue to be determined as during the initial
       5-year period,
   - type: invites / further invites
     date_effective: 2011-10-21
@@ -472,8 +472,8 @@ resolutions:
   - type: considering
     date_effective: 2011-10-21
     message: |-
-      *considering* https://www.bipm.org/en/CGPM/db/21/3/[Resolution 3] adopted by the CGPM at its 21st meeting (1999), creating the status of Associate of the CGPM open to "_States and Economies_" as a means of promoting their participation in the world's measurement system,
-        https://www.bipm.org/en/CGPM/db/23/6/[Resolution 6] adopted by the CGPM at its 23rd meeting (2007), which considered the desirability of setting criteria against which applications from Economies be assessed,
+      *considering* cgpm-resolution:en/21/3[Resolution 3] adopted by the CGPM at its 21st meeting (1999), creating the status of Associate of the CGPM open to "_States and Economies_" as a means of promoting their participation in the world's measurement system,
+        cgpm-resolution:en/23/6[Resolution 6] adopted by the CGPM at its 23rd meeting (2007), which considered the desirability of setting criteria against which applications from Economies be assessed,
   actions:
   - type: decides
     date_effective: 2011-10-21
@@ -510,7 +510,7 @@ resolutions:
       _7. Les avantages et prérogatives conférés par l'adhésion à la Convention du Mètre sont suspendus à l'égard des États déficitaires de trois années._ +
       _8. Après trois nouvelles années, l'État déficitaire est exclu de la Convention, et le calcul des contributions est rétabli conformément aux dispositions de l'article 20 du présent Règlement."_ <name><sup>(1)</sup>
       <li>
-      <a href="https://www.bipm.org/en/CGPM/db/23/8/" class="txt12pt">Resolution 8</a> adopted by the CGPM at its 23rd meeting (2007) defining the decision-making process and a procedure governing the recovery of arrears and exclusion,</li>
+      <a href="cgpm-resolution:en/23/8" class="txt12pt">Resolution 8</a> adopted by the CGPM at its 23rd meeting (2007) defining the decision-making process and a procedure governing the recovery of arrears and exclusion,</li>
       <li>the contributions of States Parties to the Metre Convention in arrears for more than 6 years and advances made by the other States Parties pursuant to Article 6 paragraph 6 of the Regulations annexed to the Metre Convention,</li></name>
   - type: reaffirming
     date_effective: 2011-10-21
@@ -553,7 +553,7 @@ resolutions:
       _7. Les avantages et prérogatives conférés par l'adhésion à la Convention du Mètre sont suspendus à l'égard des États déficitaires de trois années._ +
       _8. Après trois nouvelles années, l'État déficitaire est exclu de la Convention, et le calcul des contributions est rétabli conformément aux dispositions de l'article 20 du présent Règlement."_ <name><sup>1</sup>
       <li>
-      <a href="https://www.bipm.org/en/CGPM/db/23/8/" class="txt12pt">Resolution 8</a> adopted by the CGPM at its 23rd meeting (2007) which provides that when a State Party to the Metre Convention has not paid its contributions for six years, the International Committee for Weights and Measures (CIPM) may enter into a rescheduling agreement with the defaulting State for the payment of its arrears,</li></name>
+      <a href="cgpm-resolution:en/23/8" class="txt12pt">Resolution 8</a> adopted by the CGPM at its 23rd meeting (2007) which provides that when a State Party to the Metre Convention has not paid its contributions for six years, the International Committee for Weights and Measures (CIPM) may enter into a rescheduling agreement with the defaulting State for the payment of its arrears,</li></name>
   - type: considering
     date_effective: 2011-10-21
     message: |-
@@ -654,8 +654,7 @@ resolutions:
   - type: considering
     date_effective: 2011-10-21
     message: considering that the role and mission of the BIPM were reconfirmed in
-      https://www.bipm.org/en/CGPM/db/23/2/[Resolution 2 adopted by the CGPM at its
-      23rd meeting],
+      cgpm-resolution:en/23/2[Resolution 2 adopted by the CGPM at its 23rd meeting],
   - type: considering
     date_effective: 2011-10-21
     message: considering that the governance was last examined by an _ad hoc_ Working

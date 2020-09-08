@@ -20,10 +20,9 @@ resolutions:
     date_effective: 1967-10-16
     message: considérant que la définition de la seconde décidée par le Comité international
       des poids et mesures à sa session de 1956 (Résolution 1) et ratifiée par la
-      https://www.bipm.org/fr/CGPM/db/11/9/[Résolution 9] de la Onzième Conférence
-      générale (1960), puis maintenue par la https://www.bipm.org/fr/CGPM/db/12/5/[Résolution
-      5] de la Douzième Conférence générale (1964) ne suffit pas aux besoins actuels
-      de la métrologie,
+      cgpm-resolution:fr/11/9[Résolution 9] de la Onzième Conférence générale (1960),
+      puis maintenue par la cgpm-resolution:fr/12/5[Résolution 5] de la Douzième Conférence
+      générale (1964) ne suffit pas aux besoins actuels de la métrologie,
   - type: considering
     date_effective: 1967-10-16
     message: considérant qu'à sa session de 1964 le Comité international des poids
@@ -48,7 +47,7 @@ resolutions:
 
       . L'unité de temps du Système international d'unités est la seconde définie dans les termes suivants : +
       « La seconde est la durée de 9 192 631 770 périodes de la radiation correspondant à la transition entre les deux niveaux hyperfins de l'état fondamental de l'atome de césium 133 ».
-      . La https://www.bipm.org/fr/CIPM/db/1956/1/[Résolution 1] adoptée par le Comité international des poids et mesures à sa session de 1956 et la https://www.bipm.org/fr/CGPM/db/11/9/[Résolution 9] de la Onzième Conférence générale des poids et mesures sont abrogées.
+      . La https://www.bipm.org/fr/CIPM/db/1956/1/[Résolution 1] adoptée par le Comité international des poids et mesures à sa session de 1956 et la cgpm-resolution:fr/11/9[Résolution 9] de la Onzième Conférence générale des poids et mesures sont abrogées.
 - dates:
   - 1967-10-16
   title: Unité SI de temps (seconde)
@@ -84,8 +83,8 @@ resolutions:
   - type: considering
     date_effective: 1967-10-16
     message: considérant les noms « degré Kelvin » et « degré », les symboles « °K
-      » et « deg » et leurs règles d'emploi contenus dans la https://www.bipm.org/fr/CGPM/db/9/7/[Résolution
-      7] de la Neuvième Conférence générale (1948), dans la https://www.bipm.org/fr/CGPM/db/11/12/[Résolution
+      » et « deg » et leurs règles d'emploi contenus dans la cgpm-resolution:fr/9/7[Résolution
+      7] de la Neuvième Conférence générale (1948), dans la cgpm-resolution:fr/11/12[Résolution
       12] de la Onzième Conférence générale (1960) et la décision prise par le Comité
       international des poids et mesures en 1962 (PV, 30, 27),
   - type: considering
@@ -127,7 +126,7 @@ resolutions:
   - type: considering
     date_effective: 1967-10-16
     message: "*considérant* qu'il est utile de formuler dans une rédaction explicite
-      la définition de l'unité de température thermodynamique contenue dans la https://www.bipm.org/fr/CGPM/db/10/3/[Résolution
+      la définition de l'unité de température thermodynamique contenue dans la cgpm-resolution:fr/10/3[Résolution
       3] de la Dixième Conférence générale (1954,"
   actions:
   - type: decides
@@ -177,8 +176,8 @@ resolutions:
   - type: considering
     date_effective: 1967-10-16
     message: "*considérant* qu'il est utile de citer d'autres unités dérivées dans
-      la liste du paragraphe 4 de la https://www.bipm.org/fr/CGPM/db/11/12/#derived[Résolution
-      12] de la Onzième Conférence générale (1960),"
+      la liste du paragraphe 4 de la cgpm-resolution:fr/11/12#derived[Résolution 12]
+      de la Onzième Conférence générale (1960),"
   actions:
   - type: decides
     date_effective: 1967-10-16
@@ -210,8 +209,8 @@ resolutions:
     date_effective: 1967-10-16
     message: considérant que les décisions prises ultérieurement par la Conférence
       générale concernant le Système international d'unités contredisent quelques
-      parties de la https://www.bipm.org/fr/CGPM/db/9/7/[Résolution 7] de la Neuvième
-      Conférence générale (1948),
+      parties de la cgpm-resolution:fr/9/7[Résolution 7] de la Neuvième Conférence
+      générale (1948),
   actions:
   - type: decides
     date_effective: 1967-10-16
@@ -235,7 +234,7 @@ resolutions:
     date_effective: 1967-10-16
     message: considérant qu'il est urgent de réviser l'Échelle internationale pratique
       de température de 1948 comme l'a déjà constaté la Douzième Conférence générale
-      (1964) dans sa https://www.bipm.org/fr/CGPM/db/12/10/[Résolution 10],
+      (1964) dans sa cgpm-resolution:fr/12/10[Résolution 10],
   - type: considering
     date_effective: 1967-10-16
     message: considérant que les laboratoires compétents se sont maintenant mis d'accord
@@ -349,7 +348,7 @@ resolutions:
   - type: considering
     date_effective: 1967-10-16
     message: |-
-      considérant que les dotations minimales décidées par sa https://www.bipm.org/fr/CGPM/db/13/10/[Résolution 10], à savoir
+      considérant que les dotations minimales décidées par sa cgpm-resolution:fr/13/10[Résolution 10], à savoir
 
       [width=222]
       |===

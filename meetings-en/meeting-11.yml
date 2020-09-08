@@ -377,14 +377,14 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1960-10-20
-    message: "*considering*\n\n  https://www.bipm.org/en/CGPM/db/10/6/[Resolution
-      6] of the 10th CGPM, by which it adopted six base units on which to establish
-      a practical system of measurement for international use:\n\n[width=100%]\n|===\n.<|
-      length .<| metre .<| m\n\n.<| mass .<| kilogram .<| kg\n.<| time .<| second
-      .<| s\n.<| electric current .<| ampere .<| A\n.<| thermodynamic temperature
-      .<| degree Kelvin .<| °K\n.<| luminous intensity .<| candela .<| cd\n\n|===\n
-      Resolution 3 adopted by the Comité International des Poids et Mesures (CIPM)
-      in 1956, \n [[para3]]"
+    message: "*considering*\n\n  cgpm-resolution:en/10/6[Resolution 6] of the 10th
+      CGPM, by which it adopted six base units on which to establish a practical system
+      of measurement for international use:\n\n[width=100%]\n|===\n.<| length .<|
+      metre .<| m\n\n.<| mass .<| kilogram .<| kg\n.<| time .<| second .<| s\n.<|
+      electric current .<| ampere .<| A\n.<| thermodynamic temperature .<| degree
+      Kelvin .<| °K\n.<| luminous intensity .<| candela .<| cd\n\n|===\n Resolution
+      3 adopted by the Comité International des Poids et Mesures (CIPM) in 1956, \n
+      [[para3]]"
   actions:
   - type: decides
     date_effective: 1960-10-20

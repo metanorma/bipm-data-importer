@@ -19,7 +19,7 @@ resolutions:
   - type: having / having regard
     date_effective: 1954-10-14
     message: ayant pris connaissance de l'état d'avancement des travaux que la Neuvième
-      Conférence générale avait recommandés dans sa https://www.bipm.org/fr/CGPM/db/9/1/[Résolution
+      Conférence générale avait recommandés dans sa cgpm-resolution:fr/9/1[Résolution
       1] dans le but d'établir éventuellement une nouvelle définition du mètre fondée
       sur la longueur d'onde d'une radiation lumineuse,
   - type: recognizing
@@ -135,9 +135,9 @@ resolutions:
   - type: affirmative
     degree: unanimous
     message: "La Dixième Conférence générale des poids et mesures, en exécution du
-      v\x9Cu exprimé dans sa https://www.bipm.org/fr/CGPM/db/9/6/[Résolution 6] par
-      la Neuvième Conférence générale concernant l'établissement d'un système pratique
-      d'unités de mesure pour les relations internationales,"
+      v\x9Cu exprimé dans sa cgpm-resolution:fr/9/6[Résolution 6] par la Neuvième
+      Conférence générale concernant l'établissement d'un système pratique d'unités
+      de mesure pour les relations internationales,"
   considerations: []
   actions:
   - type: decides

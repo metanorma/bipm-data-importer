@@ -131,8 +131,19 @@ FileUtils.rm_rf "meetings-en"
     ps.css('a[href]').each do |a|
       href = a.attr('href')
 
-      href = URI(res.uri).merge(href).to_s # Relative -> absolute
-      
+      # Account for some mistakes from an upstream document
+      href = href.gsub(%r"\A/jen/", '/en/')
+      href = href.gsub(%r"\A/en/CGPM/jsp/", '/en/CGPM/db/')
+
+      href = case href
+      when %r'\A/(\w{2})/CGPM/db/(\d+)/(\d+)/(#.*)?\z',
+           %r'\A/jsp/(\w{2})/ViewCGPMResolution\.jsp\?CGPM=(\d+)&RES=(\d+)(#.*)?\z'
+        "cgpm-resolution:#{$1}/#{$2}/#{$3}#{$4}"
+      else
+        #p href
+        URI(res.uri).merge(href).to_s # Relative -> absolute
+      end
+
       a.set_attribute('href', href)
     end
 

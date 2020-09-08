@@ -384,7 +384,7 @@ resolutions:
     message: |-
       *considérant*
 
-       la https://www.bipm.org/fr/CGPM/db/10/6/[Résolution 6] de la Dixième Conférence générale des poids et mesures par laquelle elle a adopté les six unités devant servir de base à l'établissement d'un système pratique de mesure pour les relations internationales :
+       la cgpm-resolution:fr/10/6[Résolution 6] de la Dixième Conférence générale des poids et mesures par laquelle elle a adopté les six unités devant servir de base à l'établissement d'un système pratique de mesure pour les relations internationales :
 
       [width=100%]
       |===

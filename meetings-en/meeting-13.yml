@@ -19,8 +19,8 @@ resolutions:
   - type: considering
     date_effective: 1967-10-16
     message: considering that the definition of the second adopted by the Comité International
-      des Poids et Mesures (CIPM) in 1956 (Resolution 1) and ratified by https://www.bipm.org/jen/CGPM/db/11/9/[Resolution
-      9] of the 11th CGPM (1960), later upheld by https://www.bipm.org/en/CGPM/db/12/5/[Resolution
+      des Poids et Mesures (CIPM) in 1956 (Resolution 1) and ratified by cgpm-resolution:en/11/9[Resolution
+      9] of the 11th CGPM (1960), later upheld by cgpm-resolution:en/12/5[Resolution
       5] of the 12th CGPM (1964), is inadequate for the present needs of metrology,
   - type: considering
     date_effective: 1967-10-16
@@ -46,7 +46,7 @@ resolutions:
 
       . The SI unit of time is the second defined as follows: +
       "The second is the duration of 9 192 631 770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom";
-      . https://www.bipm.org/en/CIPM/db/1956/1/[Resolution 1] adopted by the CIPM at its meeting of 1956 and https://www.bipm.org/en/CGPM/db/11/9/[Resolution 9] of the 11th CGPM are now abrogated.
+      . https://www.bipm.org/en/CIPM/db/1956/1/[Resolution 1] adopted by the CIPM at its meeting of 1956 and cgpm-resolution:en/11/9[Resolution 9] of the 11th CGPM are now abrogated.
 - dates:
   - 1967-10-16
   title: Unité SI de temps (seconde)
@@ -82,10 +82,10 @@ resolutions:
   - type: considering
     date_effective: 1967-10-16
     message: considering the names "degree Kelvin" and "degree", the symbols "°K"
-      and "deg" and the rules for their use given in https://www.bipm.org/en/CGPM/db/9/7/[Resolution
-      7] of the 9th CGPM (1948), in https://www.bipm.org/en/CGPM/db/11/12/[Resolution
-      12] of the 11th CGPM (1960), and the decision taken by the Comité International
-      des Poids et Mesures in 1962 (PV, *30*, 27),
+      and "deg" and the rules for their use given in cgpm-resolution:en/9/7[Resolution
+      7] of the 9th CGPM (1948), in cgpm-resolution:en/11/12[Resolution 12] of the
+      11th CGPM (1960), and the decision taken by the Comité International des Poids
+      et Mesures in 1962 (PV, *30*, 27),
   - type: considering
     date_effective: 1967-10-16
     message: considering that the unit of thermodynamic temperature and the unit of
@@ -124,7 +124,7 @@ resolutions:
   - type: considering
     date_effective: 1967-10-16
     message: "*considering* that it is useful to formulate more explicitly the definition
-      of the unit of thermodynamic temperature contained in https://www.bipm.org/en/CGPM/jsp/10/3/[Resolution
+      of the unit of thermodynamic temperature contained in cgpm-resolution:en/10/3[Resolution
       3] of the 10th CGPM (1954),"
   actions:
   - type: decides
@@ -174,8 +174,8 @@ resolutions:
   - type: considering
     date_effective: 1967-10-16
     message: "*considering* that it is useful to add some derived units to the list
-      of paragraph 4 of https://www.bipm.org/en/CGPM/db/11/12/#derived[Resolution
-      12] of the 11th CGPM (1960),"
+      of paragraph 4 of cgpm-resolution:en/11/12#derived[Resolution 12] of the 11th
+      CGPM (1960),"
   actions:
   - type: decides
     date_effective: 1967-10-16
@@ -206,7 +206,7 @@ resolutions:
   - type: considering
     date_effective: 1967-10-16
     message: considering that subsequent decisions of the General Conference concerning
-      the Système International d'Unités are incompatible with parts of https://www.bipm.org/jsp/en/ViewCGPMResolution.jsp?CGPM=9&RES=7[Resolution
+      the Système International d'Unités are incompatible with parts of cgpm-resolution:en/9/7[Resolution
       7] of the 9th CGPM (1948),
   actions:
   - type: decides
@@ -231,7 +231,7 @@ resolutions:
     date_effective: 1967-10-16
     message: considérant qu'il est urgent de réviser l'Échelle internationale pratique
       de température de 1948 comme l'a déjà constaté la Douzième Conférence générale
-      (1964) dans sa https://www.bipm.org/fr/CGPM/db/12/10/[Résolution 10],
+      (1964) dans sa cgpm-resolution:fr/12/10[Résolution 10],
   - type: considering
     date_effective: 1967-10-16
     message: considérant que les laboratoires compétents se sont maintenant mis d'accord
@@ -345,7 +345,7 @@ resolutions:
   - type: considering
     date_effective: 1967-10-16
     message: |-
-      considérant que les dotations minimales décidées par sa https://www.bipm.org/fr/CGPM/db/13/10/[Résolution 10], à savoir
+      considérant que les dotations minimales décidées par sa cgpm-resolution:fr/13/10[Résolution 10], à savoir
 
       [width=222]
       |===

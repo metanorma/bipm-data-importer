@@ -203,8 +203,8 @@ resolutions:
   - type: recognizing
     date_effective: 1979-10-12
     message: reconnaissant les principes généraux adoptés pour l'écriture des symboles
-      des unités dans la https://www.bipm.org/fr/CGPM/db/9/7/[Résolution 7] de la
-      9^e^ Conférence générale des poids et mesures (1948),
+      des unités dans la cgpm-resolution:fr/9/7[Résolution 7] de la 9^e^ Conférence
+      générale des poids et mesures (1948),
   - type: considering
     date_effective: 1979-10-12
     message: considérant que le symbole l pour l'unité litre a été adopté par le Comité

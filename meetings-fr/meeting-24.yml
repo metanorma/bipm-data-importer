@@ -34,9 +34,9 @@ resolutions:
     date_effective: 2011-10-21
     message: considérant qu'un exemple marquant du succès de ces efforts est la définition
       actuelle de l'unité de longueur du SI, le mètre (17^e^ réunion de la CGPM, 1983,
-      https://www.bipm.org/fr/CGPM/db/17/1/[Résolution 1]), qui relie l'unité à une
-      valeur exacte de la vitesse de la lumière dans le vide stem:[c], à savoir 299
-      792 458 mètres par seconde,
+      cgpm-resolution:fr/17/1[Résolution 1]), qui relie l'unité à une valeur exacte
+      de la vitesse de la lumière dans le vide stem:[c], à savoir 299 792 458 mètres
+      par seconde,
   - type: considering
     date_effective: 2011-10-21
     message: considérant que parmi les sept unités de base du SI, seul le kilogramme
@@ -55,11 +55,10 @@ resolutions:
   - type: considering
     date_effective: 2011-10-21
     message: considérant que la CGPM, lors de sa 21^e^ réunion en 1999, a adopté la
-      https://www.bipm.org/fr/CGPM/db/21/7/[Résolution 7], laquelle recommande que
-      « les laboratoires nationaux poursuivent leurs efforts pour affiner les expériences
-      qui relient l'unité de masse à des constantes fondamentales ou atomiques et
-      qui pourraient, dans l'avenir, servir de base à une nouvelle définition du kilogramme
-      »,
+      cgpm-resolution:fr/21/7[Résolution 7], laquelle recommande que « les laboratoires
+      nationaux poursuivent leurs efforts pour affiner les expériences qui relient
+      l'unité de masse à des constantes fondamentales ou atomiques et qui pourraient,
+      dans l'avenir, servir de base à une nouvelle définition du kilogramme »,
   - type: considering
     date_effective: 2011-10-21
     message: considérant que de nombreux progrès ont été effectués ces dernières années
@@ -103,17 +102,17 @@ resolutions:
   - type: considering
     date_effective: 2011-10-21
     message: considérant que la CGPM, lors de sa 23^e^ réunion en 2007, a adopté la
-      https://www.bipm.org/fr/CGPM/db/23/12/[Résolution 12] qui expose le travail
-      à accomplir par les laboratoires nationaux de métrologie, le BIPM et le Comité
-      international des poids et mesures (CIPM), ainsi que ses Comités consultatifs,
-      afin que les nouvelles définitions du kilogramme, de l'ampère, du kelvin et
-      de la mole fondées sur des constantes fondamentales puissent être adoptées,
+      cgpm-resolution:fr/23/12[Résolution 12] qui expose le travail à accomplir par
+      les laboratoires nationaux de métrologie, le BIPM et le Comité international
+      des poids et mesures (CIPM), ainsi que ses Comités consultatifs, afin que les
+      nouvelles définitions du kilogramme, de l'ampère, du kelvin et de la mole fondées
+      sur des constantes fondamentales puissent être adoptées,
   - type: considering
     date_effective: 2011-10-21
     message: considérant que, bien que des progrès notables aient été réalisés, tous
-      les objectifs fixés par la https://www.bipm.org/fr/CGPM/db/23/12/[Résolution
-      12] adoptée par la CGPM à sa 23^e^ réunion n'ont pas été atteints, ce qui ne
-      permet pas au CIPM de soumettre une proposition finalisée,
+      les objectifs fixés par la cgpm-resolution:fr/23/12[Résolution 12] adoptée par
+      la CGPM à sa 23^e^ réunion n'ont pas été atteints, ce qui ne permet pas au CIPM
+      de soumettre une proposition finalisée,
   - type: considering
     date_effective: 2011-10-21
     message: considérant qu'il est néanmoins désormais possible de présenter une version
@@ -171,10 +170,10 @@ resolutions:
 
       ** la définition du kilogramme en vigueur depuis 1889, établie à partir de la masse du prototype international du kilogramme (1^re^ réunion de la CGPM, 1889 ; 3^e^ réunion de la CGPM, 1901), sera abrogée,
       ** la définition de l'ampère en vigueur depuis 1948 (9^e^ réunion de la CGPM, 1948), établie à partir de la définition proposée par le Comité international des poids et mesures (CIPM, 1946, https://www.bipm.org/fr/CIPM/db/1946/2/[Résolution 2]), sera abrogée,
-      ** les valeurs conventionnelles de la constante de Josephson stem:[K_(J-90)] et de la constante de von Klitzing stem:[R_(K-90)] adoptées par le Comité international des poids et mesures (CIPM, 1988, Recommandations 1 et 2) à la demande de la CGPM (18^e^ réunion de la CGPM, 1987, https://www.bipm.org/fr/CGPM/db/18/6/[Résolution 6]) pour l'établissement des représentations du volt et de l'ohm à l'aide des effets Josephson et Hall quantique, respectivement, seront abrogées,
-      ** la définition du kelvin en vigueur depuis 1967/68 (13^e^ réunion de la CGPM, 1967/68), établie à partir d'une définition antérieure moins explicite (10^e^ réunion de la CGPM, 1954, https://www.bipm.org/fr/CGPM/db/10/3/[Résolution 3]), sera abrogée,
-      ** la définition de la mole en vigueur depuis 1971 (14^e^ réunion de la CGPM, 1971, https://www.bipm.org/fr/CGPM/db/14/3/[Résolution 3]), selon laquelle la masse molaire du carbone 12 a la valeur exacte de 0,012 kg mol^-1^, sera abrogée,
-      ** les définitions existantes du mètre, de la seconde et de la candela, en vigueur depuis leur adoption par la CGPM lors de ses stem:[17^(e)] (1983, https://www.bipm.org/fr/CGPM/db/17/1/[Résolution 1]), stem:[13^(e)] (1967/68, https://www.bipm.org/fr/CGPM/db/13/1/[Résolution 1]) et stem:[16^(e)] (1979, https://www.bipm.org/fr/CGPM/db/16/3/[Résolution 3]) réunions respectivement, seront abrogées.
+      ** les valeurs conventionnelles de la constante de Josephson stem:[K_(J-90)] et de la constante de von Klitzing stem:[R_(K-90)] adoptées par le Comité international des poids et mesures (CIPM, 1988, Recommandations 1 et 2) à la demande de la CGPM (18^e^ réunion de la CGPM, 1987, cgpm-resolution:fr/18/6[Résolution 6]) pour l'établissement des représentations du volt et de l'ohm à l'aide des effets Josephson et Hall quantique, respectivement, seront abrogées,
+      ** la définition du kelvin en vigueur depuis 1967/68 (13^e^ réunion de la CGPM, 1967/68), établie à partir d'une définition antérieure moins explicite (10^e^ réunion de la CGPM, 1954, cgpm-resolution:fr/10/3[Résolution 3]), sera abrogée,
+      ** la définition de la mole en vigueur depuis 1971 (14^e^ réunion de la CGPM, 1971, cgpm-resolution:fr/14/3[Résolution 3]), selon laquelle la masse molaire du carbone 12 a la valeur exacte de 0,012 kg mol^-1^, sera abrogée,
+      ** les définitions existantes du mètre, de la seconde et de la candela, en vigueur depuis leur adoption par la CGPM lors de ses stem:[17^(e)] (1983, cgpm-resolution:fr/17/1[Résolution 1]), stem:[13^(e)] (1967/68, cgpm-resolution:fr/13/1[Résolution 1]) et stem:[16^(e)] (1979, cgpm-resolution:fr/16/3[Résolution 3]) réunions respectivement, seront abrogées.
        +
       La Conférence générale des poids et mesures,
   - type: taking into account
@@ -212,10 +211,9 @@ resolutions:
   - type: invites / further invites
     date_effective: 2011-10-21
     message: et invite le CIPM à lui proposer de réviser le SI dès que les recommandations
-      de la https://www.bipm.org/fr/CGPM/db/23/12/[Résolution 12] adoptée par la CGPM
-      à sa 23^e^ réunion seront satisfaites, en particulier la préparation des mises
-      en pratique des nouvelles définitions du kilogramme, de l'ampère, du kelvin
-      et de la mole,
+      de la cgpm-resolution:fr/23/12[Résolution 12] adoptée par la CGPM à sa 23^e^
+      réunion seront satisfaites, en particulier la préparation des mises en pratique
+      des nouvelles définitions du kilogramme, de l'ampère, du kelvin et de la mole,
   - type: invites / further invites
     date_effective: 2011-10-21
     message: et invite le CIPM à poursuivre son travail afin d'obtenir une meilleure
@@ -248,8 +246,8 @@ resolutions:
   - type: recalling / further recalling
     date_effective: 2011-10-21
     message: |-
-      *rappelant* la https://www.bipm.org/fr/CGPM/db/21/4/[Résolution 4] adoptée par la CGPM à sa 21^e^ réunion (1999) sur la nécessité d'utiliser les unités du SI dans les recherches sur les ressources terrestres, l'environnement, la sécurité humaine et les études connexes,
-       la https://www.bipm.org/fr/CGPM/db/23/11/[Résolution 11] adoptée par la CGPM à sa 23^e^ réunion (2007) sur l'importance des mesures traçables au SI pour l'observation du changement climatique,
+      *rappelant* la cgpm-resolution:fr/21/4[Résolution 4] adoptée par la CGPM à sa 21^e^ réunion (1999) sur la nécessité d'utiliser les unités du SI dans les recherches sur les ressources terrestres, l'environnement, la sécurité humaine et les études connexes,
+       la cgpm-resolution:fr/23/11[Résolution 11] adoptée par la CGPM à sa 23^e^ réunion (2007) sur l'importance des mesures traçables au SI pour l'observation du changement climatique,
   - type: considering
     date_effective: 2011-10-21
     message: "*considérant* l'augmentation du nombre d'initiatives nationales et internationales
@@ -391,12 +389,12 @@ resolutions:
   considerations:
   - type: recalling / further recalling
     date_effective: 2011-10-21
-    message: rappelant la https://www.bipm.org/fr/CGPM/db/21/3/[Résolution 3 adoptée
-      par la CGPM à sa 21^e^ réunion] en 1999,
+    message: rappelant la cgpm-resolution:fr/21/3[Résolution 3 adoptée par la CGPM
+      à sa 21^e^ réunion] en 1999,
   - type: recalling / further recalling
     date_effective: 2011-10-21
-    message: rappelant la https://www.bipm.org/fr/CGPM/db/23/5/[Resolution 5 adoptée
-      par la CGPM à sa 23^e^ réunion] en 2007,
+    message: rappelant la cgpm-resolution:fr/23/5[Resolution 5 adoptée par la CGPM
+      à sa 23^e^ réunion] en 2007,
   - type: considering
     date_effective: 2011-10-21
     message: considérant la participation croissante des États Associés à la CGPM
@@ -467,7 +465,7 @@ resolutions:
     date_effective: 2011-10-21
     message: décide que tant qu'un État Associé ne remplit pas les critères susmentionnés
       pour être encouragé à adhérer à la Convention du Mètre, il continuera à bénéficier
-      des avantages du statut d'Associé, tel que prévu par la https://www.bipm.org/fr/CGPM/db/21/3/[Résolution
+      des avantages du statut d'Associé, tel que prévu par la cgpm-resolution:fr/21/3[Résolution
       3] adoptée par la CGPM à sa 21^e^ réunion (1999), et des services du BIPM que
       le CIPM a mis à sa disposition, et sa souscription demeurera déterminée comme
       durant la période initiale de cinq ans,
@@ -491,8 +489,8 @@ resolutions:
   - type: considering
     date_effective: 2011-10-21
     message: |-
-      *considérant* la https://www.bipm.org/fr/CGPM/db/21/3/[Résolution 3] adoptée par la CGPM à sa 21^e^ réunion (1999), créant le statut d'Associé à la CGPM ouvert aux « États et entités économiques » afin de promouvoir leur participation au système de mesure mondial,
-       la https://www.bipm.org/fr/CGPM/db/23/6/[Résolution 6] adoptée par la CGPM à sa 23^e^ réunion (2007), considérant le souhait que soient établis des critères permettant l'examen des demandes d'entités économiques à devenir Associées,
+      *considérant* la cgpm-resolution:fr/21/3[Résolution 3] adoptée par la CGPM à sa 21^e^ réunion (1999), créant le statut d'Associé à la CGPM ouvert aux « États et entités économiques » afin de promouvoir leur participation au système de mesure mondial,
+       la cgpm-resolution:fr/23/6[Résolution 6] adoptée par la CGPM à sa 23^e^ réunion (2007), considérant le souhait que soient établis des critères permettant l'examen des demandes d'entités économiques à devenir Associées,
   actions:
   - type: decides
     date_effective: 2011-10-21
@@ -527,7 +525,7 @@ resolutions:
       *considérant* l'article 6, alinéas 6 à 8, du Règlement annexé à la Convention du Mètre selon lequel :
       _« 6. Si un État est demeuré trois années sans effectuer le versement de sa contribution, celle-ci est répartie entre les autres États, au prorata de leurs propres contributions. Les sommes supplémentaires, versées ainsi par les États pour parfaire le montant de la dotation du Bureau, sont considérées comme une avance faite à l'État retardataire, et leur sont remboursées si celui-ci vient à acquitter ses contributions arriérées._ +
       _7. Les avantages et prérogatives conférés par l'adhésion à la Convention du Mètre sont suspendus à l'égard des États déficitaires de trois années._ +
-      _8. Après trois nouvelles années, l'État déficitaire est exclu de la Convention, et le calcul des contributions est rétabli conformément aux dispositions de l'article 20 du présent Règlement. »_ la https://www.bipm.org/fr/CGPM/db/23/8/[Résolution 8] adoptée par la CGPM à sa 23^e^ réunion (2007) définissant le mécanisme d'adoption des décisions et une procédure régissant le recouvrement des contributions arriérées ainsi que l'exclusion,
+      _8. Après trois nouvelles années, l'État déficitaire est exclu de la Convention, et le calcul des contributions est rétabli conformément aux dispositions de l'article 20 du présent Règlement. »_ la cgpm-resolution:fr/23/8[Résolution 8] adoptée par la CGPM à sa 23^e^ réunion (2007) définissant le mécanisme d'adoption des décisions et une procédure régissant le recouvrement des contributions arriérées ainsi que l'exclusion,
        les contributions arriérées depuis plus de 6 ans des États Parties à la Convention du Mètre et les avances faites par les autres États Parties en application de l'article 6 alinéa 6 du Règlement annexé à la Convention du Mètre,
   actions:
   - type: affirms / reaffirming
@@ -561,7 +559,7 @@ resolutions:
       *rappelant* l'article 6, alinéas 6 à 8, du Règlement annexé à la Convention du Mètre, selon lequel :
       _« 6. Si un État est demeuré trois années sans effectuer le versement de sa contribution, celle-ci est répartie entre les autres États, au prorata de leurs propres contributions. Les sommes supplémentaires, versées ainsi par les États pour parfaire le montant de la dotation du Bureau, sont considérées comme une avance faite à l'État retardataire, et leur sont remboursées si celui-ci vient à acquitter ses contributions arriérées._ +
       _7. Les avantages et prérogatives conférés par l'adhésion à la Convention du Mètre sont suspendus à l'égard des États déficitaires de trois années._ +
-      _8. Après trois nouvelles années, l'État déficitaire est exclu de la Convention, et le calcul des contributions est rétabli conformément aux dispositions de l'article 20 du présent Règlement. »_ la https://www.bipm.org/fr/CGPM/db/23/8/[Résolution 8] adoptée par la CGPM à sa 23^e^ réunion (2007) qui prévoit que, lorsqu'un État Partie à la Convention du Mètre ne s'est pas acquitté de six années de contributions, le Comité international des poids et mesures (CIPM) peut conclure un accord de rééchelonnement avec l'État débiteur pour le paiement de ses contributions arriérées,
+      _8. Après trois nouvelles années, l'État déficitaire est exclu de la Convention, et le calcul des contributions est rétabli conformément aux dispositions de l'article 20 du présent Règlement. »_ la cgpm-resolution:fr/23/8[Résolution 8] adoptée par la CGPM à sa 23^e^ réunion (2007) qui prévoit que, lorsqu'un État Partie à la Convention du Mètre ne s'est pas acquitté de six années de contributions, le Comité international des poids et mesures (CIPM) peut conclure un accord de rééchelonnement avec l'État débiteur pour le paiement de ses contributions arriérées,
   - type: considering
     date_effective: 2011-10-21
     message: |-
@@ -658,8 +656,7 @@ resolutions:
   - type: considering
     date_effective: 2011-10-21
     message: considérant que le rôle et la mission du BIPM ont été reconfirmés dans
-      la https://www.bipm.org/fr/CGPM/db/23/2/[Résolution 2] adoptée par la CGPM à
-      sa 23^e^ réunion,
+      la cgpm-resolution:fr/23/2[Résolution 2] adoptée par la CGPM à sa 23^e^ réunion,
   - type: considering
     date_effective: 2011-10-21
     message: considérant que la gouvernance du BIPM a été examinée pour la dernière
