@@ -42,11 +42,13 @@ resolutions:
   - type: decides
     date_effective: 1967-10-16
     message: |-
-      *decides*
-
-      . The SI unit of time is the second defined as follows: +
+      decides The SI unit of time is the second defined as follows: +
       "The second is the duration of 9 192 631 770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom";
-      . https://www.bipm.org/en/CIPM/db/1956/1/[Resolution 1] adopted by the CIPM at its meeting of 1956 and cgpm-resolution:en/11/9[Resolution 9] of the 11th CGPM are now abrogated.
+  - type: decides
+    date_effective: 1967-10-16
+    message: decides https://www.bipm.org/en/CIPM/db/1956/1/[Resolution 1] adopted
+      by the CIPM at its meeting of 1956 and cgpm-resolution:en/11/9[Resolution 9]
+      of the 11th CGPM are now abrogated.
 - dates:
   - 1967-10-16
   title: Unité SI de temps (seconde)

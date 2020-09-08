@@ -43,11 +43,14 @@ resolutions:
   - type: decides
     date_effective: 1967-10-16
     message: |-
-      *décide*
-
-      . L'unité de temps du Système international d'unités est la seconde définie dans les termes suivants : +
+      décide L'unité de temps du Système international d'unités est la seconde définie dans les termes suivants : +
       « La seconde est la durée de 9 192 631 770 périodes de la radiation correspondant à la transition entre les deux niveaux hyperfins de l'état fondamental de l'atome de césium 133 ».
-      . La https://www.bipm.org/fr/CIPM/db/1956/1/[Résolution 1] adoptée par le Comité international des poids et mesures à sa session de 1956 et la cgpm-resolution:fr/11/9[Résolution 9] de la Onzième Conférence générale des poids et mesures sont abrogées.
+  - type: decides
+    date_effective: 1967-10-16
+    message: décide La https://www.bipm.org/fr/CIPM/db/1956/1/[Résolution 1] adoptée
+      par le Comité international des poids et mesures à sa session de 1956 et la
+      cgpm-resolution:fr/11/9[Résolution 9] de la Onzième Conférence générale des
+      poids et mesures sont abrogées.
 - dates:
   - 1967-10-16
   title: Unité SI de temps (seconde)

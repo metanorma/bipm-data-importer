@@ -260,13 +260,13 @@ FileUtils.rm_rf "meetings-en"
 
           listmarker = nil
           listitems = []
-          if (i["message"].split("\n").all? { |j|
+          if (i["message"].split(/(?<!\+)\n/).all? { |j|
             case j
             when /\A\s*\*?#{PREFIX}#{kk}/i
               true
             when /\A\s*\z/
               true
-            when /\A(\. |\* | )(\S.*?)\z/
+            when /\A(\. |\* | )(\S.*?)\z/m
               listitems << $2
               listmarker = $1 if !listmarker
               listmarker == $1
