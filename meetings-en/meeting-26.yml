@@ -181,11 +181,11 @@ resolutions:
   - type: noting
     date_effective: 2018-11-16
     message: 'noting that Resolution B1.9 (2000) of the IAU redefined stem:["TT"]
-      to be a time scale differing from TCG by a constant rate: stem:[d "TT"/d "TCG"
-      = 1 - L_(G)], where stem:[L_(G) = 6.969 290 134 * 10^(-10)] is a defining constant
-      (the numerical value of stem:[L_(G)] was chosen to conform to the value stem:[W_(0)
-      = 62 636 856.0 "m"^(2^(s)-2)] for the gravity potential on the geoid as recommended
-      by Special Commission 3 of the IAG in 1999), '
+      to be a time scale differing from TCG by a constant rate: stem:[(d "TT")/(d
+      "TCG") = 1 - L_(G)], where stem:[L_(G) = 6.969 290 134 * 10^(-10)] is a defining
+      constant (the numerical value of stem:[L_(G)] was chosen to conform to the value
+      stem:[W_(0) = 62 636 856.0 "m"^(2)"s"^(-2)] for the gravity potential on the
+      geoid as recommended by Special Commission 3 of the IAG in 1999), '
   - type: noting
     date_effective: 2018-11-16
     message: noting that the redefinition of stem:["TT"] in 2000 introduced an ambiguity
@@ -202,7 +202,7 @@ resolutions:
     date_effective: 2018-11-16
     message: states that in the transformation from the proper time of a clock to
       TAI, the relativistic rate shift is computed with respect to the conventionally
-      adopted equipotential stem:[W_(0) = 62 636 856.0 "m"^(2^(s)-2)] of the Earth's
+      adopted equipotential stem:[W_(0) = 62 636 856.0 "m"^(2)"s"^(-2)] of the Earth's
       gravity potential, which conforms to the constant stem:[L_(G)] defining the
       rate of stem:["TT"],
   - type: affirms / reaffirming

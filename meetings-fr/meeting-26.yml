@@ -178,8 +178,8 @@ resolutions:
   - type: noting
     date_effective: 2018-11-16
     message: 'notant que la Résolution B1.9 (2000) de l''UAI redéfinit stem:["TT"]
-      comme une échelle de temps qui diffère du TCG par une marche constante : stem:[d
-      "TT"/d "TCG" = 1 - L_(G)], où stem:[L_(G) = 6","969 290 134 * 10^(-10)] est
+      comme une échelle de temps qui diffère du TCG par une marche constante : stem:[(d
+      "TT")/(d "TCG") = 1 - L_(G)], où stem:[L_(G) = 6","969 290 134 * 10^(-10)] est
       une constante de définition (la valeur numérique de stem:[L_(G)] a été choisie
       pour se conformer à la valeur de stem:[W_(0) = 62 636 856","0 "m"^(2) * "s"^(-2)]
       pour le potentiel de pesanteur sur le géoïde tel que recommandé par la Commission
