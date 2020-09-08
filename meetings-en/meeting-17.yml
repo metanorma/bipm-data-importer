@@ -41,8 +41,8 @@ resolutions:
     date_effective: 1983-10-21
     message: considering that there is an advantage, notably for astronomy and geodesy,
       in maintaining unchanged the value of the speed of light recommended in 1975
-      by the link:/en/CGPM/db/15/2/[15th CGPM in its Resolution 2] (stem:[c = 299
-      792 458] m/s),
+      by the https://www.bipm.org/en/CGPM/db/15/2/[15th CGPM in its Resolution 2]
+      (stem:[c = 299 792 458] m/s),
   - type: considering
     date_effective: 1983-10-21
     message: considering that a new definition of the metre has been envisaged in
@@ -109,7 +109,7 @@ resolutions:
   - type: recalling / further recalling
     date_effective: 1983-10-21
     message: |-
-      recalling link:/en/CGPM/db/16/1/[Resolution 1 of the 16th General Conference on Weights and Measures (1979)] dealing with the measurement of mass
+      recalling https://www.bipm.org/en/CGPM/db/16/1/[Resolution 1 of the 16th General Conference on Weights and Measures (1979)] dealing with the measurement of mass
 
       and *considering*
 

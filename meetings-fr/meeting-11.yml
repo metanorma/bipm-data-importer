@@ -384,7 +384,7 @@ resolutions:
     message: |-
       *considérant*
 
-       la link:/fr/CGPM/db/10/6/[Résolution 6] de la Dixième Conférence générale des poids et mesures par laquelle elle a adopté les six unités devant servir de base à l'établissement d'un système pratique de mesure pour les relations internationales :
+       la https://www.bipm.org/fr/CGPM/db/10/6/[Résolution 6] de la Dixième Conférence générale des poids et mesures par laquelle elle a adopté les six unités devant servir de base à l'établissement d'un système pratique de mesure pour les relations internationales :
 
       [width=100%]
       |===
@@ -397,7 +397,7 @@ resolutions:
       .<| intensité lumineuse .<| candela .<| cd
 
       |===
-       la link:/fr/CIPM/db/1956/3/[Résolution 3] adoptée par le Comité international des poids et mesures en 1956,
+       la https://www.bipm.org/fr/CIPM/db/1956/3/[Résolution 3] adoptée par le Comité international des poids et mesures en 1956,
        [[para3]]
   actions:
   - type: decides

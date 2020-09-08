@@ -18,14 +18,14 @@ resolutions:
   considerations:
   - type: recalling / further recalling
     date_effective: 2014-11-20
-    message: recalling link:/en/CGPM/db/24/1/[Resolution 1] adopted by the CGPM at
-      its 24th meeting (2011), which takes note of the intention of the International
-      Committee for Weights and Measures (CIPM) to propose a revision of the SI that
-      links the definitions of the kilogram, ampere, kelvin, and mole to exact numerical
-      values of the Planck constant stem:[h], elementary charge stem:[e], Boltzmann
-      constant stem:[k], and Avogadro constant stem:[N_(A)], respectively, and which
-      revises the way the SI is defined including the wording of the definitions of
-      the SI units for time, length, mass, electric current, thermodynamic temperature,
+    message: recalling https://www.bipm.org/en/CGPM/db/24/1/[Resolution 1] adopted
+      by the CGPM at its 24th meeting (2011), which takes note of the intention of
+      the International Committee for Weights and Measures (CIPM) to propose a revision
+      of the SI that links the definitions of the kilogram, ampere, kelvin, and mole
+      to exact numerical values of the Planck constant stem:[h], elementary charge
+      stem:[e], Boltzmann constant stem:[k], and Avogadro constant stem:[N_(A)], respectively,
+      and which revises the way the SI is defined including the wording of the definitions
+      of the SI units for time, length, mass, electric current, thermodynamic temperature,
       amount of substance, and luminous intensity so that the reference constants
       on which the SI is based are clearly apparent,
   - type: recalling / further recalling
@@ -36,16 +36,16 @@ resolutions:
       of a material artefact, thereby ensuring its long-term stability,
   - type: recalling / further recalling
     date_effective: 2014-11-20
-    message: recalling link:/en/CGPM/db/21/7/[Resolution 7] adopted by the CGPM at
-      its 21st meeting (1999), which encourages work at the National Metrology Institutes
-      (NMIs) that can lead to such a redefinition of the kilogram,
+    message: recalling https://www.bipm.org/en/CGPM/db/21/7/[Resolution 7] adopted
+      by the CGPM at its 21st meeting (1999), which encourages work at the National
+      Metrology Institutes (NMIs) that can lead to such a redefinition of the kilogram,
   - type: recalling / further recalling
     date_effective: 2014-11-20
-    message: recalling link:/en/CGPM/db/23/12/[Resolution 12] adopted by the CGPM
-      at its 23rd meeting (2007), which outlines the work that should be carried out
-      by the NMIs, the International Bureau of Weights and Measures (BIPM), and the
-      CIPM together with its Consultative Committees (CCs) that could enable the planned
-      revision of the SI to be adopted by the CGPM,
+    message: recalling https://www.bipm.org/en/CGPM/db/23/12/[Resolution 12] adopted
+      by the CGPM at its 23rd meeting (2007), which outlines the work that should
+      be carried out by the NMIs, the International Bureau of Weights and Measures
+      (BIPM), and the CIPM together with its Consultative Committees (CCs) that could
+      enable the planned revision of the SI to be adopted by the CGPM,
   - type: considering
     date_effective: 2014-11-20
     message: |-
@@ -101,8 +101,9 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2014-11-20
-    message: considering the provisions of Articles link:/utils/common/documents/official/metre-convention.pdf#page=17[7],
-      link:/utils/common/documents/official/metre-convention.pdf#page=17[8] and link:/utils/common/documents/official/metre-convention.pdf#page=18[9]
+    message: considering the provisions of Articles https://www.bipm.org/utils/common/documents/official/metre-convention.pdf#page=17[7],
+      https://www.bipm.org/utils/common/documents/official/metre-convention.pdf#page=17[8]
+      and https://www.bipm.org/utils/common/documents/official/metre-convention.pdf#page=18[9]
       of the Regulations Annexed to the Metre Convention on the election and composition
       of the International Committee for Weights and Measures (CIPM),
   - type: considering
@@ -113,22 +114,22 @@ resolutions:
       is acceptable to his or her government at the time of provisional election,
   - type: considering
     date_effective: 2014-11-20
-    message: considering link:/en/CGPM/db/24/10/[Resolution 10] adopted by the CGPM
-      at its 24th meeting (2011) on the role, mission, objectives, long-term strategy
-      and governance of the International Bureau of Weights and Measures (BIPM), in
-      which the CGPM invited the CIPM to establish an _ad hoc_ Working Group charged
-      with conducting a Review of the role, mission, objectives, long-term financial
-      stability, strategic direction and governance of the BIPM, and to report to
-      the CGPM at its 25th meeting on recommendations from the Review of the _ad hoc_
-      Working Group, actions consequently taken by the CIPM and proposals for additional
-      actions that require the approval of the CGPM,
+    message: considering https://www.bipm.org/en/CGPM/db/24/10/[Resolution 10] adopted
+      by the CGPM at its 24th meeting (2011) on the role, mission, objectives, long-term
+      strategy and governance of the International Bureau of Weights and Measures
+      (BIPM), in which the CGPM invited the CIPM to establish an _ad hoc_ Working
+      Group charged with conducting a Review of the role, mission, objectives, long-term
+      financial stability, strategic direction and governance of the BIPM, and to
+      report to the CGPM at its 25th meeting on recommendations from the Review of
+      the _ad hoc_ Working Group, actions consequently taken by the CIPM and proposals
+      for additional actions that require the approval of the CGPM,
   - type: considering
     date_effective: 2014-11-20
     message: considering the findings and recommendations of the said _ad hoc_ Working
       Group relating in particular to the election and composition of the CIPM,
   - type: noting
     date_effective: 2014-11-20
-    message: noting link:/utils/en/pdf/CIPM/CIPM2014-I-Decisions-EN.pdf#page=2[Decision
+    message: noting https://www.bipm.org/utils/en/pdf/CIPM/CIPM2014-I-Decisions-EN.pdf#page=2[Decision
       103-08] of the CIPM, adopted by unanimity at Session I of its 103rd meeting
       (March 2014), on the resignation of all CIPM members to become effective from
       the start of Session I of the 104th meeting of the CIPM, scheduled for March
@@ -185,13 +186,13 @@ resolutions:
       for pensions for the benefit of BIPM staff members,
   - type: recalling / further recalling
     date_effective: 2014-11-20
-    message: recalling link:/utils/common/documents/official/metre-convention.pdf#page=18[article
+    message: recalling https://www.bipm.org/utils/common/documents/official/metre-convention.pdf#page=18[article
       15 paragraph 2 of the Regulations annexed to the Metre Convention], which states,
       inter alia, that "[a]n annual levy in favour of the Pension Fund may be made
       from the total fees received by the Bureau",
   - type: recalling / further recalling
     date_effective: 2014-11-20
-    message: recalling that the CGPM at its 24th meeting (2011) has adopted link:/en/CGPM/db/24/10/[Resolution
+    message: recalling that the CGPM at its 24th meeting (2011) has adopted https://www.bipm.org/en/CGPM/db/24/10/[Resolution
       10] on the role, mission, objectives, long-term strategy and governance of the
       BIPM which invited the CIPM to establish an _ad hoc_ Working Group to conduct
       a Review of inter alia the long-term financial stability of the BIPM,
@@ -271,15 +272,15 @@ resolutions:
       practice and improving the efficiency of its operation,
   - type: noting
     date_effective: 2014-11-20
-    message: noting that link:/en/CGPM/db/16/7/[Resolution 7 (1979)] adopted by the
-      CGPM at its 16th meeting established a principle for the determination of the
-      base dotation,
+    message: noting that https://www.bipm.org/en/CGPM/db/16/7/[Resolution 7 (1979)]
+      adopted by the CGPM at its 16th meeting established a principle for the determination
+      of the base dotation,
   - type: noting
     date_effective: 2014-11-20
-    message: noting link:/en/CGPM/db/24/10/[Resolution 10 (2011)] adopted by the CGPM
-      at its 24th meeting on the role, mission, objectives, long-term strategy and
-      governance of the BIPM, and the actions consequently taken and successfully
-      implemented by the BIPM,
+    message: noting https://www.bipm.org/en/CGPM/db/24/10/[Resolution 10 (2011)] adopted
+      by the CGPM at its 24th meeting on the role, mission, objectives, long-term
+      strategy and governance of the BIPM, and the actions consequently taken and
+      successfully implemented by the BIPM,
   - type: noting
     date_effective: 2014-11-20
     message: noting the current world financial situation and the financial constraints
@@ -298,7 +299,7 @@ resolutions:
   - type: decides
     date_effective: 2014-11-20
     message: |-
-      *decides that* the annual dotation of the BIPM, as defined in link:/utils/common/documents/official/metre-convention.pdf#page=16[Article 6, 1921, of the Regulations annexed to the Metre Convention], will be set in such a way that, for those States that are Parties to the Metre Convention at the time of the 25th meeting of the CGPM, it shall be:
+      *decides that* the annual dotation of the BIPM, as defined in https://www.bipm.org/utils/common/documents/official/metre-convention.pdf#page=16[Article 6, 1921, of the Regulations annexed to the Metre Convention], will be set in such a way that, for those States that are Parties to the Metre Convention at the time of the 25th meeting of the CGPM, it shall be:
 
       |===
       | 11 980 000 euros in 2016
@@ -329,9 +330,9 @@ resolutions:
   - type: considering
     date_effective: 2014-11-20
     message: considering the relevance and importance of the CIPM MRA as expressed
-      in particular by the CGPM in link:/en/CGPM/db/22/6/[Resolution 6 (2003)] adopted
-      at its 22nd meeting and in link:/en/CGPM/db/23/4/[Resolution 4 (2007)] adopted
-      at its 23rd meeting,
+      in particular by the CGPM in https://www.bipm.org/en/CGPM/db/22/6/[Resolution
+      6 (2003)] adopted at its 22nd meeting and in https://www.bipm.org/en/CGPM/db/23/4/[Resolution
+      4 (2007)] adopted at its 23rd meeting,
   - type: considering
     date_effective: 2014-11-20
     message: considering the appreciation and support expressed by all interested

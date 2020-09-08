@@ -19,10 +19,10 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1964-10-13
-    message: considérant la link:/fr/CGPM/db/11/1/[Résolution 1] de la Onzième Conférence
-      générale des poids et mesures invitant le Comité international des poids et
-      mesures à organiser au Bureau international des poids et mesures une section
-      des étalons de mesure des radiations ionisantes,
+    message: considérant la https://www.bipm.org/fr/CGPM/db/11/1/[Résolution 1] de
+      la Onzième Conférence générale des poids et mesures invitant le Comité international
+      des poids et mesures à organiser au Bureau international des poids et mesures
+      une section des étalons de mesure des radiations ionisantes,
   actions:
   - type: approves
     date_effective: 1964-10-13
@@ -161,7 +161,7 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1964-10-13
-    message: 'considering that the 11th CGPM noted in its link:/jsp/fr/ViewCGPMResolution.jsp?CGPM=11&RES=10[Resolution
+    message: 'considering that the 11th CGPM noted in its https://www.bipm.org/jsp/fr/ViewCGPMResolution.jsp?CGPM=11&RES=10[Resolution
       10] the urgency, in the interests of accurate metrology, of adopting an atomic
       or molecular standard of time interval, '
   - type: considering
@@ -197,7 +197,7 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1964-10-13
-    message: considering link:/jsp/en/ViewCGPMResolution.jsp?CGPM=11&RES=13[Resolution
+    message: considering https://www.bipm.org/jsp/en/ViewCGPMResolution.jsp?CGPM=11&RES=13[Resolution
       13] adopted by the 11th CGPM in 1960 and the Recommendation adopted by the Comité
       International des Poids et Mesures in 1961,
   actions:
@@ -253,7 +253,7 @@ resolutions:
   - type: decides
     date_effective: 1964-10-13
     message: |-
-      decides to add to the list of prefixes for the formation of names of multiples and submultiples of units, adopted by the 11th CGPM, link:/en/CGPM/db/11/12/#para3[Resolution 12], paragraph 3, the following two new prefixes:
+      decides to add to the list of prefixes for the formation of names of multiples and submultiples of units, adopted by the 11th CGPM, https://www.bipm.org/en/CGPM/db/11/12/#para3[Resolution 12], paragraph 3, the following two new prefixes:
 
       |===
       .| Multiplying factor .| Prefix .| Symbol

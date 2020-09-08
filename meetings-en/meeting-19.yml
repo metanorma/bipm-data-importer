@@ -73,9 +73,9 @@ resolutions:
       be in as close as possible agreement with the SI,
   - type: recalling / further recalling
     date_effective: 1991-10-03
-    message: recalling link:/en/CGPM/db/18/6/[Resolution 6 of the 18th Conférence
-      Générale] concerning adjustments then foreseen in representations of the volt
-      and the ohm,
+    message: recalling https://www.bipm.org/en/CGPM/db/18/6/[Resolution 6 of the 18th
+      Conférence Générale] concerning adjustments then foreseen in representations
+      of the volt and the ohm,
   - type: noting
     date_effective: 1991-10-03
     message: noting the decisions made by the Comité International des Poids et Mesures
@@ -118,7 +118,7 @@ resolutions:
     message: |-
       noting
 
-       that the link:/en/CGPM/db/18/7/[18th Conférence Générale in its Resolution 7] had invited the Comité International des Poids et Mesures and national laboratories to prepare and adopt a new international scale to replace the International Practical Temperature Scale of 1968, by then known to differ significantly from thermodynamic temperatures,
+       that the https://www.bipm.org/en/CGPM/db/18/7/[18th Conférence Générale in its Resolution 7] had invited the Comité International des Poids et Mesures and national laboratories to prepare and adopt a new international scale to replace the International Practical Temperature Scale of 1968, by then known to differ significantly from thermodynamic temperatures,
        that the International Temperature Scale of 1990 (ITS-90) adopted by the Comité International in 1989 at its 78th Meeting is generally more precise, more readily realized and more nearly in accord with thermodynamic temperatures, and that it fulfills the requirements demanded of it by Resolution 7 of the 18th Conférence Générale,
   actions:
   - type: recommends
@@ -142,7 +142,7 @@ resolutions:
   - type: decides
     date_effective: 1991-10-03
     message: |-
-      decides to add to the list of SI prefixes to be used for multiples and submultiples of units, adopted by the 11th CGPM, link:/en/CGPM/db/11/12/#para3[Resolution 12], paragraph 3, the 12th CGPM, link:/en/CGPM/db/12/8/[Resolution 8], and the 15th CGPM, link:/en/CGPM/db/15/10/[Resolution 10], the following prefixes:
+      decides to add to the list of SI prefixes to be used for multiples and submultiples of units, adopted by the 11th CGPM, https://www.bipm.org/en/CGPM/db/11/12/#para3[Resolution 12], paragraph 3, the 12th CGPM, https://www.bipm.org/en/CGPM/db/12/8/[Resolution 8], and the 15th CGPM, https://www.bipm.org/en/CGPM/db/15/10/[Resolution 10], the following prefixes:
 
       |===
       .<| Multiplying factor .<| Prefix .<| Symbol

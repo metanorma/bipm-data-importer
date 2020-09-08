@@ -272,8 +272,9 @@ resolutions:
       synchronization by laser techniques using non-geostationary satellites,
   - type: recalling / further recalling
     date_effective: 1995-10-13
-    message: "*recalling* link:/en/CGPM/db/18/4/[Resolution 4 of the 18th Conférence
-      Générale] in 1987, which also concerns clock comparison by satellite techniques,"
+    message: "*recalling* https://www.bipm.org/en/CGPM/db/18/4/[Resolution 4 of the
+      18th Conférence Générale] in 1987, which also concerns clock comparison by satellite
+      techniques,"
   actions:
   - type: recommends
     date_effective: 1995-10-13
@@ -336,7 +337,7 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1995-10-13
-    message: 'considering that the 11th Conférence Générale in 1960 in its link:/en/CGPM/db/11/12/[Resolution
+    message: 'considering that the 11th Conférence Générale in 1960 in its https://www.bipm.org/en/CGPM/db/11/12/[Resolution
       12], establishing the Système International d''Unités, SI, distinguished between
       three classes of SI units&nbsp;: the base units, the derived units, and the
       supplementary units, the last of these comprising the radian and the steradian,'
@@ -348,7 +349,7 @@ resolutions:
     date_effective: 1995-10-13
     message: considering that the Comité International des Poids et Mesures, in 1980,
       having observed that the ambiguous status of the supplementary units compromises
-      the internal coherence of the SI, has in its link:/en/CIPM/db/1980/1/[Recommendation
+      the internal coherence of the SI, has in its https://www.bipm.org/en/CIPM/db/1980/1/[Recommendation
       1 (CI-1980)] interpreted the supplementary units, in the SI, as dimensionless
       derived units,
   actions:
@@ -461,11 +462,11 @@ resolutions:
   considerations:
   - type: having / having regard
     date_effective: 1995-10-13
-    message: "*referring* to link:/en/CGPM/db/20/1/[Resolution 1]: The need to use
-      SI units in studies of Earth resources, the environment, human well-being and
-      related issues, link:/en/CGPM/db/20/2/[Resolution 2]: World-wide traceability
-      of measurement standards, and link:/en/CGPM/db/20/3/[Resolution 3]: The need
-      for long-term metrological research,"
+    message: "*referring* to https://www.bipm.org/en/CGPM/db/20/1/[Resolution 1]:
+      The need to use SI units in studies of Earth resources, the environment, human
+      well-being and related issues, https://www.bipm.org/en/CGPM/db/20/2/[Resolution
+      2]: World-wide traceability of measurement standards, and https://www.bipm.org/en/CGPM/db/20/3/[Resolution
+      3]: The need for long-term metrological research,"
   - type: considering
     date_effective: 1995-10-13
     message: considering the particular impact of metrology on the economic growth

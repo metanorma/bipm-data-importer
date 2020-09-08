@@ -127,10 +127,14 @@ FileUtils.rm_rf "meetings-en"
 
     #binding.pry if ps.count != 1
 
-    # Replace a table in a center with just a table
-    #ps.css('center>table').each do |i|
-    #  i.parent.replace i
-    #end
+    # Replace links
+    ps.css('a[href]').each do |a|
+      href = a.attr('href')
+
+      href = URI(res.uri).merge(href).to_s # Relative -> absolute
+      
+      a.set_attribute('href', href)
+    end
 
     # Replace a group of centers (> 1) with a table
     centers = ps.css('center').to_a

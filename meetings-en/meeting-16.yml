@@ -199,7 +199,7 @@ resolutions:
   - type: recognizing
     date_effective: 1979-10-12
     message: |-
-      recognizing the general principles adopted for writing the unit symbols in link:/jsp/en/ViewCGPMResolution.jsp?CGPM=9&RES=7[Resolution 7] of the 9th CGPM (1948),
+      recognizing the general principles adopted for writing the unit symbols in https://www.bipm.org/jsp/en/ViewCGPMResolution.jsp?CGPM=9&RES=7[Resolution 7] of the 9th CGPM (1948),
 
       considering that the symbol l for the unit litre was adopted by the Comité International des Poids et Mesures (CIPM) in 1879 and confirmed in the same Resolution of 1948,
   - type: considering

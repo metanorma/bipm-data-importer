@@ -207,14 +207,14 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2003-10-17
-    message: considérant la link:/fr/CGPM/db/20/11/[Résolution&nbsp;11] de la 20^e^&nbsp;Conférence
-      générale, qui recommandait au Comité international d'étudier les besoins à long
-      terme dans le domaine de la métrologie,
+    message: considérant la https://www.bipm.org/fr/CGPM/db/20/11/[Résolution&nbsp;11]
+      de la 20^e^&nbsp;Conférence générale, qui recommandait au Comité international
+      d'étudier les besoins à long terme dans le domaine de la métrologie,
   - type: considering
     date_effective: 2003-10-17
-    message: considérant la link:/fr/CGPM/db/21/1/[Résolution 1] de la 21^e^&nbsp;Conférence
-      générale, qui a pris acte du Rapport à la Conférence générale sur les besoins
-      à long terme dans le domaine de la métrologie,
+    message: considérant la https://www.bipm.org/fr/CGPM/db/21/1/[Résolution 1] de
+      la 21^e^&nbsp;Conférence générale, qui a pris acte du Rapport à la Conférence
+      générale sur les besoins à long terme dans le domaine de la métrologie,
   - type: considering
     date_effective: 2003-10-17
     message: considérant le nouveau Rapport approuvé par le Comité international en
@@ -495,7 +495,7 @@ resolutions:
       décimale,
   - type: considering
     date_effective: 2003-10-17
-    message: considérant que la 9^e^&nbsp;Conférence générale dans sa link:/fr/CGPM/db/9/7/[Résolution
+    message: considérant que la 9^e^&nbsp;Conférence générale dans sa https://www.bipm.org/fr/CGPM/db/9/7/[Résolution
       7] (1948) avait décidé que « Dans les nombres, la virgule (usage français) ou
       le point (usage britannique) sont utilisés seulement pour séparer la partie
       entière des nombres de leur partie décimale »,
@@ -533,7 +533,7 @@ resolutions:
     date_effective: 2003-10-17
     message: réaffirme que « Pour faciliter la lecture, les nombres peuvent être partagés
       en tranches de trois chiffres&nbsp;; ces tranches ne sont jamais séparées par
-      des points, ni par des virgules », comme le recommande la link:/fr/CGPM/db/9/7/[Résolution
+      des points, ni par des virgules », comme le recommande la https://www.bipm.org/fr/CGPM/db/9/7/[Résolution
       7] de la 9^e^ Conférence générale de 1948.
   actions:
   - type: decides
@@ -604,7 +604,7 @@ resolutions:
   actions:
   - type: welcomes
     date_effective: 2003-10-17
-    message: accueille favorablement le link:/fr/convention/mou/ilac.html[protocole
+    message: accueille favorablement le https://www.bipm.org/fr/convention/mou/ilac.html[protocole
       d'accord] entre le Comité international des poids et mesures (CIPM) et l'International
       Laboratory Accreditation Conference (ILAC) conclu récemment,
   - type: requests

@@ -77,9 +77,9 @@ resolutions:
       être en accord aussi étroit que possible avec les unités du SI,
   - type: recalling / further recalling
     date_effective: 1991-10-03
-    message: rappelant la link:/fr/CGPM/db/18/6/[Résolution 6 de la 18^e^ Conférence
-      générale] concernant les ajustements envisagés à l'époque pour les représentations
-      du volt et de l'ohm,
+    message: rappelant la https://www.bipm.org/fr/CGPM/db/18/6/[Résolution 6 de la
+      18^e^ Conférence générale] concernant les ajustements envisagés à l'époque pour
+      les représentations du volt et de l'ohm,
   - type: taking into account
     date_effective: 1991-10-03
     message: tenant compte des décisions prises par le Comité international des poids
@@ -122,12 +122,12 @@ resolutions:
       proche que possible de la température thermodynamique,
   - type: recalling / further recalling
     date_effective: 1991-10-03
-    message: rappelant que, dans sa link:/fr/CGPM/db/18/7/[Résolution 7], la 18^e^
-      Conférence générale avait invité le Comité international des poids et mesures
-      et les laboratoires nationaux à préparer et adopter une nouvelle échelle internationale
-      pour remplacer l'Échelle internationale pratique de température de 1968, dont
-      on savait alors qu'elle s'écartait de façon significative de la température
-      thermodynamique,
+    message: rappelant que, dans sa https://www.bipm.org/fr/CGPM/db/18/7/[Résolution
+      7], la 18^e^ Conférence générale avait invité le Comité international des poids
+      et mesures et les laboratoires nationaux à préparer et adopter une nouvelle
+      échelle internationale pour remplacer l'Échelle internationale pratique de température
+      de 1968, dont on savait alors qu'elle s'écartait de façon significative de la
+      température thermodynamique,
   - type: recalling / further recalling
     date_effective: 1991-10-03
     message: rappelant que l'Échelle internationale de température de 1990 (EIT-90)
@@ -157,7 +157,7 @@ resolutions:
   - type: decides
     date_effective: 1991-10-03
     message: |-
-      décide d'ajouter à la liste des préfixes SI pour la formation des noms des multiples et sous-multiples des unités, adoptée par la 11^e^ CGPM, link:/fr/CGPM/db/11/12/#para3[Résolution 12], paragraphe 3, la 12^e^ CGPM, link:/fr/CGPM/db/12/8/[Résolution 8] et la 15^e^ CGPM, link:/fr/CGPM/db/15/10/[Résolution 10], les préfixes suivants :
+      décide d'ajouter à la liste des préfixes SI pour la formation des noms des multiples et sous-multiples des unités, adoptée par la 11^e^ CGPM, https://www.bipm.org/fr/CGPM/db/11/12/#para3[Résolution 12], paragraphe 3, la 12^e^ CGPM, https://www.bipm.org/fr/CGPM/db/12/8/[Résolution 8] et la 15^e^ CGPM, https://www.bipm.org/fr/CGPM/db/15/10/[Résolution 10], les préfixes suivants :
 
       |===
       .>a| Facteur par lequel +

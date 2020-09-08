@@ -269,7 +269,7 @@ resolutions:
   - type: decides
     date_effective: 1975-06-02
     message: |-
-      decides to add to the list of SI prefixes to be used for multiples,which was adopted by the 11th CGPM, link:/en/CGPM/db/11/12/#para3[Resolution 12], paragraph 3, the two following prefixes:
+      decides to add to the list of SI prefixes to be used for multiples,which was adopted by the 11th CGPM, https://www.bipm.org/en/CGPM/db/11/12/#para3[Resolution 12], paragraph 3, the two following prefixes:
 
       |===
       .<| Multiplying factor .<| Prefix .<| Symbol

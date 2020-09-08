@@ -18,8 +18,8 @@ resolutions:
   considerations:
   - type: recalling / further recalling
     date_effective: 1987-10-15
-    message: recalling and confirming link:/en/CGPM/db/15/3/[Resolution 3 of the 15th
-      Conférence Générale des Poids et Mesures],
+    message: recalling and confirming https://www.bipm.org/en/CGPM/db/15/3/[Resolution
+      3 of the 15th Conférence Générale des Poids et Mesures],
   - type: having / having regard
     date_effective: 1987-10-15
     message: having asked the advice of the Comité International des Poids et Mesures
@@ -93,10 +93,10 @@ resolutions:
     date_effective: 1987-10-15
     message: considering the importance of measurements of time and in particular
       of the International Atomic Time scale, which has already been the subject of
-      link:/jsp/en/ViewCGPMResolution.jsp?CGPM=14&RES=2[Resolution 2] of the 14th
-      Conférence Générale des Poids et Mesures and of link:/jsp/en/ViewCGPMResolution.jsp?CGPM=15&RES=4[Resolutions
-      4] link:/jsp/en/ViewCGPMResolution.jsp?CGPM=15&RES=5[and 5] of the 15th Conférence
-      Générale,
+      https://www.bipm.org/jsp/en/ViewCGPMResolution.jsp?CGPM=14&RES=2[Resolution
+      2] of the 14th Conférence Générale des Poids et Mesures and of https://www.bipm.org/jsp/en/ViewCGPMResolution.jsp?CGPM=15&RES=4[Resolutions
+      4] https://www.bipm.org/jsp/en/ViewCGPMResolution.jsp?CGPM=15&RES=5[and 5] of
+      the 15th Conférence Générale,
   - type: having / having regard
     date_effective: 1987-10-15
     message: having taken note of the resolutions adopted by the international Unions

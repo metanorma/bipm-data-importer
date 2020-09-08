@@ -21,7 +21,7 @@ resolutions:
     message: |-
       *considering*
 
-        link:/jsp/en/ViewCGPMResolution.jsp?CGPM=20&RES=11[Resolution 11] of the 20th General Conference, which requested the International Committee to study and report on the long-term needs relating to metrology,
+        https://www.bipm.org/jsp/en/ViewCGPMResolution.jsp?CGPM=20&RES=11[Resolution 11] of the 20th General Conference, which requested the International Committee to study and report on the long-term needs relating to metrology,
        the study which was completed in 1997 after extensive international consultations,
        the resultant report, entitled _National and international needs relating to metrology: International collaborations and the role of the BIPM_, which was sent by the International Committee in 1998 to the governments of the Member States,
   - type: noting
@@ -62,7 +62,7 @@ resolutions:
     message: |-
       *considering*
 
-        link:/jsp/en/ViewCGPMResolution.jsp?CGPM=20&RES=2[Resolution 2] of the 20th General Conference concerning worldwide traceability of measurements,
+        https://www.bipm.org/jsp/en/ViewCGPMResolution.jsp?CGPM=20&RES=2[Resolution 2] of the 20th General Conference concerning worldwide traceability of measurements,
        the rapidly increasing emphasis on the need to demonstrate international equivalence of measurements and test results related to trade,
        the increasing number of mutual recognition arrangements and agreements being negotiated internationally concerning calibration and testing services,
        that the calibration and testing services in each nation depend on a national metrology institute both for their measurement standards and for traceability to the SI,
@@ -447,7 +447,7 @@ resolutions:
   considerations:
   - type: recalling / further recalling
     date_effective: 1999-10-15
-    message: "*recalling* link:/jsp/en/ViewCGPMResolution.jsp?CGPM=20&RES=7[Resolution
+    message: "*recalling* https://www.bipm.org/jsp/en/ViewCGPMResolution.jsp?CGPM=20&RES=7[Resolution
       7] of the 20th ConférenceGénérale des Poids et Mesures on metrology in chemistry,"
   - type: considering
     date_effective: 1999-10-15
@@ -543,9 +543,9 @@ resolutions:
     date_effective: 1999-10-15
     message: considering that while the proliferation of special names represents
       a danger for the SI, exceptions are made in matters related to human health
-      and safety (15th General Conference, 1975, link:/en/CGPM/db/15/8/[Resolutions
-      8] link:/en/CGPM/db/15/9/[and 9], 16th General Conference, 1979, link:/en/CGPM/db/16/5/[Resolution
-      5]),
+      and safety (15th General Conference, 1975, https://www.bipm.org/en/CGPM/db/15/8/[Resolutions
+      8] https://www.bipm.org/en/CGPM/db/15/9/[and 9], 16th General Conference, 1979,
+      https://www.bipm.org/en/CGPM/db/16/5/[Resolution 5]),
   - type: noting
     date_effective: 1999-10-15
     message: "*noting* that the name katal, symbol kat, has been used for the SI unit

@@ -18,9 +18,9 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1999-10-15
-    message: Considérant la link:/fr/CGPM/db/20/11/[Résolution 11] de la 20^e^ Conférence
-      générale, qui a demandé au Comité international d'étudier les besoins à long
-      terme relatifs à la métrologie et d'en rendre compte,
+    message: Considérant la https://www.bipm.org/fr/CGPM/db/20/11/[Résolution 11]
+      de la 20^e^ Conférence générale, qui a demandé au Comité international d'étudier
+      les besoins à long terme relatifs à la métrologie et d'en rendre compte,
   - type: considering
     date_effective: 1999-10-15
     message: Considérant l'étude qui a été achevée en 1997 à la suite de larges consultations
@@ -76,8 +76,9 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1999-10-15
-    message: considérant la link:/fr/CGPM/db/20/2/[Résolution 2] de la 20^e^ Conférence
-      générale concernant la traçabilité des mesures au niveau mondial,
+    message: considérant la https://www.bipm.org/fr/CGPM/db/20/2/[Résolution 2] de
+      la 20^e^ Conférence générale concernant la traçabilité des mesures au niveau
+      mondial,
   - type: considering
     date_effective: 1999-10-15
     message: considérant le besoin rapidement croissant de démontrer l'équivalence
@@ -474,8 +475,8 @@ resolutions:
   considerations:
   - type: recalling / further recalling
     date_effective: 1999-10-15
-    message: "*rappelant* la link:/fr/CGPM/db/20/7/[Résolution 7] de la 20^e^ Conférence
-      générale des poids et mesures sur la métrologie en chimie,"
+    message: "*rappelant* la https://www.bipm.org/fr/CGPM/db/20/7/[Résolution 7] de
+      la 20^e^ Conférence générale des poids et mesures sur la métrologie en chimie,"
   - type: considering
     date_effective: 1999-10-15
     message: considérant le développement mondial des accords commerciaux dans le
@@ -573,9 +574,9 @@ resolutions:
     date_effective: 1999-10-15
     message: considérant que tandis que la prolifération de noms spéciaux représente
       un danger pour le SI, il existe des exceptions pour certains sujets liés à la
-      santé humaine et à la sécurité (15^e^ Conférence générale, 1975, link:/fr/CGPM/db/15/8/[Résolutions
-      8] link:/fr/CGPM/db/15/9/[et 9], 16^e^ Conférence générale, 1979, link:/fr/CGPM/db/16/5/[Résolution
-      5]),
+      santé humaine et à la sécurité (15^e^ Conférence générale, 1975, https://www.bipm.org/fr/CGPM/db/15/8/[Résolutions
+      8] https://www.bipm.org/fr/CGPM/db/15/9/[et 9], 16^e^ Conférence générale, 1979,
+      https://www.bipm.org/fr/CGPM/db/16/5/[Résolution 5]),
   - type: noting
     date_effective: 1999-10-15
     message: "*notant* que le nom katal, symbole kat, est utilisé pour l'unité SI

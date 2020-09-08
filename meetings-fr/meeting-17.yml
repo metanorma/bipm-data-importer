@@ -41,8 +41,8 @@ resolutions:
     date_effective: 1983-10-21
     message: considérant qu'il y a avantage, notamment pour l'astronomie et la géodésie,
       à maintenir inchangée la valeur de la vitesse de la lumière recommandée en 1975
-      par la link:/fr/CGPM/db/15/2/[15^e^ Conférence générale des poids et mesures,
-      dans sa Résolution 2] (stem:[c = 299 792 458] m/s),
+      par la https://www.bipm.org/fr/CGPM/db/15/2/[15^e^ Conférence générale des poids
+      et mesures, dans sa Résolution 2] (stem:[c = 299 792 458] m/s),
   - type: considering
     date_effective: 1983-10-21
     message: considérant qu'une nouvelle définition du mètre a été envisagée sous
@@ -108,7 +108,7 @@ resolutions:
   - type: recalling / further recalling
     date_effective: 1983-10-21
     message: |-
-      rappelant la link:/fr/CGPM/db/16/1/[Résolution 1] de la Seizième Conférence générale des poids et mesures (1979) relative aux mesures de masse
+      rappelant la https://www.bipm.org/fr/CGPM/db/16/1/[Résolution 1] de la Seizième Conférence générale des poids et mesures (1979) relative aux mesures de masse
 
       et *considérant*
 

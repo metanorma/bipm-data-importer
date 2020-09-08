@@ -124,9 +124,9 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 2018-11-16
-    message: 'considering that link:/en/CGPM/db/14/1/[Resolution 1 adopted by the
-      CGPM at its 14th meeting (1971)] requested the CIPM to define International
-      Atomic Time (TAI), '
+    message: 'considering that https://www.bipm.org/en/CGPM/db/14/1/[Resolution 1
+      adopted by the CGPM at its 14th meeting (1971)] requested the CIPM to define
+      International Atomic Time (TAI), '
   - type: considering
     date_effective: 2018-11-16
     message: 'considering that no complete self-contained definition of TAI has been
@@ -263,21 +263,21 @@ resolutions:
       System of Units (SI), '
   - type: considering
     date_effective: 2018-11-16
-    message: considering link:/en/CGPM/db/21/3/[Resolution 3 adopted by the CGPM at
-      its 21st meeting (1999)], which
+    message: considering https://www.bipm.org/en/CGPM/db/21/3/[Resolution 3 adopted
+      by the CGPM at its 21st meeting (1999)], which
   - type: considering
     date_effective: 2018-11-16
     message: "considers that all States, not only those that are Parties to the Metre
       Convention, engage in measurements which are related to trade and need to be
-      traceable to the SI,\n\n  link:/en/CGPM/db/22/4/[Resolution 4 adopted by the
-      CGPM at its 22nd meeting (2003)], which considers the desirability of extending
-      the number of Member States or Associates so as to increase the impact and benefit
-      of participation in the Mutual Recognition Arrangement (CIPM MRA) drawn up by
-      the International Committee for Weights and Measures (CIPM), \n that best practice
-      in communication, transparency and governance has been implemented following
-      adoption of Resolution 10 by the CGPM at its 24th meeting (2011), on the role,
-      mission, objectives, long-term strategy and governance of the International
-      Bureau of Weights and Measures (BIPM), \n  link:/en/CGPM/db/25/4/[Resolution
+      traceable to the SI,\n\n  https://www.bipm.org/en/CGPM/db/22/4/[Resolution 4
+      adopted by the CGPM at its 22nd meeting (2003)], which considers the desirability
+      of extending the number of Member States or Associates so as to increase the
+      impact and benefit of participation in the Mutual Recognition Arrangement (CIPM
+      MRA) drawn up by the International Committee for Weights and Measures (CIPM),
+      \n that best practice in communication, transparency and governance has been
+      implemented following adoption of Resolution 10 by the CGPM at its 24th meeting
+      (2011), on the role, mission, objectives, long-term strategy and governance
+      of the International Bureau of Weights and Measures (BIPM), \n  https://www.bipm.org/en/CGPM/db/25/4/[Resolution
       4 adopted by the CGPM at its 25th meeting (2014)] on the Dotation of the BIPM
       for the years 2016 - 2019, which urges Member States, as well as international
       organizations, private organizations and foundations to maintain the provision
@@ -367,9 +367,9 @@ resolutions:
       practice and to improve the efficiency of its operation, '
   - type: considering
     date_effective: 2018-11-16
-    message: considering link:/en/CGPM/db/16/7/[Resolution 7 adopted by the CGPM at
-      its 16th meeting (1979)] establishing a principle for the determination of the
-      base dotation,
+    message: considering https://www.bipm.org/en/CGPM/db/16/7/[Resolution 7 adopted
+      by the CGPM at its 16th meeting (1979)] establishing a principle for the determination
+      of the base dotation,
   - type: noting
     date_effective: 2018-11-16
     message: noting the current world financial situation and the financial constraints
@@ -382,7 +382,7 @@ resolutions:
       for the BIPM Capacity Building and Knowledge Transfer programme,
   - type: decides
     date_effective: 2018-11-16
-    message: "*decides* that\n\nthe annual dotation of the BIPM, as defined in link:/utils/common/documents/official/metre-convention.pdf#page=16[Article
+    message: "*decides* that\n\nthe annual dotation of the BIPM, as defined in https://www.bipm.org/utils/common/documents/official/metre-convention.pdf#page=16[Article
       6 (1921) of the Regulations annexed to the Metre Convention], will be set in
       such a way that, for those States that are Parties to the Metre Convention at
       the time of the 26th meeting of the CGPM, it shall be: \n\n|===\n| 12 356 526
@@ -419,7 +419,7 @@ resolutions:
       du Mètre sont suspendus à l'égard des États déficitaires de trois années. +\n8.
       Après trois nouvelles années, l'État déficitaire est exclu de la Convention,
       et le calcul des contributions est rétabli conformément aux dispositions de
-      l?article 20 du présent Règlement._\"<name><sup>(1)</sup></name> +\n* link:/en/CGPM/db/23/8/[Resolution
+      l?article 20 du présent Règlement._\"<name><sup>(1)</sup></name> +\n* https://www.bipm.org/en/CGPM/db/23/8/[Resolution
       8 adopted by the CGPM at its 23rd meeting (2007)] on financial arrears of Member
       States sets a procedure concerning States who fail to fulfil their financial
       obligations,"
@@ -447,15 +447,15 @@ resolutions:
       other Member States, '
   - type: noting
     date_effective: 2018-11-16
-    message: 'noting that link:/en/CGPM/db/23/8/[Resolution 8 adopted by the CGPM
-      at its 23rd meeting (2007)] introduced a procedure for the exclusion of a defaulting
-      Member State that requires a decision of the CGPM, and consequently, the period
-      of suspension prior to exclusion depends on the scheduling of CGPM meetings
-      and thus defaulting Member States may not be treated equally, '
+    message: 'noting that https://www.bipm.org/en/CGPM/db/23/8/[Resolution 8 adopted
+      by the CGPM at its 23rd meeting (2007)] introduced a procedure for the exclusion
+      of a defaulting Member State that requires a decision of the CGPM, and consequently,
+      the period of suspension prior to exclusion depends on the scheduling of CGPM
+      meetings and thus defaulting Member States may not be treated equally, '
   - type: noting
     date_effective: 2018-11-16
-    message: noting that link:/en/CGPM/db/23/8/[Resolution 8 (2007)] partly addressed
-      the issues raised by historical practice,
+    message: noting that https://www.bipm.org/en/CGPM/db/23/8/[Resolution 8 (2007)]
+      partly addressed the issues raised by historical practice,
   - type: recalling / further recalling
     date_effective: 2018-11-16
     message: 'further recalling that procedural clarity and fair treatment of Member
