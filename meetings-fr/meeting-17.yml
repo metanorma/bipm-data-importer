@@ -42,7 +42,7 @@ resolutions:
     message: considérant qu'il y a avantage, notamment pour l'astronomie et la géodésie,
       à maintenir inchangée la valeur de la vitesse de la lumière recommandée en 1975
       par la cgpm-resolution:fr/15/2[15^e^ Conférence générale des poids et mesures,
-      dans sa Résolution 2] (stem:[c = 299 792 458] m/s),
+      dans sa Résolution 2] (stem:[c = 299 792 458 "m"/"s"]),
   - type: considering
     date_effective: 1983-10-21
     message: considérant qu'une nouvelle définition du mètre a été envisagée sous

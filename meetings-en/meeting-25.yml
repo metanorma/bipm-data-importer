@@ -23,7 +23,7 @@ resolutions:
       Committee for Weights and Measures (CIPM) to propose a revision of the SI that
       links the definitions of the kilogram, ampere, kelvin, and mole to exact numerical
       values of the Planck constant stem:[h], elementary charge stem:[e], Boltzmann
-      constant stem:[k], and Avogadro constant stem:[N_(A)], respectively, and which
+      constant stem:[k], and Avogadro constant stem:[N_("A")], respectively, and which
       revises the way the SI is defined including the wording of the definitions of
       the SI units for time, length, mass, electric current, thermodynamic temperature,
       amount of substance, and luminous intensity so that the reference constants
@@ -51,7 +51,7 @@ resolutions:
     message: |-
       *considering that* there has been significant progress in completing the necessary work, including
 
-      * the acquisition of relevant data and their analysis by the Committee on Data for Science and Technology (CODATA) to obtain the required values of stem:[h], stem:[e], stem:[k], and stem:[N_(A)],
+      * the acquisition of relevant data and their analysis by the Committee on Data for Science and Technology (CODATA) to obtain the required values of stem:[h], stem:[e], stem:[k], and stem:[N_("A")],
       * establishment by the BIPM of an ensemble of reference standards of mass to facilitate the dissemination of the unit of mass in the revised SI,
       * the preparation of _mises-en-pratique_ for the new definitions of the kilogram, ampere, kelvin, and mole,
   - type: noting
@@ -70,7 +70,7 @@ resolutions:
     date_effective: 2014-11-20
     message: encourages continued effort in the NMIs, the BIPM, and academic institutions
       to obtain data relevant to the determination of stem:[h], stem:[e], stem:[k],
-      and stem:[N_(A)] with the requisite uncertainties,
+      and stem:[N_("A")] with the requisite uncertainties,
   - type: encourages
     date_effective: 2014-11-20
     message: encourages the NMIs to continue acting through the CCs to discuss and

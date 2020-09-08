@@ -230,15 +230,18 @@ resolutions:
       the integral part of numbers from the decimal part. Numbers may be divided in
       groups of three in order to facilitate reading; neither dots nor commas are
       ever inserted in the spaces between groups.\n\n[width=80%]\n|===\n.<| Unit .<|
-      Symbol .18+| .<| Unit .<| Symbol\n\n2+| 2+|\n.<| ·metre .<| m .<| ampere .<|
-      A\n.<| ·square metre .<| m^2^ .<| volt .<| V\n.<| ·cubic metre .<| m^3^ .<|
-      watt .<| W\n.<| ·micron .<| µ .<| ohm .<| stem:[ sf Omega ]\n.<| ·litre .<|
-      l .<| coulomb .<| C\n.<| ·gram .<| g .<| farad .<| F\n.<| ·tonne .<| t .<| henry
-      .<| H\n.<| second .<| s .<| hertz .<| Hz\n.<| erg .<| erg .<| poise .<| P\n.<|
-      dyne .<| dyn .<| newton .<| N\n.<| degree Celsius .<| °C .<| ·candela .<|  \n.<|
-      \  .<|   .<| (new candela) .<| cd\n.<| ·degree absolute .<| °K .<| lux .<| lx\n.<|
-      calorie .<| cal .<| lumen .<| lm\n.<| bar .<| bar .<| stilb .<| sb\n.<| hour
-      .<| h .<|   .<|  \n\n|==="
+      Symbol .18+| .<| Unit .<| Symbol\n\n2+| 2+|\n.<| ·metre .<| stem:[\"m\"] .<|
+      ampere .<| stem:[\"A\"]\n.<| ·square metre .<| stem:[\"m\"^(2)] .<| volt .<|
+      stem:[\"V\"]\n.<| ·cubic metre .<| stem:[\"m\"^(3)] .<| watt .<| stem:[\"W\"]\n.<|
+      ·micron .<| stem:[\"µ\"] .<| ohm .<| stem:[ sf Omega ]\n.<| ·litre .<| l .<|
+      coulomb .<| stem:[\"C\"]\n.<| ·gram .<| stem:[\"g\"] .<| farad .<| stem:[\"F\"]\n.<|
+      ·tonne .<| stem:[\"t\"] .<| henry .<| stem:[\"H\"]\n.<| second .<| stem:[\"s\"]
+      .<| hertz .<| stem:[\"Hz\"]\n.<| erg .<| erg .<| poise .<| P\n.<| dyne .<| dyn
+      .<| newton .<| stem:[\"N\"]\n.<| degree Celsius .<| stem:[\"°C\"] .<| ·candela
+      .<|  \n.<|   .<|   .<| (new candela) .<| stem:[\"cd\"]\n.<| ·degree absolute
+      .<| stem:[\"°K\"] .<| lux .<| stem:[\"lx\"]\n.<| calorie .<| stem:[\"cal\"]
+      .<| lumen .<| stem:[\"lm\"]\n.<| stem:[\"bar\"] .<| stem:[\"bar\"] .<| stilb
+      .<| stem:[\"sb\"]\n.<| hour .<| stem:[\"h\"] .<|   .<|  \n\n|==="
 - dates:
   - 1948-10-21
   title: "(Concernant la dotation du BIPM)"

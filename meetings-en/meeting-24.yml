@@ -67,8 +67,8 @@ resolutions:
     date_effective: 2011-10-21
     message: considering that the uncertainties of all SI electrical units realized
       directly or indirectly by means of the Josephson and quantum Hall effects together
-      with the SI values of the Josephson and von Klitzing constants stem:[K_(J)]
-      and stem:[R_(K)] could be significantly reduced if the kilogram were redefined
+      with the SI values of the Josephson and von Klitzing constants stem:[K_("J")]
+      and stem:[R_("K")] could be significantly reduced if the kilogram were redefined
       so as to be linked to an exact numerical value of stem:[h], and if the ampere
       were to be redefined so as to be linked to an exact numerical value of the elementary
       charge stem:[e],
@@ -84,7 +84,7 @@ resolutions:
   - type: considering
     date_effective: 2011-10-21
     message: considering that it is also possible to redefine the mole so that it
-      is linked to an exact numerical value of the Avogadro constant stem:[N_(A)],
+      is linked to an exact numerical value of the Avogadro constant stem:[N_("A")],
       and is thus no longer dependent on the definition of the kilogram even when
       the kilogram is defined so that it is linked to an exact numerical value of
       stem:[h], thereby emphasizing the distinction between amount of substance and
@@ -93,7 +93,7 @@ resolutions:
     date_effective: 2011-10-21
     message: considering that the uncertainties of the values of many other important
       fundamental constants and energy conversion factors would be eliminated or greatly
-      reduced if stem:[h], stem:[e], stem:[k] and stem:[N_(A)] had exact numerical
+      reduced if stem:[h], stem:[e], stem:[k] and stem:[N_("A")] had exact numerical
       values when expressed in SI units,
   - type: considering
     date_effective: 2011-10-21
@@ -121,25 +121,25 @@ resolutions:
 
       * the International System of Units, the SI, will be the system of units in which:
 
-      ** the ground state hyperfine splitting frequency of the caesium 133 atom Δν(^133^Cs)~hfs~ is exactly 9 192 631 770 hertz,
+      ** the ground state hyperfine splitting frequency of the caesium 133 atom stem:[ sf Delta  nu (""_(133) "Cs")_("hfs")] is exactly 9 192 631 770 hertz,
       ** the speed of light in vacuum stem:[c] is exactly 299 792 458 metre per second,
       ** the Planck constant stem:[h] is exactly 6.626 06X ×stem:[10^(-34)] joule second,
       ** the elementary charge stem:[e] is exactly 1.602 17X ×stem:[10^(-19)] coulomb,
       ** the Boltzmann constant stem:[k] is exactly 1.380 6X ×stem:[10^(-23)] joule per kelvin,
-      ** the Avogadro constant stem:[N_(A)] is exactly 6.022 14X ×stem:[10^(23)] reciprocal mole,
-      ** the luminous efficacy stem:[K_(cd)] of monochromatic radiation of frequency stem:[540 * 10^(12)] Hz is exactly 683 lumen per watt,
+      ** the Avogadro constant stem:[N_("A")] is exactly 6.022 14X ×stem:[10^(23)] reciprocal mole,
+      ** the luminous efficacy stem:[K_("cd")] of monochromatic radiation of frequency stem:[540 * 10^(12) "Hz"] is exactly 683 lumen per watt,
 
       where
 
-      (i) the hertz, joule, coulomb, lumen, and watt, with unit symbols Hz, J, C, lm, and W, respectively, are related to the units second, metre, kilogram, ampere, kelvin, mole, and candela, with unit symbols s, m, kg, A, K, mol, and cd, respectively, according to Hz = s^-1^, J = m^2^ kg s^-2^, C = s A, lm = cd m^2^ m^-2^ = cd sr, and W = m^2^ kg s^-3^, +
-      (ii) the symbol X in this Draft Resolution represents one or more additional digits to be added to the numerical values of stem:[h], stem:[e], stem:[k], and stem:[N_(A)], using values based on the most recent CODATA adjustment,
+      (i) the hertz, joule, coulomb, lumen, and watt, with unit symbols stem:["Hz"], stem:["J"], stem:["C"], stem:["lm"], and stem:["W"], respectively, are related to the units second, metre, kilogram, ampere, kelvin, mole, and candela, with unit symbols stem:["s"], stem:["m"], stem:["kg"], stem:["A"], stem:["K"], stem:["mol"], and stem:["cd"], respectively, according to stem:["Hz" = "s"^(-1)], stem:["J" = "m"^(2) * "kg" * "s"^(-2)], stem:["C" = "s" * "A"], stem:["lm" = "cd" * "m"^(2) * "m"^(-2) = "cd" * "sr"], and stem:["W" = "m"^(2) * "kg" * "s"^(-3)], +
+      (ii) the symbol X in this Draft Resolution represents one or more additional digits to be added to the numerical values of stem:[h], stem:[e], stem:[k], and stem:[N_("A")], using values based on the most recent CODATA adjustment,
 
       from which it follows that the SI will continue to have the present set of seven base units, in particular
 
-      ** the kilogram will continue to be the unit of mass, but its magnitude will be set by fixing the numerical value of the Planck constant to be equal to exactly 6.626 06X ×stem:[10^(-34)] when it is expressed in the SI unit m^2^ kg s^-1^, which is equal to J s,
-      ** the ampere will continue to be the unit of electric current, but its magnitude will be set by fixing the numerical value of the elementary charge to be equal to exactly 1.602 17X ×stem:[10^(-19)] when it is expressed in the SI unit s A, which is equal to C,
-      ** the kelvin will continue to be the unit of thermodynamic temperature, but its magnitude will be set by fixing the numerical value of the Boltzmann constant to be equal to exactly 1.380 6X ×stem:[10^(-23)] when it is expressed in the SI unit m^2^ kg s^-2^ K^-1^, which is equal to J K^-1^,
-      ** the mole will continue to be the unit of amount of substance of a specified elementary entity, which may be an atom, molecule, ion, electron, any other particle or a specified group of such particles, but its magnitude will be set by fixing the numerical value of the Avogadro constant to be equal to exactly 6.022 14X ×stem:[10^(23)] when it is expressed in the SI unit mol^-1^.
+      ** the kilogram will continue to be the unit of mass, but its magnitude will be set by fixing the numerical value of the Planck constant to be equal to exactly 6.626 06X ×stem:[10^(-34)] when it is expressed in the SI unit stem:["m"^(2) * "kg" * "s"^(-1)], which is equal to stem:["J" * "s"],
+      ** the ampere will continue to be the unit of electric current, but its magnitude will be set by fixing the numerical value of the elementary charge to be equal to exactly 1.602 17X ×stem:[10^(-19)] when it is expressed in the SI unit stem:["s" * "A"], which is equal to stem:["C"],
+      ** the kelvin will continue to be the unit of thermodynamic temperature, but its magnitude will be set by fixing the numerical value of the Boltzmann constant to be equal to exactly 1.380 6X ×stem:[10^(-23)] when it is expressed in the SI unit stem:["m"^(2) * "kg" * "s"^(-2) * "K"^(-1)], which is equal to stem:["J" * "K"^(-1)],
+      ** the mole will continue to be the unit of amount of substance of a specified elementary entity, which may be an atom, molecule, ion, electron, any other particle or a specified group of such particles, but its magnitude will be set by fixing the numerical value of the Avogadro constant to be equal to exactly 6.022 14X ×stem:[10^(23)] when it is expressed in the SI unit stem:["mol"^(-1)].
        +
 
       The General Conference on Weights and Measures
@@ -157,9 +157,9 @@ resolutions:
 
       the reformulation of the existing definitions of the second, metre and candela in completely equivalent forms, which might be the following:
 
-      * the second, symbol s, is the unit of time; its magnitude is set by fixing the numerical value of the ground state hyperfine splitting frequency of the caesium 133 atom, at rest and at a temperature of 0 K, to be equal to exactly 9 192 631 770 when it is expressed in the SI unit s^-1^, which is equal to Hz,
-      * the metre, symbol m, is the unit of length; its magnitude is set by fixing the numerical value of the speed of light in vacuum to be equal to exactly 299 792 458 when it is expressed in the SI unit m s^-1^,
-      * the candela, symbol cd, is the unit of luminous intensity in a given direction; its magnitude is set by fixing the numerical value of the luminous efficacy of monochromatic radiation of frequency stem:[540 * 10^(12)] Hz to be equal to exactly 683 when it is expressed in the SI unit m^-2^ kg^-1^ s^3^ cd sr, or cd sr W^-1^, which is equal to lm W^-1^.
+      * the second, symbol stem:["s"], is the unit of time; its magnitude is set by fixing the numerical value of the ground state hyperfine splitting frequency of the caesium 133 atom, at rest and at a temperature of stem:[0 "K"], to be equal to exactly 9 192 631 770 when it is expressed in the SI unit stem:["s"^(-1)], which is equal to stem:["Hz"],
+      * the metre, symbol stem:["m"], is the unit of length; its magnitude is set by fixing the numerical value of the speed of light in vacuum to be equal to exactly 299 792 458 when it is expressed in the SI unit stem:["m" * "s"^(-1)],
+      * the candela, symbol stem:["cd"], is the unit of luminous intensity in a given direction; its magnitude is set by fixing the numerical value of the luminous efficacy of monochromatic radiation of frequency stem:[540 * 10^(12) "Hz"] to be equal to exactly 683 when it is expressed in the SI unit stem:["m"^(-2) * "kg"^(-1) * "s"^(3) * "cd" * "sr"], or stem:["cd" * "sr" * "W"^(-1)], which is equal to stem:["lm" * "W"^(-1)].
 
       In this way, the definitions of all seven base units will be seen to follow naturally from the set of seven constants given above.
 
@@ -169,7 +169,7 @@ resolutions:
       * the definition of the ampere in force since 1948 (9th meeting of the CGPM, 1948) based upon the definition proposed by the International Committee (CIPM, 1946, https://www.bipm.org/en/CIPM/db/1946/2/[Resolution 2]) will be abrogated,
       * the conventional values of the Josephson constant stem:[K_(J-90)] and of the von Klitzing constant stem:[R_(K-90)] adopted by the International Committee (CIPM, 1988, Recommendations 1 and 2) at the request of the General Conference (18th meeting of the CGPM, 1987, cgpm-resolution:en/18/6[Resolution 6]) for the establishment of representations of the volt and the ohm using the Josephson and quantum Hall effects, respectively, will be abrogated,
       * the definition of the kelvin in force since 1967/68 (13th meeting of the CGPM, 1967/68, cgpm-resolution:en/13/4[Resolution 4]) based upon a less explicit, earlier definition (10th meeting of the CGPM, 1954, Resolution 3) will be abrogated,
-      * the definition of the mole in force since 1971 (14th meeting of the CGPM, 1971, cgpm-resolution:en/14/3[Resolution 3]) based upon a definition whereby the molar mass of carbon 12 had the exact value 0.012 kg mol^-1^ will be abrogated,
+      * the definition of the mole in force since 1971 (14th meeting of the CGPM, 1971, cgpm-resolution:en/14/3[Resolution 3]) based upon a definition whereby the molar mass of carbon 12 had the exact value stem:[0.012 "kg" * "mol"^(-1)] will be abrogated,
       * the existing definitions of the metre, second and candela in force since they were adopted by the CGPM at its 17th (1983, cgpm-resolution:en/17/1[Resolution 1]), 13th (1967/68, cgpm-resolution:en/13/1[Resolution 1]) and 16th (1979, cgpm-resolution:en/16/3[Resolution 3]) meetings, respectively, will be abrogated.
        +
 
@@ -179,10 +179,10 @@ resolutions:
     message: |-
       *further notes* that on the same date
 
-      * the mass of the international prototype of the kilogram stem:[m(K)] will be 1 kg but with a relative uncertainty equal to that of the recommended value of stem:[h] just before redefinition and that subsequently its value will be determined experimentally,
-      * that the magnetic constant (permeability of vacuum) stem:[µ_(0)] will be stem:[4 sf pi  * 10^(-7)] H m^-1^ but with a relative uncertainty equal to that of the recommended value of the fine-structure constant stem:[ alpha ] and that subsequently its value will be determined experimentally,
-      * that the thermodynamic temperature of the triple point of water stem:[T_(TPW)] will be 273.16 K but with a relative uncertainty equal to that of the recommended value of stem:[k] just before redefinition and that subsequently its value will be determined experimentally,
-      * that the molar mass of carbon stem:[12 M](^12^C) will be 0.012 kg mol^-1^ but with a relative uncertainty equal to that of the recommended value of stem:[N_(A)h] just before redefinition and that subsequently its value will be determined experimentally.
+      * the mass of the international prototype of the kilogram stem:[m(K)] will be stem:[1 "kg"] but with a relative uncertainty equal to that of the recommended value of stem:[h] just before redefinition and that subsequently its value will be determined experimentally,
+      * that the magnetic constant (permeability of vacuum) stem:[µ_(0)] will be stem:[4 pi  * 10^(-7) "H" * "m"^(-1)] but with a relative uncertainty equal to that of the recommended value of the fine-structure constant stem:[ alpha ] and that subsequently its value will be determined experimentally,
+      * that the thermodynamic temperature of the triple point of water stem:[T_(TPW)] will be stem:[273.16 "K"] but with a relative uncertainty equal to that of the recommended value of stem:[k] just before redefinition and that subsequently its value will be determined experimentally,
+      * that the molar mass of carbon stem:[12 M(""_(12) "C")] will be stem:[0.012 "kg" * "mol"^(-1)] but with a relative uncertainty equal to that of the recommended value of stem:[N_("A")h] just before redefinition and that subsequently its value will be determined experimentally.
        +
 
       The General Conference on Weights and Measures
@@ -193,7 +193,7 @@ resolutions:
       academic institutions to continue their efforts and make known to the scientific
       community in general and to CODATA in particular, the outcome of their work
       relevant to the determination of the constants stem:[h], stem:[e], stem:[k],
-      and stem:[N_(A)], and
+      and stem:[N_("A")], and
   - type: encourages
     date_effective: 2011-10-21
     message: encourages the BIPM to continue its work on relating the traceability

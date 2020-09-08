@@ -66,5 +66,5 @@ resolutions:
   - type: decides
     date_effective: 1901-10-22
     message: The Conference declares The value adopted in the International Service
-      of Weights and Measures for the standard acceleration due to gravity is 980.665
-      cm/s^2^, value already stated in the laws of some countries.
+      of Weights and Measures for the standard acceleration due to gravity is stem:[980.665
+      "cm"/"s"^(2)], value already stated in the laws of some countries.

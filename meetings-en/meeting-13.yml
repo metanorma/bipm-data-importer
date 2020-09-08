@@ -185,13 +185,13 @@ resolutions:
       *decides* to add:
 
       |===
-      .>| wave number .>| 1 per metre .>| m^-1^
+      .>| wave number .>| 1 per metre .>| stem:["m"^(-1)]
 
-      .<| entropy .<| joule per kelvin .<| J/K
-      .<| specific heat capacity .<| joule per kilogram kelvin .<| J/(kg × K)
-      .<| thermal conductivity .<| watt per metre kelvin .<| W/(m × K)
-      .<| radiant intensity .<| watt per steradian .<| W/sr
-      .>| activity (of a radioactive source) .>| 1 per second .>| s^-1^
+      .<| entropy .<| joule per kelvin .<| stem:["J"/"K"]
+      .<| specific heat capacity .<| joule per kilogram kelvin .<| stem:["J"/("kg" * "K")]
+      .<| thermal conductivity .<| watt per metre kelvin .<| stem:["W"/("m" * "K")]
+      .<| radiant intensity .<| watt per steradian .<| stem:["W"/"sr"]
+      .>| activity (of a radioactive source) .>| 1 per second .>| stem:["s"^(-1)]
 
       |===
 - dates:

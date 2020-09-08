@@ -233,13 +233,13 @@ resolutions:
       de pays comme unité pour l'activité des radionucléides,"
   - type: recognizing
     date_effective: 1964-10-13
-    message: "*reconnaissant* que dans le Système international d'unités (SI), l'unité
-      de cette activité est la seconde à la puissance moins un (s^-1^),"
+    message: '*reconnaissant* que dans le Système international d''unités (SI), l''unité
+      de cette activité est la seconde à la puissance moins un stem:[("s"^(-1))],'
   - type: acknowledging
     date_effective: 1964-10-13
     message: '*admet* que le curie soit encore retenu comme unité en dehors du SI
-      pour l''activité, avec la valeur stem:[3","7 * 10^(10)] s^-1^. Le symbole de
-      cette unité est Ci.'
+      pour l''activité, avec la valeur stem:[3","7 * 10^(10) "s"^(-1)]. Le symbole
+      de cette unité est Ci.'
   actions: []
 - dates:
   - 1964-10-13

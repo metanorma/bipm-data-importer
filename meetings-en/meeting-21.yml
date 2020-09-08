@@ -412,7 +412,7 @@ resolutions:
   - type: considering
     date_effective: 1999-10-15
     message: considering that many important research activities are in progress at
-      temperatures below 0.65 K,
+      temperatures below stem:[0.65 "K"],
   - type: considering
     date_effective: 1999-10-15
     message: considering that these researches require an accepted temperature scale
@@ -420,20 +420,21 @@ resolutions:
   - type: considering
     date_effective: 1999-10-15
     message: considering that the direct measurement of thermodynamic temperature
-      is often difficult and time-consuming at temperatures below 0.65 K down to a
-      few millikelvin, but at temperatures much lower than this direct measurements
+      is often difficult and time-consuming at temperatures below stem:[0.65 "K"]
+      down to a few millikelvin, but at temperatures much lower than this direct measurements
       once again become feasible,
   - type: considering
     date_effective: 1999-10-15
     message: considering that considerable work has already been accomplished towards
-      the development of a temperature scale for the range from 0.65 K down to 1 mK
-      based on the melting pressure of ^3^He,
+      the development of a temperature scale for the range from stem:[0.65 "K"] down
+      to stem:[1 "mK"] based on the melting pressure of stem:[""_(3) "He"],
   actions:
   - type: invites / further invites
     date_effective: 1999-10-15
-    message: "*invites* the International Committee to prepare a ^3^He melting pressure
-      equation as a function of thermodynamic temperature to serve as the basis for
-      an extension of the ITS-90 below its present lower limit of 0.65 K."
+    message: '*invites* the International Committee to prepare a stem:[""_(3) "He"]
+      melting pressure equation as a function of thermodynamic temperature to serve
+      as the basis for an extension of the ITS-90 below its present lower limit of
+      stem:[0.65 "K"].'
 - dates:
   - 1999-10-15
   title: Metrology in chemistry

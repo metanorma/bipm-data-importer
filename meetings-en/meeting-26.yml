@@ -52,15 +52,15 @@ resolutions:
     message: |-
       *decides* that, effective from 20 May 2019, the International System of Units, the SI, is the system of units in which:
 
-      * the unperturbed ground state hyperfine transition frequency of the caesium 133 atom stem:[ sf Delta  nu _(Cs)] is 9 192 631 770 Hz,
-      * the speed of light in vacuum stem:[c] is 299 792 458 m/s,
-      * the Planck constant stem:[h] is stem:[6.626 070 15 * 10^(-34)] J s,
-      * the elementary charge stem:[e] is stem:[1.602 176 634 * 10^(-19)] C,
-      * the Boltzmann constant stem:[k] is stem:[1.380 649 * 10^(-23)] J/K,
-      * the Avogadro constant stem:[N_(A)] is stem:[6.022 140 76 * 10^(23)] mol^-1^,
-      * the luminous efficacy of monochromatic radiation of frequency stem:[540 * 10^(12)] Hz, stem:[K_(cd)], is 683 lm/W,
+      * the unperturbed ground state hyperfine transition frequency of the caesium 133 atom stem:[ sf Delta  nu _(Cs)] is stem:[9 192 631 770 "Hz"],
+      * the speed of light in vacuum stem:[c] is stem:[299 792 458 "m"/"s"],
+      * the Planck constant stem:[h] is stem:[6.626 070 15 * 10^(-34) "J" * "s"],
+      * the elementary charge stem:[e] is stem:[1.602 176 634 * 10^(-19) "C"],
+      * the Boltzmann constant stem:[k] is stem:[1.380 649 * 10^(-23) "J"/"K"],
+      * the Avogadro constant stem:[N_("A")] is stem:[6.022 140 76 * 10^(23) "mol"^(-1)],
+      * the luminous efficacy of monochromatic radiation of frequency stem:[540 * 10^(12) "Hz"], stem:[K_("cd")], is stem:[683 "lm"/"W"],
 
-      where the hertz, joule, coulomb, lumen, and watt, with unit symbols Hz, J, C, lm, and W, respectively, are related to the units second, metre, kilogram, ampere, kelvin, mole, and candela, with unit symbols s, m, kg, A, K, mol, and cd, respectively, according to Hz = s^-1^, J = kg m^2^ s^-2^, C = A s, lm = cd m^2^ m^-2^ = cd sr, and W = kg m^2^ s^-3^
+      where the hertz, joule, coulomb, lumen, and watt, with unit symbols stem:["Hz"], stem:["J"], stem:["C"], stem:["lm"], and stem:["W"], respectively, are related to the units second, metre, kilogram, ampere, kelvin, mole, and candela, with unit symbols stem:["s"], stem:["m"], stem:["kg"], stem:["A"], stem:["K"], stem:["mol"], and stem:["cd"], respectively, according to stem:["Hz" = "s"^(-1)], stem:["J" = "kg" * "m"^(2) * "s"^(-2)], stem:["C" = "A" * "s"], stem:["lm" = "cd" * "m"^(2) * "m"^(-2) = "cd" * "sr"], and stem:["W" = "kg" * "m"^(2) * "s"^(-3)]
   - type: invites / further invites
     date_effective: 2018-11-16
     message: '*invites* the International Committee for Weights and Measures (CIPM)
@@ -93,24 +93,24 @@ resolutions:
 
       It follows from the new definition of the SI described above, and from the recommended values of the 2017 special adjustment of the Committee on Data for Science and Technology (CODATA) on which the values of the defining constants are based, that effective from 20 May 2019:
 
-      * the mass of the international prototype of the kilogram stem:[m](K) is equal to 1 kg within a relative standard uncertainty equal to that of the recommended value of stem:[h] at the time this Resolution was adopted, namely stem:[1.0 * 10^(-8)] and that in the future its value will be determined experimentally,
-      * the vacuum magnetic permeability ~stem:[ mu ]~~0~ is equal to stem:[4 sf pi  * 10^(-7)] H m^-1^ within a relative standard uncertainty equal to that of the recommended value of the fine-structure constant stem:[ alpha ] at the time this Resolution was adopted, namely stem:[2.3 * 10^(-10)] and that in the future its value will be determined experimentally,
-      * the thermodynamic temperature of the triple point of water T~TPW~ is equal to 273.16 K within a relative standard uncertainty closely equal to that of the recommended value of stem:[k] at the time this Resolution was adopted, namely stem:[3.7 * 10^(-7)], and that in the future its value will be determined experimentally,
-      * the molar mass of carbon 12, stem:[M](^12^C), is equal to 0.012 kg mol^-1^ within a relative standard uncertainty equal to that of the recommended value of stem:[N_(A) h] at the time this Resolution was adopted, namely stem:[4.5 * 10^(-10)], and that in the future its value will be determined experimentally.
+      * the mass of the international prototype of the kilogram stem:[m("K")] is equal to stem:[1 "kg"] within a relative standard uncertainty equal to that of the recommended value of stem:[h] at the time this Resolution was adopted, namely stem:[1.0 * 10^(-8)] and that in the future its value will be determined experimentally,
+      * the vacuum magnetic permeability stem:[ mu _(0)] is equal to stem:[4 pi  * 10^(-7) "H" * "m"^(-1)] within a relative standard uncertainty equal to that of the recommended value of the fine-structure constant stem:[ alpha ] at the time this Resolution was adopted, namely stem:[2.3 * 10^(-10)] and that in the future its value will be determined experimentally,
+      * the thermodynamic temperature of the triple point of water stem:["T"_(TPW)] is equal to stem:[273.16 "K"] within a relative standard uncertainty closely equal to that of the recommended value of stem:[k] at the time this Resolution was adopted, namely stem:[3.7 * 10^(-7)], and that in the future its value will be determined experimentally,
+      * the molar mass of carbon 12, stem:[M(""_(12) "C")], is equal to stem:[0.012 "kg" * "mol"^(-1)] within a relative standard uncertainty equal to that of the recommended value of stem:[N_("A") h] at the time this Resolution was adopted, namely stem:[4.5 * 10^(-10)], and that in the future its value will be determined experimentally.
   - identifier: 3
     message: |-
       *Appendix 3. The base units of the SI*
 
       Starting from the new definition of the SI described above in terms of fixed numerical values of the defining constants, definitions of each of the seven base units are deduced by taking, as appropriate, one or more of these defining constants to give the following set of definitions, effective from 20 May 2019:
 
-      * The second, symbol s, is the SI unit of time. It is defined by taking the fixed numerical value of the caesium frequency stem:[ sf Delta  nu _(Cs)], the unperturbed ground-state hyperfine transition frequency of the caesium 133 atom, to be 9 192 631 770 when expressed in the unit Hz, which is equal to s^-1^.
-      * The metre, symbol m, is the SI unit of length. It is defined by taking the fixed numerical value of the speed of light in vacuum stem:[c] to be 299 792 458 when expressed in the unit m/s, where the second is defined in terms of stem:[ sf Delta  nu _(Cs)].
-      * The kilogram, symbol kg, is the SI unit of mass. It is defined by taking the fixed numerical value of the Planck constant stem:[h] to be stem:[6.626 070 15 * 10^(-34)] when expressed in the unit J s, which is equal to kg m^2^ s^-1^, where the metre and the second are defined in terms of stem:[c] and stem:[ sf Delta  nu _(Cs)].
-      * The ampere, symbol A, is the SI unit of electric current. It is defined by taking the fixed numerical value of the elementary charge stem:[e] to be stem:[1.602 176 634 * 10^(-19)] when expressed in the unit C, which is equal to A s, where the second is defined in terms of stem:[ sf Delta  nu _(Cs)].
-      * The kelvin, symbol K, is the SI unit of thermodynamic temperature. It is defined by taking the fixed numerical value of the Boltzmann constant stem:[k] to be stem:[1.380 649 * 10^(-23)] when expressed in the unit J K^-1^, which is equal to kg m^2^ s^-2^ K^-1^, where the kilogram, metre and second are defined in terms of stem:[h], stem:[c] and stem:[ sf Delta  nu _(Cs)].
-      * The mole, symbol mol, is the SI unit of amount of substance. One mole contains exactly stem:[6.022 140 76 * 10^(23)] elementary entities. This number is the fixed numerical value of the Avogadro constant, stem:[N_(A)], when expressed in the unit mol^-1^ and is called the Avogadro number. +
+      * The second, symbol stem:["s"], is the SI unit of time. It is defined by taking the fixed numerical value of the caesium frequency stem:[ sf Delta  nu _(Cs)], the unperturbed ground-state hyperfine transition frequency of the caesium 133 atom, to be 9 192 631 770 when expressed in the unit stem:["Hz"], which is equal to stem:["s"^(-1)].
+      * The metre, symbol stem:["m"], is the SI unit of length. It is defined by taking the fixed numerical value of the speed of light in vacuum stem:[c] to be 299 792 458 when expressed in the unit stem:["m"/"s"], where the second is defined in terms of stem:[ sf Delta  nu _(Cs)].
+      * The kilogram, symbol stem:["kg"], is the SI unit of mass. It is defined by taking the fixed numerical value of the Planck constant stem:[h] to be stem:[6.626 070 15 * 10^(-34)] when expressed in the unit stem:["J" * "s"], which is equal to stem:["kg" * "m"^(2) * "s"^(-1)], where the metre and the second are defined in terms of stem:[c] and stem:[ sf Delta  nu _(Cs)].
+      * The ampere, symbol stem:["A"], is the SI unit of electric current. It is defined by taking the fixed numerical value of the elementary charge stem:[e] to be stem:[1.602 176 634 * 10^(-19)] when expressed in the unit stem:["C"], which is equal to stem:["A" * "s"], where the second is defined in terms of stem:[ sf Delta  nu _(Cs)].
+      * The kelvin, symbol stem:["K"], is the SI unit of thermodynamic temperature. It is defined by taking the fixed numerical value of the Boltzmann constant stem:[k] to be stem:[1.380 649 * 10^(-23)] when expressed in the unit stem:["J" * "K"^(-1)], which is equal to stem:["kg" * "m"^(2) * "s"^(-2) * "K"^(-1)], where the kilogram, metre and second are defined in terms of stem:[h], stem:[c] and stem:[ sf Delta  nu _(Cs)].
+      * The mole, symbol stem:["mol"], is the SI unit of amount of substance. One mole contains exactly stem:[6.022 140 76 * 10^(23)] elementary entities. This number is the fixed numerical value of the Avogadro constant, stem:[N_("A")], when expressed in the unit stem:["mol"^(-1)] and is called the Avogadro number. +
       The amount of substance, symbol stem:[n], of a system is a measure of the number of specified elementary entities. An elementary entity may be an atom, a molecule, an ion, an electron, any other particle or specified group of particles.
-      * The candela, symbol cd, is the SI unit of luminous intensity in a given direction. It is defined by taking the fixed numerical value of the luminous efficacy of monochromatic radiation of frequency stem:[540 * 10^(12)] Hz, K~cd~, to be 683 when expressed in the unit lm W^-1^, which is equal to cd sr W^-1^, or cd sr kg^-1^ m^-2^ s^3^, where the kilogram, metre and second are defined in terms of stem:[h], stem:[c] and stem:[ sf Delta  nu _(Cs)].
+      * The candela, symbol stem:["cd"], is the SI unit of luminous intensity in a given direction. It is defined by taking the fixed numerical value of the luminous efficacy of monochromatic radiation of frequency stem:[540 * 10^(12) "Hz"], stem:["K"_("cd")], to be 683 when expressed in the unit stem:["lm" * "W"^(-1)], which is equal to stem:["cd" * "sr" * "W"^(-1)], or stem:["cd" * "sr" * "kg"^(-1) * "m"^(-2) * "s"^(3)], where the kilogram, metre and second are defined in terms of stem:[h], stem:[c] and stem:[ sf Delta  nu _(Cs)].
 - dates:
   - 2018-11-16
   title: On the definition of time scales
@@ -175,41 +175,41 @@ resolutions:
   - type: noting
     date_effective: 2018-11-16
     message: 'noting that Resolution A4 (1991) of the IAU further defined, in Recommendation
-      IV, Terrestrial Time (TT) as another time coordinate in the Geocentric Reference
-      System, differing from TCG by a constant rate; the unit of measurement of TT
-      being chosen to agree with the SI second on the geoid, '
+      IV, Terrestrial Time stem:[("TT")] as another time coordinate in the Geocentric
+      Reference System, differing from TCG by a constant rate; the unit of measurement
+      of stem:["TT"] being chosen to agree with the SI second on the geoid, '
   - type: noting
     date_effective: 2018-11-16
-    message: 'noting that Resolution B1.9 (2000) of the IAU redefined TT to be a time
-      scale differing from TCG by a constant rate: stem:[d]TT/stem:[d]TCG = 1 - stem:[L_(G)],
-      where stem:[L_(G) = 6.969 290 134 * 10^(-10)] is a defining constant (the numerical
-      value of stem:[L_(G)] was chosen to conform to the value stem:[W_(0) = 62 636
-      856.0] m^stem:[2^(s)]-2^ for the gravity potential on the geoid as recommended
-      by Special Commission 3 of the IAG in 1999), '
+    message: 'noting that Resolution B1.9 (2000) of the IAU redefined stem:["TT"]
+      to be a time scale differing from TCG by a constant rate: stem:[d "TT"/d "TCG"]
+      = 1 - stem:[L_(G)], where stem:[L_(G) = 6.969 290 134 * 10^(-10)] is a defining
+      constant (the numerical value of stem:[L_(G)] was chosen to conform to the value
+      stem:[W_(0) = 62 636 856.0 "m"^(2^(s)-2)] for the gravity potential on the geoid
+      as recommended by Special Commission 3 of the IAG in 1999), '
   - type: noting
     date_effective: 2018-11-16
-    message: noting that the redefinition of TT in 2000 introduced an ambiguity between
-      TT and TAI as the CCDS had stated in 1980 that TAI was to have "_the SI second
-      as realized on the rotating geoid as the scale unit_" while the definition of
-      TT does not refer to the geoid,
+    message: noting that the redefinition of stem:["TT"] in 2000 introduced an ambiguity
+      between stem:["TT"] and TAI as the CCDS had stated in 1980 that TAI was to have
+      "_the SI second as realized on the rotating geoid as the scale unit_" while
+      the definition of stem:["TT"] does not refer to the geoid,
   actions:
   - type: affirms / reaffirming
     date_effective: 2018-11-16
     message: 'states that TAI is a continuous time scale produced by the BIPM based
-      on the best realizations of the SI second, and is a realization of TT as defined
-      by IAU Resolution B1.9 (2000), '
+      on the best realizations of the SI second, and is a realization of stem:["TT"]
+      as defined by IAU Resolution B1.9 (2000), '
   - type: affirms / reaffirming
     date_effective: 2018-11-16
     message: states that in the transformation from the proper time of a clock to
       TAI, the relativistic rate shift is computed with respect to the conventionally
-      adopted equipotential stem:[W_(0) = 62 636 856.0] m^stem:[2^(s)]-2^ of the Earth's
+      adopted equipotential stem:[W_(0) = 62 636 856.0 "m"^(2^(s)-2)] of the Earth's
       gravity potential, which conforms to the constant stem:[L_(G)] defining the
-      rate of TT,
+      rate of stem:["TT"],
   - type: affirms / reaffirming
     date_effective: 2018-11-16
-    message: 'states that as stated in the IAU Resolution A4 (1991), TT - TAI = 32.184
-      s exactly at 1 January 1977, 0h TAI at the geocentre, in order to ensure continuity
-      of TT with Ephemeris Time, '
+    message: 'states that as stated in the IAU Resolution A4 (1991), stem:["TT"] -
+      TAI = stem:[32.184 "s"] exactly at 1 January 1977, 0h TAI at the geocentre,
+      in order to ensure continuity of stem:["TT"] with Ephemeris Time, '
   - type: affirms / reaffirming
     date_effective: 2018-11-16
     message: 'states that UTC produced by the BIPM, based on TAI, is the only recommended
@@ -229,23 +229,23 @@ resolutions:
   - type: affirms / reaffirming
     date_effective: 2018-11-16
     message: states that traceability to UTC is obtained through local real-time realizations
-      "UTC(stem:[k])" maintained by laboratories contributing data to the calculation
+      "stem:["UTC" (k)]" maintained by laboratories contributing data to the calculation
       of UTC, identified by "stem:[k]",
   - type: confirms
     date_effective: 2018-11-16
     message: "*confirms* that\n\n* International Atomic Time (TAI) is a continuous
       time scale produced by the BIPM based on the best realizations of the SI second.
-      TAI is a realization of Terrestrial Time (TT) with the same rate as that of
-      TT, as defined by the IAU Resolution B1.9 (2000), \n* Coordinated Universal
-      Time (UTC) is a time scale produced by the BIPM with the same rate as TAI, but
-      differing from TAI only by an integral number of seconds, \n\nand *recommends*
-      that\n\n* all relevant unions and organizations consider these definitions and
-      work together to develop a common understanding on reference time scales, their
-      realization and dissemination with a view to consider the present limitation
-      on the maximum magnitude of UT1 - UTC so as to meet the needs of the current
-      and future user communities, \n* all relevant unions and organizations work
-      together to improve further the accuracy of the prediction of UT1 - UTC and
-      the method for its dissemination to satisfy the future requirements of users."
+      TAI is a realization of Terrestrial Time stem:[(\"TT\")] with the same rate
+      as that of stem:[\"TT\"], as defined by the IAU Resolution B1.9 (2000), \n*
+      Coordinated Universal Time (UTC) is a time scale produced by the BIPM with the
+      same rate as TAI, but differing from TAI only by an integral number of seconds,
+      \n\nand *recommends* that\n\n* all relevant unions and organizations consider
+      these definitions and work together to develop a common understanding on reference
+      time scales, their realization and dissemination with a view to consider the
+      present limitation on the maximum magnitude of UT1 - UTC so as to meet the needs
+      of the current and future user communities, \n* all relevant unions and organizations
+      work together to improve further the accuracy of the prediction of UT1 - UTC
+      and the method for its dissemination to satisfy the future requirements of users."
 - dates:
   - 2018-11-16
   title: On the objectives of the BIPM

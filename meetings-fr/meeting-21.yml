@@ -438,7 +438,7 @@ resolutions:
   - type: considering
     date_effective: 1999-10-15
     message: considérant que de multiples activités de recherche sont en cours à des
-      températures inférieures à 0,65 K,
+      températures inférieures à stem:[0","65 "K"],
   - type: considering
     date_effective: 1999-10-15
     message: considérant que ces recherches ont besoin d'une échelle de température
@@ -446,21 +446,21 @@ resolutions:
   - type: considering
     date_effective: 1999-10-15
     message: considérant que les mesures directes de la température thermodynamique
-      entre 0,65 K et quelques millikelvins sont souvent longues et difficiles, alors
-      que, pour des températures beaucoup plus basses, les mesures directes sont de
-      nouveau possibles,
+      entre stem:[0","65 "K"] et quelques millikelvins sont souvent longues et difficiles,
+      alors que, pour des températures beaucoup plus basses, les mesures directes
+      sont de nouveau possibles,
   - type: considering
     date_effective: 1999-10-15
     message: considérant que un travail considérable a déjà été accompli pour mettre
-      au point une échelle de température entre 0,65 K et 1 mK utilisant la pression
-      de fusion de ^3^He,
+      au point une échelle de température entre stem:[0","65 "K"] et stem:[1 "mK"]
+      utilisant la pression de fusion de stem:[""_(3) "He"],
   actions:
   - type: invites / further invites
     date_effective: 1999-10-15
-    message: "*invite* le Comité international à étudier une équation exprimant la
-      variation de pression de fusion de ^3^He en fonction de la température thermodynamique
-      qui puisse servir de base à une extension de l'EIT-90 au-dessous de sa limite
-      inférieure actuelle de 0,65 K."
+    message: '*invite* le Comité international à étudier une équation exprimant la
+      variation de pression de fusion de stem:[""_(3) "He"] en fonction de la température
+      thermodynamique qui puisse servir de base à une extension de l''EIT-90 au-dessous
+      de sa limite inférieure actuelle de stem:[0","65 "K"].'
 - dates:
   - 1999-10-15
   title: Métrologie en chimie

@@ -576,17 +576,19 @@ resolutions:
     message: "notes and welcomes the decision by the International Committee for Weights
       and Measures in October 2005, on the advice of the Consultative Committee for
       Thermometry, that\n\n the definition of the kelvin refers to water of a specified
-      isotopic composition, \n this composition be: \n\n0.000 155 76 mole of ^2^H
-      per mole of ^1^H, +\n0.000 379 9 mole of ^17^O per mole of ^16^O, and +\n0.002
-      005 2 mole of ^18^O per mole of ^16^O, \n\nwhich is the composition of the International
-      Atomic Energy Agency reference material Vienna Standard Mean Ocean Water (VSMOW),
-      as recommended by the International Union of Pure and Applied Chemistry in \"Atomic
-      Weights of the Elements: Review 2000\",\n\n this composition be stated in a
-      note attached to the definition of the kelvin in the SI Brochure as follows:
-      \n\n\"This definition refers to water having the isotopic composition defined
-      by the following amount-of-substance ratios: 0.000 155 76 mole of ^2^H per mole
-      of ^1^H, 0.000 379 9 mole of ^17^O per mole of ^16^O and 0.002 005 2 mole of
-      ^18^O per mole of ^16^O\"."
+      isotopic composition, \n this composition be: \n\n0.000 155 76 mole of stem:[\"\"_(2)
+      \"H\"] per mole of stem:[\"\"_(1) \"H\"], +\n0.000 379 9 mole of stem:[\"\"_(17)
+      \"O\"] per mole of stem:[\"\"_(16) \"O\"], and +\n0.002 005 2 mole of stem:[\"\"_(18)
+      \"O\"] per mole of stem:[\"\"_(16) \"O\"], \n\nwhich is the composition of the
+      International Atomic Energy Agency reference material Vienna Standard Mean Ocean
+      Water (VSMOW), as recommended by the International Union of Pure and Applied
+      Chemistry in \"Atomic Weights of the Elements: Review 2000\",\n\n this composition
+      be stated in a note attached to the definition of the kelvin in the SI Brochure
+      as follows: \n\n\"This definition refers to water having the isotopic composition
+      defined by the following amount-of-substance ratios: 0.000 155 76 mole of stem:[\"\"_(2)
+      \"H\"] per mole of stem:[\"\"_(1) \"H\"], 0.000 379 9 mole of stem:[\"\"_(17)
+      \"O\"] per mole of stem:[\"\"_(16) \"O\"] and 0.002 005 2 mole of stem:[\"\"_(18)
+      \"O\"] per mole of stem:[\"\"_(16) \"O\"]\"."
   actions: []
 - dates:
   - 2007-11-16
@@ -670,7 +672,7 @@ resolutions:
     date_effective: 2007-11-16
     message: 'considering the many advances, made in recent years, in experiments
       which relate the mass of the international prototype to the Planck constant
-      stem:[h] or the Avogadro constant stem:[N_(A)], '
+      stem:[h] or the Avogadro constant stem:[N_("A")], '
   - type: considering
     date_effective: 2007-11-16
     message: 'considering initiatives to determine the value of a number of relevant

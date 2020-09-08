@@ -225,15 +225,18 @@ resolutions:
       de leur partie décimale. Pour faciliter la lecture, les nombres peuvent être
       partagés en tranches de trois chiffres : ces tranches ne sont jamais séparées
       par des points, ni par des virgules.\n\n[width=80%]\n|===\n.<| Unités .<| Symboles
-      .17+| .<| Unités .<| Symboles\n\n2+| 2+|\n.<| ·mètre .<| m .<| ampère .<| A\n.<|
-      ·mètre carré .<| m^2^ .<| volt .<| V\n.<| ·mètre cube .<| m^3^ .<| watt .<|
-      W\n.<| ·micron .<| µ .<| ohm .<| stem:[ sf Omega ]\n.<| ·litre .<| l .<| coulomb
-      .<| C\n.<| ·gramme .<| g .<| farad .<| F\n.<| ·tonne .<| t .<| henry .<| H\n.<|
-      seconde .<| s .<| hertz .<| Hz\n.<| erg .<| erg .<| poise .<| P\n.<| dyne .<|
-      dyn .<| newton .<| N\n.<| degré Celsius .<| °C .<| ·candela .<|  \n.<|   .<|
-      \  .<| (bougie nouvelle) .<| cd\n.<| ·degré absolu .<| °K .<| lux .<| lx\n.<|
-      calorie .<| cal .<| lumen .<| lm\n.<| bar .<| bar .<| stilb .<| sb\n.<| heure
-      .<| h .<|   .<|  \n\n|==="
+      .17+| .<| Unités .<| Symboles\n\n2+| 2+|\n.<| ·mètre .<| stem:[\"m\"] .<| ampère
+      .<| stem:[\"A\"]\n.<| ·mètre carré .<| stem:[\"m\"^(2)] .<| volt .<| stem:[\"V\"]\n.<|
+      ·mètre cube .<| stem:[\"m\"^(3)] .<| watt .<| stem:[\"W\"]\n.<| ·micron .<|
+      stem:[\"µ\"] .<| ohm .<| stem:[ sf Omega ]\n.<| ·litre .<| l .<| coulomb .<|
+      stem:[\"C\"]\n.<| ·gramme .<| stem:[\"g\"] .<| farad .<| stem:[\"F\"]\n.<| ·tonne
+      .<| stem:[\"t\"] .<| henry .<| stem:[\"H\"]\n.<| seconde .<| stem:[\"s\"] .<|
+      hertz .<| stem:[\"Hz\"]\n.<| erg .<| erg .<| poise .<| P\n.<| dyne .<| dyn .<|
+      newton .<| stem:[\"N\"]\n.<| degré Celsius .<| stem:[\"°C\"] .<| ·candela .<|
+      \ \n.<|   .<|   .<| (bougie nouvelle) .<| stem:[\"cd\"]\n.<| ·degré absolu .<|
+      stem:[\"°K\"] .<| lux .<| stem:[\"lx\"]\n.<| calorie .<| stem:[\"cal\"] .<|
+      lumen .<| stem:[\"lm\"]\n.<| stem:[\"bar\"] .<| stem:[\"bar\"] .<| stilb .<|
+      stem:[\"sb\"]\n.<| heure .<| stem:[\"h\"] .<|   .<|  \n\n|==="
   - type: affirms / reaffirming
     date_effective: 1948-10-21
     message: Remarques Les symboles dont les unités sont précédées d'un point sont
@@ -242,8 +245,8 @@ resolutions:
   - type: affirms / reaffirming
     date_effective: 1948-10-21
     message: Remarques L'unité de volume stère, employée dans le mesurage des bois,
-      aura pour symbole « st » et non plus « s », qui lui avait été précédemment affecté
-      par le Comité international.
+      aura pour symbole « st » et non plus « stem:["s"] », qui lui avait été précédemment
+      affecté par le Comité international.
   - type: affirms / reaffirming
     date_effective: 1948-10-21
     message: Remarques S'il s'agit, non d'une température, mais d'un intervalle ou

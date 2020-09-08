@@ -84,17 +84,17 @@ resolutions:
     date_effective: 1991-10-03
     message: tenant compte des décisions prises par le Comité international des poids
       et mesures en 1988, lors de sa 77^e^ session, au sujet de ces ajustements, et
-      en particulier des valeurs stem:[K_(J-90)] (égale à 483 597,9 GHz/V) et stem:[R_(K-90)]
-      (égale à stem:[25 812","807  sf Omega ] attribuées par convention, respectivement,
-      à la constante de Josephson stem:[K_(J)] lorsqu'elle est utilisée pour représenter
-      le volt et à la constante de von Klitzing stem:[R_(K)] lorsqu'elle est utilisée
-      pour représenter l'ohm,
+      en particulier des valeurs stem:[K_(J-90)] (égale à stem:[483 597","9 "GHz"/"V"])
+      et stem:[R_(K-90)] (égale à stem:[25 812","807  sf Omega ] attribuées par convention,
+      respectivement, à la constante de Josephson stem:[K_("J")] lorsqu'elle est utilisée
+      pour représenter le volt et à la constante de von Klitzing stem:[R_("K")] lorsqu'elle
+      est utilisée pour représenter l'ohm,
   actions:
   - type: recommends
     date_effective: 1991-10-03
     message: recommande que les laboratoires nationaux poursuivent leurs efforts pour
-      réduire l'incertitude sur la connaissance que l'on a des rapports stem:[K_(J-90)/K_(J)]
-      et stem:[R_(K-90)/R_(K)],
+      réduire l'incertitude sur la connaissance que l'on a des rapports stem:[K_(J-90)/K_("J")]
+      et stem:[R_(K-90)/R_("K")],
   - type: recommends
     date_effective: 1991-10-03
     message: recommande que soient poursuivies les recherches concernant la théorie

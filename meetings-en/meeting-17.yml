@@ -42,7 +42,7 @@ resolutions:
     message: considering that there is an advantage, notably for astronomy and geodesy,
       in maintaining unchanged the value of the speed of light recommended in 1975
       by the cgpm-resolution:en/15/2[15th CGPM in its Resolution 2] (stem:[c = 299
-      792 458] m/s),
+      792 458 "m"/"s"]),
   - type: considering
     date_effective: 1983-10-21
     message: considering that a new definition of the metre has been envisaged in

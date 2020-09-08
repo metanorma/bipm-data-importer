@@ -85,7 +85,7 @@ resolutions:
   considerations:
   - type: considering
     date_effective: 1967-10-16
-    message: considérant les noms « degré Kelvin » et « degré », les symboles « °K
+    message: considérant les noms « degré Kelvin » et « degré », les symboles « stem:["°K"]
       » et « deg » et leurs règles d'emploi contenus dans la cgpm-resolution:fr/9/7[Résolution
       7] de la Neuvième Conférence générale (1948), dans la cgpm-resolution:fr/11/12[Résolution
       12] de la Onzième Conférence générale (1960) et la décision prise par le Comité
@@ -99,7 +99,7 @@ resolutions:
   - type: decides
     date_effective: 1967-10-16
     message: décide L'unité de température thermodynamique est désignée sous le nom
-      « kelvin » et son symbole est « K » ;
+      « kelvin » et son symbole est « stem:["K"] » ;
   - type: decides
     date_effective: 1967-10-16
     message: décide ce même nom et ce même symbole sont utilisés pour exprimer un
@@ -188,13 +188,13 @@ resolutions:
       *décide* d'y ajouter :
 
       |===
-      .>| nombre d'ondes .>| 1 par mètre .>| m^-1^
+      .>| nombre d'ondes .>| 1 par mètre .>| stem:["m"^(-1)]
 
-      .<| entropie .<| joule par kelvin .<| J/K
-      .<| chaleur massique .<| joule par kilogramme kelvin .<| J/(kg × K)
-      .<| conductivité thermique .<| watt par mètre kelvin .<| W/(m × K)
-      .<| intensité énergétique .<| watt par stéradian .<| W/sr
-      .>| activité (d'une source radioactive) .>| 1 par seconde .>| s^-1^
+      .<| entropie .<| joule par kelvin .<| stem:["J"/"K"]
+      .<| chaleur massique .<| joule par kilogramme kelvin .<| stem:["J"/("kg" * "K")]
+      .<| conductivité thermique .<| watt par mètre kelvin .<| stem:["W"/("m" * "K")]
+      .<| intensité énergétique .<| watt par stéradian .<| stem:["W"/"sr"]
+      .>| activité (d'une source radioactive) .>| 1 par seconde .>| stem:["s"^(-1)]
 
       |===
 - dates:
@@ -220,7 +220,7 @@ resolutions:
     message: |-
       décide en conséquence de retirer de la Résolution 7 de la Neuvième Conférence :
 
-      . le nom d'unité « micron », et le symbole « µ » qui fut attribué à cette unité et qui est devenu un préfixe ;
+      . le nom d'unité « micron », et le symbole « stem:["µ"] » qui fut attribué à cette unité et qui est devenu un préfixe ;
       . le nom d'unité « bougie nouvelle ».
 - dates:
   - 1967-10-16

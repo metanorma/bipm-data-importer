@@ -80,15 +80,15 @@ resolutions:
     date_effective: 1991-10-03
     message: noting the decisions made by the Comité International des Poids et Mesures
       in 1988, during its 77th Meeting concerning these adjustments, in particular
-      the conventional values stem:[K_(J-90)] (equal to 483 597,9 GHz/V) and stem:[R_(K-90)]
-      (equal to stem:[25 812","807  sf Omega ]) attributed to the Josephson constant
-      stem:[K_(J)] and the von Klitzing constant stem:[R_(K)] used in representations
-      of the volt and the ohm respectively,
+      the conventional values stem:[K_(J-90)] (equal to stem:[483 597","9 "GHz"/"V"])
+      and stem:[R_(K-90)] (equal to stem:[25 812","807  sf Omega ]) attributed to
+      the Josephson constant stem:[K_("J")] and the von Klitzing constant stem:[R_("K")]
+      used in representations of the volt and the ohm respectively,
   actions:
   - type: recommends
     date_effective: 1991-10-03
     message: recommends that national laboratories continue their efforts to reduce
-      the uncertainty in the knowledge of the ratios stem:[K_(J-90)/K_(J)] and stem:[R_(K-90)/R_(K)],
+      the uncertainty in the knowledge of the ratios stem:[K_(J-90)/K_("J")] and stem:[R_(K-90)/R_("K")],
   - type: recommends
     date_effective: 1991-10-03
     message: recommends that research be continued into the basic theory of the Josephson

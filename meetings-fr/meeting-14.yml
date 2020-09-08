@@ -120,7 +120,7 @@ resolutions:
     date_effective: 1971-10-08
     message: décide La mole est la quantité de matière d'un système contenant autant
       d'entités élémentaires qu'il y a d'atomes dans 0,012 kilogramme de carbone 12
-      ; son symbole est « mol ».
+      ; son symbole est « stem:["mol"] ».
   - type: decides
     date_effective: 1971-10-08
     message: décide Lorsqu'on emploie la mole, les entités élémentaires doivent être

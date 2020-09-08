@@ -53,15 +53,15 @@ resolutions:
     message: |-
       *décide* qu'à compter du 20 mai 2019, le Système international d'unités, le SI, est le système d'unités selon lequel :
 
-      * la fréquence de la transition hyperfine de l'état fondamental de l'atome de césium 133 non perturbé, stem:[ sf Delta  nu _(Cs)], est égale à 9 192 631 770 Hz,
-      * la vitesse de la lumière dans le vide, stem:[c], est égale à 299 792 458 m/s,
-      * la constante de Planck, stem:[h], est égale à stem:[6","626 070 15 * 10^(-34)] J s,
-      * la charge élémentaire, stem:[e], est égale à stem:[1","602 176 634 * 10^(-19)] C,
-      * la constante de Boltzmann, stem:[k], est égale à stem:[1","380 649 * 10^(-23)] J/K,
-      * la constante d'Avogadro, stem:[N_(A)], est égale à stem:[6","022 140 76 * 10^(23)] mol^-1^,
-      * l'efficacité lumineuse d'un rayonnement monochromatique de fréquence stem:[540 * 10^(12)] Hz, stem:[K_(cd)], est égale à 683 lm/W,
+      * la fréquence de la transition hyperfine de l'état fondamental de l'atome de césium 133 non perturbé, stem:[ sf Delta  nu _(Cs)], est égale à stem:[9 192 631 770 "Hz"],
+      * la vitesse de la lumière dans le vide, stem:[c], est égale à stem:[299 792 458 "m"/"s"],
+      * la constante de Planck, stem:[h], est égale à stem:[6","626 070 15 * 10^(-34) "J" * "s"],
+      * la charge élémentaire, stem:[e], est égale à stem:[1","602 176 634 * 10^(-19) "C"],
+      * la constante de Boltzmann, stem:[k], est égale à stem:[1","380 649 * 10^(-23) "J"/"K"],
+      * la constante d'Avogadro, stem:[N_("A")], est égale à stem:[6","022 140 76 * 10^(23) "mol"^(-1)],
+      * l'efficacité lumineuse d'un rayonnement monochromatique de fréquence stem:[540 * 10^(12) "Hz"], stem:[K_("cd")], est égale à stem:[683 "lm"/"W"],
 
-      où les unités hertz, joule, coulomb, lumen et watt, qui ont respectivement pour symbole Hz, J, C, lm et W, sont reliées aux unités seconde, mètre, kilogramme, ampère, kelvin, mole et candela, qui ont respectivement pour symbole s, m, kg, A, K, mol et cd, selon les relations Hz = s^-1^, J = kg m^2^ s^-2^, C = A s, lm = cd m^2^ m^-2^ = cd sr, et W = kg m^2^ s^-3^,
+      où les unités hertz, joule, coulomb, lumen et watt, qui ont respectivement pour symbole stem:["Hz"], stem:["J"], stem:["C"], stem:["lm"] et stem:["W"], sont reliées aux unités seconde, mètre, kilogramme, ampère, kelvin, mole et candela, qui ont respectivement pour symbole stem:["s"], stem:["m"], stem:["kg"], stem:["A"], stem:["K"], stem:["mol"] et stem:["cd"], selon les relations stem:["Hz" = "s"^(-1)], stem:["J" = "kg" * "m"^(2) * "s"^(-2)], stem:["C" = "A" * "s"], stem:["lm" = "cd" * "m"^(2) * "m"^(-2) = "cd" * "sr"], et stem:["W" = "kg" * "m"^(2) * "s"^(-3)],
   - type: invites / further invites
     date_effective: 2018-11-16
     message: "*invite* le Comité international des poids et mesures (CIPM) à publier
@@ -88,24 +88,24 @@ resolutions:
 
       Il résulte de la nouvelle définition du SI décrite ci-dessus, et des valeurs recommandées dans l'ajustement spécial de 2017 du Committee on Data for Science and Technology (CODATA), sur lesquelles se fondent les valeurs des constantes choisies pour définir le SI, qu'à compter du 20 mai 2019 :
 
-      * la masse du prototype international du kilogramme, stem:[m](K), est égale à 1 kg avec une incertitude-type relative égale à celle de la valeur recommandée de stem:[h] au moment de l'adoption de la présente résolution, à savoir stem:[1","0 * 10^(-8)] ; dans le futur, sa valeur sera déterminée de façon expérimentale,
-      * la perméabilité magnétique du vide, ~stem:[ mu ]~~0~, est égale à stem:[4 sf pi  * 10^(-7)] H m^-1^ avec une incertitude-type relative égale à celle de la valeur recommandée de la constante de structure fine stem:[ alpha ] au moment de l'adoption de la présente résolution, à savoir stem:[2","3 * 10^(-10)] ; dans le futur, sa valeur sera déterminée de façon expérimentale,
-      * la température thermodynamique du point triple de l'eau, stem:[T_(TPW)], est égale à 273,16 K avec une incertitude-type relative presque égale à celle de la valeur recommandée de stem:[k] au moment de l'adoption de la présente résolution, à savoir stem:[3","7 * 10^(-7)] ; dans le futur, sa valeur sera déterminée de façon expérimentale,
-      * la masse molaire du carbone 12, stem:[M](^12^C), est égale à 0,012 kg mol^-1^ avec une incertitude-type relative égale à celle de la valeur recommandée de stem:[N_(A) h] au moment de l'adoption de la présente résolution, à savoir stem:[4","5 * 10^(-10)] ; dans le futur, sa valeur sera déterminée de façon expérimentale.
+      * la masse du prototype international du kilogramme, stem:[m("K")], est égale à stem:[1 "kg"] avec une incertitude-type relative égale à celle de la valeur recommandée de stem:[h] au moment de l'adoption de la présente résolution, à savoir stem:[1","0 * 10^(-8)] ; dans le futur, sa valeur sera déterminée de façon expérimentale,
+      * la perméabilité magnétique du vide, stem:[ mu _(0)], est égale à stem:[4 pi  * 10^(-7) "H" * "m"^(-1)] avec une incertitude-type relative égale à celle de la valeur recommandée de la constante de structure fine stem:[ alpha ] au moment de l'adoption de la présente résolution, à savoir stem:[2","3 * 10^(-10)] ; dans le futur, sa valeur sera déterminée de façon expérimentale,
+      * la température thermodynamique du point triple de l'eau, stem:[T_(TPW)], est égale à stem:[273","16 "K"] avec une incertitude-type relative presque égale à celle de la valeur recommandée de stem:[k] au moment de l'adoption de la présente résolution, à savoir stem:[3","7 * 10^(-7)] ; dans le futur, sa valeur sera déterminée de façon expérimentale,
+      * la masse molaire du carbone 12, stem:[M(""_(12) "C")], est égale à stem:[0","012 "kg" * "mol"^(-1)] avec une incertitude-type relative égale à celle de la valeur recommandée de stem:[N_("A") h] au moment de l'adoption de la présente résolution, à savoir stem:[4","5 * 10^(-10)] ; dans le futur, sa valeur sera déterminée de façon expérimentale.
   - identifier: 3
     message: |-
       *Annexe 3. Les unités de base du SI*
 
       La nouvelle définition du SI décrite ci-dessus, fondée sur les valeurs numériques fixées des constantes choisies, permet de déduire la définition de chacune des sept unités de base du SI à l'aide d'une ou plusieurs de ces constantes, selon les cas. Les définitions qui en découlent, qui prendront effet à compter du 20 mai 2019, sont les suivantes :
 
-      * La seconde, symbole s, est l'unité de temps du SI. Elle est définie en prenant la valeur numérique fixée de la fréquence du césium, stem:[ sf Delta  nu _(Cs)], la fréquence de la transition hyperfine de l'état fondamental de l'atome de césium 133 non perturbé, égale à 9 192 631 770 lorsqu'elle est exprimée en Hz, unité égale à s^-1^.
-      * Le mètre, symbole m, est l'unité de longueur du SI. Il est défini en prenant la valeur numérique fixée de la vitesse de la lumière dans le vide, stem:[c], égale à 299 792 458 lorsqu'elle est exprimée en m/s, la seconde étant définie en fonction de stem:[ sf Delta  nu _(Cs)].
-      * Le kilogramme, symbole kg, est l'unité de masse du SI. Il est défini en prenant la valeur numérique fixée de la constante de Planck, stem:[h], égale à stem:[6","626 070 15 * 10^(-34)] lorsqu'elle est exprimée en J s, unité égale à kg m^2^ s^-1^, le mètre et la seconde étant définis en fonction de stem:[c] et stem:[ sf Delta  nu _(Cs)].
-      * L'ampère, symbole A, est l'unité de courant électrique du SI. Il est défini en prenant la valeur numérique fixée de la charge élémentaire, e, égale à stem:[1","602 176 634 * 10^(-19)] lorsqu'elle est exprimée en C, unité égale à A s, la seconde étant définie en fonction de stem:[ sf Delta  nu _(Cs)].
-      * Le kelvin, symbole K, est l'unité de température thermodynamique du SI. Il est défini en prenant la valeur numérique fixée de la constante de Boltzmann, stem:[k], égale à stem:[1","380 649 * 10^(-23)] lorsqu'elle est exprimée en J K^-1^, unité égale à kg m^2^ s^-2^ K^-1^, le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[ sf Delta  nu _(Cs)].
-      * La mole, symbole mol, est l'unité de quantité de matière du SI. Une mole contient exactement stem:[6","022 140 76 * 10^(23)] entités élémentaires. Ce nombre, appelé « nombre d'Avogadro », correspond à la valeur numérique fixée de la constante d'Avogadro, stem:[N_(A)], lorsqu'elle est exprimée en mol^-1^.
+      * La seconde, symbole stem:["s"], est l'unité de temps du SI. Elle est définie en prenant la valeur numérique fixée de la fréquence du césium, stem:[ sf Delta  nu _(Cs)], la fréquence de la transition hyperfine de l'état fondamental de l'atome de césium 133 non perturbé, égale à 9 192 631 770 lorsqu'elle est exprimée en stem:["Hz"], unité égale à stem:["s"^(-1)].
+      * Le mètre, symbole stem:["m"], est l'unité de longueur du SI. Il est défini en prenant la valeur numérique fixée de la vitesse de la lumière dans le vide, stem:[c], égale à 299 792 458 lorsqu'elle est exprimée en stem:["m"/"s"], la seconde étant définie en fonction de stem:[ sf Delta  nu _(Cs)].
+      * Le kilogramme, symbole stem:["kg"], est l'unité de masse du SI. Il est défini en prenant la valeur numérique fixée de la constante de Planck, stem:[h], égale à stem:[6","626 070 15 * 10^(-34)] lorsqu'elle est exprimée en stem:["J" * "s"], unité égale à stem:["kg" * "m"^(2) * "s"^(-1)], le mètre et la seconde étant définis en fonction de stem:[c] et stem:[ sf Delta  nu _(Cs)].
+      * L'ampère, symbole stem:["A"], est l'unité de courant électrique du SI. Il est défini en prenant la valeur numérique fixée de la charge élémentaire, e, égale à stem:[1","602 176 634 * 10^(-19)] lorsqu'elle est exprimée en stem:["C"], unité égale à stem:["A" * "s"], la seconde étant définie en fonction de stem:[ sf Delta  nu _(Cs)].
+      * Le kelvin, symbole stem:["K"], est l'unité de température thermodynamique du SI. Il est défini en prenant la valeur numérique fixée de la constante de Boltzmann, stem:[k], égale à stem:[1","380 649 * 10^(-23)] lorsqu'elle est exprimée en stem:["J" * "K"^(-1)], unité égale à stem:["kg" * "m"^(2) * "s"^(-2) * "K"^(-1)], le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[ sf Delta  nu _(Cs)].
+      * La mole, symbole stem:["mol"], est l'unité de quantité de matière du SI. Une mole contient exactement stem:[6","022 140 76 * 10^(23)] entités élémentaires. Ce nombre, appelé « nombre d'Avogadro », correspond à la valeur numérique fixée de la constante d'Avogadro, stem:[N_("A")], lorsqu'elle est exprimée en stem:["mol"^(-1)].
       * La quantité de matière, symbole stem:[n], d'un système est une représentation du nombre d'entités élémentaires spécifiées. Une entité élémentaire peut être un atome, une molécule, un ion, un électron, ou toute autre particule ou groupement spécifié de particules.
-      * La candela, symbole cd, est l'unité du SI d'intensité lumineuse dans une direction donnée. Elle est définie en prenant la valeur numérique fixée de l'efficacité lumineuse d'un rayonnement monochromatique de fréquence stem:[540 * 10^(12)] Hz, stem:[K_(cd)], égale à 683 lorsqu'elle est exprimée en lm W^-1^, unité égale à cd sr W^-1^, ou cd sr kg^-1^ m^-2^ s^3^, le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[ sf Delta  nu _(Cs)].
+      * La candela, symbole stem:["cd"], est l'unité du SI d'intensité lumineuse dans une direction donnée. Elle est définie en prenant la valeur numérique fixée de l'efficacité lumineuse d'un rayonnement monochromatique de fréquence stem:[540 * 10^(12) "Hz"], stem:[K_("cd")], égale à 683 lorsqu'elle est exprimée en stem:["lm" * "W"^(-1)], unité égale à stem:["cd" * "sr" * "W"^(-1)], ou stem:["cd" * "sr" * "kg"^(-1) * "m"^(-2) * "s"^(3)], le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[ sf Delta  nu _(Cs)].
 - dates:
   - 2018-11-16
   title: Sur la définition des échelles de temps
@@ -171,43 +171,44 @@ resolutions:
   - type: noting
     date_effective: 2018-11-16
     message: notant que la Résolution A4 (1991) de l'UAI définit en outre, dans sa
-      Recommandation IV, le Temps terrestre (TT) comme un autre temps-coordonnée dans
-      le Système de référence géocentrique, différant du TCG par une marche constante,
-      l'unité d'échelle de TT étant choisie de sorte qu'elle s'accorde avec la seconde
-      du SI sur le géoïde,
+      Recommandation IV, le Temps terrestre stem:[("TT")] comme un autre temps-coordonnée
+      dans le Système de référence géocentrique, différant du TCG par une marche constante,
+      l'unité d'échelle de stem:["TT"] étant choisie de sorte qu'elle s'accorde avec
+      la seconde du SI sur le géoïde,
   - type: noting
     date_effective: 2018-11-16
-    message: 'notant que la Résolution B1.9 (2000) de l''UAI redéfinit TT comme une
-      échelle de temps qui diffère du TCG par une marche constante : stem:[d]TT/stem:[d]TCG
-      = 1 - stem:[L_(G)], où stem:[L_(G) = 6","969 290 134 * 10^(-10)] est une constante
-      de définition (la valeur numérique de stem:[L_(G)] a été choisie pour se conformer
-      à la valeur de stem:[W_(0) = 62 636 856","0] m^2^ s^-2^ pour le potentiel de
-      pesanteur sur le géoïde tel que recommandé par la Commission spéciale 3 de l''AIG
-      en 1999),'
+    message: 'notant que la Résolution B1.9 (2000) de l''UAI redéfinit stem:["TT"]
+      comme une échelle de temps qui diffère du TCG par une marche constante : stem:[d
+      "TT"/d "TCG"] = 1 - stem:[L_(G)], où stem:[L_(G) = 6","969 290 134 * 10^(-10)]
+      est une constante de définition (la valeur numérique de stem:[L_(G)] a été choisie
+      pour se conformer à la valeur de stem:[W_(0) = 62 636 856","0 "m"^(2) * "s"^(-2)]
+      pour le potentiel de pesanteur sur le géoïde tel que recommandé par la Commission
+      spéciale 3 de l''AIG en 1999),'
   - type: noting
     date_effective: 2018-11-16
-    message: notant que une redéfinition de TT en 2000 a introduit une ambiguïté entre
-      TT et le TAI car le CCDS avait déclaré en 1980 que le TAI avait « comme unité
-      d'échelle la seconde du SI telle qu'elle est réalisée sur le géoïde en rotation
-      » alors que la définition de TT ne fait pas référence au géoïde,
+    message: notant que une redéfinition de stem:["TT"] en 2000 a introduit une ambiguïté
+      entre stem:["TT"] et le TAI car le CCDS avait déclaré en 1980 que le TAI avait
+      « comme unité d'échelle la seconde du SI telle qu'elle est réalisée sur le géoïde
+      en rotation » alors que la définition de stem:["TT"] ne fait pas référence au
+      géoïde,
   actions:
   - type: decides
     date_effective: 2018-11-16
     message: déclare que le TAI est une échelle de temps continue produite par le
       BIPM à partir des meilleures réalisations de la seconde du SI et que c'est une
-      réalisation de TT comme défini dans la Résolution B1.9 (2000) de l'UAI,
+      réalisation de stem:["TT"] comme défini dans la Résolution B1.9 (2000) de l'UAI,
   - type: decides
     date_effective: 2018-11-16
     message: déclare que pour la conversion du temps propre d'une horloge en TAI,
       le décalage relativiste de fréquence est calculé par rapport à la surface équipotentielle
-      stem:[W_(0) = 62 636 856","0] m^2^ s^-2^ du potentiel de pesanteur de la Terre,
-      adoptée de façon conventionnelle, en conformité avec la constante LG définissant
-      la marche de TT,
+      stem:[W_(0) = 62 636 856","0 "m"^(2) * "s"^(-2)] du potentiel de pesanteur de
+      la Terre, adoptée de façon conventionnelle, en conformité avec la constante
+      LG définissant la marche de stem:["TT"],
   - type: decides
     date_effective: 2018-11-16
-    message: déclare que tel qu'indiqué dans la Résolution A4 (1991) de l'UAI, TT
-      - TAI est égal à 32,184 s exactement au 1^er^ janvier 1977, 0h TAI au géocentre,
-      pour assurer une continuité de TT avec le temps des éphémérides,
+    message: déclare que tel qu'indiqué dans la Résolution A4 (1991) de l'UAI, stem:["TT"]
+      - TAI est égal à stem:[32","184 "s"] exactement au 1^er^ janvier 1977, 0h TAI
+      au géocentre, pour assurer une continuité de stem:["TT"] avec le temps des éphémérides,
   - type: decides
     date_effective: 2018-11-16
     message: déclare que l'UTC produit par le BIPM, fondé sur le TAI, est l'unique
@@ -231,14 +232,15 @@ resolutions:
     date_effective: 2018-11-16
     message: déclare que la traçabilité à l'UTC est obtenue par l'intermédiaire des
       réalisations locales en temps réel maintenues par les laboratoires participant
-      au calcul de l'UTC, dénommées « UTC(stem:[k]) » où « stem:[k] » identifie un
-      laboratoire particulier,
+      au calcul de l'UTC, dénommées « stem:["UTC" (k)] » où « stem:[k] » identifie
+      un laboratoire particulier,
   - type: confirms
     date_effective: 2018-11-16
     message: confirme que le Temps atomique international (TAI) est une échelle de
       temps continue produite par le BIPM à partir des meilleures réalisations de
-      la seconde du SI. Le TAI est une réalisation du Temps terrestre (TT) ayant la
-      même marche que TT, tel que défini par l'UAI dans sa Résolution B1.9 (2000),
+      la seconde du SI. Le TAI est une réalisation du Temps terrestre stem:[("TT")]
+      ayant la même marche que stem:["TT"], tel que défini par l'UAI dans sa Résolution
+      B1.9 (2000),
   - type: confirms
     date_effective: 2018-11-16
     message: confirme que le Temps universel coordonné (UTC) est une échelle de temps

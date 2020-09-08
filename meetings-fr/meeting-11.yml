@@ -239,7 +239,7 @@ resolutions:
   - type: considering
     date_effective: 1960-10-20
     message: |-
-      estime que la longueur d'onde de la radiation émise par la colonne positive est égale, à 1 cent millionième (stem:[10^(-8)]) près, à la longueur d'onde correspondant à la transition entre les niveaux non perturbés, lorsque les conditions suivantes sont satisfaites :
+      estime que la longueur d'onde de la radiation émise par la colonne positive est égale, à 1 cent millionième stem:[(10^(-8))] près, à la longueur d'onde correspondant à la transition entre les niveaux non perturbés, lorsque les conditions suivantes sont satisfaites :
 
       . le capillaire est observé en bout de façon que les rayons lumineux utilisés cheminent du côté cathodique vers le côté anodique ;
       . la partie inférieure de la lampe, y compris le capillaire, est immergée dans un bain réfrigérant maintenu à la température du point triple de l'azote, à 1 degré près ;
@@ -260,9 +260,9 @@ resolutions:
       que la radiation du krypton 86 adoptée comme étalon fondamental de longueur
       soit réalisée au moyen d'une lampe à décharge à cathode chaude contenant du
       krypton 86 d'une pureté non inférieure à 99 pour cent, en quantité suffisante
-      pour assurer la présence de krypton solide à la température de 64 °K, cette
-      lampe étant munie d'un capillaire ayant les caractéristiques suivantes : diamètre
-      intérieur 2 à 4 millimètres, épaisseur des parois 1 millimètre environ.\n\n«
+      pour assurer la présence de krypton solide à la température de stem:[64 \"°K\"],
+      cette lampe étant munie d'un capillaire ayant les caractéristiques suivantes
+      : diamètre intérieur 2 à 4 millimètres, épaisseur des parois 1 millimètre environ.\n\n«
       On"
   subject: Comité international
 - dates:
@@ -392,13 +392,13 @@ resolutions:
 
       [width=100%]
       |===
-      .<| longueur | mètre .<| m
+      .<| longueur | mètre .<| stem:["m"]
 
-      .<| masse .<| kilogramme .<| kg
-      .<| temps .<| seconde .<| s
-      .<| intensité de courant électrique .<| ampère .<| A
-      .<| température thermodynamique .<| degré Kelvin .<| °K
-      .<| intensité lumineuse .<| candela .<| cd
+      .<| masse .<| kilogramme .<| stem:["kg"]
+      .<| temps .<| seconde .<| stem:["s"]
+      .<| intensité de courant électrique .<| ampère .<| stem:["A"]
+      .<| température thermodynamique .<| degré Kelvin .<| stem:["°K"]
+      .<| intensité lumineuse .<| candela .<| stem:["cd"]
 
       |===
        la https://www.bipm.org/fr/CIPM/db/1956/3/[Résolution 3] adoptée par le Comité international des poids et mesures en 1956,
@@ -423,11 +423,11 @@ resolutions:
       l'unité est multipliée
       |   .>| Préfixe .>| Symbole
       5+| | 5+|
-      >| 1 000 000 000 000 | = stem:[10^(12)] |   | téra 2+| T >| 0,1 | = stem:[10^(-1)] |   | déci | d
+      >| 1 000 000 000 000 | = stem:[10^(12)] |   | téra 2+| stem:["T"] >| 0,1 | = stem:[10^(-1)] |   | déci | d
       >| 1 000 000 000 | = stem:[10^(9)] |   | giga 2+| G >| 0,01 | = stem:[10^(-2)] |   | centi | c
-      >| 1 000 000 | = stem:[10^(6)] |   | méga 2+| M >| 0,001 | = stem:[10^(-3)] |   | milli | m
-      >| 1 000 | = stem:[10^(3)] |   | kilo 2+| k >| 0,000 001 | = stem:[10^(-6)] |   | micro | µ
-      >| 100 | = stem:[10^(2)] |   | hecto 2+| h >| 0,000 000 001 | = stem:[10^(-9)] |   | nano | n
+      >| 1 000 000 | = stem:[10^(6)] |   | méga 2+| M >| 0,001 | = stem:[10^(-3)] |   | milli | stem:["m"]
+      >| 1 000 | = stem:[10^(3)] |   | kilo 2+| k >| 0,000 001 | = stem:[10^(-6)] |   | micro | stem:["µ"]
+      >| 100 | = stem:[10^(2)] |   | hecto 2+| stem:["h"] >| 0,000 000 001 | = stem:[10^(-9)] |   | nano | n
       >| 10 | = stem:[10^(1)] |   | déca 2+| da >| 0,000 000 000 001 | = stem:[10^(-12)] |   | pico | p
       11+a| +
 
@@ -440,9 +440,9 @@ resolutions:
 
       [width=100%]
       |===
-      | angle | radian | rad
+      | angle | radian | stem:["rad"]
 
-      | angle solide | stéradian | sr
+      | angle solide | stéradian | stem:["sr"]
 
       |===
       [[derived]]
