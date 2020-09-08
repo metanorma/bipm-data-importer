@@ -19,5 +19,18 @@ RSpec.describe "data" do
     it "has no nested stems" do
       expect($all_stems.any? { |i| i =~ /stem:/ }).to be(false)
     end
+
+    it "has no stems prefixed with words" do
+      expect($all_texts.any? { |i| i =~ /\wstem:/ }).to be(false)
+    end
+
+    it "has no stems prefixed with numbers" do
+      expect($all_texts.any? { |i| i =~ /\dstem:/ }).to be(false)
+    end
+
+    it "has all stems terminated correctly" do
+      expect($all_stems.any? { |i| i.count('"') % 2 == 1 }).to be(false)
+      expect($all_stems.any? { |i| i.count('(') != i.count(')') }).to be(false)
+    end
   end
 end
