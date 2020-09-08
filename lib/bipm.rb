@@ -194,7 +194,7 @@ FileUtils.rm_rf "meetings-en"
     doc = ps.inner_html.encode('utf-8').gsub("\r", '').gsub(%r'</?nobr>','')
     # doc = AsciiMath.html_to_asciimath(doc)
 
-    parts = doc.split(/(\n(?:<p>)?<b>.*?<\/b>|<p>(?:après examen |après avoir entendu )|having noted that |decides to define |décide de définir |considers that|estime que|declares<\/p>)/)
+    parts = doc.split(/(\n(?:<p>)?<b>.*?<\/b>|<p>(?:après examen |après avoir entendu )|having noted that |decides to define |décide de définir |considers that|estime que|declares<\/p>|<a name="_ftn\d)/)
     nparts = [parts.shift]
     while parts.length > 0
       nparts << parts.shift + parts.shift
@@ -228,7 +228,7 @@ FileUtils.rm_rf "meetings-en"
         end
       end && next
 
-      if parse =~ /\A(?:Appendix|Annexe) ([0-9]+)/
+      if parse =~ /\A(?:Appendix |Annexe |\()(\d+)/
         r["appendices"] ||= []
         r["appendices"] << prev = {
           "identifier" => $1.to_i,
