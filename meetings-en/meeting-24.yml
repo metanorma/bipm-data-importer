@@ -355,9 +355,9 @@ resolutions:
     message: |-
       *decides* that the annual dotation of the BIPM, as defined in Article 6, 1921, of the Regulations annexed to the Metre Convention, will be increased in such a way that, for those States that are Parties to the Metre Convention at the time of the 24th meeting of the CGPM, it shall be:
 
-      <center>11 577 000 euros in 2013<br>
-      11 693 000 euros in 2014<br>
-      11 810 000 euros in 2015</center>
+      11 577 000 euros in 2013 +
+      11 693 000 euros in 2014 +
+      11 810 000 euros in 2015
 - dates:
   - 2011-10-21
   title: On the status of Associate State of the General Conference

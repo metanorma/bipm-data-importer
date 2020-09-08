@@ -163,12 +163,17 @@ resolutions:
       par voie de détachement de membres de leur personnel auprès du BIPM,"
   - type: decides
     date_effective: 2014-11-20
-    message: "*décide que* la dotation annuelle du BIPM, telle que définie à link:/utils/common/documents/official/metre-convention.pdf#page=6[l'article
-      6, 1921, du Règlement annexé à la Convention du Mètre], sera fixée de façon
-      à ce qu'elle corresponde, pour les États Parties à la Convention du Mètre au
-      moment de la 25^e^ réunion de la CGPM, à :<center>11 980 000 euros en 2016</center><center>11
-      980 000 euros en 2017</center><center>11 980 000 euros en 2018</center><center>11
-      980 000 euros en 2019</center>"
+    message: |-
+      *décide que* la dotation annuelle du BIPM, telle que définie à link:/utils/common/documents/official/metre-convention.pdf#page=6[l'article 6, 1921, du Règlement annexé à la Convention du Mètre], sera fixée de façon à ce qu'elle corresponde, pour les États Parties à la Convention du Mètre au moment de la 25^e^ réunion de la CGPM, à :
+
+      |===
+      | 11 980 000 euros en 2016
+
+      | 11 980 000 euros en 2017
+      | 11 980 000 euros en 2018
+      | 11 980 000 euros en 2019
+
+      |===
   - type: urges
     date_effective: 2014-11-20
     message: "*prie instamment* les États Membres, ainsi que les organisations internationales,

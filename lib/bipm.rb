@@ -127,6 +127,51 @@ FileUtils.rm_rf "meetings-en"
 
     #binding.pry if ps.count != 1
 
+    # Replace a table in a center with just a table
+    #ps.css('center>table').each do |i|
+    #  i.parent.replace i
+    #end
+
+    # Replace a group of centers (> 1) with a table
+    centers = ps.css('center').to_a
+    while centers.length > 0
+      center = centers.first
+      current = center
+      mycenters = [center]
+      loop do
+        break unless current.next
+        while Nokogiri::XML::Text === current.next
+          current = current.next
+          break if current.text.strip != ''
+        end
+        break unless current.next
+        break unless current.next.name == "center"
+        current = current.next
+        mycenters << current
+      end
+      centers -= mycenters
+      if mycenters.length > 1
+        newtable = Nokogiri::HTML::Builder.new do |doc|
+          doc.table {
+            mycenters.each do |i|
+              doc.tr {
+                doc.td {
+                  doc << i.inner_html
+                }
+              }
+            end
+          }
+        end.to_html
+        mycenters.first.replace newtable
+        mycenters[1..-1].each &:remove
+      end
+    end
+
+    # Remove the remaining centers
+    ps.css('center').each do |i|
+      i.replace i.inner_html
+    end
+
     doc = ps.inner_html.encode('utf-8').gsub("\r", '').gsub(%r'</?nobr>','')
     # doc = AsciiMath.html_to_asciimath(doc)
     parts = doc.split(/(\n(?:<p>)?<b>.*?<\/b>|<p>(?:après examen |après avoir entendu )|having noted that |decides to define |décide de définir |considers that|estime que|declares<\/p>)/)

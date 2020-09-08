@@ -382,10 +382,12 @@ resolutions:
       for the BIPM Capacity Building and Knowledge Transfer programme,
   - type: decides
     date_effective: 2018-11-16
-    message: |-
-      *decides* that
-
-      the annual dotation of the BIPM, as defined in link:/utils/common/documents/official/metre-convention.pdf#page=16[Article 6 (1921) of the Regulations annexed to the Metre Convention], will be set in such a way that, for those States that are Parties to the Metre Convention at the time of the 26th meeting of the CGPM, it shall be: <center>12 356 526 euros in 2020</center><center>12 480 091 euros in 2021</center><center>12 604 892 euros in 2022</center><center>12 730 941 euros in 2023</center>
+    message: "*decides* that\n\nthe annual dotation of the BIPM, as defined in link:/utils/common/documents/official/metre-convention.pdf#page=16[Article
+      6 (1921) of the Regulations annexed to the Metre Convention], will be set in
+      such a way that, for those States that are Parties to the Metre Convention at
+      the time of the 26th meeting of the CGPM, it shall be: \n\n|===\n| 12 356 526
+      euros in 2020\n\n| 12 480 091 euros in 2021\n| 12 604 892 euros in 2022\n| 12
+      730 941 euros in 2023\n\n|==="
   - type: encourages
     date_effective: 2018-11-16
     message: encourages Member States, as well as international organizations, private

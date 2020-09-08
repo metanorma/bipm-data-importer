@@ -139,30 +139,15 @@ resolutions:
     message: |-
       décide d'accroître la partie fixe de la dotation annuelle à partir du 1^er^ janvier 1965 par rapport à ce qu'elle était avant le 1^er^ octobre 1964, de façon que l'ensemble de la partie fixe et de la partie complémentaire calculée à cette dernière date soit porté graduellement à 1 750 000 francs-or de la façon suivante :
 
-      <center>
-      <table cellspacing="0" border="0" cellpadding="4" width="222">
-      <tr>
-      <td valign="top">
-      <p align="right">1 300 000 francs-or en 1965</p>
-      </td>
-      </tr>
-      <tr>
-      <td valign="top">
-      <p align="right">1 600 000 francs-or en 1966</p>
-      </td>
-      </tr>
-      <tr>
-      <td valign="top">
-      <p align="right">1 750 000 francs-or en 1967</p>
-      </td>
-      </tr>
-      <tr>
-      <td valign="top">
-      <p align="right">1 750 000 francs-or en 1968</p>
-      </td>
-      </tr>
-      </table>
-      </center>
+      [width=222]
+      |===
+      .<| 1 300 000 francs-or en 1965
+
+      .<| 1 600 000 francs-or en 1966
+      .<| 1 750 000 francs-or en 1967
+      .<| 1 750 000 francs-or en 1968
+
+      |===
 - dates:
   - 1964-10-13
   title: Atomic standard of frequency

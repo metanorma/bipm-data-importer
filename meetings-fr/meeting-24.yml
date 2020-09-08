@@ -369,7 +369,13 @@ resolutions:
     message: |-
       *décide* que la dotation annuelle du BIPM, telle que définie à l'article 6, 1921, du Règlement annexé à la Convention du Mètre, sera augmentée de façon à ce qu'elle soit portée, pour les États Parties à la Convention du Mètre au moment de la 24^e^ réunion de la CGPM, à :
 
-      <center>11 577 000 euros en 2013</center><center>11 693 000 euros en 2014</center><center>11 810 000 euros en 2015</center>
+      |===
+      | 11 577 000 euros en 2013
+
+      | 11 693 000 euros en 2014
+      | 11 810 000 euros en 2015
+
+      |===
 - dates:
   - 2011-10-21
   title: Sur le statut d'État Associé à la Conférence générale

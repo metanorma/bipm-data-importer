@@ -415,12 +415,14 @@ resolutions:
     message: |-
       *décide* que la partie fixe de la dotation annuelle du Bureau international des poids et mesures sera augmentée de telle façon que l'ensemble de la partie fixe et de la partie complémentaire (définie à l'Article 6 (1921) du Règlement annexé à la Convention du Mètre de 1875) soit, pour les États parties à la Convention à l'époque de la 20^e^ Conférence générale des poids et mesures, portée à
 
-      <center><table>
-      <tr><td>27 144 000 francs-or en 1997</td></tr>
-      <tr><td>28 365 000 francs-or en 1998</td></tr>
-      <tr><td>29 642 000 francs-or en 1999</td></tr>
-      <tr><td>30 976 000 francs-or en 2000.</td></tr>
-      </table></center>
+      |===
+      | 27 144 000 francs-or en 1997
+
+      | 28 365 000 francs-or en 1998
+      | 29 642 000 francs-or en 1999
+      | 30 976 000 francs-or en 2000.
+
+      |===
 - dates:
   - 1995-10-13
   title: Futures relations avec l'Organisation internationale de métrologie légale

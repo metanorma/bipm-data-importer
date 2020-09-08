@@ -300,7 +300,14 @@ resolutions:
     message: |-
       *decides that* the annual dotation of the BIPM, as defined in link:/utils/common/documents/official/metre-convention.pdf#page=16[Article 6, 1921, of the Regulations annexed to the Metre Convention], will be set in such a way that, for those States that are Parties to the Metre Convention at the time of the 25th meeting of the CGPM, it shall be:
 
-      <center>11 980 000 euros in 2016</center><center>11 980 000 euros in 2017</center><center>11 980 000 euros in 2018</center><center>11 980 000 euros in 2019</center>
+      |===
+      | 11 980 000 euros in 2016
+
+      | 11 980 000 euros in 2017
+      | 11 980 000 euros in 2018
+      | 11 980 000 euros in 2019
+
+      |===
   - type: urges
     date_effective: 2014-11-20
     message: urges Member States, as well as international organizations, private

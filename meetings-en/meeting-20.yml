@@ -400,12 +400,14 @@ resolutions:
     message: |-
       *decides* that the fixed part of the annual dotation of the Bureau International des Poids et Mesures will be increased in a way such that the sum of the fixed part and the complementary part (defined by Article 6; (1921) of the Rules annexed to the Convention du Mètre 1875) shall, for those States members of the Convention du Mètre at the time of the 20th Conférence Générale des Poids et Mesures, be
 
-      <center><table>
-      <tr><td>27 144 000 gold francs in 1997</td></tr>
-      <tr><td>28 365 000 gold francs in 1998</td></tr>
-      <tr><td>29 642 000 gold francs in 1999</td></tr>
-      <tr><td>30 976 000 gold francs in 2000.</td></tr>
-      </table></center>
+      |===
+      | 27 144 000 gold francs in 1997
+
+      | 28 365 000 gold francs in 1998
+      | 29 642 000 gold francs in 1999
+      | 30 976 000 gold francs in 2000.
+
+      |===
 - dates:
   - 1995-10-13
   title: Future relations with the Organisation Internationale de Métrologie Légale

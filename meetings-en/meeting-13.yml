@@ -347,31 +347,15 @@ resolutions:
     message: |-
       considérant que les dotations minimales décidées par sa link:/fr/CGPM/db/13/10/[Résolution 10], à savoir
 
-      <center>
-      <table cellspacing="0" border="0" cellpadding="4" width="222">
-      <tr>
-      <td valign="top">
-      <p align="right">1 910 000 francs-or en 1969</p>
-      </td>
-      </tr>
-      <tr>
-      <td valign="top">
-      <p align="right">2 080 000 francs-or en 1970</p>
-      </td>
-      </tr>
-      <tr>
-      <td valign="top">
-      <p align="right">2 270 000 francs-or en 1971</p>
-      </td>
-      </tr>
-      <tr>
-      <td valign="top">
-      <p align="right">2 475 000 francs-or en 1972</p>
-      </td>
-      </tr>
-      </table>
-      </center>
+      [width=222]
+      |===
+      .<| 1 910 000 francs-or en 1969
 
+      .<| 2 080 000 francs-or en 1970
+      .<| 2 270 000 francs-or en 1971
+      .<| 2 475 000 francs-or en 1972
+
+      |===
       doivent être complétées par des ressources supplémentaires destinées à assurer le développement du Bureau international des poids et mesures,
   actions:
   - type: decides
@@ -379,30 +363,15 @@ resolutions:
     message: |-
       décide d'allouer au Bureau international, dans les quatre années 1969-1972, les sommes supplémentaires suivantes :
 
-      <center>
-      <table cellspacing="0" border="0" cellpadding="4" width="222">
-      <tr>
-      <td valign="top">
-      <p align="right">90 000 francs-or en 1969</p>
-      </td>
-      </tr>
-      <tr>
-      <td valign="top">
-      <p align="right">210 000 francs-or en 1970</p>
-      </td>
-      </tr>
-      <tr>
-      <td valign="top">
-      <p align="right">350 000 francs-or en 1971</p>
-      </td>
-      </tr>
-      <tr>
-      <td valign="top">
-      <p align="right">515 000 francs-or en 1972</p>
-      </td>
-      </tr>
-      </table>
-      </center>
+      [width=222]
+      |===
+      .<| 90 000 francs-or en 1969
+
+      .<| 210 000 francs-or en 1970
+      .<| 350 000 francs-or en 1971
+      .<| 515 000 francs-or en 1972
+
+      |===
   - type: appoints
     date_effective: 1967-10-16
     message: autorise que ces sommes supplémentaires puissent être payées en monnaie
