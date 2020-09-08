@@ -238,12 +238,22 @@ resolutions:
       aux travaux du Comité international, et
   - type: invites / further invites
     date_effective: 2003-10-17
-    message: |-
-      invite le Comité international
-
-       à continuer de suivre de près les demandes croissantes faites aux laboratoires nationaux de métrologie et au BIPM en ce qui concerne leurs activités actuelles et les activités métrologiques supplémentaires résultant de besoins nouveaux dans des domaines tels que la chimie, la biotechnologie, la médecine, l'environnement et les sciences de la nutrition,
-       à présenter un rapport à la prochaine Conférence générale traitant du bien-fondé de la réponse du BIPM à ces besoins et les implications financières éventuelles, ainsi que sur le programme de travail du BIPM en réponse à de tels besoins internationaux, et
-       si nécessaire, d'actualiser le Rapport de 2002.
+    message: invite le Comité international à continuer de suivre de près les demandes
+      croissantes faites aux laboratoires nationaux de métrologie et au BIPM en ce
+      qui concerne leurs activités actuelles et les activités métrologiques supplémentaires
+      résultant de besoins nouveaux dans des domaines tels que la chimie, la biotechnologie,
+      la médecine, l'environnement et les sciences de la nutrition,
+  - type: invites / further invites
+    date_effective: 2003-10-17
+    message: invite le Comité international à présenter un rapport à la prochaine
+      Conférence générale traitant du bien-fondé de la réponse du BIPM à ces besoins
+      et les implications financières éventuelles, ainsi que sur le programme de travail
+      du BIPM en réponse à de tels besoins internationaux, et
+  - type: invites / further invites
+    date_effective: 2003-10-17
+    message: invite le Comité international si nécessaire, d'actualiser le Rapport
+      de 2002.
+  subject: Comité international
 - dates:
   - 2003-10-17
   title: Sur l'importance de l'Arrangement de reconnaissance mutuelle du Comité international

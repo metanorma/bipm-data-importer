@@ -56,7 +56,7 @@ ACTIONS = {
 
 PREFIX=/(?:La Conférence |The Conference |and |et |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir )?/i
 
-SUFFIX=/(?: (?:the )?(.{0,80}?) (?:to)\b| (?:that|que)\b|)/
+SUFFIX=/ (?:that|que)\b|(?: (?:the |that |le |que les )?((?:[A-Z]|national|laboratoires).{0,80}?)(?: to)?\b|)/
 
 a = Mechanize.new
 

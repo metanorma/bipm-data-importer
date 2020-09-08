@@ -88,12 +88,18 @@ resolutions:
   actions:
   - type: invites / further invites
     date_effective: 1983-10-21
-    message: |-
-      *invite* le Comité international des poids et mesures
-
-      * à établir des instructions pour la mise en pratique de la nouvelle définition du mètre,
-      * à choisir des radiations qui puissent être recommandées comme étalons de longueur d'onde pour la mesure interférentielle des longueurs et à établir des instructions pour leur emploi,
-      * à poursuivre les études entreprises pour améliorer ces étalons.
+    message: invite le Comité international des poids et mesures à établir des instructions
+      pour la mise en pratique de la nouvelle définition du mètre,
+  - type: invites / further invites
+    date_effective: 1983-10-21
+    message: invite le Comité international des poids et mesures à choisir des radiations
+      qui puissent être recommandées comme étalons de longueur d'onde pour la mesure
+      interférentielle des longueurs et à établir des instructions pour leur emploi,
+  - type: invites / further invites
+    date_effective: 1983-10-21
+    message: invite le Comité international des poids et mesures à poursuivre les
+      études entreprises pour améliorer ces étalons.
+  subject: Comité international des poids et mesures
 - dates:
   - 1983-10-21
   title: Sur la masse volumique de l'air
@@ -117,12 +123,18 @@ resolutions:
   actions:
   - type: invites / further invites
     date_effective: 1983-10-21
-    message: |-
-      *invite* le Comité international des poids et mesures
-
-      * à établir et à recommander une telle formule,
-      * à poursuivre et coordonner les études entreprises ou à entreprendre pour améliorer la détermination expérimentale de la masse volumique de l'air et de la correction due à la poussée de l'air,
-      * à mettre à jour la formule recommandée lorsque de meilleures déterminations expérimentales le permettront.
+    message: invite le Comité international des poids et mesures à établir et à recommander
+      une telle formule,
+  - type: invites / further invites
+    date_effective: 1983-10-21
+    message: invite le Comité international des poids et mesures à poursuivre et coordonner
+      les études entreprises ou à entreprendre pour améliorer la détermination expérimentale
+      de la masse volumique de l'air et de la correction due à la poussée de l'air,
+  - type: invites / further invites
+    date_effective: 1983-10-21
+    message: invite le Comité international des poids et mesures à mettre à jour la
+      formule recommandée lorsque de meilleures déterminations expérimentales le permettront.
+  subject: Comité international des poids et mesures
 - dates:
   - 1983-10-21
   title: Dotation du BIPM

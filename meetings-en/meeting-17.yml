@@ -89,12 +89,18 @@ resolutions:
   actions:
   - type: invites / further invites
     date_effective: 1983-10-21
-    message: |-
-      *invites* the Comité International des Poids et Mesures
-
-      * to draw up instructions for the practical realization of the new definition of the metre,
-      * to choose radiations which can be recommended as standards of wavelength for the interferometric measurement of length and to draw up instructions for their use,
-      * to pursue studies undertaken to improve these standards.
+    message: invites the Comité International des Poids et Mesures to draw up instructions
+      for the practical realization of the new definition of the metre,
+  - type: invites / further invites
+    date_effective: 1983-10-21
+    message: invites the Comité International des Poids et Mesures to choose radiations
+      which can be recommended as standards of wavelength for the interferometric
+      measurement of length and to draw up instructions for their use,
+  - type: invites / further invites
+    date_effective: 1983-10-21
+    message: invites the Comité International des Poids et Mesures to pursue studies
+      undertaken to improve these standards.
+  subject: Comité International des Poids et Mesures
 - dates:
   - 1983-10-21
   title: Density of air
@@ -118,12 +124,18 @@ resolutions:
   actions:
   - type: invites / further invites
     date_effective: 1983-10-21
-    message: |-
-      invites the Comité International des Poids et Mesures
-
-      * to draw up and recommend such an equation,
-      * to pursue and coordinate the studies undertaken or to undertake to improve the experimental determination of the density of air and of the correction due to air-buoyancy,
-      * to bring up to date the recommended equation when better experimental determinations permit.
+    message: invites the Comité International des Poids et Mesures to draw up and
+      recommend such an equation,
+  - type: invites / further invites
+    date_effective: 1983-10-21
+    message: invites the Comité International des Poids et Mesures to pursue and coordinate
+      the studies undertaken or to undertake to improve the experimental determination
+      of the density of air and of the correction due to air-buoyancy,
+  - type: invites / further invites
+    date_effective: 1983-10-21
+    message: invites the Comité International des Poids et Mesures to bring up to
+      date the recommended equation when better experimental determinations permit.
+  subject: Comité International des Poids et Mesures
 - dates:
   - 1983-10-21
   title: Appropriation for the BIPM

@@ -468,11 +468,16 @@ resolutions:
   actions:
   - type: recommends
     date_effective: 1999-10-15
-    message: |-
-      *recommends* that national metrology institutes
-
-       continue to initiate and coordinate national activities in the field of metrology in chemistry, in close cooperation with other relevant bodies,
-       in collaboration with the International Committee, work to define the areas of priority and essential international comparisons which are key to the traceability of measurements in chemistry, both worldwide and within regions.
+    message: recommends that national metrology institutes continue to initiate and
+      coordinate national activities in the field of metrology in chemistry, in close
+      cooperation with other relevant bodies,
+  - type: recommends
+    date_effective: 1999-10-15
+    message: recommends that national metrology institutes in collaboration with the
+      International Committee, work to define the areas of priority and essential
+      international comparisons which are key to the traceability of measurements
+      in chemistry, both worldwide and within regions.
+  subject: national metrology institutes
 - dates:
   - 1999-10-15
   title: Metrology in biotechnology
@@ -499,11 +504,15 @@ resolutions:
   actions:
   - type: recommends
     date_effective: 1999-10-15
-    message: |-
-      *recommends* national laboratories
-
-       to consider developing programmes related to the measurement of quantities important in biotechnology,
-       to collaborate with the international scientific unions and the international organizations concerned in the establishment of an adequate international measurement infrastructure to ensure traceability to the SI in measurements in biotechnology.
+    message: recommends national laboratories to consider developing programmes related
+      to the measurement of quantities important in biotechnology,
+  - type: recommends
+    date_effective: 1999-10-15
+    message: recommends national laboratories to collaborate with the international
+      scientific unions and the international organizations concerned in the establishment
+      of an adequate international measurement infrastructure to ensure traceability
+      to the SI in measurements in biotechnology.
+  subject: national laboratories
 - dates:
   - 1999-10-15
   title: Special name for the SI derived unit mole per second, the katal, for the

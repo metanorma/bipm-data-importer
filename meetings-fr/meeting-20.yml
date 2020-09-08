@@ -158,11 +158,15 @@ resolutions:
   actions:
   - type: recommends
     date_effective: 1995-10-13
-    message: |-
-      *recommande* que les laboratoires nationaux
-
-       continuent à entreprendre des recherches métrologiques à long terme aussi bien qu'à répondre aux besoins plus immédiats des services métrologiques et
-       informent régulièrement le Bureau international des poids et mesures des résultats des travaux liés à la métrologie fondamentale.
+    message: recommande que les laboratoires nationaux continuent à entreprendre des
+      recherches métrologiques à long terme aussi bien qu'à répondre aux besoins plus
+      immédiats des services métrologiques et
+  - type: recommends
+    date_effective: 1995-10-13
+    message: recommande que les laboratoires nationaux informent régulièrement le
+      Bureau international des poids et mesures des résultats des travaux liés à la
+      métrologie fondamentale.
+  subject: laboratoires nationaux
 - dates:
   - 1995-10-13
   title: Révision de la mise en pratique de la définition du mètre

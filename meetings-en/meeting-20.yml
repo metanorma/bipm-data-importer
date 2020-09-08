@@ -149,11 +149,15 @@ resolutions:
   actions:
   - type: recommends
     date_effective: 1995-10-13
-    message: |-
-      *recommends* that national laboratories
-
-       continue to undertake long-term metrological research as well as meeting the more immediate requirements of measurement services and
-       keep the Bureau International des Poids et Mesures informed as to the results of the work related to fundamental metrology.
+    message: recommends that national laboratories continue to undertake long-term
+      metrological research as well as meeting the more immediate requirements of
+      measurement services and
+  - type: recommends
+    date_effective: 1995-10-13
+    message: recommends that national laboratories keep the Bureau International des
+      Poids et Mesures informed as to the results of the work related to fundamental
+      metrology.
+  subject: national laboratories
 - dates:
   - 1995-10-13
   title: Revision of the mise en pratique of the definition of the metre

@@ -496,11 +496,17 @@ resolutions:
   actions:
   - type: recommends
     date_effective: 1999-10-15
-    message: |-
-      *recommande* que les laboratoires nationaux de métrologie
-
-       poursuivent leurs efforts en vue de commencer ou de coordonner, dans leur pays, les activités dans le domaine de la métrologie en chimie, en collaboration étroite avec les organismes concernés,
-       définissent, en collaboration avec le Comité international, les domaines prioritaires et les comparaisons clés internationales essentielles pour établir la traçabilité des mesures en chimie, aussi bien au niveau mondial qu'au niveau régional.
+    message: recommande que les laboratoires nationaux de métrologie poursuivent leurs
+      efforts en vue de commencer ou de coordonner, dans leur pays, les activités
+      dans le domaine de la métrologie en chimie, en collaboration étroite avec les
+      organismes concernés,
+  - type: recommends
+    date_effective: 1999-10-15
+    message: recommande que les laboratoires nationaux de métrologie définissent,
+      en collaboration avec le Comité international, les domaines prioritaires et
+      les comparaisons clés internationales essentielles pour établir la traçabilité
+      des mesures en chimie, aussi bien au niveau mondial qu'au niveau régional.
+  subject: laboratoires nationaux de métrologie
 - dates:
   - 1999-10-15
   title: Métrologie en biotechnologie
@@ -528,11 +534,15 @@ resolutions:
   actions:
   - type: recommends
     date_effective: 1999-10-15
-    message: |-
-      *recommande* que les laboratoires nationaux
-
-       envisagent de développer des programmes liés à la mesure de grandeurs importantes en biotechnologie,
-       collaborent avec les unions scientifiques internationales et autres organisations internationales concernées pour établir, à l'échelle mondiale, une infrastructure adéquate pour garantir la traçabilité au SI des mesures en biotechnologie.
+    message: recommande que les laboratoires nationaux envisagent de développer des
+      programmes liés à la mesure de grandeurs importantes en biotechnologie,
+  - type: recommends
+    date_effective: 1999-10-15
+    message: recommande que les laboratoires nationaux collaborent avec les unions
+      scientifiques internationales et autres organisations internationales concernées
+      pour établir, à l'échelle mondiale, une infrastructure adéquate pour garantir
+      la traçabilité au SI des mesures en biotechnologie.
+  subject: laboratoires nationaux
 - dates:
   - 1999-10-15
   title: Nom spécial donné à l'unité SI mole par seconde, le katal, pour exprimer

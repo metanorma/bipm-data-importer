@@ -56,11 +56,15 @@ resolutions:
   actions:
   - type: requests
     date_effective: 1971-10-08
-    message: |-
-      *requests* the CIPM
-
-      . to give a definition of International Atomic Time,
-      . to take the necessary steps, in agreement with the international organizations concerned, to ensure that available scientific competence and existing facilities are used in the best possible way to realize the International Atomic Time scale and to satisfy the requirements of users of International Atomic Time.
+    message: requests the CIPM to give a definition of International Atomic Time,
+  - type: requests
+    date_effective: 1971-10-08
+    message: requests the CIPM to take the necessary steps, in agreement with the
+      international organizations concerned, to ensure that available scientific competence
+      and existing facilities are used in the best possible way to realize the International
+      Atomic Time scale and to satisfy the requirements of users of International
+      Atomic Time.
+  subject: CIPM
 - dates:
   - 1971-10-08
   title: Temps atomique international ; arrangements avec le Bureau international
