@@ -37,23 +37,23 @@ module AsciiMath
        .gsub(/stem:\[(#{STEM})\]\^stem:\[(#{STEM})\]\^/, 'stem:[\1^(\2)]') # Connectors for super stems
        .gsub(/stem:\[(#{STEM})\] ?[´x×·] ?stem:\[(#{STEM})\]/, 'stem:[\1 * \2]') # Connectors pass 1
        .gsub(        /(#{DIGIT}) ?[´x×·] ?stem:\[(#{STEM})\]/, 'stem:[\1 * \2]')
-       .gsub(        /(#{DIGIT})( ?| ?[=\/+] ?)stem:\[(#{STEM})\]/, 'stem:[\1\2\3]')
-       .gsub(/stem:\[(#{STEM})\]( ?| ?[=\/+] ?)(#{DIGIT})/,         'stem:[\1\2\3]')
-       .gsub(/stem:\[(#{STEM})\]( ?| ?[=\/+] ?)stem:\[(#{STEM})\]/, 'stem:[\1\2\3]') # End connectors pass 1
+       .gsub(        /(#{DIGIT})( ?| ?[=\/+-] ?)stem:\[(#{STEM})\]/, 'stem:[\1\2\3]')
+       .gsub(/stem:\[(#{STEM})\]( ?| ?[=\/+-] ?)(#{DIGIT})/,         'stem:[\1\2\3]')
+       .gsub(/stem:\[(#{STEM})\]( ?| ?[=\/+-] ?)stem:\[(#{STEM})\]/, 'stem:[\1\2\3]') # End connectors pass 1
        .gsub(/stem:\[(#{STEM})\]\(stem:\[(#{STEM})\]\)/, 'stem:[\1(\2)]') # Functions
        .gsub(/\(stem:\[(#{STEM})\]\)stem:\[(#{STEM})\]/, 'stem:[(\1)\2]')
        .gsub(/\(stem:\[(#{STEM})\]\)/, 'stem:[(\1)]') # Capture parens inside
        .gsub(/stem:\[(#{STEM})\] ?[´x×·] ?stem:\[(#{STEM})\]/, 'stem:[\1 * \2]') # Connectors pass 2
        .gsub(        /(#{DIGIT}) ?[´x×·] ?stem:\[(#{STEM})\]/, 'stem:[\1 * \2]')
-       .gsub(        /(#{DIGIT})( ?| ?[=\/+] ?)stem:\[(#{STEM})\]/, 'stem:[\1\2\3]')
-       .gsub(/stem:\[(#{STEM})\]( ?| ?[=\/+] ?)(#{DIGIT})/,         'stem:[\1\2\3]')
-       .gsub(/stem:\[(#{STEM})\]( ?| ?[=\/+] ?)stem:\[(#{STEM})\]/, 'stem:[\1\2\3]') # End connectors pass 2
+       .gsub(        /(#{DIGIT})( ?| ?[=\/+-] ?)stem:\[(#{STEM})\]/, 'stem:[\1\2\3]')
+       .gsub(/stem:\[(#{STEM})\]( ?| ?[=\/+-] ?)(#{DIGIT})/,         'stem:[\1\2\3]')
+       .gsub(/stem:\[(#{STEM})\]( ?| ?[=\/+-] ?)stem:\[(#{STEM})\]/, 'stem:[\1\2\3]') # End connectors pass 2
        .gsub(/stem:\[(#{STEM})\](TT|TCG)/, 'stem:[\1 "\2"]') # Stem extension for something I have no idea about
        .gsub(/stem:\[(#{STEM})\]~(hfs)~/, 'stem:[\1_("\2")]') # Stem extension for something I have no idea about
        .gsub(/(UTC)stem:\[(#{STEM})\]/, 'stem:["\1" \2]') # Stem extension for timezones
        .gsub(/#{SPACE_BEFORE}(#{PREFIXES})(#{UNITS})\^stem:\[(#{STEM})\]\^#{SPACE_AFTER}/, 'stem:[ESCUN"\1\2"^(\3)ESCUN]') # Basic units with stem powers
-       .gsub(/stem:\[(#{STEM})\]( ?| ?[=\/+] ?)stem:\[(#{STEM})\]/, 'stem:[\1\2\3]') # Try connecting two times more
-       .gsub(/stem:\[(#{STEM})\]( ?| ?[=\/+] ?)stem:\[(#{STEM})\]/, 'stem:[\1\2\3]') # Try connecting two times more
+       .gsub(/stem:\[(#{STEM})\]( ?| ?[=\/+-] ?)stem:\[(#{STEM})\]/, 'stem:[\1\2\3]') # Try connecting two times more
+       .gsub(/stem:\[(#{STEM})\]( ?| ?[=\/+-] ?)stem:\[(#{STEM})\]/, 'stem:[\1\2\3]') # Try connecting two times more
        .gsub(/stem:\[(#{STEM})\]/) { "stem:[#{$1.gsub(",", '","')}]" } # French special case
        .gsub(/ESCUN\s*ESCUN/, ' * ')
        .gsub(" sf pi ", " pi ") # serif pi looks ugly in AsciiMath. They probably mean italics pi
