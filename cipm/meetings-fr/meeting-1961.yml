@@ -12,10 +12,13 @@ resolutions:
   approvals:
   - type: affirmative
     degree: unanimous
-    message: Unanimous
+    message: |-
+      +
+
+      Le Comité international des poids et mesures
   considerations: []
-  actions: []
-  x-unparsed:
-  - Le Comité international des poids et mesures recommande que les résultats des
-    mesures précises de volume soient exprimés en unités du Système international
-    et non en litres.
+  actions:
+  - type: recommends
+    date_effective: 1961-01-01
+    message: recommande que les résultats des mesures précises de volume soient exprimés
+      en unités du Système international et non en litres.

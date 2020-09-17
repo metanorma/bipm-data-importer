@@ -36,16 +36,15 @@ resolutions:
       étalons fondés sur des cuves à iode, qui figurent sur la liste complémentaire
       de radiations recommandées, mesures qui conduisent à une réduction considérable
       de l'incertitude ;
-  actions: []
-  x-unparsed:
-  - |-
-    propose que la liste des radiations recommandées soit révisée pour inclure :
+  actions:
+  - type: encourages
+    date_effective: 2003-01-01
+    message: |-
+      *propose* que la liste des radiations recommandées soit révisée pour inclure :
 
-    les valeurs mises à jour des fréquences de la transition quadripolaire de l'ion piégé de 88Sr+ et de la transition octupolaire de l'ion piégé de 171Yb+ ;
-
-    la valeur mise à jour de la fréquence de l'étalon asservi sur l'acétylène à 1.54 µm ;
-
-    des valeurs mises à jour de la fréquence d'étalons asservis sur l'iode à  543 nm et à 515 nm.
+      * les valeurs mises à jour des fréquences de la transition quadripolaire de l'ion piégé de ^stem:[88^(Sr)]+^ et de la transition octupolaire de l'ion piégé de ^stem:[171^(Yb)]+^ ;
+      * la valeur mise à jour de la fréquence de l'étalon asservi sur l'acétylène à 1.54 µm ;
+      * des valeurs mises à jour de la fréquence d'étalons asservis sur l'iode à 543 nm et à 515 nm.
 - dates:
   - 2003-01-01
   title: Symbole du séparateur décimal dans le Système international d'unités (SI)

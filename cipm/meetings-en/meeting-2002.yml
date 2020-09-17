@@ -16,8 +16,6 @@ resolutions:
     message: Unanimous
   considerations: []
   actions: []
-  x-unparsed:
-  - "[Cliquer ici]"
 - dates:
   - 2002-01-01
   title: Dose equivalent

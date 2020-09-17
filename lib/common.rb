@@ -18,7 +18,7 @@ end
 CONSIDERATIONS = {
   /(?:having(?: regard)?|ayant|acceptant|concerne|referring|se référant|vu la|agissant conformément)/i => "having / having regard",
   /(?:noting|notes|observing|observant que|taking note|takes note|constatant|constate|that|note|notant|notant que|note également|(?:prend|prenant) (?:acte|note))/i => "noting",
-  /(?:recognizing|recognizes|reconnaissant|reconnaît|acting in accordance)/i => "recognizing",
+  /(?:recognizing|recognizes|reconnaissant|reconnaît|acting in accordance|conformément à)/i => "recognizing",
   /(?:acknowledging|accept(?:s|ing)|admet|entendu|empowered by|habilité par)/i => "acknowledging",
   /(?:(?:further )?recall(?:ing|s)|rappelant|rappelle)/i => "recalling / further recalling",
   /(?:re-?affirm(?:ing|s)|réaffirme)/i => "reaffirming",
@@ -38,7 +38,8 @@ ACTIONS = {
   /(?:The unit of length is|Supplementary units|Principl?es|Les Délégués des États|Les v\u{9C}ux ou propositions)/i => "decides", # MISC - like declares/defines
   /(?:L'unité de longueur|Unités supplémentaires|New candle|New lumen|Definitions of|Cubic decimetre|Clarification of|Revision of)/i => "decides", # MISC - like declares/defines
   /(?:Unit of force|Définitions des|Décimètre cube|Étalons secondaires|Unité spéciale|Efficacités lumineuses)/i => "decides", # MISC - like declares/defines
-  /(?:Unité de force|(?:Joule|Watt|Ampere) \(unité?|Bougie nouvelle|Lumen nouveau)/i => "decides", # MISC - like declares/defines
+  /(?:Unité de force|(?:Joule|Watt|Volt|Ohm|Amp[eè]re|Coulomb|Farad|Henry|Weber) \(unité?|Bougie nouvelle|Lumen nouveau)/i => "decides", # MISC - like declares/defines
+  /(?:Les unités photométriques|\(A\) D[eé]finitions|The photometric units)/i => "decides", # MISC - like declares/defines
   /(?:asks|souhaite)/i => "asks",
   /(?:further )?invites?|renouvelle en conséquence/i => "invites / further invites",
   "resolves" => "resolves",
@@ -52,11 +53,11 @@ ACTIONS = {
   /(?:appoints|autorise|empowers|charge|donne|habilite|Pendant la période)/i => "appoints",
   "resolves further" => "resolves further",
   /(?:calls upon|draws the attention|attire l'attention|lance un appel)/i => "calls upon",
-  /(?:encourages?|espère|proposes)/i => "encourages",
+  /(?:encourages?|espère|proposes?)/i => "encourages",
   /(?:affirms|reaffirming|réaffirmant|states|remarks|remarques)/i => "affirms / reaffirming",
 }
 
-PREFIX=/(?:La Conférence |The Conference |and |et |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir )?/i
+PREFIX=/(?:La Conférence |The Conference |and |et |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir |\.\.\.\n+)?/i
 
 SUFFIX=/ (?:that|que)\b|(?: (?:the |that |le |que les )?((?:[A-Z]|national|laboratoires).{0,80}?)(?: to)?\b|)/
 
@@ -178,13 +179,13 @@ module Common
     doc = ps.inner_html.encode('utf-8').gsub("\r", '').gsub(%r'</?nobr>','')
     # doc = AsciiMath.html_to_asciimath(doc)
 
-    parts = doc.split(/(\n(?:<p>)?<b>.*?<\/b>|<p>(?:après examen |après avoir entendu )|having noted that |decides to define |décide de définir |considers that|estime que|declares<\/p>|<a name="_ftn\d)/)
+    parts = doc.split(/(\n(?:<p>)?<b>.*?<\/b>|<p>(?:après examen |après avoir entendu )|having noted that |decides to define |décide de définir |conformément à l'invitation|acting in accordance with|recommande que les résultats|(?:considers|recommends) that|estime que|declares<\/p>|<a name="_ftn\d)/)
     nparts = [parts.shift]
     while parts.length > 0
       nparts << parts.shift + parts.shift
     end
 
-    if nparts.first =~ /([mM]esures( \(CGPM\))?|CGPM| \(CCTC\)| Conference|\[de thermométrie et calorimétrie\]|,)[ \n]?(<\/p>)?\n?\z/
+    if nparts.first =~ /([mM]esures( \(C[GI]PM\))?|CGPM| \(CCTC\)| Conference|\[de thermométrie et calorimétrie\]|,)[ \n]?(<\/p>)?\n?\z/
       r["approvals"].first["message"] = Common.format_message(nparts.shift)
     end
 
@@ -226,7 +227,7 @@ module Common
         next
       end
 
-      next if parse == ''
+      next if parse =~ /\A(|\[Cliquer ici\]|Click here)\z/
 
       r["x-unparsed"] ||= []
       r["x-unparsed"] << parse #ReverseAdoc.convert(part).strip

@@ -15,8 +15,6 @@ resolutions:
     message: Unanimous
   considerations: []
   actions: []
-  x-unparsed:
-  - "[Cliquer ici]"
 - dates:
   - 2005-01-01
   title: Revision of the Mise en pratique list of recommended radiations
@@ -28,5 +26,3 @@ resolutions:
     message: Unanimous
   considerations: []
   actions: []
-  x-unparsed:
-  - "[Cliquer ici]"

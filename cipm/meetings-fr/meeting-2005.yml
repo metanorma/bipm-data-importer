@@ -27,8 +27,6 @@ resolutions:
     message: Unanimous
   considerations: []
   actions: []
-  x-unparsed:
-  - Click here
 - dates:
   - 2005-01-01
   title: Révision de la liste des radiations recommandées pour la mise en pratique
@@ -41,5 +39,3 @@ resolutions:
     message: Unanimous
   considerations: []
   actions: []
-  x-unparsed:
-  - Click here
