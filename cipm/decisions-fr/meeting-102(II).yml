@@ -106,13 +106,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2013-10-01
+    message: confie au bureau du CIPM la mission de préparer la Convocation et les
+      Résolutions de la 25^e^ réunion de la Conférence générale des poids et mesures
+      (CGPM), à partir des projets de documents discutés lors de la réunion du CIPM
+      et en tenant compte des commentaires formulés par le CIPM, et de les faire circuler.
   subject: Le CIPM
-  x-unparsed:
-  - confie au bureau du CIPM la mission de préparer la Convocation et les Résolutions
-    de la 25e réunion de la Conférence générale des poids et mesures (CGPM), à partir
-    des projets de documents discutés lors de la réunion du CIPM et en tenant compte
-    des commentaires formulés par le CIPM, et de les faire circuler.
 - dates:
   - 2013-10-01
   title: Décision CIPM/102-34

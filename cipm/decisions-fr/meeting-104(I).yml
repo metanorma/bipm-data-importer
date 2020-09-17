@@ -158,12 +158,13 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/104(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2015-I-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: decides
+    date_effective: 2015-03-01
+    message: prendra contact avec F. Weritz, présidente de la Commission pour l'élection
+      du CIPM mise en place par la CGPM, afin de l'informer de l'élection des nouveaux
+      membres du bureau du CIPM.
   subject: Le secrétaire du CIPM
-  x-unparsed:
-  - prendra contact avec F. Weritz, présidente de la Commission pour l'élection du
-    CIPM mise en place par la CGPM, afin de l'informer de l'élection des nouveaux
-    membres du bureau du CIPM.
 - dates:
   - 2015-03-01
   title: Décision CIPM/104-12

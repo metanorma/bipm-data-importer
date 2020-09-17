@@ -96,14 +96,15 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/106.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2017-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - "Following review of the actuarial modelling carried out by the actuaries at Mercer,
-    and Decision CIPM/105 06 by which the CIPM: \n\nincreased the annual contributions
-    by the BIPM to the Pension Fund by 400 k€ in 2017 and 150 k€ in every year thereafter,
-    and \n\nimplemented increases in the contribution rate for active staff\n\nThe
-    CIPM decided unanimously that the Pension Point will not be adjusted for the period
-    2018-2019."
+  actions:
+  - type: decides
+    date_effective: 2017-10-01
+    message: "Following review of the actuarial modelling carried out by the actuaries
+      at Mercer, and Decision CIPM/105 06 by which the CIPM:\n\n* increased the annual
+      contributions by the BIPM to the Pension Fund by 400 k€ in 2017 and 150 k€ in
+      every year thereafter, and \n* implemented increases in the contribution rate
+      for active staff\nThe CIPM decided unanimously that the Pension Point will not
+      be adjusted for the period 2018-2019."
 - dates:
   - 2017-10-01
   title: Decision CIPM/106-8

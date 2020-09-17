@@ -24,20 +24,18 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: decides
+    date_effective: 2012-10-01
+    message: |-
+      developed a document summarizing the conclusions agreed at the meeting of Representatives of States Parties to the Metre Convention and Directors of National Metrology Institutes.
+
+      The BIPM Director will send the document summarizing the conclusions as soon as possible to all Member States, NMI Directors and CIPM members. [Action CIPM/101-13]
+
+      The BIPM Director and the Director Designate will define, in consultation with the BIPM Commission for Conditions of Employment (CCE), the terms of engagement of the BIPM staff members invited to take part in the CIPM _ad hoc_ Working Group on Conditions of Employment and Standing Sub-Committee on Pensions and Health Insurance. [Action CIPM/101-14]
+
+      The BIPM Director Designate will set a common format for the Terms of Reference of the CIPM Standing Sub-Committees and _ad hoc_ Working Groups. [Action CIPM/101-15]
   subject: The CIPM
-  x-unparsed:
-  - "developed a document summarizing the conclusions agreed at the meeting of Representatives
-    of States Parties to the Metre Convention and Directors of National Metrology
-    Institutes. \n\nThe BIPM Director will send the document summarizing the conclusions
-    as soon as possible to all Member States, NMI Directors and CIPM members. [Action
-    CIPM/101-13] \n\nThe BIPM Director and the Director Designate will define, in
-    consultation with the BIPM Commission for Conditions of Employment (CCE), the
-    terms of engagement of the BIPM staff members invited to take part in the CIPM
-    ad hoc Working Group on Conditions of Employment and Standing Sub-Committee on
-    Pensions and Health Insurance. [Action CIPM/101-14]\n\nThe BIPM Director Designate
-    will set a common format for the Terms of Reference of the CIPM Standing Sub-Committees
-    and ad hoc Working Groups. [Action CIPM/101-15]"
 - dates:
   - 2012-10-01
   title: Decision CIPM/101-43

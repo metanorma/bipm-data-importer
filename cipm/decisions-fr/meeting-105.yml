@@ -538,12 +538,13 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2016-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - À la suite de la démission du CIPM de MM. Bowsher, Brandi et Inguscio du CIPM,
-    le CIPM établit par vote une liste de trois candidats pour leur élection provisoire.
-    Le CIPM demande au secrétaire du CIPM de soumettre pour approbation à la Commission
-    pour l'élection du CIPM les noms de ces candidats.
+  actions:
+  - type: appoints
+    date_effective: 2016-10-01
+    message: À la suite de la démission du CIPM de MM. Bowsher, Brandi et Inguscio
+      du CIPM, le CIPM établit par vote une liste de trois candidats pour leur élection
+      provisoire. Le CIPM demande au secrétaire du CIPM de soumettre pour approbation
+      à la Commission pour l'élection du CIPM les noms de ces candidats.
 - dates:
   - 2016-10-01
   title: Décision CIPM/105-35

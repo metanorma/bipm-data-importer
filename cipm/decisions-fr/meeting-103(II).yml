@@ -271,13 +271,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2014-11-01
+    message: convient de réfléchir à des thèmes à examiner lors de l'atelier commun
+      au BIPM et à VAMAS sur les défis dans le domaine de la métrologie des matériaux,
+      prévu en 2016, et de faire des suggestions avant la fin de janvier 2015 afin
+      de donner des orientations au comité d'organisation de l'atelier.
   subject: Le CIPM
-  x-unparsed:
-  - convient de réfléchir à des thèmes à examiner lors de l'atelier commun au BIPM
-    et à VAMAS sur les défis dans le domaine de la métrologie des matériaux, prévu
-    en 2016, et de faire des suggestions avant la fin de janvier 2015 afin de donner
-    des orientations au comité d'organisation de l'atelier.
 - dates:
   - 2014-11-01
   title: Décision CIPM/103-42
@@ -298,14 +299,16 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2014-11-01
+    message: convient d'établir un consortium de laboratoires nationaux de métrologie
+      et autres instituts, qui sera coordonné par le NIST, et qui aura pour objectif
+      de faciliter les nouveaux travaux visant à résoudre le désaccord actuel entre
+      les diverses mesures de la constante newtonienne de gravitation, stem:[G]. Le
+      BIPM fournira les locaux et les équipements nécessaires aux réunions de ceux
+      participant à ces travaux.
   subject: Le CIPM
-  x-unparsed:
-  - convient d'établir un consortium de laboratoires nationaux de métrologie et autres
-    instituts, qui sera coordonné par le NIST, et qui aura pour objectif de faciliter
-    les nouveaux travaux visant à résoudre le désaccord actuel entre les diverses
-    mesures de la constante newtonienne de gravitation, G. Le BIPM fournira les locaux
-    et les équipements nécessaires aux réunions de ceux participant à ces travaux.
 - dates:
   - 2014-11-01
   title: Décision CIPM/103-44
@@ -313,8 +316,9 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: decides
+    date_effective: 2014-11-01
+    message: transmettra aux membres du CIPM le document « _Guidelines for the selection
+      of CC Presidents_ ».
   subject: W.E. May
-  x-unparsed:
-  - transmettra aux membres du CIPM le document « Guidelines for the selection of
-    CC Presidents ».

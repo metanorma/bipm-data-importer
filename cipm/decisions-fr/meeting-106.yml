@@ -99,15 +99,16 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/106.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2017-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - "Faisant suite à l'examen de la modélisation actuarielle effectuée par l'actuaire
-    (Mercer) et à la Décision CIPM/105 06 selon laquelle le CIPM : \n\na octroyé une
-    contribution supplémentaire du BIPM à la Caisse de retraite d'un montant de 400
-    000 euros en 2017 puis de 150 000 euros par an les années suivantes,\n\na appliqué
-    des augmentations du taux de cotisation des membres du personnel du BIPM en activité,
-    \n\nle CIPM décide à l'unanimité de ne pas réviser le point applicable aux pensions
-    pour la période 2018-2019."
+  actions:
+  - type: decides
+    date_effective: 2017-10-01
+    message: "Faisant suite à l'examen de la modélisation actuarielle effectuée par
+      l'actuaire (Mercer) et à la Décision CIPM/105 06 selon laquelle le CIPM :\n\n*
+      a octroyé une contribution supplémentaire du BIPM à la Caisse de retraite d'un
+      montant de 400 000 euros en 2017 puis de 150 000 euros par an les années suivantes,\n*
+      a appliqué des augmentations du taux de cotisation des membres du personnel
+      du BIPM en activité, \nle CIPM décide à l'unanimité de ne pas réviser le point
+      applicable aux pensions pour la période 2018-2019."
 - dates:
   - 2017-10-01
   title: Décision CIPM/106-8

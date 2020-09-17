@@ -318,11 +318,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-II-Decisions-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2019-10-01
+    message: convient de charger le président du CIPM et le directeur du BIPM de signer
+      la Déclaration de coopération concernant le JCTLM.
   subject: Le CIPM
-  x-unparsed:
-  - convient de charger le président du CIPM et le directeur du BIPM de signer la
-    Déclaration de coopération concernant le JCTLM.
 - dates:
   - 2019-10-01
   title: Décision CIPM/108-40

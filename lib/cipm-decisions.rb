@@ -91,12 +91,12 @@ a = Mechanize.new
         end && break
 
         case pass
-        when 1, 2
-          xparse = xparse.gsub(/\A.*?(CIPM:?\n*|\((2018|CIPM)\)) /, '')
-        when 3
-          xparse = parse.gsub(/\A.*?, /, '')
+        when 1, 2, 3
+          xparse = xparse.gsub(/\A.*?(CIPM( President| in its meeting)?:?\n*|\((2018|CIPM)\)|de la 103e session) /m, '')
         when 4
-          xparse = parse.gsub(/\A.*? (and|et) /, '')
+          xparse = parse.gsub(/\A.*?, /m, '')
+        when 5
+          xparse = parse.gsub(/\A.*? (and|et) /m, '')
         else
           r["x-unparsed"] ||= []
           r["x-unparsed"] << parse

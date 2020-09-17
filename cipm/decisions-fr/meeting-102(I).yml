@@ -12,11 +12,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2013-06-01
+    message: convient que les procès-verbaux de la 101^e^ session du CIPM (2012) ont
+      été confirmés par correspondance.
   subject: Le CIPM
-  x-unparsed:
-  - convient que les procès-verbaux de la 101e session du CIPM (2012) ont été confirmés
-    par correspondance.
 - dates:
   - 2013-06-01
   title: Décision CIPM/102-2
@@ -186,11 +187,13 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: decides
+    date_effective: 2013-06-01
+    message: fournira une copie électronique du document « Compendium of main rules
+      and practices applicable to the BIPM » aux membres du CIPM avant fin juillet
+      2013.
   subject: Le directeur du BIPM
-  x-unparsed:
-  - fournira une copie électronique du document « Compendium of main rules and practices
-    applicable to the BIPM » aux membres du CIPM avant fin juillet 2013.
 - dates:
   - 2013-06-01
   title: Décision CIPM/102-13

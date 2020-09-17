@@ -282,17 +282,20 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-I-Decisions-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - |-
-    En réponse aux discussions qui ont précédé l'adoption de la Résolution 3 « Sur les objectifs du BIPM » lors de la 26e réunion de la CGPM, le CIPM établit un Groupe de réflexion du CIPM afin de proposer les termes de référence d'un Groupe de travail constitué de représentants d'États Membres. Le CIPM nomme W. Louw responsable de ce Groupe de réflexion du CIPM, ainsi que P. Richard et A. Steele pour l'assister. F. Bulygin, I. Castelazo, N. Dimarcq, H. Laiz, T. Liew, J. Ullrich et le directeur du BIPM sont nommés membres de ce Groupe de réflexion.
-    Le CIPM charge le directeur du BIPM de soumettre dès que possible au Groupe de réflexion les informations appropriées sur le contexte de ces discussions, dans un format concis.
-    Il demande au Groupe de réflexion :
+  actions:
+  - type: appoints
+    date_effective: 2019-03-01
+    message: |-
+      En réponse aux discussions qui ont précédé l'adoption de la Résolution 3 « Sur les objectifs du BIPM » lors de la 26^e^ réunion de la CGPM, le CIPM établit un Groupe de réflexion du CIPM afin de proposer les termes de référence d'un Groupe de travail constitué de représentants d'États Membres. Le CIPM nomme W. Louw responsable de ce Groupe de réflexion du CIPM, ainsi que P. Richard et A. Steele pour l'assister. F. Bulygin, I. Castelazo, stem:["N"]. Dimarcq, H. Laiz, T. Liew, J. Ullrich et le directeur du BIPM sont nommés membres de ce Groupe de réflexion. +
+       +
+      Le CIPM charge le directeur du BIPM de soumettre dès que possible au Groupe de réflexion les informations appropriées sur le contexte de ces discussions, dans un format concis. +
+       +
+      Il demande au Groupe de réflexion :
 
-    d'identifier la(les) principale(s) question(s),
-    de déterminer si certaines de ces questions peuvent être réglées par le CIPM,
-    de proposer les termes de référence d'un Groupe de travail constitué de représentants d'États Membres - ces termes de référence seront validés par le CIPM avant d'être diffusés,
-    d'établir un calendrier de travail qui soit cohérent avec la réunion des représentants des États Membres qui se tiendra en octobre 2019.
+      * d'identifier la(les) principalestem:[("s")] questionstem:[("s")],
+      * de déterminer si certaines de ces questions peuvent être réglées par le CIPM,
+      * de proposer les termes de référence d'un Groupe de travail constitué de représentants d'États Membres - ces termes de référence seront validés par le CIPM avant d'être diffusés,
+      * d'établir un calendrier de travail qui soit cohérent avec la réunion des représentants des États Membres qui se tiendra en octobre 2019.
 - dates:
   - 2019-03-01
   title: Décision CIPM/108-20

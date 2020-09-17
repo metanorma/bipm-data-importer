@@ -117,13 +117,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/103(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2014-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - Following Decision CIPM/102-31, the CIPM in its meeting unanimously supported
-    the proposed text on the planned resignation process for CIPM members required
-    to implement the revised rules and procedure for election of CIPM members that
-    will be submitted to the General Conference on Weights and Measures (CGPM) at
-    its 25th meeting (2014).
+  actions:
+  - type: approves
+    date_effective: 2014-03-01
+    message: Following Decision CIPM/102-31, the CIPM in its meeting unanimously supported
+      the proposed text on the planned resignation process for CIPM members required
+      to implement the revised rules and procedure for election of CIPM members that
+      will be submitted to the General Conference on Weights and Measures (CGPM) at
+      its 25th meeting (2014).
 - dates:
   - 2014-03-01
   title: Decision CIPM/103-9

@@ -67,10 +67,12 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - Recommendation 1 of the ad hoc Working Group was discussed by the CIPM and a Working
-    Group was convened to refine the proposed text.
+  actions:
+  - type: appoints
+    date_effective: 2012-06-01
+    message: https://www.bipm.org/utils/en/pdf/CIPM/CIPM-ad-hoc-WG-2012.pdf[Recommendation
+      1 of the _ad hoc_ Working Group] was discussed by the CIPM and a Working Group
+      was convened to refine the proposed text.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-6
@@ -395,11 +397,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - |-
-    As there will be three vacancies on 30 June 2012, and in view of the election to fill these 3 vacancies, the CIPM has discussed all eligible candidates in light of the existing criteria, and will go to a vote. The election process will be completed by 28 June 2012.
-    The CIPM President will invite Dr R. Davis to chair the CCM Workshop on the mise en pratique of the new definition of the kilogram. The next President of the CCM will be decided at the CIPM meeting in October 2012. [Action CIPM/101-8]
+  actions:
+  - type: appoints
+    date_effective: 2012-06-01
+    message: |-
+      As there will be three vacancies on 30 June 2012, and in view of the election to fill these 3 vacancies, the CIPM has discussed all eligible candidates in light of the existing criteria, and will go to a vote. The election process will be completed by 28 June 2012.
+
+      The CIPM President will invite Dr R. Davis to chair the CCM Workshop on the _mise en pratique_ of the new definition of the kilogram. The next President of the CCM will be decided at the CIPM meeting in October 2012. [Action CIPM/101-8]
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-29

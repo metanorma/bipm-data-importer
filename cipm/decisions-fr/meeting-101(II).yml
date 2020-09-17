@@ -44,7 +44,7 @@ resolutions:
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
   actions:
-  - type: invites / further invites
+  - type: approves
     date_effective: 2012-10-01
     message: |-
       convient d'inviter Mme Friederike Weritz, représentante du gouvernement allemand, à participer au Groupe de travail _ad hoc_ du CIPM sur les règles et les principes relatifs à la composition du CIPM.

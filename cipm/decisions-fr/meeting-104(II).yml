@@ -80,12 +80,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2015-II-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2015-10-01
+    message: transfère, du Sous comité du CIPM sur la Caisse de retraite et de prévoyance
+      du BIPM et l'assurance maladie au Groupe de travail _ad hoc_ du CIPM sur les
+      conditions d'emploi, les responsabilités relatives au régime d'assurance maladie
+      du BIPM.
   subject: Le CIPM
-  x-unparsed:
-  - transfère, du Sous comité du CIPM sur la Caisse de retraite et de prévoyance du
-    BIPM et l'assurance maladie au Groupe de travail ad hoc du CIPM sur les conditions
-    d'emploi, les responsabilités relatives au régime d'assurance maladie du BIPM.
 - dates:
   - 2015-10-01
   title: Décision CIPM/104-33
@@ -94,7 +96,7 @@ resolutions:
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2015-II-FR.pdf
   considerations: []
   actions:
-  - type: approves
+  - type: appoints
     date_effective: 2015-10-01
     message: établit une Commission consultative sur la Caisse de retraite, tel que
       décrit dans les _Statut et Règlement de la Caisse de retraite et de prévoyance
@@ -272,15 +274,16 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2015-II-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - Par suite au rapport du président du Comité consultatif d'électricité et magnétisme
-    (CCEM) concernant le moment auquel les nouvelles définitions des unités de base
-    du SI seront mises en œuvre, une fois approuvées par la CGPM à sa 26e réunion
-    (2018), le CIPM exprime sa préférence pour l'option qui consiste à ce que les
-    nouvelles définitions entrent en vigueur lorsque la CGPM vote la résolution concernée.
-    Le CIPM convient de prendre une décision finale à ce sujet lors de sa prochaine
-    réunion en 2016.
+  actions:
+  - type: approves
+    date_effective: 2015-10-01
+    message: Par suite au rapport du président du Comité consultatif d'électricité
+      et magnétisme (CCEM) concernant le moment auquel les nouvelles définitions des
+      unités de base du SI seront mises en œuvre, une fois approuvées par la CGPM
+      à sa 26^e^ réunion (2018), le CIPM exprime sa préférence pour l'option qui consiste
+      à ce que les nouvelles définitions entrent en vigueur lorsque la CGPM vote la
+      résolution concernée. Le CIPM convient de prendre une décision finale à ce sujet
+      lors de sa prochaine réunion en 2016.
 - dates:
   - 2015-10-01
   title: Décision CIPM/104-45
@@ -302,15 +305,16 @@ resolutions:
   identifier: 104-46
   url: https://www.bipm.org/fr/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2015-II-FR.pdf
-  considerations: []
+  considerations:
+  - type: considering
+    date_effective: 2015-10-01
+    message: examinera de nouveau la politique d'acception de membres et observateurs
+      au sein des Comités consultatifs lors d'une réunion des présidents des Comités
+      consultatifs qui se tiendra en juin 2016. Les décisions sur le statut de membre
+      ou observateur présentées lors de la seconde partie de la 104^e^ session du
+      CIPM (octobre 2015) ne seront prises qu'une fois cet examen achevé.
   actions: []
   subject: Le CIPM
-  x-unparsed:
-  - examinera de nouveau la politique d'acception de membres et observateurs au sein
-    des Comités consultatifs lors d'une réunion des présidents des Comités consultatifs
-    qui se tiendra en juin 2016. Les décisions sur le statut de membre ou observateur
-    présentées lors de la seconde partie de la 104e session du CIPM (octobre 2015)
-    ne seront prises qu'une fois cet examen achevé.
 - dates:
   - 2015-10-01
   title: Décision CIPM/104-47
