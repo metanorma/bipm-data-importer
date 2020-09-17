@@ -185,11 +185,12 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: decides
+    date_effective: 2013-06-01
+    message: will provide an electronic copy of the 'Compendium of main rules and
+      practices applicable to the BIPM' to CIPM members by the end of July 2013.
   subject: The BIPM Director
-  x-unparsed:
-  - will provide an electronic copy of the 'Compendium of main rules and practices
-    applicable to the BIPM' to CIPM members by the end of July 2013.
 - dates:
   - 2013-06-01
   title: Decision CIPM/102-13
@@ -197,12 +198,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: recommends
+    date_effective: 2013-06-01
+    message: endorsed the initiative of both the President of the Consultative Committee
+      for Mass and Related Quantities (CCM) and the CCM in developing a roadmap showing
+      the steps required in mass metrology to achieve a redefinition of the SI by
+      2018.
   subject: The CIPM
-  x-unparsed:
-  - endorsed the initiative of both the President of the Consultative Committee for
-    Mass and Related Quantities (CCM) and the CCM in developing a roadmap showing
-    the steps required in mass metrology to achieve a redefinition of the SI by 2018.
 - dates:
   - 2013-06-01
   title: Decision CIPM/102-14
@@ -226,14 +229,15 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: recommends
+    date_effective: 2013-06-01
+    message: endorsed the work done by the Consultative Committees in preparing the
+      strategy documents. It acknowledged the useful and supportive feedback from
+      the Directors of National Metrology Institutes. It supported the BIPM Director
+      regarding the direction of the initiative and instructed him to continue to
+      develop a global perspective.
   subject: The CIPM
-  x-unparsed:
-  - endorsed the work done by the Consultative Committees in preparing the strategy
-    documents. It acknowledged the useful and supportive feedback from the Directors
-    of National Metrology Institutes. It supported the BIPM Director regarding the
-    direction of the initiative and instructed him to continue to develop a global
-    perspective.
 - dates:
   - 2013-06-01
   title: Decision CIPM/102-16
@@ -317,14 +321,15 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: recommends
+    date_effective: 2013-06-01
+    message: endorsed the activities of the CIPM Standing Sub-Committee on Pensions
+      and Health Insurance, and requested the Sub-Committee to present the results
+      of its studies to the CIPM at its next meeting and to the representatives of
+      States Parties to the Metre Convention and Directors of National Metrology Institutes
+      at their meeting in October 2013.
   subject: The CIPM
-  x-unparsed:
-  - endorsed the activities of the CIPM Standing Sub-Committee on Pensions and Health
-    Insurance, and requested the Sub-Committee to present the results of its studies
-    to the CIPM at its next meeting and to the representatives of States Parties to
-    the Metre Convention and Directors of National Metrology Institutes at their meeting
-    in October 2013.
 - dates:
   - 2013-06-01
   title: Decision CIPM/102-22
@@ -332,14 +337,15 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: recommends
+    date_effective: 2013-06-01
+    message: endorsed the activities of the CIPM _ad hoc_ Working Group on Conditions
+      of Employment, and requested the _ad hoc_ Working Group to present the results
+      of its studies to the CIPM at its next meeting and to the representatives of
+      States Parties to the Metre Convention and Directors of National Metrology Institutes
+      at their meeting in October 2013.
   subject: The CIPM
-  x-unparsed:
-  - endorsed the activities of the CIPM ad hoc Working Group on Conditions of Employment,
-    and requested the ad hoc Working Group to present the results of its studies to
-    the CIPM at its next meeting and to the representatives of States Parties to the
-    Metre Convention and Directors of National Metrology Institutes at their meeting
-    in October 2013.
 - dates:
   - 2013-06-01
   title: Decision CIPM/102-23
@@ -397,8 +403,9 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: recommends
+    date_effective: 2013-06-01
+    message: endorsed the text of the 'BIPM Mission, Role and Objectives' document
+      presented by the BIPM Director.
   subject: The CIPM
-  x-unparsed:
-  - endorsed the text of the 'BIPM Mission, Role and Objectives' document presented
-    by the BIPM Director.

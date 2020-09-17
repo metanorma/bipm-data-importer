@@ -259,13 +259,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/107.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2018-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: recommends
+    date_effective: 2018-06-01
+    message: endorsed the draft Work Programme (2020-2023) presented by the BIPM Director
+      and Department Directors, and asked them to reconcile the scope of the activities
+      with the long-term financial plans for the BIPM and the expected level of the
+      dotation.
   subject: The CIPM
-  x-unparsed:
-  - endorsed the draft Work Programme (2020-2023) presented by the BIPM Director and
-    Department Directors, and asked them to reconcile the scope of the activities
-    with the long-term financial plans for the BIPM and the expected level of the
-    dotation.
 - dates:
   - 2018-06-01
   title: Decision CIPM/107-19

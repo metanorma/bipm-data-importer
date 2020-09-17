@@ -177,19 +177,21 @@ resolutions:
   identifier: 105-12
   url: https://www.bipm.org/en/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2016-EN.pdf
-  considerations: []
+  considerations:
+  - type: noting
+    date_effective: 2016-10-01
+    message: Further to CIPM cipm-decisions:en/104(II)[Decision CIPM/104-39] regarding
+      the changes in policy on reporting the results of comparisons with participants
+      who are non-signatories to the CIPM MRA, the CIPM took note of https://www.bipm.org/en/committees/jc/jcrb/meeting/35.html[JCRB
+      Action 35/11] which approved the revision to document https://www.bipm.org/utils/common/documents/CIPM-MRA/CIPM-MRA-D-05.pdf[CIPM
+      MRA-D-05, "Measurement comparisons in the CIPM MRA"] to align the text of this
+      policy document accordingly. The CIPM also noted https://www.bipm.org/en/committees/jc/jcrb/meeting/35.html[JCRB
+      Recommendation 35/1] and consequently decided that the CIPM Interpretive Document
+      on the CIPM MRA "CIPM 2005-06:Rev.2013" should also be updated to align with
+      the policy. The CIPM approved the proposed text and requested the BIPM to update
+      the document and its associated reference accordingly and to publish it on the
+      website with an assigned date of October 2016.
   actions: []
-  x-unparsed:
-  - Further to CIPM Decision CIPM/104-39 regarding the changes in policy on reporting
-    the results of comparisons with participants who are non-signatories to the CIPM
-    MRA, the CIPM took note of JCRB Action 35/11 which approved the revision to document
-    CIPM MRA-D-05, "Measurement comparisons in the CIPM MRA" to align the text of
-    this policy document accordingly. The CIPM also noted JCRB Recommendation 35/1
-    and consequently decided that the CIPM Interpretive Document on the CIPM MRA "CIPM
-    2005-06:Rev.2013" should also be updated to align with the policy. The CIPM approved
-    the proposed text and requested the BIPM to update the document and its associated
-    reference accordingly and to publish it on the website with an assigned date of
-    October 2016.
 - dates:
   - 2016-10-01
   title: Decision CIPM/105-13
@@ -307,17 +309,16 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2016-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: recommends
+    date_effective: 2016-10-01
+    message: |-
+      endorsed the latest draft of the 9th SI Brochure as the close-to-final one. The BIPM (the BIPM Director, Dr Davis, Mr Sitton and the CCU Executive Secretary) supported by Dr Quinn will produce a fully edited version by 30 June 2017.
+
+      The edited version will be approved by the President of the CCU supported by Dr Quinn. The fully edited Brochure shall be brought to the CCU in September 2017 and to the CIPM in October 2017 for final approval.
+
+      The CIPM considered that the consultation among the stakeholders has been completed. Nevertheless, if matters of substance are raised, the CCU President shall bring them to the CIPM.
   subject: The CIPM
-  x-unparsed:
-  - "endorsed the latest draft of the 9th SI Brochure as the close-to-final one. The
-    BIPM (the BIPM Director, Dr Davis, Mr Sitton and the CCU Executive Secretary)
-    supported by Dr Quinn will produce a fully edited version by 30 June 2017.\nThe
-    edited version will be approved by the President of the CCU supported by Dr Quinn.
-    The fully edited Brochure shall be brought to the CCU in September 2017 and to
-    the CIPM in October 2017 for final approval. \nThe CIPM considered that the consultation
-    among the stakeholders has been completed. Nevertheless, if matters of substance
-    are raised, the CCU President shall bring them to the CIPM."
 - dates:
   - 2016-10-01
   title: Decision CIPM/105-22

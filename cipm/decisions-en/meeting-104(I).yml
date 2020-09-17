@@ -311,10 +311,11 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-I-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: encourages
+    date_effective: 2015-03-01
+    message: proposed Dr Buzoianu to represent the BIPM at the JCGM WG2 (VIM).
   subject: The CIPM
-  x-unparsed:
-  - proposed Dr Buzoianu to represent the BIPM at the JCGM WG2 (VIM).
 - dates:
   - 2015-03-01
   title: Decision CIPM/104-23

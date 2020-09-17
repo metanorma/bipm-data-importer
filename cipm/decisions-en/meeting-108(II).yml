@@ -203,20 +203,16 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/108(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2019-II-Decisions-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: decides
+    date_effective: 2019-10-01
+    message: |-
+      The CGPM in Resolution 5 adopted at its 26th meeting (2018) decided that the CIPM shall implement Article 6 paragraph 8 of the Annexed Regulations, and that the CIPM shall address the situation where historical practice has resulted in the accumulation of arrears. Pursuant to this resolution, the CIPM decided that the BIPM shall inform States that have previously been notified of accumulated arrears exceeding the six-year period, that the amounts due are those equal to the first six years of default.
+
+      The CIPM decided that any amounts paid by such States that constitute accumulated arrears exceeding the six-year period, may be considered when calculating their contribution, and entry contribution, following their re-engagement.
+
+      This decision does not address the associated advances made by Member States, which shall be considered separately by the CIPM in the context of Resolution 5.
   subject: The CGPM
-  x-unparsed:
-  - "in Resolution 5 adopted at its 26th meeting (2018) decided that the CIPM shall
-    implement Article 6 paragraph 8 of the Annexed Regulations, and that the CIPM
-    shall address the situation where historical practice has resulted in the accumulation
-    of arrears. Pursuant to this resolution, the CIPM decided that the BIPM shall
-    inform States that have previously been notified of accumulated arrears exceeding
-    the six-year period, that the amounts due are those equal to the first six years
-    of default.\nThe CIPM decided that any amounts paid by such States that constitute
-    accumulated arrears exceeding the six-year period, may be considered when calculating
-    their contribution, and entry contribution, following their re-engagement. \nThis
-    decision does not address the associated advances made by Member States, which
-    shall be considered separately by the CIPM in the context of Resolution 5."
 - dates:
   - 2019-10-01
   title: Decision CIPM/108-34

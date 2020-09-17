@@ -133,12 +133,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: recommends
+    date_effective: 2013-10-01
+    message: endorsed online publication of the _Rapport annuel aux Gouvernements
+      des Hautes Parties contractantes sur la situation administrative et financière
+      du Bureau international des poids et mesures._
   subject: The CIPM
-  x-unparsed:
-  - endorsed online publication of the  Rapport annuel aux Gouvernements des Hautes
-    Parties contractantes sur la situation administrative et financière du Bureau
-    international des poids et mesures.
 - dates:
   - 2013-10-01
   title: Decision CIPM/102-36

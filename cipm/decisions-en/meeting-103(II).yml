@@ -128,10 +128,11 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2014-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: recommends
+    date_effective: 2014-11-01
+    message: endorsed the proposed CGPM attendance policy, document CIPM/14-11.
   subject: The CIPM
-  x-unparsed:
-  - endorsed the proposed CGPM attendance policy, document CIPM/14-11.
 - dates:
   - 2014-11-01
   title: Decision CIPM/103-33

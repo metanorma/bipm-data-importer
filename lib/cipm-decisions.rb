@@ -92,13 +92,13 @@ a = Mechanize.new
         end && break
 
         case pass
-        when 1
-          xparse = xparse.gsub(/\A.*?CIPM /, '')
-          pass = 2
+        when 1, 2
+          xparse = xparse.gsub(/\A.*?(CIPM|\(2018\)) /, '')
+          pass += 1
           next
-        when 2
-          xparse = xparse.gsub(/\A.*?CIPM /, '')
-          pass = 3
+        when 3
+          xparse = parse.gsub(/\A.*?, /, '')
+          pass = 4
           next
         end
 

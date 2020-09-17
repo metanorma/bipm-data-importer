@@ -326,10 +326,11 @@ resolutions:
   identifier: 104-48
   url: https://www.bipm.org/en/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-II-EN.pdf
-  considerations: []
+  considerations:
+  - type: considering
+    date_effective: 2015-10-01
+    message: received the report of the _ad hoc_ Working Group on Terminology, considered
+      the matter to be closed, decided to leave the current practice to stand and
+      encouraged the Director to work with Dr Quinn to update the BIPM website accordingly.
   actions: []
   subject: The CIPM
-  x-unparsed:
-  - received the report of the ad hoc Working Group on Terminology, considered the
-    matter to be closed, decided to leave the current practice to stand and encouraged
-    the Director to work with Dr Quinn to update the BIPM website accordingly.

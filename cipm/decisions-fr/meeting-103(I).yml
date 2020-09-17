@@ -88,13 +88,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - En réponse aux préoccupations formulées par la Norvège concernant certains aspects
-    du document « Critères et procédure pour l'élection du CIPM » (Criteria and Process
-    for Election of CIPM Members), le CIPM décide de préparer une réponse qui sera
-    intégrée aux procès-verbaux de la 103e session du CIPM et charge le président
-    du CIPM de transmettre cette réponse à la Norvège.
+  actions:
+  - type: decides
+    date_effective: 2014-03-01
+    message: En réponse aux préoccupations formulées par la Norvège concernant certains
+      aspects du document « Critères et procédure pour l'élection du CIPM » (Criteria
+      and Process for Election of CIPM Members), le CIPM décide de préparer une réponse
+      qui sera intégrée aux procès-verbaux de la 103^e^ session du CIPM et charge
+      le président du CIPM de transmettre cette réponse à la Norvège.
 - dates:
   - 2014-03-01
   title: Décision CIPM/103-7

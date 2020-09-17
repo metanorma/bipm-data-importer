@@ -17,7 +17,7 @@ end
 
 CONSIDERATIONS = {
   /(?:having(?: regard)?|ayant|acceptant|concerne|referring|se référant|vu la|agissant conformément)/i => "having / having regard",
-  /(?:noting|took note|note[sd]|observing|observant que|taking note|takes note|constatant|constate|that|note|notant|notant que|note également|(?:prend|prenant) (?:acte|note))/i => "noting",
+  /(?:noting|took note|note[sd]?|observing|observant que|taking note|takes note|constatant|constate|that|notant|notant que|note également|(?:prend|prenant) (?:acte|note))/i => "noting",
   /(?:recognizing|recognizes|reconnaissant|reconnaît|acting in accordance|conformément à)/i => "recognizing",
   /(?:acknowledging|accept(?:s|ed|ing)|admet|entendu|empowered by|habilité par)/i => "acknowledging",
   /(?:(?:further )?recall(?:ing|s)|rappelant|rappelle)/i => "recalling / further recalling",
@@ -34,26 +34,26 @@ ACTIONS = {
   /(?:adopts|adopted?)/ => "adopts",
   /(?:thanks|thanked|expresse[sd](?:[ -]| its )appreciation|appréciant|pays tribute|rend hommage|remercie)/i => "thanks / expresses-appreciation",
   /(?:approu?ves?|approuvant|approving|approved|entérine|agreed?|supported)/i => "approves",
-  /(?:d[eé]cid(?:e[ds]|e|é)|ratifies?|judges|d[ée]clares?|d[ée]finition|sanction(?:s|ne))/i => "decides",
+  /(?:d[eé]cid(?:e[ds]?|é)|ratifies?|judges|d[ée]clares?|d[ée]finition|sanction(?:s|ne))/i => "decides",
   /(?:The unit of length is|Supplementary units|Principl?es|Les Délégués des États|Les v\u{9C}ux ou propositions)/i => "decides", # MISC - like declares/defines
   /(?:L'unité de longueur|Unités supplémentaires|New candle|New lumen|Definitions of|Cubic decimetre|Clarification of|Revision of)/i => "decides", # MISC - like declares/defines
   /(?:Unit of force|Définitions des|Décimètre cube|Étalons secondaires|Unité spéciale|Efficacités lumineuses)/i => "decides", # MISC - like declares/defines
   /(?:Unité de force|(?:Joule|Watt|Volt|Ohm|Amp[eè]re|Coulomb|Farad|Henry|Weber) \(unité?|Bougie nouvelle|Lumen nouveau)/i => "decides", # MISC - like declares/defines
-  /(?:Les unités photométriques|\(A\) D[eé]finitions|The photometric units)/i => "decides", # MISC - like declares/defines
+  /(?:Les unités photométriques|\(A\) D[eé]finitions|The photometric units|will provide)/i => "decides", # MISC - like declares/defines
   /(?:asks|asked|souhaite)/i => "asks",
-  /(?:further )?invited?s?|renouvelle en conséquence/i => "invites / further invites",
-  /(?:resolve[sd])/i => "resolves",
+  /(?:further )?invite[ds]?|renouvelle en conséquence/i => "invites / further invites",
+  /(?:resolve[sd]?)/i => "resolves",
   /(?:confirms|confirmed?|confirme que)/i => "confirms",
   /(?:welcomes|welcomed|accueille favorablement)/i => "welcomes",
-  /recomm(?:ends|ande|ended)/i => "recommends",
+  /(?:recomm(?:ends|ande|ended)|endorsed)/i => "recommends",
   /(?:requests?|requested|demande)/i => "requests",
-  /(?:congratulate[sd])/i => "congratulates",
+  /(?:congratulate[sd]?)/i => "congratulates",
   /(?:instructs|instructed)/i => "instructs",
   /(?:urges|prie instamment)/i => "urges",
   /(?:appoints|(?:re)?appointed|granted|commended|elected|autorise|authorized|empowers|charged?|donne|habilite|nominated|Pendant la période|voted)/i => "appoints",
-  /(?:resolve[sd] further)/i => "resolves further",
+  /(?:resolve[sd]? further)/i => "resolves further",
   /(?:calls upon|draws the attention|attire l'attention|lance un appel)/i => "calls upon",
-  /(?:encourages?d?|espère|proposes?)/i => "encourages",
+  /(?:encourages?d?|espère|propose[ds]?)/i => "encourages",
   /(?:affirms|reaffirming|réaffirmant|states|remarks|remarques)/i => "affirms / reaffirming",
 }
 
