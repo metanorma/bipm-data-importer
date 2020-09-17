@@ -128,5 +128,151 @@ module Common
     )
   end
 
+  def parse_resolution res, res_id, date
+    # Reparse the document after fixing upstream syntax
+    fixed_body = res.body.gsub("<name=", "<a name=")
+    ng = Nokogiri::HTML(fixed_body, res.uri.to_s, "iso-8859-1", Nokogiri::XML::ParseOptions.new.default_html.noent)
+
+    refs = ng.css('a.intros[href*=".pdf"]')
+
+    r = {
+      "dates" => [date],
+      "title" => ng.at_css(".txt12pt .SousTitre").text.strip.gsub(/\*\Z/, ''),
+      "identifier" => res_id,
+      "url" => res.uri.to_s,
+      "reference" => res.uri.merge(refs.first.attr('href')).to_s,
+
+      "approvals" => [{
+        "type" => "affirmative",
+        "degree" => "unanimous",
+        "message" => "Unanimous"
+      }],
+
+      "considerations" => [],
+      "actions" => [],
+    }
+
+    ps = ng.css('td.txt12pt:not([align])')
+
+    #binding.pry if ps.count != 1
+
+    # Replace links
+    Common.replace_links(ps, res)
+
+    # Replace a group of centers (> 1) with a table
+    Common.replace_centers(ps)
+
+    doc = ps.inner_html.encode('utf-8').gsub("\r", '').gsub(%r'</?nobr>','')
+    # doc = AsciiMath.html_to_asciimath(doc)
+
+    parts = doc.split(/(\n(?:<p>)?<b>.*?<\/b>|<p>(?:après examen |après avoir entendu )|having noted that |decides to define |décide de définir |considers that|estime que|declares<\/p>|<a name="_ftn\d)/)
+    nparts = [parts.shift]
+    while parts.length > 0
+      nparts << parts.shift + parts.shift
+    end
+
+    if nparts.first =~ /([mM]esures( \(CGPM\))?|CGPM| \(CCTC\)| Conference|\[de thermométrie et calorimétrie\]|,)[ \n]?(<\/p>)?\n?\z/
+      r["approvals"].first["message"] = Common.format_message(nparts.shift)
+    end
+
+    prev = nil
+    nparts.each do |part|
+      parse = Nokogiri::HTML(part).text.strip
+
+      CONSIDERATIONS.any? do |k,v|
+        if parse =~ /\A#{PREFIX}#{k}\b/i
+          r["considerations"] << prev = {
+            "type" => v,
+            "date_effective" => date,
+            "message" => Common.format_message(part),
+          }
+        end
+      end && next
+
+      ACTIONS.any? do |k,v|
+        if parse =~ /\A#{PREFIX}#{k}\b/i
+          r["actions"] << prev = {
+            "type" => v,
+            "date_effective" => date,
+            "message" => Common.format_message(part),
+          }
+        end
+      end && next
+
+      if parse =~ /\A(?:Appendix |Annexe |\()(\d+)/
+        r["appendices"] ||= []
+        r["appendices"] << prev = {
+          "identifier" => $1.to_i,
+          "message" => Common.format_message(part),
+        }
+        next
+      end
+
+      if parse =~ /\A(becquerel|gray, symbol)/
+        prev["message"] += "\n" + Common.format_message(part)
+        next
+      end
+
+      r["x-unparsed"] ||= []
+      r["x-unparsed"] << parse #ReverseAdoc.convert(part).strip
+    end
+
+    %w[considerations actions].each do |type|
+      map = type == 'actions' ? ACTIONS : CONSIDERATIONS
+      r[type] = r[type].map do |i|
+        islist = false
+
+        kk = nil
+
+        if map.any? { |k,v| (i["message"].split("\n").first =~ /\A\s*(\*?)(#{PREFIX}#{k})\1?(#{SUFFIX})\1?\s*\z/i) && (kk = k) }
+          prefix = $2
+          suffix = $3
+          subject = $4
+
+          listmarker = nil
+          listitems = []
+          if (i["message"].split(/(?<!\+)\n/).all? { |j|
+            case j
+            when /\A\s*\*?#{PREFIX}#{kk}/i
+              true
+            when /\A\s*\z/
+              true
+            when /\A(\. |\* | )(\S.*?)\z/m
+              listitems << $2
+              listmarker = $1 if !listmarker
+              listmarker == $1
+            else
+              false
+            end
+          })
+            islist = true if listitems.length >= 1
+          end
+        end
+
+        if subject
+          #p subject
+          r['subject'] ||= []
+          r['subject'] << subject
+        end
+
+        if islist
+          suffix = suffix.strip
+          suffix = nil if suffix == ''
+          listitems.map do |li|
+            i.merge 'message' => [prefix, suffix, li].compact.join(" ")
+          end
+        else
+          i
+        end
+      end.flatten
+    end
+
+    if r['subject']
+      r['subject'] = r['subject'].uniq.join(" and ")
+    end
+
+    r
+  end
+
   extend self
 end
