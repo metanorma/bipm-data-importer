@@ -25,13 +25,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2016-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: congratulates
+    date_effective: 2016-10-01
+    message: congratulated the Director of the BIPM who has been nominated to receive
+      the 2016 Finkelstein medal of the Institute of Measurement and Control. This
+      award is made on an annual basis to a person who has made outstanding contributions
+      to measurement science at a global level.
   subject: The CIPM
-  x-unparsed:
-  - congratulated the Director of the BIPM who has been nominated to receive the 2016
-    Finkelstein medal of the Institute of Measurement and Control. This award is made
-    on an annual basis to a person who has made outstanding contributions to measurement
-    science at a global level.
 - dates:
   - 2016-10-01
   title: Decision CIPM/105-3
@@ -219,12 +220,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2016-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2016-10-01
+    message: agreed with the proposal made by the CCU regarding the number of digits
+      to be kept in the numerical values of the defining constants (case 3 under the
+      conditions mentioned in the CCU report).
   subject: The CIPM
-  x-unparsed:
-  - agreed with the proposal made by the CCU regarding the number of digits to be
-    kept in the numerical values of the defining constants (case 3 under the conditions
-    mentioned in the CCU report).
 - dates:
   - 2016-10-01
   title: Decision CIPM/105-16
@@ -232,12 +234,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2016-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2016-10-01
+    message: agreed to treat the unit one, symbol 1, in the 9th Edition of the SI
+      Brochure as in the 8th Edition as the neutral element of any system of units
+      but avoid calling it a derived or a base unit.
   subject: The CIPM
-  x-unparsed:
-  - agreed to treat the unit one, symbol 1, in the 9th Edition of the SI Brochure
-    as in the 8th Edition as the neutral element of any system of units but avoid
-    calling it a derived or a base unit.
 - dates:
   - 2016-10-01
   title: Decision CIPM/105-17
@@ -245,12 +248,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2016-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2016-10-01
+    message: agreed to treat the radian and the cycle in the 9th Edition of the SI
+      Brochure in compliance with the CGPM Resolutions in force (for example, link:/en/CGPM/db/11/12/[Resolution
+      12 of the 11th CGPM (1960)] and link:/en/CGPM/db/20/8/[Resolution 8 of the 20th
+      CGPM (1995)]).
   subject: The CIPM
-  x-unparsed:
-  - agreed to treat the radian and the cycle in the 9th Edition of the SI Brochure
-    in compliance with the CGPM Resolutions in force (for example, Resolution 12 of
-    the 11th CGPM (1960) and Resolution 8 of the 20th CGPM (1995)).
 - dates:
   - 2016-10-01
   title: Decision CIPM/105-18
@@ -433,18 +438,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2016-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2016-10-01
+    message: |-
+      agreed on the proposal from the CCRI President to align the criteria for CCRI membership in order to align them with the rules that apply to all Consultative Committees.
+
+      In preparation for the next meeting in 2017 and to ensure a wide representation of the different CCRI Sections, the CIPM accepted the proposal from the President of CCRI to invite the countries with membership of all three Sections of CCRI as Members of CCRI, and to inform all other institutes with membership of one or more of the Sections, that they can apply for membership of the CCRI. The CIPM provisionally approved the list of proposed Members, subject to the acceptance by the prospective Members.
   subject: The CIPM
-  x-unparsed:
-  - "agreed on the proposal from the CCRI President to align the criteria for CCRI
-    membership in order to align them with the rules that apply to all Consultative
-    Committees.\r\nIn preparation for the next meeting in 2017 and to ensure a wide
-    representation of the different CCRI Sections, the CIPM accepted the proposal
-    from the President of CCRI to invite the countries with membership of all three
-    Sections of CCRI as Members of CCRI, and to inform all other institutes with membership
-    of one or more of the Sections, that they can apply for membership of the CCRI.
-    The CIPM provisionally approved the list of proposed Members, subject to the acceptance
-    by the prospective Members."
 - dates:
   - 2016-10-01
   title: Decision CIPM/105-31
@@ -581,8 +582,10 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2016-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2016-10-01
+    message: agreed that the 26th meeting of the CGPM will be held at the Palais des
+      Congrès de Versailles on 13-16 November 2018 with informal meetings planned
+      on 12 November.
   subject: The CIPM
-  x-unparsed:
-  - agreed that the 26th meeting of the CGPM will be held at the Palais des Congrès
-    de Versailles on 13-16 November 2018 with informal meetings planned on 12 November.

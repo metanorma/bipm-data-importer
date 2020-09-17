@@ -117,13 +117,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2013-10-01
+    message: agreed to delegate responsibility for verifying the financial statements
+      of the BIPM and the BIPM Pension and Provident Fund to the CIPM Standing Sub-Committee
+      on Finance. Final approval of the financial statements by the CIPM will be decided
+      by correspondence on the advice of the sub-committee.
   subject: The CIPM
-  x-unparsed:
-  - agreed to delegate responsibility for verifying the financial statements of the
-    BIPM and the BIPM Pension and Provident Fund to the CIPM Standing Sub-Committee
-    on Finance. Final approval of the financial statements by the CIPM will be decided
-    by correspondence on the advice of the sub-committee.
 - dates:
   - 2013-10-01
   title: Decision CIPM/102-35

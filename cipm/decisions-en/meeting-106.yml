@@ -370,12 +370,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/106.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2017-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2017-10-01
+    message: agreed the BIPM Strategy (2018) with a change to the text of the final
+      line of the "mission" to read "Improving the quality of life and sustaining
+      the global environment".
   subject: The CIPM
-  x-unparsed:
-  - agreed the BIPM Strategy (2018) with a change to the text of the final line of
-    the "mission" to read "Improving the quality of life and sustaining the global
-    environment".
 - dates:
   - 2017-10-01
   title: Decision CIPM/106-24

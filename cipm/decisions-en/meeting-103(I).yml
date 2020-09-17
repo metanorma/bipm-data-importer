@@ -318,11 +318,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/103(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2014-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2014-03-01
+    message: agreed to adopt the proposed new BIPM logo (noting that the CIPM MRA,
+      KCDB and JCTLM logos will not change and that the "macaron" will continue to
+      be used).
   subject: The CIPM
-  x-unparsed:
-  - agreed to adopt the proposed new BIPM logo (noting that the CIPM MRA, KCDB and
-    JCTLM logos will not change and that the "macaron" will continue to be used).
 - dates:
   - 2014-03-01
   title: Decision CIPM/103-21

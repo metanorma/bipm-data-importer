@@ -12,11 +12,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: agreed that the minutes of the 100th meeting (2011) were confirmed by
+      correspondence and that the printed version tabled is a true copy of what was
+      circulated.
   subject: The CIPM
-  x-unparsed:
-  - agreed that the minutes of the 100th meeting (2011) were confirmed by correspondence
-    and that the printed version tabled is a true copy of what was circulated.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-2
@@ -52,11 +54,12 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: agreed to cease the subsidy of the pensioners' contributions out of the
+      health insurance reserve fund starting 1 January 2013.
   subject: The CIPM
-  x-unparsed:
-  - agreed to cease the subsidy of the pensioners' contributions out of the health
-    insurance reserve fund starting 1 January 2013.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-5
@@ -75,17 +78,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: |-
+      agreed that there is a need to change the engagement process between the CIPM, NMI Directors and representatives of States Parties to the Metre Convention related to the activities of the Consultative Committees and development of the BIPM programme of work. The suggestions in Recommendation 2 were supported in spirit but there were some concerns about the mechanisms to implement it.
+
+      The BIPM Director and the Director of the International Liaison and Communication Department will examine and formulate a plan for what is needed to implement Recommendation 2. [Action CIPM/101-1]
   subject: The CIPM
-  x-unparsed:
-  - "agreed that there is a need to change the engagement process between the CIPM,
-    NMI Directors and representatives of States Parties to the Metre Convention related
-    to the activities of the Consultative Committees and development of the BIPM programme
-    of work. The suggestions in Recommendation 2 were supported in spirit but there
-    were some concerns about the mechanisms to implement it.\r\nThe BIPM Director
-    and the Director of the International Liaison and Communication Department will
-    examine and formulate a plan for what is needed to implement Recommendation 2.
-    [Action CIPM/101-1]"
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-7
@@ -93,10 +93,12 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: agreed with link:/utils/en/pdf/CIPM/CIPM-ad-hoc-WG-2012.pdf[Recommendation
+      3 of the _ad hoc_ Working Group].
   subject: The CIPM
-  x-unparsed:
-  - agreed with Recommendation 3 of the ad hoc Working Group.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-8
@@ -117,13 +119,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: |-
+      agreed with link:/utils/en/pdf/CIPM/CIPM-ad-hoc-WG-2012.pdf[Recommendation 5 of the _ad hoc_ Working Group].
+
+      The BIPM Director will invite RMO chairs to the NMI Directors' Meeting. The Consultative Committee Presidents will also invite the RMO Technical Committee chairs to the Consultative Committee Strategy and Key Comparisons Working Group meetings. [Action CIPM/101-2]
   subject: The CIPM
-  x-unparsed:
-  - "agreed with Recommendation 5 of the ad hoc Working Group.\r\nThe BIPM Director
-    will invite RMO chairs to the NMI Directors' Meeting. The Consultative Committee
-    Presidents will also invite the RMO Technical Committee chairs to the Consultative
-    Committee Strategy and Key Comparisons Working Group meetings. [Action CIPM/101-2]"
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-10
@@ -131,13 +134,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: |-
+      agreed with link:/utils/en/pdf/CIPM/CIPM-ad-hoc-WG-2012.pdf[Recommendations 6 to 10], and will seek clarification of the level of detail recommended by the _ad hoc_ Working Group for the documents produced by the BIPM.
+
+      The CIPM Secretary will liaise with members of the _ad hoc_ Working Group to seek clarification regarding Recommendations 6 to 10. [Action CIPM/101-3]
   subject: The CIPM
-  x-unparsed:
-  - "agreed with Recommendations 6 to 10, and will seek clarification of the level
-    of detail recommended by the ad hoc Working Group for the documents produced by
-    the BIPM.\r\nThe CIPM Secretary will liaise with members of the ad hoc Working
-    Group to seek clarification regarding Recommendations 6 to 10. [Action CIPM/101-3]"
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-11
@@ -160,10 +164,12 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: agreed with link:/utils/en/pdf/CIPM/CIPM-ad-hoc-WG-2012.pdf[Recommendation
+      11 of the _ad hoc_ Working Group].
   subject: The CIPM
-  x-unparsed:
-  - agreed with Recommendation 11 of the ad hoc Working Group.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-13
@@ -171,10 +177,12 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: agreed with link:/utils/en/pdf/CIPM/CIPM-ad-hoc-WG-2012.pdf#page=3[Recommendation
+      12 of the _ad hoc_ Working Group].
   subject: The CIPM
-  x-unparsed:
-  - agreed with Recommendation 12 of the ad hoc Working Group.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-14
@@ -196,10 +204,12 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: agreed in principle with link:/utils/en/pdf/CIPM/CIPM-ad-hoc-WG-2012.pdf#page=3[Recommendation
+      14 of the _ad hoc_ Working Group].
   subject: The CIPM
-  x-unparsed:
-  - agreed in principle with Recommendation 14 of the ad hoc Working Group.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-16
@@ -207,12 +217,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: |-
+      agreed in principle with link:/utils/en/pdf/CIPM/CIPM-ad-hoc-WG-2012.pdf#page=3[Recommendation 15 of the _ad hoc_ Working Group].
+
+      The CIPM will establish an _ad hoc_ Working Group on CIPM membership to look at the requirements of Recommendations 13, 14 and 15. [Action CIPM/101-5]
   subject: The CIPM
-  x-unparsed:
-  - "agreed in principle with Recommendation 15 of the ad hoc Working Group.\r\nThe
-    CIPM will establish an ad hoc Working Group on CIPM membership to look at the
-    requirements of Recommendations 13, 14 and 15. [Action CIPM/101-5]"
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-17
@@ -233,13 +245,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: agreed that the BIPM budget should be decided by the CGPM for a four
+      year period but questioned the need to have a CGPM meeting every two years and
+      suggested that the objectives could be achieved through regular meetings with
+      representatives of States Parties to the Metre Convention.
   subject: The CIPM
-  x-unparsed:
-  - agreed that the BIPM budget should be decided by the CGPM for a four year period
-    but questioned the need to have a CGPM meeting every two years and suggested that
-    the objectives could be achieved through regular meetings with representatives
-    of States Parties to the Metre Convention.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-19
@@ -247,13 +260,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: |-
+      agreed that the duration of CGPM meetings should be reduced and decided that the CC Presidents will give only short reports during the CGPM and will be available for questions.
+
+      The CIPM bureau and the BIPM will examine ways and means of further reducing the duration of the CGPM meetings. [Action CIPM/101-6]
   subject: The CIPM
-  x-unparsed:
-  - "agreed that the duration of CGPM meetings should be reduced and decided that
-    the CC Presidents will give only short reports during the CGPM and will be available
-    for questions.\r\nThe CIPM bureau and the BIPM will examine ways and means of
-    further reducing the duration of the CGPM meetings. [Action CIPM/101-6]"
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-20
@@ -261,11 +275,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: agreed with link:/utils/en/pdf/CIPM/CIPM-ad-hoc-WG-2012.pdf#page=4[Recommendation
+      19 of the _ad hoc_ Working Group] which will be considered by the Standing Sub-Committee
+      on pensions and health insurance.
   subject: The CIPM
-  x-unparsed:
-  - agreed with Recommendation 19 of the ad hoc Working Group which will be considered
-    by the Standing Sub-Committee on pensions and health insurance.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-21
@@ -389,14 +405,15 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: agreed on the composition of the CIPM Standing Sub-Committees and ad
+      hoc Working Groups. It decided that each should draft terms of reference and
+      preliminary thoughts available by mid-September 2012 for circulation and consideration
+      by the CIPM and presentation to the representatives of States Parties to the
+      Metre Convention and NMI Directors in October 2012.
   subject: The CIPM
-  x-unparsed:
-  - agreed on the composition of the CIPM Standing Sub-Committees and ad hoc Working
-    Groups. It decided that each should draft terms of reference and preliminary thoughts
-    available by mid-September 2012 for circulation and consideration by the CIPM
-    and presentation to the representatives of States Parties to the Metre Convention
-    and NMI Directors in October 2012.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-30
@@ -423,10 +440,11 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: agreed that the next meeting of the CGPM will be held in November 2014.
   subject: The CIPM
-  x-unparsed:
-  - agreed that the next meeting of the CGPM will be held in November 2014.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-32
@@ -537,9 +555,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: |-
+      agreed to change the date of Session I of the 102nd meeting of the CIPM to the following:
+
+      CIPM bureau 17 to 18 June 2013
+
+      CIPM meeting 19 to 21 June 2013.
   subject: The CIPM
-  x-unparsed:
-  - "agreed to change the date of Session I of the 102nd meeting of the CIPM to the
-    following:\r\nCIPM bureau              17 to 18 June 2013\r\nCIPM meeting            19
-    to 21 June 2013."

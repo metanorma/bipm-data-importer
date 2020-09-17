@@ -85,23 +85,24 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/107.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2018-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: thanks / expresses-appreciation
+    date_effective: 2018-06-01
+    message: "expressed its appreciation and support for the work of the Chair of
+      the Pension Fund Advisory Board (PFAB), the BIPM Director and Legal Advisor
+      in respect of the implementation of its decisions, in particular concerning
+      the long-term financial stability of the BIPM Pension Fund. +\n +\n\r The CIPM
+      recalled the decision in 2008 of the Governing Body of the International Labour
+      Organization (ILO) that observed that the BIPM, as an intergovernmental organization
+      established by treaty, recognized the jurisdiction of the ILO Administrative
+      Tribunal (ILOAT). The CIPM recognized the legal status of the BIPM as an intergovernmental
+      organization and instructed the BIPM Director to continue to ensure as much
+      as possible the legal certainty necessary for the implementation of its decisions.
+      +\n +\n\r The CIPM recalled decision CIPM/104-48 and confirmed that informal
+      discussions about the terminology used to refer to the BIPM serve to diminish
+      the reputation of the organization and have the potential to damage confidence
+      in its legal certainty. It confirmed that such discussions are closed."
   subject: The CIPM
-  x-unparsed:
-  - "expressed its appreciation and support for the work of the Chair of the Pension
-    Fund Advisory Board (PFAB), the BIPM Director and Legal Advisor in respect of
-    the implementation of its decisions, in particular concerning the long-term financial
-    stability of the BIPM Pension Fund. \r\nThe CIPM recalled the decision in 2008
-    of the Governing Body of the International Labour Organization (ILO) that observed
-    that the BIPM, as an intergovernmental organization established by treaty, recognized
-    the jurisdiction of the ILO Administrative Tribunal (ILOAT). The CIPM recognized
-    the legal status of the BIPM as an intergovernmental organization and instructed
-    the BIPM Director to continue to ensure as much as possible the legal certainty
-    necessary for the implementation of its decisions.\r\nThe CIPM recalled decision
-    CIPM/104-48 and confirmed that informal discussions about the terminology used
-    to refer to the BIPM serve to diminish the reputation of the organization and
-    have the potential to damage confidence in its legal certainty. It confirmed that
-    such discussions are closed."
 - dates:
   - 2018-06-01
   title: Decision CIPM/107-7
@@ -193,11 +194,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/107.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2018-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2018-06-01
+    message: agreed with the proposal from the CCU President to establish a Task Group
+      to review further the issue concerning the definition of the term "unit" in
+      the SI Brochure.
   subject: The CIPM
-  x-unparsed:
-  - agreed with the proposal from the CCU President to establish a Task Group to review
-    further the issue concerning the definition of the term "unit" in the SI Brochure.
 - dates:
   - 2018-06-01
   title: Decision CIPM/107-14
@@ -240,10 +243,11 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/107.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2018-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2018-06-01
+    message: agreed the revised version of CIPM-D-01.
   subject: The CIPM
-  x-unparsed:
-  - agreed the revised version of CIPM-D-01.
 - dates:
   - 2018-06-01
   title: Decision CIPM/107-17
@@ -290,11 +294,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/107.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2018-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2018-06-01
+    message: agreed on a "recommended list" of candidates for election to the CIPM
+      and asked the CIPM Secretary to send it to the Chair of the Committee for CIPM
+      Election.
   subject: The CIPM
-  x-unparsed:
-  - agreed on a "recommended list" of candidates for election to the CIPM and asked
-    the CIPM Secretary to send it to the Chair of the Committee for CIPM Election.
 - dates:
   - 2018-06-01
   title: Decision CIPM/107-21

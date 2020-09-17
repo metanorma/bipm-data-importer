@@ -12,10 +12,12 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2013-06-01
+    message: agreed that the minutes of the 101st meeting (2012) were confirmed by
+      correspondence.
   subject: The CIPM
-  x-unparsed:
-  - agreed that the minutes of the 101st meeting (2012) were confirmed by correspondence.
 - dates:
   - 2013-06-01
   title: Decision CIPM/102-2
@@ -155,12 +157,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2013-06-01
+    message: agreed unanimously to elect Prof. E.O. Göbel as an Honorary Member of
+      the CIPM in recognition of his contribution to the CIPM as a member from 1997
+      to 2012 and as President from 2004 to 2010. The CIPM President will inform Prof.
+      E.O. Göbel.
   subject: The CIPM
-  x-unparsed:
-  - agreed unanimously to elect Prof. E.O. Göbel as an Honorary Member of the CIPM
-    in recognition of his contribution to the CIPM as a member from 1997 to 2012 and
-    as President from 2004 to 2010. The CIPM President will inform Prof. E.O. Göbel.
 - dates:
   - 2013-06-01
   title: Decision CIPM/102-11
@@ -238,13 +242,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: encourages
+    date_effective: 2013-06-01
+    message: encouraged Presidents and Executive Secretaries of the Consultative Committees
+      (CCs) to reflect on comments received from National Metrology Institutes specific
+      to their CC strategy and to decide, in consultation with their CC (and/or appropriate
+      Working Groups), whether revision is necessary.
   subject: The CIPM
-  x-unparsed:
-  - encouraged Presidents and Executive Secretaries of the Consultative Committees
-    (CCs) to reflect on comments received from National Metrology Institutes specific
-    to their CC strategy and to decide, in consultation with their CC (and/or appropriate
-    Working Groups), whether revision is necessary.
 - dates:
   - 2013-06-01
   title: Decision CIPM/102-17
@@ -360,11 +365,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: adopts
+    date_effective: 2013-06-01
+    message: adopted the Recommendation 'Updates to the list of standard frequencies'
+      of the Consultative Committee for Time and Frequency (CCTF) as CIPM Recommendation
+      CI-2013.
   subject: The CIPM
-  x-unparsed:
-  - adopted the Recommendation 'Updates to the list of standard frequencies' of the
-    Consultative Committee for Time and Frequency (CCTF) as CIPM Recommendation CI-2013.
 - dates:
   - 2013-06-01
   title: Decision CIPM/102-25

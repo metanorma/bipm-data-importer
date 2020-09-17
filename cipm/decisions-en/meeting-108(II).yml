@@ -306,11 +306,12 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/108(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2019-II-Decisions-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2019-10-01
+    message: agreed that the CIPM President and the BIPM Director should conclude
+      the revised Declaration of Cooperation for the JCTLM.
   subject: The CIPM
-  x-unparsed:
-  - agreed that the CIPM President and the BIPM Director should conclude the revised
-    Declaration of Cooperation for the JCTLM.
 - dates:
   - 2019-10-01
   title: Decision CIPM/108-40

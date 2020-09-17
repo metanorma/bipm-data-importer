@@ -253,12 +253,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2014-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2014-11-01
+    message: agreed to reflect on themes to be addressed by the BIPM/VAMAS Workshop
+      "Challenges in materials metrology" planned in 2016; and make suggestions to
+      give guidance to the workshop steering group by the end of January 2015.
   subject: The CIPM
-  x-unparsed:
-  - agreed to reflect on themes to be addressed by the BIPM/VAMAS Workshop "Challenges
-    in materials metrology" planned in 2016; and make suggestions to give guidance
-    to the workshop steering group by the end of January 2015.
 - dates:
   - 2014-11-01
   title: Decision CIPM/103-42
@@ -279,13 +280,15 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2014-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2014-11-01
+    message: agreed to establish a consortium of national metrology institutes and
+      other institutes, coordinated by the NIST, to facilitate new work aimed at resolving
+      the present disagreement amongst measurements of the Newtonian constant of gravitation,
+      stem:[G]. The BIPM will provide facilities for meetings of those taking part
+      in this work.
   subject: The CIPM
-  x-unparsed:
-  - agreed to establish a consortium of national metrology institutes and other institutes,
-    coordinated by the NIST, to facilitate new work aimed at resolving the present
-    disagreement amongst measurements of the Newtonian constant of gravitation, G.
-    The BIPM will provide facilities for meetings of those taking part in this work.
 - dates:
   - 2014-11-01
   title: Decision CIPM/103-44

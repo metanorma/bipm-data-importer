@@ -53,12 +53,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-I-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: adopts
+    date_effective: 2015-03-01
+    message: adopted the documents 'Guidelines for Selection of CIPM Consultative
+      Committee Presidents' and 'Good Practices for Selection of Consultative Committee
+      Working Group Chairpersons and Working Group Deputy Chairpersons' dated 9 March
+      2015.
   subject: The CIPM
-  x-unparsed:
-  - adopted the documents 'Guidelines for Selection of CIPM Consultative Committee
-    Presidents' and 'Good Practices for Selection of Consultative Committee Working
-    Group Chairpersons and Working Group Deputy Chairpersons' dated 9 March 2015.
 - dates:
   - 2015-03-01
   title: Decision CIPM/104-5
@@ -66,12 +68,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-I-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: adopts
+    date_effective: 2015-03-01
+    message: adopted the recommendation as presented to the CIPM by the CCM, CIPM
+      Working Document CIPM/15-12, as "CIPM Recommendation to NMIs on managing the
+      consequences of the corrections to the BIPM 'as maintained' mass-unit".
   subject: The CIPM
-  x-unparsed:
-  - adopted the recommendation as presented to the CIPM by the CCM, CIPM Working Document
-    CIPM/15-12, as "CIPM Recommendation to NMIs on managing the consequences of the
-    corrections to the BIPM 'as maintained' mass-unit".
 - dates:
   - 2015-03-01
   title: Decision CIPM/104-6
@@ -173,11 +176,12 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-I-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: adopts
+    date_effective: 2015-03-01
+    message: adopted the position proposed in Document CIPM/15-04 on the revision
+      of ISO/IEC 17025 as the CIPM position.
   subject: The CIPM
-  x-unparsed:
-  - adopted the position proposed in Document CIPM/15-04 on the revision of ISO/IEC
-    17025 as the CIPM position.
 - dates:
   - 2015-03-01
   title: Decision CIPM/104-14
@@ -185,11 +189,12 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-I-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: adopts
+    date_effective: 2015-03-01
+    message: adopted the position proposed in Document CIPM/15-11 on the drafting
+      of ISO 17034 as the CIPM position.
   subject: The CIPM
-  x-unparsed:
-  - adopted the position proposed in Document CIPM/15-11 on the drafting of ISO 17034
-    as the CIPM position.
 - dates:
   - 2015-03-01
   title: Decision CIPM/104-15
@@ -210,11 +215,12 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-I-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: encourages
+    date_effective: 2015-03-01
+    message: encouraged the JCRB to explore mechanisms by which GULFMET could attend
+      future JCRB meetings.
   subject: The CIPM
-  x-unparsed:
-  - encouraged the JCRB to explore mechanisms by which GULFMET could attend future
-    JCRB meetings.
 - dates:
   - 2015-03-01
   title: Decision CIPM/104-17
@@ -355,23 +361,23 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-I-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: adopts
+    date_effective: 2015-03-01
+    message: |-
+      adopted the traceability exception related to delta value isotope ratio measurements proposed by the CCQM as follows:
+
+      "Delta value isotope ratio measurements that cannot presently be made traceable to the SI should be made traceable to materials\* recognised as International Standards. Since at present, values assigned to these materials are based on consensus values, these materials are not listed in the Appendix stem:["C"] of the BIPM Database.
+
+      \* stem:["A"] list of certified reference materials that should be used to identify accepted references for delta value isotope ratio traceability statements is published and maintained by IUPAC:
+
+      Willi stem:["A"]. Brand, Tyler B. Coplen, Jochen Vogl, Martin Rosner and Thomas Prohaska
+
+      Assessment of international reference materials for isotope-ratio analysis (IUPAC Technical Report). Pure Appl. Chem. 2014; 86(3): 425-467
+
+      The report is available for free download: http://www.degruyter.com/doi/10.1515/pac-2013-1023
+
+      The CIPM notes that assigned values for replacement materials should be done through a formal internationally vetted procedure that assures the continued comparability of delta value measurements.
+
+      The CIPM encourages the continuation of programmes within the NMIs to develop absolute isotope ratio measurement values for such Reference Materials and active engagement with the IUPAC community."
   subject: The CIPM
-  x-unparsed:
-  - "adopted the traceability exception related to delta value isotope ratio measurements
-    proposed by the CCQM as follows:\r\n\"Delta value isotope ratio measurements that
-    cannot presently be made traceable to the SI should be made traceable to materials*
-    recognised as International Standards. Since at present, values assigned to these
-    materials are based on consensus values, these materials are not listed in the
-    Appendix C of the BIPM Database.\r\n* A list of certified reference materials
-    that should be used to identify accepted references for delta value isotope ratio
-    traceability statements is published and maintained by IUPAC:\r\nWilli A. Brand,
-    Tyler B. Coplen, Jochen Vogl, Martin Rosner and Thomas Prohaska\r\nAssessment
-    of international reference materials for isotope-ratio analysis (IUPAC Technical
-    Report). Pure Appl. Chem. 2014; 86(3): 425-467\r\nThe report is available for
-    free download: http://www.degruyter.com/doi/10.1515/pac-2013-1023\r\nThe CIPM
-    notes that assigned values for replacement materials should be done through a
-    formal internationally vetted procedure that assures the continued comparability
-    of delta value measurements.\r\nThe CIPM encourages the continuation of programmes
-    within the NMIs to develop absolute isotope ratio measurement values for such
-    Reference Materials and active engagement with the IUPAC community.\""

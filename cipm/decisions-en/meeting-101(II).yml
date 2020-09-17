@@ -45,12 +45,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-10-01
+    message: |-
+      agreed to invite Dr Friederike Weritz, government representative of Germany, to take part in the _ad hoc_ Working Group on CIPM Membership.
+
+      The BIPM Director will send an invitation to Dr Friederike Weritz. [Action CIPM/101-16]
   subject: The CIPM
-  x-unparsed:
-  - "agreed to invite Dr Friederike Weritz, government representative of Germany,
-    to take part in the ad hoc Working Group on CIPM Membership.\r\nThe BIPM Director
-    will send an invitation to Dr Friederike Weritz. [Action CIPM/101-16]"
 - dates:
   - 2012-10-01
   title: Decision CIPM/101-44
@@ -206,10 +208,11 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-10-01
+    message: agreed with the proposed revised Article 15 of the BIPM Financial Regulations.
   subject: The CIPM
-  x-unparsed:
-  - agreed with the proposed revised Article 15 of the BIPM Financial Regulations.
 - dates:
   - 2012-10-01
   title: Decision CIPM/101-56
@@ -339,18 +342,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-10-01
+    message: |-
+      agreed with the reinstatement in the BIPM Programme of work for 2013 to 2015 of a key comparison in the field of large organic molecules carried out by the Chemistry Department as additional support both financially and by secondment will be received from NMIs.
+
+      The chairs of the CIPM Standing Sub-Committees and _ad hoc_ Working Groups will send their respective Terms of Reference to the CIPM members. stem:["A"] deadline of one week would be given for comments on these terms of reference as well as on the revised Statement on the BIPM mission, role and objectives. The BIPM Deputy Director will then coordinate the reformatting of the documents which will be formalized within one week. [Action CIPM/101-23]
   subject: The CIPM
-  x-unparsed:
-  - "agreed with the reinstatement in the BIPM Programme of work for 2013 to 2015
-    of a key comparison in the field of large organic molecules carried out by the
-    Chemistry Department as additional support both financially and by secondment
-    will be received from NMIs.\r\nThe chairs of the CIPM Standing Sub-Committees
-    and ad hoc Working Groups will send their respective Terms of Reference to the
-    CIPM members. A deadline of one week would be given for comments on these terms
-    of reference as well as on the revised Statement on the BIPM mission, role and
-    objectives. The BIPM Deputy Director will then coordinate the reformatting of
-    the documents which will be formalized within one week. [Action CIPM/101-23]"
 - dates:
   - 2012-10-01
   title: Decision CIPM/101-66

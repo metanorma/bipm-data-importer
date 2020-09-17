@@ -31,9 +31,9 @@ CONSIDERATIONS = {
 }
 
 ACTIONS = {
-  /(?:adopts|adopte)/ => "adopts",
-  /(?:thanks|thanked|expresses[ -]appreciation|appréciant|pays tribute|rend hommage|remercie)/i => "thanks / expresses-appreciation",
-  /(?:approu?ves?|approuvant|approving|approved|entérine)/i => "approves",
+  /(?:adopts|adopted?)/ => "adopts",
+  /(?:thanks|thanked|expresse[sd](?:[ -]| its )appreciation|appréciant|pays tribute|rend hommage|remercie)/i => "thanks / expresses-appreciation",
+  /(?:approu?ves?|approuvant|approving|approved|entérine|agreed)/i => "approves",
   /(?:d[eé]cid(?:e[ds]|e|é)|ratifies?|judges|d[ée]clares?|d[ée]finition|sanction(?:s|ne))/i => "decides",
   /(?:The unit of length is|Supplementary units|Principl?es|Les Délégués des États|Les v\u{9C}ux ou propositions)/i => "decides", # MISC - like declares/defines
   /(?:L'unité de longueur|Unités supplémentaires|New candle|New lumen|Definitions of|Cubic decimetre|Clarification of|Revision of)/i => "decides", # MISC - like declares/defines
@@ -47,13 +47,13 @@ ACTIONS = {
   /(?:welcomes|welcomed|accueille favorablement)/i => "welcomes",
   /recomm(?:ends|ande)/i => "recommends",
   /(?:requests?|requested|demande)/i => "requests",
-  "congratulates" => "congratulates",
+  /(?:congratulate[sd])/i => "congratulates",
   /(?:instructs|instructed)/i => "instructs",
   /(?:urges|prie instamment)/i => "urges",
   /(?:appoints|appointed|elected|autorise|authorized|empowers|charged?|donne|habilite|Pendant la période)/i => "appoints",
   "resolves further" => "resolves further",
   /(?:calls upon|draws the attention|attire l'attention|lance un appel)/i => "calls upon",
-  /(?:encourages?|espère|proposes?)/i => "encourages",
+  /(?:encourages?d?|espère|proposes?)/i => "encourages",
   /(?:affirms|reaffirming|réaffirmant|states|remarks|remarques)/i => "affirms / reaffirming",
 }
 

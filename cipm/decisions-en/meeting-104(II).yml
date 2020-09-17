@@ -247,13 +247,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-II-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: adopts
+    date_effective: 2015-10-01
+    message: adopted the Recommendation 'Updates to the list of standard frequencies'
+      of the Consultative Committee for Time and Frequency (CCTF) and the Consultative
+      Committee for Length (CCL) as CIPM Recommendation 2 (CI-2015), subject to any
+      comments submitted by CIPM members in the three weeks following the meeting.
   subject: The CIPM
-  x-unparsed:
-  - adopted the Recommendation 'Updates to the list of standard frequencies' of the
-    Consultative Committee for Time and Frequency (CCTF) and the Consultative Committee
-    for Length (CCL) as CIPM Recommendation 2 (CI-2015), subject to any comments submitted
-    by CIPM members in the three weeks following the meeting.
 - dates:
   - 2015-10-01
   title: Decision CIPM/104-44
