@@ -47,9 +47,9 @@ resolutions:
       « La seconde est la durée de 9 192 631 770 périodes de la radiation correspondant à la transition entre les deux niveaux hyperfins de l'état fondamental de l'atome de césium 133 ».
   - type: decides
     date_effective: 1967-10-16
-    message: décide La Résolution 1 adoptée par le Comité international des poids
-      et mesures à sa session de 1956 et la cgpm-resolution:fr/11/9[Résolution 9]
-      de la Onzième Conférence générale des poids et mesures sont abrogées.
+    message: décide La cipm-resolution:fr/1956/1[Résolution 1] adoptée par le Comité
+      international des poids et mesures à sa session de 1956 et la cgpm-resolution:fr/11/9[Résolution
+      9] de la Onzième Conférence générale des poids et mesures sont abrogées.
 - dates:
   - 1967-10-16
   title: Unité SI de temps (seconde)

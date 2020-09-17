@@ -367,8 +367,9 @@ resolutions:
     date_effective: 1995-10-13
     message: considérant que le Comité international des poids et mesures (CIPM),
       en 1980, constatant que le statut ambigu des unités supplémentaires compromet
-      la cohérence interne du SI, a interprété dans sa Recommandation 1 (CI-1980)
-      les unités supplémentaires, dans le SI, comme des unités dérivées sans dimension,
+      la cohérence interne du SI, a interprété dans sa cipm-resolution:fr/1980/1[Recommandation
+      1 (CI-1980)] les unités supplémentaires, dans le SI, comme des unités dérivées
+      sans dimension,
   actions:
   - type: approves
     date_effective: 1995-10-13

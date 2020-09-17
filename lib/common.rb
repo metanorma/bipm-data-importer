@@ -71,7 +71,7 @@ module Common
       when %r'\A/(\w{2})/CGPM/db/(\d+)/(\d+)/(#.*)?\z',
            %r'\A/jsp/(\w{2})/ViewCGPMResolution\.jsp\?CGPM=(\d+)&RES=(\d+)(#.*)?\z'
         "cgpm-resolution:#{$1}/#{$2}/#{$3}#{$4}"
-      when %r'\A/(\w{2})/CIPM/db/(\d+)/(\d+)/(#.*)?\z',
+      when %r'\A/(\w{2})/CIPM/db/(\d+)/(\d+)/(#.*)?\z'
         "cipm-resolution:#{$1}/#{$2}/#{$3}#{$4}"
       else
         URI(res.uri).merge(href).to_s # Relative -> absolute
