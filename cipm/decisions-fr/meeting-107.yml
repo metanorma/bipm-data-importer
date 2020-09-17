@@ -91,18 +91,18 @@ resolutions:
   - "salue et appuie le travail du président de la Commission consultative sur la
     Caisse de retraite (CCCR), du directeur du BIPM et du conseiller juridique du
     BIPM concernant la mise en œuvre de ses décisions, en particulier celles relatives
-    à la stabilité financière à long terme de la Caisse de retraite du BIPM. \r\nLe
+    à la stabilité financière à long terme de la Caisse de retraite du BIPM. \nLe
     CIPM rappelle la décision prise en 2008 par le Conseil d'administration de l'Organisation
     internationale du travail (OIT) qui observait que le BIPM, en tant qu'organisation
     intergouvernementale instituée en vertu d'un traité, reconnaissait la juridiction
     du Tribunal administratif de l'OIT (TAOIT). Le CIPM reconnaît le statut juridique
     du BIPM en tant qu'organisation intergouvernementale et charge le directeur du
     BIPM de continuer à assurer dans toute la mesure du possible la sécurité juridique
-    nécessaire pour mettre en œuvre ses décisions.\r\nLe CIPM rappelle sa décision
-    CIPM/104-48 et confirme que les discussions informelles au sujet de la terminologie
-    utilisée pour désigner le BIPM ne font que porter atteinte à la réputation de
-    l'organisation et pourraient nuire à la confiance dans la sécurité juridique du
-    BIPM. Le CIPM confirme que ces discussions sont closes."
+    nécessaire pour mettre en œuvre ses décisions.\nLe CIPM rappelle sa décision CIPM/104-48
+    et confirme que les discussions informelles au sujet de la terminologie utilisée
+    pour désigner le BIPM ne font que porter atteinte à la réputation de l'organisation
+    et pourraient nuire à la confiance dans la sécurité juridique du BIPM. Le CIPM
+    confirme que ces discussions sont closes."
 - dates:
   - 2018-06-01
   title: Décision CIPM/107-7
@@ -231,15 +231,12 @@ resolutions:
   actions:
   - type: decides
     date_effective: 2018-06-01
-    message: "décide d'adopter la définition suivante du terme « consensus » (provenant
-      des directives ISO/IEC) qui sera utilisée au sein des Comités consultatifs,
-      sous-comités et groupes de travail _ad hoc_ : +\n +\n\r « Consensus - Accord
-      général caractérisé par l'absence d'opposition ferme à l'encontre de l'essentiel
-      du sujet émanant d'une partie important des intérêts en jeu et par un processus
-      de recherche de prise en considération des vues de toutes les parties concernées
-      et de rapprochement des positions divergentes éventuelles. Le consensus n'implique
-      pas nécessairement l'unanimité. » +\n +\n\r Le Document CIPM-D-01 sera mis à
-      jour en conséquence."
+    message: |-
+      décide d'adopter la définition suivante du terme « consensus » (provenant des directives ISO/IEC) qui sera utilisée au sein des Comités consultatifs, sous-comités et groupes de travail _ad hoc_ : +
+       +
+      « Consensus - Accord général caractérisé par l'absence d'opposition ferme à l'encontre de l'essentiel du sujet émanant d'une partie important des intérêts en jeu et par un processus de recherche de prise en considération des vues de toutes les parties concernées et de rapprochement des positions divergentes éventuelles. Le consensus n'implique pas nécessairement l'unanimité. » +
+       +
+      Le Document CIPM-D-01 sera mis à jour en conséquence.
   subject: Le CIPM
 - dates:
   - 2018-06-01

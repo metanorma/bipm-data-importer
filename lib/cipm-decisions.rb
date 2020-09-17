@@ -52,7 +52,9 @@ a = Mechanize.new
       binding.pry if (d = contenttr.css('div[align="right"]')).length != 1
       d.remove
 
-      part = contenttr.at_css('td[colspan]').inner_html.encode('utf-8')
+      Common.replace_links contenttr, meeting
+
+      part = Common.ng_to_string(contenttr.at_css('td[colspan]'))
       parse = Nokogiri::HTML(part).text.strip
 
       parse =~ /\A(((the|le|la|Le secrétaire du|Le président du|Les membres du|Le directeur du) +[BC][IG]PM( Director)?|Dr May|W\.E\. May)[, ]+)/i

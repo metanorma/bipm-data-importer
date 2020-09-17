@@ -172,25 +172,14 @@ resolutions:
   actions:
   - type: approves
     date_effective: 2014-03-01
-    message: "approuve le Programme de travail du BIPM proposé pour les années 2016
-      à 2019 comme base du document final et charge le directeur du BIPM et A. Henson
-      de prendre en considération les commentaires formulés par les membres du CIPM.\n\nLe
-      CIPM décide que le Programme de travail sera mis en ligne afin de recueillir
-      les observations des États Membres et que ce processus de consultation sera
-      porté à l'attention des directeurs des laboratoires nationaux de métrologie
-      et des laboratoires désignés.\n\nLe CIPM décide que l'alternative dans le domaine
-      du temps « stem:[\"T\"] A3.3 Validation des peignes de fréquence » du Programme
-      de travail du BIPM proposé demeure un projet optionnel. Le CIPM demande au directeur
-      du BIPM de revoir le coût et la portée de ce projet. Les peignes de fréquence
-      optiques utilisés pour réaliser l'unité de longueur sont des outils importants
-      et le deviendront plus encore. L'absence d'un programme de validation officiel
-      de ces systèmes de mesure au coeur de la mise en pratique d'une unité de base
-      du SI, doit être considérée comme non satisfaisante et mérite que le BIPM et
-      le CIPM examinent de plus près l'intégration de cette question au Programme
-      de travail du BIPM.\n\n\r Le CIPM demande que l'intégration de l'alternative
-      dans le domaine de la chimie « A2.1.4 Comparaisons de références primaires organiques
-      de molécules de petite taille (Matériaux purs) » au Programme de travail du
-      BIPM proposé soit étudiée."
+    message: |-
+      approuve le Programme de travail du BIPM proposé pour les années 2016 à 2019 comme base du document final et charge le directeur du BIPM et A. Henson de prendre en considération les commentaires formulés par les membres du CIPM.
+
+      Le CIPM décide que le Programme de travail sera mis en ligne afin de recueillir les observations des États Membres et que ce processus de consultation sera porté à l'attention des directeurs des laboratoires nationaux de métrologie et des laboratoires désignés.
+
+      Le CIPM décide que l'alternative dans le domaine du temps « stem:["T"] A3.3 Validation des peignes de fréquence » du Programme de travail du BIPM proposé demeure un projet optionnel. Le CIPM demande au directeur du BIPM de revoir le coût et la portée de ce projet. Les peignes de fréquence optiques utilisés pour réaliser l'unité de longueur sont des outils importants et le deviendront plus encore. L'absence d'un programme de validation officiel de ces systèmes de mesure au coeur de la mise en pratique d'une unité de base du SI, doit être considérée comme non satisfaisante et mérite que le BIPM et le CIPM examinent de plus près l'intégration de cette question au Programme de travail du BIPM.
+
+      Le CIPM demande que l'intégration de l'alternative dans le domaine de la chimie « A2.1.4 Comparaisons de références primaires organiques de molécules de petite taille (Matériaux purs) » au Programme de travail du BIPM proposé soit étudiée.
   subject: Le CIPM
 - dates:
   - 2014-03-01
@@ -232,12 +221,9 @@ resolutions:
   actions: []
   subject: Le CIPM
   x-unparsed:
-  - "accepte le calendrier provisoire concernant la réunion de la CGPM et décide que
-    la réunion préparatoire sur la dotation du BIPM aura lieu le matin du lundi 17
-    novembre 2014 (l'après-midi sera consacrée aux visites des laboratoires et à des
-    présentations).\r\nLe CIPM charge le président et le secrétaire du CIPM de préparer
-    un courrier sur la formation du Groupe de travail sur la dotation du BIPM qui
-    sera envoyé aux États Membres."
+  - |-
+    accepte le calendrier provisoire concernant la réunion de la CGPM et décide que la réunion préparatoire sur la dotation du BIPM aura lieu le matin du lundi 17 novembre 2014 (l'après-midi sera consacrée aux visites des laboratoires et à des présentations).
+    Le CIPM charge le président et le secrétaire du CIPM de préparer un courrier sur la formation du Groupe de travail sur la dotation du BIPM qui sera envoyé aux États Membres.
 - dates:
   - 2014-03-01
   title: Décision CIPM/103-15
@@ -264,15 +250,15 @@ resolutions:
   actions:
   - type: welcomes
     date_effective: 2014-03-01
-    message: "accueille favorablement la présentation de J. Valdés intitulée \r «
-      _The role and performance of the CIPM as a scientific body and a direction giving
+    message: accueille favorablement la présentation de J. Valdés intitulée « _The
+      role and performance of the CIPM as a scientific body and a direction giving
       and supervisory body of the BIPM_ » et reconnaît les responsabilités qui lui
       incombent d'initier et d'examiner les activités métrologiques fondamentales.
       Dans ce contexte, le CIPM prend note des travaux sur l'interférométrie atomique
       qui pourraient constituer l'une des voies possibles pour redéfinir le kilogramme,
       selon un article scientifique récent mentionné dans la présentation de J. Valdès.
       Le CIPM encourage la tenue d'autres discussions sur des sujets scientifiques
-      au cours de ses réunions."
+      au cours de ses réunions.
   subject: Le CIPM
 - dates:
   - 2014-03-01

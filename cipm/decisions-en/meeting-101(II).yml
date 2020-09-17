@@ -29,13 +29,13 @@ resolutions:
   x-unparsed:
   - "developed a document summarizing the conclusions agreed at the meeting of Representatives
     of States Parties to the Metre Convention and Directors of National Metrology
-    Institutes. \r\n\r\nThe BIPM Director will send the document summarizing the conclusions
+    Institutes. \n\nThe BIPM Director will send the document summarizing the conclusions
     as soon as possible to all Member States, NMI Directors and CIPM members. [Action
-    CIPM/101-13] \r\n\r\nThe BIPM Director and the Director Designate will define,
-    in consultation with the BIPM Commission for Conditions of Employment (CCE), the
+    CIPM/101-13] \n\nThe BIPM Director and the Director Designate will define, in
+    consultation with the BIPM Commission for Conditions of Employment (CCE), the
     terms of engagement of the BIPM staff members invited to take part in the CIPM
     ad hoc Working Group on Conditions of Employment and Standing Sub-Committee on
-    Pensions and Health Insurance. [Action CIPM/101-14]\r\n\r\nThe BIPM Director Designate
+    Pensions and Health Insurance. [Action CIPM/101-14]\n\nThe BIPM Director Designate
     will set a common format for the Terms of Reference of the CIPM Standing Sub-Committees
     and ad hoc Working Groups. [Action CIPM/101-15]"
 - dates:
@@ -360,5 +360,6 @@ resolutions:
   actions: []
   subject: The CIPM
   x-unparsed:
-  - "discussed the actions and noted the timeline for the preparation for\r\nthe 25th
-    meeting of the CGPM."
+  - |-
+    discussed the actions and noted the timeline for the preparation for
+    the 25th meeting of the CGPM.

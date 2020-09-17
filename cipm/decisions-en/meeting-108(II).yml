@@ -212,9 +212,9 @@ resolutions:
     of arrears. Pursuant to this resolution, the CIPM decided that the BIPM shall
     inform States that have previously been notified of accumulated arrears exceeding
     the six-year period, that the amounts due are those equal to the first six years
-    of default.\r\nThe CIPM decided that any amounts paid by such States that constitute
+    of default.\nThe CIPM decided that any amounts paid by such States that constitute
     accumulated arrears exceeding the six-year period, may be considered when calculating
-    their contribution, and entry contribution, following their re-engagement. \r\nThis
+    their contribution, and entry contribution, following their re-engagement. \nThis
     decision does not address the associated advances made by Member States, which
     shall be considered separately by the CIPM in the context of Resolution 5."
 - dates:
@@ -376,14 +376,32 @@ resolutions:
   considerations:
   - type: acknowledging
     date_effective: 2019-10-01
-    message: "accepted the following changes to the membership and observership of
-      the Consultative Committees:\n\n* CCEM\n\n** CMI (Czechia) as a member\n* CCM\n\n**
-      INMETRO (Brazil) as a member\n\r IPQ (Portugal) as a member* CCPR\n\n** SCL
-      HK (Hong Kong (China)) as an observer\n* CCQM\n\n** INTI (Argentina) as an observer\n**
-      SE \"Ukrmetrteststandard\" (Ukraine) as an observer\n* CCRI\n\n** BEV (Austria)
-      as a member\n** CMI (Czechia) as a member\n** METAS (Switzerland) as a member\n**
-      NMISA & iThemba LABS (South Africa) as a member\n* CCU\n\n** INRIM (Italy) as
-      a member\n** NSC \"Institute of Metrology\" (Ukraine) as an observer"
+    message: |-
+      accepted the following changes to the membership and observership of the Consultative Committees:
+
+      * CCEM
+
+      ** CMI (Czechia) as a member
+      * CCM
+
+      ** INMETRO (Brazil) as a member
+      IPQ (Portugal) as a member* CCPR
+
+      ** SCL HK (Hong Kong (China)) as an observer
+      * CCQM
+
+      ** INTI (Argentina) as an observer
+      ** SE "Ukrmetrteststandard" (Ukraine) as an observer
+      * CCRI
+
+      ** BEV (Austria) as a member
+      ** CMI (Czechia) as a member
+      ** METAS (Switzerland) as a member
+      ** NMISA & iThemba LABS (South Africa) as a member
+      * CCU
+
+      ** INRIM (Italy) as a member
+      ** NSC "Institute of Metrology" (Ukraine) as an observer
   actions: []
   subject: The CIPM
 - dates:

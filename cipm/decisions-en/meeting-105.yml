@@ -71,12 +71,12 @@ resolutions:
   x-unparsed:
   - "reviewed the advisory opinion received from the CCE (dated 7 June 2016), the
     available data on the financial position of the Pension Fund and the assumptions
-    and expert advice received from the actuary (Mercer).\r\nThe CIPM noted that the
+    and expert advice received from the actuary (Mercer).\nThe CIPM noted that the
     Mercer study projected that reaching long-term financial sustainability will require
     contributions from existing staff to reach 19.8 % for the Pre-2010 Section and
     18.8 % for the Post-2010 Section. The CIPM considered the request from the staff
     representatives and agreed to reach these rates following a series of stepped
-    increases. \r\nThe modelling assumed that all staff joining the BIPM from 1 January
+    increases. \nThe modelling assumed that all staff joining the BIPM from 1 January
     2017 will have reduced benefits and contribute at a level of 15 % of salary."
 - dates:
   - 2016-10-01
@@ -255,9 +255,9 @@ resolutions:
   - type: approves
     date_effective: 2016-10-01
     message: agreed to treat the radian and the cycle in the 9th Edition of the SI
-      Brochure in compliance with the CGPM Resolutions in force (for example, link:/en/CGPM/db/11/12/[Resolution
-      12 of the 11th CGPM (1960)] and link:/en/CGPM/db/20/8/[Resolution 8 of the 20th
-      CGPM (1995)]).
+      Brochure in compliance with the CGPM Resolutions in force (for example, cgpm-resolution:en/11/12[Resolution
+      12 of the 11th CGPM (1960)] and cgpm-resolution:en/20/8[Resolution 8 of the
+      20th CGPM (1995)]).
   subject: The CIPM
 - dates:
   - 2016-10-01
@@ -312,12 +312,12 @@ resolutions:
   x-unparsed:
   - "endorsed the latest draft of the 9th SI Brochure as the close-to-final one. The
     BIPM (the BIPM Director, Dr Davis, Mr Sitton and the CCU Executive Secretary)
-    supported by Dr Quinn will produce a fully edited version by 30 June 2017.\r\nThe
+    supported by Dr Quinn will produce a fully edited version by 30 June 2017.\nThe
     edited version will be approved by the President of the CCU supported by Dr Quinn.
     The fully edited Brochure shall be brought to the CCU in September 2017 and to
-    the CIPM in October 2017 for final approval. \r\nThe CIPM considered that the
-    consultation among the stakeholders has been completed. Nevertheless, if matters
-    of substance are raised, the CCU President shall bring them to the CIPM."
+    the CIPM in October 2017 for final approval. \nThe CIPM considered that the consultation
+    among the stakeholders has been completed. Nevertheless, if matters of substance
+    are raised, the CCU President shall bring them to the CIPM."
 - dates:
   - 2016-10-01
   title: Decision CIPM/105-22
@@ -354,7 +354,7 @@ resolutions:
   actions:
   - type: welcomes
     date_effective: 2016-10-01
-    message: welcomed the CCEM, CCM, CCT and CCQM as new members of the link:/en/committees/cc/wg/cipm-tgsi.html[Task
+    message: welcomed the CCEM, CCM, CCT and CCQM as new members of the https://www.bipm.org/en/committees/cc/wg/cipm-tgsi.html[Task
       Group for the Promotion of the SI]. ILAC, ISO, OIML, IEC and CIE were welcomed
       as observers. The CIPM decided that only Member State NMIs and CCs can be members
       of the Task Group.
@@ -402,10 +402,12 @@ resolutions:
   actions:
   - type: decides
     date_effective: 2016-10-01
-    message: "decided that for all Consultative Committee meetings in 2017 and thereafter:\n\n*
-      International organizations will be referred to as \"liaisons\" and will not
-      be offered membership.\n* Named individuals will be \"guests\" or \"experts\"
-      and will not be offered membership.\n\r Document CIPM-D-01 will be updated accordingly."
+    message: |-
+      decided that for all Consultative Committee meetings in 2017 and thereafter:
+
+      * International organizations will be referred to as "liaisons" and will not be offered membership.
+      * Named individuals will be "guests" or "experts" and will not be offered membership.
+      Document CIPM-D-01 will be updated accordingly.
   subject: The CIPM
 - dates:
   - 2016-10-01
@@ -507,7 +509,7 @@ resolutions:
     message: decided, on the basis of the criteria it has previously adopted, that
       it would be appropriate for the Plurinational State of Bolivia, for Bosnia and
       Herzegovina, and for Montenegro to become States Parties to the Metre Convention.
-      The BIPM will convey the Decision, recalling link:/en/CGPM/db/24/4/[Resolution
+      The BIPM will convey the Decision, recalling cgpm-resolution:en/24/4[Resolution
       4 "On the status of Associate State of the General Conference"] adopted by the
       CGPM at its 24th meeting, and the implications regarding the increase in subscriptions
       should any of the States choose to remain as an Associate of the CGPM.

@@ -85,7 +85,7 @@ resolutions:
     États Parties à la Convention du Mètre concernant les activités des Comités consultatifs
     et l'élaboration du programme de travail du BIPM. Les propositions de la Recommandation
     2 sont soutenues dans l'esprit mais les modalités de mise en \x9Cuvre de cette
-    recommandation font l'objet de préoccupations.\r\nLe directeur du BIPM et le directeur
+    recommandation font l'objet de préoccupations.\nLe directeur du BIPM et le directeur
     du Département des relations internationales et de la communication étudieront
     les mesures nécessaires à la mise en \x9Cuvre de la Recommandation 2 et élaboreront
     un plan à cette fin. [Action CIPM/101-1]"
@@ -123,13 +123,9 @@ resolutions:
   actions: []
   subject: Le CIPM
   x-unparsed:
-  - "exprime son accord avec la Recommandation 5 du Groupe de travail ad hoc.\r\n
-    Le directeur du BIPM invitera les présidents des organisations régionales de métrologie
-    à la réunion des directeurs des laboratoires nationaux de métrologie. Par ailleurs,
-    les présidents des Comités consultatifs inviteront les présidents des comités
-    techniques des organisations régionales de métrologie aux réunions des Groupes
-    de travail des Comités consultatifs sur la stratégie et sur les comparaisons clés.
-    [Action CIPM/101-2]"
+  - |-
+    exprime son accord avec la Recommandation 5 du Groupe de travail ad hoc.
+     Le directeur du BIPM invitera les présidents des organisations régionales de métrologie à la réunion des directeurs des laboratoires nationaux de métrologie. Par ailleurs, les présidents des Comités consultatifs inviteront les présidents des comités techniques des organisations régionales de métrologie aux réunions des Groupes de travail des Comités consultatifs sur la stratégie et sur les comparaisons clés. [Action CIPM/101-2]
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-10
@@ -140,11 +136,9 @@ resolutions:
   actions: []
   subject: Le CIPM
   x-unparsed:
-  - "exprime son accord avec les Recommandations 6, 7, 8, 9 et 10, et cherchera à
-    obtenir des clarifications quant au niveau de détail souhaité par le Groupe de
-    travail ad hoc concernant les documents produits par le BIPM.\r\nLe secrétaire
-    du CIPM entrera en contact avec des membres du Groupe de travail ad hoc pour obtenir
-    des clarifications quant aux Recommandations 6 à 10. [Action CIPM/101-3]"
+  - |-
+    exprime son accord avec les Recommandations 6, 7, 8, 9 et 10, et cherchera à obtenir des clarifications quant au niveau de détail souhaité par le Groupe de travail ad hoc concernant les documents produits par le BIPM.
+    Le secrétaire du CIPM entrera en contact avec des membres du Groupe de travail ad hoc pour obtenir des clarifications quant aux Recommandations 6 à 10. [Action CIPM/101-3]
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-11
@@ -219,10 +213,9 @@ resolutions:
   actions: []
   subject: Le CIPM
   x-unparsed:
-  - "exprime son accord de principe avec la Recommandation 15 du Groupe de travail
-    ad hoc.\r\nLe CIPM établira un Groupe de travail ad hoc sur les règles et principes
-    relatifs à la composition du CIPM afin d'étudier les exigences des Recommandations
-    13, 14 et 15. [Action CIPM/101-5]"
+  - |-
+    exprime son accord de principe avec la Recommandation 15 du Groupe de travail ad hoc.
+    Le CIPM établira un Groupe de travail ad hoc sur les règles et principes relatifs à la composition du CIPM afin d'étudier les exigences des Recommandations 13, 14 et 15. [Action CIPM/101-5]
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-17
@@ -262,11 +255,9 @@ resolutions:
   actions: []
   subject: Le CIPM
   x-unparsed:
-  - "convient que la durée des réunions de la CGPM devrait être réduite et décide
-    que les présidents des Comités consultatifs présenteront uniquement des rapports
-    brefs pendant la réunion de la CGPM et se tiendront disponibles pour répondre
-    aux questions.\r\nLe bureau du CIPM et le BIPM étudieront les moyens de réduire
-    davantage la durée des réunions de la CGPM. [Action CIPM/101-6]"
+  - |-
+    convient que la durée des réunions de la CGPM devrait être réduite et décide que les présidents des Comités consultatifs présenteront uniquement des rapports brefs pendant la réunion de la CGPM et se tiendront disponibles pour répondre aux questions.
+    Le bureau du CIPM et le BIPM étudieront les moyens de réduire davantage la durée des réunions de la CGPM. [Action CIPM/101-6]
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-20
@@ -397,13 +388,9 @@ resolutions:
   considerations: []
   actions: []
   x-unparsed:
-  - "Étant donné que trois sièges du CIPM seront vacants le 30 juin 2012, et en prévision
-    de l'élection visant à pourvoir ces trois vacances, le CIPM a discuté des candidats
-    éligibles en se fondant sur les critères existants et procèdera à un vote. Le
-    processus d'élection sera achevé au 28 juin 2012.\r\nLe président du CIPM invitera
-    R. Davis à présider l'atelier du CCM sur la mise en pratique de la nouvelle définition
-    du kilogramme. Le prochain président du CCM sera désigné par le CIPM lors de sa
-    réunion en octobre 2012. [Action CIPM/101-8]"
+  - |-
+    Étant donné que trois sièges du CIPM seront vacants le 30 juin 2012, et en prévision de l'élection visant à pourvoir ces trois vacances, le CIPM a discuté des candidats éligibles en se fondant sur les critères existants et procèdera à un vote. Le processus d'élection sera achevé au 28 juin 2012.
+    Le président du CIPM invitera R. Davis à présider l'atelier du CCM sur la mise en pratique de la nouvelle définition du kilogramme. Le prochain président du CCM sera désigné par le CIPM lors de sa réunion en octobre 2012. [Action CIPM/101-8]
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-29
@@ -430,16 +417,10 @@ resolutions:
   actions: []
   subject: Le CIPM
   x-unparsed:
-  - "soutient fortement le projet de résolution proposé et convient de le présenter
-    lors de la réunion des représentants des États Parties à la Convention du mètre
-    et des directeurs des laboratoires nationaux de métrologie en octobre 2012, une
-    fois que la question du sigle de l'organisation aura été étudiée.\r\nLe BIPM étudiera
-    la question du sigle de l'organisation. [Action CIPM/101-9]\r\nLe président ou
-    le secrétaire du CIPM contactera les présidents des sous-groupes du Groupe de
-    travail ad hoc sur la gouvernance afin qu'ils présentent les conclusions de leur
-    sous-groupe lors de la réunion des représentants des États Parties à la Convention
-    du Mètre et des directeurs des laboratoires nationaux de métrologie en octobre
-    2012. [Action CIPM/101-10]"
+  - |-
+    soutient fortement le projet de résolution proposé et convient de le présenter lors de la réunion des représentants des États Parties à la Convention du mètre et des directeurs des laboratoires nationaux de métrologie en octobre 2012, une fois que la question du sigle de l'organisation aura été étudiée.
+    Le BIPM étudiera la question du sigle de l'organisation. [Action CIPM/101-9]
+    Le président ou le secrétaire du CIPM contactera les présidents des sous-groupes du Groupe de travail ad hoc sur la gouvernance afin qu'ils présentent les conclusions de leur sous-groupe lors de la réunion des représentants des États Parties à la Convention du Mètre et des directeurs des laboratoires nationaux de métrologie en octobre 2012. [Action CIPM/101-10]
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-31
@@ -569,6 +550,9 @@ resolutions:
   actions: []
   subject: Le CIPM
   x-unparsed:
-  - "convient de changer la date de la première partie de la 102e session du CIPM
-    :\r\n\r\nBureau du CIPM 17 - 18 juin 2013\r\n\r\nSession du CIPM 19 - 21 juin
-    2013."
+  - |-
+    convient de changer la date de la première partie de la 102e session du CIPM :
+
+    Bureau du CIPM 17 - 18 juin 2013
+
+    Session du CIPM 19 - 21 juin 2013.

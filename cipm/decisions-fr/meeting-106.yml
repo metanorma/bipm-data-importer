@@ -102,12 +102,12 @@ resolutions:
   actions: []
   x-unparsed:
   - "Faisant suite à l'examen de la modélisation actuarielle effectuée par l'actuaire
-    (Mercer) et à la Décision CIPM/105 06 selon laquelle le CIPM : \r\n\na octroyé
-    une contribution supplémentaire du BIPM à la Caisse de retraite d'un montant de
-    400 000 euros en 2017 puis de 150 000 euros par an les années suivantes,\r\n\na
-    appliqué des augmentations du taux de cotisation des membres du personnel du BIPM
-    en activité, \n\r\nle CIPM décide à l'unanimité de ne pas réviser le point applicable
-    aux pensions pour la période 2018-2019."
+    (Mercer) et à la Décision CIPM/105 06 selon laquelle le CIPM : \n\na octroyé une
+    contribution supplémentaire du BIPM à la Caisse de retraite d'un montant de 400
+    000 euros en 2017 puis de 150 000 euros par an les années suivantes,\n\na appliqué
+    des augmentations du taux de cotisation des membres du personnel du BIPM en activité,
+    \n\nle CIPM décide à l'unanimité de ne pas réviser le point applicable aux pensions
+    pour la période 2018-2019."
 - dates:
   - 2017-10-01
   title: Décision CIPM/106-8
@@ -150,13 +150,10 @@ resolutions:
   actions:
   - type: welcomes
     date_effective: 2017-10-01
-    message: "accueille favorablement les recommandations relatives à la révision
-      du SI formulées par ses Comités consultatifs. +\n +\n\r Le CIPM note que les
-      conditions fixées pour procéder à la révision du SI sont désormais remplies
-      et décide de soumettre le Projet de résolution stem:[\"A\"] à la Conférence
-      générale des poids et mesures (CGPM) à sa 26^e^ réunion et de prendre toutes
-      les autres dispositions nécessaires en vue de procéder, tel que cela a été planifié,
-      à la redéfinition du kilogramme, de l'ampère, du kelvin et de la mole."
+    message: |-
+      accueille favorablement les recommandations relatives à la révision du SI formulées par ses Comités consultatifs. +
+       +
+      Le CIPM note que les conditions fixées pour procéder à la révision du SI sont désormais remplies et décide de soumettre le Projet de résolution stem:["A"] à la Conférence générale des poids et mesures (CGPM) à sa 26^e^ réunion et de prendre toutes les autres dispositions nécessaires en vue de procéder, tel que cela a été planifié, à la redéfinition du kilogramme, de l'ampère, du kelvin et de la mole.
   subject: Le CIPM
 - dates:
   - 2017-10-01
@@ -183,13 +180,13 @@ resolutions:
   subject: Le CIPM
   x-unparsed:
   - "accepte le Projet de résolution A révisé qui lui est présenté à sa 106e session
-    et qui inclut les amendements suivants : \r\n\n modification de la définition
-    de la mole telle que suggérée par le CCU, en se fondant sur les propositions du
-    CCQM et de l'IUPAC, \r\n\n intégration des valeurs fournies par CODATA dans son
-    ajustement spécial des constantes fondamentales par la méthode des moindres carrés
-    pour les constantes de définition, \r\n\n harmonisation de l'ordre d'apparition
-    de la constante Kcd dans la définition de l'efficacité lumineuse, \r\n\n ajout
-    d'un texte explicatif concernant les unités hertz, joule, coulomb, lumen et watt."
+    et qui inclut les amendements suivants : \n\n modification de la définition de
+    la mole telle que suggérée par le CCU, en se fondant sur les propositions du CCQM
+    et de l'IUPAC, \n\n intégration des valeurs fournies par CODATA dans son ajustement
+    spécial des constantes fondamentales par la méthode des moindres carrés pour les
+    constantes de définition, \n\n harmonisation de l'ordre d'apparition de la constante
+    Kcd dans la définition de l'efficacité lumineuse, \n\n ajout d'un texte explicatif
+    concernant les unités hertz, joule, coulomb, lumen et watt."
 - dates:
   - 2017-10-01
   title: Décision CIPM/106-13
@@ -249,15 +246,15 @@ resolutions:
     message: "décide d'insérer le texte suivant dans le document CIPM-D-01 : +\n +\n_In
       order to be informed of technical developments and evolving stakeholder needs
       in different areas of metrology, the CIPM has Consultative Committees with agreed
-      scopes and the following three objectives: \r\n* to progress the state-of-the
+      scopes and the following three objectives: \n* to progress the state-of-the
       art by providing a global forum for NMIs to exchange information about the state
       of the art and best practices, \n* to define new possibilities for metrology
       to have impact on global measurement challenges by facilitating dialogue between
       the NMIs and new and established stakeholders, and \n* to demonstrate and improve
       the global comparability of measurements. Particularly by working with the RMOs
       in the context of the CIPM MRA to:\n* plan, execute and monitor KCs, and to
-      \n* support the process of CMC review._ \r\r Le document CIPM-D-01 sera mis
-      à jour en conséquence."
+      \n* support the process of CMC review._ Le document CIPM-D-01 sera mis à jour
+      en conséquence."
   subject: Le CIPM
 - dates:
   - 2017-10-01
@@ -272,7 +269,7 @@ resolutions:
     message: "Faisant suite à la Décision CIPM/105-27 (sur l'engagement des organisations
       internationales en tant qu'« organismes de liaison » au sein des Comités consultatifs),
       le CIPM décide que le statut d'organisme de liaison, dans le contexte des Comités
-      consultatifs, sera octroyé par le CIPM au cas par cas. +\n +\n\r Le CIPM prendra
+      consultatifs, sera octroyé par le CIPM au cas par cas. +\n +\nLe CIPM prendra
       sa décision en examinant dans quelle mesure l'organisation internationale concernée
       remplit les critères suivants :\n\n* avoir une structure et un domaine d'activité
       de caractère international et être représentative du domaine d'intérêt spécialisé
@@ -285,9 +282,9 @@ resolutions:
       leurs droits de vote concernant les politiques à suivre ou les actions à mener
       ou disposer d'autres mécanismes appropriés pour exprimer leur opinion ;\n* avoir
       été créée au moins trois ans avant la demande d'obtention du statut d'organisme
-      de liaison. \n\r Les organisations auxquelles le statut d'organisme de liaison
+      de liaison. \nLes organisations auxquelles le statut d'organisme de liaison
       n'est pas octroyé dans le contexte des Comités consultatifs seront désignées
-      sous le nom d'« organisations en coopération ». +\n +\n\r Le document CIPM-D-01
+      sous le nom d'« organisations en coopération ». +\n +\nLe document CIPM-D-01
       sera mis à jour en conséquence."
 - dates:
   - 2017-10-01
@@ -342,11 +339,11 @@ resolutions:
       les comparaisons clés (KCDB),\n* avoir enregistré au moins une aptitude en matière
       de mesures et d'étalonnages (CMC) dans la KCDB,\n* avoir un pourcentage supérieur
       à 0,02 dans le « Barème des quotes-parts pour la répartition des dépenses des
-      Nations Unies ». \n\r Les critères ci-dessus seront appliqués lors de la mise
-      en œuvre de la link:/en/CGPM/db/24/4/[Résolution 4 de la CGPM (2011) « Sur le
-      statut d'État Associé à la Conférence générale »]. +\n  +\n\r La présente décision
+      Nations Unies ». \nLes critères ci-dessus seront appliqués lors de la mise en
+      œuvre de la cgpm-resolution:en/24/4[Résolution 4 de la CGPM (2011) « Sur le
+      statut d'État Associé à la Conférence générale »]. +\n  +\nLa présente décision
       amende les critères adoptés par le CIPM lors de sa stem:[98^(e)] (2009) et stem:[99^(e)]
-      (2010) réunions. +\n  +\n\r Le CIPM réaffirme qu'un État Associé à la CGPM peut
+      (2010) réunions. +\n  +\nLe CIPM réaffirme qu'un État Associé à la CGPM peut
       choisir d'accéder à la Convention du Mètre et devenir État Membre à tout moment
       s'il le souhaite."
   subject: Le CIPM
@@ -416,10 +413,10 @@ resolutions:
   actions:
   - type: decides
     date_effective: 2017-10-01
-    message: "décide d'amender la Section B (page 4) du document « Critères et procédure
-      pour l'élection du CIPM » (septembre 2014), en ajoutant la phrase suivante :
-      +\n +\n\r « Chaque membre du CIPM doit être prêt à assumer le rôle de président
-      d'un Comité consultatif ou d'un Sous-comité du CIPM »."
+    message: |-
+      décide d'amender la Section B (page 4) du document « Critères et procédure pour l'élection du CIPM » (septembre 2014), en ajoutant la phrase suivante : +
+       +
+      « Chaque membre du CIPM doit être prêt à assumer le rôle de président d'un Comité consultatif ou d'un Sous-comité du CIPM ».
   subject: Le CIPM
 - dates:
   - 2017-10-01
@@ -465,13 +462,12 @@ resolutions:
   actions:
   - type: welcomes
     date_effective: 2017-10-01
-    message: "accueille favorablement comme base de travail les projets de termes
-      de référence et de règlement du Sous-comité sur l'attribution de distinctions.
-      +\n +\n\r Les membres du CIPM acceptent d'étudier les projets de documents et
-      d'envoyer des commentaires et corrections à M. Bulygin d'ici mars 2018. M. Bulygin
-      synthétisera les propositions des membres du CIPM et soumettra un document final
-      au bureau du CIPM en juin 2018. +\n +\n\r Le CIPM décide que MM. Liew et Érard
-      deviennent membres du Sous-comité sur l'attribution de distinctions."
+    message: |-
+      accueille favorablement comme base de travail les projets de termes de référence et de règlement du Sous-comité sur l'attribution de distinctions. +
+       +
+      Les membres du CIPM acceptent d'étudier les projets de documents et d'envoyer des commentaires et corrections à M. Bulygin d'ici mars 2018. M. Bulygin synthétisera les propositions des membres du CIPM et soumettra un document final au bureau du CIPM en juin 2018. +
+       +
+      Le CIPM décide que MM. Liew et Érard deviennent membres du Sous-comité sur l'attribution de distinctions.
   subject: Le CIPM
 - dates:
   - 2017-10-01

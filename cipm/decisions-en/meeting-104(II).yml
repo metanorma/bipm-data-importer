@@ -126,12 +126,9 @@ resolutions:
   actions:
   - type: appoints
     date_effective: 2015-10-01
-    message: "appointed Mr Érard as Chair of the Pension Fund Advisory Board (PFAB),
-      and appointed Dr Bowsher and Dr Usuda as members. +\n \r The CIPM appointed
-      Dr Christian Bock, Director of METAS (Switzerland), as an expert member of the
-      PFAB and expressed its appreciation for the work he has performed as a member
-      of the CIPM Sub-Committee on the BIPM Pension and Provident Fund and Health
-      Insurance."
+    message: |-
+      appointed Mr Érard as Chair of the Pension Fund Advisory Board (PFAB), and appointed Dr Bowsher and Dr Usuda as members. +
+       The CIPM appointed Dr Christian Bock, Director of METAS (Switzerland), as an expert member of the PFAB and expressed its appreciation for the work he has performed as a member of the CIPM Sub-Committee on the BIPM Pension and Provident Fund and Health Insurance.
   subject: The CIPM
 - dates:
   - 2015-10-01

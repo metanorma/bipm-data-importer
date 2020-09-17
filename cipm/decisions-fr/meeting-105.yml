@@ -70,17 +70,10 @@ resolutions:
   actions: []
   subject: Le CIPM
   x-unparsed:
-  - "a examiné l'avis consultatif reçu de la CCE (daté du 7 juin 2016), les informations
-    disponibles concernant la situation financière de la Caisse de retraite, ainsi
-    que les hypothèses et conseils de l'expert qui ont été transmis par l'actuaire
-    (Mercer).\r\nLe CIPM note que, selon la prévision de l'étude Mercer, atteindre
-    la soutenabilité à long terme requiert que les cotisations des membres actuels
-    du personnel soient portées à 19,8 % pour la Section Pré-2010 et à 18,8 % pour
-    la Section Post-2010. Le CIPM a pris en compte et accepté la demande des représentants
-    du personnel afin que ces taux soient atteints par une série d'augmentations progressives
-    par paliers.\r\nLe modèle développé implique que les futurs membres du personnel
-    recrutés à partir du 1er janvier 2017 bénéficieront de prestations réduites et
-    devront contribuer à hauteur de 15 % de leur salaire."
+  - |-
+    a examiné l'avis consultatif reçu de la CCE (daté du 7 juin 2016), les informations disponibles concernant la situation financière de la Caisse de retraite, ainsi que les hypothèses et conseils de l'expert qui ont été transmis par l'actuaire (Mercer).
+    Le CIPM note que, selon la prévision de l'étude Mercer, atteindre la soutenabilité à long terme requiert que les cotisations des membres actuels du personnel soient portées à 19,8 % pour la Section Pré-2010 et à 18,8 % pour la Section Post-2010. Le CIPM a pris en compte et accepté la demande des représentants du personnel afin que ces taux soient atteints par une série d'augmentations progressives par paliers.
+    Le modèle développé implique que les futurs membres du personnel recrutés à partir du 1er janvier 2017 bénéficieront de prestations réduites et devront contribuer à hauteur de 15 % de leur salaire.
 - dates:
   - 2016-10-01
   title: Décision CIPM/105-6
@@ -155,13 +148,13 @@ resolutions:
   actions:
   - type: welcomes
     date_effective: 2016-10-01
-    message: "accueille favorablement les recommandations du Groupe de travail sur
+    message: accueille favorablement les recommandations du Groupe de travail sur
       la mise en œuvre et le fonctionnement du CIPM MRA et remercie les participants
       pour leur contribution. Le CIPM convient d'établir un Groupe de travail _ad
       hoc_ chargé de superviser la mise en œuvre des recommandations et il approuve
-      les termes de référence de ce groupe de travail.\r Le CIPM nomme M. Inglis (président),
+      les termes de référence de ce groupe de travail. Le CIPM nomme M. Inglis (président),
       M. Louw, M. Rietveld, M. Usuda, M. Castelazo, M. May et M. Henson membres de
-      ce groupe de travail _ad hoc_."
+      ce groupe de travail _ad hoc_.
   subject: Le CIPM
 - dates:
   - 2016-10-01
@@ -189,8 +182,8 @@ resolutions:
   considerations:
   - type: noting
     date_effective: 2016-10-01
-    message: À la suite de la décision link:/fr/committees/cipm/meeting/104(II).html[CIPM/104-39]
-      relative aux changements dans la politique à suivre pour rendre compte des résultats
+    message: À la suite de la décision cipm-decisions:fr/104(II)[CIPM/104-39] relative
+      aux changements dans la politique à suivre pour rendre compte des résultats
       de comparaisons qui impliquent des participants non signataires du CIPM MRA,
       le CIPM prend note de l'Action 35/11 du JCRB qui approuve la révision du document
       CIPM MRA-D-05 « Measurement comparisons in the CIPM MRA » afin de l'aligner
@@ -320,15 +313,15 @@ resolutions:
   actions:
   - type: approves
     date_effective: 2016-10-01
-    message: "approuve le dernier projet de 9^e^ édition de la _Brochure sur le SI_
+    message: approuve le dernier projet de 9^e^ édition de la _Brochure sur le SI_
       et le considère comme proche de la version finale. Le BIPM (le directeur du
       BIPM, M. Davis, M. Sitton et le secrétaire Exécutif du CCU) aidé de M. Quinn
-      produira une version entièrement révisée avant le 30 juin 2017.\r La version
-      révisée sera approuvée par le président du CCU, avec l'aide de M. Quinn. La
-      Brochure ainsi révisée sera soumise au CCU en septembre 2017 puis au CIPM en
-      octobre 2017 pour approbation finale.\r Le CIPM considère que la consultation
-      des parties intéressées est à présent terminée. Toutefois, si des questions
-      de fond venaient à être soulevées, le président du CCU les transmettra au CIPM."
+      produira une version entièrement révisée avant le 30 juin 2017. La version révisée
+      sera approuvée par le président du CCU, avec l'aide de M. Quinn. La Brochure
+      ainsi révisée sera soumise au CCU en septembre 2017 puis au CIPM en octobre
+      2017 pour approbation finale. Le CIPM considère que la consultation des parties
+      intéressées est à présent terminée. Toutefois, si des questions de fond venaient
+      à être soulevées, le président du CCU les transmettra au CIPM.
   subject: Le CIPM
 - dates:
   - 2016-10-01
@@ -418,12 +411,12 @@ resolutions:
   actions:
   - type: decides
     date_effective: 2016-10-01
-    message: "décide, pour toutes les réunions des Comités consultatifs à compter
-      de 2017, ce qui suit :\n\n* il sera fait référence aux organisations internationales
-      en tant qu'« organismes de liaison » et elles ne pourront plus bénéficier du
-      statut de « membre » ;\n* les personnes nominativement désignées devront avoir
-      le statut d'«invité » ou « expert » et ne pourront en aucun cas être membres
-      des Comités consultatifs.\n\r Le document CIPM-D-01 sera mis à jour en conséquence."
+    message: |-
+      décide, pour toutes les réunions des Comités consultatifs à compter de 2017, ce qui suit :
+
+      * il sera fait référence aux organisations internationales en tant qu'« organismes de liaison » et elles ne pourront plus bénéficier du statut de « membre » ;
+      * les personnes nominativement désignées devront avoir le statut d'«invité » ou « expert » et ne pourront en aucun cas être membres des Comités consultatifs.
+      Le document CIPM-D-01 sera mis à jour en conséquence.
   subject: Le CIPM
 - dates:
   - 2016-10-01
@@ -435,9 +428,9 @@ resolutions:
   actions:
   - type: decides
     date_effective: 2016-10-01
-    message: "décide que le CCU adoptera les mêmes critères pour devenir membre du
-      CCU que ceux des autres Comités consultatifs, pour les réunions prévues à compter
-      de 2018. +\n \r Le document CIPM-D-01 sera mis à jour en conséquence."
+    message: |-
+      décide que le CCU adoptera les mêmes critères pour devenir membre du CCU que ceux des autres Comités consultatifs, pour les réunions prévues à compter de 2018. +
+       Le document CIPM-D-01 sera mis à jour en conséquence.
   subject: Le CIPM
 - dates:
   - 2016-10-01
@@ -463,15 +456,15 @@ resolutions:
   actions:
   - type: approves
     date_effective: 2016-10-01
-    message: "approuve la proposition du président du CCRI d'aligner les critères
-      requis pour devenir membre du CCRI avec les règles qui s'appliquent à tous les
-      Comités consultatifs. \r En prévision de la prochaine réunion du CCRI en 2017
-      et afin d'assurer une large représentation des différentes sections du CCRI,
-      le CIPM accepte la proposition du président du CCRI d'inviter les laboratoires
-      qui sont membres des trois sections du CCRI à devenir membres du CCRI et d'informer
-      les autres laboratoires membres d'une ou plusieurs sections qu'ils peuvent demander
-      à être membres du CCRI. Le CIPM approuve provisoirement la liste proposée de
-      membres du CCRI, sous réserve d'acceptation par les potentiels membres."
+    message: approuve la proposition du président du CCRI d'aligner les critères requis
+      pour devenir membre du CCRI avec les règles qui s'appliquent à tous les Comités
+      consultatifs. En prévision de la prochaine réunion du CCRI en 2017 et afin d'assurer
+      une large représentation des différentes sections du CCRI, le CIPM accepte la
+      proposition du président du CCRI d'inviter les laboratoires qui sont membres
+      des trois sections du CCRI à devenir membres du CCRI et d'informer les autres
+      laboratoires membres d'une ou plusieurs sections qu'ils peuvent demander à être
+      membres du CCRI. Le CIPM approuve provisoirement la liste proposée de membres
+      du CCRI, sous réserve d'acceptation par les potentiels membres.
   subject: Le CIPM
 - dates:
   - 2016-10-01

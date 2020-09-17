@@ -167,12 +167,23 @@ resolutions:
   considerations:
   - type: acknowledging
     date_effective: 2014-11-01
-    message: "accepted the following changes to the Consultative Committees:\n\n*
-      CCPR\r\n** CMI (Czech Republic): Member\n** CMS/ITRI (Chinese Taipei): Observer\n**
-      MKEH (Hungary): withdrawal as Member\n* CCRI\r\n** SMU (Slovakia): Observer
-      at CCRI(II)\n** NRC (Canada): Observer at CCRI(III)\n* CCAUV\r\n** KEBS (Kenya):
-      Observer\n* CCT\r\n** CMI (Czech Republic): Observer\n* CCQM\r\n** HSA (Singapore):
-      Member\n** NIMT (Thailand): Member"
+    message: |-
+      accepted the following changes to the Consultative Committees:
+
+      * CCPR
+      ** CMI (Czech Republic): Member
+      ** CMS/ITRI (Chinese Taipei): Observer
+      ** MKEH (Hungary): withdrawal as Member
+      * CCRI
+      ** SMU (Slovakia): Observer at CCRI(II)
+      ** NRC (Canada): Observer at CCRI(III)
+      * CCAUV
+      ** KEBS (Kenya): Observer
+      * CCT
+      ** CMI (Czech Republic): Observer
+      * CCQM
+      ** HSA (Singapore): Member
+      ** NIMT (Thailand): Member
   actions: []
   subject: The CIPM
 - dates:

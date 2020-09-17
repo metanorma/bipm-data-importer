@@ -76,6 +76,8 @@ module Common
         "cgpm-resolution:#{$1}/#{$2}/#{$3}#{$4}"
       when %r'\A/(\w{2})/CIPM/db/(\d+)/(\d+)/(#.*)?\z'
         "cipm-resolution:#{$1}/#{$2}/#{$3}#{$4}"
+      when %r'\A/(\w{2})/committees/cipm/meeting/([0-9()I]+).html(#.*)?\z'
+        "cipm-decisions:#{$1}/#{$2}#{$3}"
       else
         URI(res.uri).merge(href).to_s # Relative -> absolute
       end
@@ -131,6 +133,10 @@ module Common
     )
   end
 
+  def ng_to_string ps
+    ps.inner_html.encode('utf-8').gsub("\r", '').gsub(%r'</?nobr>','')
+  end
+
   def parse_resolution res, res_id, date, type = :cgpm
     # Reparse the document after fixing upstream syntax
     fixed_body = res.body.gsub("<name=", "<a name=")
@@ -176,7 +182,7 @@ module Common
     # Replace a group of centers (> 1) with a table
     Common.replace_centers(ps)
 
-    doc = ps.inner_html.encode('utf-8').gsub("\r", '').gsub(%r'</?nobr>','')
+    doc = Common.ng_to_string(ps)
     # doc = AsciiMath.html_to_asciimath(doc)
 
     parts = doc.split(/(\n(?:<p>)?<b>.*?<\/b>|<p>(?:après examen |après avoir entendu )|having noted that |decides to define |décide de définir |conformément à l'invitation|acting in accordance with|recommande que les résultats|(?:considers|recommends) that|estime que|declares<\/p>|<a name="_ftn\d)/)

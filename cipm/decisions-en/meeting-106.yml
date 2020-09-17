@@ -99,9 +99,9 @@ resolutions:
   actions: []
   x-unparsed:
   - "Following review of the actuarial modelling carried out by the actuaries at Mercer,
-    and Decision CIPM/105 06 by which the CIPM: \r\n\nincreased the annual contributions
+    and Decision CIPM/105 06 by which the CIPM: \n\nincreased the annual contributions
     by the BIPM to the Pension Fund by 400 k€ in 2017 and 150 k€ in every year thereafter,
-    and \r\n\nimplemented increases in the contribution rate for active staff\n\r\nThe
+    and \n\nimplemented increases in the contribution rate for active staff\n\nThe
     CIPM decided unanimously that the Pension Point will not be adjusted for the period
     2018-2019."
 - dates:
@@ -144,12 +144,9 @@ resolutions:
   considerations: []
   actions: []
   x-unparsed:
-  - "The International Committee for Weights and Measures (CIPM) welcomed recommendations
-    regarding the redefinition of the SI from its Consultative Committees.\r\nThe
-    CIPM noted that the agreed conditions for the redefinition are now met and decided
-    to submit draft Resolution A to the 26th meeting of the General Conference on
-    Weights and Measures (CGPM) and to undertake all other necessary steps to proceed
-    with the planned redefinition of the kilogram, ampere, kelvin and mole."
+  - |-
+    The International Committee for Weights and Measures (CIPM) welcomed recommendations regarding the redefinition of the SI from its Consultative Committees.
+    The CIPM noted that the agreed conditions for the redefinition are now met and decided to submit draft Resolution A to the 26th meeting of the General Conference on Weights and Measures (CGPM) and to undertake all other necessary steps to proceed with the planned redefinition of the kilogram, ampere, kelvin and mole.
 - dates:
   - 2017-10-01
   title: Decision CIPM/106-11
@@ -238,15 +235,14 @@ resolutions:
     message: "decided the following text for inclusion in CIPM-D-01: +\n +\n_In order
       to be informed of technical developments and evolving stakeholder needs in different
       areas of metrology, the CIPM has Consultative Committees with agreed scopes
-      and the following three objectives: \r\n* to progress the state-of-the art by
+      and the following three objectives: \n* to progress the state-of-the art by
       providing a global forum for NMIs to exchange information about the state of
       the art and best practices, \n* to define new possibilities for metrology to
       have impact on global measurement challenges by facilitating dialogue between
       the NMIs and new and established stakeholders, and \n* to demonstrate and improve
       the global comparability of measurements. Particularly by working with the RMOs
       in the context of the CIPM MRA to:\n* plan, execute and monitor KCs, and to
-      \n* support the process of CMC review._ \r\r Document CIPM-D-01 will be updated
-      accordingly."
+      \n* support the process of CMC review._ Document CIPM-D-01 will be updated accordingly."
   subject: The CIPM
 - dates:
   - 2017-10-01
@@ -261,8 +257,8 @@ resolutions:
     message: "Following Decision CIPM/105-27 (on the engagement of international organizations
       as \"liaisons\" at the Consultative Committees), the CIPM decided that the status
       of liaison within the context of the Consultative Committees will be decided
-      upon in each case by the CIPM. +\n +\n\r The CIPM will base its decision on
-      the extent to which the international organization concerned meets the following
+      upon in each case by the CIPM. +\n +\nThe CIPM will base its decision on the
+      extent to which the international organization concerned meets the following
       criteria:\n\n* being international in structure and scope of activity, and representative
       of the specialized field of interest in which they operate;\n* being concerned
       with matters covering a part, or all, of the field of activity of the BIPM;\n*
@@ -272,10 +268,9 @@ resolutions:
       its membership in various countries;\n* allowing its members to exercise voting
       rights in relation to its policies or action or having other appropriate mechanisms
       to express their views; and \n* having been established at least three years
-      before they apply for liaison status. \n\r Organizations that are not offered
-      liaison status within the context of the Consultative Committees will be known
-      as \"organizations in cooperation\". +\n +\n\r Document CIPM-D-01 will be updated
-      accordingly."
+      before they apply for liaison status. \nOrganizations that are not offered liaison
+      status within the context of the Consultative Committees will be known as \"organizations
+      in cooperation\". +\n +\nDocument CIPM-D-01 will be updated accordingly."
 - dates:
   - 2017-10-01
   title: Decision CIPM/106-18
@@ -320,21 +315,19 @@ resolutions:
   actions:
   - type: decides
     date_effective: 2017-10-01
-    message: "decided that when considering whether it is appropriate for an Associate
-      State of the General Conference on Weights and Measures (CGPM) to be encouraged
-      to accede to the Metre Convention and hence become a Member State, it will take
-      into account whether it has:\n\n* been an Associate State of the CGPM for at
-      least 5 years,\n* a National Metrology Institute (NMI) that has signed the CIPM
-      MRA,\n* published comparison results in the key comparison database (KCDB),\n*
-      one or more Calibration and Measurement Capability (CMC) listed in the KCDB,\n*
-      a percentage higher than 0.02 on the \"_Scale of assessments for the apportionment
-      of the expenses of the United Nations_\".\n\r The above criteria will be applied
-      in the implementation of link:/en/CGPM/db/24/4/[Resolution 4 of the CGPM (2011)
-      \"_On the status of Associate State of the General Conference_\"]. +\n  +\n
-      \r This decision revises the criteria adopted by the CIPM at its 98th (2009)
-      and 99th (2010) meetings. +\n +\n \r The above notwithstanding, the CIPM reaffirmed
-      that an Associate State of the CGPM may choose to accede to the Metre Convention
-      and become a Member State at any time should it so wish."
+    message: |-
+      decided that when considering whether it is appropriate for an Associate State of the General Conference on Weights and Measures (CGPM) to be encouraged to accede to the Metre Convention and hence become a Member State, it will take into account whether it has:
+
+      * been an Associate State of the CGPM for at least 5 years,
+      * a National Metrology Institute (NMI) that has signed the CIPM MRA,
+      * published comparison results in the key comparison database (KCDB),
+      * one or more Calibration and Measurement Capability (CMC) listed in the KCDB,
+      * a percentage higher than 0.02 on the "_Scale of assessments for the apportionment of the expenses of the United Nations_".
+      The above criteria will be applied in the implementation of cgpm-resolution:en/24/4[Resolution 4 of the CGPM (2011) "_On the status of Associate State of the General Conference_"]. +
+        +
+       This decision revises the criteria adopted by the CIPM at its 98th (2009) and 99th (2010) meetings. +
+       +
+       The above notwithstanding, the CIPM reaffirmed that an Associate State of the CGPM may choose to accede to the Metre Convention and become a Member State at any time should it so wish.
   subject: The CIPM
 - dates:
   - 2017-10-01
@@ -402,10 +395,10 @@ resolutions:
   actions:
   - type: decides
     date_effective: 2017-10-01
-    message: "decided to amend Section B (page 3) of the \"Criteria and Process for
-      Election of CIPM Members\" (Sept 2014), by adding the phrase +\n +\n\r \"Each
-      member shall be willing to act as the President of a Consultative Committee
-      or of a CIPM Sub-committee\"."
+    message: |-
+      decided to amend Section B (page 3) of the "Criteria and Process for Election of CIPM Members" (Sept 2014), by adding the phrase +
+       +
+      "Each member shall be willing to act as the President of a Consultative Committee or of a CIPM Sub-committee".
   subject: The CIPM
 - dates:
   - 2017-10-01
@@ -448,13 +441,14 @@ resolutions:
   actions:
   - type: welcomes
     date_effective: 2017-10-01
-    message: "welcomed the drafts of the Regulations for Awards and Terms of Reference
-      of the +\nSub-Committee for Awards as a basis for further work. +\n +\n\r Members
-      of the CIPM agreed to consider the documents and send additions and corrections
-      to +\nDr Bulygin by March 2018. Dr Bulygin will summarize the proposals from
-      CIPM members and send the final document to the CIPM bureau by June 2018. +\n
-      +\n\r The CIPM decided that Dr Liew and Mr Érard should join the Sub-Committee
-      for Awards."
+    message: |-
+      welcomed the drafts of the Regulations for Awards and Terms of Reference of the +
+      Sub-Committee for Awards as a basis for further work. +
+       +
+      Members of the CIPM agreed to consider the documents and send additions and corrections to +
+      Dr Bulygin by March 2018. Dr Bulygin will summarize the proposals from CIPM members and send the final document to the CIPM bureau by June 2018. +
+       +
+      The CIPM decided that Dr Liew and Mr Érard should join the Sub-Committee for Awards.
   subject: The CIPM
 - dates:
   - 2017-10-01

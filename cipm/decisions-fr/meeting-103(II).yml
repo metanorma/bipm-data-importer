@@ -42,13 +42,13 @@ resolutions:
   actions:
   - type: decides
     date_effective: 2014-11-01
-    message: "décide, en se fondant sur les critères qu'il a précédemment adoptés,
+    message: décide, en se fondant sur les critères qu'il a précédemment adoptés,
       qu'il serait approprié pour la République d'Estonie, la Géorgie, la République
-      du Paraguay et la République du Pérou d'accéder à la Convention du Mètre. \r
-      Le BIPM les informera de cette décision, en leur rappelant la Résolution 4 \r
-      « Sur le statut d'État Associé à la Conférence générale » adoptée par la CGPM
-      à sa 24e réunion (2011), ainsi que les implications vis-à-vis de l'augmentation
-      de leur souscription si ces États choisissaient de rester Associés à la CGPM."
+      du Paraguay et la République du Pérou d'accéder à la Convention du Mètre. Le
+      BIPM les informera de cette décision, en leur rappelant la Résolution 4 « Sur
+      le statut d'État Associé à la Conférence générale » adoptée par la CGPM à sa
+      24e réunion (2011), ainsi que les implications vis-à-vis de l'augmentation de
+      leur souscription si ces États choisissaient de rester Associés à la CGPM.
   subject: Le CIPM
 - dates:
   - 2014-11-01
@@ -60,10 +60,10 @@ resolutions:
   actions:
   - type: confirms
     date_effective: 2014-11-01
-    message: "confirme qu'il a approuvé les états financiers audités du BIPM et de
+    message: confirme qu'il a approuvé les états financiers audités du BIPM et de
       la Caisse de retraite et de prévoyance du BIPM par correspondance en juin 2014
       et réitère son approbation. Le CIPM donne quitus de sa gestion au directeur,
-      \r au titre de l'exercice financier 2013."
+      au titre de l'exercice financier 2013.
   subject: Le CIPM
 - dates:
   - 2014-11-01
@@ -101,10 +101,10 @@ resolutions:
   actions: []
   subject: Le CIPM
   x-unparsed:
-  - "soutient la proposition de la CODATA de fixer au 1er juillet 2017 \r\nla date
-    limite de soumission de données expérimentales que le CODATA Task Group on Fundamental
+  - "soutient la proposition de la CODATA de fixer au 1er juillet 2017 \nla date limite
+    de soumission de données expérimentales que le CODATA Task Group on Fundamental
     Constants utilisera pour l'évaluation des constantes fondamentales qui servira
-    à fixer les valeurs des constantes de définition du nouvel SI.\r\nLe CIPM approuve
+    à fixer les valeurs des constantes de définition du nouvel SI.\nLe CIPM approuve
     le travail poursuivi par le Comité consultatif des unités (CCU) concernant le
     logo du SI."
 - dates:
@@ -170,13 +170,13 @@ resolutions:
   actions: []
   subject: Le CIPM
   x-unparsed:
-  - "accepte les changements suivants concernant les Comités consultatifs :\r\n\r\n
-    CCPR \r\n\r\nCMI (République Tchèque): membre \r\nCMS/ITRI (Taipei chinois): observateur
-    \r\nMKEH (Hongrie) : retrait en tant que membre \r\n\n\r\n CCRI\r\n\r\nSMU (Slovaquie)
-    : observateur à la Section II du CCRI\r\nNRC (Canada) : observateur à la Section
-    III du CCRI \r\n\n\r\n CCAUV\r\n\r\n KEBS (Kenya) : observateur \r\n\n\r\n CCT\r\n\r\nCMI
-    (République tchèque) : observateur\r\n\n\r\nCCQM\r\n\r\n HSA (Singapour) : membre\r\n
-    NIMT (Thaïlande) : membre"
+  - "accepte les changements suivants concernant les Comités consultatifs :\n\n CCPR
+    \n\nCMI (République Tchèque): membre \nCMS/ITRI (Taipei chinois): observateur
+    \nMKEH (Hongrie) : retrait en tant que membre \n\n\n CCRI\n\nSMU (Slovaquie) :
+    observateur à la Section II du CCRI\nNRC (Canada) : observateur à la Section III
+    du CCRI \n\n\n CCAUV\n\n KEBS (Kenya) : observateur \n\n\n CCT\n\nCMI (République
+    tchèque) : observateur\n\n\nCCQM\n\n HSA (Singapour) : membre\n NIMT (Thaïlande)
+    : membre"
 - dates:
   - 2014-11-01
   title: Décision CIPM/103-36
@@ -229,17 +229,17 @@ resolutions:
   considerations:
   - type: noting
     date_effective: 2014-11-01
-    message: "prend note du fait que le BIPM a été informé de deux transferts bancaires
+    message: prend note du fait que le BIPM a été informé de deux transferts bancaires
       effectués par le _National Standards Organization of Iran_ aux fins du paiement
       en totalité des sommes dues par l'Iran pour les années 2013 et 2014 et qu'étant
       donné la date de ces transferts, la situation de la République islamique d'Iran
       concernant son statut d'État Membre depuis 1979 n'a pu être incluse dans la
-      convocation de la CGPM à sa 25^e^ réunion.\r Afin de permettre à la CGPM d'examiner
+      convocation de la CGPM à sa 25^e^ réunion. Afin de permettre à la CGPM d'examiner
       dûment la situation lors de sa 26^e^ réunion, le CIPM décide de geler de façon
       provisoire les effets de l'accord de rééchelonnement conclu en 2012 par voie
       d'un avenant qui requiert, entre autres, que la République islamique d'Iran
       maintienne la continuité dans le paiement de sa contribution d'État Membre dans
-      le courant de l'année concernée."
+      le courant de l'année concernée.
   actions: []
   subject: Le CIPM
 - dates:
@@ -252,12 +252,11 @@ resolutions:
   actions: []
   subject: Le CIPM
   x-unparsed:
-  - "nomme :\r\n\r\n R. Kaarls, en qualité de représentant du CIPM, pour participer
-    avec A. Henson, BIPM, au Groupe de travail de l'Organisation internationale de
-    normalisation (ISO) en charge de réviser la norme ISO 17025,\r\nJ.W. McLaren,
-    en qualité de représentant du CIPM, pour participer avec S. Westwood, BIPM, au
-    Groupe de travail de l'Organisation internationale de normalisation (ISO) en charge
-    de réviser le Guide ISO 34."
+  - |-
+    nomme :
+
+     R. Kaarls, en qualité de représentant du CIPM, pour participer avec A. Henson, BIPM, au Groupe de travail de l'Organisation internationale de normalisation (ISO) en charge de réviser la norme ISO 17025,
+    J.W. McLaren, en qualité de représentant du CIPM, pour participer avec S. Westwood, BIPM, au Groupe de travail de l'Organisation internationale de normalisation (ISO) en charge de réviser le Guide ISO 34.
 - dates:
   - 2014-11-01
   title: Décision CIPM/103-41

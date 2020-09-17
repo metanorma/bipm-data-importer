@@ -88,20 +88,12 @@ resolutions:
   actions:
   - type: thanks / expresses-appreciation
     date_effective: 2018-06-01
-    message: "expressed its appreciation and support for the work of the Chair of
-      the Pension Fund Advisory Board (PFAB), the BIPM Director and Legal Advisor
-      in respect of the implementation of its decisions, in particular concerning
-      the long-term financial stability of the BIPM Pension Fund. +\n +\n\r The CIPM
-      recalled the decision in 2008 of the Governing Body of the International Labour
-      Organization (ILO) that observed that the BIPM, as an intergovernmental organization
-      established by treaty, recognized the jurisdiction of the ILO Administrative
-      Tribunal (ILOAT). The CIPM recognized the legal status of the BIPM as an intergovernmental
-      organization and instructed the BIPM Director to continue to ensure as much
-      as possible the legal certainty necessary for the implementation of its decisions.
-      +\n +\n\r The CIPM recalled decision CIPM/104-48 and confirmed that informal
-      discussions about the terminology used to refer to the BIPM serve to diminish
-      the reputation of the organization and have the potential to damage confidence
-      in its legal certainty. It confirmed that such discussions are closed."
+    message: |-
+      expressed its appreciation and support for the work of the Chair of the Pension Fund Advisory Board (PFAB), the BIPM Director and Legal Advisor in respect of the implementation of its decisions, in particular concerning the long-term financial stability of the BIPM Pension Fund. +
+       +
+      The CIPM recalled the decision in 2008 of the Governing Body of the International Labour Organization (ILO) that observed that the BIPM, as an intergovernmental organization established by treaty, recognized the jurisdiction of the ILO Administrative Tribunal (ILOAT). The CIPM recognized the legal status of the BIPM as an intergovernmental organization and instructed the BIPM Director to continue to ensure as much as possible the legal certainty necessary for the implementation of its decisions. +
+       +
+      The CIPM recalled decision CIPM/104-48 and confirmed that informal discussions about the terminology used to refer to the BIPM serve to diminish the reputation of the organization and have the potential to damage confidence in its legal certainty. It confirmed that such discussions are closed.
   subject: The CIPM
 - dates:
   - 2018-06-01
@@ -228,14 +220,12 @@ resolutions:
   actions:
   - type: decides
     date_effective: 2018-06-01
-    message: "decided to adopt the following definition of consensus (which originates
-      from the ISO/IEC Directives) for use in the Consultative Committees, Sub-committees
-      and _ad hoc_ Working Groups: +\n +\n\r Consensus - \"General agreement, characterized
-      by the absence of sustained opposition to substantial issues by any important
-      part of the concerned interests and by a process that involves seeking to take
-      into account the views of all parties concerned and to reconcile any conflicting
-      arguments. Consensus need not imply unanimity.\" +\n +\n\r Document CIPM-D-01
-      will be updated accordingly."
+    message: |-
+      decided to adopt the following definition of consensus (which originates from the ISO/IEC Directives) for use in the Consultative Committees, Sub-committees and _ad hoc_ Working Groups: +
+       +
+      Consensus - "General agreement, characterized by the absence of sustained opposition to substantial issues by any important part of the concerned interests and by a process that involves seeking to take into account the views of all parties concerned and to reconcile any conflicting arguments. Consensus need not imply unanimity." +
+       +
+      Document CIPM-D-01 will be updated accordingly.
   subject: The CIPM
 - dates:
   - 2018-06-01

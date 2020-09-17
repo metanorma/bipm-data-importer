@@ -39,8 +39,11 @@ resolutions:
   actions: []
   subject: Le CIPM
   x-unparsed:
-  - "élit au scrutin secret :\r\n\r\nJ. McLaren comme secrétaire du CIPM ;\r\nW.E.
-    May et J. Ullrich comme vice-présidents du CIPM."
+  - |-
+    élit au scrutin secret :
+
+    J. McLaren comme secrétaire du CIPM ;
+    W.E. May et J. Ullrich comme vice-présidents du CIPM.
 - dates:
   - 2015-03-01
   title: Décision CIPM/104-4
@@ -259,14 +262,14 @@ resolutions:
   subject: Le CIPM
   x-unparsed:
   - "reconduit les présidents des autres Comités consultatifs pour un mandat de quatre
-    ans : \r\n\r\nComité consultatif de l'acoustique, des ultrasons et des vibrations
-    (CCAUV) : T. Usada \r\nComité consultatif pour la masse et les grandeurs apparentées
-    (CCM) : P. Richard.\r\nComité consultatif de photométrie et radiométrie (CCPR)
-    : T. Usuda (sous réserve de l'approbation du NMIJ).\r\nComité consultatif pour
-    la quantité de matière : métrologie en chimie et biologie (CCQM) : W.E. May.\r\nComité
-    consultatif des rayonnements ionisants (CCRI) : W. Louw. \r\nComité consultatif
-    de thermométrie (CCT) : Y. Duan. \r\nComité consultatif du temps et des fréquences
-    (CCTF) : L. Érard.\r\nComité consultatif des unités (CCU) : J. Ullrich."
+    ans : \n\nComité consultatif de l'acoustique, des ultrasons et des vibrations
+    (CCAUV) : T. Usada \nComité consultatif pour la masse et les grandeurs apparentées
+    (CCM) : P. Richard.\nComité consultatif de photométrie et radiométrie (CCPR) :
+    T. Usuda (sous réserve de l'approbation du NMIJ).\nComité consultatif pour la
+    quantité de matière : métrologie en chimie et biologie (CCQM) : W.E. May.\nComité
+    consultatif des rayonnements ionisants (CCRI) : W. Louw. \nComité consultatif
+    de thermométrie (CCT) : Y. Duan. \nComité consultatif du temps et des fréquences
+    (CCTF) : L. Érard.\nComité consultatif des unités (CCU) : J. Ullrich."
 - dates:
   - 2015-03-01
   title: Décision CIPM/104-20
@@ -291,17 +294,15 @@ resolutions:
   actions: []
   subject: Le CIPM
   x-unparsed:
-  - "nomme les membres du CIPM suivants pour participer aux Sous-comités et Groupes
-    de travail ad hoc du CIPM :\r\n\r\nSous-comité du CIPM sur la stratégie : M. Milton
-    (président), bureau du CIPM, H. Brandi, G. Rietveld, T. Liew.\r\nSous-comité du
-    CIPM sur la Caisse de retraite et de prévoyance du BIPM et l'assurance-maladie
-    : L. Érard (Chair), T. Usuda, B. Bowsher, C. Bock (membre externe).\r\nSous-comité
-    du CIPM sur les finances : B. Bowsher (président), Y. Duan, J. McLaren, P. Richard,
-    W. Louw.\r\nGroupe de travail ad hoc du CIPM sur les conditions d'emploi : J.
-    McLaren (président), L. Érard, I. Castelazo, M. Buzoianu.\r\nSous-comité du CIPM
-    sur l'attribution de distinctions : M. Inguscio (président), D. I. Kang, H. Brandi,
-    F. Bulygin.\r\nGroupe de travail ad hoc du CIPM sur le CIPM MRA : B. Inglis (président),
-    W.E. May, J. Ullrich, F. Bulygin, T. Usuda, W. Louw, M. Milton, L. Érard."
+  - |-
+    nomme les membres du CIPM suivants pour participer aux Sous-comités et Groupes de travail ad hoc du CIPM :
+
+    Sous-comité du CIPM sur la stratégie : M. Milton (président), bureau du CIPM, H. Brandi, G. Rietveld, T. Liew.
+    Sous-comité du CIPM sur la Caisse de retraite et de prévoyance du BIPM et l'assurance-maladie : L. Érard (Chair), T. Usuda, B. Bowsher, C. Bock (membre externe).
+    Sous-comité du CIPM sur les finances : B. Bowsher (président), Y. Duan, J. McLaren, P. Richard, W. Louw.
+    Groupe de travail ad hoc du CIPM sur les conditions d'emploi : J. McLaren (président), L. Érard, I. Castelazo, M. Buzoianu.
+    Sous-comité du CIPM sur l'attribution de distinctions : M. Inguscio (président), D. I. Kang, H. Brandi, F. Bulygin.
+    Groupe de travail ad hoc du CIPM sur le CIPM MRA : B. Inglis (président), W.E. May, J. Ullrich, F. Bulygin, T. Usuda, W. Louw, M. Milton, L. Érard.
 - dates:
   - 2015-03-01
   title: Décision CIPM/104-22
