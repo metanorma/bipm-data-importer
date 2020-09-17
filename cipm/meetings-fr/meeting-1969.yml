@@ -14,58 +14,16 @@ resolutions:
   - type: affirmative
     degree: unanimous
     message: |-
-      [width=100%]
-      |===
-      .<| image::/utils/common/img/fleche_jaune.gif["",29] .<| Système international d'unités, modalités d'application de la Résolution 12 de la 11^e^ CGPM (1960) https://www.bipm.org/fr/CIPM/db/1969/1/#notes[\*] |
-
-      |===
-
-      [width=100%]
-      |===
-      | image::/utils/common/img/pix.gif["",15] .<a| +
+      +
 
       Le Comité international des poids et mesures,
-
-      |===
   considerations:
   - type: considering
     date_effective: 1969-01-01
     message: considérant que la cgpm-resolution:fr/11/12[Résolution 12] de la Onzième
       Conférence générale des poids et mesures (1960), concernant le Système international
       d'unités, a suscité des discussions sur certaines dénominations,
-  - type: considering
-    date_effective: 1969-01-01
-    message: considérant que la cgpm-resolution:fr/11/12[Résolution 12] de la Onzième
-      Conférence générale des poids et mesures (1960), concernant le Système international
-      d'unités, a suscité des discussions sur certaines dénominations,
   actions:
-  - type: decides
-    date_effective: 1969-01-01
-    message: "déclare\n\n. les unités de base, les unités supplémentaires et les unités
-      dérivées du Système international d'unités, qui forment un ensemble cohérent,
-      sont désignées sous le nom d'« unités SI » ;\n. les préfixes adoptés par la
-      Conférence générale pour la formation des multiples et sous-multiples décimaux
-      des unités SI sont appelés « préfixes SI » ;\n\net *recommande*\n\n. d'employer
-      les unités SI et leurs multiples et sous-multiples décimaux dont les noms sont
-      formés au moyen des préfixes SI.\n\nNote : l'appellation « unités supplémentaires
-      », figurant dans la Résolution 12 de la Onzième Conférence générale des poids
-      et mesures (et dans la présente Recommandation), est donnée aux unités SI pour
-      lesquelles la Conférence générale ne décide pas s'il s'agit d'unités de base
-      ou bien d'unités dérivées.\n\n| image::/utils/common/img/pix.gif[\"\",15,25]
-      +\n\n[width=100%]\n|===\n| image::/utils/common/img/pix.gif[\"\",15] ^a| \n*
-      * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n| image::/utils/common/img/pix.gif[\"\",15]
-      ^| Référence : | image::/utils/common/img/pix.gif[\"\",15]\n| image::/utils/common/img/pix.gif[\"\",15]
-      ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-verbaux des séances
-      du CIPM_ (1969), p. 30\n| image::/utils/common/img/pix.gif[\"\",15] .<| image::/utils/common/img/bullet1.gif[\"\",16,9]
-      _Metrologia_, 1970, *6*, 2, 65-67 | image::/utils/common/img/pix.gif[\"\",15,25]\n[[notes]]|
-      image::/utils/common/img/pix.gif[\"\",15] .<a| +\n\n[width=100%]\n|===\na| \n\n|===\n.<a|
-      Note: +\n +\n La 20^e^ CGPM a décidé d'abroger en 1995 ( cgpm-resolution:fr/20/8[Résolution
-      8]) la classe des unités supplémentaires dans le SI.\n Le CIPM a approuvé en
-      https://www.bipm.org/en/committees/cipm/cipm-2001_fr.html[2001] une proposition
-      du CCU visant à clarifier la définition des « unités SI » et « unités du SI
-      ».\n\n>.<| https://www.bipm.org/fr/publications/si-brochure/[image::/utils/common/img/si_110.jpg[]]\n\n|===\n\n|===\n\n|
-      image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n +\n\nLe Comité international
-      des poids et mesures,"
   - type: decides
     date_effective: 1969-01-01
     message: |-

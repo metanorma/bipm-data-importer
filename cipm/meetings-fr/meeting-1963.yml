@@ -14,17 +14,7 @@ resolutions:
     degree: unanimous
     message: Unanimous
   considerations: []
-  actions:
-  - type: decides
-    date_effective: 1963-01-01
-    message: "[width=100%]\n|===\n.<| image::/utils/common/img/fleche_jaune.gif[\"\",29]
-      .<| Étalons secondaires de longueur d'onde |\n\n|===\n\n[width=100%]\n|===\n|
-      image::/utils/common/img/pix.gif[\"\",15] .<a| +\n\n| image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n
-      +\n\n[width=100%]\n|===\n| image::/utils/common/img/pix.gif[\"\",15] ^a| \n*
-      * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n| image::/utils/common/img/pix.gif[\"\",15]
-      ^| Référence : | image::/utils/common/img/pix.gif[\"\",15]\n| image::/utils/common/img/pix.gif[\"\",15]
-      ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-verbaux des séances
-      du CIPM_ (1963), p.\n\n|===\n +"
+  actions: []
 - dates:
   - 1963-01-01
   title: Unité spéciale pour l'activité (curie)
@@ -35,14 +25,4 @@ resolutions:
     degree: unanimous
     message: Unanimous
   considerations: []
-  actions:
-  - type: decides
-    date_effective: 1963-01-01
-    message: "[width=100%]\n|===\n.<| image::/utils/common/img/fleche_jaune.gif[\"\",29]
-      .<| Unité spéciale pour l'activité (curie) |\n\n|===\n\n[width=100%]\n|===\n|
-      image::/utils/common/img/pix.gif[\"\",15] .<a| +\n\n| image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n
-      +\n\n[width=100%]\n|===\n| image::/utils/common/img/pix.gif[\"\",15] ^a| \n*
-      * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n| image::/utils/common/img/pix.gif[\"\",15]
-      ^| Référence : | image::/utils/common/img/pix.gif[\"\",15]\n| image::/utils/common/img/pix.gif[\"\",15]
-      ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-verbaux des séances
-      du CIPM_ (1963), p.\n\n|===\n +"
+  actions: []

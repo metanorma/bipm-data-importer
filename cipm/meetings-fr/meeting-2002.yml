@@ -17,25 +17,7 @@ resolutions:
   considerations: []
   actions: []
   x-unparsed:
-  - "Révision de la mise en pratique de la définition du mètre*\n                \n\n\t
-    \       \n                 \n\n\n                \n                \n\n                \n
-    \               \n                \n                \n                \n\n\n                Click
-    here \n\n\n\t        \n                \n                \n                \n
-    \                \n                \n\n                \n                \n                \n
-    \               \n                \n\n\n\t\t\n\t\t\n                Référence
-    :\n                \n                \n                \n                \n                \n
-    \               \n\n                Procès-verbaux des séances du CIPM (2002),
-    p. 90\n                \n\n\t\t\n\n                \n                \n\n\n                \n
-    \               \n                \n                 Metrologia, 2002, 40, 2,
-    103-133\n                \n                \n                \n\n                \n\n
-    \                 \n\n\n                \n\t\t \n                \n                \n
-    \               \n\t\t    \n\t\t      \n\t\t\t\n\t\t\t\n\t\t\t  \n\t\t\t    \nNote:\n\t\t\t\tLa
-    liste des radiations recommandées, Recommandation 1 (CI-2002), figure dans les
-    PV, 70, 93-101 et dans Metrologia, 2003, 40, 104-115.Des mises à jour sont disponibles
-    sur le site Web du BIPM à l'adresse www.bipm.org/fr/publications/mises-en-pratique/standard-frequencies.html.\n\t\t\t
-    \   \n\n\t\t\t  \n\t\t\t\n\t\t\t\n\t\t      \n\t\t    \n                \n                \n
-    \               \n\n                \n\n                \n\n    \t\n\n          \n\n
-    \               Click here"
+  - Click here
 - dates:
   - 2002-01-01
   title: Équivalent de dose
@@ -45,19 +27,9 @@ resolutions:
   - type: affirmative
     degree: unanimous
     message: |-
-      [width=100%]
-      |===
-      .<| image::/utils/common/img/fleche_jaune.gif["",29] .<| Équivalent de dose https://www.bipm.org/fr/CIPM/db/2002/2/#notes[\*] |
-
-      |===
-
-      [width=100%]
-      |===
-      | image::/utils/common/img/pix.gif["",15] .<a| +
+      +
 
       Le Comité international des poids et mesures,
-
-      |===
   considerations:
   - type: considering
     date_effective: 2002-01-01
@@ -69,42 +41,7 @@ resolutions:
       * l'ICRP et l'International Commission on Radiation Units and Measurements (ICRU) ont décidé de supprimer ce facteur stem:[N] qui n'est plus considéré comme nécessaire,
        +
       * la définition actuelle de l'équivalent de dose stem:[H] dans le Système international d'unités, qui comprend le facteur stem:[N], porte à confusion,
-  - type: considering
-    date_effective: 2002-01-01
-    message: |-
-      *considérant* que
-
-      * la définition actuelle de l'unité SI d'équivalent de dose (sievert) comprend un facteur « stem:[N] » (produit de tous les autres facteurs de multiplication) prescrit par l'International Commission on Radiological Protection (ICRP),
-       +
-      * l'ICRP et l'International Commission on Radiation Units and Measurements (ICRU) ont décidé de supprimer ce facteur stem:[N] qui n'est plus considéré comme nécessaire,
-       +
-      * la définition actuelle de l'équivalent de dose stem:[H] dans le Système international d'unités, qui comprend le facteur stem:[N], porte à confusion,
   actions:
-  - type: decides
-    date_effective: 2002-01-01
-    message: "*décide* de modifier l'explication donnée dans la Brochure sur « Le
-      Système International d'Unités (SI) » de la manière suivante :\n\nLa grandeur
-      équivalent de dose stem:[H] est le produit de la dose absorbée stem:[D] de rayonnements
-      ionisants et du facteur sans dimension stem:[Q] (facteur de qualité) prescrit
-      par l'ICRU, facteur défini en fonction du transfert d'énergie linéaire : +\n\nstem:[H
-      = Q * D]\n\nAinsi, pour une radiation donnée, la valeur numérique de stem:[H]
-      en joules par kilogramme peut être différente de la valeur de stem:[D] en joules
-      par kilogramme, puisqu'elle est fonction de la valeur de stem:[Q].\n\nLe Comité
-      *décide* donc de maintenir la dernière phrase de l'explication sous la forme
-      suivante :\n\nAfin d'éviter tout risque de confusion entre la dose absorbée
-      stem:[D] et l'équivalent de dose stem:[H], il faut employer les noms spéciaux
-      pour les unités correspondantes, c'est-à-dire qu'il faut utiliser le nom gray
-      au lieu de joule par kilogramme pour l'unité de dose absorbée stem:[D] et le
-      nom sievert au lieu de joule par kilogramme pour l'unité d'équivalent de dose
-      stem:[H].\n\n| image::/utils/common/img/pix.gif[\"\",15,25] +\n\n[width=100%]\n|===\n|
-      image::/utils/common/img/pix.gif[\"\",15] ^a| \n* * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n|
-      image::/utils/common/img/pix.gif[\"\",15] ^| Référence : | image::/utils/common/img/pix.gif[\"\",15]\n|
-      image::/utils/common/img/pix.gif[\"\",15] ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-verbaux
-      des séances du CIPM_ (2002), p. 102\n[[notes]]| image::/utils/common/img/pix.gif[\"\",15]
-      .<a| +\n\n[width=100%]\n|===\na| \n\n|===\n.<a| Note: +\n +\nVoir aussi http://stacks.iop.org/0952-4746/25/97[_J.
-      Radiol. Prot._, 2005, *25* 97-100].\n>.<| https://www.bipm.org/fr/publications/si-brochure/[image::/utils/common/img/si_110.jpg[]]\n\n|===\n\n|===\n\n|
-      image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n +\n\nLe Comité international
-      des poids et mesures,"
   - type: decides
     date_effective: 2002-01-01
     message: |-
@@ -130,12 +67,3 @@ resolutions:
     message: Unanimous
   considerations: []
   actions: []
-  x-unparsed:
-  - "Constante d'Avogadro\n                \n\n\t        \n                 \n\n\n
-    \               \n                \n\n                \n                \n                \n
-    \               \n                \n\n\n                \n\n\t        \n                \n
-    \               \n                \n                 \n                \n\n                \n
-    \               \n                \n                \n                \n\n\n\t\t\n\t\t\n
-    \               Référence :\n                \n                \n                \n
-    \               \n                \n                \n\n                Procès-verbaux
-    des séances du CIPM (2002), p."

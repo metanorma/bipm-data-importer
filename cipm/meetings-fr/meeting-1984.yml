@@ -13,57 +13,15 @@ resolutions:
   - type: affirmative
     degree: unanimous
     message: |-
-      [width=100%]
-      |===
-      .<| image::/utils/common/img/fleche_jaune.gif["",29] .<| Au sujet du sievert https://www.bipm.org/fr/CIPM/db/1984/1/#notes[\*] |
-
-      |===
-
-      [width=100%]
-      |===
-      | image::/utils/common/img/pix.gif["",15] .<a| +
+      +
 
       Le Comité international des poids et mesures,
-
-      |===
   considerations:
   - type: considering
     date_effective: 1984-01-01
     message: considérant la confusion qui continue d'exister au sujet de la cgpm-resolution:fr/16/5[Résolution
       5, votée par la 16^e^ Conférence générale des poids et mesures (1979)],
-  - type: considering
-    date_effective: 1984-01-01
-    message: considérant la confusion qui continue d'exister au sujet de la cgpm-resolution:fr/16/5[Résolution
-      5, votée par la 16^e^ Conférence générale des poids et mesures (1979)],
   actions:
-  - type: decides
-    date_effective: 1984-01-01
-    message: "décide d'introduire l'explication suivante dans la brochure « Le Système
-      international d'unités (SI) » : +\n\nLa grandeur équivalent de dose stem:[H]
-      est le produit de la dose absorbée stem:[D] de rayonnements ionisants et de
-      deux facteurs sans dimension stem:[Q] (facteur de qualité) et stem:[N] (produit
-      de tous les autres facteurs de multiplication) prescrits par l'International
-      Commission on Radiological Protection :_H = Q · stem:[\"N\"] · D._\n\nAinsi,
-      pour une radiation donnée, la valeur numérique de stem:[H] en joules par kilogramme
-      peut être différente de la valeur numérique de stem:[D] en joules par kilogramme,
-      puisqu'elle est fonction de la valeur de stem:[Q] et de stem:[N]. Afin d'éviter
-      tout risque de confusion entre la dose absorbée stem:[D] et l'équivalent de
-      dose stem:[H], il faut employer les noms spéciaux pour les unités correspondantes,
-      c'est-à-dire qu'il faut utiliser le nom gray au lieu de joule par kilogramme
-      pour l'unité de dose absorbée stem:[D] et le nom sievert au lieu de joule par
-      kilogramme pour l'unité d'équivalent de dose stem:[H].\n\n| image::/utils/common/img/pix.gif[\"\",15,25]
-      +\n\n[width=100%]\n|===\n| image::/utils/common/img/pix.gif[\"\",15] ^a| \n*
-      * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n| image::/utils/common/img/pix.gif[\"\",15]
-      ^| Référence : | image::/utils/common/img/pix.gif[\"\",15]\n| image::/utils/common/img/pix.gif[\"\",15]
-      ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-verbaux des séances
-      du CIPM_ (1984), p. 31\n| image::/utils/common/img/pix.gif[\"\",15] .<| image::/utils/common/img/bullet1.gif[\"\",16,9]
-      _Metrologia_, 1985, *21*, 2, 89-92 | image::/utils/common/img/pix.gif[\"\",15,25]\n[[notes]]|
-      image::/utils/common/img/pix.gif[\"\",15] .<a| +\n\n[width=100%]\n|===\na| \n\n|===\n.<a|
-      Note: +\n +\nLe CIPM a décidé en 2002 de modifier les explications sur la grandeur
-      équivalent de dose dans la Brochure sur le SI ( cipm-resolution:fr/2002/2[Recommandation
-      2 (CI-2002)]).\n>.<| https://www.bipm.org/fr/publications/si-brochure/[image::/utils/common/img/si_110.jpg[]]\n\n|===\n\n|===\n\n|
-      image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n +\n\nLe Comité international
-      des poids et mesures,"
   - type: decides
     date_effective: 1984-01-01
     message: |-

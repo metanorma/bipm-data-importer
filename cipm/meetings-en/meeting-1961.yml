@@ -14,18 +14,8 @@ resolutions:
     degree: unanimous
     message: Unanimous
   considerations: []
-  actions:
-  - type: decides
-    date_effective: 1961-01-01
-    message: "[width=100%]\n|===\n.<| image::/utils/common/img/fleche_jaune.gif[\"\",29]
-      .<| Cubic decimetre and litre |\n\n|===\n\n[width=100%]\n|===\n| image::/utils/common/img/pix.gif[\"\",15]
-      .<a| +\n\nThe Comité International des Poids et Mesures recommends that the
-      results of accurate measurements of volume be expressed in units of the International
-      System and not in litres.\n\n| image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n
-      +\n\n[width=100%]\n|===\n| image::/utils/common/img/pix.gif[\"\",15] ^a| \n*
-      * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n| image::/utils/common/img/pix.gif[\"\",15]
-      ^| Reference: | image::/utils/common/img/pix.gif[\"\",15]\n| image::/utils/common/img/pix.gif[\"\",15]
-      ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-Verbaux des Séances
-      du CIPM_ (1961), p. 34\n\n|===\n +\n\nThe Comité International des Poids et
-      Mesures recommends that the results of accurate measurements of volume be expressed
-      in units of the International System and not in litres."
+  actions: []
+  x-unparsed:
+  - The Comité International des Poids et Mesures recommends that the results of accurate
+    measurements of volume be expressed in units of the International System and not
+    in litres.

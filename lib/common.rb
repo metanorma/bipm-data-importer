@@ -164,7 +164,7 @@ module Common
     when :cgpm
       ng.css('td.txt12pt:not([align])')
     when :cipm
-      ng.css('td.txt12pt[align="justify"]')
+      ng.css('td.txt12pt td.txt12pt')
     end
 
     #binding.pry if ps.count != 1
