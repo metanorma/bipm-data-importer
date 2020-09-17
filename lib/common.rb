@@ -22,7 +22,7 @@ CONSIDERATIONS = {
   /(?:acknowledging|accept(?:s|ed|ing)|admet|entendu|empowered by|habilité par)/i => "acknowledging",
   /(?:(?:further )?recall(?:ing|s)|rappelant|rappelle)/i => "recalling / further recalling",
   /(?:re-?affirm(?:ing|s)|réaffirme)/i => "reaffirming",
-  /(?:consid(?:ering|érant|ers)|après examen|estime|is of the opinion)/i => "considering",
+  /(?:consid(?:ering|érant|ers|ered)|après examen|estime|is of the opinion)/i => "considering",
   /(?:taking into account|(prend|prenant) en considération|taking into consideration|tenant compte)/i => "taking into account",
   "pursuant to" => "pursuant to",
   /(?:bearing in mind)/i => "bearing in mind",
@@ -45,19 +45,19 @@ ACTIONS = {
   "resolves" => "resolves",
   /(?:confirms|confirmed?|confirme que)/i => "confirms",
   /(?:welcomes|welcomed|accueille favorablement)/i => "welcomes",
-  /recomm(?:ends|ande)/i => "recommends",
+  /recomm(?:ends|ande|ended)/i => "recommends",
   /(?:requests?|requested|demande)/i => "requests",
   /(?:congratulate[sd])/i => "congratulates",
   /(?:instructs|instructed)/i => "instructs",
   /(?:urges|prie instamment)/i => "urges",
-  /(?:appoints|appointed|elected|autorise|authorized|empowers|charged?|donne|habilite|Pendant la période)/i => "appoints",
+  /(?:appoints|appointed|elected|autorise|authorized|empowers|charged?|donne|habilite|nominated|Pendant la période)/i => "appoints",
   "resolves further" => "resolves further",
   /(?:calls upon|draws the attention|attire l'attention|lance un appel)/i => "calls upon",
   /(?:encourages?d?|espère|proposes?)/i => "encourages",
   /(?:affirms|reaffirming|réaffirmant|states|remarks|remarques)/i => "affirms / reaffirming",
 }
 
-PREFIX=/(?:(?:The|Le) CIPM |La Conférence |The Conference |and |et |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir |\.\.\.\n+)?/i
+PREFIX=/(?:(?:The|Le) CIPM |La Conférence |would |will |strongly |The Conference |and |et |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir |\.\.\.\n+)?/i
 
 SUFFIX=/ (?:that|que)\b|(?: (?:the |that |le |que les )?((?:[A-Z]|national|laboratoires).{0,80}?)(?: to)?\b|)/
 

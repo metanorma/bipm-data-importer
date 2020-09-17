@@ -132,12 +132,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2016-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: recommends
+    date_effective: 2016-10-01
+    message: recommended engagement of the pensioners with the PFAB and invited the
+      Director of the BIPM, the President of the PFAB and the BIPM Legal Advisor to
+      develop a proposal.
   subject: The CIPM
-  x-unparsed:
-  - recommended engagement of the pensioners with the PFAB and invited the Director
-    of the BIPM, the President of the PFAB and the BIPM Legal Advisor to develop a
-    proposal.
 - dates:
   - 2016-10-01
   title: Decision CIPM/105-10
@@ -195,11 +196,12 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2016-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: recommends
+    date_effective: 2016-10-01
+    message: recommended that the date on which the redefinition of the SI shall come
+      into force be 20 May 2019 (World Metrology Day).
   subject: The CIPM
-  x-unparsed:
-  - recommended that the date on which the redefinition of the SI shall come into
-    force be 20 May 2019 (World Metrology Day).
 - dates:
   - 2016-10-01
   title: Decision CIPM/105-14

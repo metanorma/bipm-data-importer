@@ -239,13 +239,15 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2014-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2014-11-01
+    message: |-
+      nominated:
+
+      * Dr Kaarls as CIPM representative to participate with Mr Henson, BIPM, in the ISO Working Group to revise ISO 17025,
+      * Dr McLaren as CIPM representative to participate with Dr Westwood, BIPM, in the ISO Working Group to revise ISO Guide 34.
   subject: The CIPM
-  x-unparsed:
-  - "nominated:\r\n\r\nDr Kaarls as CIPM representative to participate with Mr Henson,
-    BIPM, in the ISO Working Group to revise ISO 17025,\r\nDr McLaren as CIPM representative
-    to participate with Dr Westwood, BIPM, in the ISO Working Group to revise ISO
-    Guide 34."
 - dates:
   - 2014-11-01
   title: Decision CIPM/103-41

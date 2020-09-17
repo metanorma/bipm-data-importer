@@ -200,15 +200,16 @@ resolutions:
   identifier: 102-40
   url: https://www.bipm.org/en/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
-  considerations: []
+  considerations:
+  - type: considering
+    date_effective: 2013-10-01
+    message: considered the report from the President of the Consultative Committee
+      for Ionizing Radiation (CCRI) and supported the continuation of the key comparison
+      for accelerator dosimetry as planned during the period 2013-2015 and that this
+      should continue to be a priority for the Work Programme 2016-2019. The BIPM
+      will maintain a watching brief on developments at the NMIs in this area.
   actions: []
   subject: The CIPM
-  x-unparsed:
-  - considered the report from the President of the Consultative Committee for Ionizing
-    Radiation (CCRI) and supported the continuation of the key comparison for accelerator
-    dosimetry as planned during the period 2013-2015 and that this should continue
-    to be a priority for the Work Programme 2016-2019. The BIPM will maintain a watching
-    brief on developments at the NMIs in this area.
 - dates:
   - 2013-10-01
   title: Decision CIPM/102-41

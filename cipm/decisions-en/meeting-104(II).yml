@@ -139,18 +139,19 @@ resolutions:
   identifier: 104-36
   url: https://www.bipm.org/en/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-II-EN.pdf
-  considerations: []
+  considerations:
+  - type: considering
+    date_effective: 2015-10-01
+    message: considered a request from an _association of 'anciens'_ of the BIPM to
+      have a representative or observer on the PFAB. The CIPM noted that it maintains
+      a high standard for transparency with respect to the operation and financial
+      status of the Pension Fund. It also noted that the PFAB now includes an elected
+      representative of the BIPM active staff and that active staff have a natural
+      interest in the rights and benefits that they will receive as pensioners. The
+      CIPM therefore does not consider it necessary to include a representative or
+      observer of the association on the PFAB at this time.
   actions: []
   subject: The CIPM
-  x-unparsed:
-  - considered a request from an association of 'anciens' of the BIPM to have a representative
-    or observer on the PFAB. The CIPM noted that it maintains a high standard for
-    transparency with respect to the operation and financial status of the Pension
-    Fund. It also noted that the PFAB now includes an elected representative of the
-    BIPM active staff and that active staff have a natural interest in the rights
-    and benefits that they will receive as pensioners. The CIPM therefore does not
-    consider it necessary to include a representative or observer of the association
-    on the PFAB at this time.
 - dates:
   - 2015-10-01
   title: Decision CIPM/104-37
