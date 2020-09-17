@@ -46,7 +46,7 @@ FileUtils.rm_rf "cgpm/meetings-en"
     res_id = res_link.href.split('/')[-1].to_i
     res = VCR.use_cassette("cgpm-resolution-#{meeting_id}-#{res_id}#{meeting_lang_sfx}") { res_link.click }
 
-    Common.parse_resolution(res, res_id, date)
+    Common.parse_resolution(res, res_id, date, :cgpm)
   end
 
   FileUtils.mkdir_p("cgpm/meetings#{meeting_lang_sfx_dir}")

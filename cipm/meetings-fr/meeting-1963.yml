@@ -1,0 +1,48 @@
+---
+metadata:
+  title: CIPM, 1963
+  date: 1963-01-01
+  source: BIPM - Pavillon de Breteuil
+resolutions:
+- dates:
+  - 1963-01-01
+  title: Étalons secondaires de longueur d'onde
+  identifier: 1
+  url: https://www.bipm.org/fr/CIPM/db/1963/1/
+  approvals:
+  - type: affirmative
+    degree: unanimous
+    message: Unanimous
+  considerations: []
+  actions:
+  - type: decides
+    date_effective: 1963-01-01
+    message: "[width=100%]\n|===\n.<| image::/utils/common/img/fleche_jaune.gif[\"\",29]
+      .<| Étalons secondaires de longueur d'onde |\n\n|===\n\n[width=100%]\n|===\n|
+      image::/utils/common/img/pix.gif[\"\",15] .<a| +\n\n| image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n
+      +\n\n[width=100%]\n|===\n| image::/utils/common/img/pix.gif[\"\",15] ^a| \n*
+      * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n| image::/utils/common/img/pix.gif[\"\",15]
+      ^| Référence : | image::/utils/common/img/pix.gif[\"\",15]\n| image::/utils/common/img/pix.gif[\"\",15]
+      ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-verbaux des séances
+      du CIPM_ (1963), p.\n\n|===\n +"
+- dates:
+  - 1963-01-01
+  title: Unité spéciale pour l'activité (curie)
+  identifier: 2
+  url: https://www.bipm.org/fr/CIPM/db/1963/2/
+  approvals:
+  - type: affirmative
+    degree: unanimous
+    message: Unanimous
+  considerations: []
+  actions:
+  - type: decides
+    date_effective: 1963-01-01
+    message: "[width=100%]\n|===\n.<| image::/utils/common/img/fleche_jaune.gif[\"\",29]
+      .<| Unité spéciale pour l'activité (curie) |\n\n|===\n\n[width=100%]\n|===\n|
+      image::/utils/common/img/pix.gif[\"\",15] .<a| +\n\n| image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n
+      +\n\n[width=100%]\n|===\n| image::/utils/common/img/pix.gif[\"\",15] ^a| \n*
+      * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n| image::/utils/common/img/pix.gif[\"\",15]
+      ^| Référence : | image::/utils/common/img/pix.gif[\"\",15]\n| image::/utils/common/img/pix.gif[\"\",15]
+      ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-verbaux des séances
+      du CIPM_ (1963), p.\n\n|===\n +"

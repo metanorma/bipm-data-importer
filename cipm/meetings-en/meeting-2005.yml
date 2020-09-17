@@ -1,0 +1,55 @@
+---
+metadata:
+  title: CIPM, 2005
+  date: 2005-01-01
+  source: BIPM - Pavillon de Breteuil
+resolutions:
+- dates:
+  - 2005-01-01
+  title: Clarification of the definition of the kelvin, unit of thermodynamic temperature
+  identifier: 2
+  url: https://www.bipm.org/en/CIPM/db/2005/2/
+  approvals:
+  - type: affirmative
+    degree: unanimous
+    message: Unanimous
+  considerations: []
+  actions:
+  - type: decides
+    date_effective: 2005-01-01
+    message: "[width=100%]\n|===\n.<| image::/utils/common/img/fleche_jaune.gif[\"\",29]
+      .<| Clarification of the definition of the kelvin, unit of thermodynamic temperature
+      |\n\n|===\n\n[width=100%]\n|===\n| image::/utils/common/img/pix.gif[\"\",15]
+      .<a| +\n [https://www.bipm.org/utils/fr/pdf/CI-2005-2-FR.pdf[Cliquer ici]] \n|
+      image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n +\n\n[width=100%]\n|===\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^a| \n* * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^| Reference: | image::/utils/common/img/pix.gif[\"\",15]\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-Verbaux
+      des Séances du CIPM_ (2005), p. 235\n| image::/utils/common/img/pix.gif[\"\",15]
+      .<| image::/utils/common/img/bullet1.gif[\"\",16,9] http://dx.doi.org/10.1088/0026-1394/42/1/M01[_Metrologia_,
+      2006, *43*(1), 175-182] | image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n
+      +\n [https://www.bipm.org/utils/fr/pdf/CI-2005-2-FR.pdf[Cliquer ici]]"
+- dates:
+  - 2005-01-01
+  title: Revision of the Mise en pratique list of recommended radiations
+  identifier: 3
+  url: https://www.bipm.org/en/CIPM/db/2005/3/
+  approvals:
+  - type: affirmative
+    degree: unanimous
+    message: Unanimous
+  considerations: []
+  actions:
+  - type: decides
+    date_effective: 2005-01-01
+    message: "[width=100%]\n|===\n.<| image::/utils/common/img/fleche_jaune.gif[\"\",29]
+      .<| Revision of the _Mise en pratique_ list of recommended radiations |\n\n|===\n\n[width=100%]\n|===\n|
+      image::/utils/common/img/pix.gif[\"\",15] .<a| +\n [https://www.bipm.org/utils/fr/pdf/CI-2005-3-FR.pdf[Cliquer
+      ici]] \n| image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n +\n\n[width=100%]\n|===\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^a| \n* * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^| Reference: | image::/utils/common/img/pix.gif[\"\",15]\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-Verbaux
+      des Séances du CIPM_ (2005), p. 236\n| image::/utils/common/img/pix.gif[\"\",15]
+      .<| image::/utils/common/img/bullet1.gif[\"\",16,9] http://dx.doi.org/10.1088/0026-1394/42/1/M01[_Metrologia_,
+      2006, *43*(1), 175-182] | image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n
+      +\n [https://www.bipm.org/utils/fr/pdf/CI-2005-3-FR.pdf[Cliquer ici]]"

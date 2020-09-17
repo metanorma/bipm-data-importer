@@ -1,0 +1,61 @@
+---
+metadata:
+  title: CIPM, 1967
+  date: 1967-01-01
+  source: BIPM - Pavillon de Breteuil
+resolutions:
+- dates:
+  - 1967-01-01
+  title: Multiples et sous-multiples décimaux de l'unité de masse
+  identifier: 2
+  url: https://www.bipm.org/fr/CIPM/db/1967/2/
+  approvals:
+  - type: affirmative
+    degree: unanimous
+    message: |-
+      [width=100%]
+      |===
+      .<| image::/utils/common/img/fleche_jaune.gif["",29] .<| Multiples et sous-multiples décimaux de l'unité de masse |
+
+      |===
+
+      [width=100%]
+      |===
+      | image::/utils/common/img/pix.gif["",15] .<a| +
+
+      Le Comité international des poids et mesures,
+
+      |===
+  considerations:
+  - type: considering
+    date_effective: 1967-01-01
+    message: considérant que la règle de formation des noms des multiples et sous-multiples
+      décimaux des unités du paragraphe 3 de la Résolution 12 de la Onzième Conférence
+      générale des poids et mesures (1960) peut prêter à des interprétations divergentes
+      dans son application à l'unité de masse,
+  - type: considering
+    date_effective: 1967-01-01
+    message: considérant que la règle de formation des noms des multiples et sous-multiples
+      décimaux des unités du paragraphe 3 de la Résolution 12 de la Onzième Conférence
+      générale des poids et mesures (1960) peut prêter à des interprétations divergentes
+      dans son application à l'unité de masse,
+  actions:
+  - type: decides
+    date_effective: 1967-01-01
+    message: "déclare que les dispositions de la Résolution 12 de la onzième Conférence
+      générale s'appliquent dans le cas du kilogramme de la façon suivante : les noms
+      des multiples et sous-multiples décimaux de l'unité de masse sont formés par
+      l'adjonction des préfixes au mot « gramme ».\n\n| image::/utils/common/img/pix.gif[\"\",15,25]
+      +\n\n[width=100%]\n|===\n| image::/utils/common/img/pix.gif[\"\",15] ^a| \n*
+      * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n| image::/utils/common/img/pix.gif[\"\",15]
+      ^| Référence : | image::/utils/common/img/pix.gif[\"\",15]\n| image::/utils/common/img/pix.gif[\"\",15]
+      ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-verbaux des séances
+      du CIPM_ (1967), p. 29\n| image::/utils/common/img/pix.gif[\"\",15] .<| image::/utils/common/img/bullet1.gif[\"\",16,9]
+      _Metrologia_, 1968, *4*, 1, 41-45 | image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n
+      +\n\nLe Comité international des poids et mesures,"
+  - type: decides
+    date_effective: 1967-01-01
+    message: 'déclare que les dispositions de la Résolution 12 de la onzième Conférence
+      générale s''appliquent dans le cas du kilogramme de la façon suivante : les
+      noms des multiples et sous-multiples décimaux de l''unité de masse sont formés
+      par l''adjonction des préfixes au mot « gramme ».'

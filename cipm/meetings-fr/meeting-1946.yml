@@ -1,0 +1,173 @@
+---
+metadata:
+  title: CIPM, 1946
+  date: 1946-01-01
+  source: BIPM - Pavillon de Breteuil
+resolutions:
+- dates:
+  - 1946-01-01
+  title: Définition des unités photométriques
+  identifier: 0
+  url: https://www.bipm.org/fr/CIPM/db/1946/0/
+  approvals:
+  - type: affirmative
+    degree: unanimous
+    message: Unanimous
+  considerations: []
+  actions:
+  - type: decides
+    date_effective: 1946-01-01
+    message: |-
+      [width=100%]
+      |===
+      .<| image::/utils/common/img/fleche_jaune.gif["",29] .<| Définition des unités photométriques https://www.bipm.org/fr/CIPM/db/1946/0/#notes[\*] |
+
+      |===
+
+      [width=100%]
+      |===
+      | image::/utils/common/img/pix.gif["",15] .<a| +
+
+      ...
+
+      [start=4]
+      . Les unités photométriques peuvent être définies comme suit :
+
+      |===
+  x-unparsed:
+  - Bougie nouvelle (unité d'intensité lumineuse) - La grandeur de la bougie nouvelle
+    est telle que la brillance du radiateur intégral à la température de solidification
+    du platine soit de 60 bougies nouvelles par centimètre carré.
+  - "Lumen nouveau (unité de flux lumineux) - Le lumen nouveau est le flux lumineux
+    émis dans l'angle solide unité (stéradian) par une source ponctuelle uniforme
+    ayant une intensité lumineuse de 1 bougie nouvelle.\n\n...\n\n\n\n\t        \n
+    \               \n                \n                \n                 \n                \n\n
+    \               \n                \n                \n                \n                \n\n\n\t\t\n\t\t\n
+    \               Référence :\n                \n                \n                \n
+    \               \n                \n                \n\n                Procès-verbaux
+    des séances du CIPM (1946), p. 119\n                \n\n\t\t\n\n                \n
+    \               \n\n                  \n\n\n                \n\t\t \n                \n
+    \               \n                \n\t\t    \n\t\t      \n\t\t\t\n\t\t\t\n\t\t\t
+    \ \n\t\t\t    \nNote:\n\t\t\t\tLes deux définitions contenues dans cette Résolution
+    furent ratifiées par la 9e CGPM en 1948, qui a en outre approuvé le nom de candela
+    donné à la « bougie nouvelle ». Pour le lumen, le qualificatif « nouveau » a été
+    abandonné par la suite. La définition de la candela a été modifiée par la 13e
+    CGPM en 1967 (Résolution 5).\n\t\t\t    \n\n\t\t\t  \n\t\t\t\n\t\t\t\n\t\t      \n\t\t
+    \   \n                \n                \n                \n\n                \n\n
+    \               \n\n    \t\n\n          \n\n                ...\n\nLes unités
+    photométriques peuvent être définies comme suit :"
+  - Bougie nouvelle (unité d'intensité lumineuse) - La grandeur de la bougie nouvelle
+    est telle que la brillance du radiateur intégral à la température de solidification
+    du platine soit de 60 bougies nouvelles par centimètre carré.
+  - |-
+    Lumen nouveau (unité de flux lumineux) - Le lumen nouveau est le flux lumineux émis dans l'angle solide unité (stéradian) par une source ponctuelle uniforme ayant une intensité lumineuse de 1 bougie nouvelle.
+
+    ...
+- dates:
+  - 1946-01-01
+  title: Définitions des unités électriques
+  identifier: 2
+  url: https://www.bipm.org/fr/CIPM/db/1946/2/
+  approvals:
+  - type: affirmative
+    degree: unanimous
+    message: Unanimous
+  considerations: []
+  actions:
+  - type: decides
+    date_effective: 1946-01-01
+    message: |-
+      [width=100%]
+      |===
+      .<| image::/utils/common/img/fleche_jaune.gif["",29] .<| Définitions des unités électriques https://www.bipm.org/fr/CIPM/db/1946/2/#notes[\*] |
+
+      |===
+
+      [width=100%]
+      |===
+      | image::/utils/common/img/pix.gif["",15] .<a| +
+
+      ...
+
+      [start=4]
+      . stem:[("A")] Définitions des unités mécaniques utilisées dans les définitions des unités électriques :
+
+      |===
+  x-unparsed:
+  - Unité de force - L'unité de force [dans le système MKS (mètre, kilogramme, seconde)]
+    est la force qui communique à une masse de 1 kilogramme l'accélération de 1 mètre
+    par seconde, par seconde.
+  - Joule (unité d'énergie ou de travail) - Le joule est le travail effectué lorsque
+    le point d'application de 1 unité MKS de force [newton] se déplace d'une distance
+    égale à 1 mètre dans la direction de la force.
+  - |-
+    Watt (unité de puissance) - Le watt est la puissance qui donne lieu à une production d'énergie égale à 1 joule par seconde.
+    (B) Définitions des unités électriques. Le Comité [international] admet les propositions suivantes définissant la grandeur théorique des unités électriques :
+  - |-
+    Ampère (unité d'intensité de courant électrique) - L'ampère est l'intensité d'un courant constant qui, maintenu dans deux conducteurs parallèles, rectilignes, de longueur infinie, de section circulaire négligeable et placés à une distance de 1 mètre l'un de l'autre dans le vide, produirait entre ces conducteurs une force égale à 2 ´
+     10-7 unité MKS de force [newton] par mètre de longueur.
+  - Volt (unité de différence de potentiel et de force électromotrice) - Le volt est
+    la différence de potentiel électrique qui existe entre deux points d'un fil conducteur
+    transportant un courant constant de 1 ampère, lorsque la puissance dissipée entre
+    ces points est égale à 1 watt.
+  - Ohm (unité de résistance électrique) - L'ohm est la résistance électrique qui
+    existe entre deux points d'un conducteur lorsqu'une différence de potentiel constante
+    de 1 volt, appliquée entre ceux deux points, produit, dans ce conducteur, un courant
+    de 1 ampère, ce conducteur n'étant le siège d'aucune force électromotrice.
+  - Coulomb (unité de quantité d'électricité) - Le coulomb est la quantité d'électricité
+    transportée en 1 seconde par un courant de 1 ampère.
+  - Farad (unité de capacité électrique) - Le farad est la capacité d'un condensateur
+    électrique entre les armatures duquel apparaît une différence de potentiel électrique
+    de 1 volt, lorsqu'il est chargé d'une quantité d'électricité égale à 1 coulomb.
+  - Henry (unité d'inductance électrique) - Le henry est l'inductance électrique d'un
+    circuit fermé dans lequel une force électromotrice de 1 volt est produite lorsque
+    le courant électrique qui parcourt le circuit varie uniformément à raison de 1
+    ampère par seconde.
+  - "Weber (unité de flux magnétique) - Le weber est le flux magnétique qui, traversant
+    un circuit d'une seule spire, y produirait une force électromotrice de 1 volt,
+    si on l'amenait à zéro en 1 seconde par décroissance uniforme.\n\n\n\t        \n
+    \               \n                \n                \n                 \n                \n\n
+    \               \n                \n                \n                \n                \n\n\n\t\t\n\t\t\n
+    \               Référence :\n                \n                \n                \n
+    \               \n                \n                \n\n                Procès-verbaux
+    des séances du CIPM (1946), p. 129\n                \n\n\t\t\n\n                \n
+    \               \n\n                  \n\n\n                \n\t\t \n                \n
+    \               \n                \n\t\t    \n\t\t      \n\t\t\t\n\t\t\t\n\t\t\t
+    \ \n\t\t\t    \nNote:\n\t\t\t\tLes définitions contenues dans cette Résolution
+    ont été approuvées par la 9e CGPM en 1948, qui a en outre adopté le nom newton
+    (Résolution 7) pour l'unité MKS de force.\n\t\t\t    \n\n\t\t\t  \n\t\t\t\n\t\t\t\n\t\t
+    \     \n\t\t    \n                \n                \n                \n\n                \n\n
+    \               \n\n    \t\n\n          \n\n                ...\n\n(A) Définitions
+    des unités mécaniques utilisées dans les définitions des unités électriques :"
+  - Unité de force - L'unité de force [dans le système MKS (mètre, kilogramme, seconde)]
+    est la force qui communique à une masse de 1 kilogramme l'accélération de 1 mètre
+    par seconde, par seconde.
+  - Joule (unité d'énergie ou de travail) - Le joule est le travail effectué lorsque
+    le point d'application de 1 unité MKS de force [newton] se déplace d'une distance
+    égale à 1 mètre dans la direction de la force.
+  - |-
+    Watt (unité de puissance) - Le watt est la puissance qui donne lieu à une production d'énergie égale à 1 joule par seconde.
+    (B) Définitions des unités électriques. Le Comité [international] admet les propositions suivantes définissant la grandeur théorique des unités électriques :
+  - |-
+    Ampère (unité d'intensité de courant électrique) - L'ampère est l'intensité d'un courant constant qui, maintenu dans deux conducteurs parallèles, rectilignes, de longueur infinie, de section circulaire négligeable et placés à une distance de 1 mètre l'un de l'autre dans le vide, produirait entre ces conducteurs une force égale à 2 ´
+     10-7 unité MKS de force [newton] par mètre de longueur.
+  - Volt (unité de différence de potentiel et de force électromotrice) - Le volt est
+    la différence de potentiel électrique qui existe entre deux points d'un fil conducteur
+    transportant un courant constant de 1 ampère, lorsque la puissance dissipée entre
+    ces points est égale à 1 watt.
+  - Ohm (unité de résistance électrique) - L'ohm est la résistance électrique qui
+    existe entre deux points d'un conducteur lorsqu'une différence de potentiel constante
+    de 1 volt, appliquée entre ceux deux points, produit, dans ce conducteur, un courant
+    de 1 ampère, ce conducteur n'étant le siège d'aucune force électromotrice.
+  - Coulomb (unité de quantité d'électricité) - Le coulomb est la quantité d'électricité
+    transportée en 1 seconde par un courant de 1 ampère.
+  - Farad (unité de capacité électrique) - Le farad est la capacité d'un condensateur
+    électrique entre les armatures duquel apparaît une différence de potentiel électrique
+    de 1 volt, lorsqu'il est chargé d'une quantité d'électricité égale à 1 coulomb.
+  - Henry (unité d'inductance électrique) - Le henry est l'inductance électrique d'un
+    circuit fermé dans lequel une force électromotrice de 1 volt est produite lorsque
+    le courant électrique qui parcourt le circuit varie uniformément à raison de 1
+    ampère par seconde.
+  - Weber (unité de flux magnétique) - Le weber est le flux magnétique qui, traversant
+    un circuit d'une seule spire, y produirait une force électromotrice de 1 volt,
+    si on l'amenait à zéro en 1 seconde par décroissance uniforme.

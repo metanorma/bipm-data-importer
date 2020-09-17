@@ -1,0 +1,87 @@
+---
+metadata:
+  title: CIPM, 2003
+  date: 2003-01-01
+  source: BIPM - Pavillon de Breteuil
+resolutions:
+- dates:
+  - 2003-01-01
+  title: Revision of the Mise en Pratique list of recommended radiations
+  identifier: 1
+  url: https://www.bipm.org/en/CIPM/db/2003/1/
+  approvals:
+  - type: affirmative
+    degree: unanimous
+    message: |-
+      [width=100%]
+      |===
+      .<| image::/utils/common/img/fleche_jaune.gif["",29] .<| Revision of the _Mise en Pratique_ list of recommended radiations https://www.bipm.org/en/CIPM/db/2003/1/#notes[\*] |
+
+      |===
+
+      [width=100%]
+      |===
+      | image::/utils/common/img/pix.gif["",15] .<a| +
+
+      The International Committee for Weights and Measures,
+
+      |===
+  considerations:
+  - type: considering
+    date_effective: 2003-01-01
+    message: considering that improved frequency values for radiations of some high-stability
+      cold ion standards already documented in the recommended radiations list have
+      recently become available;
+  - type: considering
+    date_effective: 2003-01-01
+    message: considering that improved frequency values for the infra-red gas-cell-based
+      optical frequency standard in the optical telecommunications region, already
+      documented in the recommended radiations list, have been determined;
+  - type: considering
+    date_effective: 2003-01-01
+    message: considering that femtosecond comb-based frequency measurement for certain
+      iodine gas-cell standards on the subsidiary recommended source list have recently
+      been made for the first time, leading to signicantly reduced uncertainty;
+  - type: considering
+    date_effective: 2003-01-01
+    message: considering that improved frequency values for radiations of some high-stability
+      cold ion standards already documented in the recommended radiations list have
+      recently become available;
+  - type: considering
+    date_effective: 2003-01-01
+    message: considering that improved frequency values for the infra-red gas-cell-based
+      optical frequency standard in the optical telecommunications region, already
+      documented in the recommended radiations list, have been determined;
+  - type: considering
+    date_effective: 2003-01-01
+    message: considering that femtosecond comb-based frequency measurement for certain
+      iodine gas-cell standards on the subsidiary recommended source list have recently
+      been made for the first time, leading to signicantly reduced uncertainty;
+  actions: []
+  x-unparsed:
+  - "proposes that the recommended radiation list be revised to include the following:\n\nupdated
+    frequency values for the single trapped 88Sr+ ion quadrupole transition and the
+    single trapped 171Yb+ octupole transition;\nan updated frequency value for the
+    C2H2-stabilized standard at 1.54 µm;\n\nupdated frequency values for the I2-stabilized
+    standards at 543 nm and 515 nm.\n\n\n\n\n\t        \n                \n                \n
+    \               \n                 \n                \n\n                \n                \n
+    \               \n                \n                \n\n\n\t\t\n\t\t\n                Reference:\n
+    \               \n                \n                \n                \n                \n
+    \               \n\n                Procès-Verbaux des Séances du CIPM (2003),
+    p. 146\n                \n\n\t\t\n\n\n                \n                \n\n\n
+    \               \n                \n                \n                 Metrologia,
+    2003, 41(1), 99-108\n                \n                \n                \n\n
+    \               \n\n                  \n\n\n                \n                \n
+    \               \n                 \n\t\t\t\n\t\t    \n\t\t      \n\t\t\t\n\t\t\t\n\t\t\t
+    \ \n\t\t\t    \nNote:\n\t\t\t\tFurther updates are available on the BIPM website
+    at http://www.bipm.org/en/publications/mises-en-pratique/standard-frequencies.html.\n\t\t\t
+    \   \n\n\t\t\t  \n\t\t\t\n\t\t\t\n\t\t      \n\t\t    \n\n                \n                \n
+    \               \n\n                \n\n                \n\n    \t\n\n          \n\n
+    \               The International Committee for Weights and Measures,"
+  - |-
+    proposes that the recommended radiation list be revised to include the following:
+
+    updated frequency values for the single trapped 88Sr+ ion quadrupole transition and the single trapped 171Yb+ octupole transition;
+    an updated frequency value for the C2H2-stabilized standard at 1.54 µm;
+
+    updated frequency values for the I2-stabilized standards at 543 nm and 515 nm.

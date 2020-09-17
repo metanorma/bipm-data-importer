@@ -1,0 +1,121 @@
+---
+metadata:
+  title: CIPM, 2002
+  date: 2002-01-01
+  source: BIPM - Pavillon de Breteuil
+resolutions:
+- dates:
+  - 2002-01-01
+  title: Revision of the practical realization of the definition of the metre
+  identifier: 1
+  url: https://www.bipm.org/en/CIPM/db/2002/1/
+  reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2002-EN.pdf#page=88
+  approvals:
+  - type: affirmative
+    degree: unanimous
+    message: Unanimous
+  considerations: []
+  actions:
+  - type: decides
+    date_effective: 2002-01-01
+    message: "[width=100%]\n|===\n.<| image::/utils/common/img/fleche_jaune.gif[\"\",29]
+      .<| Revision of the practical realization of the definition of the metre https://www.bipm.org/en/CIPM/db/2002/1/#notes[\\*]
+      |\n\n|===\n\n[width=100%]\n|===\n| image::/utils/common/img/pix.gif[\"\",15]
+      .<a| +\n [https://www.bipm.org/utils/fr/pdf/CI-2002-1-FR.pdf[Cliquer ici]] \n|
+      image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n +\n\n[width=100%]\n|===\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^a| \n* * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^| Reference: | image::/utils/common/img/pix.gif[\"\",15]\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-Verbaux
+      des Séances du CIPM_ (2002), p. 194\n| image::/utils/common/img/pix.gif[\"\",15]
+      .<| image::/utils/common/img/bullet1.gif[\"\",16,9] http://dx.doi.org/10.1088/0026-1394/40/2/316[_Metrologia_,
+      2002, *40*(2), 103-133] | image::/utils/common/img/pix.gif[\"\",15,25]\n| image::/utils/common/img/pix.gif[\"\",15]
+      .<a| [[notes]]\n\n[width=100%]\n|===\na| \n\n[width=100%]\n|===\na| \n\n|===\n.<a|
+      Note: +\n +\nThe list of recommended radiations, Recommendation 1 (CI-2002),
+      is given in https://www.bipm.org/utils/en/pdf/CIPM/CIPM2002-EN.pdf#page=88[PV,
+      *70*, 197-204] and http://stacks.iop.org/met/40/103[_Metrologia_, 2002, *40*,
+      104-115]. +\n +\nUpdates are available on the BIPM website at https://www.bipm.org/en/publications/mises-en-pratique/standard-frequencies.html[www.bipm.org/en/publications/mises-en-pratique/standard-frequencies.html].\n>.<|
+      https://www.bipm.org/en/publications/si-brochure/[image::/utils/common/img/si_110.jpg[]]\n\n|===\n\n|===\n\n|===\n\n|
+      image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n +\n [https://www.bipm.org/utils/fr/pdf/CI-2002-1-FR.pdf[Cliquer
+      ici]]"
+- dates:
+  - 2002-01-01
+  title: Dose equivalent
+  identifier: 2
+  url: https://www.bipm.org/en/CIPM/db/2002/2/
+  approvals:
+  - type: affirmative
+    degree: unanimous
+    message: |-
+      [width=100%]
+      |===
+      .<| image::/utils/common/img/fleche_jaune.gif["",29] .<| Dose equivalent https://www.bipm.org/en/CIPM/db/2002/2/#notes[\*] |
+
+      |===
+
+      [width=100%]
+      |===
+      | image::/utils/common/img/pix.gif["",15] .<a| +
+
+      The International Committee for Weights and Mesures
+
+      |===
+  considerations:
+  - type: considering
+    date_effective: 2002-01-01
+    message: |-
+      *considering* that
+
+      * the current definition of the SI unit of dose equivalent (sievert) includes a factor "stem:[N]" (product of any other multiplying factors) stipulated by the International Commission on Radiological Protection (ICRP), and
+       +
+      * both the ICRP and the International Commission on Radiation Units and Measurements (ICRU) have decided to delete this factor stem:[N] as it is no longer deemed to be necessary, and
+       +
+      * the current SI definition of stem:[H] including the factor stem:[N] is causing some confusion,
+  - type: considering
+    date_effective: 2002-01-01
+    message: |-
+      *considering* that
+
+      * the current definition of the SI unit of dose equivalent (sievert) includes a factor "stem:[N]" (product of any other multiplying factors) stipulated by the International Commission on Radiological Protection (ICRP), and
+       +
+      * both the ICRP and the International Commission on Radiation Units and Measurements (ICRU) have decided to delete this factor stem:[N] as it is no longer deemed to be necessary, and
+       +
+      * the current SI definition of stem:[H] including the factor stem:[N] is causing some confusion,
+  actions:
+  - type: decides
+    date_effective: 2002-01-01
+    message: "*decides* to change the explanation in the brochure \"Le Système International
+      d'Unités (SI)\" to the following:\n\nThe quantity dose equivalent stem:[H] is
+      the product of the absorbed dose stem:[D] of ionizing radiation and the dimensionless
+      factor stem:[Q] (quality factor) defined as a function of linear energy transfer
+      by the ICRU: +\n\nstem:[H = Q * D]\n\nThus, for a given radiation, the numerical
+      value of stem:[H] in joules per kilogram may differ from that of stem:[D] in
+      joules per kilogram depending on the value of stem:[Q].\n\nThe Committee further
+      *decides* to maintain the final sentence in the explanation as follows:\n\nIn
+      order to avoid any risk of confusion between the absorbed dose stem:[D] and
+      the dose equivalent stem:[H], the special names for the respective units should
+      be used, that is, the name gray should be used instead of joules per kilogram
+      for the unit of absorbed dose stem:[D] and the name sievert instead of joules
+      per kilogram for the unit of dose equivalent stem:[H].\n\n| image::/utils/common/img/pix.gif[\"\",15,25]
+      +\n\n[width=100%]\n|===\n| image::/utils/common/img/pix.gif[\"\",15] ^a| \n*
+      * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n| image::/utils/common/img/pix.gif[\"\",15]
+      ^| Reference: | image::/utils/common/img/pix.gif[\"\",15]\n| image::/utils/common/img/pix.gif[\"\",15]
+      ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-Verbaux des Séances
+      du CIPM_ (2002), p. 205\n| image::/utils/common/img/pix.gif[\"\",15] .<a| [[notes]]\n\n[width=100%]\n|===\na|
+      \n\n[width=100%]\n|===\na| \n\n|===\n.<a| Note: +\n +\nSee also http://stacks.iop.org/0952-4746/25/97[_J.
+      Radiol. Prot._, 2005, *25* 97-100].\n>.<| https://www.bipm.org/en/publications/si-brochure/[image::/utils/common/img/si_110.jpg[]]\n\n|===\n\n|===\n\n|===\n\n|
+      image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n +\n\nThe International
+      Committee for Weights and Mesures"
+  - type: decides
+    date_effective: 2002-01-01
+    message: |-
+      *decides* to change the explanation in the brochure "Le Système International d'Unités (SI)" to the following:
+
+      The quantity dose equivalent stem:[H] is the product of the absorbed dose stem:[D] of ionizing radiation and the dimensionless factor stem:[Q] (quality factor) defined as a function of linear energy transfer by the ICRU: +
+
+      stem:[H = Q * D]
+
+      Thus, for a given radiation, the numerical value of stem:[H] in joules per kilogram may differ from that of stem:[D] in joules per kilogram depending on the value of stem:[Q].
+
+      The Committee further *decides* to maintain the final sentence in the explanation as follows:
+
+      In order to avoid any risk of confusion between the absorbed dose stem:[D] and the dose equivalent stem:[H], the special names for the respective units should be used, that is, the name gray should be used instead of joules per kilogram for the unit of absorbed dose stem:[D] and the name sievert instead of joules per kilogram for the unit of dose equivalent stem:[H].

@@ -16,14 +16,14 @@ VCR.configure do |c|
 end
 
 CONSIDERATIONS = {
-  /(?:having(?: regard)?|ayant|acceptant|concerne|referring|se référant|vu la)/i => "having / having regard",
+  /(?:having(?: regard)?|ayant|acceptant|concerne|referring|se référant|vu la|agissant conformément)/i => "having / having regard",
   /(?:noting|notes|observing|observant que|taking note|takes note|constatant|constate|that|note|notant|notant que|note également|(?:prend|prenant) (?:acte|note))/i => "noting",
   /(?:recognizing|recognizes|reconnaissant|reconnaît)/i => "recognizing",
-  /(?:acknowledging|accept(?:s|ing)|admet|entendu)/i => "acknowledging",
+  /(?:acknowledging|accept(?:s|ing)|admet|entendu|empowered by|habilité par)/i => "acknowledging",
   /(?:(?:further )?recall(?:ing|s)|rappelant|rappelle)/i => "recalling / further recalling",
   /(?:re-?affirm(?:ing|s)|réaffirme)/i => "reaffirming",
   /(?:consid(?:ering|érant|ers)|après examen|estime)/i => "considering",
-  /(?:taking into account|prend en considération|tenant compte)/i => "taking into account",
+  /(?:taking into account|(prend|prenant) en considération|taking into consideration|tenant compte)/i => "taking into account",
   "pursuant to" => "pursuant to",
   /(?:bearing in mind)/i => "bearing in mind",
   /(?:emphasizing|soulignant)/i => "emphasizing",
@@ -36,7 +36,8 @@ ACTIONS = {
   /(?:approu?ves?|approuvant|approving|entérine)/i => "approves",
   /(?:d[eé]cid(?:es|e|é)|ratifies?|judges|d[ée]clares?|d[ée]finition|sanction(?:s|ne))/i => "decides",
   /(?:The unit of length is|Supplementary units|Principl?es|Les Délégués des États|Les v\u{9C}ux ou propositions)/i => "decides", # MISC - like declares/defines
-  /(?:L'unité de longueur|Unités supplémentaires)/i => "decides", # MISC - like declares/defines
+  /(?:L'unité de longueur|Unités supplémentaires|New candle|New lumen|Definitions of|Cubic decimetre|Clarification of|Revision of)/i => "decides", # MISC - like declares/defines
+  /(?:Unit of force|Définitions des|Décimètre cube|Étalons secondaires|Unité spéciale|Efficacités lumineuses)/i => "decides", # MISC - like declares/defines
   /(?:asks|souhaite)/i => "asks",
   /(?:further )?invites?|renouvelle en conséquence/i => "invites / further invites",
   "resolves" => "resolves",
@@ -128,7 +129,7 @@ module Common
     )
   end
 
-  def parse_resolution res, res_id, date
+  def parse_resolution res, res_id, date, type = :cgpm
     # Reparse the document after fixing upstream syntax
     fixed_body = res.body.gsub("<name=", "<a name=")
     ng = Nokogiri::HTML(fixed_body, res.uri.to_s, "iso-8859-1", Nokogiri::XML::ParseOptions.new.default_html.noent)
@@ -140,7 +141,7 @@ module Common
       "title" => ng.at_css(".txt12pt .SousTitre").text.strip.gsub(/\*\Z/, ''),
       "identifier" => res_id,
       "url" => res.uri.to_s,
-      "reference" => res.uri.merge(refs.first.attr('href')).to_s,
+      "reference" => nil,
 
       "approvals" => [{
         "type" => "affirmative",
@@ -152,7 +153,18 @@ module Common
       "actions" => [],
     }
 
-    ps = ng.css('td.txt12pt:not([align])')
+    if refs.length > 0
+      r["reference"] = res.uri.merge(refs.first.attr('href')).to_s
+    else
+      r.delete("reference")
+    end
+
+    ps = case type
+    when :cgpm
+      ng.css('td.txt12pt:not([align])')
+    when :cipm
+      ng.css('td.txt12pt[align="justify"]')
+    end
 
     #binding.pry if ps.count != 1
 
@@ -212,6 +224,8 @@ module Common
         prev["message"] += "\n" + Common.format_message(part)
         next
       end
+
+      next if parse == ''
 
       r["x-unparsed"] ||= []
       r["x-unparsed"] << parse #ReverseAdoc.convert(part).strip
