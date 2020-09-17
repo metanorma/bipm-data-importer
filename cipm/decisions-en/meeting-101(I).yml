@@ -190,13 +190,15 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: is in favour of retaining provisional elections, possibly based on a
+      list of candidates put forward to the CGPM and based on the criteria developed
+      in accordance with Recommendation 14. The CIPM agreed in principle with the
+      first part of Recommendation 13 but disagreed with the re-election of half of
+      the CIPM every two years.
   subject: The CIPM
-  x-unparsed:
-  - is in favour of retaining provisional elections, possibly based on a list of candidates
-    put forward to the CGPM and based on the criteria developed in accordance with
-    Recommendation 14. The CIPM agreed in principle with the first part of Recommendation
-    13 but disagreed with the re-election of half of the CIPM every two years.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-15
@@ -232,12 +234,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: did not agree with link:/utils/en/pdf/CIPM/CIPM-ad-hoc-WG-2012.pdf#page=3[Recommendation
+      16 of the _ad hoc_ Working Group]. The CIPM is mindful that on occasions it
+      may be necessary to seek a CC President from outside the CIPM if the appropriate
+      skills are not available in the CIPM.
   subject: The CIPM
-  x-unparsed:
-  - did not agree with Recommendation 16 of the ad hoc Working Group. The CIPM is
-    mindful that on occasions it may be necessary to seek a CC President from outside
-    the CIPM if the appropriate skills are not available in the CIPM.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-18
@@ -304,15 +308,16 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - After due consideration of the 2011 BIPM audited financial statements, the CIPM
-    approved the 2011 BIPM financial statements and discharged the Director of the
-    BIPM from all liability in respect of his administration for the 2011 financial
-    period. The CIPM decided to transfer to the 'Other reserves' the net result for
-    the 2011 period which amounts to -1059 thousand Euros. With regard to the BIPM
-    financial statements, the CIPM noted the qualified opinion of the auditor and
-    was satisfied by comments from the auditor, both written and oral.
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: After due consideration of the 2011 BIPM audited financial statements,
+      the CIPM approved the 2011 BIPM financial statements and discharged the Director
+      of the BIPM from all liability in respect of his administration for the 2011
+      financial period. The CIPM decided to transfer to the 'Other reserves' the net
+      result for the 2011 period which amounts to -1059 thousand Euros. With regard
+      to the BIPM financial statements, the CIPM noted the qualified opinion of the
+      auditor and was satisfied by comments from the auditor, both written and oral.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-23
@@ -320,16 +325,17 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - After due consideration of the 2011 audited BIPM Pension and Provident Fund financial
-    statements, the CIPM approved the 2011 BIPM Pension and Provident Fund financial
-    statements and discharged the Director of the BIPM from all liability in respect
-    of his administration for the 2011 financial period. The CIPM decided to transfer
-    to the 'Other reserves' the net result for the 2011 period which amounts to -847
-    thousand Euros. With regard to the BIPM Pension and Provident Fund financial statements,
-    the CIPM noted the qualified opinion of the auditor and was satisfied by comments
-    from the auditor, both written and oral.
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: After due consideration of the 2011 audited BIPM Pension and Provident
+      Fund financial statements, the CIPM approved the 2011 BIPM Pension and Provident
+      Fund financial statements and discharged the Director of the BIPM from all liability
+      in respect of his administration for the 2011 financial period. The CIPM decided
+      to transfer to the 'Other reserves' the net result for the 2011 period which
+      amounts to -847 thousand Euros. With regard to the BIPM Pension and Provident
+      Fund financial statements, the CIPM noted the qualified opinion of the auditor
+      and was satisfied by comments from the auditor, both written and oral.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-24
@@ -421,18 +427,16 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: |-
+      strongly supported this proposed Draft Resolution [on the name of the intergovernmental organization created by the Metre Convention] and agreed that this will be presented at the meeting of representatives of States Parties to the Metre Convention and NMI Directors in October 2012, after the question of the acronym of the organization has been addressed.
+
+      The BIPM will address the question of the acronym of the organization. [Action CIPM/101-9]
+
+      The CIPM President or Secretary will contact the chairs of the break-out groups of the _ad hoc_ Working Group to make a presentation of their respective sessions at the meeting of representatives of States Parties to the Metre Convention and NMI Directors in October 2012. [Action CIPM/101-10]
   subject: The CIPM
-  x-unparsed:
-  - "strongly supported this proposed Draft Resolution [on the name of the intergovernmental
-    organization created by the Metre Convention] and agreed that this will be presented
-    at the meeting of representatives of States Parties to the Metre Convention and
-    NMI Directors in October 2012, after the question of the acronym of the organization
-    has been addressed.\r\nThe BIPM will address the question of the acronym of the
-    organization. [Action CIPM/101-9]\r\nThe CIPM President or Secretary will contact
-    the chairs of the break-out groups of the ad hoc Working Group to make a presentation
-    of their respective sessions at the meeting of representatives of States Parties
-    to the Metre Convention and NMI Directors in October 2012. [Action CIPM/101-10]"
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-31
@@ -515,16 +519,15 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - "With one abstention (Dr W.E. May), the CIPM approved the signature of the CIPM
-    MRA by the ESA under the same criteria and rules applying to the other signatory
-    international organizations.\r\nThe CIPM and BIPM will increase their efforts
-    to encourage signature of the CIPM MRA by other relevant international organizations
-    (world-wide and from other regions). [Action CIPM/101-11]\r\nThe BIPM will examine
-    the level of participation in the CIPM MRA of each international organization
-    signatory of the CIPM MRA so as to review if they should contribute financially
-    to the operation of the CIPM MRA. [Action CIPM/101-12]"
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: |-
+      With one abstention (Dr W.E. May), the CIPM approved the signature of the CIPM MRA by the ESA under the same criteria and rules applying to the other signatory international organizations.
+
+      The CIPM and BIPM will increase their efforts to encourage signature of the CIPM MRA by other relevant international organizations (world-wide and from other regions). [Action CIPM/101-11]
+
+      The BIPM will examine the level of participation in the CIPM MRA of each international organization signatory of the CIPM MRA so as to review if they should contribute financially to the operation of the CIPM MRA. [Action CIPM/101-12]
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-38
@@ -532,11 +535,12 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: supported the document proposed by Dr T.J. Quinn and for him to make
+      a presentation at the meeting of the JCGM Working Group 2 on the VIM.
   subject: The CIPM
-  x-unparsed:
-  - supported the document proposed by Dr T.J. Quinn and for him to make a presentation
-    at the meeting of the JCGM Working Group 2 on the VIM.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-39
@@ -544,10 +548,11 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: supported the initiative to reduce the costs in connection with its meetings.
   subject: The CIPM
-  x-unparsed:
-  - supported the initiative to reduce the costs in connection with its meetings.
 - dates:
   - 2012-06-01
   title: Decision CIPM/101-40

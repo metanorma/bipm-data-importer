@@ -66,14 +66,15 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/108(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2019-I-Decisions-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2019-03-01
+    message: supported the establishment of a Joint Task Group at an operational level
+      to further improve the cooperation between the BIPM and the International Organization
+      of Legal Metrology (OIML), following the proposal made by the President of the
+      International Committee of Legal Metrology (CIML). Dr T. Liew was appointed
+      to act as CIPM liaison to the Task Group.
   subject: The CIPM
-  x-unparsed:
-  - supported the establishment of a Joint Task Group at an operational level to further
-    improve the cooperation between the BIPM and the International Organization of
-    Legal Metrology (OIML), following the proposal made by the President of the International
-    Committee of Legal Metrology (CIML). Dr T. Liew was appointed to act as CIPM liaison
-    to the Task Group.
 - dates:
   - 2019-03-01
   title: Decision CIPM/108-6
@@ -149,8 +150,8 @@ resolutions:
   actions:
   - type: appoints
     date_effective: 2019-03-01
-    message: appointed Dr stem:["A"]. Steele as the Chair of the Pension Fund Advisory
-      Board (PFAB).
+    message: appointed Dr A. Steele as the Chair of the Pension Fund Advisory Board
+      (PFAB).
   subject: The CIPM
 - dates:
   - 2019-03-01
@@ -178,16 +179,16 @@ resolutions:
     message: "appointed the following CIPM members to serve on the CIPM Sub Committees
       and _ad hoc_ Working Groups:\n\n* CIPM Sub-Committee on Finance: Dr M. Sené
       (Chair), Dr Y. Duan, Dr W. Louw, +\nDr P. Richard, Dr T. Usuda.\n* Pension Fund
-      Advisory Board (PFAB): Dr stem:[\"A\"]. Steele (Chair), Dr M. Sené (Chair of
-      the CIPM Sub-Committee on Finance), Dr T. Usuda. \n* CIPM Sub-Committee on Strategy:
-      Dr M. Milton (Chair), Dr D. del Campo Maldonado, +\nDr T. Liew, Dr W. Louw,
-      Prof. P. Neyezhmakov, Dr J. Olthoff, Dr M.L. Rastello, +\nDr G. Rietveld, Dr
-      stem:[\"A\"]. Steele, Prof. J. Ullrich. \n* CIPM _ad hoc_ Working Group on Conditions
-      of Employment: Dr T. Usuda (Chair), +\nDr I. Castelazo, Dr M.L. Rastello, Dr
-      P. Richard. \n* CIPM Sub-Committee on Awards: Dr F. Bulygin (Chair), Dr T. Liew,
-      Dr S.‑R. Park. \n* CIPM _ad hoc_ Working Group on the Reproducibility of Research
-      Data and Related Topics: +\nDr T. Liew (Chair), Dr F. Bulygin, Dr I. Castelazo,
-      Dr H. Laiz, Dr M.L. Rastello, Dr M. Sené, Prof. J. Ullrich."
+      Advisory Board (PFAB): Dr A. Steele (Chair), Dr M. Sené (Chair of the CIPM Sub-Committee
+      on Finance), Dr T. Usuda. \n* CIPM Sub-Committee on Strategy: Dr M. Milton (Chair),
+      Dr D. del Campo Maldonado, +\nDr T. Liew, Dr W. Louw, Prof. P. Neyezhmakov,
+      Dr J. Olthoff, Dr M.L. Rastello, +\nDr G. Rietveld, Dr A. Steele, Prof. J. Ullrich.
+      \n* CIPM _ad hoc_ Working Group on Conditions of Employment: Dr T. Usuda (Chair),
+      +\nDr I. Castelazo, Dr M.L. Rastello, Dr P. Richard. \n* CIPM Sub-Committee
+      on Awards: Dr F. Bulygin (Chair), Dr T. Liew, Dr S.‑R. Park. \n* CIPM _ad hoc_
+      Working Group on the Reproducibility of Research Data and Related Topics: +\nDr
+      T. Liew (Chair), Dr F. Bulygin, Dr I. Castelazo, Dr H. Laiz, Dr M.L. Rastello,
+      Dr M. Sené, Prof. J. Ullrich."
   subject: The CIPM
 - dates:
   - 2019-03-01
@@ -196,14 +197,15 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/108(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2019-I-Decisions-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - Following Decision CIPM/107-13, the CIPM confirmed the establishment of the CIPM
-    Task Group on "unit" and asked the Chair to propose terms of reference to the
-    next meeting of the CIPM that address the comments of CIPM members regarding the
-    expansion of its scope. It appointed Prof. J. Ullrich as the Chair. Drs F. Bulygin,
-    I. Castelazo, H. Laiz, A. Steele, Prof. P. Neyezhmakov  and the Director of the
-    BIPM were appointed to be members.
+  actions:
+  - type: confirms
+    date_effective: 2019-03-01
+    message: Following Decision CIPM/107-13, the CIPM confirmed the establishment
+      of the CIPM Task Group on "unit" and asked the Chair to propose terms of reference
+      to the next meeting of the CIPM that address the comments of CIPM members regarding
+      the expansion of its scope. It appointed <nobr>Prof. J. Ullrich</nobr> as the
+      Chair. Drs F. Bulygin, I. Castelazo, H. Laiz, A. Steele, <nobr>Prof. P. Neyezhmakov
+      </nobr> and the Director of the BIPM were appointed to be members.
 - dates:
   - 2019-03-01
   title: Decision CIPM/108-14

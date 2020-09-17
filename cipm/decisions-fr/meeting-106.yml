@@ -266,27 +266,29 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/106.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2017-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - "Faisant suite à la Décision CIPM/105-27 (sur l'engagement des organisations internationales
-    en tant qu'« organismes de liaison » au sein des Comités consultatifs), le CIPM
-    décide que le statut d'organisme de liaison, dans le contexte des Comités consultatifs,
-    sera octroyé par le CIPM au cas par cas. \r\nLe CIPM prendra sa décision en examinant
-    dans quelle mesure l'organisation internationale concernée remplit les critères
-    suivants : \r\n\navoir une structure et un domaine d'activité de caractère international
-    et être représentative du domaine d'intérêt spécialisé dans lequel elle exerce
-    ses activités ;\r\n\ns'occuper de questions couvrant, en partie ou en totalité,
-    le domaine d'activité du BIPM ;\r\n\navoir des buts et des objectifs conformes
-    à la vision, à la mission et aux objectifs du BIPM ;\r\n\navoir un organe directeur
-    et un secrétariat permanents, des représentants autorisés, et une procédure et
-    un mécanisme systématiques lui permettant de communiquer avec ses membres dans
-    divers pays ;\r\n\npermettre à ses membres d'exercer leurs droits de vote concernant
-    les politiques à suivre ou les actions à mener ou disposer d'autres mécanismes
-    appropriés pour exprimer leur opinion ;\r\n\navoir été créée au moins trois ans
-    avant la demande d'obtention du statut d'organisme de liaison. \n\r\nLes organisations
-    auxquelles le statut d'organisme de liaison n'est pas octroyé dans le contexte
-    des Comités consultatifs seront désignées sous le nom d'« organisations en coopération ».
-    \r\nLe document CIPM-D-01 sera mis à jour en conséquence."
+  actions:
+  - type: decides
+    date_effective: 2017-10-01
+    message: "Faisant suite à la Décision CIPM/105-27 (sur l'engagement des organisations
+      internationales en tant qu'« organismes de liaison » au sein des Comités consultatifs),
+      le CIPM décide que le statut d'organisme de liaison, dans le contexte des Comités
+      consultatifs, sera octroyé par le CIPM au cas par cas. +\n +\n\r Le CIPM prendra
+      sa décision en examinant dans quelle mesure l'organisation internationale concernée
+      remplit les critères suivants :\n\n* avoir une structure et un domaine d'activité
+      de caractère international et être représentative du domaine d'intérêt spécialisé
+      dans lequel elle exerce ses activités ;\n* s'occuper de questions couvrant,
+      en partie ou en totalité, le domaine d'activité du BIPM ;\n* avoir des buts
+      et des objectifs conformes à la vision, à la mission et aux objectifs du BIPM
+      ;\n* avoir un organe directeur et un secrétariat permanents, des représentants
+      autorisés, et une procédure et un mécanisme systématiques lui permettant de
+      communiquer avec ses membres dans divers pays ;\n* permettre à ses membres d'exercer
+      leurs droits de vote concernant les politiques à suivre ou les actions à mener
+      ou disposer d'autres mécanismes appropriés pour exprimer leur opinion ;\n* avoir
+      été créée au moins trois ans avant la demande d'obtention du statut d'organisme
+      de liaison. \n\r Les organisations auxquelles le statut d'organisme de liaison
+      n'est pas octroyé dans le contexte des Comités consultatifs seront désignées
+      sous le nom d'« organisations en coopération ». +\n +\n\r Le document CIPM-D-01
+      sera mis à jour en conséquence."
 - dates:
   - 2017-10-01
   title: Décision CIPM/106-18

@@ -177,16 +177,17 @@ resolutions:
   identifier: 107-12
   url: https://www.bipm.org/en/committees/cipm/meeting/107.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2018-EN.pdf
-  considerations: []
+  considerations:
+  - type: noting
+    date_effective: 2018-06-01
+    message: It was brought to the attention of the CIPM that there is a discrepancy
+      relating to the definition of the term "unit" between the draft 9th edition
+      of the SI Brochure and the 8th edition. The CIPM asked the CCU President to
+      organize a vote by correspondence among the CCU members, with a deadline of
+      the end of August 2018, as to whether to retain the wording of the draft 9th
+      edition or to revert to the wording of the 8th edition, and to report back to
+      the CIPM President for further action (if necessary).
   actions: []
-  x-unparsed:
-  - It was brought to the attention of the CIPM that there is a discrepancy relating
-    to the definition of the term "unit" between the draft 9th edition of the SI Brochure
-    and the 8th edition. The CIPM asked the CCU President to organize a vote by correspondence
-    among the CCU members, with a deadline of the end of August 2018, as to whether
-    to retain the wording of the draft 9th edition or to revert to the wording of
-    the 8th edition, and to report back to the CIPM President for further action (if
-    necessary).
 - dates:
   - 2018-06-01
   title: Decision CIPM/107-13

@@ -180,15 +180,16 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/107.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2018-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - Une différence entre la définition du terme « unité » dans le projet de 9e édition
-    de la Brochure sur le SI et celle de la 8e édition a été portée à l'attention
-    du CIPM. Le CIPM demande au président du CCU d'organiser un vote par correspondance
-    entre les membres du CCU, d'ici fin août 2018, concernant la question de savoir
-    s'il faut conserver la formulation du projet de 9e édition ou revenir à la celle
-    de la 8e édition, et de rendre compte au président du CIPM du résultat de ce vote
-    en vue de mesures ultérieures (le cas échéant).
+  actions:
+  - type: requests
+    date_effective: 2018-06-01
+    message: Une différence entre la définition du terme « unité » dans le projet
+      de 9^e^ édition de la _Brochure sur le SI_ et celle de la 8^e^ édition a été
+      portée à l'attention du CIPM. Le CIPM demande au président du CCU d'organiser
+      un vote par correspondance entre les membres du CCU, d'ici fin août 2018, concernant
+      la question de savoir s'il faut conserver la formulation du projet de 9^e^ édition
+      ou revenir à la celle de la 8^e^ édition, et de rendre compte au président du
+      CIPM du résultat de ce vote en vue de mesures ultérieures (le cas échéant).
 - dates:
   - 2018-06-01
   title: Décision CIPM/107-13

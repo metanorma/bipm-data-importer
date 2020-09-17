@@ -255,25 +255,27 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/106.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2017-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - "Following Decision CIPM/105-27 (on the engagement of international organizations
-    as \"liaisons\" at the Consultative Committees), the CIPM decided that the status
-    of liaison within the context of the Consultative Committees will be decided upon
-    in each case by the CIPM. \r\nThe CIPM will base its decision on the extent to
-    which the international organization concerned meets the following criteria: \r\n\nbeing
-    international in structure and scope of activity, and representative of the specialized
-    field of interest in which they operate;\r\n\nbeing concerned with matters covering
-    a part, or all, of the field of activity of the BIPM;\r\n\nhaving aims and purposes
-    in conformity with the Vision, Mission and Objectives of the BIPM;\r\n\nhaving
-    a permanent directing body and secretariat, authorized representatives and systematic
-    procedures and machinery for communicating with its membership in various countries;\r\n\nallowing
-    its members to exercise voting rights in relation to its policies or action or
-    having other appropriate mechanisms to express their views; and \r\n\nhaving been
-    established at least three years before they apply for liaison status. \n\r\nOrganizations
-    that are not offered liaison status within the context of the Consultative Committees
-    will be known as \"organizations in cooperation\". \r\nDocument CIPM-D-01 will
-    be updated accordingly."
+  actions:
+  - type: decides
+    date_effective: 2017-10-01
+    message: "Following Decision CIPM/105-27 (on the engagement of international organizations
+      as \"liaisons\" at the Consultative Committees), the CIPM decided that the status
+      of liaison within the context of the Consultative Committees will be decided
+      upon in each case by the CIPM. +\n +\n\r The CIPM will base its decision on
+      the extent to which the international organization concerned meets the following
+      criteria:\n\n* being international in structure and scope of activity, and representative
+      of the specialized field of interest in which they operate;\n* being concerned
+      with matters covering a part, or all, of the field of activity of the BIPM;\n*
+      having aims and purposes in conformity with the Vision, Mission and Objectives
+      of the BIPM;\n* having a permanent directing body and secretariat, authorized
+      representatives and systematic procedures and machinery for communicating with
+      its membership in various countries;\n* allowing its members to exercise voting
+      rights in relation to its policies or action or having other appropriate mechanisms
+      to express their views; and \n* having been established at least three years
+      before they apply for liaison status. \n\r Organizations that are not offered
+      liaison status within the context of the Consultative Committees will be known
+      as \"organizations in cooperation\". +\n +\n\r Document CIPM-D-01 will be updated
+      accordingly."
 - dates:
   - 2017-10-01
   title: Decision CIPM/106-18

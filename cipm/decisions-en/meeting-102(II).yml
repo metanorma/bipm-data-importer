@@ -89,13 +89,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2013-10-01
+    message: supported the proposal to hold the next General Conference on Weights
+      and Measures (CGPM) over three days, preceded by a preparation day at the BIPM
+      on the Monday of the week of the CGPM. The venue for the CGPM will be the Palais
+      des Congrès de Versailles.
   subject: The CIPM
-  x-unparsed:
-  - supported the proposal to hold the next General Conference on Weights and Measures
-    (CGPM) over three days, preceded by a preparation day at the BIPM on the Monday
-    of the week of the CGPM. The venue for the CGPM will be the Palais des Congrès
-    de Versailles.
 - dates:
   - 2013-10-01
   title: Decision CIPM/102-33

@@ -240,16 +240,17 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-II-Decisions-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - "Afin de mettre en œuvre la Résolution 5 adoptée par la CGPM à sa 26e réunion
-    (2018), et suite à la Décision CIPM/108-33, le CIPM décide d'étendre les termes
-    de référence du Sous-comité du CIPM sur les finances comme suit :\r\n\nexaminer
-    les données financières associées préparées par le personnel du BIPM, \r\nétudier
-    les options permettant de résoudre la question des avances associées aux contributions
-    arriérées accumulées, d'une façon qui sera acceptable pour les États Membres qui
-    ont fait ces avances et pour les auditeurs externes, \r\nrendre compte au CIPM
-    de ses recommandations sur ces deux actions."
+  actions:
+  - type: decides
+    date_effective: 2019-10-01
+    message: "Afin de mettre en œuvre la Résolution 5 adoptée par la CGPM à sa <nobr>26<sup>e</sup>
+      réunion</nobr> (2018), et suite à la Décision CIPM/108-33, le CIPM décide d'étendre
+      les termes de référence du Sous-comité du CIPM sur les finances comme suit :\n\n*
+      examiner les données financières associées préparées par le personnel du BIPM,
+      \n* étudier les options permettant de résoudre la question des avances associées
+      aux contributions arriérées accumulées, d'une façon qui sera acceptable pour
+      les États Membres qui ont fait ces avances et pour les auditeurs externes, \n*
+      rendre compte au CIPM de ses recommandations sur ces deux actions."
 - dates:
   - 2019-10-01
   title: Décision CIPM/108-35
@@ -451,10 +452,11 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-II-Decisions-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - Suite à la présentation donnée lors de la 26e réunion de la CGPM (2018), le CIPM
-    approuve le budget du BIPM pour 2020.
+  actions:
+  - type: approves
+    date_effective: 2019-10-01
+    message: Suite à la présentation donnée lors de la <nobr>26<sup>e</sup> réunion</nobr>
+      de la CGPM (2018), le CIPM approuve le budget du BIPM pour 2020.
 - dates:
   - 2019-10-01
   title: Décision CIPM/108-49

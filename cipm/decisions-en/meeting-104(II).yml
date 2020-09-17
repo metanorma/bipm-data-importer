@@ -266,15 +266,16 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-II-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2015-10-01
+    message: received a report from the President of the Consultative Committee for
+      Electricity and Magnetism (CCEM) on the timing of the implementation of the
+      new definitions of the SI base units following approval by the CGPM at its 26th
+      meeting (2018). The CIPM's preferred option is that all new definitions should
+      come into force at the time the CGPM makes a resolution. The CIPM agreed to
+      take a final decision at its next session in 2016.
   subject: The CIPM
-  x-unparsed:
-  - received a report from the President of the Consultative Committee for Electricity
-    and Magnetism (CCEM) on the timing of the implementation of the new definitions
-    of the SI base units following approval by the CGPM at its 26th meeting (2018).
-    The CIPM's preferred option is that all new definitions should come into force
-    at the time the CGPM makes a resolution. The CIPM agreed to take a final decision
-    at its next session in 2016.
 - dates:
   - 2015-10-01
   title: Decision CIPM/104-45

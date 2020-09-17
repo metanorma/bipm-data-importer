@@ -224,15 +224,15 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/108(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2019-II-Decisions-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - "In order to implement Resolution 5 adopted by the CGPM at its 26th meeting (2018)
-    and further to Decision CIPM/108-33, the CIPM decided to extend the terms of reference
-    of the CIPM Sub Committee on Finance as follows:\r\n\nto review the associated
-    financial data prepared by the BIPM staff\r\nto explore options to address the
-    advances associated with the accumulated arrears in a way that will be acceptable
-    to the Member States that made the advances and to the external auditors, and\r\nto
-    report their recommendations on these two actions to the CIPM."
+  actions:
+  - type: decides
+    date_effective: 2019-10-01
+    message: |-
+      In order to implement Resolution 5 adopted by the CGPM at its 26th meeting (2018) and further to Decision CIPM/108-33, the CIPM decided to extend the terms of reference of the CIPM Sub Committee on Finance as follows:
+
+      * to review the associated financial data prepared by the BIPM staff
+      * to explore options to address the advances associated with the accumulated arrears in a way that will be acceptable to the Member States that made the advances and to the external auditors, and
+      * to report their recommendations on these two actions to the CIPM.
 - dates:
   - 2019-10-01
   title: Decision CIPM/108-35
@@ -434,10 +434,11 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/108(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2019-II-Decisions-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - Following the presentation to the 26th meeting of the CGPM (2018), the CIPM approved
-    the budget for the BIPM for 2020.
+  actions:
+  - type: approves
+    date_effective: 2019-10-01
+    message: Following the presentation to the 26th meeting of the CGPM (2018), the
+      CIPM approved the budget for the BIPM for 2020.
 - dates:
   - 2019-10-01
   title: Decision CIPM/108-49

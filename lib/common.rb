@@ -33,7 +33,7 @@ CONSIDERATIONS = {
 ACTIONS = {
   /(?:adopts|adopted?)/ => "adopts",
   /(?:thanks|thanked|expresse[sd](?:[ -]| its )appreciation|appréciant|pays tribute|rend hommage|remercie)/i => "thanks / expresses-appreciation",
-  /(?:approu?ves?|approuvant|approving|approved|entérine|agreed)/i => "approves",
+  /(?:approu?ves?|approuvant|approving|approved|entérine|agreed?|supported)/i => "approves",
   /(?:d[eé]cid(?:e[ds]|e|é)|ratifies?|judges|d[ée]clares?|d[ée]finition|sanction(?:s|ne))/i => "decides",
   /(?:The unit of length is|Supplementary units|Principl?es|Les Délégués des États|Les v\u{9C}ux ou propositions)/i => "decides", # MISC - like declares/defines
   /(?:L'unité de longueur|Unités supplémentaires|New candle|New lumen|Definitions of|Cubic decimetre|Clarification of|Revision of)/i => "decides", # MISC - like declares/defines
@@ -57,7 +57,7 @@ ACTIONS = {
   /(?:affirms|reaffirming|réaffirmant|states|remarks|remarques)/i => "affirms / reaffirming",
 }
 
-PREFIX=/(?:(?:The|Le) CIPM |La Conférence |would |will |strongly |The Conference |and |et |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir |\.\.\.\n+)?/i
+PREFIX=/(?:(?:The|Le) CIPM |La Conférence |would |will |did not |strongly |The Conference |and |et |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir |\.\.\.\n+)?/i
 
 SUFFIX=/ (?:that|que)\b|(?: (?:the |that |le |que les )?((?:[A-Z]|national|laboratoires).{0,80}?)(?: to)?\b|)/
 

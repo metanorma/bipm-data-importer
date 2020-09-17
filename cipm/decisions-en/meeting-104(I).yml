@@ -107,13 +107,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-I-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2015-03-01
+    message: supported the proposal from the BIPM regarding the situation of the Islamic
+      Republic of Iran that the BIPM should develop a detailed case one year before
+      the publication of the Convocation for the 26th CGPM (i.e. early in 2017) in
+      order to submit the case to Member States well in advance.
   subject: The CIPM
-  x-unparsed:
-  - supported the proposal from the BIPM regarding the situation of the Islamic Republic
-    of Iran that the BIPM should develop a detailed case one year before the publication
-    of the Convocation for the 26th CGPM (i.e. early in 2017) in order to submit the
-    case to Member States well in advance.
 - dates:
   - 2015-03-01
   title: Decision CIPM/104-9
@@ -374,7 +375,7 @@ resolutions:
 
       \* stem:["A"] list of certified reference materials that should be used to identify accepted references for delta value isotope ratio traceability statements is published and maintained by IUPAC:
 
-      Willi stem:["A"]. Brand, Tyler B. Coplen, Jochen Vogl, Martin Rosner and Thomas Prohaska
+      Willi A. Brand, Tyler B. Coplen, Jochen Vogl, Martin Rosner and Thomas Prohaska
 
       Assessment of international reference materials for isotope-ratio analysis (IUPAC Technical Report). Pure Appl. Chem. 2014; 86(3): 425-467
 

@@ -40,13 +40,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - "After due consideration of the 2012 audited BIPM financial statements, the CIPM
-    approved the 2012 BIPM financial statements without objection and decided to transfer
-    to 'Other reserves' the net result for the 2012 period which amounts to -3.654
-    million Euros.\r\nThe CIPM discharged the Director of the BIPM from all liability
-    in respect of his administration for the 2012 financial period."
+  actions:
+  - type: approves
+    date_effective: 2013-06-01
+    message: "After due consideration of the 2012 audited BIPM financial statements,
+      the CIPM approved the 2012 BIPM financial statements without objection and decided
+      to transfer to 'Other reserves' the net result for the 2012 period which amounts
+      to -3.654 million Euros.\r The CIPM discharged the Director of the BIPM from
+      all liability in respect of his administration for the 2012 financial period."
 - dates:
   - 2013-06-01
   title: Decision CIPM/102-4
@@ -54,15 +55,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - "After due consideration of the 2012 audited BIPM Pension and Provident Fund financial
-    statements, the CIPM approved the 2012 BIPM Pension and Provident Fund financial
-    statements without objection and decided to transfer to 'Other reserves' of the
-    Pension and Provident Fund the net result for the 2012 period which amounts to
-    -10.105 million Euros.\r\nThe CIPM discharged the Director of the BIPM from all
-    liability in respect of his administration of the BIPM Pension and Provident Fund
-    for the 2012 financial period."
+  actions:
+  - type: approves
+    date_effective: 2013-06-01
+    message: |-
+      After due consideration of the 2012 audited BIPM Pension and Provident Fund financial statements, the CIPM approved the 2012 BIPM Pension and Provident Fund financial statements without objection and decided to transfer to 'Other reserves' of the Pension and Provident Fund the net result for the 2012 period which amounts to -10.105 million Euros.
+
+      The CIPM discharged the Director of the BIPM from all liability in respect of his administration of the BIPM Pension and Provident Fund for the 2012 financial period.
 - dates:
   - 2013-06-01
   title: Decision CIPM/102-5

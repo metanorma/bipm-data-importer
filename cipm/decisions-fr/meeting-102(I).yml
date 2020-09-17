@@ -39,13 +39,13 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - "Après lecture des états financiers audités de 2012 du BIPM, le CIPM approuve,
-    sans objection, les états financiers du BIPM de 2012 et décide d'affecter le résultat
-    net de l'exercice 2012 qui s'élève à -3,654 millions d'euros en « Autres réserves
-    ».\r\nLe CIPM donne quitus de sa gestion au directeur, au titre de l'exercice
-    financier 2012."
+  actions:
+  - type: approves
+    date_effective: 2013-06-01
+    message: |-
+      Après lecture des états financiers audités de 2012 du BIPM, le CIPM approuve, sans objection, les états financiers du BIPM de 2012 et décide d'affecter le résultat net de l'exercice 2012 qui s'élève à -3,654 millions d'euros en « Autres réserves ».
+
+      Le CIPM donne quitus de sa gestion au directeur, au titre de l'exercice financier 2012.
 - dates:
   - 2013-06-01
   title: Décision CIPM/102-4
@@ -53,14 +53,13 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - "Après lecture des états financiers audités de 2012 de la Caisse de retraite et
-    de prévoyance du BIPM, le CIPM approuve, sans objection, les états financiers
-    de la Caisse de retraite et de prévoyance du BIPM de 2012 et décide d'affecter
-    le résultat net de l'exercice 2012 qui s'élève à -10,105 millions d'euros en «
-    Autres réserves ».\r\nLe CIPM donne quitus de sa gestion de la Caisse de retraite
-    et de prévoyance du BIPM au directeur, au titre de l'exercice financier 2012."
+  actions:
+  - type: approves
+    date_effective: 2013-06-01
+    message: |-
+      Après lecture des états financiers audités de 2012 de la Caisse de retraite et de prévoyance du BIPM, le CIPM approuve, sans objection, les états financiers de la Caisse de retraite et de prévoyance du BIPM de 2012 et décide d'affecter le résultat net de l'exercice 2012 qui s'élève à -10,105 millions d'euros en « Autres réserves ».
+
+      Le CIPM donne quitus de sa gestion de la Caisse de retraite et de prévoyance du BIPM au directeur, au titre de l'exercice financier 2012.
 - dates:
   - 2013-06-01
   title: Décision CIPM/102-5

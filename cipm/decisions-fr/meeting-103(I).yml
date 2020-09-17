@@ -173,11 +173,11 @@ resolutions:
   - type: approves
     date_effective: 2014-03-01
     message: "approuve le Programme de travail du BIPM proposé pour les années 2016
-      à 2019 comme base du document final et charge le directeur du BIPM et stem:[\"A\"].
-      Henson de prendre en considération les commentaires formulés par les membres
-      du CIPM.\n\nLe CIPM décide que le Programme de travail sera mis en ligne afin
-      de recueillir les observations des États Membres et que ce processus de consultation
-      sera porté à l'attention des directeurs des laboratoires nationaux de métrologie
+      à 2019 comme base du document final et charge le directeur du BIPM et A. Henson
+      de prendre en considération les commentaires formulés par les membres du CIPM.\n\nLe
+      CIPM décide que le Programme de travail sera mis en ligne afin de recueillir
+      les observations des États Membres et que ce processus de consultation sera
+      porté à l'attention des directeurs des laboratoires nationaux de métrologie
       et des laboratoires désignés.\n\nLe CIPM décide que l'alternative dans le domaine
       du temps « stem:[\"T\"] A3.3 Validation des peignes de fréquence » du Programme
       de travail du BIPM proposé demeure un projet optionnel. Le CIPM demande au directeur
@@ -251,8 +251,8 @@ resolutions:
     message: approuve le texte proposé, incluant les changements convenus, concernant
       les cinq Projets de résolution qui seront soumis à la Conférence générale des
       poids et mesures (CGPM) à sa 25^e^ réunion (2014). Le CIPM charge le directeur
-      du BIPM, stem:["A"]. Henson et R. Wielgosz de préparer un Projet de résolution
-      sur l'impact de la métrologie.
+      du BIPM, A. Henson et R. Wielgosz de préparer un Projet de résolution sur l'impact
+      de la métrologie.
   subject: Le CIPM
 - dates:
   - 2014-03-01
@@ -281,22 +281,17 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - "Dans le cadre de la mise à jour de la 8e édition de la Brochure sur le SI, le
-    CIPM approuve la modification de l'ordre des unités de base dans l'expression
-    des unités dérivées. Le CIPM ne reconnaît pas le besoin de préciser les unités
-    pour les très petits angles pour les applications dans le domaine de l'astronomie
-    dans la Brochure sur le SI. Le CIPM accepte le processus de publication proposé
-    pour les mises à jour, ainsi que la recommandation d'amender le document disponible
-    en ligne et de produire une version imprimée abrégée des mises à jour.\r\nLe CIPM
-    invite les Comités consultatifs à soumettre leurs commentaires sur les chapitres
-    1 à 3 du projet de 9e édition de la Brochure sur le SI d'ici mars 2015.\r\nLe
-    CIPM soutient l'initiative prise par le président du CCU de créer un nouveau logo
-    pour le Système international d'unités.\r\nEn reconnaissance de la contribution
-    exceptionnelle et unique qu'I. Mill, en tant que président de CCU, a apporté à
-    la métrologie et aux activités de la Convention du Mètre, ainsi que du très grand
-    impact de son travail, le CIPM nomme I. Mills membre honoraire du CCU."
+  actions:
+  - type: approves
+    date_effective: 2014-03-01
+    message: |-
+      Dans le cadre de la mise à jour de la 8e édition de la Brochure sur le SI, le CIPM approuve la modification de l'ordre des unités de base dans l'expression des unités dérivées. Le CIPM ne reconnaît pas le besoin de préciser les unités pour les très petits angles pour les applications dans le domaine de l'astronomie dans la Brochure sur le SI. Le CIPM accepte le processus de publication proposé pour les mises à jour, ainsi que la recommandation d'amender le document disponible en ligne et de produire une version imprimée abrégée des mises à jour.
+
+      Le CIPM invite les Comités consultatifs à soumettre leurs commentaires sur les chapitres 1 à 3 du projet de 9e édition de la Brochure sur le SI d'ici mars 2015.
+
+      Le CIPM soutient l'initiative prise par le président du CCU de créer un nouveau logo pour le Système international d'unités.
+
+      En reconnaissance de la contribution exceptionnelle et unique qu'I. Mill, en tant que président de CCU, a apporté à la métrologie et aux activités de la Convention du Mètre, ainsi que du très grand impact de son travail, le CIPM nomme I. Mills membre honoraire du CCU.
 - dates:
   - 2014-03-01
   title: Décision CIPM/103-18
@@ -318,13 +313,15 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: encourages
+    date_effective: 2014-03-01
+    message: soutient le rôle continu assumé par le BIPM, qui assure le secrétariat
+      du JCTLM, et approuve les projets de réponses au questionnaire sur le JCTLM.
+      Le CIPM encourage le BIPM à chercher des financements exceptionnels ponctuels
+      afin de soutenir la rationalisation du fonctionnement et de l'évolution de la
+      base de données du JCTLM.
   subject: Le CIPM
-  x-unparsed:
-  - soutient le rôle continu assumé par le BIPM, qui assure le secrétariat du JCTLM,
-    et approuve les projets de réponses au questionnaire sur le JCTLM. Le CIPM encourage
-    le BIPM à chercher des financements exceptionnels ponctuels afin de soutenir la
-    rationalisation du fonctionnement et de l'évolution de la base de données du JCTLM.
 - dates:
   - 2014-03-01
   title: Décision CIPM/103-20

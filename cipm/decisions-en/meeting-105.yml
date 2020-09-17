@@ -100,15 +100,16 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2016-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - In anticipation of the agreement of the proposed reforms to the BIPM Pension Fund
-    with staff and following the Mercer study of 29 September 2016 reviewed by the
-    PFAB, the CIPM invited the PFAB to initiate an actuarial review of the Fund in
-    2019. This study will inter alia allow the PFAB to consider the introduction of
-    a choice for active staff to join the "Post 2017" section if they choose and also
-    to confirm the maximum rates of contribution from staff needed to address the
-    long-term financial stability of the Fund.
+  actions:
+  - type: invites / further invites
+    date_effective: 2016-10-01
+    message: In anticipation of the agreement of the proposed reforms to the BIPM
+      Pension Fund with staff and following the Mercer study of 29 September 2016
+      reviewed by the PFAB, the CIPM invited the PFAB to initiate an actuarial review
+      of the Fund in 2019. This study will _inter alia_ allow the PFAB to consider
+      the introduction of a choice for active staff to join the "Post 2017" section
+      if they choose and also to confirm the maximum rates of contribution from staff
+      needed to address the long-term financial stability of the Fund.
 - dates:
   - 2016-10-01
   title: Decision CIPM/105-8

@@ -139,20 +139,21 @@ resolutions:
   identifier: 104-36
   url: https://www.bipm.org/fr/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2015-II-FR.pdf
-  considerations: []
+  considerations:
+  - type: noting
+    date_effective: 2015-10-01
+    message: a examiné la demande d'une association d'anciens du BIPM d'avoir un représentant
+      ou observateur à la Commission consultative sur la Caisse de retraite. Le CIPM
+      note qu'il maintient des exigences de transparence élevées concernant le fonctionnement
+      et la situation financière de la Caisse de retraite. Il constate par ailleurs
+      que la Commission consultative comprend un représentant élu des membres du personnel
+      du BIPM en activité, ces derniers étant naturellement concernés par la question
+      des droits et prestations dont ils pourront bénéficier lorsqu'ils deviendront
+      pensionnés. Par conséquent, le CIPM ne considère pas nécessaire, à l'heure actuelle,
+      d'inclure un représentant ou observateur de l'association à la Commission consultative
+      sur la Caisse de retraite.
   actions: []
   subject: Le CIPM
-  x-unparsed:
-  - a examiné la demande d'une association d'anciens du BIPM d'avoir un représentant
-    ou observateur à la Commission consultative sur la Caisse de retraite. Le CIPM
-    note qu'il maintient des exigences de transparence élevées concernant le fonctionnement
-    et la situation financière de la Caisse de retraite. Il constate par ailleurs
-    que la Commission consultative comprend un représentant élu des membres du personnel
-    du BIPM en activité, ces derniers étant naturellement concernés par la question
-    des droits et prestations dont ils pourront bénéficier lorsqu'ils deviendront
-    pensionnés. Par conséquent, le CIPM ne considère pas nécessaire, à l'heure actuelle,
-    d'inclure un représentant ou observateur de l'association à la Commission consultative
-    sur la Caisse de retraite.
 - dates:
   - 2015-10-01
   title: Décision CIPM/104-37

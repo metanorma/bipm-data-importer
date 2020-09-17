@@ -97,14 +97,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2014-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2014-11-01
+    message: |-
+      supported the proposal of CODATA to set a deadline of 1 July 2017 for submission of experimental data to be used by the CODATA Task Group on Fundamental Constants in the evaluation of the fundamental constants which will lead to the fixed values for the defining constants of the new SI.
+
+      The CIPM approved the ongoing work on the SI logo by the Consultative Committee for Units (CCU).
   subject: The CIPM
-  x-unparsed:
-  - "supported the proposal of CODATA to set a deadline of 1 July 2017 for submission
-    of experimental data to be used by the CODATA Task Group on Fundamental Constants
-    in the evaluation of the fundamental constants which will lead to the fixed values
-    for the defining constants of the new SI.\r\nThe CIPM approved the ongoing work
-    on the SI logo by the Consultative Committee for Units (CCU)."
 - dates:
   - 2014-11-01
   title: Decision CIPM/103-31
@@ -112,14 +112,15 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2014-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2014-11-01
+    message: supported the BIPM in progressing to Phase II of the extraordinary calibration
+      campaign using the international prototype of the kilogram and in disseminating
+      corrected values for calibrations performed with respect to the BIPM mass unit.
+      The BIPM will determine the associated uncertainties in collaboration with the
+      CCM support group.
   subject: The CIPM
-  x-unparsed:
-  - supported the BIPM in progressing to Phase II of the extraordinary calibration
-    campaign using the international prototype of the kilogram and in disseminating
-    corrected values for calibrations performed with respect to the BIPM mass unit.
-    The BIPM will determine the associated uncertainties in collaboration with the
-    CCM support group.
 - dates:
   - 2014-11-01
   title: Decision CIPM/103-32

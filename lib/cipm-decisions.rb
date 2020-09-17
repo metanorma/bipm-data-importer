@@ -65,10 +65,12 @@ a = Mechanize.new
         #p parse
       end
 
-      loop do # a "do {} while(0) loop", because "begin..end while" is ambiguous
-              # and... deprecated, or something?
+      pass = 1
+      xparse = parse
+
+      loop do
         CONSIDERATIONS.any? do |k,v|
-          if parse =~ /\A#{PREFIX}#{k}\b/i
+          if xparse =~ /\A#{PREFIX}#{k}\b/i
             r["considerations"] << {
               "type" => v,
               "date_effective" => date,
@@ -78,7 +80,7 @@ a = Mechanize.new
         end && break
 
         ACTIONS.any? do |k,v|
-          if parse =~ /\A#{PREFIX}#{k}\b/i
+          if xparse =~ /\A#{PREFIX}#{k}\b/i
             r["actions"] << {
               "type" => v,
               "date_effective" => date,
@@ -86,6 +88,14 @@ a = Mechanize.new
             }
           end
         end && break
+
+        case pass
+        when 1
+          xparse = xparse.gsub(/\A.*?CIPM /, '')
+          pass = 2
+          next
+        when 2
+        end
 
         r["x-unparsed"] ||= []
         r["x-unparsed"] << parse

@@ -103,16 +103,18 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2016-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - Afin d'anticiper l'accord du personnel sur les amendements proposés concernant
-    la Caisse de retraite du BIPM et faire suite au rapport Mercer du 29 septembre
-    2016 examiné par la Commission consultative sur la Caisse de retraite (CCCR),
-    le CIPM invite la CCCR à initier une étude actuarielle de la Caisse de retraite
-    en 2019. Cette étude permettra, entre autres, à la CCCR d'examiner la possibilité
-    de proposer aux membres du personnel en activité de choisir de rejoindre la Section
-    Post-2017 s'ils le souhaitent et de confirmer les taux de cotisation maximum requis
-    afin d'assurer la soutenabilité à long terme de la Caisse de retraite.
+  actions:
+  - type: invites / further invites
+    date_effective: 2016-10-01
+    message: Afin d'anticiper l'accord du personnel sur les amendements proposés concernant
+      la Caisse de retraite du BIPM et faire suite au rapport Mercer du 29 septembre
+      2016 examiné par la Commission consultative sur la Caisse de retraite (CCCR),
+      le CIPM invite la CCCR à initier une étude actuarielle de la Caisse de retraite
+      en 2019. Cette étude permettra, entre autres, à la CCCR d'examiner la possibilité
+      de proposer aux membres du personnel en activité de choisir de rejoindre la
+      Section Post-2017 s'ils le souhaitent et de confirmer les taux de cotisation
+      maximum requis afin d'assurer la soutenabilité à long terme de la Caisse de
+      retraite.
 - dates:
   - 2016-10-01
   title: Décision CIPM/105-8
@@ -168,15 +170,16 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2016-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: requests
+    date_effective: 2016-10-01
+    message: requiert que lui soit transmise une brève description de l'« approche
+      fondée sur l'évaluation des risques pour l'examen des CMCs » adoptée par le
+      CCQM, le CCEM et le CCT et demande à ces Comités consultatifs de fournir des
+      exemples que les autres Comités consultatifs pourront étudier. Le CIPM demande
+      aux présidents de ces trois Comités consultatifs de soumettre des exemples en
+      amont de la réunion des présidents des Comités consultatifs (12 et 13 juin 2017).
   subject: Le CIPM
-  x-unparsed:
-  - requiert que lui soit transmise une brève description de l'« approche fondée sur
-    l'évaluation des risques pour l'examen des CMCs » adoptée par le CCQM, le CCEM
-    et le CCT et demande à ces Comités consultatifs de fournir des exemples que les
-    autres Comités consultatifs pourront étudier. Le CIPM demande aux présidents de
-    ces trois Comités consultatifs de soumettre des exemples en amont de la réunion
-    des présidents des Comités consultatifs (12 et 13 juin 2017).
 - dates:
   - 2016-10-01
   title: Décision CIPM/105-12

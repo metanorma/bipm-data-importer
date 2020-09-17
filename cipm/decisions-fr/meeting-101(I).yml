@@ -306,14 +306,15 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - Après lecture des états financiers audités de 2011 du BIPM, le CIPM approuve les
-    états financiers du BIPM de 2011 et donne quitus de sa gestion au directeur du
-    BIPM, au titre de l'exercice financier 2011. Le CIPM décide de transférer le résultat
-    net de l'exercice 2011 qui s'élève à -1059 milliers d'euros en « Autres réserves
-    ». Concernant les états financiers du BIPM, le CIPM note l'opinion de l'auditeur
-    et se montre satisfait de ses commentaires, écrits et oraux.
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: Après lecture des états financiers audités de 2011 du BIPM, le CIPM approuve
+      les états financiers du BIPM de 2011 et donne quitus de sa gestion au directeur
+      du BIPM, au titre de l'exercice financier 2011. Le CIPM décide de transférer
+      le résultat net de l'exercice 2011 qui s'élève à -1059 milliers d'euros en «
+      Autres réserves ». Concernant les états financiers du BIPM, le CIPM note l'opinion
+      de l'auditeur et se montre satisfait de ses commentaires, écrits et oraux.
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-23
@@ -321,16 +322,17 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - Après lecture des états financiers de 2011 de la Caisse de retraite et de prévoyance
-    du BIPM, le CIPM approuve les états financiers de la Caisse de retraite et de
-    prévoyance du BIPM de 2011 et donne quitus de sa gestion au directeur du BIPM,
-    au titre de l'exercice financier 2011. Le CIPM décide de transférer le résultat
-    net de l'exercice 2011 qui s'élève à -847 milliers d'euros en « Autres réserves
-    ». Concernant les états financiers de la Caisse de retraite et de prévoyance du
-    BIPM, le CIPM note l'opinion de l'auditeur et se montre satisfait de ses commentaires,
-    écrits et oraux.
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: Après lecture des états financiers de 2011 de la Caisse de retraite et
+      de prévoyance du BIPM, le CIPM approuve les états financiers de la Caisse de
+      retraite et de prévoyance du BIPM de 2011 et donne quitus de sa gestion au directeur
+      du BIPM, au titre de l'exercice financier 2011. Le CIPM décide de transférer
+      le résultat net de l'exercice 2011 qui s'élève à -847 milliers d'euros en «
+      Autres réserves ». Concernant les états financiers de la Caisse de retraite
+      et de prévoyance du BIPM, le CIPM note l'opinion de l'auditeur et se montre
+      satisfait de ses commentaires, écrits et oraux.
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-24
@@ -521,17 +523,18 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - "Avec une abstention (W.E. May), le CIPM approuve la signature du CIPM MRA par
-    l'ESA selon les critères et règles appliqués aux autres organisations internationales
-    signataires.\r\nLe CIPM et le BIPM multiplieront leurs efforts pour encourager
-    d'autres organisations internationales (à caractère universel ou provenant de
-    diverses régions) à signer le CIPM MRA. [Action CIPM/101-11]\r\nLe BIPM étudiera
-    le niveau de participation aux activités du CIPM MRA de chacune des organisations
-    internationales signataires du CIPM MRA afin que soit examinée la possibilité
-    de les faire contribuer financièrement à la mise en \x9Cuvre du CIPM MRA. [Action
-    CIPM/101-12]"
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: "Avec une abstention (W.E. May), le CIPM approuve la signature du CIPM
+      MRA par l'ESA selon les critères et règles appliqués aux autres organisations
+      internationales signataires.\n\nLe CIPM et le BIPM multiplieront leurs efforts
+      pour encourager d'autres organisations internationales (à caractère universel
+      ou provenant de diverses régions) à signer le CIPM MRA. [Action CIPM/101-11]\n\nLe
+      BIPM étudiera le niveau de participation aux activités du CIPM MRA de chacune
+      des organisations internationales signataires du CIPM MRA afin que soit examinée
+      la possibilité de les faire contribuer financièrement à la mise en \x9Cuvre
+      du CIPM MRA. [Action CIPM/101-12]"
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-38

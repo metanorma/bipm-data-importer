@@ -165,25 +165,18 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/103(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2014-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2014-03-01
+    message: |-
+      supported the proposed BIPM Work Programme for the years 2016 2019 as a basis for the final document and charged the Director of the BIPM and A. Henson to take the CIPM members comments into account.
+
+      The CIPM decided that the Work Programme would be opened online to Member States for comments and the consultation be brought to the attention of the Directors of National Metrology Institutes and Designated Institutes.
+
+      The CIPM decided that the alternative Time activity "T-A3.3 Frequency comb validation" in the proposed BIPM Work Programme would remain an optional project. The CIPM requested the Director of the BIPM to review the costs and scope of the project. Optical frequency combs for the realization of the length unit are, and will become, even more important and decisive tools. The absence of a formal validation programme for those measurement systems at the heart of the realization of the SI base unit must be seen as unsatisfactory and deserves closer consideration of the CIPM and BIPM in the BIPM Work Programme.
+
+      The CIPM requested that consideration be given to including the alternative Chemistry activity "A2.1.4 Small Molecule Organic Primary Reference Comparisons (Pure Materials)" in the Work Programme.
   subject: The CIPM
-  x-unparsed:
-  - "supported the proposed BIPM Work Programme for the years 2016 2019 as a basis
-    for the final document and charged the Director of the BIPM and A. Henson to take
-    the CIPM members comments into account.\r\nThe CIPM decided that the Work Programme
-    would be opened online to Member States for comments and the consultation be brought
-    to the attention of the Directors of National Metrology Institutes and Designated
-    Institutes. \r\nThe CIPM decided that the alternative Time activity \"T-A3.3 Frequency
-    comb validation\" in the proposed BIPM Work Programme would remain an optional
-    project. The CIPM requested the Director of the BIPM to review the costs and scope
-    of the project. Optical frequency combs for the realization of the length unit
-    are, and will become, even more important and decisive tools. The absence of a
-    formal validation programme for those measurement systems at the heart of the
-    realization of the SI base unit must be seen as unsatisfactory and deserves closer
-    consideration of the CIPM and BIPM in the BIPM Work Programme.\r\nThe CIPM requested
-    that consideration be given to including the alternative Chemistry activity \"A2.1.4
-    Small Molecule Organic Primary Reference Comparisons (Pure Materials)\" in the
-    Work Programme."
 - dates:
   - 2014-03-01
   title: Decision CIPM/103-12
@@ -242,8 +235,8 @@ resolutions:
     message: approved the proposed text with the agreed changes for the five Draft
       Resolutions to be submitted to the General Conference on Weights and Measures
       (CGPM) at its 25th meeting (2014). The CIPM charged the Director of the BIPM,
-      stem:["A"]. Henson and R. Wielgosz to come forward with a Draft Resolution on
-      the impact of metrology.
+      A. Henson and R. Wielgosz to come forward with a Draft Resolution on the impact
+      of metrology.
   subject: The CIPM
 - dates:
   - 2014-03-01
@@ -270,20 +263,17 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/103(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2014-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - "In the framework of the updating of the 8th edition of the SI Brochure, the CIPM
-    approved the modification of the order of base units in the expressions of derived
-    units. It did not approve the need to specify units for very small angles for
-    applications in astronomy in the SI Brochure. The CIPM accepted the proposed publication
-    process for the updates and the recommendation to proceed with amending the document
-    on the website and producing a short printed summary of the updates.\r\nThe CIPM
-    invited Consultative Committees to comment on chapters 1 to 3 of the Draft Version
-    of the 9th edition of the SI Brochure by March 2015.\r\nThe CIPM supported the
-    initiative of the CCU President for a new logo for the SI.\r\nIn recognition of
-    I. Mills' unique and outstanding contributions to metrology and Metre Convention
-    activities while President of the CCU, and the very broad impact of his contributions,
-    the CIPM appointed him as an honorary member of the CCU."
+  actions:
+  - type: approves
+    date_effective: 2014-03-01
+    message: |-
+      In the framework of the updating of the 8th edition of the SI Brochure, the CIPM approved the modification of the order of base units in the expressions of derived units. It did not approve the need to specify units for very small angles for applications in astronomy in the SI Brochure. The CIPM accepted the proposed publication process for the updates and the recommendation to proceed with amending the document on the website and producing a short printed summary of the updates.
+
+      The CIPM invited Consultative Committees to comment on chapters 1 to 3 of the Draft Version of the 9th edition of the SI Brochure by March 2015.
+
+      The CIPM supported the initiative of the CCU President for a new logo for the SI.
+
+      In recognition of I. Mills' unique and outstanding contributions to metrology and Metre Convention activities while President of the CCU, and the very broad impact of his contributions, the CIPM appointed him as an honorary member of the CCU.
 - dates:
   - 2014-03-01
   title: Decision CIPM/103-18
@@ -304,13 +294,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/103(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2014-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2014-03-01
+    message: supported the continued role of the BIPM as JCTLM Secretariat and approved
+      the draft responses to the JCTLM questionnaire. The CIPM encouraged the BIPM
+      to seek one-off funding to support streamlining the process and evolution of
+      the JCTLM database.
   subject: The CIPM
-  x-unparsed:
-  - supported the continued role of the BIPM as JCTLM Secretariat and approved the
-    draft responses to the JCTLM questionnaire. The CIPM encouraged the BIPM to seek
-    one-off funding to support streamlining the process and evolution of the JCTLM
-    database.
 - dates:
   - 2014-03-01
   title: Decision CIPM/103-20
