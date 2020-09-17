@@ -1,7 +1,7 @@
 require_relative "spec_helpers"
 
 RSpec.describe "data" do
-  $all_files = Dir[__dir__+"/../meetings-*/*.yml"]
+  $all_files = Dir[__dir__+"/../cgpm/meetings-*/*.yml"]
   $all_data = $all_files.map(&YAML.method(:load_file))
   $all_resolutions = $all_data.map do |i|
     i["resolutions"]

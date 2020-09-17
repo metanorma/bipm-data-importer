@@ -1,59 +1,60 @@
 ---
 metadata:
-  title: 'Resolutions of the CGPM: 13th meeting'
+  title: 'Résolutions de la CGPM : 13e réunion'
   date: 1967-10-16
   source: BIPM - Pavillon de Breteuil
-  url: https://www.bipm.org/en/CGPM/db/13
+  url: https://www.bipm.org/fr/CGPM/db/13
 resolutions:
 - dates:
   - 1967-10-16
-  title: SI unit of time (second)
+  title: Unité SI de temps (seconde)
   identifier: 1
-  url: https://www.bipm.org/en/CGPM/db/13/1/
+  url: https://www.bipm.org/fr/CGPM/db/13/1/
   reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=103
   approvals:
   - type: affirmative
     degree: unanimous
-    message: The 13th Conférence Générale des Poids et Mesures (CGPM),
+    message: La Treizième Conférence générale des poids et mesures,
   considerations:
   - type: considering
     date_effective: 1967-10-16
-    message: considering that the definition of the second adopted by the Comité International
-      des Poids et Mesures (CIPM) in 1956 (Resolution 1) and ratified by cgpm-resolution:en/11/9[Resolution
-      9] of the 11th CGPM (1960), later upheld by cgpm-resolution:en/12/5[Resolution
-      5] of the 12th CGPM (1964), is inadequate for the present needs of metrology,
+    message: considérant que la définition de la seconde décidée par le Comité international
+      des poids et mesures à sa session de 1956 (Résolution 1) et ratifiée par la
+      cgpm-resolution:fr/11/9[Résolution 9] de la Onzième Conférence générale (1960),
+      puis maintenue par la cgpm-resolution:fr/12/5[Résolution 5] de la Douzième Conférence
+      générale (1964) ne suffit pas aux besoins actuels de la métrologie,
   - type: considering
     date_effective: 1967-10-16
-    message: considering that at its meeting of 1964 the Comité International des
-      Poids et Mesures (CIPM), empowered by Resolution 5 of the 12th CGPM (1964),
-      recommended, in order to fulfil these requirements, a caesium atomic frequency
-      standard for temporary use,
+    message: considérant qu'à sa session de 1964 le Comité international des poids
+      et mesures, habilité par la Résolution 5 de la Douzième Conférence (1964), a
+      désigné pour répondre à ces besoins un étalon atomique de fréquence à césium
+      à employer temporairement,
   - type: considering
     date_effective: 1967-10-16
-    message: considering that this frequency standard has now been sufficiently tested
-      and found sufficiently accurate to provide a definition of the second fulfilling
-      present requirements,
+    message: considérant que cet étalon de fréquence est maintenant suffisamment éprouvé
+      et suffisamment précis pour servir à une définition de la seconde répondant
+      aux besoins actuels,
   - type: considering
     date_effective: 1967-10-16
-    message: considering that the time has now come to replace the definition now
-      in force of the unit of time of the Système International d'Unités by an atomic
-      definition based on that standard,
+    message: considérant que le moment est venu de remplacer la définition actuellement
+      en vigueur de l'unité de temps du Système international d'unités par une définition
+      atomique fondée sur cet étalon,
   actions:
   - type: decides
     date_effective: 1967-10-16
     message: |-
-      decides The SI unit of time is the second defined as follows: +
-      "The second is the duration of 9 192 631 770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom";
+      décide L'unité de temps du Système international d'unités est la seconde définie dans les termes suivants : +
+      « La seconde est la durée de 9 192 631 770 périodes de la radiation correspondant à la transition entre les deux niveaux hyperfins de l'état fondamental de l'atome de césium 133 ».
   - type: decides
     date_effective: 1967-10-16
-    message: decides https://www.bipm.org/en/CIPM/db/1956/1/[Resolution 1] adopted
-      by the CIPM at its meeting of 1956 and cgpm-resolution:en/11/9[Resolution 9]
-      of the 11th CGPM are now abrogated.
+    message: décide La Résolution 1 adoptée par le Comité international des poids
+      et mesures à sa session de 1956 et la cgpm-resolution:fr/11/9[Résolution 9]
+      de la Onzième Conférence générale des poids et mesures sont abrogées.
 - dates:
   - 1967-10-16
   title: Unité SI de temps (seconde)
   identifier: 2
-  url: https://www.bipm.org/en/CGPM/db/13/2/
+  url: https://www.bipm.org/fr/CGPM/db/13/2/
   reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=103
   approvals:
   - type: affirmative
@@ -72,157 +73,159 @@ resolutions:
       étalons atomiques de fréquence à poursuivre activement leurs études.
 - dates:
   - 1967-10-16
-  title: SI unit of thermodynamic temperature (kelvin)
+  title: Unité SI de température thermodynamique (kelvin)
   identifier: 3
-  url: https://www.bipm.org/en/CGPM/db/13/3/
+  url: https://www.bipm.org/fr/CGPM/db/13/3/
   reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=104
   approvals:
   - type: affirmative
     degree: unanimous
-    message: The 13th Conférence Générale des Poids et Mesures (CGPM),
+    message: La Treizième Conférence générale des poids et mesures,
   considerations:
   - type: considering
     date_effective: 1967-10-16
-    message: considering the names "degree Kelvin" and "degree", the symbols "°K"
-      and "deg" and the rules for their use given in cgpm-resolution:en/9/7[Resolution
-      7] of the 9th CGPM (1948), in cgpm-resolution:en/11/12[Resolution 12] of the
-      11th CGPM (1960), and the decision taken by the Comité International des Poids
-      et Mesures in 1962 (PV, *30*, 27),
+    message: considérant les noms « degré Kelvin » et « degré », les symboles « stem:["°K"]
+      » et « deg » et leurs règles d'emploi contenus dans la cgpm-resolution:fr/9/7[Résolution
+      7] de la Neuvième Conférence générale (1948), dans la cgpm-resolution:fr/11/12[Résolution
+      12] de la Onzième Conférence générale (1960) et la décision prise par le Comité
+      international des poids et mesures en 1962 (PV, 30, 27),
   - type: considering
     date_effective: 1967-10-16
-    message: considering that the unit of thermodynamic temperature and the unit of
-      temperature interval are one and the same unit, which ought to be denoted by
-      a single name and a single symbol,
+    message: considérant que l'unité de température thermodynamique et l'unité d'intervalle
+      de température sont une même unité qui devrait être désignée par un nom unique
+      et par un symbole unique,
   actions:
   - type: decides
     date_effective: 1967-10-16
-    message: decides the unit of thermodynamic temperature is denoted by the name
-      "kelvin" and its symbol is "K";
+    message: décide L'unité de température thermodynamique est désignée sous le nom
+      « kelvin » et son symbole est « stem:["K"] » ;
   - type: decides
     date_effective: 1967-10-16
-    message: decides the same name and the same symbol are used to express a temperature
-      interval;
+    message: décide ce même nom et ce même symbole sont utilisés pour exprimer un
+      intervalle de température ;
   - type: decides
     date_effective: 1967-10-16
-    message: decides a temperature interval may also be expressed in degrees Celsius;
+    message: décide un intervalle de température peut aussi s'exprimer en degrés Celsius
+      ;
   - type: decides
     date_effective: 1967-10-16
-    message: decides the decisions mentioned in the opening paragraph concerning the
-      name of the unit of thermodynamic temperature, its symbol and the designation
-      of the unit to express an interval or a difference of temperatures are abrogated,
-      but the usages which derive from these decisions remain permissible for the
-      time being.
+    message: décide les décisions mentionnées au premier considérant concernant le
+      nom de l'unité de température thermodynamique, son symbole et la désignation
+      de l'unité pour exprimer un intervalle ou une différence de température sont
+      abrogées, mais les usages qui sont la conséquence de ces décisions restent admis
+      temporairement.
 - dates:
   - 1967-10-16
-  title: Definition of the SI unit of thermodynamic temperature (kelvin)
+  title: Définition de l'unité SI de température thermodynamique (kelvin)
   identifier: 4
-  url: https://www.bipm.org/en/CGPM/db/13/4/
+  url: https://www.bipm.org/fr/CGPM/db/13/4/
   reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=104
   approvals:
   - type: affirmative
     degree: unanimous
-    message: The 13th Conférence Générale des Poids et Mesures (CGPM),
+    message: La Treizième Conférence générale des poids et mesures,
   considerations:
   - type: considering
     date_effective: 1967-10-16
-    message: "*considering* that it is useful to formulate more explicitly the definition
-      of the unit of thermodynamic temperature contained in cgpm-resolution:en/10/3[Resolution
-      3] of the 10th CGPM (1954),"
+    message: "*considérant* qu'il est utile de formuler dans une rédaction explicite
+      la définition de l'unité de température thermodynamique contenue dans la cgpm-resolution:fr/10/3[Résolution
+      3] de la Dixième Conférence générale (1954,"
   actions:
   - type: decides
     date_effective: 1967-10-16
     message: |-
-      *decides* to express this definition as follows:
-
-      "The kelvin, unit of thermodynamic temperature, is the fraction 1/273.16 of the thermodynamic temperature of the triple point of water."
+      *décide* d'exprimer cette définition de la façon suivante : +
+      « Le kelvin, unité de température thermodynamique, est la fraction 1/273,16 de la température thermodynamique du point triple de l'eau. »
 - dates:
   - 1967-10-16
-  title: SI unit of luminous intensity (candela)
+  title: Unité SI d'intensité lumineuse (candela)
   identifier: 5
-  url: https://www.bipm.org/en/CGPM/db/13/5/
+  url: https://www.bipm.org/fr/CGPM/db/13/5/
   reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=104
   approvals:
   - type: affirmative
     degree: unanimous
-    message: The 13th Conférence Générale des Poids et Mesures (CGPM),
+    message: La Treizième Conférence générale des poids et mesures,
   considerations:
   - type: considering
     date_effective: 1967-10-16
-    message: considering the definition of the unit of luminous intensity ratified
-      by the 9th CGPM (1948) and contained in the "Resolution concerning the change
-      of photometric units" adopted by the Comité International des Poids et Mesures
-      in 1946 (PV, *20*, 119) in virtue of the powers conferred by the 8th CGPM (1933),
+    message: considérant la définition de l'unité d'intensité lumineuse ratifiée par
+      la Neuvième Conférence générale (1948) et contenue dans la « Résolution concernant
+      le changement des unités photométriques » adoptée par le Comité international
+      des poids et mesures en 1946 (PV, *20*, 119) en vertu des pouvoirs conférés
+      par la Huitième Conférence générale (1933),
   - type: considering
     date_effective: 1967-10-16
-    message: considering that this definition fixes satisfactorily the unit of luminous
-      intensity, but that its wording may be open to criticism,
+    message: considérant que cette définition fixe bien la grandeur de l'unité d'intensité
+      lumineuse mais prête à des critiques d'ordre rédactionnel,
   actions:
   - type: decides
     date_effective: 1967-10-16
     message: |-
-      *decides* to express the definition of the candela as follows: +
-      "The candela is the luminous intensity, in the perpendicular direction, of a surface of 1/600 000 square metre of a black body at the temperature of freezing platinum under a pressure of 101 325 newtons per square metre."
+      *décide* d'exprimer la définition de la candela de la façon suivante : +
+      « La candela est l'intensité lumineuse, dans la direction perpendiculaire, d'une surface de 1/600 000 mètre carré d'un corps noir à la température de congélation du platine sous la pression de 101 325 newtons par mètre carré. »
 - dates:
   - 1967-10-16
-  title: SI derived units
+  title: Unités SI dérivées
   identifier: 6
-  url: https://www.bipm.org/en/CGPM/db/13/6/
+  url: https://www.bipm.org/fr/CGPM/db/13/6/
   reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=105
   approvals:
   - type: affirmative
     degree: unanimous
-    message: The 13th Conférence Générale des Poids et Mesures (CGPM)
+    message: La Treizième Conférence générale des poids et mesures,
   considerations:
   - type: considering
     date_effective: 1967-10-16
-    message: "*considering* that it is useful to add some derived units to the list
-      of paragraph 4 of cgpm-resolution:en/11/12#derived[Resolution 12] of the 11th
-      CGPM (1960),"
+    message: "*considérant* qu'il est utile de citer d'autres unités dérivées dans
+      la liste du paragraphe 4 de la cgpm-resolution:fr/11/12#derived[Résolution 12]
+      de la Onzième Conférence générale (1960),"
   actions:
   - type: decides
     date_effective: 1967-10-16
     message: |-
-      *decides* to add:
+      *décide* d'y ajouter :
 
       |===
-      .>| wave number .>| 1 per metre .>| stem:["m"^(-1)]
+      .>| nombre d'ondes .>| 1 par mètre .>| stem:["m"^(-1)]
 
-      .<| entropy .<| joule per kelvin .<| stem:["J"/"K"]
-      .<| specific heat capacity .<| joule per kilogram kelvin .<| stem:["J"/("kg" * "K")]
-      .<| thermal conductivity .<| watt per metre kelvin .<| stem:["W"/("m" * "K")]
-      .<| radiant intensity .<| watt per steradian .<| stem:["W"/"sr"]
-      .>| activity (of a radioactive source) .>| 1 per second .>| stem:["s"^(-1)]
+      .<| entropie .<| joule par kelvin .<| stem:["J"/"K"]
+      .<| chaleur massique .<| joule par kilogramme kelvin .<| stem:["J"/("kg" * "K")]
+      .<| conductivité thermique .<| watt par mètre kelvin .<| stem:["W"/("m" * "K")]
+      .<| intensité énergétique .<| watt par stéradian .<| stem:["W"/"sr"]
+      .>| activité (d'une source radioactive) .>| 1 par seconde .>| stem:["s"^(-1)]
 
       |===
 - dates:
   - 1967-10-16
-  title: Abrogation of earlier decisions (micron, new candle)
+  title: Abrogation de décisions antérieures (micron, bougie nouvelle)
   identifier: 7
-  url: https://www.bipm.org/en/CGPM/db/13/7/
+  url: https://www.bipm.org/fr/CGPM/db/13/7/
   reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=105
   approvals:
   - type: affirmative
     degree: unanimous
-    message: The 13th Conférence Générale des Poids et Mesures (CGPM),
+    message: La Treizième Conférence générale des poids et mesures,
   considerations:
   - type: considering
     date_effective: 1967-10-16
-    message: considering that subsequent decisions of the General Conference concerning
-      the Système International d'Unités are incompatible with parts of cgpm-resolution:en/9/7[Resolution
-      7] of the 9th CGPM (1948),
+    message: considérant que les décisions prises ultérieurement par la Conférence
+      générale concernant le Système international d'unités contredisent quelques
+      parties de la cgpm-resolution:fr/9/7[Résolution 7] de la Neuvième Conférence
+      générale (1948),
   actions:
   - type: decides
     date_effective: 1967-10-16
     message: |-
-      decides accordingly to remove from Resolution 7 of the 9th CGPM:
+      décide en conséquence de retirer de la Résolution 7 de la Neuvième Conférence :
 
-      . the unit name "micron", and the symbol "µ" which had been given to that unit but which has now become a prefix;
-      . the unit name "new candle".
+      . le nom d'unité « micron », et le symbole « stem:["µ"] » qui fut attribué à cette unité et qui est devenu un préfixe ;
+      . le nom d'unité « bougie nouvelle ».
 - dates:
   - 1967-10-16
   title: Échelle internationale pratique de température (révision prochaine)
   identifier: 8
-  url: https://www.bipm.org/en/CGPM/db/13/8/
+  url: https://www.bipm.org/fr/CGPM/db/13/8/
   reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=105
   approvals:
   - type: affirmative
@@ -250,7 +253,7 @@ resolutions:
   - 1967-10-16
   title: Colorimétrie et radiométrie
   identifier: 9
-  url: https://www.bipm.org/en/CGPM/db/13/9/
+  url: https://www.bipm.org/fr/CGPM/db/13/9/
   reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=105
   approvals:
   - type: affirmative
@@ -272,7 +275,7 @@ resolutions:
   - 1967-10-16
   title: Dotation du Bureau international pour la période 1969-1972
   identifier: 10
-  url: https://www.bipm.org/en/CGPM/db/13/10/
+  url: https://www.bipm.org/fr/CGPM/db/13/10/
   reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=106
   approvals:
   - type: affirmative
@@ -315,7 +318,7 @@ resolutions:
   - 1967-10-16
   title: Dates des séances
   identifier: 11
-  url: https://www.bipm.org/en/CGPM/db/13/11/
+  url: https://www.bipm.org/fr/CGPM/db/13/11/
   reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=106
   approvals:
   - type: affirmative
@@ -337,7 +340,7 @@ resolutions:
   - 1967-10-16
   title: Dotation du Bureau international pour la période 1969-1972
   identifier: 12
-  url: https://www.bipm.org/en/CGPM/db/13/12/
+  url: https://www.bipm.org/fr/CGPM/db/13/12/
   reference: https://www.bipm.org/utils/common/pdf/CGPM/CGPM13.pdf#page=106
   approvals:
   - type: affirmative

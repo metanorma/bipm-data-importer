@@ -14,16 +14,3 @@ RSpec.configure do |config|
     c.syntax = :expect
   end
 end
-
-$all_files = Dir[__dir__+"/../meetings-*/*.yml"]
-$all_data = $all_files.map(&YAML.method(:load_file))
-$all_texts = $all_data.map do |i|
-  i["resolutions"].map do |r|
-    [ r["approvals"].map { |j| j["message"] } ] +
-    [ r["considerations"].map { |j| j["message"] } ] +
-    [ r["actions"].map { |j| j["message"] } ]
-  end
-end.flatten
-$all_stems = $all_texts.map do |i|
-  i.scan(/stem:\[([^\]]*)\]/)
-end.flatten

@@ -60,17 +60,17 @@ SUFFIX=/ (?:that|que)\b|(?: (?:the |that |le |que les )?((?:[A-Z]|national|labor
 
 a = Mechanize.new
 
-meetings_en = VCR.use_cassette 'meetings' do
+meetings_en = VCR.use_cassette 'cgpm-meetings' do
   a.get "https://www.bipm.org/en/worldwide-metrology/cgpm/resolutions.html"
 end
 
-meetings_fr = VCR.use_cassette 'meetings-fr' do
+meetings_fr = VCR.use_cassette 'cgpm-meetings-fr' do
   a.get "https://www.bipm.org/fr/worldwide-metrology/cgpm/resolutions.html"
 end
 
-FileUtils.rm_rf "meetings"
-FileUtils.rm_rf "meetings-fr"
-FileUtils.rm_rf "meetings-en"
+FileUtils.rm_rf "cgpm/meetings"
+FileUtils.rm_rf "cgpm/meetings-fr"
+FileUtils.rm_rf "cgpm/meetings-en"
 
 (meetings_en.css('select[name="cgpm_value"] option') +
  meetings_fr.css('select[name="cgpm_value"] option')).each do |option|
@@ -82,7 +82,7 @@ FileUtils.rm_rf "meetings-en"
   meeting_lang = url.split('/')[1]
   meeting_lang_sfx     = (meeting_lang == 'fr') ? "-fr" : ""
   meeting_lang_sfx_dir = (meeting_lang == 'fr') ? "-fr" : "-en"
-  meeting = VCR.use_cassette("meeting-#{meeting_id}#{meeting_lang_sfx}") { a.get url }
+  meeting = VCR.use_cassette("cgpm-meeting-#{meeting_id}#{meeting_lang_sfx}") { a.get url }
 
   title_part = meeting.at_css('.GrosTitre').text.chomp
   title, date = title_part.split(" (")
@@ -102,7 +102,7 @@ FileUtils.rm_rf "meetings-en"
 
   h["resolutions"] = meeting.links_with(class: "introGras").map do |res_link|
     res_id = res_link.href.split('/')[-1].to_i
-    res = VCR.use_cassette("resolution-#{meeting_id}-#{res_id}#{meeting_lang_sfx}") { res_link.click }
+    res = VCR.use_cassette("cgpm-resolution-#{meeting_id}-#{res_id}#{meeting_lang_sfx}") { res_link.click }
 
     # Reparse the document after fixing upstream syntax
     fixed_body = res.body.gsub("<name=", "<a name=")
@@ -143,6 +143,8 @@ FileUtils.rm_rf "meetings-en"
       when %r'\A/(\w{2})/CGPM/db/(\d+)/(\d+)/(#.*)?\z',
            %r'\A/jsp/(\w{2})/ViewCGPMResolution\.jsp\?CGPM=(\d+)&RES=(\d+)(#.*)?\z'
         "cgpm-resolution:#{$1}/#{$2}/#{$3}#{$4}"
+      when %r'\A/(\w{2})/CIPM/db/(\d+)/(\d+)/(#.*)?\z',
+        "cipm-resolution:#{$1}/#{$2}/#{$3}#{$4}"
       else
         #p href
         URI(res.uri).merge(href).to_s # Relative -> absolute
@@ -303,6 +305,6 @@ FileUtils.rm_rf "meetings-en"
     r
   end
 
-  FileUtils.mkdir_p("meetings#{meeting_lang_sfx_dir}")
-  File.write("meetings#{meeting_lang_sfx_dir}/meeting-#{"%02d" % meeting_id}.yml", YAML.dump(h))
+  FileUtils.mkdir_p("cgpm/meetings#{meeting_lang_sfx_dir}")
+  File.write("cgpm/meetings#{meeting_lang_sfx_dir}/meeting-#{"%02d" % meeting_id}.yml", YAML.dump(h))
 end
