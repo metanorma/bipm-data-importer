@@ -218,21 +218,16 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-II-Decisions-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: decides
+    date_effective: 2019-10-01
+    message: |-
+      La CGPM, dans sa Résolution 5 adoptée à sa <nobr>26<sup>e</sup> réunion</nobr> (2018), a décidé que le CIPM appliquera l'article 6 alinéa 8 du Règlement annexé et qu'il traitera des cas où la pratique historique a conduit à l'accumulation d'arriérés. Conformément à cette résolution, le CIPM décide que le BIPM doit informer les États qui ont été précédemment notifiés de l'accumulation d'arriérés au-delà de six années que les montants dus sont ceux équivalant aux six premières années d'arriérés.
+
+      Le CIPM décide que les montants versés par ces États qui constituent les arriérés accumulés au-delà de six années peuvent être pris en considération lors du calcul de leur contribution, et de leur contribution d'entrée, lorsqu'ils participent de nouveau aux activités de la Convention du Mètre.
+
+      Cette décision ne porte pas sur les avances associées faites par les États Membres, cette question devant être examinée séparément par le CIPM dans le cadre de la Résolution 5.
   subject: La CGPM,
-  x-unparsed:
-  - "dans sa Résolution 5 adoptée à sa 26e réunion (2018), a décidé que le CIPM appliquera
-    l'article 6 alinéa 8 du Règlement annexé et qu'il traitera des cas où la pratique
-    historique a conduit à l'accumulation d'arriérés. Conformément à cette résolution,
-    le CIPM décide que le BIPM doit informer les États qui ont été précédemment notifiés
-    de l'accumulation d'arriérés au-delà de six années que les montants dus sont ceux
-    équivalant aux six premières années d'arriérés. \r\nLe CIPM décide que les montants
-    versés par ces États qui constituent les arriérés accumulés au-delà de six années
-    peuvent être pris en considération lors du calcul de leur contribution, et de
-    leur contribution d'entrée, lorsqu'ils participent de nouveau aux activités de
-    la Convention du Mètre. \r\nCette décision ne porte pas sur les avances associées
-    faites par les États Membres, cette question devant être examinée séparément par
-    le CIPM dans le cadre de la Résolution 5."
 - dates:
   - 2019-10-01
   title: Décision CIPM/108-34
@@ -411,13 +406,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-II-Decisions-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: confirms
+    date_effective: 2019-10-01
+    message: nomme M. Richard président du Sous-comité du CIPM sur les finances et
+      membre de droit de la Commission consultative sur la Caisse de retraite (CCCR).
+      Le CIPM confirme que M. Steele, président de la Commission consultative sur
+      la Caisse de retraite, est membre de droit du Sous-comité du CIPM sur les finances.
   subject: Le CIPM
-  x-unparsed:
-  - nomme M. Richard président du Sous-comité du CIPM sur les finances et membre de
-    droit de la Commission consultative sur la Caisse de retraite (CCCR). Le CIPM
-    confirme que M. Steele, président de la Commission consultative sur la Caisse
-    de retraite, est membre de droit du Sous-comité du CIPM sur les finances.
 - dates:
   - 2019-10-01
   title: Décision CIPM/108-46

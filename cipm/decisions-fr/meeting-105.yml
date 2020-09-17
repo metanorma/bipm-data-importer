@@ -186,19 +186,21 @@ resolutions:
   identifier: 105-12
   url: https://www.bipm.org/fr/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2016-FR.pdf
-  considerations: []
+  considerations:
+  - type: noting
+    date_effective: 2016-10-01
+    message: À la suite de la décision link:/fr/committees/cipm/meeting/104(II).html[CIPM/104-39]
+      relative aux changements dans la politique à suivre pour rendre compte des résultats
+      de comparaisons qui impliquent des participants non signataires du CIPM MRA,
+      le CIPM prend note de l'Action 35/11 du JCRB qui approuve la révision du document
+      CIPM MRA-D-05 « Measurement comparisons in the CIPM MRA » afin de l'aligner
+      sur cette politique. Le CIPM prend également note de la Recommandation 35/1
+      du JCRB et, par conséquent, décide que le document interprétatif du CIPM relatif
+      au CIPM MRA « CIPM 2005-06:Rev.2013 » soit mis à jour afin d'être en concordance
+      avec cette politique. Le CIPM approuve le texte proposé et demande au BIPM de
+      mettre à jour le document ainsi que sa référence, puis de le publier sur son
+      site internet daté d'octobre 2016.
   actions: []
-  x-unparsed:
-  - À la suite de la décision CIPM/104-39 relative aux changements dans la politique
-    à suivre pour rendre compte des résultats de comparaisons qui impliquent des participants
-    non signataires du CIPM MRA, le CIPM prend note de l'Action 35/11 du JCRB qui
-    approuve la révision du document CIPM MRA-D-05 « Measurement comparisons in the
-    CIPM MRA » afin de l'aligner sur cette politique. Le CIPM prend également note
-    de la Recommandation 35/1 du JCRB et, par conséquent, décide que le document interprétatif
-    du CIPM relatif au CIPM MRA « CIPM 2005-06:Rev.2013 » soit mis à jour afin d'être
-    en concordance avec cette politique. Le CIPM approuve le texte proposé et demande
-    au BIPM de mettre à jour le document ainsi que sa référence, puis de le publier
-    sur son site internet daté d'octobre 2016.
 - dates:
   - 2016-10-01
   title: Décision CIPM/105-13

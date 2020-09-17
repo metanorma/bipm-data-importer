@@ -93,16 +93,18 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2015-II-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2015-10-01
+    message: établit une Commission consultative sur la Caisse de retraite, tel que
+      décrit dans les _Statut et Règlement de la Caisse de retraite et de prévoyance
+      du BIPM_ (projet d'amendements du 29 septembre 2015). La Commission consultative
+      assumera les responsabilités relatives aux pensions du Sous comité du CIPM sur
+      la Caisse de retraite et de prévoyance du BIPM et l'assurance maladie. Le CIPM
+      approuve les amendements apportés en français et en anglais aux _Statut et Règlement
+      de la Caisse de retraite et de prévoyance du BIPM_ (version du 29 septembre
+      2015).
   subject: Le CIPM
-  x-unparsed:
-  - établit une Commission consultative sur la Caisse de retraite, tel que décrit
-    dans les Statut et Règlement de la Caisse de retraite et de prévoyance du BIPM
-    (projet d'amendements du 29 septembre 2015). La Commission consultative assumera
-    les responsabilités relatives aux pensions du Sous comité du CIPM sur la Caisse
-    de retraite et de prévoyance du BIPM et l'assurance maladie. Le CIPM approuve
-    les amendements apportés en français et en anglais aux Statut et Règlement de
-    la Caisse de retraite et de prévoyance du BIPM (version du 29 septembre 2015).
 - dates:
   - 2015-10-01
   title: Décision CIPM/104-34
@@ -161,18 +163,19 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2015-II-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: confirms
+    date_effective: 2015-10-01
+    message: a examiné les rapports et documents soumis par le Sous comité du CIPM
+      sur la Caisse de retraite et de prévoyance du BIPM et l'assurance maladie et
+      par la Commission des conditions d'emploi du BIPM (CCE) au sujet des propositions
+      de réforme de la Caisse de retraite du BIPM afin de remédier à la question de
+      la soutenabilité financière à long terme de la Caisse. Le CIPM confirme son
+      souhait que la Caisse de retraite soit fondée sur une base durable afin de disposer
+      des finances suffisantes pour assurer les prestations de pension sur le long
+      terme. Le CIPM demande à la Commission consultative sur la Caisse de retraite
+      de poursuivre le travail engagé par le Sous comité.
   subject: Le CIPM
-  x-unparsed:
-  - a examiné les rapports et documents soumis par le Sous comité du CIPM sur la Caisse
-    de retraite et de prévoyance du BIPM et l'assurance maladie et par la Commission
-    des conditions d'emploi du BIPM (CCE) au sujet des propositions de réforme de
-    la Caisse de retraite du BIPM afin de remédier à la question de la soutenabilité
-    financière à long terme de la Caisse. Le CIPM confirme son souhait que la Caisse
-    de retraite soit fondée sur une base durable afin de disposer des finances suffisantes
-    pour assurer les prestations de pension sur le long terme. Le CIPM demande à la
-    Commission consultative sur la Caisse de retraite de poursuivre le travail engagé
-    par le Sous comité.
 - dates:
   - 2015-10-01
   title: Décision CIPM/104-38

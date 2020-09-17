@@ -532,12 +532,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2016-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - Following the resignation of Dr Bowsher, Dr Brandi and Prof. Inguscio from the
-    CIPM, the CIPM voted to elect a "slate" of three candidates for provisional election.
-    The CIPM asked the CIPM Secretary to submit the names to the Committee for Election
-    of the CIPM (CEC) for their approval.
+  actions:
+  - type: appoints
+    date_effective: 2016-10-01
+    message: Following the resignation of Dr Bowsher, Dr Brandi and Prof. Inguscio
+      from the CIPM, the CIPM voted to elect a "slate" of three candidates for provisional
+      election. The CIPM asked the CIPM Secretary to submit the names to the Committee
+      for Election of the CIPM (CEC) for their approval.
 - dates:
   - 2016-10-01
   title: Decision CIPM/105-35

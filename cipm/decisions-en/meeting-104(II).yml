@@ -159,16 +159,17 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-II-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: confirms
+    date_effective: 2015-10-01
+    message: reviewed reports and papers submitted by the CIPM Sub-Committee on the
+      BIPM Pension and Provident Fund and Health Insurance and by the CCE of the BIPM
+      relating to the proposals to reform the BIPM Pension Fund to address its long-term
+      financial sustainability. The CIPM confirmed its intention that the Pension
+      Fund be placed on a financially sustainable basis in order that it should be
+      sufficient to support pension benefits in the long term. The CIPM requested
+      the Pension Fund Advisory Board to progress the work started by the Sub Committee.
   subject: The CIPM
-  x-unparsed:
-  - reviewed reports and papers submitted by the CIPM Sub-Committee on the BIPM Pension
-    and Provident Fund and Health Insurance and by the CCE of the BIPM relating to
-    the proposals to reform the BIPM Pension Fund to address its long-term financial
-    sustainability. The CIPM confirmed its intention that the Pension Fund be placed
-    on a financially sustainable basis in order that it should be sufficient to support
-    pension benefits in the long term. The CIPM requested the Pension Fund Advisory
-    Board to progress the work started by the Sub Committee.
 - dates:
   - 2015-10-01
   title: Decision CIPM/104-38
