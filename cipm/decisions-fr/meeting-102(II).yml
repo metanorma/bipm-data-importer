@@ -43,27 +43,29 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: requests
+    date_effective: 2013-10-01
+    message: demandera aux présidents des Comités consultatifs de répondre aux commentaires
+      formulés par les directeurs des laboratoires nationaux de métrologie, les organisations
+      régionales de métrologie ou les représentants d'États Membres au sujet de leur
+      plan stratégique en prenant les mesures nécessaires. Les présidents des Comités
+      consultatifs seront aidés dans cette tâche par leur secrétaire exécutif.
   subject: Le CIPM
-  x-unparsed:
-  - demandera aux présidents des Comités consultatifs de répondre aux commentaires
-    formulés par les directeurs des laboratoires nationaux de métrologie, les organisations
-    régionales de métrologie ou les représentants d'États Membres au sujet de leur
-    plan stratégique en prenant les mesures nécessaires. Les présidents des Comités
-    consultatifs seront aidés dans cette tâche par leur secrétaire exécutif.
 - dates:
   - 2013-10-01
   title: Décision CIPM/102-30
   identifier: 102-30
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
-  considerations: []
+  considerations:
+  - type: acknowledging
+    date_effective: 2013-10-01
+    message: accepte les changements proposés par W.E. May concernant le document
+      _« Criteria and Process for Election of CIPM Members »_. La version révisée,
+      datée du 25 octobre 2013, sera publiée sur la page internet du CIPM.
   actions: []
   subject: Le CIPM
-  x-unparsed:
-  - accepte les changements proposés par W.E. May concernant le document « Criteria
-    and Process for Election of CIPM Members ». La version révisée, datée du 25 octobre
-    2013, sera publiée sur la page internet du CIPM.
 - dates:
   - 2013-10-01
   title: Décision CIPM/102-31
@@ -208,15 +210,16 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2013-10-01
+    message: après avoir discuté du rapport du président du Comité consultatif des
+      rayonnements ionisants (CCRI), soutient la poursuite de la comparaison clé de
+      dosimétrie dans des faisceaux d'accélérateurs, tel que prévu pour la période
+      2013-2015, et considère que cette comparaison doit demeurer une priorité dans
+      le programme de travail 2016-2019. Le BIPM suivra les progrès effectués dans
+      ce domaine par les laboratoires nationaux de métrologie.
   subject: Le CIPM,
-  x-unparsed:
-  - après avoir discuté du rapport du président du Comité consultatif des rayonnements
-    ionisants (CCRI), soutient la poursuite de la comparaison clé de dosimétrie dans
-    des faisceaux d'accélérateurs, tel que prévu pour la période 2013-2015, et considère
-    que cette comparaison doit demeurer une priorité dans le programme de travail
-    2016-2019. Le BIPM suivra les progrès effectués dans ce domaine par les laboratoires
-    nationaux de métrologie.
 - dates:
   - 2013-10-01
   title: Décision CIPM/102-41
@@ -224,11 +227,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2013-10-01
+    message: nomme le Professeur Joachim Ullrich président du Comité consultatif des
+      unités (CCU) à compter du 1er janvier 2014.
   subject: Le CIPM
-  x-unparsed:
-  - nomme le Professeur Joachim Ullrich président du Comité consultatif des unités
-    (CCU) à compter du 1er janvier 2014.
 - dates:
   - 2013-10-01
   title: Décision CIPM/102-42
@@ -294,15 +298,15 @@ resolutions:
   identifier: 102-45
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
-  considerations: []
-  actions:
-  - type: requests
+  considerations:
+  - type: acknowledging
     date_effective: 2013-10-01
     message: accepte le principe selon lequel le BIPM devrait établir un équipement
       de résonance magnétique nucléaire, sous réserve du soutien d'une tierce partie,
       et demande à cette fin au bureau du CIPM d'examiner le document « Principes
       gouvernant la sollicitation et l'acceptation de soutien au BIPM par des tiers
       ».
+  actions: []
   subject: Le CIPM
 - dates:
   - 2013-10-01

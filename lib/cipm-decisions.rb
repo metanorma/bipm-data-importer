@@ -57,7 +57,7 @@ a = Mechanize.new
       part = Common.ng_to_string(contenttr.at_css('td[colspan]'))
       parse = Nokogiri::HTML(part).text.strip
 
-      parse =~ /\A(((the|le|la|Le secrétaire du|Le président du|Les membres du|Le directeur du) +[BC][IG]PM( Director| President| members)?|Dr May|W\.E\. May)[, ]+)/i
+      parse =~ /\A(((the|le|la|Le secrétaire du|Le président du|Les membres du|Le directeur du) +[BC][IG]PM( Director| President| Secretary| members)?|Dr May|W\.E\. May)[, ]+)/i
       subject = $1
       if subject
         parse = parse[subject.length..-1]
@@ -92,7 +92,7 @@ a = Mechanize.new
 
         case pass
         when 1, 2
-          xparse = xparse.gsub(/\A.*?(CIPM|\(2018\)) /, '')
+          xparse = xparse.gsub(/\A.*?(CIPM:?\n*|\((2018|CIPM)\)) /, '')
         when 3
           xparse = parse.gsub(/\A.*?, /, '')
         when 4

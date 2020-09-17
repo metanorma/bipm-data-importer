@@ -126,23 +126,22 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2015-II-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2015-10-01
+    message: |-
+      nomme Luc Érard président de la Commission consultative sur la Caisse de retraite, et Brian Bowsher et Takashi Usuda membres de la Commission. +
+       Le CIPM nomme Christian Bock, directeur du METAS (Suisse), membre expert de la Commission consultative sur la Caisse de retraite et exprime son appréciation vis à vis du travail qu'il a accompli en tant que membre du Sous comité du CIPM sur la Caisse de retraite et de prévoyance du BIPM et l'assurance maladie.
   subject: Le CIPM
-  x-unparsed:
-  - "nomme Luc Érard président de la Commission consultative sur la Caisse de retraite,
-    et Brian Bowsher et Takashi Usuda membres de la Commission. \nLe CIPM nomme Christian
-    Bock, directeur du METAS (Suisse), membre expert de la Commission consultative
-    sur la Caisse de retraite et exprime son appréciation vis à vis du travail qu'il
-    a accompli en tant que membre du Sous comité du CIPM sur la Caisse de retraite
-    et de prévoyance du BIPM et l'assurance maladie."
 - dates:
   - 2015-10-01
   title: Décision CIPM/104-36
   identifier: 104-36
   url: https://www.bipm.org/fr/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2015-II-FR.pdf
-  considerations:
-  - type: noting
+  considerations: []
+  actions:
+  - type: decides
     date_effective: 2015-10-01
     message: a examiné la demande d'une association d'anciens du BIPM d'avoir un représentant
       ou observateur à la Commission consultative sur la Caisse de retraite. Le CIPM
@@ -154,7 +153,6 @@ resolutions:
       pensionnés. Par conséquent, le CIPM ne considère pas nécessaire, à l'heure actuelle,
       d'inclure un représentant ou observateur de l'association à la Commission consultative
       sur la Caisse de retraite.
-  actions: []
   subject: Le CIPM
 - dates:
   - 2015-10-01
@@ -164,7 +162,7 @@ resolutions:
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2015-II-FR.pdf
   considerations: []
   actions:
-  - type: confirms
+  - type: decides
     date_effective: 2015-10-01
     message: a examiné les rapports et documents soumis par le Sous comité du CIPM
       sur la Caisse de retraite et de prévoyance du BIPM et l'assurance maladie et
@@ -243,14 +241,15 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2015-II-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: welcomes
+    date_effective: 2015-10-01
+    message: salue la proposition du Comité consultatif des rayonnements ionisants
+      (CCRI) de gérer ses trois sections de la même façon que les Groupes de travail
+      des autres Comités consultatifs, tout en conservant le nom de « section ». Par
+      conséquent, le CCRI peut prendre les décisions relatives à l'acception de membres
+      et observateurs au sein de ses sections.
   subject: Le CIPM
-  x-unparsed:
-  - salue la proposition du Comité consultatif des rayonnements ionisants (CCRI) de
-    gérer ses trois sections de la même façon que les Groupes de travail des autres
-    Comités consultatifs, tout en conservant le nom de « section ». Par conséquent,
-    le CCRI peut prendre les décisions relatives à l'acception de membres et observateurs
-    au sein de ses sections.
 - dates:
   - 2015-10-01
   title: Décision CIPM/104-43
@@ -336,11 +335,11 @@ resolutions:
   identifier: 104-48
   url: https://www.bipm.org/fr/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2015-II-FR.pdf
-  considerations: []
-  actions:
-  - type: encourages
+  considerations:
+  - type: considering
     date_effective: 2015-10-01
     message: Par suite au rapport du Groupe de travail _ad hoc_ sur la terminologie,
       le CIPM considère le sujet clos, décide de maintenir la pratique actuelle et
       encourage le directeur du BIPM à travailler avec T.J. Quinn pour mettre à jour
       le site internet du BIPM.
+  actions: []

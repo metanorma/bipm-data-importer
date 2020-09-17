@@ -24,21 +24,18 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: decides
+    date_effective: 2012-10-01
+    message: |-
+      a préparé un document résumant les conclusions telles qu'elles ont été discutées lors de la réunion des représentants des États Parties à la Convention du Mètre et des directeurs des laboratoires nationaux de métrologie.
+
+      Le directeur du BIPM enverra le document résumant les conclusions dès que possible aux États Parties, aux directeurs des laboratoires nationaux de métrologie et aux membres du CIPM. [Action CIPM/101-13]
+
+      Le directeur du BIPM et le directeur désigné définiront, en consultation avec la Commission des conditions d'emploi du BIPM (CCE), les modalités de participation des membres du personnel du BIPM au Groupe de travail _ad hoc_ du CIPM sur les conditions d'emploi et au Sous-comité permanent du CIPM sur les pensions et l'assurance-maladie. [Action CIPM/101-14]
+
+      Le directeur désigné du BIPM harmonisera le format de l'ensemble des termes de référence des Sous-comités permanents et Groupes de travail _ad hoc_ du CIPM. [Action CIPM/101-15]
   subject: Le CIPM
-  x-unparsed:
-  - "a préparé un document résumant les conclusions telles qu'elles ont été discutées
-    lors de la réunion des représentants des États Parties à la Convention du Mètre
-    et des directeurs des laboratoires nationaux de métrologie.\nLe directeur du BIPM
-    enverra le document résumant les conclusions dès que possible aux États Parties,
-    aux directeurs des laboratoires nationaux de métrologie et aux membres du CIPM.
-    [Action CIPM/101-13] \n Le directeur du BIPM et le directeur désigné définiront,
-    en consultation avec la Commission des conditions d'emploi du BIPM (CCE), les
-    modalités de participation des membres du personnel du BIPM au Groupe de travail
-    ad hoc du CIPM sur les conditions d'emploi et au Sous-comité permanent du CIPM
-    sur les pensions et l'assurance-maladie. [Action CIPM/101-14] \nLe directeur désigné
-    du BIPM harmonisera le format de l'ensemble des termes de référence des Sous-comités
-    permanents et Groupes de travail ad hoc du CIPM. [Action CIPM/101-15]"
 - dates:
   - 2012-10-01
   title: Décision CIPM/101-43
@@ -46,12 +43,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: invites / further invites
+    date_effective: 2012-10-01
+    message: |-
+      convient d'inviter Mme Friederike Weritz, représentante du gouvernement allemand, à participer au Groupe de travail _ad hoc_ du CIPM sur les règles et les principes relatifs à la composition du CIPM.
+
+      Le directeur du BIPM enverra une invitation à Mme Friederike Weritz. [Action CIPM/101-16]
   subject: Le CIPM
-  x-unparsed:
-  - |-
-    convient d'inviter Mme Friederike Weritz, représentante du gouvernement allemand, à participer au Groupe de travail ad hoc du CIPM sur les règles et les principes relatifs à la composition du CIPM.
-    Le directeur du BIPM enverra une invitation à Mme Friederike Weritz. [Action CIPM/101-16]
 - dates:
   - 2012-10-01
   title: Décision CIPM/101-44
@@ -71,14 +70,14 @@ resolutions:
   identifier: 101-45
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
-  considerations: []
-  actions:
-  - type: requests
+  considerations:
+  - type: acknowledging
     date_effective: 2012-10-01
     message: |-
       accepte la Recommandation CCTF 1 (2012), convient d'en faire une Recommandation du CIPM et demande au directeur du BIPM de préparer un Projet de résolution pour la 25^e^ réunion de la CGPM afin de le soumettre au bureau du CIPM en mars 2013.
 
       Le directeur du BIPM préparera un Projet de résolution pour la 25^e^ réunion de la CGPM afin de le soumettre au bureau du CIPM en mars 2013. [Action CIPM/101-17]
+  actions: []
   subject: Le CIPM
 - dates:
   - 2012-10-01
@@ -182,11 +181,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2012-10-01
+    message: nomme Philippe Richard (METAS, Suisse) président du Comité consultatif
+      pour la masse et les grandeurs apparentées.
   subject: Le CIPM
-  x-unparsed:
-  - nomme Philippe Richard (METAS, Suisse) président du Comité consultatif pour la
-    masse et les grandeurs apparentées.
 - dates:
   - 2012-10-01
   title: Décision CIPM/101-54
@@ -194,37 +194,39 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2012-10-01
+    message: nomme Takashi Usuda (NMIJ, Japon) président du Comité consultatif pour
+      la masse et les grandeurs apparentées.
   subject: Le CIPM
-  x-unparsed:
-  - nomme Takashi Usuda (NMIJ, Japon) président du Comité consultatif pour la masse
-    et les grandeurs apparentées.
 - dates:
   - 2012-10-01
   title: Décision CIPM/101-55
   identifier: 101-55
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
-  considerations: []
+  considerations:
+  - type: acknowledging
+    date_effective: 2012-10-01
+    message: accepte l'amendement proposé concernant l'Article 15 du Règlement financier
+      du BIPM.
   actions: []
   subject: Le CIPM
-  x-unparsed:
-  - accepte l'amendement proposé concernant l'Article 15 du Règlement financier du
-    BIPM.
 - dates:
   - 2012-10-01
   title: Décision CIPM/101-56
   identifier: 101-56
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
-  considerations: []
-  actions:
-  - type: appoints
+  considerations:
+  - type: acknowledging
     date_effective: 2012-10-01
     message: |-
       accepte l'accord de rééchelonnement conclu avec la République islamique d'Iran et autorise le directeur du BIPM à signer ledit accord pour le compte du CIPM.
 
       Le directeur du BIPM signera, pour le compte du CIPM, l'accord de rééchelonnement conclu avec la République islamique d'Iran. [Action CIPM/101-19]
+  actions: []
   subject: Le CIPM
 - dates:
   - 2012-10-01
@@ -340,13 +342,15 @@ resolutions:
   identifier: 101-65
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
-  considerations: []
+  considerations:
+  - type: acknowledging
+    date_effective: 2012-10-01
+    message: |-
+      accepte de réintégrer au programme de travail du BIPM pour les années 2013 à 2015 l'activité du Département de la chimie concernant une comparaison clé dans le domaine des molécules organiques de grande taille, étant donné le soutien supplémentaire apporté par des laboratoires nationaux de métrologie en termes de ressources financières et détachement.
+
+      Les termes de référence des Sous-comités permanents et Groupes de travail _ad hoc_ du CIPM seront envoyés par les présidents des Sous-comités/Groupes de travail aux membres du CIPM, de même que la déclaration révisée sur la mission, le rôle et les objectifs du BIPM. Un délai d'une semaine sera accordé pour soumettre des commentaires et un délai supplémentaire d'une semaine pour finaliser les documents. Le directeur désigné du BIPM coordonnera l'harmonisation du format de l'ensemble des documents dans un délai d'une semaine. [Action CIPM/101-23]
   actions: []
   subject: Le CIPM
-  x-unparsed:
-  - |-
-    accepte de réintégrer au programme de travail du BIPM pour les années 2013 à 2015 l'activité du Département de la chimie concernant une comparaison clé dans le domaine des molécules organiques de grande taille, étant donné le soutien supplémentaire apporté par des laboratoires nationaux de métrologie en termes de ressources financières et détachement.
-     Les termes de référence des Sous-comités permanents et Groupes de travail ad hoc du CIPM seront envoyés par les présidents des Sous-comités/Groupes de travail aux membres du CIPM, de même que la déclaration révisée sur la mission, le rôle et les objectifs du BIPM. Un délai d'une semaine sera accordé pour soumettre des commentaires et un délai supplémentaire d'une semaine pour finaliser les documents. Le directeur désigné du BIPM coordonnera l'harmonisation du format de l'ensemble des documents dans un délai d'une semaine. [Action CIPM/101-23]
 - dates:
   - 2012-10-01
   title: Décision CIPM/101-66

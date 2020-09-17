@@ -285,10 +285,11 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2016-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - Appendix 1 of the 8th SI Brochure shall be updated by the BIPM and maintained
-    online in the 9th SI Brochure.
+  actions:
+  - type: decides
+    date_effective: 2016-10-01
+    message: Appendix 1 of the 8th SI Brochure shall be updated by the BIPM and maintained
+      online in the 9th SI Brochure.
 - dates:
   - 2016-10-01
   title: Decision CIPM/105-20

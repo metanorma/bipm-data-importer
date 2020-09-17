@@ -142,11 +142,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/106.html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2017-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - |-
-    The International Committee for Weights and Measures (CIPM) welcomed recommendations regarding the redefinition of the SI from its Consultative Committees.
-    The CIPM noted that the agreed conditions for the redefinition are now met and decided to submit draft Resolution A to the 26th meeting of the General Conference on Weights and Measures (CGPM) and to undertake all other necessary steps to proceed with the planned redefinition of the kilogram, ampere, kelvin and mole.
+  actions:
+  - type: welcomes
+    date_effective: 2017-10-01
+    message: |-
+      The International Committee for Weights and Measures (CIPM) welcomed recommendations regarding the redefinition of the SI from its Consultative Committees. +
+       +
+      The CIPM noted that the agreed conditions for the redefinition are now met and decided to submit draft Resolution stem:["A"] to the 26th meeting of the General Conference on Weights and Measures (CGPM) and to undertake all other necessary steps to proceed with the planned redefinition of the kilogram, ampere, kelvin and mole.
 - dates:
   - 2017-10-01
   title: Decision CIPM/106-11

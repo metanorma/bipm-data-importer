@@ -171,13 +171,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: invites / further invites
+    date_effective: 2013-06-01
+    message: sont invités à réfléchir à des candidats potentiels à un siège du CIPM
+      et à soumettre les noms et curriculum vitae de ces candidats au secrétaire du
+      CIPM avant la fin de septembre 2013 afin que le CIPM puisse examiner les candidatures
+      lors de la deuxième partie de la 102^e^ session du CIPM en octobre 2013.
   subject: Les membres du CIPM
-  x-unparsed:
-  - sont invités à réfléchir à des candidats potentiels à un siège du CIPM et à soumettre
-    les noms et curriculum vitae de ces candidats au secrétaire du CIPM avant la fin
-    de septembre 2013 afin que le CIPM puisse examiner les candidatures lors de la
-    deuxième partie de la 102e session du CIPM en octobre 2013.
 - dates:
   - 2013-06-01
   title: Décision CIPM/102-12
@@ -260,12 +261,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: invites / further invites
+    date_effective: 2013-06-01
+    message: invitera les membres de la direction du Versailles Project on Advanced
+      Materials and Standards (VAMAS) à une réunion du bureau du CIPM en 2014 afin
+      d'étudier s'il serait utile de renforcer la collaboration entre le VAMAS et
+      le CIPM.
   subject: Le président du CIPM
-  x-unparsed:
-  - invitera les membres de la direction du Versailles Project on Advanced Materials
-    and Standards (VAMAS) à une réunion du bureau du CIPM en 2014 afin d'étudier s'il
-    serait utile de renforcer la collaboration entre le VAMAS et le CIPM.
 - dates:
   - 2013-06-01
   title: Décision CIPM/102-18

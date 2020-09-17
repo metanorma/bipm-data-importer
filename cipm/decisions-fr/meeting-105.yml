@@ -25,13 +25,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2016-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: congratulates
+    date_effective: 2016-10-01
+    message: félicite le directeur du BIPM à qui l'Institute of Measurement and Control
+      a décerné la médaille Finkelstein pour l'année 2016. Cette distinction est décernée
+      annuellement à une personnalité en reconnaissance de contributions exceptionnelles
+      apportées à la science des mesures à un niveau international.
   subject: Le CIPM
-  x-unparsed:
-  - félicite le directeur du BIPM à qui l'Institute of Measurement and Control a décerné
-    la médaille Finkelstein pour l'année 2016. Cette distinction est décernée annuellement
-    à une personnalité en reconnaissance de contributions exceptionnelles apportées
-    à la science des mesures à un niveau international.
 - dates:
   - 2016-10-01
   title: Décision CIPM/105-3
@@ -67,13 +68,21 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2016-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: decides
+    date_effective: 2016-10-01
+    message: a examiné l'avis consultatif reçu de la CCE (daté du 7 juin 2016), les
+      informations disponibles concernant la situation financière de la Caisse de
+      retraite, ainsi que les hypothèses et conseils de l'expert qui ont été transmis
+      par l'actuaire (Mercer). Le CIPM note que, selon la prévision de l'étude Mercer,
+      atteindre la soutenabilité à long terme requiert que les cotisations des membres
+      actuels du personnel soient portées à 19,8 % pour la Section Pré-2010 et à 18,8
+      % pour la Section Post-2010. Le CIPM a pris en compte et accepté la demande
+      des représentants du personnel afin que ces taux soient atteints par une série
+      d'augmentations progressives par paliers. Le modèle développé implique que les
+      futurs membres du personnel recrutés à partir du 1^er^ janvier 2017 bénéficieront
+      de prestations réduites et devront contribuer à hauteur de 15 % de leur salaire.
   subject: Le CIPM
-  x-unparsed:
-  - |-
-    a examiné l'avis consultatif reçu de la CCE (daté du 7 juin 2016), les informations disponibles concernant la situation financière de la Caisse de retraite, ainsi que les hypothèses et conseils de l'expert qui ont été transmis par l'actuaire (Mercer).
-    Le CIPM note que, selon la prévision de l'étude Mercer, atteindre la soutenabilité à long terme requiert que les cotisations des membres actuels du personnel soient portées à 19,8 % pour la Section Pré-2010 et à 18,8 % pour la Section Post-2010. Le CIPM a pris en compte et accepté la demande des représentants du personnel afin que ces taux soient atteints par une série d'augmentations progressives par paliers.
-    Le modèle développé implique que les futurs membres du personnel recrutés à partir du 1er janvier 2017 bénéficieront de prestations réduites et devront contribuer à hauteur de 15 % de leur salaire.
 - dates:
   - 2016-10-01
   title: Décision CIPM/105-6
@@ -240,27 +249,31 @@ resolutions:
   identifier: 105-16
   url: https://www.bipm.org/fr/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2016-FR.pdf
-  considerations: []
+  considerations:
+  - type: acknowledging
+    date_effective: 2016-10-01
+    message: accepte, dans la 9^e^ édition de la _Brochure sur le SI_, de traiter
+      l'unité « un », symbole 1, de la même façon que dans la 8^e^ édition comme l'élément
+      neutre de tout système d'unités mais en évitant de l'appeler unité dérivée ou
+      unité de base.
   actions: []
   subject: Le CIPM
-  x-unparsed:
-  - accepte, dans la 9e édition de la Brochure sur le SI, de traiter l'unité « un
-    », symbole 1, de la même façon que dans la 8e édition comme l'élément neutre de
-    tout système d'unités mais en évitant de l'appeler unité dérivée ou unité de base.
 - dates:
   - 2016-10-01
   title: Décision CIPM/105-17
   identifier: 105-17
   url: https://www.bipm.org/fr/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2016-FR.pdf
-  considerations: []
+  considerations:
+  - type: acknowledging
+    date_effective: 2016-10-01
+    message: accepte, dans la 9^e^ édition de la _Brochure sur le SI_, de traiter
+      le radian et le cycle conformément aux résolutions de la CGPM en vigueur (telles
+      que la cgpm-resolution:fr/11/12[Résolution 12] de la 11^e^ réunion de la CGPM
+      (1960) et la cgpm-resolution:fr/20/8[Résolution 8] de la 20^e^ réunion de la
+      CGPM (1995)).
   actions: []
   subject: Le CIPM
-  x-unparsed:
-  - accepte, dans la 9e édition de la Brochure sur le SI, de traiter le radian et
-    le cycle conformément aux résolutions de la CGPM en vigueur (telles que la Résolution
-    12 de la 11e réunion de la CGPM (1960) et la Résolution 8 de la 20e réunion de
-    la CGPM (1995)).
 - dates:
   - 2016-10-01
   title: Décision CIPM/105-18
@@ -285,10 +298,11 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2016-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - L'Annexe 1 de la 8e édition de la Brochure sur le SI devra être mise à jour par
-    le BIPM et maintenue en ligne en ce qui concerne la 9e édition.
+  actions:
+  - type: decides
+    date_effective: 2016-10-01
+    message: L'Annexe 1 de la 8^e^ édition de la _Brochure sur le SI_ devra être mise
+      à jour par le BIPM et maintenue en ligne en ce qui concerne la 9^e^ édition.
 - dates:
   - 2016-10-01
   title: Décision CIPM/105-20
@@ -537,10 +551,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2016-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2016-10-01
+    message: nomme M. Castelazo nouveau président du Comité consultatif des longueurs
+      (CCL).
   subject: Le CIPM
-  x-unparsed:
-  - nomme M. Castelazo nouveau président du Comité consultatif des longueurs (CCL).
 - dates:
   - 2016-10-01
   title: Décision CIPM/105-36
@@ -548,13 +564,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/105.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2016-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2016-10-01
+    message: nomme M. Bulygin président du Sous-comité du CIPM sur l'attribution de
+      distinctions. Le CIPM lui demande de préparer les termes de référence du Sous-comité
+      et de définir un cadre pour un programme approprié d'attribution de prix afin
+      de les soumettre au CIPM lors de sa prochaine réunion.
   subject: Le CIPM
-  x-unparsed:
-  - nomme M. Bulygin président du Sous-comité du CIPM sur l'attribution de distinctions.
-    Le CIPM lui demande de préparer les termes de référence du Sous-comité et de définir
-    un cadre pour un programme approprié d'attribution de prix afin de les soumettre
-    au CIPM lors de sa prochaine réunion.
 - dates:
   - 2016-10-01
   title: Décision CIPM/105-37

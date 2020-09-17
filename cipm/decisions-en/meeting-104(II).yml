@@ -296,13 +296,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-II-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: decides
+    date_effective: 2015-10-01
+    message: will review the policy for approving and reviewing membership and observership
+      of the Consultative Committees at a meeting of CC Presidents to be held in June
+      2016. The decisions on observer and member status presented at Session II of
+      the 104th meeting of the CIPM are postponed until after this review.
   subject: The CIPM
-  x-unparsed:
-  - will review the policy for approving and reviewing membership and observership
-    of the Consultative Committees at a meeting of CC Presidents to be held in June
-    2016. The decisions on observer and member status presented at Session II of the
-    104th meeting of the CIPM are postponed until after this review.
 - dates:
   - 2015-10-01
   title: Decision CIPM/104-47

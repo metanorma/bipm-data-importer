@@ -152,11 +152,12 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-I-EN.pdf
   considerations: []
-  actions: []
-  subject: The CIPM
-  x-unparsed:
-  - Secretary will contact the chair of the CGPM Commission for CIPM Election, Dr
-    Weritz, to inform her about the results of the election of the CIPM bureau.
+  actions:
+  - type: decides
+    date_effective: 2015-03-01
+    message: will contact the chair of the CGPM Commission for CIPM Election, Dr Weritz,
+      to inform her about the results of the election of the CIPM bureau.
+  subject: The CIPM Secretary
 - dates:
   - 2015-03-01
   title: Decision CIPM/104-12

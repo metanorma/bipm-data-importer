@@ -175,18 +175,20 @@ resolutions:
   identifier: 106-12
   url: https://www.bipm.org/fr/committees/cipm/meeting/106.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2017-FR.pdf
-  considerations: []
+  considerations:
+  - type: acknowledging
+    date_effective: 2017-10-01
+    message: "accepte le Projet de résolution stem:[\"A\"] révisé qui lui est présenté
+      à sa 106^e^ session et qui inclut les amendements suivants :\n\n* modification
+      de la définition de la mole telle que suggérée par le CCU, en se fondant sur
+      les propositions du CCQM et de l'IUPAC, \n* intégration des valeurs fournies
+      par CODATA dans son ajustement spécial des constantes fondamentales par la méthode
+      des moindres carrés pour les constantes de définition, \n* harmonisation de
+      l'ordre d'apparition de la constante stem:[\"K\"_(\"cd\")] dans la définition
+      de l'efficacité lumineuse, \n* ajout d'un texte explicatif concernant les unités
+      hertz, joule, coulomb, lumen et watt."
   actions: []
   subject: Le CIPM
-  x-unparsed:
-  - "accepte le Projet de résolution A révisé qui lui est présenté à sa 106e session
-    et qui inclut les amendements suivants : \n\n modification de la définition de
-    la mole telle que suggérée par le CCU, en se fondant sur les propositions du CCQM
-    et de l'IUPAC, \n\n intégration des valeurs fournies par CODATA dans son ajustement
-    spécial des constantes fondamentales par la méthode des moindres carrés pour les
-    constantes de définition, \n\n harmonisation de l'ordre d'apparition de la constante
-    Kcd dans la définition de l'efficacité lumineuse, \n\n ajout d'un texte explicatif
-    concernant les unités hertz, joule, coulomb, lumen et watt."
 - dates:
   - 2017-10-01
   title: Décision CIPM/106-13
@@ -475,9 +477,10 @@ resolutions:
   identifier: 106-29
   url: https://www.bipm.org/fr/committees/cipm/meeting/106.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2017-FR.pdf
-  considerations: []
+  considerations:
+  - type: acknowledging
+    date_effective: 2017-10-01
+    message: accepte le document CIPM/17-23.1 comme sa position sur la révision du
+      _Vocabulaire international de métrologie_ (VIM).
   actions: []
   subject: Le CIPM
-  x-unparsed:
-  - accepte le document CIPM/17-23.1 comme sa position sur la révision du Vocabulaire
-    international de métrologie (VIM).

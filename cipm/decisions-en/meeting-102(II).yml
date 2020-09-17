@@ -161,12 +161,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2013-10-01
+    message: gave the BIPM Director the authority to implement IPSAS 28, IPSAS 29
+      and IPSAS 30 on financial instruments for the 2013 financial statements of the
+      BIPM Pension and Provident Fund.
   subject: The CIPM
-  x-unparsed:
-  - gave the BIPM Director the authority to implement IPSAS 28, IPSAS 29 and IPSAS
-    30 on financial instruments for the 2013 financial statements of the BIPM Pension
-    and Provident Fund.
 - dates:
   - 2013-10-01
   title: Decision CIPM/102-38

@@ -85,24 +85,16 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/107.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2018-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: welcomes
+    date_effective: 2018-06-01
+    message: |-
+      salue et appuie le travail du président de la Commission consultative sur la Caisse de retraite (CCCR), du directeur du BIPM et du conseiller juridique du BIPM concernant la mise en œuvre de ses décisions, en particulier celles relatives à la stabilité financière à long terme de la Caisse de retraite du BIPM. +
+       +
+      Le CIPM rappelle la décision prise en 2008 par le Conseil d'administration de l'Organisation internationale du travail (OIT) qui observait que le BIPM, en tant qu'organisation intergouvernementale instituée en vertu d'un traité, reconnaissait la juridiction du Tribunal administratif de l'OIT (TAOIT). Le CIPM reconnaît le statut juridique du BIPM en tant qu'organisation intergouvernementale et charge le directeur du BIPM de continuer à assurer dans toute la mesure du possible la sécurité juridique nécessaire pour mettre en œuvre ses décisions. +
+       +
+      Le CIPM rappelle sa décision CIPM/104-48 et confirme que les discussions informelles au sujet de la terminologie utilisée pour désigner le BIPM ne font que porter atteinte à la réputation de l'organisation et pourraient nuire à la confiance dans la sécurité juridique du BIPM. Le CIPM confirme que ces discussions sont closes.
   subject: Le CIPM
-  x-unparsed:
-  - "salue et appuie le travail du président de la Commission consultative sur la
-    Caisse de retraite (CCCR), du directeur du BIPM et du conseiller juridique du
-    BIPM concernant la mise en œuvre de ses décisions, en particulier celles relatives
-    à la stabilité financière à long terme de la Caisse de retraite du BIPM. \nLe
-    CIPM rappelle la décision prise en 2008 par le Conseil d'administration de l'Organisation
-    internationale du travail (OIT) qui observait que le BIPM, en tant qu'organisation
-    intergouvernementale instituée en vertu d'un traité, reconnaissait la juridiction
-    du Tribunal administratif de l'OIT (TAOIT). Le CIPM reconnaît le statut juridique
-    du BIPM en tant qu'organisation intergouvernementale et charge le directeur du
-    BIPM de continuer à assurer dans toute la mesure du possible la sécurité juridique
-    nécessaire pour mettre en œuvre ses décisions.\nLe CIPM rappelle sa décision CIPM/104-48
-    et confirme que les discussions informelles au sujet de la terminologie utilisée
-    pour désigner le BIPM ne font que porter atteinte à la réputation de l'organisation
-    et pourraient nuire à la confiance dans la sécurité juridique du BIPM. Le CIPM
-    confirme que ces discussions sont closes."
 - dates:
   - 2018-06-01
   title: Décision CIPM/107-7
@@ -256,11 +248,13 @@ resolutions:
   identifier: 107-17
   url: https://www.bipm.org/fr/committees/cipm/meeting/107.html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2018-FR.pdf
-  considerations: []
+  considerations:
+  - type: acknowledging
+    date_effective: 2018-06-01
+    message: accepte que le GUM (Pologne) et le NIS (Égypte) deviennent observateurs
+      au CCL.
   actions: []
   subject: Le CIPM
-  x-unparsed:
-  - accepte que le GUM (Pologne) et le NIS (Égypte) deviennent observateurs au CCL.
 - dates:
   - 2018-06-01
   title: Décision CIPM/107-18

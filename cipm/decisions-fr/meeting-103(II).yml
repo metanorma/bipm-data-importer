@@ -98,15 +98,16 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2014-11-01
+    message: soutient la proposition de la CODATA de fixer au 1er juillet 2017 la
+      date limite de soumission de données expérimentales que le _CODATA Task Group
+      on Fundamental Constants_ utilisera pour l'évaluation des constantes fondamentales
+      qui servira à fixer les valeurs des constantes de définition du nouvel SI. Le
+      CIPM approuve le travail poursuivi par le Comité consultatif des unités (CCU)
+      concernant le logo du SI.
   subject: Le CIPM
-  x-unparsed:
-  - "soutient la proposition de la CODATA de fixer au 1er juillet 2017 \nla date limite
-    de soumission de données expérimentales que le CODATA Task Group on Fundamental
-    Constants utilisera pour l'évaluation des constantes fondamentales qui servira
-    à fixer les valeurs des constantes de définition du nouvel SI.\nLe CIPM approuve
-    le travail poursuivi par le Comité consultatif des unités (CCU) concernant le
-    logo du SI."
 - dates:
   - 2014-11-01
   title: Décision CIPM/103-31
@@ -114,15 +115,16 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2014-11-01
+    message: soutient le BIPM afin qu'il travaille à la Phase II de la campagne extraordinaire
+      d'étalonnage de masses avec le prototype international du kilogramme et afin
+      qu'il dissémine des valeurs corrigées pour les étalonnages passés réalisés par
+      rapport à l'unité de masse du BIPM. Le BIPM déterminera les incertitudes associées
+      en collaboration avec le groupe de soutien du Comité consultatif pour la masse
+      et les grandeurs apparentées (CCM).
   subject: Le CIPM
-  x-unparsed:
-  - soutient le BIPM afin qu'il travaille à la Phase II de la campagne extraordinaire
-    d'étalonnage de masses avec le prototype international du kilogramme et afin qu'il
-    dissémine des valeurs corrigées pour les étalonnages passés réalisés par rapport
-    à l'unité de masse du BIPM. Le BIPM déterminera les incertitudes associées en
-    collaboration avec le groupe de soutien du Comité consultatif pour la masse et
-    les grandeurs apparentées (CCM).
 - dates:
   - 2014-11-01
   title: Décision CIPM/103-32
@@ -143,11 +145,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2014-11-01
+    message: nomme W. Louw prochain président du Comité consultatif des rayonnements
+      ionisants (CCRI).
   subject: Le CIPM
-  x-unparsed:
-  - nomme W. Louw prochain président du Comité consultatif des rayonnements ionisants
-    (CCRI).
 - dates:
   - 2014-11-01
   title: Décision CIPM/103-34
@@ -155,28 +158,30 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2014-11-01
+    message: nomme T. Usuda prochain président du Comité consultatif de l'acoustique,
+      des ultrasons et des vibrations (CCAUV).
   subject: Le CIPM
-  x-unparsed:
-  - nomme T. Usuda prochain président du Comité consultatif de l'acoustique, des ultrasons
-    et des vibrations (CCAUV).
 - dates:
   - 2014-11-01
   title: Décision CIPM/103-35
   identifier: 103-35
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
-  considerations: []
+  considerations:
+  - type: acknowledging
+    date_effective: 2014-11-01
+    message: "accepte les changements suivants concernant les Comités consultatifs
+      :\n\n* CCPR \n** CMI (République Tchèque): membre \n** CMS/ITRI (Taipei chinois):
+      observateur \n** MKEH (Hongrie) : retrait en tant que membre \n* CCRI\n** SMU
+      (Slovaquie) : observateur à la Section II du CCRI\n** NRC (Canada) : observateur
+      à la Section III du CCRI \n* CCAUV\n** KEBS (Kenya) : observateur \n* CCT\n**
+      CMI (République tchèque) : observateur\n* CCQM\n** HSA (Singapour) : membre\n**
+      NIMT (Thaïlande) : membre"
   actions: []
   subject: Le CIPM
-  x-unparsed:
-  - "accepte les changements suivants concernant les Comités consultatifs :\n\n CCPR
-    \n\nCMI (République Tchèque): membre \nCMS/ITRI (Taipei chinois): observateur
-    \nMKEH (Hongrie) : retrait en tant que membre \n\n\n CCRI\n\nSMU (Slovaquie) :
-    observateur à la Section II du CCRI\nNRC (Canada) : observateur à la Section III
-    du CCRI \n\n\n CCAUV\n\n KEBS (Kenya) : observateur \n\n\n CCT\n\nCMI (République
-    tchèque) : observateur\n\n\nCCQM\n\n HSA (Singapour) : membre\n NIMT (Thaïlande)
-    : membre"
 - dates:
   - 2014-11-01
   title: Décision CIPM/103-36
@@ -212,14 +217,15 @@ resolutions:
   identifier: 103-38
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
-  considerations: []
+  considerations:
+  - type: considering
+    date_effective: 2014-11-01
+    message: considère que le Comité commun pour la traçabilité en médecine de laboratoire
+      (JCTLM) devrait continuer à faire la distinction entre les membres du JCTLM
+      et ses parties prenantes, afin d'éviter tout conflit d'intérêt et assurer la
+      transparence du système.
   actions: []
   subject: Le CIPM
-  x-unparsed:
-  - considère que le Comité commun pour la traçabilité en médecine de laboratoire
-    (JCTLM) devrait continuer à faire la distinction entre les membres du JCTLM et
-    ses parties prenantes, afin d'éviter tout conflit d'intérêt et assurer la transparence
-    du système.
 - dates:
   - 2014-11-01
   title: Décision CIPM/103-39
@@ -249,14 +255,15 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations: []
-  actions: []
-  subject: Le CIPM
-  x-unparsed:
-  - |-
-    nomme :
+  actions:
+  - type: appoints
+    date_effective: 2014-11-01
+    message: |-
+      nomme :
 
-     R. Kaarls, en qualité de représentant du CIPM, pour participer avec A. Henson, BIPM, au Groupe de travail de l'Organisation internationale de normalisation (ISO) en charge de réviser la norme ISO 17025,
-    J.W. McLaren, en qualité de représentant du CIPM, pour participer avec S. Westwood, BIPM, au Groupe de travail de l'Organisation internationale de normalisation (ISO) en charge de réviser le Guide ISO 34.
+      * R. Kaarls, en qualité de représentant du CIPM, pour participer avec A. Henson, BIPM, au Groupe de travail de l'Organisation internationale de normalisation (ISO) en charge de réviser la norme ISO 17025,
+      * J.W. McLaren, en qualité de représentant du CIPM, pour participer avec S. Westwood, BIPM, au Groupe de travail de l'Organisation internationale de normalisation (ISO) en charge de réviser le Guide ISO 34.
+  subject: Le CIPM
 - dates:
   - 2014-11-01
   title: Décision CIPM/103-41

@@ -218,14 +218,14 @@ resolutions:
   identifier: 103-14
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
-  considerations: []
-  actions:
-  - type: decides
+  considerations:
+  - type: acknowledging
     date_effective: 2014-03-01
     message: |-
       accepte le calendrier provisoire concernant la réunion de la CGPM et décide que la réunion préparatoire sur la dotation du BIPM aura lieu le matin du lundi 17 novembre 2014 (l'après-midi sera consacrée aux visites des laboratoires et à des présentations).
 
       Le CIPM charge le président et le secrétaire du CIPM de préparer un courrier sur la formation du Groupe de travail sur la dotation du BIPM qui sera envoyé aux États Membres.
+  actions: []
   subject: Le CIPM
 - dates:
   - 2014-03-01
@@ -303,7 +303,7 @@ resolutions:
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations: []
   actions:
-  - type: encourages
+  - type: approves
     date_effective: 2014-03-01
     message: soutient le rôle continu assumé par le BIPM, qui assure le secrétariat
       du JCTLM, et approuve les projets de réponses au questionnaire sur le JCTLM.
@@ -318,12 +318,13 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: adopts
+    date_effective: 2014-03-01
+    message: convient d'adopter le nouveau logo du BIPM proposé (en prenant note que
+      les logos du CIPM MRA, de la KCDB et du JCTLM ne seront pas modifiés et que
+      le « macaron » continuera à être utilisé).
   subject: Le CIPM
-  x-unparsed:
-  - convient d'adopter le nouveau logo du BIPM proposé (en prenant note que les logos
-    du CIPM MRA, de la KCDB et du JCTLM ne seront pas modifiés et que le « macaron
-    » continuera à être utilisé).
 - dates:
   - 2014-03-01
   title: Décision CIPM/103-21
@@ -359,9 +360,10 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: asks
+    date_effective: 2014-03-01
+    message: souhaiterait qu'une proposition formelle concernant la création d'un
+      groupe consultatif sur les expériences menées sur la constante gravitationnelle,
+      G, lui soit présentée lors de sa prochaine réunion (novembre 2014).
   subject: Le CIPM
-  x-unparsed:
-  - souhaiterait qu'une proposition formelle concernant la création d'un groupe consultatif
-    sur les expériences menées sur la constante gravitationnelle, G, lui soit présentée
-    lors de sa prochaine réunion (novembre 2014).

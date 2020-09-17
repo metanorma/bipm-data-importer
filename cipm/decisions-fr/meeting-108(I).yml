@@ -39,10 +39,11 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-I-Decisions-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2019-03-01
+    message: élit au scrutin secret W. Louw président du CIPM.
   subject: Le CIPM
-  x-unparsed:
-  - élit au scrutin secret W. Louw président du CIPM.
 - dates:
   - 2019-03-01
   title: Décision CIPM/108-4
@@ -50,14 +51,15 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-I-Decisions-FR.pdf
   considerations: []
-  actions: []
-  subject: Le CIPM
-  x-unparsed:
-  - |-
-    élit au scrutin secret :
+  actions:
+  - type: appoints
+    date_effective: 2019-03-01
+    message: |-
+      élit au scrutin secret :
 
-    T. Usuda secrétaire du CIPM,
-    J. Ullrich et J. Olthoff vice-présidents du CIPM.
+      * T. Usuda secrétaire du CIPM,
+      * J. Ullrich et J. Olthoff vice-présidents du CIPM.
+  subject: Le CIPM
 - dates:
   - 2019-03-01
   title: Décision CIPM/108-5
@@ -65,13 +67,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-I-Decisions-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - À la suite de la proposition formulée par le président du Comité international
-    de métrologie légale (CIML), le CIPM soutient l'établissement d'un Groupe opérationnel
-    conjoint afin d'améliorer plus avant la coopération entre le BIPM et l'Organisation
-    internationale de métrologie légale (OIML). T. Liew est nommé personne de contact
-    du CIPM auprès de ce Groupe de travail.
+  actions:
+  - type: approves
+    date_effective: 2019-03-01
+    message: |-
+      À la suite de la proposition formulée par le président du Comité international de métrologie légale (CIML), le CIPM soutient l'établissement d'un Groupe opérationnel conjoint afin d'améliorer plus avant la coopération entre le BIPM et l'Organisation internationale de métrologie légale (OIML). +
+      T. Liew est nommé personne de contact du CIPM auprès de ce Groupe de travail.
 - dates:
   - 2019-03-01
   title: Décision CIPM/108-6
@@ -97,11 +98,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-I-Decisions-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2019-03-01
+    message: 'nomme S.-R. Park président du Comité consultatif pour la quantité de
+      matière : métrologie en chimie et biologie (CCQM) pour un mandat de quatre ans.'
   subject: Le CIPM
-  x-unparsed:
-  - 'nomme S.-R. Park président du Comité consultatif pour la quantité de matière
-    : métrologie en chimie et biologie (CCQM) pour un mandat de quatre ans.'
 - dates:
   - 2019-03-01
   title: Décision CIPM/108-8
@@ -109,11 +111,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-I-Decisions-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2019-03-01
+    message: nomme stem:["N"]. Dimarcq président du Comité consultatif du temps et
+      des fréquences (CCTF) pour un mandat de quatre ans.
   subject: Le CIPM
-  x-unparsed:
-  - nomme N. Dimarcq président du Comité consultatif du temps et des fréquences (CCTF)
-    pour un mandat de quatre ans.
 - dates:
   - 2019-03-01
   title: Décision CIPM/108-9
@@ -143,11 +146,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-I-Decisions-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2019-03-01
+    message: nomme A. Steele président de la Commission consultative sur la Caisse
+      de retraite (CCCR).
   subject: Le CIPM
-  x-unparsed:
-  - nomme A. Steele président de la Commission consultative sur la Caisse de retraite
-    (CCCR).
 - dates:
   - 2019-03-01
   title: Décision CIPM/108-11
@@ -155,11 +159,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-I-Decisions-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2019-03-01
+    message: nomme T. Usuda président du Groupe de travail _ad hoc_ du CIPM sur les
+      conditions d'emploi.
   subject: Le CIPM
-  x-unparsed:
-  - nomme T. Usuda président du Groupe de travail ad hoc  du CIPM sur les conditions
-    d'emploi.
 - dates:
   - 2019-03-01
   title: Décision CIPM/108-12
@@ -167,22 +172,23 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-I-Decisions-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2019-03-01
+    message: "nomme les membres du CIPM suivants au sein des Sous-comités et Groupes
+      de travail _ad hoc_ du CIPM :\n\n Sous-comité du CIPM sur les finances : M.
+      Sené (président), Y. Duan, W. Louw, P. Richard, +\nT. Usuda.\n Commission consultative
+      sur la Caisse de retraite (CCCR) : A. Steele (président), M. Sené (président
+      du Sous-comité du CIPM sur les finances), T. Usuda. \n Sous-comité du CIPM sur
+      la stratégie : M. Milton (président), D. del Campo Maldonado, T. Liew, W. Louw,
+      P. Neyezhmakov, J. Olthoff, M.L. Rastello, G. Rietveld, A. Steele, J. Ullrich.
+      \n Groupe de travail _ad hoc_ du CIPM sur les conditions d'emploi : T. Usuda
+      (président), +\nI. Castelazo, M.L. Rastello, P. Richard. \n Sous-comité du CIPM
+      sur l'attribution de distinctions : F. Bulygin (président), T. Liew, +\nS.‑R.
+      Park. \n Groupe de travail _ad hoc_ du CIPM sur la reproductibilité des données
+      de recherches et autres sujets connexes : T. Liew (président), F. Bulygin, I.
+      Castelazo, H. Laiz, M.L. Rastello, M. Sené, +\nJ. Ullrich."
   subject: Le CIPM
-  x-unparsed:
-  - "nomme les membres du CIPM suivants au sein des Sous-comités et Groupes de travail
-    ad hoc du CIPM : \nSous-comité du CIPM sur les finances : M. Sené (président),
-    Y. Duan, W. Louw, P. Richard, T. Usuda.\nCommission consultative sur la Caisse
-    de retraite (CCCR) : A. Steele (président), M. Sené (président du Sous-comité
-    du CIPM sur les finances), T. Usuda. \nSous-comité du CIPM sur la stratégie :
-    M. Milton (président), D. del Campo Maldonado, T. Liew, W. Louw, P. Neyezhmakov,
-    J. Olthoff, M.L. Rastello, G. Rietveld, A. Steele, J. Ullrich. \nGroupe de travail
-    ad hoc du CIPM sur les conditions d'emploi : T. Usuda (président), I. Castelazo,
-    M.L. Rastello, P. Richard. \nSous-comité du CIPM sur l'attribution de distinctions
-    : F. Bulygin (président), T. Liew, S.‑R. Park. \nGroupe de travail ad hoc du CIPM
-    sur la reproductibilité des données de recherches et autres sujets connexes :
-    T. Liew (président), F. Bulygin, I. Castelazo, H. Laiz, M.L. Rastello, M. Sené,
-    J. Ullrich."
 - dates:
   - 2019-03-01
   title: Décision CIPM/108-13
@@ -219,13 +225,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-I-Decisions-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2019-03-01
+    message: nomme J. Olthoff pour représenter le CIPM au Comité mixte des organisations
+      régionales de métrologie et du BIPM (JCRB) et demande au JCRB d'amender le document
+      CIPM MRA-D-01 « Rules of procedure for the JCRB » (Règles de fonctionnement
+      du JCRB) en tant que de besoin.
   subject: Le CIPM
-  x-unparsed:
-  - nomme J. Olthoff pour représenter le CIPM au Comité mixte des organisations régionales
-    de métrologie et du BIPM (JCRB) et demande au JCRB d'amender le document CIPM
-    MRA-D-01 « Rules of procedure for the JCRB » (Règles de fonctionnement du JCRB)
-    en tant que de besoin.
 - dates:
   - 2019-03-01
   title: Décision CIPM/108-16
@@ -233,11 +240,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-I-Decisions-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2019-03-01
+    message: nomme T. Liew pour représenter le CIPM au Comité commun pour la traçabilité
+      en médecine de laboratoire (JCTLM) et S.‑R. Park pour le seconder.
   subject: Le CIPM
-  x-unparsed:
-  - nomme T. Liew pour représenter le CIPM au Comité commun pour la traçabilité en
-    médecine de laboratoire (JCTLM) et S.‑R. Park pour le seconder.
 - dates:
   - 2019-03-01
   title: Décision CIPM/108-17
@@ -245,11 +253,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-I-Decisions-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2019-03-01
+    message: nomme P. Neyezhmakov pour représenter le CIPM au Comité commun pour les
+      guides en métrologie (JCGM).
   subject: Le CIPM
-  x-unparsed:
-  - nomme P. Neyezhmakov pour représenter le CIPM au Comité commun pour les guides
-    en métrologie (JCGM).
 - dates:
   - 2019-03-01
   title: Décision CIPM/108-18
@@ -291,9 +300,10 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/108(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2019-I-Decisions-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: welcomes
+    date_effective: 2019-03-01
+    message: salue les progrès effectués concernant la rationalisation des documents
+      d'orientation du CIPM MRA et accepte la proposition du JCRB afin que ce dernier
+      supervise la finalisation des documents et leur mise en œuvre.
   subject: Le CIPM
-  x-unparsed:
-  - salue les progrès effectués concernant la rationalisation des documents d'orientation
-    du CIPM MRA et accepte la proposition du JCRB afin que ce dernier supervise la
-    finalisation des documents et leur mise en œuvre.

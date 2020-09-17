@@ -96,10 +96,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: exprime son accord avec la Recommandation 3 du Groupe de travail _ad
+      hoc_.
   subject: Le CIPM
-  x-unparsed:
-  - exprime son accord avec la Recommandation 3 du Groupe de travail ad hoc.
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-8
@@ -120,12 +122,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: |-
+      exprime son accord avec la Recommandation 5 du Groupe de travail _ad hoc_.
+
+      Le directeur du BIPM invitera les présidents des organisations régionales de métrologie à la réunion des directeurs des laboratoires nationaux de métrologie. Par ailleurs, les présidents des Comités consultatifs inviteront les présidents des comités techniques des organisations régionales de métrologie aux réunions des Groupes de travail des Comités consultatifs sur la stratégie et sur les comparaisons clés. [Action CIPM/101-2]
   subject: Le CIPM
-  x-unparsed:
-  - |-
-    exprime son accord avec la Recommandation 5 du Groupe de travail ad hoc.
-     Le directeur du BIPM invitera les présidents des organisations régionales de métrologie à la réunion des directeurs des laboratoires nationaux de métrologie. Par ailleurs, les présidents des Comités consultatifs inviteront les présidents des comités techniques des organisations régionales de métrologie aux réunions des Groupes de travail des Comités consultatifs sur la stratégie et sur les comparaisons clés. [Action CIPM/101-2]
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-10
@@ -133,12 +137,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: |-
+      exprime son accord avec les Recommandations 6, 7, 8, 9 et 10, et cherchera à obtenir des clarifications quant au niveau de détail souhaité par le Groupe de travail _ad hoc_ concernant les documents produits par le BIPM.
+
+      Le secrétaire du CIPM entrera en contact avec des membres du Groupe de travail _ad hoc_ pour obtenir des clarifications quant aux Recommandations 6 à 10. [Action CIPM/101-3]
   subject: Le CIPM
-  x-unparsed:
-  - |-
-    exprime son accord avec les Recommandations 6, 7, 8, 9 et 10, et cherchera à obtenir des clarifications quant au niveau de détail souhaité par le Groupe de travail ad hoc concernant les documents produits par le BIPM.
-    Le secrétaire du CIPM entrera en contact avec des membres du Groupe de travail ad hoc pour obtenir des clarifications quant aux Recommandations 6 à 10. [Action CIPM/101-3]
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-11
@@ -161,10 +167,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: exprime son accord avec la Recommandation 11 du Groupe de travail _ad
+      hoc_.
   subject: Le CIPM
-  x-unparsed:
-  - exprime son accord avec la Recommandation 11 du Groupe de travail ad hoc.
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-13
@@ -172,10 +180,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: exprime son accord avec la Recommandation 12 du Groupe de travail _ad
+      hoc_.
   subject: Le CIPM
-  x-unparsed:
-  - exprime son accord avec la Recommandation 12 du Groupe de travail ad hoc.
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-14
@@ -183,14 +193,15 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: est favorable au maintien des élections provisoires, qui pourraient être
+      fondées sur une liste de candidats proposée par le CIPM à la CGPM et selon les
+      critères établis conformément à la Recommandation 14. Le CIPM exprime son accord
+      de principe avec la première partie de la Recommandation 13 mais est en désaccord
+      avec la proposition de renouveler le CIPM par moitié tous les deux ans.
   subject: Le CIPM
-  x-unparsed:
-  - est favorable au maintien des élections provisoires, qui pourraient être fondées
-    sur une liste de candidats proposée par le CIPM à la CGPM et selon les critères
-    établis conformément à la Recommandation 14. Le CIPM exprime son accord de principe
-    avec la première partie de la Recommandation 13 mais est en désaccord avec la
-    proposition de renouveler le CIPM par moitié tous les deux ans.
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-15
@@ -198,11 +209,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: exprime son accord de principe avec la Recommandation 14 du Groupe de
+      travail _ad hoc_.
   subject: Le CIPM
-  x-unparsed:
-  - exprime son accord de principe avec la Recommandation 14 du Groupe de travail
-    ad hoc.
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-16
@@ -210,12 +222,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: |-
+      exprime son accord de principe avec la Recommandation 15 du Groupe de travail _ad hoc_.
+
+      Le CIPM établira un Groupe de travail _ad hoc_ sur les règles et principes relatifs à la composition du CIPM afin d'étudier les exigences des Recommandations 13, 14 et 15. [Action CIPM/101-5]
   subject: Le CIPM
-  x-unparsed:
-  - |-
-    exprime son accord de principe avec la Recommandation 15 du Groupe de travail ad hoc.
-    Le CIPM établira un Groupe de travail ad hoc sur les règles et principes relatifs à la composition du CIPM afin d'étudier les exigences des Recommandations 13, 14 et 15. [Action CIPM/101-5]
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-17
@@ -223,13 +237,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: n'est pas d'accord avec la Recommandation 16 du Groupe de travail _ad
+      hoc_. Le CIPM a conscience qu'il peut être nécessaire, de façon occasionnelle,
+      de choisir un président de Comité consultatif en dehors du CIPM si les compétences
+      nécessaires ne sont pas disponibles au sein du CIPM.
   subject: Le CIPM
-  x-unparsed:
-  - n'est pas d'accord avec la Recommandation 16 du Groupe de travail ad hoc. Le CIPM
-    a conscience qu'il peut être nécessaire, de façon occasionnelle, de choisir un
-    président de Comité consultatif en dehors du CIPM si les compétences nécessaires
-    ne sont pas disponibles au sein du CIPM.
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-18
@@ -267,11 +282,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: exprime son accord avec la Recommandation 19 du Groupe de travail _ad
+      hoc_ qui sera examinée par le Sous-comité permanent sur les pensions et l'assurance-maladie.
   subject: Le CIPM
-  x-unparsed:
-  - exprime son accord avec la Recommandation 19 du Groupe de travail ad hoc qui sera
-    examinée par le Sous-comité permanent sur les pensions et l'assurance-maladie.
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-21
@@ -416,13 +432,16 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: |-
+      soutient fortement le projet de résolution proposé et convient de le présenter lors de la réunion des représentants des États Parties à la Convention du mètre et des directeurs des laboratoires nationaux de métrologie en octobre 2012, une fois que la question du sigle de l'organisation aura été étudiée.
+
+      Le BIPM étudiera la question du sigle de l'organisation. [Action CIPM/101-9]
+
+      Le président ou le secrétaire du CIPM contactera les présidents des sous-groupes du Groupe de travail _ad hoc_ sur la gouvernance afin qu'ils présentent les conclusions de leur sous-groupe lors de la réunion des représentants des États Parties à la Convention du Mètre et des directeurs des laboratoires nationaux de métrologie en octobre 2012. [Action CIPM/101-10]
   subject: Le CIPM
-  x-unparsed:
-  - |-
-    soutient fortement le projet de résolution proposé et convient de le présenter lors de la réunion des représentants des États Parties à la Convention du mètre et des directeurs des laboratoires nationaux de métrologie en octobre 2012, une fois que la question du sigle de l'organisation aura été étudiée.
-    Le BIPM étudiera la question du sigle de l'organisation. [Action CIPM/101-9]
-    Le président ou le secrétaire du CIPM contactera les présidents des sous-groupes du Groupe de travail ad hoc sur la gouvernance afin qu'ils présentent les conclusions de leur sous-groupe lors de la réunion des représentants des États Parties à la Convention du Mètre et des directeurs des laboratoires nationaux de métrologie en octobre 2012. [Action CIPM/101-10]
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-31
@@ -525,11 +544,12 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: approves
+    date_effective: 2012-06-01
+    message: soutient le document proposé par T.J. Quinn et accepte que ce dernier
+      le présente lors de la réunion du Groupe de travail 2 du JCGM sur le VIM.
   subject: Le CIPM
-  x-unparsed:
-  - soutient le document proposé par T.J. Quinn et accepte que ce dernier le présente
-    lors de la réunion du Groupe de travail 2 du JCGM sur le VIM.
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-39

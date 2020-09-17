@@ -19,10 +19,10 @@ CONSIDERATIONS = {
   /(?:having(?: regard)?|ayant|acceptant|concerne|referring|se référant|vu la|agissant conformément)/i => "having / having regard",
   /(?:noting|took note|note[sd]?|observing|observant que|taking note|takes note|constatant|constate|that|notant|notant que|note également|(?:prend|prenant) (?:acte|note))/i => "noting",
   /(?:recognizing|recognizes|reconnaissant|reconnaît|acting in accordance|conformément à)/i => "recognizing",
-  /(?:acknowledging|accept(?:s|ed|ing)|admet|entendu|empowered by|habilité par)/i => "acknowledging",
+  /(?:acknowledging|accept(?:s|ed|ing|e)|admet|entendu|empowered by|habilité par)/i => "acknowledging",
   /(?:(?:further )?recall(?:ing|s)|rappelant|rappelle)/i => "recalling / further recalling",
   /(?:re-?affirm(?:ing|s)|réaffirme)/i => "reaffirming",
-  /(?:consid(?:ering|érant|ers|ered)|après examen|estime|is of the opinion)/i => "considering",
+  /(?:consid(?:ering|érant|ère|ers|ered)|après examen|estime|is of the opinion)/i => "considering",
   /(?:taking into account|(prend|prenant) en considération|taking into consideration|tenant compte)/i => "taking into account",
   "pursuant to" => "pursuant to",
   /(?:bearing in mind)/i => "bearing in mind",
@@ -31,33 +31,34 @@ CONSIDERATIONS = {
 }
 
 ACTIONS = {
-  /(?:adopts|adopted?)/ => "adopts",
+  /(?:adopts|adopted?|convient d'adopter)/ => "adopts",
   /(?:thanks|thanked|expresse[sd](?:[ -]| its )appreciation|appréciant|pays tribute|rend hommage|remercie)/i => "thanks / expresses-appreciation",
-  /(?:approu?ves?|approuvant|approving|approved|entérine|agreed?|supported)/i => "approves",
+  /(?:approu?ves?|approuvant|approving|approved|entérine|agreed?|supported|soutient|exprime son accord|n'est pas d'accord)/i => "approves",
   /(?:d[eé]cid(?:e[ds]?|é)|ratifies?|judges|d[ée]clares?|d[ée]finition|sanction(?:s|ne))/i => "decides",
   /(?:The unit of length is|Supplementary units|Principl?es|Les Délégués des États|Les v\u{9C}ux ou propositions)/i => "decides", # MISC - like declares/defines
   /(?:L'unité de longueur|Unités supplémentaires|New candle|New lumen|Definitions of|Cubic decimetre|Clarification of|Revision of)/i => "decides", # MISC - like declares/defines
   /(?:Unit of force|Définitions des|Décimètre cube|Étalons secondaires|Unité spéciale|Efficacités lumineuses)/i => "decides", # MISC - like declares/defines
   /(?:Unité de force|(?:Joule|Watt|Volt|Ohm|Amp[eè]re|Coulomb|Farad|Henry|Weber) \(unité?|Bougie nouvelle|Lumen nouveau)/i => "decides", # MISC - like declares/defines
-  /(?:Les unités photométriques|\(A\) D[eé]finitions|The photometric units|will (?:provide|circulate|issue|identify|notify))/i => "decides", # MISC - like declares/defines
-  /(?:asks|asked|souhaite)/i => "asks",
-  /(?:further )?invite[ds]?|renouvelle en conséquence/i => "invites / further invites",
+  /(?:Les unités photométriques|\(A\) D[eé]finitions|The photometric units|will (?:provide|circulate|issue|identify|notify|contact|review))/i => "decides", # MISC - like declares/defines
+  /(?:Appendix 1 of the|L'Annexe 1 de la|increased|a (?:examiné|préparé))/i => "decides", # MISC - like declares/defines
+  /(?:asks|asked|souhaite|souhaiterait)/i => "asks",
+  /(?:further )?invit(?:[ée][ds]?|era)|renouvelle en conséquence|convient d'inviter/i => "invites / further invites",
   /(?:resolve[sd]?)/i => "resolves",
   /(?:confirms|confirmed?|confirme que)/i => "confirms",
-  /(?:welcome[sd]?|accueille favorablement)/i => "welcomes",
+  /(?:welcome[sd]?|accueille favorablement|salue)/i => "welcomes",
   /(?:recomm(?:ends|ande|ended)|endorsed)/i => "recommends",
-  /(?:requests?|requested|demande)/i => "requests",
-  /(?:congratulate[sd]?)/i => "congratulates",
+  /(?:requests?|requested|demande(?:ra)?)/i => "requests",
+  /(?:congratulate[sd]?|félicite)/i => "congratulates",
   /(?:instructs|instructed)/i => "instructs",
   /(?:urges|prie instamment)/i => "urges",
-  /(?:appoints|(?:re)?appointed|granted|commended|elected|autorise|authorized|empowers|charged?|donne|habilite|nominated|Pendant la période|voted|established a \w+ task group)/i => "appoints",
+  /(?:appoints|(?:re)?appointed|granted|reconduit|commended|élit|nomme|elected|autorise|authorized|empowers|charged?|donne|habilite|nominated|Pendant la période|voted|established a \w+ task group|gave the \w+ \w+ the authority)/i => "appoints",
   /(?:resolve[sd]? further)/i => "resolves further",
   /(?:calls upon|draws the attention|attire l'attention|lance un appel)/i => "calls upon",
   /(?:encourages?d?|espère|propose[ds]?)/i => "encourages",
   /(?:affirms|reaffirming|réaffirmant|states|remarks|remarques)/i => "affirms / reaffirming",
 }
 
-PREFIX=/(?:(?:The|Le) CIPM |La Conférence |would |will |were |did not |strongly |The Conference |and |et |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir |\.\.\.\n+)?/i
+PREFIX=/(?:(?:The|Le) CIPM |La Conférence |would |a |sont |will |were |did not |strongly |The Conference |and |et |has |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir |\.\.\.\n+)?/i
 
 SUFFIX=/ (?:that|que)\b|(?: (?:the |that |le |que les )?((?:[A-Z]|national|laboratoires).{0,80}?)(?: to)?\b|)/
 
