@@ -42,16 +42,56 @@ a = Mechanize.new
         "title" => titletr.at_css('td>span').text.strip,
         "identifier" => titletr.at_css('td>span').text.strip.split("/").last,
         "url" => meeting.uri.to_s,
-        "reference" => ref
+        "reference" => ref,
+
+        "considerations" => [],
+        "actions" => [],
       }
 
       contenttr = titletr.next
       binding.pry if (d = contenttr.css('div[align="right"]')).length != 1
       d.remove
 
-      r["x-content"] = Common.format_message(
-        contenttr.at_css('td[colspan]').inner_html.encode('utf-8')
-      )
+      part = contenttr.at_css('td[colspan]').inner_html.encode('utf-8')
+      parse = Nokogiri::HTML(part).text.strip
+
+      parse =~ /\A(((the|le|la|Le secrétaire du|Le président du|Les membres du|Le directeur du) +[BC][IG]PM( Director)?|Dr May|W\.E\. May)[, ]+)/i
+      subject = $1
+      if subject
+        parse = parse[subject.length..-1]
+        part = part.gsub(/\A#{Regexp.escape subject}/, '')
+        r['subject'] = subject.strip
+      #else
+        #p parse
+      end
+
+      loop do # a "do {} while(0) loop", because "begin..end while" is ambiguous
+              # and... deprecated, or something?
+        CONSIDERATIONS.any? do |k,v|
+          if parse =~ /\A#{PREFIX}#{k}\b/i
+            r["considerations"] << {
+              "type" => v,
+              "date_effective" => date,
+              "message" => Common.format_message(part),
+            }
+          end
+        end && break
+
+        ACTIONS.any? do |k,v|
+          if parse =~ /\A#{PREFIX}#{k}\b/i
+            r["actions"] << {
+              "type" => v,
+              "date_effective" => date,
+              "message" => Common.format_message(part),
+            }
+          end
+        end && break
+
+        r["x-unparsed"] ||= []
+        r["x-unparsed"] << parse
+
+        break
+      end
 
       r
     end

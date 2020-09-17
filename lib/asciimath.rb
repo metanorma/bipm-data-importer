@@ -12,7 +12,7 @@ module AsciiMath
     str.gsub(/\b_(#{MATH}{1,3})_/, 'stem:[\1]')
        .gsub("_,_", ',') # Some mistake in formatting
        .gsub("^er^", 'ESCUPerESCUP') # French specialities
-       .gsub(/(bar|A) (table|of|key|de|being|1)( |,)/, 'ESC\1 \2\3') # A is Ampere, but also a particle, bar is a bar but also a bar
+       .gsub(/(bar|A) (table|of|key|de|being|full|1)( |,)/, 'ESC\1 \2\3') # A is Ampere, but also a particle, bar is a bar but also a bar
        .gsub(/\^(e|re)\^( |)(session|Conférence|réunion|CGPM|édition)/, 'ESCUP\1ESCUP\2\3')
        .gsub("\u{96}", '-')
        .gsub(%r"image::/utils/special/14/ital/(\w*?)_maj.gif\[#{STEM}\]") { "stem:[ #{$1.capitalize} ]" }
