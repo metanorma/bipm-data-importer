@@ -171,13 +171,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
-  subject: The CIPM
-  x-unparsed:
-  - members were requested to consider potential candidates for CIPM membership and
-    submit their names and CVs to the Secretary of the CIPM by the end of September
-    2013 in order for the CIPM to review the CVs at Session II of the 102nd meeting
-    of the CIPM in October 2013.
+  actions:
+  - type: requests
+    date_effective: 2013-06-01
+    message: were requested to consider potential candidates for CIPM membership and
+      submit their names and CVs to the Secretary of the CIPM by the end of September
+      2013 in order for the CIPM to review the CVs at Session II of the 102nd meeting
+      of the CIPM in October 2013.
+  subject: The CIPM members
 - dates:
   - 2013-06-01
   title: Decision CIPM/102-12
@@ -260,13 +261,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
-  subject: The CIPM
-  x-unparsed:
-  - President will issue an invitation to the leadership of the Versailles Project
-    on Advanced Materials and Standards (VAMAS) to a meeting of the CIPM bureau in
-    2014 to explore whether there would be value in closer collaboration between VAMAS
-    and the CIPM.
+  actions:
+  - type: decides
+    date_effective: 2013-06-01
+    message: will issue an invitation to the leadership of the Versailles Project
+      on Advanced Materials and Standards (VAMAS) to a meeting of the CIPM bureau
+      in 2014 to explore whether there would be value in closer collaboration between
+      VAMAS and the CIPM.
+  subject: The CIPM President
 - dates:
   - 2013-06-01
   title: Decision CIPM/102-18
@@ -288,14 +290,15 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - As part of the CIPM's intention to encourage a stronger strategic perspective,
-    the CIPM will identify one or two cross-cutting "grand metrology challenges" considering
-    potential liaisons with the ILAC, the ISO and the OIML and other relevant international
-    organizations with missions complementary to the BIPM and charge the Presidents
-    of the Consultative Committees to assess the implications to their strategies
-    and future programmes.
+  actions:
+  - type: decides
+    date_effective: 2013-06-01
+    message: As part of the CIPM's intention to encourage a stronger strategic perspective,
+      the CIPM will identify one or two cross-cutting "grand metrology challenges"
+      considering potential liaisons with the ILAC, the ISO and the OIML and other
+      relevant international organizations with missions complementary to the BIPM
+      and charge the Presidents of the Consultative Committees to assess the implications
+      to their strategies and future programmes.
 - dates:
   - 2013-06-01
   title: Decision CIPM/102-20

@@ -295,13 +295,15 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: requests
+    date_effective: 2013-10-01
+    message: accepte le principe selon lequel le BIPM devrait établir un équipement
+      de résonance magnétique nucléaire, sous réserve du soutien d'une tierce partie,
+      et demande à cette fin au bureau du CIPM d'examiner le document « Principes
+      gouvernant la sollicitation et l'acceptation de soutien au BIPM par des tiers
+      ».
   subject: Le CIPM
-  x-unparsed:
-  - accepte le principe selon lequel le BIPM devrait établir un équipement de résonance
-    magnétique nucléaire, sous réserve du soutien d'une tierce partie, et demande
-    à cette fin au bureau du CIPM d'examiner le document « Principes gouvernant la
-    sollicitation et l'acceptation de soutien au BIPM par des tiers ».
 - dates:
   - 2013-10-01
   title: Décision CIPM/102-46

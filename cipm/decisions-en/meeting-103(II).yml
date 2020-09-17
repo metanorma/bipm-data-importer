@@ -311,8 +311,9 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2014-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: decides
+    date_effective: 2014-11-01
+    message: will circulate the document Guidelines for the selection of Consultative
+      Committee Presidents to the CIPM members.
   subject: Dr May
-  x-unparsed:
-  - will circulate the document Guidelines for the selection of Consultative Committee
-    Presidents to the CIPM members.

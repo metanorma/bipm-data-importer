@@ -351,8 +351,9 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/103(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2014-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: welcomes
+    date_effective: 2014-03-01
+    message: would welcome the presentation of a formal proposal on the creation of
+      an advisory group on stem:[G] experiments at its next meeting.
   subject: The CIPM
-  x-unparsed:
-  - would welcome the presentation of a formal proposal on the creation of an advisory
-    group on G experiments at its next meeting.

@@ -122,13 +122,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-I-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: decides
+    date_effective: 2015-03-01
+    message: revised its Decision CIPM/103-30 and decided that experimental results
+      to be used by the CODATA Task Group on Fundamental Constants in the evaluation
+      of the fundamental constants leading to the fixed values for the defining constants
+      of the new SI should be accepted for publication by 1 July 2017.
   subject: The CIPM
-  x-unparsed:
-  - revised its Decision CIPM/103-30 and decided that experimental results to be used
-    by the CODATA Task Group on Fundamental Constants in the evaluation of the fundamental
-    constants leading to the fixed values for the defining constants of the new SI
-    should be accepted for publication by 1 July 2017.
 - dates:
   - 2015-03-01
   title: Decision CIPM/104-10

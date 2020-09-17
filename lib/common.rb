@@ -39,25 +39,25 @@ ACTIONS = {
   /(?:L'unité de longueur|Unités supplémentaires|New candle|New lumen|Definitions of|Cubic decimetre|Clarification of|Revision of)/i => "decides", # MISC - like declares/defines
   /(?:Unit of force|Définitions des|Décimètre cube|Étalons secondaires|Unité spéciale|Efficacités lumineuses)/i => "decides", # MISC - like declares/defines
   /(?:Unité de force|(?:Joule|Watt|Volt|Ohm|Amp[eè]re|Coulomb|Farad|Henry|Weber) \(unité?|Bougie nouvelle|Lumen nouveau)/i => "decides", # MISC - like declares/defines
-  /(?:Les unités photométriques|\(A\) D[eé]finitions|The photometric units|will provide)/i => "decides", # MISC - like declares/defines
+  /(?:Les unités photométriques|\(A\) D[eé]finitions|The photometric units|will (?:provide|circulate|issue|identify|notify))/i => "decides", # MISC - like declares/defines
   /(?:asks|asked|souhaite)/i => "asks",
   /(?:further )?invite[ds]?|renouvelle en conséquence/i => "invites / further invites",
   /(?:resolve[sd]?)/i => "resolves",
   /(?:confirms|confirmed?|confirme que)/i => "confirms",
-  /(?:welcomes|welcomed|accueille favorablement)/i => "welcomes",
+  /(?:welcome[sd]?|accueille favorablement)/i => "welcomes",
   /(?:recomm(?:ends|ande|ended)|endorsed)/i => "recommends",
   /(?:requests?|requested|demande)/i => "requests",
   /(?:congratulate[sd]?)/i => "congratulates",
   /(?:instructs|instructed)/i => "instructs",
   /(?:urges|prie instamment)/i => "urges",
-  /(?:appoints|(?:re)?appointed|granted|commended|elected|autorise|authorized|empowers|charged?|donne|habilite|nominated|Pendant la période|voted)/i => "appoints",
+  /(?:appoints|(?:re)?appointed|granted|commended|elected|autorise|authorized|empowers|charged?|donne|habilite|nominated|Pendant la période|voted|established a \w+ task group)/i => "appoints",
   /(?:resolve[sd]? further)/i => "resolves further",
   /(?:calls upon|draws the attention|attire l'attention|lance un appel)/i => "calls upon",
   /(?:encourages?d?|espère|propose[ds]?)/i => "encourages",
   /(?:affirms|reaffirming|réaffirmant|states|remarks|remarques)/i => "affirms / reaffirming",
 }
 
-PREFIX=/(?:(?:The|Le) CIPM |La Conférence |would |will |did not |strongly |The Conference |and |et |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir |\.\.\.\n+)?/i
+PREFIX=/(?:(?:The|Le) CIPM |La Conférence |would |will |were |did not |strongly |The Conference |and |et |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir |\.\.\.\n+)?/i
 
 SUFFIX=/ (?:that|que)\b|(?: (?:the |that |le |que les )?((?:[A-Z]|national|laboratoires).{0,80}?)(?: to)?\b|)/
 

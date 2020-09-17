@@ -44,13 +44,14 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2013-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: decides
+    date_effective: 2013-10-01
+    message: will notify the CC Presidents that they should respond to any feedback
+      received from NMI Directors, the RMOs or Member State Representatives with respect
+      to their strategic plans. The CC Executive Secretaries will assist the CC Presidents
+      in this task.
   subject: The CIPM
-  x-unparsed:
-  - will notify the CC Presidents that they should respond to any feedback received
-    from NMI Directors, the RMOs or Member State Representatives with respect to their
-    strategic plans. The CC Executive Secretaries will assist the CC Presidents in
-    this task.
 - dates:
   - 2013-10-01
   title: Decision CIPM/102-30

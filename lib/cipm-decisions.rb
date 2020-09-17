@@ -57,7 +57,7 @@ a = Mechanize.new
       part = Common.ng_to_string(contenttr.at_css('td[colspan]'))
       parse = Nokogiri::HTML(part).text.strip
 
-      parse =~ /\A(((the|le|la|Le secrétaire du|Le président du|Les membres du|Le directeur du) +[BC][IG]PM( Director)?|Dr May|W\.E\. May)[, ]+)/i
+      parse =~ /\A(((the|le|la|Le secrétaire du|Le président du|Les membres du|Le directeur du) +[BC][IG]PM( Director| President| members)?|Dr May|W\.E\. May)[, ]+)/i
       subject = $1
       if subject
         parse = parse[subject.length..-1]
@@ -67,10 +67,9 @@ a = Mechanize.new
         #p parse
       end
 
-      pass = 1
       xparse = parse
 
-      loop do
+      (1..1024).each do |pass|
         CONSIDERATIONS.any? do |k,v|
           if xparse =~ /\A#{PREFIX}#{k}\b/i
             r["considerations"] << {
@@ -94,18 +93,16 @@ a = Mechanize.new
         case pass
         when 1, 2
           xparse = xparse.gsub(/\A.*?(CIPM|\(2018\)) /, '')
-          pass += 1
-          next
         when 3
           xparse = parse.gsub(/\A.*?, /, '')
-          pass = 4
-          next
+        when 4
+          xparse = parse.gsub(/\A.*? (and|et) /, '')
+        else
+          r["x-unparsed"] ||= []
+          r["x-unparsed"] << parse
+
+          break
         end
-
-        r["x-unparsed"] ||= []
-        r["x-unparsed"] << parse
-
-        break
       end
 
       r

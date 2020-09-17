@@ -252,12 +252,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(I).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: decides
+    date_effective: 2012-06-01
+    message: |-
+      convient que la durée des réunions de la CGPM devrait être réduite et décide que les présidents des Comités consultatifs présenteront uniquement des rapports brefs pendant la réunion de la CGPM et se tiendront disponibles pour répondre aux questions.
+
+      Le bureau du CIPM et le BIPM étudieront les moyens de réduire davantage la durée des réunions de la CGPM. [Action CIPM/101-6]
   subject: Le CIPM
-  x-unparsed:
-  - |-
-    convient que la durée des réunions de la CGPM devrait être réduite et décide que les présidents des Comités consultatifs présenteront uniquement des rapports brefs pendant la réunion de la CGPM et se tiendront disponibles pour répondre aux questions.
-    Le bureau du CIPM et le BIPM étudieront les moyens de réduire davantage la durée des réunions de la CGPM. [Action CIPM/101-6]
 - dates:
   - 2012-06-01
   title: Décision CIPM/101-20

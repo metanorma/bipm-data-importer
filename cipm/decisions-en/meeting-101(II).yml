@@ -356,10 +356,10 @@ resolutions:
   identifier: 101-66
   url: https://www.bipm.org/en/committees/cipm/meeting/101(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2012-EN.pdf
-  considerations: []
+  considerations:
+  - type: noting
+    date_effective: 2012-10-01
+    message: discussed the actions and noted the timeline for the preparation for
+      the 25th meeting of the CGPM.
   actions: []
   subject: The CIPM
-  x-unparsed:
-  - |-
-    discussed the actions and noted the timeline for the preparation for
-    the 25th meeting of the CGPM.

@@ -218,12 +218,14 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/101(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2012-FR.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2012-10-01
+    message: |-
+      accepte l'accord de rééchelonnement conclu avec la République islamique d'Iran et autorise le directeur du BIPM à signer ledit accord pour le compte du CIPM.
+
+      Le directeur du BIPM signera, pour le compte du CIPM, l'accord de rééchelonnement conclu avec la République islamique d'Iran. [Action CIPM/101-19]
   subject: Le CIPM
-  x-unparsed:
-  - |-
-    accepte l'accord de rééchelonnement conclu avec la République islamique d'Iran et autorise le directeur du BIPM à signer ledit accord pour le compte du CIPM.
-    Le directeur du BIPM signera, pour le compte du CIPM, l'accord de rééchelonnement conclu avec la République islamique d'Iran. [Action CIPM/101-19]
 - dates:
   - 2012-10-01
   title: Décision CIPM/101-57

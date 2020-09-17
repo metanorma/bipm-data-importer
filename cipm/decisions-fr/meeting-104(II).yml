@@ -337,9 +337,10 @@ resolutions:
   url: https://www.bipm.org/fr/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2015-II-FR.pdf
   considerations: []
-  actions: []
-  x-unparsed:
-  - Par suite au rapport du Groupe de travail ad hoc sur la terminologie, le CIPM
-    considère le sujet clos, décide de maintenir la pratique actuelle et encourage
-    le directeur du BIPM à travailler avec T.J. Quinn pour mettre à jour le site internet
-    du BIPM.
+  actions:
+  - type: encourages
+    date_effective: 2015-10-01
+    message: Par suite au rapport du Groupe de travail _ad hoc_ sur la terminologie,
+      le CIPM considère le sujet clos, décide de maintenir la pratique actuelle et
+      encourage le directeur du BIPM à travailler avec T.J. Quinn pour mettre à jour
+      le site internet du BIPM.
