@@ -198,7 +198,7 @@ resolutions:
   actions:
   - type: appoints
     date_effective: 2012-10-01
-    message: appointed Dr stem:["T"]. Usuda (NMIJ, Japan) as President of the Consultative
+    message: appointed Dr T. Usuda (NMIJ, Japan) as President of the Consultative
       Committee for Photometry and Radiometry.
   subject: The  CIPM
 - dates:

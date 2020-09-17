@@ -41,7 +41,7 @@ resolutions:
   actions:
   - type: appoints
     date_effective: 2019-03-01
-    message: elected Dr stem:["W"]. Louw as President of the CIPM by secret ballot.
+    message: elected Dr W. Louw as President of the CIPM by secret ballot.
   subject: The CIPM
 - dates:
   - 2019-03-01
@@ -56,8 +56,8 @@ resolutions:
     message: |-
       elected the following by secret ballot:
 
-      * Dr stem:["T"]. Usuda as Secretary of the CIPM;
-      * Prof. stem:["J"]. Ullrich and Dr stem:["J"]. Olthoff as Vice-Presidents of the CIPM.
+      * Dr T. Usuda as Secretary of the CIPM;
+      * Prof. J. Ullrich and Dr J. Olthoff as Vice-Presidents of the CIPM.
   subject: The CIPM
 - dates:
   - 2019-03-01
@@ -130,14 +130,14 @@ resolutions:
     message: "thanked the Presidents of the Consultative Committees for their work
       and their excellent reports to the 26th meeting of the CGPM. It decided to reappoint
       the Presidents of the following Consultative Committees for four year terms:\n\n*
-      Consultative Committee for Acoustics, Ultrasound and Vibration (CCAUV): Dr stem:[\"T\"].
+      Consultative Committee for Acoustics, Ultrasound and Vibration (CCAUV): Dr T.
       Usuda.\n* Consultative Committee for Electricity and Magnetism (CCEM): Dr G.
       Rietveld. \n* Consultative Committee for Length (CCL): Dr I. Castelazo. \n*
       Consultative Committee for Mass and Related Quantities (CCM): Dr P. Richard.
       \n* Consultative Committee for Photometry and Radiometry (CCPR): Dr M.L. Rastello.
-      \n* Consultative Committee for Ionizing Radiation (CCRI): Dr stem:[\"W\"]. Louw.
-      \n* Consultative Committee for Thermometry (CCT): Dr Y. Duan. \n* Consultative
-      Committee for Units (CCU): Prof. stem:[\"J\"]. Ullrich."
+      \n* Consultative Committee for Ionizing Radiation (CCRI): Dr W. Louw. \n* Consultative
+      Committee for Thermometry (CCT): Dr Y. Duan. \n* Consultative Committee for
+      Units (CCU): Prof. J. Ullrich."
   subject: The CIPM
 - dates:
   - 2019-03-01
@@ -162,8 +162,8 @@ resolutions:
   actions:
   - type: appoints
     date_effective: 2019-03-01
-    message: appointed Dr stem:["T"]. Usuda as the Chair of the CIPM _ad hoc_ Working
-      Group on Conditions of Employment.
+    message: appointed Dr T. Usuda as the Chair of the CIPM _ad hoc_ Working Group
+      on Conditions of Employment.
   subject: The CIPM
 - dates:
   - 2019-03-01
@@ -177,19 +177,17 @@ resolutions:
     date_effective: 2019-03-01
     message: "appointed the following CIPM members to serve on the CIPM Sub Committees
       and _ad hoc_ Working Groups:\n\n* CIPM Sub-Committee on Finance: Dr M. Sené
-      (Chair), Dr Y. Duan, Dr stem:[\"W\"]. Louw, +\nDr P. Richard, Dr stem:[\"T\"].
-      Usuda.\n* Pension Fund Advisory Board (PFAB): Dr stem:[\"A\"]. Steele (Chair),
-      Dr M. Sené (Chair of the CIPM Sub-Committee on Finance), Dr stem:[\"T\"]. Usuda.
-      \n* CIPM Sub-Committee on Strategy: Dr M. Milton (Chair), Dr D. del Campo Maldonado,
-      +\nDr stem:[\"T\"]. Liew, Dr stem:[\"W\"]. Louw, Prof. P. Neyezhmakov, Dr stem:[\"J\"].
-      Olthoff, Dr M.L. Rastello, +\nDr G. Rietveld, Dr stem:[\"A\"]. Steele, Prof.
-      stem:[\"J\"]. Ullrich. \n* CIPM _ad hoc_ Working Group on Conditions of Employment:
-      Dr stem:[\"T\"]. Usuda (Chair), +\nDr I. Castelazo, Dr M.L. Rastello, Dr P.
-      Richard. \n* CIPM Sub-Committee on Awards: Dr stem:[\"F\"]. Bulygin (Chair),
-      Dr stem:[\"T\"]. Liew, Dr S.‑R. Park. \n* CIPM _ad hoc_ Working Group on the
-      Reproducibility of Research Data and Related Topics: +\nDr stem:[\"T\"]. Liew
-      (Chair), Dr stem:[\"F\"]. Bulygin, Dr I. Castelazo, Dr stem:[\"H\"]. Laiz, Dr
-      M.L. Rastello, Dr M. Sené, Prof. stem:[\"J\"]. Ullrich."
+      (Chair), Dr Y. Duan, Dr W. Louw, +\nDr P. Richard, Dr T. Usuda.\n* Pension Fund
+      Advisory Board (PFAB): Dr stem:[\"A\"]. Steele (Chair), Dr M. Sené (Chair of
+      the CIPM Sub-Committee on Finance), Dr T. Usuda. \n* CIPM Sub-Committee on Strategy:
+      Dr M. Milton (Chair), Dr D. del Campo Maldonado, +\nDr T. Liew, Dr W. Louw,
+      Prof. P. Neyezhmakov, Dr J. Olthoff, Dr M.L. Rastello, +\nDr G. Rietveld, Dr
+      stem:[\"A\"]. Steele, Prof. J. Ullrich. \n* CIPM _ad hoc_ Working Group on Conditions
+      of Employment: Dr T. Usuda (Chair), +\nDr I. Castelazo, Dr M.L. Rastello, Dr
+      P. Richard. \n* CIPM Sub-Committee on Awards: Dr F. Bulygin (Chair), Dr T. Liew,
+      Dr S.‑R. Park. \n* CIPM _ad hoc_ Working Group on the Reproducibility of Research
+      Data and Related Topics: +\nDr T. Liew (Chair), Dr F. Bulygin, Dr I. Castelazo,
+      Dr H. Laiz, Dr M.L. Rastello, Dr M. Sené, Prof. J. Ullrich."
   subject: The CIPM
 - dates:
   - 2019-03-01
@@ -216,10 +214,10 @@ resolutions:
   actions:
   - type: appoints
     date_effective: 2019-03-01
-    message: charged Dr stem:["T"]. Liew to draft terms of reference for the CIPM
-      _ad hoc_ Working Group on the Reproducibility of Research Data and Related Topics
-      taking into account the comments of CIPM members regarding the expansion of
-      the mandate and to present them to the next meeting of the CIPM.
+    message: charged Dr T. Liew to draft terms of reference for the CIPM _ad hoc_
+      Working Group on the Reproducibility of Research Data and Related Topics taking
+      into account the comments of CIPM members regarding the expansion of the mandate
+      and to present them to the next meeting of the CIPM.
   subject: The CIPM
 - dates:
   - 2019-03-01
@@ -231,7 +229,7 @@ resolutions:
   actions:
   - type: appoints
     date_effective: 2019-03-01
-    message: appointed Dr stem:["J"]. Olthoff to represent the CIPM at the Joint Committee
+    message: appointed Dr J. Olthoff to represent the CIPM at the Joint Committee
       of the Regional Metrology Organizations and the BIPM (JCRB) and asked the JCRB
       to amend document <nobr>CIPM MRA-D-01</nobr> "Rules of procedure for the JCRB"
       as necessary.
@@ -246,8 +244,8 @@ resolutions:
   actions:
   - type: appoints
     date_effective: 2019-03-01
-    message: appointed Dr stem:["T"]. Liew to represent the CIPM at the Joint Committee
-      for Traceability in Laboratory Medicine (JCTLM) and Dr S.‑R. Park as deputy.
+    message: appointed Dr T. Liew to represent the CIPM at the Joint Committee for
+      Traceability in Laboratory Medicine (JCTLM) and Dr S.‑R. Park as deputy.
   subject: The CIPM
 - dates:
   - 2019-03-01

@@ -255,18 +255,21 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(I).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-I-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2015-03-01
+    message: |-
+      reappointed the Presidents of the following Consultative Committees for 4-year terms:
+
+      * Consultative Committee for Acoustics, Ultrasound and Vibration (CCAUV): T. Usuda
+      * Consultative Committee for Mass and Related Quantities (CCM): P. Richard
+      * Consultative Committee for Photometry and Radiometry (CCPR): T. Usuda (on the condition of receiving approval from the NMIJ)
+      * Consultative Committee for Amount of Substance: Metrology in Chemistry and Biology (CCQM): W.E. May
+      * Consultative Committee for Ionizing Radiation (CCRI): W. Louw
+      * Consultative Committee for Thermometry (CCT): Y. Duan
+      * Consultative Committee for Time and Frequency (CCTF): L. Érard
+      * Consultative Committee for Units (CCU): J. Ullrich
   subject: The CIPM
-  x-unparsed:
-  - "reappointed the Presidents of the following Consultative Committees for 4-year
-    terms:\r\n\r\nConsultative Committee for Acoustics, Ultrasound and Vibration (CCAUV):
-    T. Usuda\r\nConsultative Committee for Mass and Related Quantities (CCM): P. Richard\r\nConsultative
-    Committee for Photometry and Radiometry (CCPR): T. Usuda (on the condition of
-    receiving approval from the NMIJ)\r\nConsultative Committee for Amount of Substance:
-    Metrology in Chemistry and Biology (CCQM): W.E. May\r\nConsultative Committee
-    for Ionizing Radiation (CCRI): W. Louw\r\nConsultative Committee for Thermometry
-    (CCT): Y. Duan\r\nConsultative Committee for Time and Frequency (CCTF): L. Érard\r\n\tConsultative
-    Committee for Units (CCU): J. Ullrich"
 - dates:
   - 2015-03-01
   title: Decision CIPM/104-20
@@ -293,12 +296,12 @@ resolutions:
     message: |-
       appointed the following CIPM members to serve on the CIPM Sub Committees and _ad hoc_ Working Groups:
 
-      * CIPM Sub-Committee on Strategy: M. Milton (Chair), CIPM bureau, stem:["H"]. Brandi, G. Rietveld, stem:["T"]. Liew.
-      * CIPM Sub-Committee on the BIPM Pension and Provident Fund and Health Insurance: L. Érard (Chair), stem:["T"]. Usuda, B. Bowsher, stem:["C"]. Bock (external member).
-      * CIPM Sub-Committee on Finance: B. Bowsher (Chair), Y. Duan, stem:["J"]. McLaren, P. Richard, stem:["W"]. Louw.
-      * CIPM _ad hoc_ Working Group on Conditions of Employment: stem:["J"]. McLaren (Chair), L. Érard, I. Castelazo, M. Buzoianu.
-      * CIPM Sub-Committee on Awards: M. Inguscio (Chair), D. I. Kang, stem:["H"]. Brandi, stem:["F"]. Bulygin.
-      * CIPM _ad hoc_ Working Group on the CIPM MRA: B. Inglis (Chair), stem:["W"].E. May, stem:["J"]. Ullrich, stem:["F"]. Bulygin, stem:["T"]. Usuda, stem:["W"]. Louw, M. Milton, L. Érard.
+      * CIPM Sub-Committee on Strategy: M. Milton (Chair), CIPM bureau, H. Brandi, G. Rietveld, T. Liew.
+      * CIPM Sub-Committee on the BIPM Pension and Provident Fund and Health Insurance: L. Érard (Chair), T. Usuda, B. Bowsher, C. Bock (external member).
+      * CIPM Sub-Committee on Finance: B. Bowsher (Chair), Y. Duan, J. McLaren, P. Richard, W. Louw.
+      * CIPM _ad hoc_ Working Group on Conditions of Employment: J. McLaren (Chair), L. Érard, I. Castelazo, M. Buzoianu.
+      * CIPM Sub-Committee on Awards: M. Inguscio (Chair), D. I. Kang, H. Brandi, F. Bulygin.
+      * CIPM _ad hoc_ Working Group on the CIPM MRA: B. Inglis (Chair), W.E. May, J. Ullrich, F. Bulygin, T. Usuda, W. Louw, M. Milton, L. Érard.
   subject: The CIPM
 - dates:
   - 2015-03-01
@@ -350,9 +353,9 @@ resolutions:
   - type: decides
     date_effective: 2015-03-01
     message: decided to defer the discussion on the BIPM terminology agenda item until
-      its next meeting. It established a small working group composed of stem:["J"].
-      McLaren (Chair), stem:["J"]. Ullrich, stem:["W"]. Louw and M. Milton to review
-      the issue and to report back to at its next meeting.
+      its next meeting. It established a small working group composed of J. McLaren
+      (Chair), J. Ullrich, W. Louw and M. Milton to review the issue and to report
+      back to at its next meeting.
   subject: The CIPM
 - dates:
   - 2015-03-01

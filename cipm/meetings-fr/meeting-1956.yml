@@ -25,8 +25,8 @@ resolutions:
   - type: considering
     date_effective: 1956-01-01
     message: |-
-      considérant que, selon les décisions de la Huitième Assemblée générale de l'Union astronomique internationale (Rome, 1952), la seconde de temps des éphémérides (stem:["T"].E.) est la fraction +
-      (12 960 276 813 / 408 986 496) ´ stem:[10^(-9)] de l'année tropique pour 1900 janvier 0 à stem:[12 "h" * "T"].E.,
+      considérant que, selon les décisions de la Huitième Assemblée générale de l'Union astronomique internationale (Rome, 1952), la seconde de temps des éphémérides (T.E.) est la fraction +
+      (12 960 276 813 / 408 986 496) ´ stem:[10^(-9)] de l'année tropique pour 1900 janvier 0 à stem:[12 "h"] T.E.,
   actions:
   - type: decides
     date_effective: 1956-01-01

@@ -125,13 +125,13 @@ resolutions:
       pour les excellents rapports qu'ils ont présentés lors de la 26^e^ réunion de
       la CGPM. Il décide de reconduire les présidents des Comités consultatifs suivants
       pour un mandat de quatre ans :\n\n* Comité consultatif de l'acoustique, des
-      ultrasons et des vibrations (CCAUV) : stem:[\"T\"]. Usuda. \n* Comité consultatif
-      d'électricité et magnétisme (CCEM) : G. Rietveld. \n* Comité consultatif des
-      longueurs (CCL) : I. Castelazo. \n* Comité consultatif pour la masse et les
-      grandeurs apparentées (CCM) : P. Richard. \n* Comité consultatif de photométrie
-      et radiométrie (CCPR) : M.L. Rastello. \n* Comité consultatif des rayonnements
-      ionisants (CCRI) : stem:[\"W\"]. Louw. \n* Comité consultatif de thermométrie
-      (CCT) : Y. Duan. \n* Comité consultatif des unités (CCU) : stem:[\"J\"]. Ullrich."
+      ultrasons et des vibrations (CCAUV) : T. Usuda. \n* Comité consultatif d'électricité
+      et magnétisme (CCEM) : G. Rietveld. \n* Comité consultatif des longueurs (CCL)
+      : I. Castelazo. \n* Comité consultatif pour la masse et les grandeurs apparentées
+      (CCM) : P. Richard. \n* Comité consultatif de photométrie et radiométrie (CCPR)
+      : M.L. Rastello. \n* Comité consultatif des rayonnements ionisants (CCRI) :
+      W. Louw. \n* Comité consultatif de thermométrie (CCT) : Y. Duan. \n* Comité
+      consultatif des unités (CCU) : J. Ullrich."
   subject: Le CIPM
 - dates:
   - 2019-03-01
@@ -206,11 +206,11 @@ resolutions:
   actions:
   - type: appoints
     date_effective: 2019-03-01
-    message: charge stem:["T"]. Liew de rédiger les termes de référence du Groupe
-      de travail _ad hoc_ du CIPM sur la reproductibilité des données de recherches
-      et autres sujets connexes, en tenant compte des commentaires formulés par les
-      membres du CIPM concernant l'extension du mandat du Groupe de travail, puis
-      de les présenter au CIPM lors de sa prochaine réunion.
+    message: charge T. Liew de rédiger les termes de référence du Groupe de travail
+      _ad hoc_ du CIPM sur la reproductibilité des données de recherches et autres
+      sujets connexes, en tenant compte des commentaires formulés par les membres
+      du CIPM concernant l'extension du mandat du Groupe de travail, puis de les présenter
+      au CIPM lors de sa prochaine réunion.
   subject: Le CIPM
 - dates:
   - 2019-03-01

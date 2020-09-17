@@ -76,9 +76,9 @@ resolutions:
   actions:
   - type: decides
     date_effective: 2014-03-01
-    message: decided to convene a group composed of S. Arlen, stem:["W"].E May, stem:["J"].
-      McLaren, and stem:["T"].stem:["J"]. Quinn to review the wording of the Draft
-      Resolution on the election of the CIPM.
+    message: decided to convene a group composed of S. Arlen, W.E May, J. McLaren,
+      and T.J. Quinn to review the wording of the Draft Resolution on the election
+      of the CIPM.
   subject: The CIPM
 - dates:
   - 2014-03-01
@@ -255,9 +255,9 @@ resolutions:
   actions:
   - type: welcomes
     date_effective: 2014-03-01
-    message: welcomed the presentation by stem:["J"]. Valdés on ?The role and performance
-      of the CIPM as a scientific body and a direction giving and supervisory body
-      of the BIPM? and acknowledged its responsibilities to instigate and review fundamental
+    message: welcomed the presentation by J. Valdés on ?The role and performance of
+      the CIPM as a scientific body and a direction giving and supervisory body of
+      the BIPM? and acknowledged its responsibilities to instigate and review fundamental
       metrological activities. In this context the work he mentioned addressing atom
       interferometry that was suggested in a recent paper to be among the potential
       ways to redefine the kilogram was noted by the CIPM. The CIPM encouraged further
@@ -348,10 +348,10 @@ resolutions:
   actions:
   - type: appoints
     date_effective: 2014-03-01
-    message: charged S. Arlen and stem:["T"].stem:["J"]. Quinn to prepare notes on
-      terminology to be forwarded to the CIPM and to be considered by the bureau at
-      its meeting in June 2014. The CIPM bureau will prepare a recommendation to be
-      submitted to the CIPM in November 2014.
+    message: charged S. Arlen and T.J. Quinn to prepare notes on terminology to be
+      forwarded to the CIPM and to be considered by the bureau at its meeting in June
+      2014. The CIPM bureau will prepare a recommendation to be submitted to the CIPM
+      in November 2014.
   subject: The CIPM
 - dates:
   - 2014-03-01

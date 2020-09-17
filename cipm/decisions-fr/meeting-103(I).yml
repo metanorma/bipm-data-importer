@@ -77,9 +77,9 @@ resolutions:
   actions:
   - type: decides
     date_effective: 2014-03-01
-    message: décide que soit formé un groupe composé de S. Arlen, stem:["W"].E May,
-      stem:["J"]. McLaren et stem:["T"].stem:["J"]. Quinn afin de revoir la rédaction
-      du Projet de résolution sur l'élection du CIPM.
+    message: décide que soit formé un groupe composé de S. Arlen, W.E May, J. McLaren
+      et T.J. Quinn afin de revoir la rédaction du Projet de résolution sur l'élection
+      du CIPM.
   subject: Le CIPM
 - dates:
   - 2014-03-01
@@ -264,14 +264,14 @@ resolutions:
   actions:
   - type: welcomes
     date_effective: 2014-03-01
-    message: "accueille favorablement la présentation de stem:[\"J\"]. Valdés intitulée
-      \r « _The role and performance of the CIPM as a scientific body and a direction
-      giving and supervisory body of the BIPM_ » et reconnaît les responsabilités
-      qui lui incombent d'initier et d'examiner les activités métrologiques fondamentales.
+    message: "accueille favorablement la présentation de J. Valdés intitulée \r «
+      _The role and performance of the CIPM as a scientific body and a direction giving
+      and supervisory body of the BIPM_ » et reconnaît les responsabilités qui lui
+      incombent d'initier et d'examiner les activités métrologiques fondamentales.
       Dans ce contexte, le CIPM prend note des travaux sur l'interférométrie atomique
       qui pourraient constituer l'une des voies possibles pour redéfinir le kilogramme,
-      selon un article scientifique récent mentionné dans la présentation de stem:[\"J\"].
-      Valdès. Le CIPM encourage la tenue d'autres discussions sur des sujets scientifiques
+      selon un article scientifique récent mentionné dans la présentation de J. Valdès.
+      Le CIPM encourage la tenue d'autres discussions sur des sujets scientifiques
       au cours de ses réunions."
   subject: Le CIPM
 - dates:
@@ -361,10 +361,10 @@ resolutions:
   actions:
   - type: requests
     date_effective: 2014-03-01
-    message: 'demande à S. Arlen et à stem:["T"].stem:["J"]. Quinn de rédiger chacun
-      une note sur la terminologie : ces documents seront transmis au CIPM et examinés
-      par le bureau du CIPM lors de sa réunion de juin 2014. Le bureau du CIPM préparera
-      une recommandation qui sera soumise au CIPM en novembre 2014.'
+    message: 'demande à S. Arlen et à T.J. Quinn de rédiger chacun une note sur la
+      terminologie : ces documents seront transmis au CIPM et examinés par le bureau
+      du CIPM lors de sa réunion de juin 2014. Le bureau du CIPM préparera une recommandation
+      qui sera soumise au CIPM en novembre 2014.'
   subject: Le CIPM
 - dates:
   - 2014-03-01

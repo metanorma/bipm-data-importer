@@ -176,12 +176,13 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-II-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2015-10-01
+    message: granted provisional acceptance of GULFMET as a Regional Metrology Organization
+      (RMO) in accordance with the procedures of the JCRB and within the meaning of
+      the CIPM MRA.
   subject: The CIPM
-  x-unparsed:
-  - granted provisional acceptance of GULFMET as a Regional Metrology Organization
-    (RMO) in accordance with the procedures of the JCRB and within the meaning of
-    the CIPM MRA.
 - dates:
   - 2015-10-01
   title: Decision CIPM/104-39
@@ -234,13 +235,15 @@ resolutions:
   url: https://www.bipm.org/en/committees/cipm/meeting/104(II).html
   reference: https://www.bipm.org/utils/en/pdf/CIPM/CIPM2015-II-EN.pdf
   considerations: []
-  actions: []
+  actions:
+  - type: appoints
+    date_effective: 2015-10-01
+    message: commended the Consultative Committee for Ionizing Radiation (CCRI) in
+      its proposal to operate its three Sections in the manner of the Working Groups
+      of the other Consultative Committees, whilst retaining the title "Section".
+      Consequently, the CCRI is able to decide on the membership and observership
+      of its Sections.
   subject: The CIPM
-  x-unparsed:
-  - commended the Consultative Committee for Ionizing Radiation (CCRI) in its proposal
-    to operate its three Sections in the manner of the Working Groups of the other
-    Consultative Committees, whilst retaining the title "Section". Consequently, the
-    CCRI is able to decide on the membership and observership of its Sections.
 - dates:
   - 2015-10-01
   title: Decision CIPM/104-43

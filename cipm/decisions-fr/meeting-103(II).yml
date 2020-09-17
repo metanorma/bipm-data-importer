@@ -30,8 +30,7 @@ resolutions:
     date_effective: 2014-11-01
     message: décide de différer l'action requise par la Décision CIPM/103-22 jusqu'à
       la prochaine session du CIPM, en mars 2015. Le BIPM transmettra aux membres
-      du CIPM les notes sur la terminologie préparées par S. Arlen et par stem:["T"].stem:["J"].
-      Quinn.
+      du CIPM les notes sur la terminologie préparées par S. Arlen et par T.J. Quinn.
   subject: Le CIPM
 - dates:
   - 2014-11-01
@@ -201,11 +200,11 @@ resolutions:
   actions:
   - type: requests
     date_effective: 2014-11-01
-    message: "demande à stem:[\"W\"].E. May de transmettre aux membres du CIPM la
-      demande d'exception de traçabilité soumise par le Comité consultatif pour la
-      quantité de matière : métrologie en chimie et biologie (CCQM) concernant les
-      unités δ(\x89), représentant des différences relatives de rapports isotopiques,
-      de façon à ce qu'une décision puisse être prise."
+    message: "demande à W.E. May de transmettre aux membres du CIPM la demande d'exception
+      de traçabilité soumise par le Comité consultatif pour la quantité de matière
+      : métrologie en chimie et biologie (CCQM) concernant les unités δ(\x89), représentant
+      des différences relatives de rapports isotopiques, de façon à ce qu'une décision
+      puisse être prise."
   subject: Le CIPM
 - dates:
   - 2014-11-01
