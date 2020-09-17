@@ -27,6 +27,11 @@ resolutions:
 
       |===
   considerations:
+  - type: recognizing
+    date_effective: 1988-01-01
+    message: acting in accordance with instructions given in Resolution 6 of the 18th
+      Conférence Générale des Poids et Mesures concerning the forthcoming adjustment
+      of the representations of the volt and the ohm,
   - type: considering
     date_effective: 1988-01-01
     message: considering that a detailed study of the results of the most recent determinations
@@ -41,6 +46,15 @@ resolutions:
       4 parts in stem:[10^(7)], and a reproducibility which is significantly better,
   - type: considering
     date_effective: 1988-01-01
+    message: is of the opinion that no change in this recommended value of the Josephson
+      constant will be necessary in the foreseeable future, and
+  - type: recognizing
+    date_effective: 1988-01-01
+    message: acting in accordance with instructions given in Resolution 6 of the 18th
+      Conférence Générale des Poids et Mesures concerning the forthcoming adjustment
+      of the representations of the volt and the ohm,
+  - type: considering
+    date_effective: 1988-01-01
     message: considering that a detailed study of the results of the most recent determinations
       leads to a value of stem:[483 597.9 "GHz"/"V"] for the Josephson constant, stem:[K_("J")],
       that is to say, for the quotient of frequency divided by the potential difference
@@ -51,6 +65,10 @@ resolutions:
       can be used to establish a reference standard of electromotive force having
       a one-standard-deviation uncertainty with respect to the volt estimated to be
       4 parts in stem:[10^(7)], and a reproducibility which is significantly better,
+  - type: considering
+    date_effective: 1988-01-01
+    message: is of the opinion that no change in this recommended value of the Josephson
+      constant will be necessary in the foreseeable future, and
   actions:
   - type: recommends
     date_effective: 1988-01-01
@@ -70,6 +88,19 @@ resolutions:
     message: recommends that from this same date all other laboratories adjust the
       value of their laboratory reference standards to agree with the new adopted
       value,
+  - type: calls upon
+    date_effective: 1988-01-01
+    message: "draws the attention of laboratories to the fact that the new value is
+      greater by stem:[3.9 \"GHz\"/\"V\"], or about 8 parts in stem:[10^(6)], than
+      the value given in 1972 by the Comité Consultatif d'Électricité in its Declaration
+      E-72.\n\n| image::/utils/common/img/pix.gif[\"\",15,25] +\n\n[width=100%]\n|===\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^a| \n* * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^| Reference: | image::/utils/common/img/pix.gif[\"\",15]\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-Verbaux
+      des Séances du CIPM_ (1988), p. 44\n| image::/utils/common/img/pix.gif[\"\",15]
+      .<| image::/utils/common/img/bullet1.gif[\"\",16,9] http://dx.doi.org/10.1088/0026-1394/26/1/006[_Metrologia_,
+      1989, *26*(1), 69-74] | image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n
+      +\n\nThe Comité International des Poids et Mesures"
   - type: recommends
     date_effective: 1988-01-01
     message: recommends that stem:[483 597.9 "GHz"/"V"] exactly be adopted as a conventional
@@ -88,32 +119,12 @@ resolutions:
     message: recommends that from this same date all other laboratories adjust the
       value of their laboratory reference standards to agree with the new adopted
       value,
-  x-unparsed:
-  - acting in accordance with instructions given in Resolution 6 of the 18th Conférence
-    Générale des Poids et Mesures concerning the forthcoming adjustment of the representations
-    of the volt and the ohm,
-  - is of the opinion that no change in this recommended value of the Josephson constant
-    will be necessary in the foreseeable future, and
-  - "draws the attention of laboratories to the fact that the new value is greater
-    by 3.9 GHz/V, or about 8 parts in 106, than the value given in 1972 by the Comité
-    Consultatif d'Électricité in its Declaration E-72.\n\n\n\t        \n                \n
-    \               \n                \n                 \n                \n\n                \n
-    \               \n                \n                \n                \n\n\n\t\t\n\t\t\n
-    \               Reference:\n                \n                \n                \n
-    \               \n                \n                \n\n                Procès-Verbaux
-    des Séances du CIPM (1988), p. 44\n                \n\n\t\t\n\n\n                \n
-    \               \n\n\n                \n                \n                \n                 Metrologia,
-    1989, 26(1), 69-74\n                \n                \n                \n\n                \n\n
-    \                 \n\n                \n\n    \t\n\n          \n\n                The
-    Comité International des Poids et Mesures"
-  - acting in accordance with instructions given in Resolution 6 of the 18th Conférence
-    Générale des Poids et Mesures concerning the forthcoming adjustment of the representations
-    of the volt and the ohm,
-  - is of the opinion that no change in this recommended value of the Josephson constant
-    will be necessary in the foreseeable future, and
-  - draws the attention of laboratories to the fact that the new value is greater
-    by 3.9 GHz/V, or about 8 parts in 106, than the value given in 1972 by the Comité
-    Consultatif d'Électricité in its Declaration E-72.
+  - type: calls upon
+    date_effective: 1988-01-01
+    message: draws the attention of laboratories to the fact that the new value is
+      greater by stem:[3.9 "GHz"/"V"], or about 8 parts in stem:[10^(6)], than the
+      value given in 1972 by the Comité Consultatif d'Électricité in its Declaration
+      E-72.
 - dates:
   - 1988-01-01
   title: Representation of the ohm by means of the quantum Hall effect
@@ -137,6 +148,11 @@ resolutions:
 
       |===
   considerations:
+  - type: recognizing
+    date_effective: 1988-01-01
+    message: "*acting* in accordance with instructions given in cgpm-resolution:en/18/6[Resolution
+      6] of the 18th Conférence Générale des Poids et Mesures concerning the forthcoming
+      adjustment of the representations of the volt and the ohm,"
   - type: considering
     date_effective: 1988-01-01
     message: considering that most existing laboratory reference standards of resistance
@@ -160,6 +176,28 @@ resolutions:
       better,
   - type: considering
     date_effective: 1988-01-01
+    message: "*is of the opinion* that no change in this recommended value of the
+      von Kiltzing constant will be necessary in the foreseeable future.\n\n| image::/utils/common/img/pix.gif[\"\",15,25]
+      +\n\n[width=100%]\n|===\n| image::/utils/common/img/pix.gif[\"\",15] ^a| \n*
+      * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n| image::/utils/common/img/pix.gif[\"\",15]
+      ^| Reference: | image::/utils/common/img/pix.gif[\"\",15]\n| image::/utils/common/img/pix.gif[\"\",15]
+      ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-Verbaux des Séances
+      du CIPM_ (1988), p. 70\n| image::/utils/common/img/pix.gif[\"\",15] .<| image::/utils/common/img/bullet1.gif[\"\",16,9]
+      http://dx.doi.org/10.1088/0026-1394/26/1/006[_Metrologia_, 1989, *26*(1), 69-74]
+      | image::/utils/common/img/pix.gif[\"\",15,25]\n| image::/utils/common/img/pix.gif[\"\",15]
+      .<a| [[notes]]\n\n[width=100%]\n|===\na| \n\n[width=100%]\n|===\na| \n\n|===\n.<a|
+      Note: +\n +\nAt its 89th meeting in https://www.bipm.org/en/committees/cipm/cipm-2000.html[2000],
+      the CIPM approved the declaration of the 22nd meeting of the CCEM on the use
+      of the value of the von Klitzing constant.\n>.<| https://www.bipm.org/en/publications/si-brochure/[image::/utils/common/img/si_110.jpg[]]\n\n|===\n\n|===\n\n|===\n\n|
+      image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n +\n\nThe Comité International
+      des Poids et Mesures,"
+  - type: recognizing
+    date_effective: 1988-01-01
+    message: "*acting* in accordance with instructions given in cgpm-resolution:en/18/6[Resolution
+      6] of the 18th Conférence Générale des Poids et Mesures concerning the forthcoming
+      adjustment of the representations of the volt and the ohm,"
+  - type: considering
+    date_effective: 1988-01-01
     message: considering that most existing laboratory reference standards of resistance
       change significantly with time,
   - type: considering
@@ -179,6 +217,10 @@ resolutions:
       having a one-standard-deviation uncertainty with respect to the ohm estimated
       to be 2 parts in stem:[10^(7)], and a reproducibility which is significantly
       better,
+  - type: considering
+    date_effective: 1988-01-01
+    message: "*is of the opinion* that no change in this recommended value of the
+      von Kiltzing constant will be necessary in the foreseeable future."
   actions:
   - type: recommends
     date_effective: 1988-01-01
@@ -220,28 +262,3 @@ resolutions:
       edition of the technical guidelines for reliable measurements of the quantized
       Hall resistance drawn up by the Comité Consultatif d'Électricité and published
       by the Bureau International des Poids et Mesures, and
-  x-unparsed:
-  - acting in accordance with instructions given in Resolution 6 of the 18th Conférence
-    Générale des Poids et Mesures concerning the forthcoming adjustment of the representations
-    of the volt and the ohm,
-  - "is of the opinion that no change in this recommended value of the von Kiltzing
-    constant will be necessary in the foreseeable future.\n\n\n\t        \n                \n
-    \               \n                \n                 \n                \n\n                \n
-    \               \n                \n                \n                \n\n\n\t\t\n\t\t\n
-    \               Reference:\n                \n                \n                \n
-    \               \n                \n                \n\n                Procès-Verbaux
-    des Séances du CIPM (1988), p. 70\n                \n\n\t\t\n\n\n                \n
-    \               \n\n\n                \n                \n                \n                 Metrologia,
-    1989, 26(1), 69-74\n                \n                \n                \n\n                \n\n
-    \                 \n\n\n                \n                \n                \n
-    \                \n\t\t\t\n\t\t    \n\t\t      \n\t\t\t\n\t\t\t\n\t\t\t  \n\t\t\t
-    \   \nNote:\n\t\t\t\tAt its 89th meeting in 2000, the CIPM approved the declaration
-    of the 22nd meeting of the CCEM on the use of the value of the von Klitzing constant.\n\t\t\t
-    \   \n\n\t\t\t  \n\t\t\t\n\t\t\t\n\t\t      \n\t\t    \n\n                \n                \n
-    \               \n\n                \n\n                \n\n    \t\n\n          \n\n
-    \               The Comité International des Poids et Mesures,"
-  - acting in accordance with instructions given in Resolution 6 of the 18th Conférence
-    Générale des Poids et Mesures concerning the forthcoming adjustment of the representations
-    of the volt and the ohm,
-  - is of the opinion that no change in this recommended value of the von Kiltzing
-    constant will be necessary in the foreseeable future.

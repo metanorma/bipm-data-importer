@@ -57,31 +57,31 @@ resolutions:
     message: considering that femtosecond comb-based frequency measurement for certain
       iodine gas-cell standards on the subsidiary recommended source list have recently
       been made for the first time, leading to signicantly reduced uncertainty;
-  actions: []
-  x-unparsed:
-  - "proposes that the recommended radiation list be revised to include the following:\n\nupdated
-    frequency values for the single trapped 88Sr+ ion quadrupole transition and the
-    single trapped 171Yb+ octupole transition;\nan updated frequency value for the
-    C2H2-stabilized standard at 1.54 µm;\n\nupdated frequency values for the I2-stabilized
-    standards at 543 nm and 515 nm.\n\n\n\n\n\t        \n                \n                \n
-    \               \n                 \n                \n\n                \n                \n
-    \               \n                \n                \n\n\n\t\t\n\t\t\n                Reference:\n
-    \               \n                \n                \n                \n                \n
-    \               \n\n                Procès-Verbaux des Séances du CIPM (2003),
-    p. 146\n                \n\n\t\t\n\n\n                \n                \n\n\n
-    \               \n                \n                \n                 Metrologia,
-    2003, 41(1), 99-108\n                \n                \n                \n\n
-    \               \n\n                  \n\n\n                \n                \n
-    \               \n                 \n\t\t\t\n\t\t    \n\t\t      \n\t\t\t\n\t\t\t\n\t\t\t
-    \ \n\t\t\t    \nNote:\n\t\t\t\tFurther updates are available on the BIPM website
-    at http://www.bipm.org/en/publications/mises-en-pratique/standard-frequencies.html.\n\t\t\t
-    \   \n\n\t\t\t  \n\t\t\t\n\t\t\t\n\t\t      \n\t\t    \n\n                \n                \n
-    \               \n\n                \n\n                \n\n    \t\n\n          \n\n
-    \               The International Committee for Weights and Measures,"
-  - |-
-    proposes that the recommended radiation list be revised to include the following:
+  actions:
+  - type: encourages
+    date_effective: 2003-01-01
+    message: "*proposes* that the _recommended radiation_ list be revised to include
+      the following:\n\n* updated frequency values for the single trapped ^stem:[88^(Sr)]+^
+      ion quadrupole transition and the single trapped ^stem:[171^(Yb)]+^ octupole
+      transition;\n* an updated frequency value for the stem:[\"C\"_(2)\"H\"_(2)]-stabilized
+      standard at 1.54 µm;\n* updated frequency values for the I~2~-stabilized standards
+      at 543 nm and 515 nm.\n| image::/utils/common/img/pix.gif[\"\",15,25] +\n\n[width=100%]\n|===\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^a| \n* * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^| Reference: | image::/utils/common/img/pix.gif[\"\",15]\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-Verbaux
+      des Séances du CIPM_ (2003), p. 146\n| image::/utils/common/img/pix.gif[\"\",15]
+      .<| image::/utils/common/img/bullet1.gif[\"\",16,9] http://dx.doi.org/10.1088/0026-1394/41/1/M01[_Metrologia_,
+      2003, *41*(1), 99-108] | image::/utils/common/img/pix.gif[\"\",15,25]\n| image::/utils/common/img/pix.gif[\"\",15]
+      .<a| [[notes]]\n\n[width=100%]\n|===\na| \n\n[width=100%]\n|===\na| \n\n|===\n.<a|
+      Note: +\n +\nFurther updates are available on the BIPM website at +\n  https://www.bipm.org/en/publications/mises-en-pratique/standard-frequencies.html[http://www.bipm.org/en/publications/mises-en-pratique/standard-frequencies.html].\n>.<|
+      https://www.bipm.org/en/publications/si-brochure/[image::/utils/common/img/si_110.jpg[]]\n\n|===\n\n|===\n\n|===\n\n|
+      image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n +\n\nThe International
+      Committee for Weights and Measures,"
+  - type: encourages
+    date_effective: 2003-01-01
+    message: |-
+      *proposes* that the _recommended radiation_ list be revised to include the following:
 
-    updated frequency values for the single trapped 88Sr+ ion quadrupole transition and the single trapped 171Yb+ octupole transition;
-    an updated frequency value for the C2H2-stabilized standard at 1.54 µm;
-
-    updated frequency values for the I2-stabilized standards at 543 nm and 515 nm.
+      * updated frequency values for the single trapped ^stem:[88^(Sr)]+^ ion quadrupole transition and the single trapped ^stem:[171^(Yb)]+^ octupole transition;
+      * an updated frequency value for the stem:["C"_(2)"H"_(2)]-stabilized standard at 1.54 µm;
+      * updated frequency values for the I~2~-stabilized standards at 543 nm and 515 nm.

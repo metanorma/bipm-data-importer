@@ -18,11 +18,11 @@ end
 CONSIDERATIONS = {
   /(?:having(?: regard)?|ayant|acceptant|concerne|referring|se référant|vu la|agissant conformément)/i => "having / having regard",
   /(?:noting|notes|observing|observant que|taking note|takes note|constatant|constate|that|note|notant|notant que|note également|(?:prend|prenant) (?:acte|note))/i => "noting",
-  /(?:recognizing|recognizes|reconnaissant|reconnaît)/i => "recognizing",
+  /(?:recognizing|recognizes|reconnaissant|reconnaît|acting in accordance)/i => "recognizing",
   /(?:acknowledging|accept(?:s|ing)|admet|entendu|empowered by|habilité par)/i => "acknowledging",
   /(?:(?:further )?recall(?:ing|s)|rappelant|rappelle)/i => "recalling / further recalling",
   /(?:re-?affirm(?:ing|s)|réaffirme)/i => "reaffirming",
-  /(?:consid(?:ering|érant|ers)|après examen|estime)/i => "considering",
+  /(?:consid(?:ering|érant|ers)|après examen|estime|is of the opinion)/i => "considering",
   /(?:taking into account|(prend|prenant) en considération|taking into consideration|tenant compte)/i => "taking into account",
   "pursuant to" => "pursuant to",
   /(?:bearing in mind)/i => "bearing in mind",
@@ -38,6 +38,7 @@ ACTIONS = {
   /(?:The unit of length is|Supplementary units|Principl?es|Les Délégués des États|Les v\u{9C}ux ou propositions)/i => "decides", # MISC - like declares/defines
   /(?:L'unité de longueur|Unités supplémentaires|New candle|New lumen|Definitions of|Cubic decimetre|Clarification of|Revision of)/i => "decides", # MISC - like declares/defines
   /(?:Unit of force|Définitions des|Décimètre cube|Étalons secondaires|Unité spéciale|Efficacités lumineuses)/i => "decides", # MISC - like declares/defines
+  /(?:Unité de force|(?:Joule|Watt|Ampere) \(unité?|Bougie nouvelle|Lumen nouveau)/i => "decides", # MISC - like declares/defines
   /(?:asks|souhaite)/i => "asks",
   /(?:further )?invites?|renouvelle en conséquence/i => "invites / further invites",
   "resolves" => "resolves",
@@ -50,8 +51,8 @@ ACTIONS = {
   /(?:urges|prie instamment)/i => "urges",
   /(?:appoints|autorise|empowers|charge|donne|habilite|Pendant la période)/i => "appoints",
   "resolves further" => "resolves further",
-  /(?:calls upon|attire l'attention|lance un appel)/i => "calls upon",
-  /(?:encourages?|espère)/i => "encourages",
+  /(?:calls upon|draws the attention|attire l'attention|lance un appel)/i => "calls upon",
+  /(?:encourages?|espère|proposes)/i => "encourages",
   /(?:affirms|reaffirming|réaffirmant|states|remarks|remarques)/i => "affirms / reaffirming",
 }
 

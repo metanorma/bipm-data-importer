@@ -34,35 +34,41 @@ resolutions:
       . Les unités photométriques peuvent être définies comme suit :
 
       |===
-  x-unparsed:
-  - Bougie nouvelle (unité d'intensité lumineuse) - La grandeur de la bougie nouvelle
-    est telle que la brillance du radiateur intégral à la température de solidification
-    du platine soit de 60 bougies nouvelles par centimètre carré.
-  - "Lumen nouveau (unité de flux lumineux) - Le lumen nouveau est le flux lumineux
-    émis dans l'angle solide unité (stéradian) par une source ponctuelle uniforme
-    ayant une intensité lumineuse de 1 bougie nouvelle.\n\n...\n\n\n\n\t        \n
-    \               \n                \n                \n                 \n                \n\n
-    \               \n                \n                \n                \n                \n\n\n\t\t\n\t\t\n
-    \               Référence :\n                \n                \n                \n
-    \               \n                \n                \n\n                Procès-verbaux
-    des séances du CIPM (1946), p. 119\n                \n\n\t\t\n\n                \n
-    \               \n\n                  \n\n\n                \n\t\t \n                \n
-    \               \n                \n\t\t    \n\t\t      \n\t\t\t\n\t\t\t\n\t\t\t
-    \ \n\t\t\t    \nNote:\n\t\t\t\tLes deux définitions contenues dans cette Résolution
-    furent ratifiées par la 9e CGPM en 1948, qui a en outre approuvé le nom de candela
-    donné à la « bougie nouvelle ». Pour le lumen, le qualificatif « nouveau » a été
-    abandonné par la suite. La définition de la candela a été modifiée par la 13e
-    CGPM en 1967 (Résolution 5).\n\t\t\t    \n\n\t\t\t  \n\t\t\t\n\t\t\t\n\t\t      \n\t\t
-    \   \n                \n                \n                \n\n                \n\n
-    \               \n\n    \t\n\n          \n\n                ...\n\nLes unités
-    photométriques peuvent être définies comme suit :"
-  - Bougie nouvelle (unité d'intensité lumineuse) - La grandeur de la bougie nouvelle
-    est telle que la brillance du radiateur intégral à la température de solidification
-    du platine soit de 60 bougies nouvelles par centimètre carré.
-  - |-
-    Lumen nouveau (unité de flux lumineux) - Le lumen nouveau est le flux lumineux émis dans l'angle solide unité (stéradian) par une source ponctuelle uniforme ayant une intensité lumineuse de 1 bougie nouvelle.
+  - type: decides
+    date_effective: 1946-01-01
+    message: Bougie nouvelle (unité d'intensité lumineuse) - La grandeur de la bougie
+      nouvelle est telle que la brillance du radiateur intégral à la température de
+      solidification du platine soit de 60 bougies nouvelles par centimètre carré.
+  - type: decides
+    date_effective: 1946-01-01
+    message: "Lumen nouveau (unité de flux lumineux) - Le lumen nouveau est le flux
+      lumineux émis dans l'angle solide unité (stéradian) par une source ponctuelle
+      uniforme ayant une intensité lumineuse de 1 bougie nouvelle.\n\n[start=5]\n.
+      ...\n| image::/utils/common/img/pix.gif[\"\",15,25] +\n\n[width=100%]\n|===\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^a| \n* * *\n\n| image::/utils/common/img/pix.gif[\"\",15]\n\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^| Référence : | image::/utils/common/img/pix.gif[\"\",15]\n|
+      image::/utils/common/img/pix.gif[\"\",15] ^| image::/utils/common/img/bullet1.gif[\"\",16,9]_Procès-verbaux
+      des séances du CIPM_ (1946), p. 119\n[[notes]]| image::/utils/common/img/pix.gif[\"\",15]
+      .<a| +\n\n[width=100%]\n|===\na| \n\n|===\n.<a| Note: +\n +\nLes deux définitions
+      contenues dans cette Résolution furent ratifiées par la cgpm-resolution:fr/9/7[9^e^
+      CGPM] en 1948, qui a en outre approuvé le nom de candela donné à la « bougie
+      nouvelle ». Pour le lumen, le qualificatif « nouveau » a été abandonné par la
+      suite. La définition de la candela a été modifiée par la 13^e^ CGPM en 1967
+      ( cgpm-resolution:fr/13/5[Résolution 5]).\n>.<| https://www.bipm.org/fr/publications/si-brochure/[image::/utils/common/img/si_110.jpg[]]\n\n|===\n\n|===\n\n|
+      image::/utils/common/img/pix.gif[\"\",15,25]\n\n|===\n +\n\n...\n\n[start=4]\n.
+      Les unités photométriques peuvent être définies comme suit :"
+  - type: decides
+    date_effective: 1946-01-01
+    message: Bougie nouvelle (unité d'intensité lumineuse) - La grandeur de la bougie
+      nouvelle est telle que la brillance du radiateur intégral à la température de
+      solidification du platine soit de 60 bougies nouvelles par centimètre carré.
+  - type: decides
+    date_effective: 1946-01-01
+    message: |-
+      Lumen nouveau (unité de flux lumineux) - Le lumen nouveau est le flux lumineux émis dans l'angle solide unité (stéradian) par une source ponctuelle uniforme ayant une intensité lumineuse de 1 bougie nouvelle.
 
-    ...
+      [start=5]
+      . ...
 - dates:
   - 1946-01-01
   title: Définitions des unités électriques
@@ -93,13 +99,27 @@ resolutions:
       . stem:[("A")] Définitions des unités mécaniques utilisées dans les définitions des unités électriques :
 
       |===
+  - type: decides
+    date_effective: 1946-01-01
+    message: Unité de force - L'unité de force [dans le système MKS (mètre, kilogramme,
+      seconde)] est la force qui communique à une masse de 1 kilogramme l'accélération
+      de 1 mètre par seconde, par seconde.
+  - type: decides
+    date_effective: 1946-01-01
+    message: Joule (unité d'énergie ou de travail) - Le joule est le travail effectué
+      lorsque le point d'application de 1 unité MKS de force [newton] se déplace d'une
+      distance égale à 1 mètre dans la direction de la force.
+  - type: decides
+    date_effective: 1946-01-01
+    message: Unité de force - L'unité de force [dans le système MKS (mètre, kilogramme,
+      seconde)] est la force qui communique à une masse de 1 kilogramme l'accélération
+      de 1 mètre par seconde, par seconde.
+  - type: decides
+    date_effective: 1946-01-01
+    message: Joule (unité d'énergie ou de travail) - Le joule est le travail effectué
+      lorsque le point d'application de 1 unité MKS de force [newton] se déplace d'une
+      distance égale à 1 mètre dans la direction de la force.
   x-unparsed:
-  - Unité de force - L'unité de force [dans le système MKS (mètre, kilogramme, seconde)]
-    est la force qui communique à une masse de 1 kilogramme l'accélération de 1 mètre
-    par seconde, par seconde.
-  - Joule (unité d'énergie ou de travail) - Le joule est le travail effectué lorsque
-    le point d'application de 1 unité MKS de force [newton] se déplace d'une distance
-    égale à 1 mètre dans la direction de la force.
   - |-
     Watt (unité de puissance) - Le watt est la puissance qui donne lieu à une production d'énergie égale à 1 joule par seconde.
     (B) Définitions des unités électriques. Le Comité [international] admet les propositions suivantes définissant la grandeur théorique des unités électriques :
@@ -139,12 +159,6 @@ resolutions:
     \     \n\t\t    \n                \n                \n                \n\n                \n\n
     \               \n\n    \t\n\n          \n\n                ...\n\n(A) Définitions
     des unités mécaniques utilisées dans les définitions des unités électriques :"
-  - Unité de force - L'unité de force [dans le système MKS (mètre, kilogramme, seconde)]
-    est la force qui communique à une masse de 1 kilogramme l'accélération de 1 mètre
-    par seconde, par seconde.
-  - Joule (unité d'énergie ou de travail) - Le joule est le travail effectué lorsque
-    le point d'application de 1 unité MKS de force [newton] se déplace d'une distance
-    égale à 1 mètre dans la direction de la force.
   - |-
     Watt (unité de puissance) - Le watt est la puissance qui donne lieu à une production d'énergie égale à 1 joule par seconde.
     (B) Définitions des unités électriques. Le Comité [international] admet les propositions suivantes définissant la grandeur théorique des unités électriques :
