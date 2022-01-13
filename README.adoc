@@ -1,0 +1,35 @@
+= BIPM data importer for CIPM and CGPM outcomes
+
+== Purpose
+
+Provides executables that help fetch CIPM and CGPM outcomes from the official
+BIPM website.
+
+
+== Usage
+
+To fetch CGPM outcomes:
+
+[source,sh]
+----
+$ bipm-fetch-cgpm
+----
+
+To fetch CIPM outcomes:
+
+[source,sh]
+----
+$ bipm-fetch-cipm
+----
+
+To fetch CIPM decisions:
+
+[source,sh]
+----
+$ bipm-fetch-cipm-decisions
+----
+
+
+== License
+
+Copyright Ribose. MIT license.

@@ -1,4 +1,4 @@
-require_relative 'common'
+require_relative 'lib/bipm-data-importer'
 
 a = Mechanize.new
 
@@ -35,7 +35,7 @@ resolutions = {}
       exists = true
 
       #p res.uri
-      Common.parse_resolution(res, res_id, date, :cipm)
+      Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cipm)
     end.compact
 
     next unless exists
