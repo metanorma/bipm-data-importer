@@ -1,4 +1,4 @@
-require_relative 'common'
+require_relative 'lib/bipm-data-importer'
 
 a = Mechanize.new
 
@@ -52,9 +52,9 @@ a = Mechanize.new
       binding.pry if (d = contenttr.css('div[align="right"]')).length != 1
       d.remove
 
-      Common.replace_links contenttr, meeting
+      Bipm::Data::Importer::Common.replace_links contenttr, meeting
 
-      part = Common.ng_to_string(contenttr.at_css('td[colspan]'))
+      part = Bipm::Data::Importer::Common.ng_to_string(contenttr.at_css('td[colspan]'))
       parse = Nokogiri::HTML(part).text.strip
 
       parse =~ /\A(((the|le|la|Le secrétaire du|Le président du|Les membres du|Le directeur du) +[BC][IG]PM( Director| President| Secretary| members)?|Dr May|W\.E\. May)[, ]+)/i
@@ -75,7 +75,7 @@ a = Mechanize.new
             r["considerations"] << {
               "type" => v,
               "date_effective" => date,
-              "message" => Common.format_message(part),
+              "message" => Bipm::Data::Importer::Common.format_message(part),
             }
           end
         end && break
@@ -85,7 +85,7 @@ a = Mechanize.new
             r["actions"] << {
               "type" => v,
               "date_effective" => date,
-              "message" => Common.format_message(part),
+              "message" => Bipm::Data::Importer::Common.format_message(part),
             }
           end
         end && break

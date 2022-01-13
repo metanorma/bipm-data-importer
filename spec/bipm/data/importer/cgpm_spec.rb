@@ -1,8 +1,13 @@
-require_relative "spec_helpers"
+require_relative "../../../spec_helper"
 
 RSpec.describe "data" do
-  $all_files = Dir[__dir__+"/../cgpm/meetings-*/*.yml"]
-  $all_data = $all_files.map(&YAML.method(:load_file))
+  $all_files = Dir[File.join(__dir__, '../../../../cgpm/meetings-*/*.yml')]
+
+  $all_data = $all_files.map do |f|
+    puts f
+    YAML.load_file(Pathname.new(f).expand_path.to_s)
+  end
+
   $all_resolutions = $all_data.map do |i|
     i["resolutions"]
   end.flatten
