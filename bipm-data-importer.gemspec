@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = "Importer for BIPM CGPM and CIPM content"
   spec.description = "Importer for BIPM CGPM and CIPM content"
   spec.homepage = "https://github.com/metanorma/bipm-data-importer"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 2.5.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/metanorma/bipm-data-importer"
