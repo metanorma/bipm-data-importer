@@ -33,8 +33,7 @@ module Bipm
             .gsub(/stem:\[(#{STEM})\]\^(#{MATH}{1,4})\^/, 'stem:[\1^(\2)]')
             .gsub(        /(#{DIGIT})\^(#{MATH}{1,4})\^/, 'stem:[\1^(\2)]')
             .gsub("π", "stem:[ pi ]") # The following may be buggy - may escape twice
-            .gsub("α", "stem:[ alpha ]")
-            #.gsub("µ", "stem:[ mu ]")
+            .gsub("α", "stem:[ alpha ]") #.gsub("µ", "stem:[ mu ]")
             .gsub("Δ", "stem:[ sf Delta ]")
             .gsub("ν", "stem:[ nu ]")
             .gsub(/stem:\[(#{STEM})\]~stem:\[(#{STEM})\]~/, 'stem:[\1_(\2)]') # Connectors for sub stems
