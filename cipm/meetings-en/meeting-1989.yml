@@ -1,11 +1,11 @@
 ---
 metadata:
   title: CIPM, 1989
-  date: 1989-01-01
+  date: '1989-01-01'
   source: BIPM - Pavillon de Breteuil
 resolutions:
 - dates:
-  - 1989-01-01
+  - '1989-01-01'
   title: The International Temperature Scale of 1990
   identifier: 5
   url: https://www.bipm.org/en/CIPM/db/1989/5/
@@ -18,7 +18,7 @@ resolutions:
       The Comité International des Poids et Mesures (CIPM)
   considerations:
   - type: recognizing
-    date_effective: 1989-01-01
+    date_effective: '1989-01-01'
     message: |-
       acting in accordance with cgpm-resolution:en/18/7[Resolution 7] of the 18th Conférence Générale des Poids et Mesures (1987) has adopted the International Temperature Scale of 1990 ( https://www.bipm.org/en/publications/its-90.html[ITS-90]) to supersede the International Practical Temperature Scale of 1968 (IPTS-68).
 

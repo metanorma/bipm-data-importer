@@ -1,11 +1,11 @@
 ---
 metadata:
   title: CIPM, 2002
-  date: 2002-01-01
+  date: '2002-01-01'
   source: BIPM - Pavillon de Breteuil
 resolutions:
 - dates:
-  - 2002-01-01
+  - '2002-01-01'
   title: Revision of the practical realization of the definition of the metre
   identifier: 1
   url: https://www.bipm.org/en/CIPM/db/2002/1/
@@ -17,7 +17,7 @@ resolutions:
   considerations: []
   actions: []
 - dates:
-  - 2002-01-01
+  - '2002-01-01'
   title: Dose equivalent
   identifier: 2
   url: https://www.bipm.org/en/CIPM/db/2002/2/
@@ -30,7 +30,7 @@ resolutions:
       The International Committee for Weights and Mesures
   considerations:
   - type: considering
-    date_effective: 2002-01-01
+    date_effective: '2002-01-01'
     message: |-
       *considering* that
 
@@ -41,7 +41,7 @@ resolutions:
       * the current SI definition of stem:[H] including the factor stem:[N] is causing some confusion,
   actions:
   - type: decides
-    date_effective: 2002-01-01
+    date_effective: '2002-01-01'
     message: |-
       *decides* to change the explanation in the brochure "Le Système International d'Unités (SI)" to the following:
 

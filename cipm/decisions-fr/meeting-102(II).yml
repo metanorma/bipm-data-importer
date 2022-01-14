@@ -1,12 +1,12 @@
 ---
 metadata:
   title: 102(II)
-  date: 2013-10-01
+  date: '2013-10-01'
   source: BIPM - Pavillon de Breteuil
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
 resolutions:
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-27
   identifier: 102-27
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -14,12 +14,12 @@ resolutions:
   considerations: []
   actions:
   - type: approves
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: approuve les procès-verbaux de la première partie de la 102^e^ session
       du CIPM.
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-28
   identifier: 102-28
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -27,7 +27,7 @@ resolutions:
   considerations: []
   actions:
   - type: decides
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: décide, en se fondant sur les critères qu'il a précédemment adoptés,
       qu'il serait approprié pour l'ex-République yougoslave de Macédoine et pour
       la République de Moldova d'accéder à la Convention du Mètre. Le BIPM les informera
@@ -37,7 +37,7 @@ resolutions:
       si ces États choisissaient de rester Associés à la CGPM.
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-29
   identifier: 102-29
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -45,7 +45,7 @@ resolutions:
   considerations: []
   actions:
   - type: requests
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: demandera aux présidents des Comités consultatifs de répondre aux commentaires
       formulés par les directeurs des laboratoires nationaux de métrologie, les organisations
       régionales de métrologie ou les représentants d'États Membres au sujet de leur
@@ -53,21 +53,21 @@ resolutions:
       consultatifs seront aidés dans cette tâche par leur secrétaire exécutif.
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-30
   identifier: 102-30
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
   considerations:
   - type: acknowledging
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: accepte les changements proposés par W.E. May concernant le document
       _« Criteria and Process for Election of CIPM Members »_. La version révisée,
       datée du 25 octobre 2013, sera publiée sur la page internet du CIPM.
   actions: []
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-31
   identifier: 102-31
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -75,7 +75,7 @@ resolutions:
   considerations: []
   actions:
   - type: requests
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: demande au BIPM de préparer une décision qui sera soumise à son approbation
       lors de sa prochaine réunion et qui prévoit l'application de la nouvelle procédure
       d'élection du CIPM tel que prévu à l'étape 5 du document _« Criteria and Process
@@ -85,7 +85,7 @@ resolutions:
       s'ils n'étaient pas réélus.)
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-32
   identifier: 102-32
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -93,14 +93,14 @@ resolutions:
   considerations: []
   actions:
   - type: approves
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: approuve la proposition d'organiser la prochaine réunion de la Conférence
       générale des poids et mesures (CGPM) sur trois jours et de la faire précéder
       d'une journée préparatoire, le lundi de la semaine de la réunion de la CGPM.
       La prochaine réunion de la CGPM se tiendra au Palais des Congrès de Versailles.
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-33
   identifier: 102-33
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -108,14 +108,14 @@ resolutions:
   considerations: []
   actions:
   - type: appoints
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: confie au bureau du CIPM la mission de préparer la Convocation et les
       Résolutions de la 25^e^ réunion de la Conférence générale des poids et mesures
       (CGPM), à partir des projets de documents discutés lors de la réunion du CIPM
       et en tenant compte des commentaires formulés par le CIPM, et de les faire circuler.
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-34
   identifier: 102-34
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -123,14 +123,14 @@ resolutions:
   considerations: []
   actions:
   - type: decides
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: décide de déléguer au Sous-comité permanent du CIPM sur les finances
       la responsabilité de vérifier les états financiers du BIPM et de la Caisse de
       retraite et de prévoyance du BIPM. Le CIPM, sur les conseils du Sous-comité,
       approuvera de façon définitive les états financiers par correspondance.
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-35
   identifier: 102-35
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -138,13 +138,13 @@ resolutions:
   considerations: []
   actions:
   - type: approves
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: approuve la publication en ligne du _Rapport annuel aux Gouvernements
       des Hautes Parties contractantes sur la situation administrative et financière
       du Bureau international des poids et mesures._
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-36
   identifier: 102-36
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -152,13 +152,13 @@ resolutions:
   considerations: []
   actions:
   - type: approves
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: approuve le budget du BIPM proposé pour 2014 et entérine la décision
       de présenter les dépenses de fonctionnement et celles d'investissement de façon
       distincte.
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-37
   identifier: 102-37
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -166,20 +166,20 @@ resolutions:
   considerations: []
   actions:
   - type: appoints
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: autorise le directeur du BIPM à appliquer les normes IPSAS 28, IPSAS
       29 et IPSAS 30 sur les instruments financiers pour les états financiers de 2013
       de la Caisse de retraite et de prévoyance du BIPM.
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-38
   identifier: 102-38
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
   considerations:
   - type: noting
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: note la Recommandation G1 (2013) « Sur une nouvelle définition du kilogramme
       » du Comité consultatif pour la masse et les grandeurs apparentées (CCM) et
       approuve la nouvelle déclaration d'activités du CCM, les termes de référence
@@ -190,7 +190,7 @@ resolutions:
   actions: []
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-39
   identifier: 102-39
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -198,14 +198,14 @@ resolutions:
   considerations: []
   actions:
   - type: appoints
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: 'donne son accord de principe à la proposition du président du Comité
       consultatif pour la quantité de matière : métrologie en chimie (CCQM) visant
       à réorganiser la structure du CCQM et à changer le nom du Comité afin de prendre
       davantage en compte la biologie dans son champ d''activités.'
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-40
   identifier: 102-40
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -213,7 +213,7 @@ resolutions:
   considerations: []
   actions:
   - type: approves
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: après avoir discuté du rapport du président du Comité consultatif des
       rayonnements ionisants (CCRI), soutient la poursuite de la comparaison clé de
       dosimétrie dans des faisceaux d'accélérateurs, tel que prévu pour la période
@@ -222,7 +222,7 @@ resolutions:
       ce domaine par les laboratoires nationaux de métrologie.
   subject: Le CIPM,
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-41
   identifier: 102-41
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -230,12 +230,12 @@ resolutions:
   considerations: []
   actions:
   - type: appoints
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: nomme le Professeur Joachim Ullrich président du Comité consultatif des
       unités (CCU) à compter du 1er janvier 2014.
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-42
   identifier: 102-42
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -243,7 +243,7 @@ resolutions:
   considerations: []
   actions:
   - type: approves
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: |-
       approuve les changements suivants concernant la composition des Comités consultatifs :
 
@@ -253,7 +253,7 @@ resolutions:
       * ENEA-INRIM (Italie) devient observateur de la Section III du CCRI.
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-43
   identifier: 102-43
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -261,7 +261,7 @@ resolutions:
   considerations: []
   actions:
   - type: approves
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: |-
       approuve les changements suivants concernant certains documents relatifs au CIPM MRA :
 
@@ -270,14 +270,14 @@ resolutions:
       * Document « Designated Institutes in the CIPM MRA » : nouveau document fournissant des informations sur le rôle et les obligations des laboratoires désignés et incluant un formulaire de désignation révisé qui permet de distinguer plus clairement les domaines métrologiques relevant de la responsabilité des laboratoires désignés. Ce nouveau document remplace l'ancien formulaire intitulé « Request for Designation Information ».
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-44
   identifier: 102-44
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
   considerations:
   - type: noting
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: "note qu'il est nécessaire de procéder, de façon assez urgente, à un
       examen de l'efficacité et de l'efficience du CIPM MRA et demande aux Comités
       consultatifs et au Comité mixte des organisations régionales de métrologie et
@@ -294,14 +294,14 @@ resolutions:
   actions: []
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-45
   identifier: 102-45
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2013-FR.pdf
   considerations:
   - type: acknowledging
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: accepte le principe selon lequel le BIPM devrait établir un équipement
       de résonance magnétique nucléaire, sous réserve du soutien d'une tierce partie,
       et demande à cette fin au bureau du CIPM d'examiner le document « Principes
@@ -310,7 +310,7 @@ resolutions:
   actions: []
   subject: Le CIPM
 - dates:
-  - 2013-10-01
+  - '2013-10-01'
   title: Décision CIPM/102-46
   identifier: 102-46
   url: https://www.bipm.org/fr/committees/cipm/meeting/102(II).html
@@ -318,6 +318,6 @@ resolutions:
   considerations: []
   actions:
   - type: decides
-    date_effective: 2013-10-01
+    date_effective: '2013-10-01'
     message: décide de tenir sa prochaine réunion en mars 2014.
   subject: Le CIPM

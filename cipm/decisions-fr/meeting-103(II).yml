@@ -1,12 +1,12 @@
 ---
 metadata:
   title: 103(II)
-  date: 2014-11-01
+  date: '2014-11-01'
   source: BIPM - Pavillon de Breteuil
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
 resolutions:
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-24
   identifier: 103-24
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -14,12 +14,12 @@ resolutions:
   considerations: []
   actions:
   - type: approves
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: approuve les procès-verbaux de la première partie de la 103e session
       du CIPM.
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-25
   identifier: 103-25
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -27,13 +27,13 @@ resolutions:
   considerations: []
   actions:
   - type: decides
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: décide de différer l'action requise par la Décision CIPM/103-22 jusqu'à
       la prochaine session du CIPM, en mars 2015. Le BIPM transmettra aux membres
       du CIPM les notes sur la terminologie préparées par S. Arlen et par T.J. Quinn.
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-26
   identifier: 103-26
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -41,7 +41,7 @@ resolutions:
   considerations: []
   actions:
   - type: decides
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: décide, en se fondant sur les critères qu'il a précédemment adoptés,
       qu'il serait approprié pour la République d'Estonie, la Géorgie, la République
       du Paraguay et la République du Pérou d'accéder à la Convention du Mètre. Le
@@ -51,7 +51,7 @@ resolutions:
       leur souscription si ces États choisissaient de rester Associés à la CGPM.
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-27
   identifier: 103-27
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -59,14 +59,14 @@ resolutions:
   considerations: []
   actions:
   - type: confirms
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: confirme qu'il a approuvé les états financiers audités du BIPM et de
       la Caisse de retraite et de prévoyance du BIPM par correspondance en juin 2014
       et réitère son approbation. Le CIPM donne quitus de sa gestion au directeur,
       au titre de l'exercice financier 2013.
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-28
   identifier: 103-28
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -74,25 +74,25 @@ resolutions:
   considerations: []
   actions:
   - type: approves
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: approuve le budget proposé pour 2015.
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-29
   identifier: 103-29
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations:
   - type: noting
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: prend note de la décision du Comité consultatif pour la masse et les
       grandeurs apparentées (CCM) de fusionner ses Groupes de travail sur la pression
       et le vide, ainsi que ceux sur la masse volumique et la viscosité.
   actions: []
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-30
   identifier: 103-30
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -100,7 +100,7 @@ resolutions:
   considerations: []
   actions:
   - type: approves
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: soutient la proposition de la CODATA de fixer au 1er juillet 2017 la
       date limite de soumission de données expérimentales que le _CODATA Task Group
       on Fundamental Constants_ utilisera pour l'évaluation des constantes fondamentales
@@ -109,7 +109,7 @@ resolutions:
       concernant le logo du SI.
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-31
   identifier: 103-31
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -117,7 +117,7 @@ resolutions:
   considerations: []
   actions:
   - type: approves
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: soutient le BIPM afin qu'il travaille à la Phase II de la campagne extraordinaire
       d'étalonnage de masses avec le prototype international du kilogramme et afin
       qu'il dissémine des valeurs corrigées pour les étalonnages passés réalisés par
@@ -126,7 +126,7 @@ resolutions:
       et les grandeurs apparentées (CCM).
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-32
   identifier: 103-32
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -134,12 +134,12 @@ resolutions:
   considerations: []
   actions:
   - type: approves
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: approuve la politique proposée (document CIPM/14-11) concernant la participation
       à la CGPM.
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-33
   identifier: 103-33
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -147,12 +147,12 @@ resolutions:
   considerations: []
   actions:
   - type: appoints
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: nomme W. Louw prochain président du Comité consultatif des rayonnements
       ionisants (CCRI).
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-34
   identifier: 103-34
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -160,19 +160,19 @@ resolutions:
   considerations: []
   actions:
   - type: appoints
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: nomme T. Usuda prochain président du Comité consultatif de l'acoustique,
       des ultrasons et des vibrations (CCAUV).
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-35
   identifier: 103-35
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations:
   - type: acknowledging
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: "accepte les changements suivants concernant les Comités consultatifs
       :\n\n* CCPR \n** CMI (République Tchèque): membre \n** CMS/ITRI (Taipei chinois):
       observateur \n** MKEH (Hongrie) : retrait en tant que membre \n* CCRI\n** SMU
@@ -183,20 +183,20 @@ resolutions:
   actions: []
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-36
   identifier: 103-36
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations:
   - type: noting
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: prend note de la décision du Comité consultatif de thermométrie (CCT)
       de réorganiser ses groupes de travail et de la Recommandation T1 (2014) du CCT.
   actions: []
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-37
   identifier: 103-37
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -204,7 +204,7 @@ resolutions:
   considerations: []
   actions:
   - type: requests
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: "demande à W.E. May de transmettre aux membres du CIPM la demande d'exception
       de traçabilité soumise par le Comité consultatif pour la quantité de matière
       : métrologie en chimie et biologie (CCQM) concernant les unités δ(\x89), représentant
@@ -212,14 +212,14 @@ resolutions:
       puisse être prise."
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-38
   identifier: 103-38
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations:
   - type: considering
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: considère que le Comité commun pour la traçabilité en médecine de laboratoire
       (JCTLM) devrait continuer à faire la distinction entre les membres du JCTLM
       et ses parties prenantes, afin d'éviter tout conflit d'intérêt et assurer la
@@ -227,14 +227,14 @@ resolutions:
   actions: []
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-39
   identifier: 103-39
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
   reference: https://www.bipm.org/utils/fr/pdf/CIPM/CIPM2014-FR.pdf
   considerations:
   - type: noting
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: prend note du fait que le BIPM a été informé de deux transferts bancaires
       effectués par le _National Standards Organization of Iran_ aux fins du paiement
       en totalité des sommes dues par l'Iran pour les années 2013 et 2014 et qu'étant
@@ -249,7 +249,7 @@ resolutions:
   actions: []
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-40
   identifier: 103-40
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -257,7 +257,7 @@ resolutions:
   considerations: []
   actions:
   - type: appoints
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: |-
       nomme :
 
@@ -265,7 +265,7 @@ resolutions:
       * J.W. McLaren, en qualité de représentant du CIPM, pour participer avec S. Westwood, BIPM, au Groupe de travail de l'Organisation internationale de normalisation (ISO) en charge de réviser le Guide ISO 34.
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-41
   identifier: 103-41
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -273,14 +273,14 @@ resolutions:
   considerations: []
   actions:
   - type: approves
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: convient de réfléchir à des thèmes à examiner lors de l'atelier commun
       au BIPM et à VAMAS sur les défis dans le domaine de la métrologie des matériaux,
       prévu en 2016, et de faire des suggestions avant la fin de janvier 2015 afin
       de donner des orientations au comité d'organisation de l'atelier.
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-42
   identifier: 103-42
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -288,12 +288,12 @@ resolutions:
   considerations: []
   actions:
   - type: approves
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: approuve les amendements proposés (document CIPM/14-10) aux Statut, Règlement
       et Instructions applicables aux membres du personnel du BIPM (SRI).
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-43
   identifier: 103-43
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -301,7 +301,7 @@ resolutions:
   considerations: []
   actions:
   - type: approves
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: convient d'établir un consortium de laboratoires nationaux de métrologie
       et autres instituts, qui sera coordonné par le NIST, et qui aura pour objectif
       de faciliter les nouveaux travaux visant à résoudre le désaccord actuel entre
@@ -310,7 +310,7 @@ resolutions:
       participant à ces travaux.
   subject: Le CIPM
 - dates:
-  - 2014-11-01
+  - '2014-11-01'
   title: Décision CIPM/103-44
   identifier: 103-44
   url: https://www.bipm.org/fr/committees/cipm/meeting/103(II).html
@@ -318,7 +318,7 @@ resolutions:
   considerations: []
   actions:
   - type: decides
-    date_effective: 2014-11-01
+    date_effective: '2014-11-01'
     message: transmettra aux membres du CIPM le document « _Guidelines for the selection
       of CC Presidents_ ».
   subject: W.E. May

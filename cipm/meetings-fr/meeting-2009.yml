@@ -1,11 +1,11 @@
 ---
 metadata:
   title: CIPM, 2009
-  date: 2009-01-01
+  date: '2009-01-01'
   source: BIPM - Pavillon de Breteuil
 resolutions:
 - dates:
-  - 2009-01-01
+  - '2009-01-01'
   title: Concernant l'adoption d'un système de référence terrestre commun par la Conférence
     générale des poids et mesures
   identifier: 1
@@ -17,7 +17,7 @@ resolutions:
   considerations: []
   actions: []
 - dates:
-  - 2009-01-01
+  - '2009-01-01'
   title: Mises à jour de la liste des fréquences étalons
   identifier: 2
   url: https://www.bipm.org/fr/CIPM/db/2009/2/
@@ -28,7 +28,7 @@ resolutions:
   considerations: []
   actions: []
 - dates:
-  - 2009-01-01
+  - '2009-01-01'
   title: Alignement des références géodésiques et synchronisation des références de
     temps par rapport aux références internationales
   identifier: 3
@@ -40,7 +40,7 @@ resolutions:
   considerations: []
   actions: []
 - dates:
-  - 2009-01-01
+  - '2009-01-01'
   title: Au sujet de la faiblesse de la définition actuelle de l'UTC
   identifier: 4
   url: https://www.bipm.org/fr/CIPM/db/2009/4/

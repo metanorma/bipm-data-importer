@@ -1,11 +1,11 @@
 ---
 metadata:
   title: CIPM, 1961
-  date: 1961-01-01
+  date: '1961-01-01'
   source: BIPM - Pavillon de Breteuil
 resolutions:
 - dates:
-  - 1961-01-01
+  - '1961-01-01'
   title: Décimètre cube et litre
   identifier: 0
   url: https://www.bipm.org/fr/CIPM/db/1961/0/
@@ -19,6 +19,6 @@ resolutions:
   considerations: []
   actions:
   - type: recommends
-    date_effective: 1961-01-01
+    date_effective: '1961-01-01'
     message: recommande que les résultats des mesures précises de volume soient exprimés
       en unités du Système international et non en litres.

@@ -1,11 +1,11 @@
 ---
 metadata:
   title: CIPM, 1969
-  date: 1969-01-01
+  date: '1969-01-01'
   source: BIPM - Pavillon de Breteuil
 resolutions:
 - dates:
-  - 1969-01-01
+  - '1969-01-01'
   title: Système International d'Unités, Rules for application of Resolution 12  of
     the 11th CGPM (1960)
   identifier: 1
@@ -19,13 +19,13 @@ resolutions:
       The Comité International des Poids et Mesures,
   considerations:
   - type: considering
-    date_effective: 1969-01-01
+    date_effective: '1969-01-01'
     message: considering that cgpm-resolution:en/11/12[Resolution 12] of the 11th
       Conférence Générale des Poids et Mesures (CGPM) (1960), concerning the Système
       International d'Unités, has provoked discussions on certain of its aspects,
   actions:
   - type: decides
-    date_effective: 1969-01-01
+    date_effective: '1969-01-01'
     message: |-
       declares
 
