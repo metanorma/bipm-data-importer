@@ -1,12 +1,12 @@
 ---
 metadata:
   title: 'Résolutions de la CGPM : 7e réunion'
-  date: 1927-10-06
+  date: '1927-10-06'
   source: BIPM - Pavillon de Breteuil
   url: https://www.bipm.org/fr/CGPM/db/7
 resolutions:
 - dates:
-  - 1927-10-06
+  - '1927-10-06'
   title: Définition du mètre par le Prototype international
   identifier: 1
   url: https://www.bipm.org/fr/CGPM/db/7/1/
@@ -18,7 +18,7 @@ resolutions:
   considerations: []
   actions:
   - type: decides
-    date_effective: 1927-10-06
+    date_effective: '1927-10-06'
     message: L'unité de longueur est le mètre, défini par la distance, à 0°, des axes
       des deux traits médians tracés sur la barre de platine iridié déposée au Bureau
       international des poids et mesures, et déclarée Prototype du mètre par la Première

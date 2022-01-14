@@ -1,12 +1,12 @@
 ---
 metadata:
   title: 'Résolutions de la CGPM : 3e réunion'
-  date: 1901-10-22
+  date: '1901-10-22'
   source: BIPM - Pavillon de Breteuil
   url: https://www.bipm.org/fr/CGPM/db/3
 resolutions:
 - dates:
-  - 1901-10-22
+  - '1901-10-22'
   title: Déclaration concernant la définition du litre
   identifier: 1
   url: https://www.bipm.org/fr/CGPM/db/3/1/
@@ -18,7 +18,7 @@ resolutions:
   considerations: []
   actions:
   - type: decides
-    date_effective: 1901-10-22
+    date_effective: '1901-10-22'
     message: |-
       La Conférence déclare :
 
@@ -27,7 +27,7 @@ resolutions:
 
       La Conférence charge le Comité international de faire poursuivre au Bureau les mesures destinées à faire encore mieux connaître le rapport de ces deux grandeurs, et de publier le plus tôt possible les résultats des recherches déjà effectuées au Bureau, afin de permettre d'utiliser à l'avenir, dans les travaux scientifiques ou techniques de haute précision, la valeur la plus probable de ce rapport.
 - dates:
-  - 1901-10-22
+  - '1901-10-22'
   title: Déclaration relative à l'unité de masse et à la définition du poids ; valeur
     conventionnelle de gn
   identifier: 2
@@ -39,22 +39,22 @@ resolutions:
     message: Unanimous
   considerations:
   - type: having / having regard
-    date_effective: 1901-10-22
+    date_effective: '1901-10-22'
     message: "*Vu* la décision du Comité international des poids et mesures du 15
       octobre 1887, par laquelle le kilogramme a été défini comme unité de masse ;"
   - type: having / having regard
-    date_effective: 1901-10-22
+    date_effective: '1901-10-22'
     message: "*Vu* la décision contenue dans la formule de sanction des prototypes
       du Système métrique, acceptée à l'unanimité par la Conférence générale des poids
       et mesures dans sa réunion du 26 septembre 1889 ;"
   - type: considering
-    date_effective: 1901-10-22
+    date_effective: '1901-10-22'
     message: "*Considérant* la nécessité de faire cesser l'ambiguïté qui existe encore
       dans l'usage courant sur la signification du terme _poids_, employé tantôt dans
       le sens du terme _masse_, tantôt dans le sens du terme _effort mécanique_ ;"
   actions:
   - type: decides
-    date_effective: 1901-10-22
+    date_effective: '1901-10-22'
     message: |-
       *La Conférence déclare :*
 

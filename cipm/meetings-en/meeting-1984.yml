@@ -1,11 +1,11 @@
 ---
 metadata:
   title: CIPM, 1984
-  date: 1984-01-01
+  date: '1984-01-01'
   source: BIPM - Pavillon de Breteuil
 resolutions:
 - dates:
-  - 1984-01-01
+  - '1984-01-01'
   title: Concerning the sievert
   identifier: 1
   url: https://www.bipm.org/en/CIPM/db/1984/1/
@@ -18,13 +18,13 @@ resolutions:
       The Comité International des Poids et Mesures,
   considerations:
   - type: considering
-    date_effective: 1984-01-01
+    date_effective: '1984-01-01'
     message: considering the confusion which continues to exist on the subject of
       cgpm-resolution:en/16/5[Resolution 5, approved by the 16th Conférence Générale
       des Poids et Mesures (1979)],
   actions:
   - type: decides
-    date_effective: 1984-01-01
+    date_effective: '1984-01-01'
     message: |-
       decides to introduce the following explanation in the brochure "Le Système International d'Unités (SI)": +
 

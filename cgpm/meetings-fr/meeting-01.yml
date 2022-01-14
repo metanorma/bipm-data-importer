@@ -1,12 +1,12 @@
 ---
 metadata:
   title: 'Résolutions de la CGPM : 1re réunion'
-  date: 1889-09-28
+  date: '1889-09-28'
   source: BIPM - Pavillon de Breteuil
   url: https://www.bipm.org/fr/CGPM/db/1
 resolutions:
 - dates:
-  - 1889-09-28
+  - '1889-09-28'
   title: Sanction des prototypes internationaux du mètre et du kilogramme
   identifier: 1
   url: https://www.bipm.org/fr/CGPM/db/1/1/
@@ -17,7 +17,7 @@ resolutions:
     message: La Conférence générale,
   considerations:
   - type: considering
-    date_effective: 1889-09-28
+    date_effective: '1889-09-28'
     message: considérant le « Compte rendu du Président du Comité international »
       et le « Rapport du Comité international des poids et mesures », d'où il résulte
       que, par les soins communs de la Section française de la Commission internationale
@@ -26,35 +26,35 @@ resolutions:
       et du kilogramme ont été exécutées dans toutes les conditions de garantie et
       de précision que comporte l'état actuel de la science ;
   - type: considering
-    date_effective: 1889-09-28
+    date_effective: '1889-09-28'
     message: considérant que les prototypes internationaux et nationaux du mètre et
       du kilogramme sont formés de platine allié à 10 pour 100 d'iridium, à 0,0001
       près ;
   - type: considering
-    date_effective: 1889-09-28
+    date_effective: '1889-09-28'
     message: considérant l'identité de longueur du Mètre et l'identité de la masse
       du Kilogramme internationaux avec la longueur du Mètre et la masse du Kilogramme
       déposés aux Archives de France ;
   - type: considering
-    date_effective: 1889-09-28
+    date_effective: '1889-09-28'
     message: considérant que les équations des Mètres nationaux, par rapport au Mètre
       international, sont renfermées dans la limite de 0,01 millimètre et que ces
       équations reposent sur une échelle thermométrique à hydrogène qu'il est toujours
       possible de reproduire, à cause de la permanence de l'état de ce corps, en se
       plaçant dans des conditions identiques ;
   - type: considering
-    date_effective: 1889-09-28
+    date_effective: '1889-09-28'
     message: considérant que les équations des Kilogrammes nationaux, par rapport
       au Kilogramme international, sont renfermées dans la limite de 1 milligramme
       ;
   - type: considering
-    date_effective: 1889-09-28
+    date_effective: '1889-09-28'
     message: considérant que le Mètre et le Kilogramme internationaux et que les Mètres
       et les Kilogrammes nationaux remplissent les conditions exigées par la Convention
       du Mètre ;
   actions:
   - type: decides
-    date_effective: 1889-09-28
+    date_effective: '1889-09-28'
     message: |-
       *sanctionne*
 
