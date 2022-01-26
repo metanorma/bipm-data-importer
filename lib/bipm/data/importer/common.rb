@@ -6,7 +6,7 @@ require 'fileutils'
 require_relative 'asciimath'
 
 VCR.configure do |c|
-  c.cassette_library_dir = 'cassettes'
+  c.cassette_library_dir = __dir__+'/../../../../cassettes'
   c.hook_into :webmock
 end
 
@@ -65,9 +65,14 @@ module Bipm
       SUFFIX=/ (?:that|que)\b|(?: (?:the |that |le |que les )?((?:[A-Z]|national|laboratoires).{0,80}?)(?: to)?\b|)/
 
       module Common
-        def replace_links ps, res
+        def replace_links ps, res, lang
           ps.css('a[href]').each do |a|
             href = a.attr('href')
+
+            href = href.gsub(%r'\Ahttps://www.bipm.org/', '')
+
+            # Correct links
+            href = href.gsub('/web/guest/', "/#{lang}/")
 
             # Account for some mistakes from an upstream document
             href = href.gsub(%r"\A/jen/", '/en/')
@@ -75,7 +80,8 @@ module Bipm
 
             href = case href
             when %r'\A/(\w{2})/CGPM/db/(\d+)/(\d+)/(#.*)?\z',
-                %r'\A/jsp/(\w{2})/ViewCGPMResolution\.jsp\?CGPM=(\d+)&RES=(\d+)(#.*)?\z'
+                 %r'\A/jsp/(\w{2})/ViewCGPMResolution\.jsp\?CGPM=(\d+)&RES=(\d+)(#.*)?\z',
+                 %r'\A/(\w{2})/committees/cg/cgpm/(\d+)-\d+/resolution-(\d+)(#.*)?\z',
               "cgpm-resolution:#{$1}/#{$2}/#{$3}#{$4}"
             when %r'\A/(\w{2})/CIPM/db/(\d+)/(\d+)/(#.*)?\z'
               "cipm-resolution:#{$1}/#{$2}/#{$3}#{$4}"
@@ -140,16 +146,16 @@ module Bipm
           ps.inner_html.encode('utf-8').gsub("\r", '').gsub(%r'</?nobr>','')
         end
 
-        def parse_resolution res, res_id, date, type = :cgpm
+        def parse_resolution res, res_id, date, type = :cgpm, lang = 'en'
           # Reparse the document after fixing upstream syntax
           fixed_body = res.body.gsub("<name=", "<a name=")
-          ng = Nokogiri::HTML(fixed_body, res.uri.to_s, "iso-8859-1", Nokogiri::XML::ParseOptions.new.default_html.noent)
+          ng = Nokogiri::HTML(fixed_body, res.uri.to_s, "utf-8", Nokogiri::XML::ParseOptions.new.default_html.noent)
 
-          refs = ng.css('a.intros[href*=".pdf"]')
+          refs = ng.css('.publication-card_reference a')
 
           r = {
             "dates" => [date],
-            "title" => ng.at_css(".txt12pt .SousTitre").text.strip.gsub(/\*\Z/, ''),
+            "title" => ng.css("h1").last.text.strip.gsub(/\*\Z/, ''),
             "identifier" => res_id,
             "url" => res.uri.to_s,
             "reference" => nil,
@@ -170,17 +176,12 @@ module Bipm
             r.delete("reference")
           end
 
-          ps = case type
-          when :cgpm
-            ng.css('td.txt12pt:not([align])')
-          when :cipm
-            ng.css('td.txt12pt td.txt12pt')
-          end
+          ps = ng.css('div.journal-content-article')
 
           #binding.pry if ps.count != 1
 
           # Replace links
-          Common.replace_links(ps, res)
+          Common.replace_links(ps, res, lang)
 
           # Replace a group of centers (> 1) with a table
           Common.replace_centers(ps)
