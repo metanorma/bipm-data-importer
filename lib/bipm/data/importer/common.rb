@@ -19,9 +19,9 @@ module Bipm
         /(?:noting|took note|note[sd]?|observing|observant que|taking note|takes note|constatant|constate|that|notant|notant que|note également|(?:prend|prenant) (?:acte|note))/i => "noting",
         /(?:recognizing|recognizes|reconnaissant|reconnaît|acting in accordance|conformément à)/i => "recognizing",
         /(?:acknowledging|accept(?:s|ed|ing|e)|admet|entendu|empowered by|habilité par)/i => "acknowledging",
-        /(?:(?:further )?recall(?:ing|s)|rappelant|rappelle)/i => "recalling / further recalling",
+        /(?:(?:further )?recall(?:ing|s)|rappelant|rappelle|rappelantla)/i => "recalling / further recalling",
         /(?:re-?affirm(?:ing|s)|réaffirme)/i => "reaffirming",
-        /(?:consid(?:ering|érant|ère|ers|ered)|après examen|estime|is of the opinion|examinera)/i => "considering",
+        /(?:consid(?:ering|érant|ère|ers|ered|érantque|érantle)|après examen|estime|is of the opinion|examinera)/i => "considering",
         /(?:taking into account|(prend|prenant) en considération|taking into consideration|tenant compte)/i => "taking into account",
         "pursuant to" => "pursuant to",
         /(?:bearing in mind)/i => "bearing in mind",
@@ -30,12 +30,12 @@ module Bipm
       }
 
       ACTIONS = {
-        /(?:adopts|adopted?|convient d'adopter)/ => "adopts",
+        /(?:adopts|adopt[eé]d?|convient d'adopter)/ => "adopts",
         /(?:thanks|thanked|expresse[sd](?:[ -]| its )appreciation|appréciant|pays tribute|rend hommage|remercie)/i => "thanks / expresses-appreciation",
         /(?:approu?ve[ds]?|approuv[ae]nt|approving|entérine|agreed?|supported|soutient|exprime son accord|n'est pas d'accord|convient)/i => "approves",
-        /(?:d[eé]cid(?:e[ds]?|é)|ratifies?|judges|d[ée]clares?|d[ée]finition|sanction(?:s|ne))/i => "decides",
-        /(?:The unit of length is|Supplementary units|Principl?es|Les Délégués des États|Les v\u{9C}ux ou propositions)/i => "decides", # MISC - like declares/defines
-        /(?:L'unité de longueur|Unités supplémentaires|New candle|New lumen|Definitions of|Cubic decimetre|Clarification of|Revision of)/i => "decides", # MISC - like declares/defines
+        /(?:d[eé]cid(?:e[ds]?|é)|ratifies?|judges|d[ée]clares?|d[ée]finition|sanction(?:s|né?e))/i => "decides",
+        /(?:The unit of length is|Supplementary units|Derived units|Principl?es|Les Délégués des États|Les v(?:œ|\u{9C})ux ou propositions)/i => "decides", # MISC - like declares/defines
+        /(?:L'unité de longueur|Unités supplémentaires|Unités dérivées|New candle|New lumen|Definitions of|Cubic decimetre|Clarification of|Revision of)/i => "decides", # MISC - like declares/defines
         /(?:Unit of force|Définitions des|Décimètre cube|Étalons secondaires|Unité spéciale|Efficacités lumineuses)/i => "decides", # MISC - like declares/defines
         /(?:Unité de force|(?:Joule|Watt|Volt|Ohm|Amp[eè]re|Coulomb|Farad|Henry|Weber) \(unité?|Bougie nouvelle|Lumen nouveau)/i => "decides", # MISC - like declares/defines
         /(?:Les unités photométriques|\(A\) D[eé]finitions|The photometric units|will (?:provide|circulate|issue|identify|notify|contact|review))/i => "decides", # MISC - like declares/defines
@@ -48,7 +48,7 @@ module Bipm
         /(?:recomm(?:ends|ande|ended)|endorsed)/i => "recommends",
         /(?:requests?|requested|demande(?:ra)?|requiert)/i => "requests",
         /(?:congratulate[sd]?|félicite)/i => "congratulates",
-        /(?:instructs|instructed)/i => "instructs",
+        /(?:instructs|instructed|informe)/i => "instructs",
         /(?:urges|prie instamment)/i => "urges",
         /(?:appoints|(?:re)?appointed|granted|reconduit|commended|élit|nomme|elected|autorise|authorized|empowers|charged?)/i => "appoints",
         /(?:donne|habilite|nominated|Pendant la période|voted|established a \w+ task group|gave the \w+ \w+ the authority)/i => "appoints",
@@ -60,7 +60,11 @@ module Bipm
         /(?:affirms|reaffirming|réaffirmant|states|remarks|remarques)/i => "affirms / reaffirming",
       }
 
-      PREFIX=/(?:(?:The|Le) CIPM |La Conférence |unanimously |would |a |sont |will |were |did not |strongly |The Conference |and |et |has |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir |\.\.\.\n+)?/i
+      PREFIX1=/(?:The|Le) CIPM |La Conférence |M. Volterra |M. le Président |unanimously |would |a |sont |will |were |did not |strongly |La \d+e Conférence Générale des Poids et Mesures (?:a )?/i
+      PREFIX2=/The \d+th Conférence Générale des Poids et Mesures |The Conference |and |et |has |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir |\.\.\.\n+/i
+      PREFIX3=/Sur la proposition de M. le Président, la convocation de cette Conférence de Thermométrie est |Le texte corrigé, finalement /u
+
+      PREFIX=/(?:#{PREFIX1}|#{PREFIX2}|#{PREFIX3})?/i
 
       SUFFIX=/ (?:that|que)\b|(?: (?:the |that |le |que les )?((?:[A-Z]|national|laboratoires).{0,80}?)(?: to)?\b|)/
 
@@ -138,7 +142,7 @@ module Bipm
 
         def format_message part
           AsciiMath.asciidoc_extract_math(
-            ReverseAdoc.convert(part).strip.gsub("&nbsp;", ' ')
+            ReverseAdoc.convert(part).strip.gsub("&nbsp;", ' ').gsub(" \n", "\n")
           )
         end
 
@@ -149,13 +153,20 @@ module Bipm
         def parse_resolution res, res_id, date, type = :cgpm, lang = 'en'
           # Reparse the document after fixing upstream syntax
           fixed_body = res.body.gsub("<name=", "<a name=")
+          fixed_body = fixed_body.force_encoding('utf-8')
+          fixed_body = fixed_body.gsub('&Eacute;', 'É')
+          fixed_body = fixed_body.gsub('&#171;&#032;', '« ')
+          fixed_body = fixed_body.gsub('&#032;&#187;', ' »')
+          fixed_body = fixed_body.sub(%r'<h1>.*?</h1>'m, '')
+          fixed_body = fixed_body.sub(%r'<h2>(.*?)</h2>'m, '')
+          title = $1
           ng = Nokogiri::HTML(fixed_body, res.uri.to_s, "utf-8", Nokogiri::XML::ParseOptions.new.default_html.noent)
 
           refs = ng.css('.publication-card_reference a')
 
           r = {
-            "dates" => [date],
-            "title" => ng.css("h1").last.text.strip.gsub(/\*\Z/, ''),
+            "dates" => [date.to_s],
+            "title" => title.strip,
             "identifier" => res_id,
             "url" => res.uri.to_s,
             "reference" => nil,
@@ -176,7 +187,7 @@ module Bipm
             r.delete("reference")
           end
 
-          ps = ng.css('div.journal-content-article')
+          ps = ng.css('div.journal-content-article').first
 
           #binding.pry if ps.count != 1
 
@@ -189,13 +200,13 @@ module Bipm
           doc = Common.ng_to_string(ps)
           # doc = AsciiMath.html_to_asciimath(doc)
 
-          parts = doc.split(/(\n(?:<p>)?<b>.*?<\/b>|<p>(?:après examen |après avoir entendu )|having noted that |decides to define |décide de définir |conformément à l'invitation|acting in accordance with|recommande que les résultats|(?:considers|recommends) that|estime que|declares<\/p>|<a name="_ftn\d)/)
+          parts = doc.split(/(\n(?:<p>)?<b>.*?<\/b>|<div class="bipm-lame-grey">|<h3>|<p>(?:après examen |après avoir entendu )|having noted that |decides to define |décide de définir |conformément à l'invitation|acting in accordance with|recommande que les résultats|(?:considers|recommends) that|estime que|declares<\/p>|<a name="_ftn\d)/)
           nparts = [parts.shift]
           while parts.length > 0
             nparts << parts.shift + parts.shift
           end
 
-          if nparts.first =~ /([mM]esures( \(C[GI]PM\))?|CGPM| \(CCTC\)| Conference|\[de thermométrie et calorimétrie\]|,)[ \n]?(<\/p>)?\n?\z/
+          if nparts.first =~ /([mM]esures( \(C[GI]PM\))?|CGPM| \(CCTC\)| Conference|\[de thermométrie et calorimétrie\]|,)[ \n]?(<\/p>)?\n?(\n|\n<p>[[:space:]]<\/p>\n)?\z/
             r["approvals"].first["message"] = Common.format_message(nparts.shift)
           end
 
@@ -203,11 +214,21 @@ module Bipm
           nparts.each do |part|
             parse = Nokogiri::HTML(part).text.strip
 
+            if parse.start_with? /r[eé]f[eé]rence/
+              next
+            end
+
+            if parse.start_with? 'NOTE'
+              part = part.sub('<h3>NOTE</h3>', '')
+              r["notes"] = Common.format_message(part)
+              next
+            end
+
             CONSIDERATIONS.any? do |k,v|
               if parse =~ /\A#{PREFIX}#{k}\b/i
                 r["considerations"] << prev = {
                   "type" => v,
-                  "date_effective" => date,
+                  "date_effective" => date.to_s,
                   "message" => Common.format_message(part),
                 }
               end
@@ -217,7 +238,7 @@ module Bipm
               if parse =~ /\A#{PREFIX}#{k}\b/i
                 r["actions"] << prev = {
                   "type" => v,
-                  "date_effective" => date,
+                  "date_effective" => date.to_s,
                   "message" => Common.format_message(part),
                 }
               end

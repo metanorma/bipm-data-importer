@@ -24,6 +24,8 @@ module Bipm
             .gsub(%r"image::/utils/special/14/(\w*?)_maj.gif\[#{STEM}\]") { "stem:[ sf #{$1.capitalize} ]" }
             .gsub(%r"image::/utils/special/14/(\w*?).gif\[#{STEM}\]") { "stem:[ sf #{$1} ]" }
             .gsub(%r"image::/utils/special/Math/plusminus.gif\[#{STEM}\]", 'stem:[ +- ]')
+            .gsub(%r"±", 'stem:[ +- ]')
+            .gsub(%r"–", '-')
             .gsub(/#{SPACE_BEFORE}\^(#{DIGIT})\^(C|O|H|Cs|He)#{SPACE_AFTER}/, 'stem:[""_(\1) "\2"]') # Nucleus symbols
             .gsub(/#{SPACE_BEFORE}(#{PREFIXES})(#{UNITS})\^(#{DIGIT})\^#{SPACE_AFTER}/, 'stem:[ESCUN"\1\2"^(\3)ESCUN]') # Basic units with powers
             .gsub(/#{SPACE_BEFORE}(#{PREFIXES})(#{UNITS})#{SPACE_AFTER}/, 'stem:[ESCUN"\1\2"ESCUN]') # Basic units without powers
