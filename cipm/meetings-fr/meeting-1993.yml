@@ -18,22 +18,38 @@ resolutions:
   considerations:
   - type: considering
     date_effective: '1993-09-23'
-    message: |-
-      _considérant_
-
-      * que l'exactitude relative d'un nombre croissant d'étalons primaires de fréquence approche maintenant stem:[1 * 10^(-14)],
-      * que de nouvelles configurations ont été proposées qui semblent avoir des possibilités encore plus élevées en matière d'exactitude,
-      * qu'à un niveau d'exactitude de l'ordre de stem:[1 * 10^(-14)] ou mieux on doit tenir compte de corrections qui étaient jusqu'ici considérées comme non significatives ou comme insuffisamment connues,
-      * qu'une étape essentielle pour établir avec confiance l'exactitude des étalons primaires est de pouvoir comparer entre eux des étalons indépendants de construction différente,
+    message: considérant que l'exactitude relative d'un nombre croissant d'étalons
+      primaires de fréquence approche maintenant stem:[1 * 10^(-14)],
+  - type: considering
+    date_effective: '1993-09-23'
+    message: considérant que de nouvelles configurations ont été proposées qui semblent
+      avoir des possibilités encore plus élevées en matière d'exactitude,
+  - type: considering
+    date_effective: '1993-09-23'
+    message: considérant qu'à un niveau d'exactitude de l'ordre de stem:[1 * 10^(-14)]
+      ou mieux on doit tenir compte de corrections qui étaient jusqu'ici considérées
+      comme non significatives ou comme insuffisamment connues,
+  - type: considering
+    date_effective: '1993-09-23'
+    message: considérant qu'une étape essentielle pour établir avec confiance l'exactitude
+      des étalons primaires est de pouvoir comparer entre eux des étalons indépendants
+      de construction différente,
   actions:
   - type: recommends
     date_effective: '1993-09-23'
-    message: |-
-      _recommande_
-
-      * que différentes configurations d'étalons primaires de fréquence soient réalisées et étudiées en détail, en même temps que les configurations traditionnelles, et comparées entre elles à l'aide des meilleures méthodes disponibles,
-      * que toutes les corrections, y compris celles qui n'étaient pas jusqu'ici considérées comme significatives, soient étudiées en détail et finalement appliquées,
-      * que les résultats de ces comparaisons, y compris un bilan complet des incertitudes, soient communiqués au Bureau international des poids et mesures.
+    message: recommande que différentes configurations d'étalons primaires de fréquence
+      soient réalisées et étudiées en détail, en même temps que les configurations
+      traditionnelles, et comparées entre elles à l'aide des meilleures méthodes disponibles,
+  - type: recommends
+    date_effective: '1993-09-23'
+    message: recommande que toutes les corrections, y compris celles qui n'étaient
+      pas jusqu'ici considérées comme significatives, soient étudiées en détail et
+      finalement appliquées,
+  - type: recommends
+    date_effective: '1993-09-23'
+    message: recommande que les résultats de ces comparaisons, y compris un bilan
+      complet des incertitudes, soient communiqués au Bureau international des poids
+      et mesures.
 - dates:
   - '1993-09-23'
   title: Chronométrie des pulsars-milliseconde
@@ -47,20 +63,31 @@ resolutions:
   considerations:
   - type: considering
     date_effective: '1993-09-23'
-    message: |-
-      _considérant_
-
-      * que la stabilité de la fréquence des pulsars-milliseconde, après correction de sa dérive, est comparable à celle des étalons atomiques de fréquence pour des durées d'intégration supérieures à un an,
-      * que l'indépendance des données fournies par des pulsars différents peut être mise à profit pour établir une référence encore plus stable en combinant ces données,
+    message: considérant que la stabilité de la fréquence des pulsars-milliseconde,
+      après correction de sa dérive, est comparable à celle des étalons atomiques
+      de fréquence pour des durées d'intégration supérieures à un an,
+  - type: considering
+    date_effective: '1993-09-23'
+    message: considérant que l'indépendance des données fournies par des pulsars différents
+      peut être mise à profit pour établir une référence encore plus stable en combinant
+      ces données,
   actions:
   - type: recommends
     date_effective: '1993-09-23'
-    message: |-
-      _recommande_
-
-      * que les observatoires de radioastronomie qui effectuent déjà des observations chronométriques de pulsars-milliseconde poursuivent ces observations de façon régulière et continuent à rechercher de nouveaux pulsars,
-      * que de nouveaux observatoires mettent en œuvre des programmes d'observation chronométrique de pulsars-milliseconde, avec l'objectif d'un bruit de mesure inférieur à une microseconde,
-      * que les rapports sur les résultats des mesures chronométriques et les procédés de réduction de ces résultats soient transmis au Bureau international des poids et mesures, étant entendu que la nature confidentielle des résultats peut être respectée si nécessaire.
+    message: recommande que les observatoires de radioastronomie qui effectuent déjà
+      des observations chronométriques de pulsars-milliseconde poursuivent ces observations
+      de façon régulière et continuent à rechercher de nouveaux pulsars,
+  - type: recommends
+    date_effective: '1993-09-23'
+    message: recommande que de nouveaux observatoires mettent en œuvre des programmes
+      d'observation chronométrique de pulsars-milliseconde, avec l'objectif d'un bruit
+      de mesure inférieur à une microseconde,
+  - type: recommends
+    date_effective: '1993-09-23'
+    message: recommande que les rapports sur les résultats des mesures chronométriques
+      et les procédés de réduction de ces résultats soient transmis au Bureau international
+      des poids et mesures, étant entendu que la nature confidentielle des résultats
+      peut être respectée si nécessaire.
 - dates:
   - '1993-09-23'
   title: Comparaison d'horloges à l'aide de techniques par laser visant des satellites
@@ -74,13 +101,24 @@ resolutions:
   considerations:
   - type: considering
     date_effective: '1993-09-23'
-    message: |-
-      _considérant_
-
-      * que l'on a besoin de comparaisons d'horloges distantes avec la meilleure exactitude possible,
-      * que des comparaisons d'horloges entre l'Europe de l'Ouest et l'Amérique du Nord ont été réalisées, avec succès, et avec une précision de 100 ps, par l'expérience LASSO (Laser Synchronization from Satellite Orbit),
-      * que l'exactitude des techniques de comparaison d'horloges, telles que celles qui utilisent les systèmes GPS (Global Positioning System), GLONASS (Global Navigation Satellite System) ou des satellites par des méthodes bidirectionnelles, doit être confirmée par des méthodes indépendantes,
-      * que des solutions ont été proposées qui peuvent conduire à des comparaisons d'horloges à l'aide de techniques par laser visant des satellites à défilement,
+    message: considérant que l'on a besoin de comparaisons d'horloges distantes avec
+      la meilleure exactitude possible,
+  - type: considering
+    date_effective: '1993-09-23'
+    message: considérant que des comparaisons d'horloges entre l'Europe de l'Ouest
+      et l'Amérique du Nord ont été réalisées, avec succès, et avec une précision
+      de 100 ps, par l'expérience LASSO (Laser Synchronization from Satellite Orbit),
+  - type: considering
+    date_effective: '1993-09-23'
+    message: considérant que l'exactitude des techniques de comparaison d'horloges,
+      telles que celles qui utilisent les systèmes GPS (Global Positioning System),
+      GLONASS (Global Navigation Satellite System) ou des satellites par des méthodes
+      bidirectionnelles, doit être confirmée par des méthodes indépendantes,
+  - type: considering
+    date_effective: '1993-09-23'
+    message: considérant que des solutions ont été proposées qui peuvent conduire
+      à des comparaisons d'horloges à l'aide de techniques par laser visant des satellites
+      à défilement,
   actions:
   - type: recommends
     date_effective: '1993-09-23'
@@ -100,13 +138,25 @@ resolutions:
   considerations:
   - type: considering
     date_effective: '1993-09-23'
-    message: |-
-      _considérant_
-
-      * les résultats de la troisième vérification périodique des prototypes nationaux du kilogramme qui font apparaître des dérives significatives de la masse des prototypes nationaux, des étalons de travail du Bureau international des poids et mesures et des témoins par rapport à celle du prototype international,
-      * l'impossibilité de tirer de ces résultats, de par leur nature, des conclusions catégoriques quant à la stabilité à long terme du prototype international et des autres prototypes,
-      * les résultats des recherches effectuées dans de nombreux laboratoires nationaux pour tenter de comprendre les phénomènes qui conduisent à l'instabilité des étalons de masse,
-      * les progrès actuels obtenus par divers laboratoires dans l'étude de méthodes indépendantes pour contrôler la stabilité des étalons de masse,
+    message: considérant les résultats de la troisième vérification périodique des
+      prototypes nationaux du kilogramme qui font apparaître des dérives significatives
+      de la masse des prototypes nationaux, des étalons de travail du Bureau international
+      des poids et mesures et des témoins par rapport à celle du prototype international,
+  - type: considering
+    date_effective: '1993-09-23'
+    message: considérant l'impossibilité de tirer de ces résultats, de par leur nature,
+      des conclusions catégoriques quant à la stabilité à long terme du prototype
+      international et des autres prototypes,
+  - type: considering
+    date_effective: '1993-09-23'
+    message: considérant les résultats des recherches effectuées dans de nombreux
+      laboratoires nationaux pour tenter de comprendre les phénomènes qui conduisent
+      à l'instabilité des étalons de masse,
+  - type: considering
+    date_effective: '1993-09-23'
+    message: considérant les progrès actuels obtenus par divers laboratoires dans
+      l'étude de méthodes indépendantes pour contrôler la stabilité des étalons de
+      masse,
   actions:
   - type: recommends
     date_effective: '1993-09-23'
@@ -127,13 +177,23 @@ resolutions:
   considerations:
   - type: considering
     date_effective: '1993-09-23'
-    message: |-
-      _considérant_
-
-      * l'importance des mesures de haute exactitude de la température thermodynamique déjà soulignée dans la Recommandation stem:["T" 1] (1987),
-      * les incompatibilités qui subsistent encore entre les déterminations de la température thermodynamique, en particulier dans les régions voisines de stem:[150 "K"], stem:[700 "K"] et aux températures plus élevées,
-      * l'extension souhaitable de l'Échelle internationale de température de 1990 (EIT-90) au-dessous de la limite inférieure actuelle de stem:[0","65 "K"],
-      * l'importance pour les laboratoires nationaux et pour le Bureau international des poids et mesures de disposer de mesures de la température thermodynamique utilisant des techniques variées,
+    message: considérant l'importance des mesures de haute exactitude de la température
+      thermodynamique déjà soulignée dans la Recommandation stem:["T" 1] (1987),
+  - type: considering
+    date_effective: '1993-09-23'
+    message: considérant les incompatibilités qui subsistent encore entre les déterminations
+      de la température thermodynamique, en particulier dans les régions voisines
+      de stem:[150 "K"], stem:[700 "K"] et aux températures plus élevées,
+  - type: considering
+    date_effective: '1993-09-23'
+    message: considérant l'extension souhaitable de l'Échelle internationale de température
+      de 1990 (EIT-90) au-dessous de la limite inférieure actuelle de stem:[0","65
+      "K"],
+  - type: considering
+    date_effective: '1993-09-23'
+    message: considérant l'importance pour les laboratoires nationaux et pour le Bureau
+      international des poids et mesures de disposer de mesures de la température
+      thermodynamique utilisant des techniques variées,
   actions:
   - type: recommends
     date_effective: '1993-09-23'

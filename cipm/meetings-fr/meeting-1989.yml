@@ -18,18 +18,21 @@ resolutions:
   considerations:
   - type: considering
     date_effective: '1989-09-28'
-    message: |-
-      _considérant_
-
-      * que certains laboratoires fournissent au Bureau international des poids et mesures (BIPM) des valeurs de UTC (k) qui présentent des différences significatives avec UTC,
-      * que le fait que les centres horaires soient en bon accord avec UTC facilite les opérations dans de nombreux programmes en astronomie, géodésie, navigation et télécommunications,
+    message: considérant que certains laboratoires fournissent au Bureau international
+      des poids et mesures (BIPM) des valeurs de UTC (k) qui présentent des différences
+      significatives avec UTC,
+  - type: considering
+    date_effective: '1989-09-28'
+    message: considérant que le fait que les centres horaires soient en bon accord
+      avec UTC facilite les opérations dans de nombreux programmes en astronomie,
+      géodésie, navigation et télécommunications,
   actions:
   - type: recommends
     date_effective: '1989-09-28'
-    message: |-
-      _recommande_
-
-      * que les laboratoires, en consultation avec le BIPM, utilisent des méthodes appropriées pour réduire à quelques microsecondes les écarts pouvant exister entre UTC (k) et UTC sans toutefois effectuer d'ajustement en fréquence sur les horloges contribuant au Temps atomique international (TAI).
+    message: recommande que les laboratoires, en consultation avec le BIPM, utilisent
+      des méthodes appropriées pour réduire à quelques microsecondes les écarts pouvant
+      exister entre UTC (k) et UTC sans toutefois effectuer d'ajustement en fréquence
+      sur les horloges contribuant au Temps atomique international (TAI).
 - dates:
   - '1989-09-28'
   title: Amélioration de l'exactitude en fréquence des étalons primaires
@@ -43,20 +46,24 @@ resolutions:
   considerations:
   - type: considering
     date_effective: '1989-09-28'
-    message: |-
-      _considérant_
-
-      * la nécessité d'améliorer l'exactitude de l'intervalle unitaire de l'échelle du Temps atomique international (TAI),
-      * le petit nombre d'étalons primaires à césium qui contribuent effectivement au TAI,
+    message: considérant la nécessité d'améliorer l'exactitude de l'intervalle unitaire
+      de l'échelle du Temps atomique international (TAI),
+  - type: considering
+    date_effective: '1989-09-28'
+    message: considérant le petit nombre d'étalons primaires à césium qui contribuent
+      effectivement au TAI,
   actions:
   - type: recommends
     date_effective: '1989-09-28'
-    message: |-
-      _recommande_
-
-      * la construction de nouveaux étalons primaires à césium,
-      * l'amélioration de l'exactitude en fréquence des étalons primaires existants,
-      * l'étude des différences systématiques de fréquence qui existent entre eux.
+    message: recommande la construction de nouveaux étalons primaires à césium,
+  - type: recommends
+    date_effective: '1989-09-28'
+    message: recommande l'amélioration de l'exactitude en fréquence des étalons primaires
+      existants,
+  - type: recommends
+    date_effective: '1989-09-28'
+    message: recommande l'étude des différences systématiques de fréquence qui existent
+      entre eux.
 - dates:
   - '1989-09-28'
   title: Coordonnées de référence des antennes
@@ -98,12 +105,18 @@ resolutions:
   considerations:
   - type: considering
     date_effective: '1989-09-28'
-    message: |-
-      _considérant_
-
-      * qu'il est important de maintenir au Bureau international des poids et mesures (BIPM) un haut niveau de compétence dans la coordination des comparaisons de temps qui sont à la base du calcul du Temps atomique international (TAI),
-      * qu'une expertise de la pratique des comparaisons de temps au BIPM est d'ores et déjà souhaitable et deviendra indispensable dans l'avenir,
-      * que les compétences déjà acquises l'ont été grâce aux installations généreusement mises à sa disposition par l'Observatoire de Paris,
+    message: considérant qu'il est important de maintenir au Bureau international
+      des poids et mesures (BIPM) un haut niveau de compétence dans la coordination
+      des comparaisons de temps qui sont à la base du calcul du Temps atomique international
+      (TAI),
+  - type: considering
+    date_effective: '1989-09-28'
+    message: considérant qu'une expertise de la pratique des comparaisons de temps
+      au BIPM est d'ores et déjà souhaitable et deviendra indispensable dans l'avenir,
+  - type: considering
+    date_effective: '1989-09-28'
+    message: considérant que les compétences déjà acquises l'ont été grâce aux installations
+      généreusement mises à sa disposition par l'Observatoire de Paris,
   actions:
   - type: decides
     date_effective: '1989-09-28'

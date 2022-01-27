@@ -18,14 +18,27 @@ resolutions:
   considerations:
   - type: considering
     date_effective: '1992-10-01'
-    message: |-
-      _considérant_
-
-      * les exigences croissantes de traçabilité des mesures à différents niveaux d'exactitude pour les sciences, les techniques et le commerce international,
-      * l'existence de groupes régionaux au sein desquels collaborent des laboratoires nationaux,
-      * le besoin d'une reconnaissance à l'échelle mondiale des résultats de comparaisons d'étalons effectuées, au sein de ces groupes régionaux, par ces laboratoires dont certains ne participent pas aux comparaisons effectuées sous les auspices du CIPM,
-      * le rôle du Bureau international des poids et mesures (BIPM) dans la coordination et l'exécution, à l'échelle mondiale, de comparaisons d'étalons au plus haut niveau,
-      * l'impossibilité pratique pour le BIPM de conduire des travaux dans tous les domaines et à tous les niveaux,
+    message: considérant les exigences croissantes de traçabilité des mesures à différents
+      niveaux d'exactitude pour les sciences, les techniques et le commerce international,
+  - type: considering
+    date_effective: '1992-10-01'
+    message: considérant l'existence de groupes régionaux au sein desquels collaborent
+      des laboratoires nationaux,
+  - type: considering
+    date_effective: '1992-10-01'
+    message: considérant le besoin d'une reconnaissance à l'échelle mondiale des résultats
+      de comparaisons d'étalons effectuées, au sein de ces groupes régionaux, par
+      ces laboratoires dont certains ne participent pas aux comparaisons effectuées
+      sous les auspices du CIPM,
+  - type: considering
+    date_effective: '1992-10-01'
+    message: considérant le rôle du Bureau international des poids et mesures (BIPM)
+      dans la coordination et l'exécution, à l'échelle mondiale, de comparaisons d'étalons
+      au plus haut niveau,
+  - type: considering
+    date_effective: '1992-10-01'
+    message: considérant l'impossibilité pratique pour le BIPM de conduire des travaux
+      dans tous les domaines et à tous les niveaux,
   actions:
   - type: decides
     date_effective: '1992-10-01'
@@ -54,20 +67,31 @@ resolutions:
   considerations:
   - type: considering
     date_effective: '1992-10-01'
-    message: |-
-      _considérant_
-
-      * que les besoins des sciences, des techniques et du commerce international en matière d'exactitude et d'efficacité des mesures croissent de façon permanente,
-      * que la mise au point de meilleurs étalons et techniques de mesure doit être souvent effectuée bien avant leur application dans les domaines scientifiques et industriels,
-      * que de tels progrès ne peuvent avoir lieu qu'à partir de bases solidement établies sur des recherches métrologiques à long terme, elles-mêmes étroitement liées aux progrès des sciences,
+    message: considérant que les besoins des sciences, des techniques et du commerce
+      international en matière d'exactitude et d'efficacité des mesures croissent
+      de façon permanente,
+  - type: considering
+    date_effective: '1992-10-01'
+    message: considérant que la mise au point de meilleurs étalons et techniques de
+      mesure doit être souvent effectuée bien avant leur application dans les domaines
+      scientifiques et industriels,
+  - type: considering
+    date_effective: '1992-10-01'
+    message: considérant que de tels progrès ne peuvent avoir lieu qu'à partir de
+      bases solidement établies sur des recherches métrologiques à long terme, elles-mêmes
+      étroitement liées aux progrès des sciences,
   actions:
   - type: recommends
     date_effective: '1992-10-01'
-    message: |-
-      _recommande_ que les laboratoires nationaux
-
-      * continuent à entreprendre des recherches métrologiques à long terme aussi bien qu'à répondre aux besoins plus immédiats des services métrologiques,
-      * informent régulièrement le Bureau international des poids et mesures des résultats des travaux liés à la métrologie fondamentale.
+    message: recommande que les laboratoires nationaux continuent à entreprendre des
+      recherches métrologiques à long terme aussi bien qu'à répondre aux besoins plus
+      immédiats des services métrologiques,
+  - type: recommends
+    date_effective: '1992-10-01'
+    message: recommande que les laboratoires nationaux informent régulièrement le
+      Bureau international des poids et mesures des résultats des travaux liés à la
+      métrologie fondamentale.
+  subject: laboratoires nationaux
 - dates:
   - '1992-10-01'
   title: Révision de la mise en pratique de la définition du mètre

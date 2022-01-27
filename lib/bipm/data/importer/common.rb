@@ -273,7 +273,7 @@ module Bipm
 
               kk = nil
 
-              if map.any? { |k,v| (i["message"].split("\n").first =~ /\A\s*(\*?)(#{PREFIX}#{k})\1?(#{SUFFIX})\1?\s*\z/i) && (kk = k) }
+              if map.any? { |k,v| (i["message"].split("\n").first =~ /\A\s*([*_]?)(#{PREFIX}#{k})\1?(#{SUFFIX})\1?\s*\z/i) && (kk = k) }
                 prefix = $2
                 suffix = $3
                 subject = $4
@@ -282,7 +282,7 @@ module Bipm
                 listitems = []
                 if (i["message"].split(/(?<!\+)\n/).all? { |j|
                   case j
-                  when /\A\s*\*?#{PREFIX}#{kk}/i
+                  when /\A\s*[*_]?#{PREFIX}#{kk}/i
                     true
                   when /\A\s*\z/
                     true

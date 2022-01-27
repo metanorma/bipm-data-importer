@@ -18,14 +18,27 @@ resolutions:
   considerations:
   - type: considering
     date_effective: '1992-10-01'
-    message: |-
-      _considering_
-
-      * the increasingly stringent requirements of science, technology and international trade for traceability in measurement at many levels of accuracy;
-      * the existence of regional groups of cooperating national standards laboratories;
-      * the need to have worldwide recognition of the results of comparisons of measurement standards carried out among the laboratories of these regional groups, sorne of which do not participate in comparisons carried out under the auspices of the CIPM;
-      * the role of the Bureau International des Poids et Mesures (BIPM) in carrying out and coordinating worldwide comparisons of standards at the highest level;
-      * the impracticability of the BIPM's working in all fields and at all levels;
+    message: considering the increasingly stringent requirements of science, technology
+      and international trade for traceability in measurement at many levels of accuracy;
+  - type: considering
+    date_effective: '1992-10-01'
+    message: considering the existence of regional groups of cooperating national
+      standards laboratories;
+  - type: considering
+    date_effective: '1992-10-01'
+    message: considering the need to have worldwide recognition of the results of
+      comparisons of measurement standards carried out among the laboratories of these
+      regional groups, sorne of which do not participate in comparisons carried out
+      under the auspices of the CIPM;
+  - type: considering
+    date_effective: '1992-10-01'
+    message: considering the role of the Bureau International des Poids et Mesures
+      (BIPM) in carrying out and coordinating worldwide comparisons of standards at
+      the highest level;
+  - type: considering
+    date_effective: '1992-10-01'
+    message: considering the impracticability of the BIPM's working in all fields
+      and at all levels;
   actions:
   - type: decides
     date_effective: '1992-10-01'
@@ -52,20 +65,30 @@ resolutions:
   considerations:
   - type: considering
     date_effective: '1992-10-01'
-    message: |-
-      _considering_
-
-      * the continual increase in demand for accurate and efficient measurement in science, technology and international trade;
-      * that the development of improved measurement standards and techniques frequently needs to be carried out weIl in advance of their application in science and industry;
-      * that these developments can only take place on the basis of a solid foundation of long-tenn metrological research closely linked to advances in science;
+    message: considering the continual increase in demand for accurate and efficient
+      measurement in science, technology and international trade;
+  - type: considering
+    date_effective: '1992-10-01'
+    message: considering that the development of improved measurement standards and
+      techniques frequently needs to be carried out weIl in advance of their application
+      in science and industry;
+  - type: considering
+    date_effective: '1992-10-01'
+    message: considering that these developments can only take place on the basis
+      of a solid foundation of long-tenn metrological research closely linked to advances
+      in science;
   actions:
   - type: recommends
     date_effective: '1992-10-01'
-    message: |-
-      _recommends_ that national laboratories
-
-      * continue to undertake long-tenn metrological research as weIl as to meet the more immediate needs of measurement services;
-      * keep the Bureau International des Poids et Mesures infonned as to the results of the work related to fundamental metrology.
+    message: recommends that national laboratories continue to undertake long-tenn
+      metrological research as weIl as to meet the more immediate needs of measurement
+      services;
+  - type: recommends
+    date_effective: '1992-10-01'
+    message: recommends that national laboratories keep the Bureau International des
+      Poids et Mesures infonned as to the results of the work related to fundamental
+      metrology.
+  subject: national laboratories
 - dates:
   - '1992-10-01'
   title: Revision of the mise en pratique of the definition of the metre

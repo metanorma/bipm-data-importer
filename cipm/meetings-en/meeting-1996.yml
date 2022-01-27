@@ -60,12 +60,17 @@ resolutions:
   considerations:
   - type: considering
     date_effective: '1996-09-26'
-    message: |-
-      _considering_
-
-      * that the Conférence Générale des Poids et Mesures has adopted a series of prefixes to be used in forming the decimal multiples and sub-multiples of SI units,
-      * that there is an increasing need in information technology to express multiples of units such as the bit and byte,
-      * that the use of the SI prefixes in information technology to express binary multiples of such units leads to confusion,
+    message: considering that the Conférence Générale des Poids et Mesures has adopted
+      a series of prefixes to be used in forming the decimal multiples and sub-multiples
+      of SI units,
+  - type: considering
+    date_effective: '1996-09-26'
+    message: considering that there is an increasing need in information technology
+      to express multiples of units such as the bit and byte,
+  - type: considering
+    date_effective: '1996-09-26'
+    message: considering that the use of the SI prefixes in information technology
+      to express binary multiples of such units leads to confusion,
   - type: recalling / further recalling
     date_effective: '1996-09-26'
     message: _recalling_ that the SI prefixes represent strictly powers of ten,
@@ -93,18 +98,30 @@ resolutions:
   considerations:
   - type: considering
     date_effective: '1996-09-26'
-    message: |-
-      _considering_
-
-      * that many important research activities are in progress at temperatures below stem:[1 "K"],
-      * that these researches require an accepted temperature scale which c1osely represents thermodynamic temperatures,
-      * that the ITSstem:[-90 ""_(3) "He"] vapour pressure equation is believed to deviate from thermodynamic temperatures between stem:[1 "K"] and its lower limit of stem:[0","65 "K"], noting that several discrepant laboratory scales below stem:[0","65 "K"] have been developed,
+    message: considering that many important research activities are in progress at
+      temperatures below stem:[1 "K"],
+  - type: considering
+    date_effective: '1996-09-26'
+    message: considering that these researches require an accepted temperature scale
+      which c1osely represents thermodynamic temperatures,
+  - type: considering
+    date_effective: '1996-09-26'
+    message: considering that the ITSstem:[-90 ""_(3) "He"] vapour pressure equation
+      is believed to deviate from thermodynamic temperatures between stem:[1 "K"]
+      and its lower limit of stem:[0","65 "K"], noting that several discrepant laboratory
+      scales below stem:[0","65 "K"] have been developed,
   actions:
   - type: recommends
     date_effective: '1996-09-26'
-    message: |-
-      _recommends_
-
-      * that the deviation of the ITSstem:[-90 ""_(3) "He"] vapour pressure equation from thermodynamic temperature below stem:[1 "K"] be further investigated,
-      * that research be undertaken to resolve discrepancies between existing stem:[""_(3) "He"] melting pressure scales,
-      * that national laboratories collaborate to develop a stem:[""_(3) "He"] melting pressure equation to serve as the basis for an extension of the ITS-90 down to a temperature of about stem:[1 "mK"].
+    message: recommends that the deviation of the ITSstem:[-90 ""_(3) "He"] vapour
+      pressure equation from thermodynamic temperature below stem:[1 "K"] be further
+      investigated,
+  - type: recommends
+    date_effective: '1996-09-26'
+    message: recommends that research be undertaken to resolve discrepancies between
+      existing stem:[""_(3) "He"] melting pressure scales,
+  - type: recommends
+    date_effective: '1996-09-26'
+    message: recommends that national laboratories collaborate to develop a stem:[""_(3)
+      "He"] melting pressure equation to serve as the basis for an extension of the
+      ITS-90 down to a temperature of about stem:[1 "mK"].
