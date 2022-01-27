@@ -260,7 +260,11 @@ resolutions:
 
       (^1^) Dans sa session d'octobre 1960, le Comité international des poids et mesures a adopté la Recommandation suivante concernant les premières instructions pour la mise en pratique de la définition du mètre :
 
-      « Conformément au paragraphe 1 de la Résolution 7 adoptée par la Onzième Conférence générale des poids et mesures (octobre 1960), le Comité international des poids et mesures recommande que la radiation du krypton 86 adoptée comme étalon fondamental de longueur soit réalisée au moyen d'une lampe à décharge à cathode chaude contenant du krypton 86 d'une pureté non inférieure à 99 pour cent, en quantité suffisante pour assurer la présence de krypton solide à la température de stem:[64 "°K"], cette lampe étant munie d'un capillaire ayant les caractéristiques suivantes : diamètre intérieur 2 à 4 millimètres, épaisseur des parois 1 millimètre environ.
+      « Conformément au paragraphe 1 de la Résolution 7 adoptée par la Onzième Conférence générale des poids et mesures (octobre 1960), le Comité international des poids et mesures
+  - type: recommends
+    date_effective: '1960-10-20'
+    message: |-
+      recommande que la radiation du krypton 86 adoptée comme étalon fondamental de longueur soit réalisée au moyen d'une lampe à décharge à cathode chaude contenant du krypton 86 d'une pureté non inférieure à 99 pour cent, en quantité suffisante pour assurer la présence de krypton solide à la température de stem:[64 "°K"], cette lampe étant munie d'un capillaire ayant les caractéristiques suivantes : diamètre intérieur 2 à 4 millimètres, épaisseur des parois 1 millimètre environ.
 
       « On
   subject: Comité international

@@ -15,13 +15,13 @@ resolutions:
   approvals:
   - type: affirmative
     degree: unanimous
-    message: Unanimous
+    message: "*La Conférence*"
   considerations: []
   actions:
   - type: decides
     date_effective: '1901-10-22'
     message: |-
-      *La Conférence déclare :*
+      déclare :
 
       . L'unité de volume, pour les déterminations de haute précision, est le volume occupé par la masse de 1 kilogramme d'eau pure, à son maximum de densité et sous la pression atmosphérique normale ; ce volume est dénommé « litre ».
       . Dans les déterminations de volume qui ne comportent pas un haut degré de précision, le décimètre cube peut être envisagé comme équivalent au litre ; et, dans ces déterminations, les expressions des volumes basées sur le cube de l'unité linéaire peuvent être substituées à celles qui sont rapportées au litre tel qu'il vient d'être défini.

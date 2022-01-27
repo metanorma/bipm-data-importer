@@ -222,20 +222,21 @@ resolutions:
   - type: affirmative
     degree: unanimous
     message: Unanimous
-  considerations: []
+  considerations:
+  - type: considering
+    date_effective: '1975-06-03'
+    message: |-
+      The 15th Conférence Générale des Poids et Mesures,
+
+      * by reason of the pressing requirement, expressed by the International Commission on Radiation Units and Measurements (ICRU), to extend the use of the Système International d'Unités to radiological research and applications,
+      * by reason of the need to make as easy as possible the use of the units for non-specialists,
+      * taking into consideration also the grave risks of errors in therapeutic work,
   actions:
   - type: adopts
     date_effective: '1975-06-03'
     message: |-
       *adopts* the following special name for the SI unit of activity:
       *_becquerel_*, symbol Bq, equal to one reciprocal second.
-  x-unparsed:
-  - "The 15th Conférence Générale des Poids et Mesures,\n\n\n\tby reason of the pressing
-    requirement, expressed by the International Commission on Radiation Units and
-    Measurements (ICRU), to extend the use of the Système International d'Unités to
-    radiological research and applications,\n\tby reason of the need to make as easy
-    as possible the use of the units for non-specialists,\n\ttaking into consideration
-    also the grave risks of errors in therapeutic work,"
 - dates:
   - '1975-06-03'
   title: 'SI units for ionizing radiation: gray'
@@ -246,7 +247,15 @@ resolutions:
   - type: affirmative
     degree: unanimous
     message: Unanimous
-  considerations: []
+  considerations:
+  - type: considering
+    date_effective: '1975-06-03'
+    message: |-
+      The 15th Conférence Générale des Poids et Mesures,
+
+      * by reason of the pressing requirement, expressed by the International Commission on Radiation Units and Measurements (ICRU), to extend the use of the Système International d'Unités to radiological research and applications,
+      * by reason of the need to make as easy as possible the use of the units for non-specialists,
+      * taking into consideration also the grave risks of errors in therapeutic work,
   actions:
   - type: adopts
     date_effective: '1975-06-03'
@@ -255,13 +264,6 @@ resolutions:
       *_gray_*, symbol Gy, equal to one joule per kilogram.
 
       Note: The gray is the SI unit of absorbed dose. In the field of ionizing radiation the gray may also be used with other physical quantities also expressed in joules per kilogram: the Comité Consultatif des Unités is made responsible for studying this matter in collaboration with the competent international organizations.
-  x-unparsed:
-  - "The 15th Conférence Générale des Poids et Mesures,\n\n\n\tby reason of the pressing
-    requirement, expressed by the International Commission on Radiation Units and
-    Measurements (ICRU), to extend the use of the Système International d'Unités to
-    radiological research and applications,\n\tby reason of the need to make as easy
-    as possible the use of the units for non-specialists,\n\ttaking into consideration
-    also the grave risks of errors in therapeutic work,"
   notes: At its 1976 meeting, the CIPM approved the report of the 5th meeting of the
     CCU (1976), specifying that, following the advice of the ICRU, the gray may also
     be used to express specific energy imparted, kerma and absorbed dose index.

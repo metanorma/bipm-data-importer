@@ -224,17 +224,20 @@ resolutions:
   - type: affirmative
     degree: unanimous
     message: Unanimous
-  considerations: []
+  considerations:
+  - type: considering
+    date_effective: '1975-06-03'
+    message: |-
+      La Quinzième Conférence générale des poids et mesures,
+
+      * en raison de l'urgence, exprimée par la Commission internationale des unités et mesures de rayonnements (ICRU), d'étendre l'usage du Système international d'unités aux recherches et aux applications de la radiologie,
+      * en raison de la nécessité de rendre aussi simple que possible l'usage des unités aux non-spécialistes,
+      * tenant compte aussi de la gravité des risques d'erreurs dans la thérapeutique,
+
+      adopte le nom spécial suivant d'unité SI pour l'activité :
+
+      le *_becquerel_*, symbole Bq, égal à la seconde à la puissance moins un.
   actions: []
-  x-unparsed:
-  - "La Quinzième Conférence générale des poids et mesures,\n\n\n\ten raison de l'urgence,
-    exprimée par la Commission internationale des unités et mesures de rayonnements
-    (ICRU), d'étendre l'usage du Système international d'unités aux recherches et
-    aux applications de la radiologie,\n\ten raison de la nécessité de rendre aussi
-    simple que possible l'usage des unités aux non-spécialistes,\n\ttenant compte
-    aussi de la gravité des risques d'erreurs dans la thérapeutique,\n\n\nadopte le
-    nom spécial suivant d'unité SI pour l'activité :\n\nle becquerel, symbole Bq,
-    égal à la seconde à la puissance moins un."
 - dates:
   - '1975-06-03'
   title: 'Unités SI pour les rayonnements ionisants : gray'
@@ -245,7 +248,15 @@ resolutions:
   - type: affirmative
     degree: unanimous
     message: Unanimous
-  considerations: []
+  considerations:
+  - type: considering
+    date_effective: '1975-06-03'
+    message: |-
+      La Quinzième Conférence générale des poids et mesures,
+
+      * en raison de l'urgence, exprimée par la Commission internationale des unités et mesures de rayonnements (ICRU), d'étendre l'usage du Système international d'unités aux recherches et aux applications de la radiologie,
+      * en raison de la nécessité de rendre aussi simple que possible l'usage des unités aux non-spécialistes,
+      * tenant compte aussi de la gravité des risques d'erreurs dans la thérapeutique,
   actions:
   - type: adopts
     date_effective: '1975-06-03'
@@ -255,13 +266,6 @@ resolutions:
       le *_gray_*, symbole Gy, égal au joule par kilogramme.
 
       Note : le gray est l'unité SI de dose absorbée. Dans le domaine des rayonnements ionisants, le gray peut encore être employé avec d'autres grandeurs physiques qui s'expriment aussi en joules par kilogramme ; le Comité consultatif des unités est chargé d'étudier cette question en collaboration avec les organisations internationales compétentes.
-  x-unparsed:
-  - "La Quinzième Conférence générale des poids et mesures,\n\n\n\ten raison de l'urgence,
-    exprimée par la Commission internationale des unités et mesures de rayonnements
-    (ICRU), d'étendre l'usage du Système international d'unités aux recherches et
-    aux applications de la radiologie,\n\ten raison de la nécessité de rendre aussi
-    simple que possible l'usage des unités aux non-spécialistes,\n\ttenant compte
-    aussi de la gravité des risques d'erreurs dans la thérapeutique,"
   notes: À sa session de 1976, le Comité international a approuvé le rapport de la
     5^e^ session du CCU (1976) précisant que, suivant l'avis de l'ICRU, le gray peut
     être employé aussi pour exprimer l'énergie communiquée massique, le kerma et l'indice

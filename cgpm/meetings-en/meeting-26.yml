@@ -231,12 +231,12 @@ resolutions:
       *confirms* that
 
       * International Atomic Time (TAI) is a continuous time scale produced by the BIPM based on the best realizations of the SI second. TAI is a realization of Terrestrial Time stem:[("TT")] with the same rate as that of stem:["TT"], as defined by the IAU Resolution B1.9 (2000),
-      * Coordinat[[haut]]
+      * Coordinated Universal Time (UTC) is a time scale produced by the BIPM with the same rate as TAI, but differing from TAI only by an integral number of seconds,
 
       and *recommends* that
 
-      * [[haut]]
-      * [[haut]]
+      * all relevant unions and organizations consider these definitions and work together to develop a common understanding on reference time scales, their realization and dissemination with a view to consider the present limitation on the maximum magnitude of UT1 - UTC so as to meet the needs of the current and future user communities,
+      * all relevant unions and organizations work together to improve further the accuracy of the prediction of UT1 - UTC and the method for its dissemination to satisfy the future requirements of users.
 - dates:
   - '2018-11-16'
   title: On the objectives of the BIPM

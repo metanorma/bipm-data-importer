@@ -710,17 +710,17 @@ resolutions:
       à distance d'étalons optiques de fréquence doivent être mises au point au niveau
       international,"
   actions:
+  - type: welcomes
+    date_effective: '2011-10-21'
+    message: |-
+      *accueille favorablement* les activités du Groupe de travail commun au Comité consultatif des longueurs (CCL) et au Comité consultatif du temps et des fréquences (CCTF) visant à examiner les fréquences des représentations optiques de la seconde,
+       les éléments ajoutés par le CIPM en 2009 à la liste commune des « valeurs recommandées de fréquences étalons destinées à la mise en pratique de la définition du mètre et aux représentations secondaires de la seconde »,
+       l'établissement d'un groupe de travail du CCTF sur la coordination de la mise au point de techniques avancées de comparaison de temps et de fréquences,
   - type: recommends
     date_effective: '2011-10-21'
     message: |-
       *recommande* que les laboratoires nationaux de métrologie engagent les ressources nécessaires à la mise au point d'étalons optiques de fréquence et à leur comparaison,
        le BIPM aide à la coordination d'un projet international auquel participeraient les laboratoires nationaux de métrologie, portant sur l'étude des techniques qui pourraient être utilisées pour comparer les étalons optiques de fréquence.
-  x-unparsed:
-  - |-
-    accueille favorablementles activités du Groupe de travail commun au Comité consultatif des longueurs (CCL) et au Comité consultatif du temps et des fréquences (CCTF) visant à examiner les fréquences des représentations optiques de la seconde,
-    les éléments ajoutés par le CIPM en 2009 à la liste commune des « valeurs recommandées de fréquences étalons destinées à la mise en pratique de la définition du mètre et aux représentations secondaires de la seconde »,
-
-    l'établissement d'un groupe de travail du CCTF sur la coordination de la mise au point de techniques avancées de comparaison de temps et de fréquences,
 - dates:
   - '2011-10-21'
   title: Sur l'adoption d'un système de référence terrestre commun
