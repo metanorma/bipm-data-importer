@@ -1,46 +1,200 @@
-require_relative 'lib/bipm-data-importer'
+#!/usr/bin/env ruby
+
+require_relative '../lib/bipm-data-importer'
 
 a = Mechanize.new
+
+meetings_en = VCR.use_cassette 'cipm/cipm-meetings' do
+  a.get "https://www.bipm.org/en/committees/ci/cipm/meetings"
+end
+
+meetings_fr = VCR.use_cassette 'cipm/cipm-meetings-fr' do
+  a.get "https://www.bipm.org/fr/committees/ci/cipm/meetings"
+end
 
 resolutions = {}
 %w[en fr].each do |meeting_lang|
   meeting_lang_sfx     = (meeting_lang == 'fr') ? "-fr" : ""
   meeting_lang_sfx_dir = (meeting_lang == 'fr') ? "-fr" : "-en"
 
-  # Let's try all years
-  # 1875 was the first meeting, but after trying all, 1946 was the first found.
-  (1946..Time.now.year).each do |yr|
-    date = Date.parse("#{yr}-01-01") # Date is approximate
+  meetings = (meeting_lang == 'en') ? meetings_en : meetings_fr
 
-    h = {
-      "metadata" => {
-        "title" => "CIPM, #{yr}",
-        "date" => date,
-        "source" => "BIPM - Pavillon de Breteuil",
-        #"url" => meeting.uri.to_s - url is not defined here
-      }
-    }
+  index = { "meetings" => [] }
 
-    exists = false
+  meetings.css('.meetings-list__item').each do |meeting_div|
+    date = meeting_div.at_css('.meetings-list__informations-date').text.gsub("juin", "june").split(/ (?:to|au) /).last
+    date = Date.parse(date)
 
-    # And possible recommendations... up to 7, but only up to 5 were found.
-    h["resolutions"] = (0..7).map do |res_id|
-      res = VCR.use_cassette("cipm/cipm-recommendation-#{yr}-#{res_id}#{meeting_lang_sfx}") do
-        a.get "https://www.bipm.org/#{meeting_lang}/CIPM/db/#{yr}/#{res_id}/"
-      rescue Mechanize::ResponseCodeError
-        nil
+    title = meeting_div.at_css('.meetings-list__informations-title').text.strip
+    href = meeting_div.at_css('.meetings-list__informations-title').attr('href')
+
+    ident = href.split('/cipm/').last.gsub('/', '.')
+    yr = (href.include?("/wg/") || href =~ /-_[^1]-/) ? nil : href.split('-').last
+    meeting_id = href.include?("/wg/") ? nil : begin
+      parts = href.split("/").last.split("-")
+      if parts.length == 2
+        # Only the number
+        parts[0]
+      else
+        parts[0] + case parts[1]
+                   when '_1'
+                     '(I)'
+                   when '_2'
+                     '(II)'
+                   when '_3'
+                     '(III)'
+                   else
+                     raise NotImplementedError
+                   end
       end
-      next unless res
+    end
 
-      exists = true
+    meeting = VCR.use_cassette "cipm/cipm-meeting-#{ident}#{meeting_lang_sfx}" do
+      a.get href
+    end
 
-      #p res.uri
-      Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cipm)
-    end.compact
+    # meeting logic, as in for the `meetings-xx` structure
+    # this structure contains recommendations
 
-    next unless exists
+    if yr
+      has_recommendations = false
 
-    FileUtils.mkdir_p("cipm/meetings#{meeting_lang_sfx_dir}")
-    File.write("cipm/meetings#{meeting_lang_sfx_dir}/meeting-#{"%02d" % yr}.yml", YAML.dump(h))
+      h = {
+        "metadata" => {
+          "title" => title,
+          "date" => date.to_s,
+          "source" => "BIPM - Pavillon de Breteuil",
+          "url" => meeting.uri.to_s,
+        }
+      }
+
+      h["resolutions"] = meeting.css(".bipm-resolutions .publications__content").map do |res_div;href|
+        href = res_div.at_css('a').attr('href').gsub('/web/guest/', "/#{meeting_lang}/")
+        # error: https://www.bipm.org/fr/committees/ci/cipm/104-_1-2015 has wrong references to Recommandations
+        href = href.gsub('/104-2015/', '/104-_1-2015/')
+
+        res_id = href.split("-").last.to_i
+        res = VCR.use_cassette("cipm/cipm-recommendation-#{yr}-#{res_id}#{meeting_lang_sfx}") do
+          a.get href
+        end
+
+        has_recommendations = true
+
+        Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cipm)
+      end
+
+      if has_recommendations
+        FileUtils.mkdir_p("cipm/meetings#{meeting_lang_sfx_dir}")
+        File.write("cipm/meetings#{meeting_lang_sfx_dir}/meeting-#{"%02d" % yr}.yml", YAML.dump(h))
+      else
+        yr = nil
+      end
+    end
+
+    # decisions logic, as in for the `decisions-xx` structure
+    # this structure contains decisions
+
+    if meeting_id
+      h = {
+        "metadata" => {
+          "title" => title,
+          "date" => date.to_s,
+          "source" => "BIPM - Pavillon de Breteuil",
+          "url" => meeting.uri.to_s
+        }
+      }
+
+      h["resolutions"] = meeting.css('.bipm-decisions .decisions').map do |titletr|
+        r = {
+          "dates" => [date.to_s],
+          "title" => titletr.at_css('.title-third').text.strip,
+          "identifier" => "#{titletr.attr('data-meeting')}-#{titletr.attr('data-number')}",
+          "url" => meeting.uri.to_s,
+          #TODO: "reference" => meeting.uri.merge(titletr.attr('data-link')).to_s,
+
+          "categories" => JSON.parse(titletr.attr('data-decisioncategories')).map(&:strip).uniq,
+  
+          "considerations" => [],
+          "actions" => [],
+        }
+  
+        contenttr = Nokogiri::HTML(titletr.attr('data-text'))
+  
+        Bipm::Data::Importer::Common.replace_links contenttr, meeting, meeting_lang
+  
+        part = Bipm::Data::Importer::Common.ng_to_string(contenttr)
+        part = part.gsub(%r"<a name=\"haut\">(.*?)</a>"m, '\1')
+        parse = Nokogiri::HTML(part).text.strip
+  
+        parse =~ /\A(((the|le|la|Le secrétaire du|Le président du|Les membres du|Le directeur du) +[BC][IG]PM( Director| President| Secretary| members)?|Dr May|W\.E\. May)[, ]+)/i
+        subject = $1
+        if subject
+          parse = parse[subject.length..-1]
+          part = part.gsub(/\A(<html><body>\n*<p>)#{Regexp.escape subject}/, '\1')
+          r['subject'] = subject.strip
+        end
+  
+        xparse = parse
+  
+        (1..1024).each do |pass|
+          Bipm::Data::Importer::CONSIDERATIONS.any? do |k,v|
+            if xparse =~ /\A#{Bipm::Data::Importer::PREFIX}#{k}\b/i
+              r["considerations"] << {
+                "type" => v,
+                "date_effective" => date.to_s,
+                "message" => Bipm::Data::Importer::Common.format_message(part),
+              }
+            end
+          end && break
+  
+          Bipm::Data::Importer::ACTIONS.any? do |k,v|
+            if xparse =~ /\A#{Bipm::Data::Importer::PREFIX}#{k}\b/i
+              r["actions"] << {
+                "type" => v,
+                "date_effective" => date.to_s,
+                "message" => Bipm::Data::Importer::Common.format_message(part),
+              }
+            end
+          end && break
+  
+          case pass
+          when 1, 2, 3
+            xparse = xparse.gsub(/\A.*?(CIPM( President| in its meeting)?:?\n*|\((2018|CIPM)\)|de la 103e session) /m, '')
+          when 4
+            xparse = parse.gsub(/\A.*?, /m, '')
+          when 5
+            xparse = parse.gsub(/\A.*? (and|et) /m, '')
+          else
+            r["x-unparsed"] ||= []
+            r["x-unparsed"] << parse
+  
+            break
+          end
+        end
+  
+        r
+      end.sort_by { |i| i["identifier"].split("-").last.to_i }
+
+      if h['resolutions'].length > 0
+        FileUtils.mkdir_p("cipm/decisions#{meeting_lang_sfx_dir}")
+        File.write("cipm/decisions#{meeting_lang_sfx_dir}/meeting-#{meeting_id}.yml", YAML.dump(h))
+      else
+        meeting_id = nil
+      end
+    end
+
+    # index logic: creates an index of all meetings mentioned on the website and
+    # their correct references to `decisions-xx` and `meetings-xx` if present.
+    meeting = {
+      "title" => title,
+      "url" => href,
+      "ident" => ident,
+      "meeting_ref" => yr,
+      "decisions_ref" => meeting_id,
+    }.compact
+
+    index["meetings"] << meeting
   end
+
+  File.write("cipm/index#{meeting_lang_sfx_dir}.yml", YAML.dump(index))
 end
