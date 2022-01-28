@@ -2,6 +2,7 @@
 
 require_relative '../lib/bipm-data-importer'
 
+BASE_DIR = "data"
 a = Mechanize.new
 
 meetings_en = VCR.use_cassette 'cipm/cipm-meetings' do
@@ -84,8 +85,8 @@ resolutions = {}
       end
 
       if has_recommendations
-        FileUtils.mkdir_p("cipm/meetings#{meeting_lang_sfx_dir}")
-        File.write("cipm/meetings#{meeting_lang_sfx_dir}/meeting-#{"%02d" % yr}.yml", YAML.dump(h))
+        FileUtils.mkdir_p("#{BASE_DIR}/cipm/meetings#{meeting_lang_sfx_dir}")
+        File.write("#{BASE_DIR}/cipm/meetings#{meeting_lang_sfx_dir}/meeting-#{"%02d" % yr}.yml", YAML.dump(h))
       else
         yr = nil
       end
@@ -113,19 +114,19 @@ resolutions = {}
           #TODO: "reference" => meeting.uri.merge(titletr.attr('data-link')).to_s,
 
           "categories" => JSON.parse(titletr.attr('data-decisioncategories')).map(&:strip).uniq,
-  
+
           "considerations" => [],
           "actions" => [],
         }
-  
+
         contenttr = Nokogiri::HTML(titletr.attr('data-text'))
-  
+
         Bipm::Data::Importer::Common.replace_links contenttr, meeting, meeting_lang
-  
+
         part = Bipm::Data::Importer::Common.ng_to_string(contenttr)
         part = part.gsub(%r"<a name=\"haut\">(.*?)</a>"m, '\1')
         parse = Nokogiri::HTML(part).text.strip
-  
+
         parse =~ /\A(((the|le|la|Le secrétaire du|Le président du|Les membres du|Le directeur du) +[BC][IG]PM( Director| President| Secretary| members)?|Dr May|W\.E\. May)[, ]+)/i
         subject = $1
         if subject
@@ -133,9 +134,9 @@ resolutions = {}
           part = part.gsub(/\A(<html><body>\n*<p>)#{Regexp.escape subject}/, '\1')
           r['subject'] = subject.strip
         end
-  
+
         xparse = parse
-  
+
         (1..1024).each do |pass|
           Bipm::Data::Importer::CONSIDERATIONS.any? do |k,v|
             if xparse =~ /\A#{Bipm::Data::Importer::PREFIX}#{k}\b/i
@@ -146,7 +147,7 @@ resolutions = {}
               }
             end
           end && break
-  
+
           Bipm::Data::Importer::ACTIONS.any? do |k,v|
             if xparse =~ /\A#{Bipm::Data::Importer::PREFIX}#{k}\b/i
               r["actions"] << {
@@ -156,7 +157,7 @@ resolutions = {}
               }
             end
           end && break
-  
+
           case pass
           when 1, 2, 3
             xparse = xparse.gsub(/\A.*?(CIPM( President| in its meeting)?:?\n*|\((2018|CIPM)\)|de la 103e session) /m, '')
@@ -167,17 +168,17 @@ resolutions = {}
           else
             r["x-unparsed"] ||= []
             r["x-unparsed"] << parse
-  
+
             break
           end
         end
-  
+
         r
       end.sort_by { |i| i["identifier"].split("-").last.to_i }
 
       if h['resolutions'].length > 0
-        FileUtils.mkdir_p("cipm/decisions#{meeting_lang_sfx_dir}")
-        File.write("cipm/decisions#{meeting_lang_sfx_dir}/meeting-#{meeting_id}.yml", YAML.dump(h))
+        FileUtils.mkdir_p("#{BASE_DIR}/cipm/decisions#{meeting_lang_sfx_dir}")
+        File.write("#{BASE_DIR}/cipm/decisions#{meeting_lang_sfx_dir}/meeting-#{meeting_id}.yml", YAML.dump(h))
       else
         meeting_id = nil
       end
@@ -196,5 +197,5 @@ resolutions = {}
     index["meetings"] << meeting
   end
 
-  File.write("cipm/index#{meeting_lang_sfx_dir}.yml", YAML.dump(index))
+  File.write("#{BASE_DIR}/cipm/index#{meeting_lang_sfx_dir}.yml", YAML.dump(index))
 end

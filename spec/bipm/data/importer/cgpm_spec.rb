@@ -1,7 +1,7 @@
 require_relative "../../../spec_helper"
 
 RSpec.describe "data" do
-  $all_files = Dir[File.join(__dir__, '../../../../cgpm/meetings-*/*.yml')]
+  $all_files = Dir[File.join(__dir__, '../../../../data/cgpm/meetings-*/*.yml')]
 
   $all_data = $all_files.map do |f|
     puts f
