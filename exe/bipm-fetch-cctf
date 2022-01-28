@@ -2,11 +2,12 @@
 
 require_relative '../lib/bipm-data-importer'
 
+BASE_DIR = "data"
 a = Mechanize.new
 
-FileUtils.rm_rf "cctf/meetings"
-FileUtils.rm_rf "cctf/meetings-fr"
-FileUtils.rm_rf "cctf/meetings-en"
+FileUtils.rm_rf "#{BASE_DIR}/cctf/meetings"
+FileUtils.rm_rf "#{BASE_DIR}/cctf/meetings-fr"
+FileUtils.rm_rf "#{BASE_DIR}/cctf/meetings-en"
 
 ['en', 'fr'].each do |meeting_lang|
   meeting_lang_sfx     = (meeting_lang == 'fr') ? "-fr" : ""
@@ -36,7 +37,7 @@ FileUtils.rm_rf "cctf/meetings-en"
       Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cctf, meeting_lang)
     end
 
-    FileUtils.mkdir_p("cctf/meetings#{meeting_lang_sfx_dir}")
-    File.write("cctf/meetings#{meeting_lang_sfx_dir}/meeting-#{meeting_id}.yml", YAML.dump(h))
+    FileUtils.mkdir_p("#{BASE_DIR}/cctf/meetings#{meeting_lang_sfx_dir}")
+    File.write("#{BASE_DIR}/cctf/meetings#{meeting_lang_sfx_dir}/meeting-#{meeting_id}.yml", YAML.dump(h))
   end
 end
