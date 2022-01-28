@@ -1,0 +1,42 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/bipm-data-importer'
+
+a = Mechanize.new
+
+FileUtils.rm_rf "cctf/meetings"
+FileUtils.rm_rf "cctf/meetings-fr"
+FileUtils.rm_rf "cctf/meetings-en"
+
+['en', 'fr'].each do |meeting_lang|
+  meeting_lang_sfx     = (meeting_lang == 'fr') ? "-fr" : ""
+  meeting_lang_sfx_dir = (meeting_lang == 'fr') ? "-fr" : "-en"
+
+  1.times do
+    meeting_id = 5
+    title = "5th meeting of the CCTF then CCDS"
+    date = Date.parse("19 June 1970")
+    uri = "https://www.bipm.org/en/committees/cc/cctf/5-1970"
+
+    h = {
+      "metadata" => {
+        "title" => title,
+        "date" => date.to_s,
+        "source" => "BIPM - Pavillon de Breteuil",
+        "url" => uri
+      }
+    }
+
+    # h["pdf"] = pdf if pdf
+
+    h["resolutions"] = ["https://www.bipm.org/#{meeting_lang}/committees/cc/cctf/5-1970/resolution-2"].map do |res_link|
+      res_id = (res_link.split('-')[2] || 0).to_i
+      res = VCR.use_cassette("cctf/cctf-resolution-#{meeting_id}-#{res_id}#{meeting_lang_sfx}") { a.get res_link }
+
+      Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cctf, meeting_lang)
+    end
+
+    FileUtils.mkdir_p("cctf/meetings#{meeting_lang_sfx_dir}")
+    File.write("cctf/meetings#{meeting_lang_sfx_dir}/meeting-#{meeting_id}.yml", YAML.dump(h))
+  end
+end
