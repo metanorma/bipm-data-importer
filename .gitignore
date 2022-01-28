@@ -11,3 +11,5 @@
 .rspec_status
 
 /cassettes/
+/cgpm/
+/cipm/

@@ -2,6 +2,7 @@
 
 require_relative '../lib/bipm-data-importer'
 
+BASE_DIR = "data"
 a = Mechanize.new
 
 meetings_en = VCR.use_cassette 'cgpm-meetings' do
@@ -12,9 +13,9 @@ meetings_fr = VCR.use_cassette 'cgpm-meetings-fr' do
   a.get "https://www.bipm.org/fr/committees/cg/cgpm/cgpm-resolutions"
 end
 
-FileUtils.rm_rf "cgpm/meetings"
-FileUtils.rm_rf "cgpm/meetings-fr"
-FileUtils.rm_rf "cgpm/meetings-en"
+FileUtils.rm_rf "#{BASE_DIR}/cgpm/meetings"
+FileUtils.rm_rf "#{BASE_DIR}/cgpm/meetings-fr"
+FileUtils.rm_rf "#{BASE_DIR}/cgpm/meetings-en"
 
 [['en', meetings_en], ['fr', meetings_fr]].each do |meeting_lang, meetings|
   urls = meetings.css('div.publications__content').map do |option|
@@ -57,7 +58,7 @@ FileUtils.rm_rf "cgpm/meetings-en"
       Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cgpm, meeting_lang)
     end
 
-    FileUtils.mkdir_p("cgpm/meetings#{meeting_lang_sfx_dir}")
-    File.write("cgpm/meetings#{meeting_lang_sfx_dir}/meeting-#{"%02d" % meeting_id}.yml", YAML.dump(h))
+    FileUtils.mkdir_p("#{BASE_DIR}/cgpm/meetings#{meeting_lang_sfx_dir}")
+    File.write("#{BASE_DIR}/cgpm/meetings#{meeting_lang_sfx_dir}/meeting-#{"%02d" % meeting_id}.yml", YAML.dump(h))
   end
 end
