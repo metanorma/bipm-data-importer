@@ -40,6 +40,7 @@ module Bipm
         /(?:Unité de force|(?:Joule|Watt|Volt|Ohm|Amp[eè]re|Coulomb|Farad|Henry|Weber) \(unité?|Bougie nouvelle|Lumen nouveau|announces that|annonce que)/i => "decides", # MISC - like declares/defines
         /(?:Les unités photométriques|\(A\) D[eé]finitions|The photometric units|will (?:provide|circulate|issue|identify|notify|contact|review))/i => "decides", # MISC - like declares/defines
         /(?:Appendix 1 of the|L'Annexe 1 de la|increased|a (?:examiné|préparé)|transmettra|fournira|increased|developed a document|prendra contact)/i => "decides", # MISC - like declares/defines
+        /(?:Le Temps Atomique International |International Atomic Time \(TAI\) )/i => "decides",
         /(?:asks|asked|souhaite|souhaiterait)/i => "asks",
         /(?:further )?invit(?:[ée][ds]?|era)|renouvelle en conséquence|convient d'inviter/i => "invites / further invites",
         /(?:resolve[sd]?)/i => "resolves",
