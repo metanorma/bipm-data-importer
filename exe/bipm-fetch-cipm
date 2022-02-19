@@ -23,7 +23,7 @@ resolutions = {}
   index = { "meetings" => [] }
 
   meetings.css('.meetings-list__item').each do |meeting_div|
-    date = meeting_div.at_css('.meetings-list__informations-date').text.gsub("juin", "june").split(/ (?:to|au) /).last
+    date = meeting_div.at_css('.meetings-list__informations-date').text.gsub("juin", "june").split(/ (?:to|au) /).last.gsub(/\s+/, ' ')
     date = Date.parse(date)
 
     title = meeting_div.at_css('.meetings-list__informations-title').text.strip
