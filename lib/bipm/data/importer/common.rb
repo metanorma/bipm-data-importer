@@ -15,10 +15,10 @@ module Bipm
     module Importer
 
       CONSIDERATIONS = {
-        /(?:having(?: regard)?|ayant|acceptant|concerne|referring|se référant|vu la|agissant conformément|sachant)/i => "having / having regard",
-        /(?:noting|took note|note[sd]?|observing|observant que|taking note|takes note|constatant|constate|that|notant|notant que|note également|(?:prend|prenant) (?:acte|note))/i => "noting",
-        /(?:recognizing|recognizes|reconnaissant|reconnaît|acting in accordance|agissant conformément|conformément)/i => "recognizing",
-        /(?:acknowledging|accept(?:s|ed|ing|e)|admet|entendu|empowered by|habilité par|and aware that)/i => "acknowledging",
+        /(?:having(?: regard)?|ayant|concerne|vu la|agissant conformément|sachant)/i => "having / having regard",
+        /(?:noting|took note|note[sd]?|taking note|takes note|constatant|constate|that|notant|notant que|note également|(?:prend|prenant) (?:acte|note))/i => "noting",
+        /(?:recognizing|recognizes|reconnaissant|reconnaît)/i => "recognizing",
+        /(?:acknowledging|admet|entendu|and aware that)/i => "acknowledging",
         /(?:(?:further )?recall(?:ing|s|ed)|rappelant|rappelle|rappelantla)/i => "recalling / further recalling",
         /(?:re-?affirm(?:ing|s)|réaffirme)/i => "reaffirming",
         /(?:consid(?:ering|érant|ère|ers|ered|érantque|érantle)|après examen|estime|is of the opinion|examinera|en raison|by reason)/i => "considering",
@@ -26,23 +26,29 @@ module Bipm
         "pursuant to" => "pursuant to",
         /(?:bearing in mind)/i => "bearing in mind",
         /(?:emphasizing|soulignant)/i => "emphasizing",
-        "concerned" => "concerned"
+        "concerned" => "concerned",
+        /(?:accept(?:s|ed|ing|e)|acceptant)/i => "accepts",
+        /(?:observing|observant que)/i => "observing",
+        /(?:referring|se référant)/i => "referring",
+        /(?:acting in accordance|agissant conformément|conformément)/i => "acting",
+        /(?:empowered by|habilité par)/i => "empowers",
       }
 
       ACTIONS = {
         /(?:adopts|adopt[eé]d?|convient d'adopter)/ => "adopts",
         /(?:thanks|thanked|expresse[sd](?:[ -]| its )appreciation|appréciant|pays tribute|rend hommage|remercie|strongly supports)/i => "thanks / expresses-appreciation",
         /(?:approu?v[eé][ds]?|approuv[ae]nt|approving|entérine|agreed?|supported|soutient|exprime son accord|n'est pas d'accord|convient)/i => "approves",
-        /(?:d[eé]cid(?:e[ds]?|é)|ratifies?|judges|d[ée]clares?|d[ée]finition|sanction(?:s|né?e)|r[eé]vised?)/i => "decides",
-        /(?:The unit of length is|Supplementary units|Derived units|Principl?es|Les Délégués des États|Les v(?:œ|\u{9C})ux ou propositions)/i => "decides", # MISC - like declares/defines
-        /(?:L'unité de longueur|Unités supplémentaires|Unités dérivées|(?:\*_)?New candle|(?:\*_)?New lumen|(?:A\) )?D[ée]finitions (?:of|des)|Cubic decimetre|Clarification of|Revision of)/i => "decides", # MISC - like declares/defines
-        /(?:Unit of force|Définitions des|Décimètre cube|Étalons secondaires|Unité spéciale|Efficacités lumineuses|From three names|Entre les trois termes)/i => "decides", # MISC - like declares/defines
-        /(?:Unité de force|(?:Joule|Watt|Volt|Ohm|Amp[eè]re|Coulomb|Farad|Henry|Weber) \(unité?|Bougie nouvelle|Lumen nouveau|announces that|annonce que)/i => "decides", # MISC - like declares/defines
-        /(?:Les unités photométriques|\(A\) D[eé]finitions|The photometric units|will (?:provide|circulate|issue|identify|notify|contact|review))/i => "decides", # MISC - like declares/defines
-        /(?:Appendix 1 of the|L'Annexe 1 de la|increased|a (?:examiné|préparé)|transmettra|fournira|increased|developed a document|prendra contact)/i => "decides", # MISC - like declares/defines
-        /(?:Le Temps Atomique International |International Atomic Time \(TAI\) )/i => "decides",
+        /(?:d[eé]cid(?:e[ds]?|é)|ratifies?|r[eé]vised?)/i => "decides",
+        /(?:d[ée]clares?|d[ée]finition)/i => "declares",
+        /(?:The unit of length is|Supplementary units|Derived units|Principl?es|Les Délégués des États|Les v(?:œ|\u{9C})ux ou propositions)/i => "declares",
+        /(?:L'unité de longueur|Unités supplémentaires|Unités dérivées|(?:\*_)?New candle|(?:\*_)?New lumen|(?:A\) )?D[ée]finitions (?:of|des)|Cubic decimetre|Clarification of|Revision of)/i => "declares",
+        /(?:Unit of force|Définitions des|Décimètre cube|Étalons secondaires|Unité spéciale|Efficacités lumineuses|From three names|Entre les trois termes)/i => "declares",
+        /(?:Unité de force|(?:Joule|Watt|Volt|Ohm|Amp[eè]re|Coulomb|Farad|Henry|Weber) \(unité?|Bougie nouvelle|Lumen nouveau|announces that|annonce que)/i => "declares",
+        /(?:Les unités photométriques|\(A\) D[eé]finitions|The photometric units|will (?:provide|circulate|issue|identify|notify|contact|review))/i => "declares",
+        /(?:Appendix 1 of the|L'Annexe 1 de la|increased|a (?:examiné|préparé)|transmettra|fournira|increased|developed a document|prendra contact)/i => "declares",
+        /(?:Le Temps Atomique International |International Atomic Time \(TAI\) )/i => "declares",
         /(?:asks|asked|souhaite|souhaiterait)/i => "asks",
-        /(?:further )?invit(?:[ée][ds]?|era)|renouvelle en conséquence|convient d'inviter/i => "invites / further invites",
+        /(?:(?:further )?invit(?:[ée][ds]?|era)|renouvelle en conséquence|convient d'inviter)/i => "invites / further invites",
         /(?:resolve[sd]?)/i => "resolves",
         /(?:confirms|confirmed?|confirme que)/i => "confirms",
         /(?:welcome[sd]?|accueille favorablement(?:les)?|salue)/i => "welcomes",
@@ -51,18 +57,27 @@ module Bipm
         /(?:congratulate[sd]?|félicite)/i => "congratulates",
         /(?:instructs|instructed|informe)/i => "instructs",
         /(?:urges|prie instamment)/i => "urges",
-        /(?:appoints|(?:re)?appointed|granted|reconduit|commended|élit|nomme|elected|autorise|authorized|empowers|charged?|accorde)/i => "appoints",
-        /(?:donn(?:e|ées)|habilite|nominated|Pendant la période|voted|established a \w+ task group|gave the \w+ \w+ the authority)/i => "appoints",
+        /(?:appoints|(?:re)?appointed|granted|reconduit|commended|accorde)/i => "appoints",
+        /(?:donn(?:e|ées)|Pendant la période|voted|established a \w+ task group)/i => "appoints",
         /(?:convient d'éablir|transfère|confie|établit|Étant donné que trois sièges|As there will be three vacancies)/i => "appoints",
         /(?:La Recommandation 1 du Groupe|Recommendation 1 of the ad hoc)/i => "appoints",
+        /(?:élit|nomme|elected|nominated)/ => "elects",
+        /(?:gave the \w+ \w+ the authority|autorise|authorized)/ => "authorizes",
+        /(?:charged?)/ => "charges",
         /(?:resolve[sd]? further)/i => "resolves further",
         /(?:calls upon|draws the attention|attire l'attention|lance un appel|called upon)/i => "calls upon",
         /(?:encourages?d?|espère|propose[ds]?)/i => "encourages",
-        /(?:affirms|reaffirming|réaffirmant|states|remarks|remarques)/i => "affirms / reaffirming",
+        /(?:affirms|reaffirming|réaffirmant)/i => "affirms / reaffirming",
+        /(?:states)/i => "states",
+        /(?:remarks|remarques)/i => "remarks",
+        /(?:judges)/i => "judges",
+        /(?:sanction(?:s|né?e))/i => "sanctions",
+        /(?:abrogates|abroge)/i => "abrogates",
+        /(?:empowers|habilite)/i => "empowers",
       }
 
       PREFIX1=/(?:The|Le) CIPM |La Conférence |M. Volterra |M. le Président |unanimously |would |a |sont |will |were |did not |strongly |(?:La|The) (?:\d+(?:e|th)|Quinzième) Conférence Générale des Poids et Mesures(?: a |,\s+)?/i
-      PREFIX2=/The \d+th Conférence Générale des Poids et Mesures |The Conference |and |et |has |renouvelle sa |renews its |further |and further |abrogates the |abroge la |En ce qui |après avoir |\.\.\.\n+\t*/i
+      PREFIX2=/The \d+th Conférence Générale des Poids et Mesures |The Conference |and |et |has |renouvelle sa |renews its |further |and further |En ce qui |après avoir |\.\.\.\n+\t*/i
       PREFIX3=/Sur la proposition de M. le Président, la convocation de cette Conférence de Thermométrie est |Le texte corrigé, finalement |(?:The|Le) Comité International(?: des Poids et Mesures)?(?: \(CIPM\))?(?: a |,)?\s*/i
 
       PREFIX=/(?:#{PREFIX1}|#{PREFIX2}|#{PREFIX3})?/i
