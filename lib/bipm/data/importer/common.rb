@@ -184,6 +184,7 @@ module Bipm
 
           r = {
             "dates" => [date.to_s],
+            "subject" => nil,
             "title" => title.strip,
             "identifier" => res_id,
             "url" => res.uri.to_s,
@@ -344,6 +345,18 @@ module Bipm
           if r['subject']
             r['subject'] = r['subject'].uniq.join(" and ")
           end
+
+          # Note: we replace the previously set r['subject'].
+          r['subject'] = case type
+                         when :cgpm
+                           "CGPM"
+                         when :cipm
+                           "CIPM"
+                         when :cctf
+                           "CCDS" # Note: revisit once we fetch more CCTF data
+                         else
+                           raise
+                         end
 
           r
         end

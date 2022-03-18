@@ -108,6 +108,7 @@ resolutions = {}
       h["resolutions"] = meeting.css('.bipm-decisions .decisions').map do |titletr|
         r = {
           "dates" => [date.to_s],
+          "subject" => "CIPM",
           "title" => titletr.at_css('.title-third').text.strip,
           "identifier" => "#{titletr.attr('data-meeting')}-#{titletr.attr('data-number')}",
           "url" => meeting.uri.to_s,
@@ -132,7 +133,8 @@ resolutions = {}
         if subject
           parse = parse[subject.length..-1]
           part = part.gsub(/\A(<html><body>\n*<p>)#{Regexp.escape subject}/, '\1')
-          r['subject'] = subject.strip
+          # Note: we set "CIPM" as the subject for all CIPM decisions
+          # r['subject'] = subject.strip
         end
 
         xparse = parse
