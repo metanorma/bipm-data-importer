@@ -36,7 +36,7 @@ FileUtils.rm_rf "#{BASE_DIR}/cgpm/meetings-en"
 
     binding.pry if date <= Date.parse("0000-01-01") || date >= Date.today
 
-    pdf = meeting.at_css('a.title-third[href*=".pdf"]')&.attr('href')
+    pdf = meeting.at_css('a.title-third[href*=".pdf"]')&.attr('href')&.split('?')&.first
 
     h = {
       "metadata" => {
