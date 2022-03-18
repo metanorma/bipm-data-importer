@@ -191,11 +191,7 @@ module Bipm
             "reference_name" => nil,
             "reference_page" => nil,
 
-            "approvals" => [{
-              "type" => "affirmative",
-              "degree" => "unanimous",
-              "message" => "Unanimous"
-            }],
+            "approvals" => [{}],
 
             "considerations" => [],
             "actions" => [],
@@ -237,6 +233,8 @@ module Bipm
 
           if nparts.first =~ /(,|[mM]esures( \(C[GI]PM\))?|CGPM| \(CCTC\)| Conf[eé]rence|\[de thermométrie et calorimétrie\])[ \n]?(<\/p>)?\n?(\n|\n<p>[[:space:]]<\/p>\n)?\t?\z/
             r["approvals"].first["message"] = Common.format_message(nparts.shift)
+          else
+            r.delete("approvals")
           end
 
           prev = nil
