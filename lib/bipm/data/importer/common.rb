@@ -188,6 +188,8 @@ module Bipm
             "identifier" => res_id,
             "url" => res.uri.to_s,
             "reference" => nil,
+            "reference_name" => nil,
+            "reference_page" => nil,
 
             "approvals" => [{
               "type" => "affirmative",
@@ -201,8 +203,17 @@ module Bipm
 
           if refs.length > 0
             r["reference"] = res.uri.merge(refs.first.attr('href')).to_s
+            name, page = refs.first.text.strip.split(/, p(?=[0-9])/)
+            r["reference_name"] = name
+            if page
+              r["reference_page"] = page.to_i
+            else
+              r.delete("reference_page")
+            end
           else
             r.delete("reference")
+            r.delete("reference_name")
+            r.delete("reference_page")
           end
 
           ps = ng.css('div.journal-content-article').first
