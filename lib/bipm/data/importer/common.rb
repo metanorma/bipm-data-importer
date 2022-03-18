@@ -198,7 +198,7 @@ module Bipm
           }
 
           if refs.length > 0
-            r["reference"] = res.uri.merge(refs.first.attr('href')).to_s
+            r["reference"] = res.uri.merge(refs.first.attr('href')).to_s.split('?').first
             name, page = refs.first.text.strip.split(/, p(?=[0-9])/)
             r["reference_name"] = name
             if page
