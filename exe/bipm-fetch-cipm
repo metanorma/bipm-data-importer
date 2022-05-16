@@ -81,7 +81,7 @@ resolutions = {}
 
         has_recommendations = true
 
-        Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cipm)
+        Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cipm, meeting_lang, "recommendation")
       end
 
       if has_recommendations
@@ -109,6 +109,7 @@ resolutions = {}
         r = {
           "dates" => [date.to_s],
           "subject" => "CIPM",
+          "type" => "decision",
           "title" => titletr.at_css('.title-third').text.strip,
           "identifier" => "#{titletr.attr('data-meeting')}-#{titletr.attr('data-number')}",
           "url" => meeting.uri.to_s,
