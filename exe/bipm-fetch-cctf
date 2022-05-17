@@ -34,7 +34,7 @@ FileUtils.rm_rf "#{BASE_DIR}/cctf/meetings-en"
       res_id = (res_link.split('-')[2] || 0).to_i
       res = VCR.use_cassette("cctf/cctf-resolution-#{meeting_id}-#{res_id}#{meeting_lang_sfx}") { a.get res_link }
 
-      Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cctf, meeting_lang)
+      Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cctf, meeting_lang, "recommendation")
     end
 
     FileUtils.mkdir_p("#{BASE_DIR}/cctf/meetings#{meeting_lang_sfx_dir}")

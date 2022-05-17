@@ -166,7 +166,7 @@ module Bipm
           ps.inner_html.encode('utf-8').gsub("\r", '').gsub(%r'</?nobr>','')
         end
 
-        def parse_resolution res, res_id, date, type = :cgpm, lang = 'en'
+        def parse_resolution res, res_id, date, type = :cgpm, lang = 'en', rec_type = nil
           # Reparse the document after fixing upstream syntax
           fixed_body = res.body.gsub("<name=", "<a name=")
           fixed_body = fixed_body.force_encoding('utf-8')
@@ -185,6 +185,7 @@ module Bipm
           r = {
             "dates" => [date.to_s],
             "subject" => nil,
+            "type" => rec_type,
             "title" => title.strip,
             "identifier" => res_id,
             "url" => res.uri.to_s,
@@ -197,6 +198,8 @@ module Bipm
             "considerations" => [],
             "actions" => [],
           }
+
+          r.delete("type") unless r["type"]
 
           if refs.length > 0
             r["reference"] = res.uri.merge(refs.first.attr('href')).to_s.split('?').first
