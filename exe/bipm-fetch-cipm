@@ -20,7 +20,10 @@ resolutions = {}
 
   meetings = (meeting_lang == 'en') ? meetings_en : meetings_fr
 
-  index = { "meetings" => [] }
+  index = {
+            "meetings" => {"fr" => [], "en" => []}, 
+            "decisions" => {"fr" => [], "en" => []},
+          }
 
   meetings.css('.meetings-list__item').each do |meeting_div|
     date = meeting_div.at_css('.meetings-list__informations-date').text.gsub("juin", "june").split(/ (?:to|au) /).last.gsub(/\s+/, ' ')
@@ -63,7 +66,7 @@ resolutions = {}
       h = {
         "metadata" => {
           "title" => title,
-          "identifier" => title.to_i,
+          "identifier" => meeting_id,
           "date" => date.to_s,
           "source" => "BIPM - Pavillon de Breteuil",
           "url" => meeting.uri.to_s,
@@ -86,8 +89,9 @@ resolutions = {}
       end
 
       if has_recommendations
-        FileUtils.mkdir_p("#{BASE_DIR}/cipm/meetings#{meeting_lang_sfx_dir}")
-        File.write("#{BASE_DIR}/cipm/meetings#{meeting_lang_sfx_dir}/meeting-#{"%02d" % yr}.yml", YAML.dump(h))
+        index["meetings"][meeting_lang] << h
+        # FileUtils.mkdir_p("#{BASE_DIR}/cipm/meetings#{meeting_lang_sfx_dir}")
+        # File.write("#{BASE_DIR}/cipm/meetings#{meeting_lang_sfx_dir}/meeting-#{"%02d" % yr}.yml", YAML.dump(h))
       else
         yr = nil
       end
@@ -182,8 +186,9 @@ resolutions = {}
       end.sort_by { |i| i["identifier"].split("-").last.to_i }
 
       if h['resolutions'].length > 0
-        FileUtils.mkdir_p("#{BASE_DIR}/cipm/decisions#{meeting_lang_sfx_dir}")
-        File.write("#{BASE_DIR}/cipm/decisions#{meeting_lang_sfx_dir}/meeting-#{meeting_id}.yml", YAML.dump(h))
+        index["decisions"][meeting_lang] << h
+        # FileUtils.mkdir_p("#{BASE_DIR}/cipm/decisions#{meeting_lang_sfx_dir}")
+        # File.write("#{BASE_DIR}/cipm/decisions#{meeting_lang_sfx_dir}/meeting-#{meeting_id}.yml", YAML.dump(h))
       else
         meeting_id = nil
       end
@@ -191,16 +196,30 @@ resolutions = {}
 
     # index logic: creates an index of all meetings mentioned on the website and
     # their correct references to `decisions-xx` and `meetings-xx` if present.
-    meeting = {
-      "title" => title,
-      "url" => href,
-      "ident" => ident,
-      "meeting_ref" => yr,
-      "decisions_ref" => meeting_id,
-    }.compact
+    # meeting = {
+    #   "title" => title,
+    #   "url" => href,
+    #   "ident" => ident,
+    #   "meeting_ref" => yr,
+    #   "decisions_ref" => meeting_id,
+    # }.compact
 
-    index["meetings"] << meeting
+    # index["meetings"] << meeting
   end
 
-  File.write("#{BASE_DIR}/cipm/index#{meeting_lang_sfx_dir}.yml", YAML.dump(index))
+  # File.write("#{BASE_DIR}/cipm/index#{meeting_lang_sfx_dir}.yml", YAML.dump(index))
+
+  parts = index["meetings"][meeting_lang] + index["decisions"][meeting_lang]
+  parts = parts.group_by { |i| i["metadata"]["identifier"].to_s }
+  parts = parts.sort_by { |i,| [i.to_i, i] }.to_h # Numeric sort by key
+
+  parts.each do |mid, hs|
+    h = {
+      "metadata" => hs.first["metadata"],
+      "resolutions" => hs.map { |i| i["resolutions"] }.sum([])
+    }
+
+    FileUtils.mkdir_p("#{BASE_DIR}/cipm/meetings#{meeting_lang_sfx_dir}")
+    File.write("#{BASE_DIR}/cipm/meetings#{meeting_lang_sfx_dir}/meeting-#{mid}.yml", YAML.dump(h))
+  end
 end
