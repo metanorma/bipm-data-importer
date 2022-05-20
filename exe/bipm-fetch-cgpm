@@ -41,6 +41,7 @@ FileUtils.rm_rf "#{BASE_DIR}/cgpm/meetings-en"
     h = {
       "metadata" => {
         "title" => title,
+        "identifier" => meeting_id,
         "date" => date.to_s,
         "source" => "BIPM - Pavillon de Breteuil",
         "url" => meeting.uri.to_s
