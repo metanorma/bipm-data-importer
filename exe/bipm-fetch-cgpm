@@ -56,7 +56,7 @@ FileUtils.rm_rf "#{BASE_DIR}/cgpm/meetings-en"
       url = url.gsub('/web/guest/', "/#{meeting_lang}/")
       res = VCR.use_cassette("cgpm-resolution-#{meeting_id}-#{res_id}#{meeting_lang_sfx}") { a.get url }
 
-      Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cgpm, meeting_lang, "resolution")
+      Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cgpm, meeting_lang, "resolution?")
     end
 
     FileUtils.mkdir_p("#{BASE_DIR}/cgpm/meetings#{meeting_lang_sfx_dir}")
