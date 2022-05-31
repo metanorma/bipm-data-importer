@@ -85,7 +85,7 @@ resolutions = {}
 
         has_recommendations = true
 
-        Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cipm, meeting_lang, "recommendation")
+        Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cipm, meeting_lang, "recommendation?")
       end
 
       if has_recommendations

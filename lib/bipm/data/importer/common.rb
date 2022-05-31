@@ -173,20 +173,29 @@ module Bipm
           fixed_body = fixed_body.gsub('&Eacute;', 'É')
           fixed_body = fixed_body.gsub('&#171;&#032;', '« ')
           fixed_body = fixed_body.gsub('&#032;&#187;', ' »')
-          fixed_body = fixed_body.sub(%r'<h1>.*?</h1>'m, '')
+          fixed_body = fixed_body.sub(%r'<h1>(.*?)</h1>'m, '')
+          supertitle = $1.strip
           fixed_body = fixed_body.sub(%r'<h2>(.*?)</h2>'m, '')
-          title = $1
+          title = $1.strip
           fixed_body = fixed_body.sub(/(="web-content">)\s*<p>\s*(<p)/, '\1\2')
           fixed_body = fixed_body.gsub(%r"<a name=\"haut\">(.*?)</a>"m, '\1')
           ng = Nokogiri::HTML(fixed_body, res.uri.to_s, "utf-8", Nokogiri::XML::ParseOptions.new.default_html.noent)
 
           refs = ng.css('.publication-card_reference a')
 
+          if rec_type.end_with? "?"
+            rec_type = if supertitle =~ /D[eé]claration/
+                         rec_type = "declaration"
+                       else
+                         rec_type = rec_type[..-2]
+                       end
+          end
+
           r = {
             "dates" => [date.to_s],
             "subject" => nil,
             "type" => rec_type,
-            "title" => title.strip,
+            "title" => title,
             "identifier" => res_id,
             "url" => res.uri.to_s,
             "reference" => nil,
