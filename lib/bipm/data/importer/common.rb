@@ -184,10 +184,13 @@ module Bipm
           refs = ng.css('.publication-card_reference a')
 
           if rec_type.end_with? "?"
-            rec_type = if supertitle =~ /D[eé]claration/
-                         rec_type = "declaration"
+            rec_type = case supertitle
+                       when /\AD[eé]claration/
+                         "declaration"
+                       when /\AR[eé]solution/
+                         "resolution"
                        else
-                         rec_type = rec_type[..-2]
+                         rec_type[..-2]
                        end
           end
 
