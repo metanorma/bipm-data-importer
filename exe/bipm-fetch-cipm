@@ -40,16 +40,7 @@ resolutions = {}
         # Only the number
         parts[0]
       else
-        parts[0] + case parts[1]
-                   when '_1'
-                     '(I)'
-                   when '_2'
-                     '(II)'
-                   when '_3'
-                     '(III)'
-                   else
-                     raise NotImplementedError
-                   end
+        parts[0] + parts[1].sub("_", "-")
       end
     end
 
