@@ -3,6 +3,7 @@ require 'reverse_adoc'
 require 'vcr'
 require 'date'
 require 'fileutils'
+require 'pry'
 require_relative 'asciimath'
 
 VCR.configure do |c|
@@ -374,6 +375,20 @@ module Bipm
                          end
 
           r
+        end
+
+        def extract_pdf(meeting, lang)
+          pdfs = meeting.css('a.title-third[href*=".pdf"]')
+                        .map { |i| i.attr("href") }
+                        .map { |i| i.split('?').first }          
+                        .select do |i|
+                          i.downcase.include?("-#{lang}.pdf") ||
+                          %w[en fr].none? { |l| i.downcase.include? "-#{l}.pdf" }
+                        end
+
+          pdfs = pdfs.first if pdfs.length <= 1
+
+          pdfs
         end
 
         extend self

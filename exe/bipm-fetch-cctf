@@ -19,6 +19,12 @@ FileUtils.rm_rf "#{BASE_DIR}/cctf/meetings-en"
     date = Date.parse("19 June 1970")
     uri = "https://www.bipm.org/en/committees/cc/cctf/5-1970"
 
+    meeting = VCR.use_cassette "cctf/cctf-meeting-#{meeting_id}#{meeting_lang_sfx}" do
+      a.get uri
+    end
+
+    pdf = Bipm::Data::Importer::Common.extract_pdf(meeting, meeting_lang)
+
     h = {
       "metadata" => {
         "title" => title,
@@ -29,7 +35,7 @@ FileUtils.rm_rf "#{BASE_DIR}/cctf/meetings-en"
       }
     }
 
-    # h["pdf"] = pdf if pdf
+    h["pdf"] = pdf if pdf
 
     h["resolutions"] = ["https://www.bipm.org/#{meeting_lang}/committees/cc/cctf/5-1970/resolution-2"].map do |res_link|
       res_id = (res_link.split('-')[2] || 0).to_i

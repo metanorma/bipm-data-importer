@@ -54,6 +54,8 @@ resolutions = {}
     if yr
       has_recommendations = false
 
+      pdf = Bipm::Data::Importer::Common.extract_pdf(meeting, meeting_lang)
+
       h = {
         "metadata" => {
           "title" => title,
@@ -63,6 +65,8 @@ resolutions = {}
           "url" => meeting.uri.to_s,
         }
       }
+
+      h["pdf"] = pdf if pdf
 
       h["resolutions"] = meeting.css(".bipm-resolutions .publications__content").map do |res_div;href|
         href = res_div.at_css('a').attr('href').gsub('/web/guest/', "/#{meeting_lang}/")
@@ -201,8 +205,11 @@ resolutions = {}
   parts.each do |mid, hs|
     h = {
       "metadata" => hs.first["metadata"],
+      "pdf" => hs.first["pdf"],
       "resolutions" => hs.map { |i| i["resolutions"] }.sum([])
     }
+
+    h.delete("pdf") unless h["pdf"]
 
     FileUtils.mkdir_p("#{BASE_DIR}/cipm/meetings#{meeting_lang_sfx_dir}")
     File.write("#{BASE_DIR}/cipm/meetings#{meeting_lang_sfx_dir}/meeting-#{mid}.yml", YAML.dump(h))
