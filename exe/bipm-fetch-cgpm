@@ -31,12 +31,9 @@ FileUtils.rm_rf "#{BASE_DIR}/cgpm/meetings-en"
     meeting = VCR.use_cassette("cgpm-meeting-#{meeting_id}#{meeting_lang_sfx}") { a.get url }
 
     title = meeting.at_css('h1.session__title').text.strip
-    date = meeting.at_css('p.session__date').text.gsub("juin", "june").split(/ (?:to|au) /).last
-    date = Date.parse(date) # NB: 13-16 November 2018 -> 2018-11-16
+    date = Bipm::Data::Importer::Common.extract_date(meeting.at_css('p.session__date').text)
 
-    binding.pry if date <= Date.parse("0000-01-01") || date >= Date.today
-
-    pdf = meeting.at_css('a.title-third[href*=".pdf"]')&.attr('href')&.split('?')&.first
+    pdf = Bipm::Data::Importer::Common.extract_pdf(meeting, meeting_lang)
 
     h = {
       "metadata" => {

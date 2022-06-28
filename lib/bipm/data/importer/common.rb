@@ -3,6 +3,7 @@ require 'reverse_adoc'
 require 'vcr'
 require 'date'
 require 'fileutils'
+require 'pry'
 require_relative 'asciimath'
 
 VCR.configure do |c|
@@ -374,6 +375,35 @@ module Bipm
                          end
 
           r
+        end
+
+        def extract_pdf(meeting, lang)
+          pdfs = meeting.css('a.title-third[href*=".pdf"]')
+                        .map { |i| i.attr("href") }
+                        .map { |i| i.split('?').first }          
+                        .select do |i|
+                          i.downcase.include?("-#{lang}.pdf") ||
+                          %w[en fr].none? { |l| i.downcase.include? "-#{l}.pdf" }
+                        end
+
+          pdfs = pdfs.first if pdfs.length <= 1
+
+          pdfs
+        end
+
+        def extract_date(date_str)
+          date = date_str.strip
+                         .gsub(/\s+/, ' ')
+                         .gsub("juin", "june") # 3 first letters must match English
+                         .gsub("avril", "april")
+                         .gsub("mai", "may")
+                         .split(/, | to | au /) # Get last date
+                         .last
+          date = Date.parse(date)
+
+          binding.pry if date <= Date.parse("0000-01-01") || date >= Date.today
+
+          date
         end
 
         extend self
