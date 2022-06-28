@@ -33,7 +33,7 @@ resolutions = {}
     href = meeting_div.at_css('.meetings-list__informations-title').attr('href')
 
     ident = href.split('/cipm/').last.gsub('/', '.')
-    yr = (href.include?("/wg/") || href =~ /-_[^1]-/) ? nil : href.split('-').last
+    yr = href.include?("/wg/") ? nil : href.split('-').last
     meeting_id = href.include?("/wg/") ? nil : begin
       parts = href.split("/").last.split("-")
       if parts.length == 2
@@ -79,13 +79,7 @@ resolutions = {}
         Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cipm, meeting_lang, "recommendation?")
       end
 
-      if has_recommendations
-        index["meetings"][meeting_lang] << h
-        # FileUtils.mkdir_p("#{BASE_DIR}/cipm/meetings#{meeting_lang_sfx_dir}")
-        # File.write("#{BASE_DIR}/cipm/meetings#{meeting_lang_sfx_dir}/meeting-#{"%02d" % yr}.yml", YAML.dump(h))
-      else
-        yr = nil
-      end
+      index["meetings"][meeting_lang] << h
     end
 
     # decisions logic, as in for the `decisions-xx` structure
