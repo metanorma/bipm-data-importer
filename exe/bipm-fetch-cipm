@@ -26,8 +26,7 @@ resolutions = {}
           }
 
   meetings.css('.meetings-list__item').each do |meeting_div|
-    date = meeting_div.at_css('.meetings-list__informations-date').text.gsub("juin", "june").gsub("avril", "april").split(/ (?:to|au) /).last.gsub(/\s+/, ' ')
-    date = Date.parse(date)
+    date = Bipm::Data::Importer::Common.extract_date(meeting_div.at_css('.meetings-list__informations-date').text)
 
     title = meeting_div.at_css('.meetings-list__informations-title').text.strip
     href = meeting_div.at_css('.meetings-list__informations-title').attr('href')

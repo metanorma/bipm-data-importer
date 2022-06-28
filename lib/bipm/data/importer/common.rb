@@ -391,6 +391,21 @@ module Bipm
           pdfs
         end
 
+        def extract_date(date_str)
+          date = date_str.strip
+                         .gsub(/\s+/, ' ')
+                         .gsub("juin", "june") # 3 first letters must match English
+                         .gsub("avril", "april")
+                         .gsub("mai", "may")
+                         .split(/, | to | au /) # Get last date
+                         .last
+          date = Date.parse(date)
+
+          binding.pry if date <= Date.parse("0000-01-01") || date >= Date.today
+
+          date
+        end
+
         extend self
       end
 
