@@ -16,20 +16,21 @@ module Bipm
     module Importer
 
       CONSIDERATIONS = {
-        /(?:having(?: regard)?|ayant|concerne|vu la|agissant conformément|sachant)/i => "having / having regard",
-        /(?:noting|took note|note[sd]?|taking note|takes note|constatant|constate|that|notant|notant que|note également|(?:prend|prenant) (?:acte|note))/i => "noting",
+        /(?:having(?: regard)?|ayant|concerne|vu la|agissant conformément|sachant|de porter)/i => "having / having regard",
+        /(?:noting|to note|took note|note[sd]?|taking note|takes note|constatant|constate|that|notant|notant que|note également|(?:prend|prenant) (?:acte|note))/i => "noting",
         /(?:recognizing|recognizes|reconnaissant|reconnaît)/i => "recognizing",
-        /(?:acknowledging|admet|entendu|and aware that)/i => "acknowledging",
+        /(?:acknowledging|admet|entendu|(?:and |)aware that)/i => "acknowledging",
         /(?:(?:further )?recall(?:ing|s|ed)|rappelant|rappelle|rappelantla)/i => "recalling / further recalling",
         /(?:re-?affirm(?:ing|s)|réaffirme)/i => "reaffirming",
-        /(?:consid(?:ering|érant|ère|ers|ered|érantque|érantle)|après examen|estime|is of the opinion|examinera|en raison|by reason)/i => "considering",
-        /(?:taking into account|(prend|prenant) en considération|taking into consideration|tenant compte)/i => "taking into account",
+        /(?:consid(?:er(?:ing|)|érant|ère|ers|ered|érantque|érantle)|après examen|estime|is of the opinion|examinera|en raison|by reason)/i => "considering",
+        /(?:The Consultative Committee for Time and Frequency \(CCTF\), at|Le Comité consultatif du temps et des fréquences \(CCTF\), à)/i => "considering",
+        /(?:taking into account|(prend|prenant) en considération|taking into consideration|tenant compte|envisager)/i => "taking into account",
         "pursuant to" => "pursuant to",
         /(?:bearing in mind)/i => "bearing in mind",
         /(?:emphasizing|soulignant)/i => "emphasizing",
         "concerned" => "concerned",
         /(?:accept(?:s|ed|ing|e)|acceptant)/i => "accepts",
-        /(?:observing|observant que)/i => "observing",
+        /(?:observing|observant que|r[ée]ali(?:zing|sant))/i => "observing",
         /(?:referring|se référant)/i => "referring",
         /(?:acting in accordance|agissant conformément|conformément)/i => "acting",
         /(?:empowered by|habilité par)/i => "empowers",
@@ -37,8 +38,8 @@ module Bipm
 
       ACTIONS = {
         /(?:adopts|adopt[eé]d?|convient d'adopter)/ => "adopts",
-        /(?:thanks|thanked|expresse[sd](?:[ -]| its )appreciation|appréciant|pays tribute|rend hommage|remercie|strongly supports)/i => "thanks / expresses-appreciation",
-        /(?:approu?v[eé][ds]?|approuv[ae]nt|approving|entérine|agreed?|supported|soutient|exprime son accord|n'est pas d'accord|convient)/i => "approves",
+        /(?:thanks|thanked|expresse[sd](?:[ -]| its )appreciation|appréciant|pays tribute|rend hommage|remercie|support(?:ed|s))/i => "thanks / expresses-appreciation",
+        /(?:approu?v[eé][ds]?|approuv[ae]nt|approving|entérine|(?:It was )?agree[sd]?|soutient|exprime son accord|n'est pas d'accord|convient)/i => "approves",
         /(?:d[eé]cid(?:e[ds]?|é)|ratifies?|r[eé]vised?)/i => "decides",
         /(?:d[ée]clares?|d[ée]finition)/i => "declares",
         /(?:The unit of length is|Supplementary units|Derived units|Principl?es|Les Délégués des États|Les v(?:œ|\u{9C})ux ou propositions)/i => "declares",
@@ -47,17 +48,18 @@ module Bipm
         /(?:Unité de force|(?:Joule|Watt|Volt|Ohm|Amp[eè]re|Coulomb|Farad|Henry|Weber) \(unité?|Bougie nouvelle|Lumen nouveau|announces that|annonce que)/i => "declares",
         /(?:Les unités photométriques|\(A\) D[eé]finitions|The photometric units|will (?:provide|circulate|issue|identify|notify|contact|review))/i => "declares",
         /(?:Appendix 1 of the|L'Annexe 1 de la|increased|a (?:examiné|préparé)|transmettra|fournira|increased|developed a document|prendra contact)/i => "declares",
-        /(?:Le Temps Atomique International |International Atomic Time \(TAI\) )/i => "declares",
-        /(?:asks|asked|souhaite|souhaiterait)/i => "asks",
+        /(?:Le Temps Atomique International |International Atomic Time \(TAI\) |will meet )/i => "declares",
+        /(?:ask[s ]|asked|souhaite|souhaiterait)/i => "asks",
         /(?:(?:further )?invit(?:[ée][ds]?|era)|renouvelle en conséquence|convient d'inviter)/i => "invites / further invites",
         /(?:resolve[sd]?)/i => "resolves",
         /(?:confirms|confirmed?|confirme que)/i => "confirms",
-        /(?:welcome[sd]?|accueille favorablement(?:les)?|salue)/i => "welcomes",
-        /(?:recomm(?:ends|ande|ended)|endorsed|LISTE DES RADIATIONS|1 Radiations recommandées|LIST OF RECOMMENDED|1 Recommended radiations)/i => "recommends",
-        /(?:requests?|requested|demande(?:ra)?|requiert)/i => "requests",
+        /(?:welcom(?:e[sd]?|ing)|accueille favorablement(?:les)?|salue)/i => "welcomes",
+        /(?:recomm(?:ends?|ande(?:nt|)|ended)|endorsed|LISTE DES RADIATIONS|1 Radiations recommandées|LIST OF RECOMMENDED|1 Recommended radiations|aim(?:s|ing)|a pour objectif|should)/i => "recommends",
+        /(?:requests?|requested|demande(?:ra)?|requi[eè]r(?:en|)t|must)|l'intention d’examiner/ => "requests",
+        /(?:(?:is |are |)(?:to |)(?:re-?|)(?:amend|investigate|delete|help|present|develop|create|refer|add|formalise|update|collaborate|ensure|modify|prepare|look|report|consider|continue|make|bring|post|request|draw|raise|draft|circulate|arrange|provide|send|write|check|amend|forward|distribute|pursue|inform|coordinate|discuss|submit|ask|inquire|put)|will)/i => "requests",
         /(?:congratulate[sd]?|félicite)/i => "congratulates",
-        /(?:instructs|instructed|informe)/i => "instructs",
-        /(?:urges|prie instamment)/i => "urges",
+        /(?:instructs|instructed|inform[es]|intends to)/i => "instructs",
+        /(?:(?:strongly |)urges|prie instamment)/i => "urges",
         /(?:appoints|(?:re)?appointed|granted|reconduit|commended|accorde)/i => "appoints",
         /(?:donn(?:e|ées)|Pendant la période|voted|established a \w+ task group)/i => "appoints",
         /(?:convient d'éablir|transfère|confie|établit|Étant donné que trois sièges|As there will be three vacancies)/i => "appoints",
@@ -68,7 +70,7 @@ module Bipm
         /(?:resolve[sd]? further)/i => "resolves further",
         /(?:calls upon|draws the attention|attire l'attention|lance un appel|called upon)/i => "calls upon",
         /(?:encourages?d?|espère|propose[ds]?)/i => "encourages",
-        /(?:affirms|reaffirming|réaffirmant)/i => "affirms / reaffirming",
+        /(?:affirms|reaffirming|réaffirmant|concurs)/i => "affirms / reaffirming",
         /(?:states)/i => "states",
         /(?:remarks|remarques)/i => "remarks",
         /(?:judges)/i => "judges",
@@ -78,10 +80,13 @@ module Bipm
       }
 
       PREFIX1=/(?:The|Le) CIPM |La Conférence |M. Volterra |M. le Président |unanimously |would |a |sont |will |were |did not |strongly |(?:La|The) (?:\d+(?:e|th)|Quinzième) Conférence Générale des Poids et Mesures(?: a |,\s+)?/i
-      PREFIX2=/The \d+th Conférence Générale des Poids et Mesures |The Conference |and |et |has |renouvelle sa |renews its |further |and further |En ce qui |après avoir |\.\.\.\n+\t*/i
+      PREFIX2=/The \d+th Conférence Générale des Poids et Mesures |The Conference |and |et (?:en |)|has |renouvelle sa |renews its |further |and further |En ce qui |après avoir |\.\.\.\n+\t*/i
       PREFIX3=/Sur la proposition de M. le Président, la convocation de cette Conférence de Thermométrie est |Le texte corrigé, finalement |(?:The|Le) Comité International(?: des Poids et Mesures)?(?: \(CIPM\))?(?: a |,)?\s*/i
+      PREFIX4=/(?:The |Le |)(?:JCRB|JCGM|CCU|CCTF|CCT|CCRI|CCPR|CCQM|CCM|CCL|CCEM|CCAUV|KCDB),? (?:also |)|Each RMO |fully |The JCRB Rules of Procedure are |Bob Watters and Claudine Thomas /
+      PREFIX5=/(?:The |Le |All |)(?:incoming |)(?:JCRB |KCDB |)(?:documents|(?:Consultative |)Committees?|Office|Chairman(?: and Secretary|)|Joint BIPM[\/-]ILAC Working Group(?: \(see Action 22\))|RMO(?:[- ]JCRB|) Representatives(?: to the JRCB|)|(?:BIPM |)Director(?: of BIPM|)|SIM|(?:Exec(?:utive|) |)Secretary(?:\(ies\)|)|RMOs, except SIM,|RMOs|APMP|\(?(?:[MD]r|Prof) [A-Z][a-zR-]+\)?|CMCs|EUR[AO]MET|COOMET|GULFMET) |It was /
+      PREFIX6=/“|"|« à |All RMO documents related to review procedures |Mr Lam and Dr Kühne |The Prof. Kühne, Mr Jones and the Executive Secretary |Ajchara Charoensook, from APMP, /
 
-      PREFIX=/(?:#{PREFIX1}|#{PREFIX2}|#{PREFIX3})?/i
+      PREFIX=/(?:#{PREFIX1}|#{PREFIX2}|#{PREFIX3}|#{PREFIX4}|#{PREFIX5}|#{PREFIX6})?/i
 
       SUFFIX=/ (?:that|que)\b|(?: (?:the |that |le |que les )?((?:[A-Z]|national|laboratoires).{0,80}?)(?: to)?\b|)/
 
@@ -242,7 +247,7 @@ module Bipm
           doc = Common.ng_to_string(ps)
           # doc = AsciiMath.html_to_asciimath(doc)
 
-          parts = doc.split(/(\n(?:<p>)?<b>.*?<\/b>|\n<p><i>.*?<\/i>|<div class="bipm-lame-grey">|<h3>|<p>(?:après examen |après avoir entendu )|having noted that |decides to define |décide de définir |conformément à l'invitation|acting in accordance with|recommande que les résultats|(?:considers|recommends|recommande) (?:that|que(?! « ))|estime que|declares<\/p>|déclare :<\/b><\/p>|<a name="_ftn\d)/)
+          parts = doc.split(/(\n(?:<p>)?<b>.*?<\/b>|\n<p><i>.*?<\/i>|<div class="bipm-lame-grey">|<h3>|<p>(?:après examen |après avoir entendu )|having noted that |decides to define |décide de définir |conformément à l'invitation|acting in accordance with|recommande que les résultats|(?:strongly |and further |)(?:considers|recommends|recommande) (?:la|that|que(?! « ))|estime que|declares<\/p>|déclare :<\/b><\/p>|<a name="_ftn\d)/)
           nparts = [parts.shift]
           while parts.length > 0
             nparts << parts.shift + parts.shift
@@ -363,16 +368,8 @@ module Bipm
           end
 
           # Note: we replace the previously set r['subject'].
-          r['subject'] = case type
-                         when :cgpm
-                           "CGPM"
-                         when :cipm
-                           "CIPM"
-                         when :cctf
-                           "CCDS" # Note: revisit once we fetch more CCTF data
-                         else
-                           raise
-                         end
+          r['subject'] = type.to_s.upcase.gsub("-", ' ')
+          r['subject'] = 'CCDS' if type == :cctf && supertitle.include?("CCDS")
 
           r
         end
@@ -394,16 +391,19 @@ module Bipm
         def extract_date(date_str)
           date = date_str.strip
                          .gsub(/\s+/, ' ')
-                         .gsub("juin", "june") # 3 first letters must match English
+                         .gsub("février", "february") # 3 first letters must match English
+                         .gsub("juin", "june")
                          .gsub("avril", "april")
                          .gsub("mai", "may")
                          .split(/, | to | au /) # Get last date
                          .last
           date = Date.parse(date)
 
-          binding.pry if date <= Date.parse("0000-01-01") || date >= Date.today
+          binding.pry if date <= Date.parse("0000-01-01")
 
           date
+        rescue Date::Error
+          binding.pry
         end
 
         extend self
