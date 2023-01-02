@@ -30,8 +30,8 @@ FileUtils.rm_rf "#{BASE_DIR}/cgpm/meetings-en"
     meeting_lang_sfx_dir = (meeting_lang == 'fr') ? "-fr" : "-en"
     meeting = VCR.use_cassette("cgpm-meeting-#{meeting_id}#{meeting_lang_sfx}") { a.get url }
 
-    title = meeting.at_css('h1.session__title').text.strip
-    date = Bipm::Data::Importer::Common.extract_date(meeting.at_css('p.session__date').text)
+    title = meeting.at_css('h1.session__title, .journal-content-article h1').text.strip
+    date = Bipm::Data::Importer::Common.extract_date(meeting.at_css('p.session__date, .journal-content-article h2').text)
 
     pdf = Bipm::Data::Importer::Common.extract_pdf(meeting, meeting_lang)
 
