@@ -395,6 +395,9 @@ module Bipm
                          .gsub("juin", "june")
                          .gsub("avril", "april")
                          .gsub("mai", "may")
+                         .gsub("juillet", "july")
+                         .gsub(/ao[uû]t/, "august")
+                         .gsub("décembre", "december")
                          .split(/, | to | au /) # Get last date
                          .last
           date = Date.parse(date)
