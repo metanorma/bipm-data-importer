@@ -138,11 +138,26 @@ bodies.each do |bodyid, bodyurl|
         h["metadata"]["workgroup"] = wg if wg
 
         h["resolutions"] = meeting.css('.bipm-decisions .decisions').map do |titletr|
+          title = titletr.at_css('.title-third').text.strip
+
+          type = case title
+          when /\AD[eé]cision/
+            "decision"
+          when /\AR[eé]solution/
+            "resolution"
+          when /\AAction/
+            "action"
+          when /\ARecomm[ae]ndation/
+            "recommendation"
+          else
+            "decision"
+          end
+
           r = {
             "dates" => [date.to_s],
             "subject" => bodyid.to_s,
-            "type" => "decision",
-            "title" => titletr.at_css('.title-third').text.strip,
+            "type" => type,
+            "title" => title,
             "identifier" => "#{titletr.attr('data-meeting')}-#{titletr.attr('data-number')}",
             "url" => meeting.uri.to_s,
             #TODO: "reference" => meeting.uri.merge(titletr.attr('data-link')).to_s,
