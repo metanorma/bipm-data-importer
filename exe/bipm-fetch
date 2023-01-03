@@ -103,8 +103,21 @@ bodies.each do |bodyid, bodyurl|
 
         h["pdf"] = pdf if pdf
 
-        h["resolutions"] = meeting.css(".bipm-resolutions .publications__content").map do |res_div;href|
-          href = res_div.at_css('a').attr('href').gsub('/web/guest/', "/#{meeting_lang}/")
+        resolutions = meeting.css(".bipm-resolutions .publications__content").map do |res_div|
+          res_div.at_css('a').attr('href')
+        end
+
+        # A mistake on a website, resolution 2 listed twice...
+        # https://www.bipm.org/fr/committees/ci/cipm/94-2005/
+        if [bodyid, meeting_lang, meeting_id] == [:CIPM, 'fr', '94'] && resolutions.sort.uniq != resolutions.sort
+          resolutions = (1..3).map do |i|
+            "https://www.bipm.org/fr/committees/ci/cipm/94-2005/resolution-#{i}"
+          end
+        end
+
+        h["resolutions"] = resolutions.map do |href|
+          href = href.gsub('/web/guest/', "/#{meeting_lang}/")
+
           # error: https://www.bipm.org/fr/committees/ci/cipm/104-_1-2015 has wrong references to Recommandations
           href = href.gsub('/104-2015/', '/104-_1-2015/')
 
