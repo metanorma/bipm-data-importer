@@ -9,6 +9,8 @@ module Bipm
           @id = id
           @body = body
 
+          p file_path
+
           raise IndexError unless File.exist? file_path
         end
 

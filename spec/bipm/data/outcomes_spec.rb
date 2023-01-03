@@ -2,7 +2,7 @@
 
 RSpec.describe Bipm::Data::Outcomes do
   it "acts like an array of Bodies" do
-    expect(described_class.to_a.map(&:class)).to eq [described_class::Body] * 3
+    expect(described_class.to_a.map(&:class)).to eq [described_class::Body] * 14
   end
 
   describe described_class::Body do

@@ -17,7 +17,12 @@ module Bipm
       singleton_class.alias_method :[], :body
 
       def self.bodies
-        %i[cctf cgpm cipm].to_h { |name| [name, body(name)] }
+        %i[
+          ccauv ccem ccl ccm ccpr ccqm ccri cct cctf ccu
+          cgpm cipm jcgm jcrb
+        ].to_h do |name|
+          [name, body(name)]
+        end
       end
 
       def self.each(&block)

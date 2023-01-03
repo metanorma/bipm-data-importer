@@ -20,7 +20,11 @@ module Bipm
         alias [] meeting
 
         def meetings
-          Dir["#{file_path}*"].to_h { |name| name = name.split("-").last.split(".").first; [name, meeting(name)] }
+          Dir["#{file_path}*"].to_h do |name|
+            name = name.split("/").last.split("-", 2).last.split(".").first
+            
+            [name, meeting(name)]
+          end
         end
         
         def each(&block)
