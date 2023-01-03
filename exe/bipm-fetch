@@ -24,6 +24,8 @@ a = Mechanize.new
 bodies.each do |bodyid, bodyurl|
   next if ARGV[0] == '--fork' && fork
 
+  next if ARGV[0] && ARGV[0].start_with?("--body=") && ARGV[0].downcase != "--body=#{bodyid}".downcase
+
   body = bodyid.to_s.downcase.gsub(" ", "-").to_sym
 
   meetings_en = VCR.use_cassette "#{body}/#{body}-meetings" do
@@ -82,6 +84,11 @@ bodies.each do |bodyid, bodyurl|
       meeting = VCR.use_cassette "#{body}/#{body}-meeting-#{ident}#{meeting_lang_sfx}" do
         a.get href
       end
+
+      # Duplicate data upstream:
+      # - https://www.bipm.org/en/committees/ci/cipm/104-_1-2015
+      # - https://www.bipm.org/en/committees/ci/cipm/104-_2-2015
+      yr = nil if [bodyid, meeting_id] == [:CIPM, '104-2']
 
       # meeting logic, as in for the `meetings-xx` structure
       # this structure contains recommendations

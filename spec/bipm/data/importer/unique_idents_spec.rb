@@ -23,6 +23,19 @@ RSpec.describe "data" do
                 end
               end
             end
+
+            it "doesn't have repeated resolutions" do
+              restitles = lbody.meetings.values.flat_map do |m|
+                m.resolutions.values.map do |r|
+                  aca = r.approvals.values + r.considerations.values + r.actions.values
+                  aca = aca.map(&:message).sort.join(";;")
+                  ["#{r.title}", aca]
+                end.reject { |i| i.last.empty? } # Incomplete data, they may differ
+                                                 # just have same titles
+              end.sort
+
+              expect(restitles).to eq(restitles.uniq)
+            end
           end
         end
       end
