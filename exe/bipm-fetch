@@ -252,6 +252,22 @@ bodies.each do |bodyid, bodyurl|
           r
         end.sort_by { |i| i["identifier"].split("-").last.to_i }
 
+        # Mistake on a website: numbering is wrong
+        # https://www.bipm.org/fr/committees/jc/jcrb/43-2021
+        if [bodyid, meeting_lang, meeting_id] == [:JCRB, "fr", "43"]
+          ids = h["resolutions"].map { |i| [i["type"], i["identifier"]] }.sort
+
+          # Unfixed yet still, let's "massage" it
+          if ids != ids.uniq
+            idx = 1
+            h["resolutions"].each do |i|
+              next unless i["identifier"] == "43-1" && i["type"] == "action"
+              i["identifier"] += "-xxx-#{idx}"
+              idx += 1
+            end
+          end
+        end
+
         h["working_documents"] = meeting.css('.portlet-boundary_CommitteePublications_ .publications__content').map do |d|
           {
             "title" => d.at_css('.title-third').text.strip,
