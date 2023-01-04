@@ -30,8 +30,8 @@ FileUtils.rm_rf "#{BASE_DIR}/cgpm/meetings-en"
     meeting_lang_sfx_dir = (meeting_lang == 'fr') ? "-fr" : "-en"
     meeting = VCR.use_cassette("cgpm-meeting-#{meeting_id}#{meeting_lang_sfx}") { a.get url }
 
-    title = meeting.at_css('h1.session__title').text.strip
-    date = Bipm::Data::Importer::Common.extract_date(meeting.at_css('p.session__date').text)
+    title = meeting.at_css('h1.session__title, .journal-content-article h1').text.strip
+    date = Bipm::Data::Importer::Common.extract_date(meeting.at_css('p.session__date, .journal-content-article h2').text)
 
     pdf = Bipm::Data::Importer::Common.extract_pdf(meeting, meeting_lang)
 
@@ -47,11 +47,20 @@ FileUtils.rm_rf "#{BASE_DIR}/cgpm/meetings-en"
 
     h["pdf"] = pdf if pdf
 
-    h["resolutions"] = meeting.links_with(href: %r</resolution->).map do |res_link|
-      res_id = (res_link.href.split('-')[2] || 0).to_i
-      url = res_link.href
-      url = url.gsub('/web/guest/', "/#{meeting_lang}/")
-      res = VCR.use_cassette("cgpm-resolution-#{meeting_id}-#{res_id}#{meeting_lang_sfx}") { a.get url }
+    resolutions = meeting.links_with(href: %r</resolution->).map(&:href)
+
+    # A mistake on a website, resolution 5 listed 4 times...
+    # https://www.bipm.org/fr/committees/cg/cgpm/8-1933
+    if meeting_id == 8 && meeting_lang == 'fr' && resolutions.sort.uniq != resolutions.sort
+      resolutions = (1..15).map do |i|
+        "https://www.bipm.org/en/committees/cg/cgpm/8-1933/resolution-#{i}"
+      end
+    end
+
+    h["resolutions"] = resolutions.map do |res_link|
+      res_id = (res_link.split('-')[2] || 0).to_i
+      res_link = res_link.gsub('/web/guest/', "/#{meeting_lang}/")
+      res = VCR.use_cassette("cgpm-resolution-#{meeting_id}-#{res_id}#{meeting_lang_sfx}") { a.get res_link }
 
       Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, :cgpm, meeting_lang, "resolution?")
     end

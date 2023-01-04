@@ -24,6 +24,8 @@ a = Mechanize.new
 bodies.each do |bodyid, bodyurl|
   next if ARGV[0] == '--fork' && fork
 
+  next if ARGV[0] && ARGV[0].start_with?("--body=") && ARGV[0].downcase != "--body=#{bodyid}".downcase
+
   body = bodyid.to_s.downcase.gsub(" ", "-").to_sym
 
   meetings_en = VCR.use_cassette "#{body}/#{body}-meetings" do
@@ -83,6 +85,11 @@ bodies.each do |bodyid, bodyurl|
         a.get href
       end
 
+      # Duplicate data upstream:
+      # - https://www.bipm.org/en/committees/ci/cipm/104-_1-2015
+      # - https://www.bipm.org/en/committees/ci/cipm/104-_2-2015
+      yr = nil if [bodyid, meeting_id] == [:CIPM, '104-2']
+
       # meeting logic, as in for the `meetings-xx` structure
       # this structure contains recommendations
 
@@ -103,8 +110,21 @@ bodies.each do |bodyid, bodyurl|
 
         h["pdf"] = pdf if pdf
 
-        h["resolutions"] = meeting.css(".bipm-resolutions .publications__content").map do |res_div;href|
-          href = res_div.at_css('a').attr('href').gsub('/web/guest/', "/#{meeting_lang}/")
+        resolutions = meeting.css(".bipm-resolutions .publications__content").map do |res_div|
+          res_div.at_css('a').attr('href')
+        end
+
+        # A mistake on a website, resolution 2 listed twice...
+        # https://www.bipm.org/fr/committees/ci/cipm/94-2005/
+        if [bodyid, meeting_lang, meeting_id] == [:CIPM, 'fr', '94'] && resolutions.sort.uniq != resolutions.sort
+          resolutions = (1..3).map do |i|
+            "https://www.bipm.org/fr/committees/ci/cipm/94-2005/resolution-#{i}"
+          end
+        end
+
+        h["resolutions"] = resolutions.map do |href|
+          href = href.gsub('/web/guest/', "/#{meeting_lang}/")
+
           # error: https://www.bipm.org/fr/committees/ci/cipm/104-_1-2015 has wrong references to Recommandations
           href = href.gsub('/104-2015/', '/104-_1-2015/')
 
@@ -138,11 +158,26 @@ bodies.each do |bodyid, bodyurl|
         h["metadata"]["workgroup"] = wg if wg
 
         h["resolutions"] = meeting.css('.bipm-decisions .decisions').map do |titletr|
+          title = titletr.at_css('.title-third').text.strip
+
+          type = case title
+          when /\AD[eé]cision/
+            "decision"
+          when /\AR[eé]solution/
+            "resolution"
+          when /\AAction/
+            "action"
+          when /\ARecomm[ae]ndation/
+            "recommendation"
+          else
+            "decision"
+          end
+
           r = {
             "dates" => [date.to_s],
             "subject" => bodyid.to_s,
-            "type" => "decision",
-            "title" => titletr.at_css('.title-third').text.strip,
+            "type" => type,
+            "title" => title,
             "identifier" => "#{titletr.attr('data-meeting')}-#{titletr.attr('data-number')}",
             "url" => meeting.uri.to_s,
             #TODO: "reference" => meeting.uri.merge(titletr.attr('data-link')).to_s,
@@ -216,6 +251,22 @@ bodies.each do |bodyid, bodyurl|
 
           r
         end.sort_by { |i| i["identifier"].split("-").last.to_i }
+
+        # Mistake on a website: numbering is wrong
+        # https://www.bipm.org/fr/committees/jc/jcrb/43-2021
+        if [bodyid, meeting_lang, meeting_id] == [:JCRB, "fr", "43"]
+          ids = h["resolutions"].map { |i| [i["type"], i["identifier"]] }.sort
+
+          # Unfixed yet still, let's "massage" it
+          if ids != ids.uniq
+            idx = 1
+            h["resolutions"].each do |i|
+              next unless i["identifier"] == "43-1" && i["type"] == "action"
+              i["identifier"] += "-xxx-#{idx}"
+              idx += 1
+            end
+          end
+        end
 
         h["working_documents"] = meeting.css('.portlet-boundary_CommitteePublications_ .publications__content').map do |d|
           {

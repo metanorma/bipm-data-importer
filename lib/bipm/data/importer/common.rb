@@ -19,7 +19,7 @@ module Bipm
         /(?:having(?: regard)?|ayant|concerne|vu la|agissant conformément|sachant|de porter)/i => "having / having regard",
         /(?:noting|to note|took note|note[sd]?|taking note|takes note|constatant|constate|that|notant|notant que|note également|(?:prend|prenant) (?:acte|note))/i => "noting",
         /(?:recognizing|recognizes|reconnaissant|reconnaît)/i => "recognizing",
-        /(?:acknowledging|admet|entendu|(?:and |)aware that)/i => "acknowledging",
+        /(?:acknowledging|admet|entendu|(?:and |)aware that|anticipa(?:ting|nt))/i => "acknowledging",
         /(?:(?:further )?recall(?:ing|s|ed)|rappelant|rappelle|rappelantla)/i => "recalling / further recalling",
         /(?:re-?affirm(?:ing|s)|réaffirme)/i => "reaffirming",
         /(?:consid(?:er(?:ing|)|érant|ère|ers|ered|érantque|érantle)|après examen|estime|is of the opinion|examinera|en raison|by reason)/i => "considering",
@@ -52,8 +52,8 @@ module Bipm
         /(?:ask[s ]|asked|souhaite|souhaiterait)/i => "asks",
         /(?:(?:further )?invit(?:[ée][ds]?|era)|renouvelle en conséquence|convient d'inviter)/i => "invites / further invites",
         /(?:resolve[sd]?)/i => "resolves",
-        /(?:confirms|confirmed?|confirme que)/i => "confirms",
-        /(?:welcom(?:e[sd]?|ing)|accueille favorablement(?:les)?|salue)/i => "welcomes",
+        /(?:confirms|confirmed?|confirme que|committed|s'engageant)/i => "confirms",
+        /(?:welcom(?:e[sd]?|ing)|accueille favorablement(?:les)?|salu(?:e|ant))/i => "welcomes",
         /(?:recomm(?:ends?|ande(?:nt|)|ended)|endorsed|LISTE DES RADIATIONS|1 Radiations recommandées|LIST OF RECOMMENDED|1 Recommended radiations|aim(?:s|ing)|a pour objectif|should)/i => "recommends",
         /(?:requests?|requested|demande(?:ra)?|requi[eè]r(?:en|)t|must)|l'intention d’examiner/ => "requests",
         /(?:(?:is |are |)(?:to |)(?:re-?|)(?:amend|investigate|delete|help|present|develop|create|refer|add|formalise|update|collaborate|ensure|modify|prepare|look|report|consider|continue|make|bring|post|request|draw|raise|draft|circulate|arrange|provide|send|write|check|amend|forward|distribute|pursue|inform|coordinate|discuss|submit|ask|inquire|put)|will)/i => "requests",
@@ -395,6 +395,9 @@ module Bipm
                          .gsub("juin", "june")
                          .gsub("avril", "april")
                          .gsub("mai", "may")
+                         .gsub("juillet", "july")
+                         .gsub(/ao[uû]t/, "august")
+                         .gsub("décembre", "december")
                          .split(/, | to | au /) # Get last date
                          .last
           date = Date.parse(date)

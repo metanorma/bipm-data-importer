@@ -25,6 +25,10 @@ module Bipm
         def subject
           document["subject"]
         end
+
+        def title
+          document["title"]
+        end
         
         def type
           document["type"].to_sym
