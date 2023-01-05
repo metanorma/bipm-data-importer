@@ -269,12 +269,24 @@ bodies.each do |bodyid, bodyurl|
         end
 
         h["working_documents"] = meeting.css('.portlet-boundary_CommitteePublications_ .publications__content').map do |d|
+          # Website depends on an Accept-Language header but caches responses. This creates non-determinism. We must unify those.
+          # $ curl -H "Accept-Language: " "https://www.bipm.org/en/committees/cc/ccqm/22-2016?$RANDOM$RANDOM" 2>/dev/null | grep -A2 publications__date
+          # <p class="publications__date">
+          #   Mon Jul 09 00:00:00 GMT 2018
+          # </p>
+          # $ curl -H "Accept-Language: en-us, en" "https://www.bipm.org/en/committees/cc/ccqm/22-2016?$RANDOM$RANDOM" 2>/dev/null | grep -A2 publications__date
+          # <p class="publications__date">
+          #   09/07/2018
+          # </p>
+          date_str = d.at_css('.publications__date')&.text&.strip
+          date_str = Date.parse(date_str).strftime("%d/%m/%Y") if date_str
+
           {
             "title" => d.at_css('.title-third').text.strip,
             "pdf" => d.at_css('.title-third').attr('href'),
             "description" => d.css('.publications__body').first.text.strip,
             "author" => d.css('.publications__body').last.text.strip,
-            "date" => d.at_css('.publications__date')&.text&.strip,
+            "date" => date_str,
           }.compact
         end
 
