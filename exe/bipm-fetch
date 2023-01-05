@@ -309,10 +309,10 @@ bodies.each do |bodyid, bodyurl|
     # File.write("#{BASE_DIR}/cipm/index#{meeting_lang_sfx_dir}.yml", YAML.dump(index))
 
     parts = index["meetings"][meeting_lang] + index["decisions"][meeting_lang]
-    parts = parts.group_by { |i| i["metadata"]["identifier"].to_s }
-    parts = parts.sort_by { |i,| [i.to_i, i] }.to_h # Numeric sort by key
+    parts = parts.group_by { |i| [i["metadata"]["workgroup"].to_s, i["metadata"]["identifier"].to_s] }
+    parts = parts.sort_by { |(wg,i),| [wg, i.to_i, i] }.to_h # Numeric sort by workgroup, then key
 
-    parts.each do |mid, hs|
+    parts.each do |(wg, mid), hs|
       h = {
         "metadata" => hs.first["metadata"],
         "pdf" => hs.first["pdf"],
