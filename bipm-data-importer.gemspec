@@ -31,12 +31,12 @@ Gem::Specification.new do |spec|
   spec.add_dependency "nokogiri"
   spec.add_dependency "mechanize"
   spec.add_dependency "reverse_adoc"
+  spec.add_dependency "pry"
 
   spec.add_dependency "vcr"
   spec.add_development_dependency "webmock"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rubocop", "~> 1.21"
-  spec.add_development_dependency "pry"
   spec.add_development_dependency "rdoc"
 end
