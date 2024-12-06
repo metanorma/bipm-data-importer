@@ -1,5 +1,5 @@
 require 'mechanize'
-require 'reverse_adoc'
+require 'coradoc/input/html'
 require 'vcr'
 require 'date'
 require 'fileutils'
@@ -50,7 +50,7 @@ module Bipm
         /(?:Appendix 1 of the|L'Annexe 1 de la|increased|a (?:examiné|préparé)|transmettra|fournira|increased|developed a document|prendra contact)/i => "declares",
         /(?:Le Temps Atomique International |International Atomic Time \(TAI\) |will meet )/i => "declares",
         /(?:ask[s ]|asked|souhaite|souhaiterait)/i => "asks",
-        /(?:(?:further )?invit(?:[ée][ds]?|era)|renouvelle en conséquence|convient d'inviter)/i => "invites / further invites",
+        /(?:(?:further |et )?invit(?:[ée][ds]?|era)|renouvelle en conséquence|convient d'inviter)/i => "invites / further invites",
         /(?:resolve[sd]?)/i => "resolves",
         /(?:confirms|confirmed?|confirme que|committed|s'engageant)/i => "confirms",
         /(?:welcom(?:e[sd]?|ing)|accueille favorablement(?:les)?|salu(?:e|ant))/i => "welcomes",
@@ -89,6 +89,8 @@ module Bipm
       PREFIX=/(?:#{PREFIX1}|#{PREFIX2}|#{PREFIX3}|#{PREFIX4}|#{PREFIX5}|#{PREFIX6})?/i
 
       SUFFIX=/ (?:that|que)\b|(?: (?:the |that |le |que les )?((?:[A-Z]|national|laboratoires).{0,80}?)(?: to)?\b|)/
+
+      DOIREGEX = %r'\s+<p>\s+<b>DOI :</b> (.*?)\s+</p>\n\n'
 
       module Common
         def replace_links ps, res, lang
@@ -164,8 +166,13 @@ module Bipm
 
         def format_message part
           AsciiMath.asciidoc_extract_math(
-            ReverseAdoc.convert(part).strip.gsub("&nbsp;", ' ').gsub(" \n", "\n")
+            Coradoc::Input::HTML.convert(part).strip.gsub("&nbsp;", ' ').gsub(" \n", "\n")
           )
+        rescue
+          warn "Bug in Coradoc, couldn't parse the following document:"
+          pp part
+          warn "Please report this as an issue to https://github.com/metanorma/coradoc"
+          raise
         end
 
         def ng_to_string ps
@@ -246,6 +253,11 @@ module Bipm
 
           doc = Common.ng_to_string(ps)
           # doc = AsciiMath.html_to_asciimath(doc)
+
+          if doc.match? DOIREGEX
+            doc = doc.sub(DOIREGEX, '')
+            r["doi"] = $1
+          end
 
           parts = doc.split(/(\n(?:<p>)?<b>.*?<\/b>|\n<p><i>.*?<\/i>|<div class="bipm-lame-grey">|<h3>|<p>(?:après examen |après avoir entendu )|having noted that |decides to define |décide de définir |conformément à l'invitation|acting in accordance with|recommande que les résultats|(?:strongly |and further |)(?:considers|recommends|recommande) (?:la|that|que(?! « ))|estime que|declares<\/p>|déclare :<\/b><\/p>|<a name="_ftn\d)/)
           nparts = [parts.shift]
@@ -389,6 +401,8 @@ module Bipm
         end
 
         def extract_date(date_str)
+          return nil unless date_str
+
           date = date_str.strip
                          .gsub(/\s+/, ' ')
                          .gsub("février", "february") # 3 first letters must match English
