@@ -15,7 +15,8 @@ bodies = {
   "CCL":       'https://www.bipm.org/en/committees/cc/ccl',
   "CCEM":      'https://www.bipm.org/en/committees/cc/ccem',
   "CCAUV":     'https://www.bipm.org/en/committees/cc/ccauv',
-  "CIPM":      'https://www.bipm.org/en/committees/ci/cipm'
+  "CIPM":      'https://www.bipm.org/en/committees/ci/cipm',
+  "CGPM":      'https://www.bipm.org/en/committees/cg/cgpm',
 }
 
 BASE_DIR = "data"
@@ -64,6 +65,7 @@ bodies.each do |bodyid, bodyurl|
 
       title = meeting_div.at_css('.meetings-list__informations-title').text.strip
       href = meeting_div.at_css('.meetings-list__informations-title').attr('href')
+      href = "/#{meeting_lang}" + href unless href.start_with? "/#{meeting_lang}/"
 
       ident = href.split("/#{body}/").last.gsub('/', '.')
       yr = href.include?("/wg/") ? nil : href.split('-').last
@@ -124,6 +126,7 @@ bodies.each do |bodyid, bodyurl|
 
         h["resolutions"] = resolutions.map do |href|
           href = href.gsub('/web/guest/', "/#{meeting_lang}/")
+          href = href.sub("www.bipm.org/", "www.bipm.org/#{meeting_lang}/") unless href.include? "/#{meeting_lang}/"
 
           # error: https://www.bipm.org/fr/committees/ci/cipm/104-_1-2015 has wrong references to Recommandations
           href = href.gsub('/104-2015/', '/104-_1-2015/')
@@ -343,7 +346,7 @@ bodies.each do |bodyid, bodyurl|
         "documents" => i.css(".publications__content").map do |d|
           {
             "title" => d.at_css(".title-third").text.strip.gsub(/\s+/, ' '),
-            "pdf" => d.at_css(".title-third").attr("href").split('?').first,
+            "pdf" => d.at_css(".title-third")&.attr("href")&.split('?')&.first,
             # "description" => d.css('.publications__body')[0]&.text&.strip,
             # "author" => d.css('.publications__body')[1]&.text&.strip,
           }.compact
