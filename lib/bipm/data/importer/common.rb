@@ -1,20 +1,19 @@
-require 'mechanize'
-require 'coradoc/input/html'
-require 'vcr'
-require 'date'
-require 'fileutils'
-require 'pry'
-require_relative 'asciimath'
+require "mechanize"
+require "coradoc/input/html"
+require "vcr"
+require "date"
+require "fileutils"
+require "pry"
+require_relative "asciimath"
 
 VCR.configure do |c|
-  c.cassette_library_dir = __dir__+'/../../../../cassettes'
+  c.cassette_library_dir = __dir__ + "/../../../../cassettes"
   c.hook_into :webmock
 end
 
 module Bipm
   module Data
     module Importer
-
       CONSIDERATIONS = {
         /(?:having(?: regard)?|ayant|concerne|vu la|agissant conformément|sachant|de porter)/i => "having / having regard",
         /(?:noting|to note|took note|note[sd]?|taking note|takes note|constatant|constate|that|notant|notant que|note également|(?:prend|prenant) (?:acte|note))/i => "noting",
@@ -79,52 +78,52 @@ module Bipm
         /(?:empowers|habilite)/i => "empowers",
       }
 
-      PREFIX1=/(?:The|Le) CIPM |La Conférence |M. Volterra |M. le Président |unanimously |would |a |sont |will |were |did not |strongly |(?:La|The) (?:\d+(?:e|th)|Quinzième) Conférence Générale des Poids et Mesures(?: a |,\s+)?/i
-      PREFIX2=/The \d+th Conférence Générale des Poids et Mesures |The Conference |and |et (?:en |)|has |renouvelle sa |renews its |further |and further |En ce qui |après avoir |\.\.\.\n+\t*/i
-      PREFIX3=/Sur la proposition de M. le Président, la convocation de cette Conférence de Thermométrie est |Le texte corrigé, finalement |(?:The|Le) Comité International(?: des Poids et Mesures)?(?: \(CIPM\))?(?: a |,)?\s*/i
-      PREFIX4=/(?:The |Le |)(?:JCRB|JCGM|CCU|CCTF|CCT|CCRI|CCPR|CCQM|CCM|CCL|CCEM|CCAUV|KCDB),? (?:also |)|Each RMO |fully |The JCRB Rules of Procedure are |Bob Watters and Claudine Thomas /
-      PREFIX5=/(?:The |Le |All |)(?:incoming |)(?:JCRB |KCDB |)(?:documents|(?:Consultative |)Committees?|Office|Chairman(?: and Secretary|)|Joint BIPM[\/-]ILAC Working Group(?: \(see Action 22\))|RMO(?:[- ]JCRB|) Representatives(?: to the JRCB|)|(?:BIPM |)Director(?: of BIPM|)|SIM|(?:Exec(?:utive|) |)Secretary(?:\(ies\)|)|RMOs, except SIM,|RMOs|APMP|\(?(?:[MD]r|Prof) [A-Z][a-zR-]+\)?|CMCs|EUR[AO]MET|COOMET|GULFMET) |It was /
-      PREFIX6=/“|"|« à |All RMO documents related to review procedures |Mr Lam and Dr Kühne |The Prof. Kühne, Mr Jones and the Executive Secretary |Ajchara Charoensook, from APMP, /
+      PREFIX1 = /(?:The|Le) CIPM |La Conférence |M. Volterra |M. le Président |unanimously |would |a |sont |will |were |did not |strongly |(?:La|The) (?:\d+(?:e|th)|Quinzième) Conférence Générale des Poids et Mesures(?: a |,\s+)?/i
+      PREFIX2 = /The \d+th Conférence Générale des Poids et Mesures |The Conference |and |et (?:en |)|has |renouvelle sa |renews its |further |and further |En ce qui |après avoir |\.\.\.\n+\t*/i
+      PREFIX3 = /Sur la proposition de M. le Président, la convocation de cette Conférence de Thermométrie est |Le texte corrigé, finalement |(?:The|Le) Comité International(?: des Poids et Mesures)?(?: \(CIPM\))?(?: a |,)?\s*/i
+      PREFIX4 = /(?:The |Le |)(?:JCRB|JCGM|CCU|CCTF|CCT|CCRI|CCPR|CCQM|CCM|CCL|CCEM|CCAUV|KCDB),? (?:also |)|Each RMO |fully |The JCRB Rules of Procedure are |Bob Watters and Claudine Thomas /
+      PREFIX5 = /(?:The |Le |All |)(?:incoming |)(?:JCRB |KCDB |)(?:documents|(?:Consultative |)Committees?|Office|Chairman(?: and Secretary|)|Joint BIPM[\/-]ILAC Working Group(?: \(see Action 22\))|RMO(?:[- ]JCRB|) Representatives(?: to the JRCB|)|(?:BIPM |)Director(?: of BIPM|)|SIM|(?:Exec(?:utive|) |)Secretary(?:\(ies\)|)|RMOs, except SIM,|RMOs|APMP|\(?(?:[MD]r|Prof) [A-Z][a-zR-]+\)?|CMCs|EUR[AO]MET|COOMET|GULFMET) |It was /
+      PREFIX6 = /“|"|« à |All RMO documents related to review procedures |Mr Lam and Dr Kühne |The Prof. Kühne, Mr Jones and the Executive Secretary |Ajchara Charoensook, from APMP, /
 
-      PREFIX=/(?:#{PREFIX1}|#{PREFIX2}|#{PREFIX3}|#{PREFIX4}|#{PREFIX5}|#{PREFIX6})?/i
+      PREFIX = /(?:#{PREFIX1}|#{PREFIX2}|#{PREFIX3}|#{PREFIX4}|#{PREFIX5}|#{PREFIX6})?/i
 
-      SUFFIX=/ (?:that|que)\b|(?: (?:the |that |le |que les )?((?:[A-Z]|national|laboratoires).{0,80}?)(?: to)?\b|)/
+      SUFFIX = / (?:that|que)\b|(?: (?:the |that |le |que les )?((?:[A-Z]|national|laboratoires).{0,80}?)(?: to)?\b|)/
 
       DOIREGEX = %r'\s+<p>\s+<b>DOI :</b> (.*?)\s+</p>\n\n'
 
       module Common
-        def replace_links ps, res, lang
-          ps.css('a[href]').each do |a|
-            href = a.attr('href')
+        def replace_links(ps, res, lang)
+          ps.css("a[href]").each do |a|
+            href = a.attr("href")
 
-            href = href.gsub(%r'\Ahttps://www.bipm.org/', '')
+            href = href.gsub(%r'\Ahttps://www.bipm.org/', "")
 
             # Correct links
-            href = href.gsub('/web/guest/', "/#{lang}/")
+            href = href.gsub("/web/guest/", "/#{lang}/")
 
             # Account for some mistakes from an upstream document
-            href = href.gsub(%r"\A/jen/", '/en/')
-            href = href.gsub(%r"\A/en/CGPM/jsp/", '/en/CGPM/db/')
+            href = href.gsub(%r"\A/jen/", "/en/")
+            href = href.gsub(%r"\A/en/CGPM/jsp/", "/en/CGPM/db/")
 
             href = case href
-            when %r'\A/(\w{2})/CGPM/db/(\d+)/(\d+)/(#.*)?\z',
-                 %r'\A/jsp/(\w{2})/ViewCGPMResolution\.jsp\?CGPM=(\d+)&RES=(\d+)(#.*)?\z',
-                 %r'\A/(\w{2})/committees/cg/cgpm/(\d+)-\d+/resolution-(\d+)(#.*)?\z',
-              "cgpm-resolution:#{$1}/#{$2}/#{$3}#{$4}"
-            when %r'\A/(\w{2})/CIPM/db/(\d+)/(\d+)/(#.*)?\z'
-              "cipm-resolution:#{$1}/#{$2}/#{$3}#{$4}"
-            when %r'\A/(\w{2})/committees/cipm/meeting/([0-9()I]+).html(#.*)?\z'
-              "cipm-decisions:#{$1}/#{$2}#{$3}"
-            else
-              URI(res.uri).merge(href).to_s # Relative -> absolute
-            end
+              when %r'\A/(\w{2})/CGPM/db/(\d+)/(\d+)/(#.*)?\z',
+                   %r'\A/jsp/(\w{2})/ViewCGPMResolution\.jsp\?CGPM=(\d+)&RES=(\d+)(#.*)?\z',
+                   %r'\A/(\w{2})/committees/cg/cgpm/(\d+)-\d+/resolution-(\d+)(#.*)?\z',
+                   "cgpm-resolution:#{$1}/#{$2}/#{$3}#{$4}"
+              when %r'\A/(\w{2})/CIPM/db/(\d+)/(\d+)/(#.*)?\z'
+                "cipm-resolution:#{$1}/#{$2}/#{$3}#{$4}"
+              when %r'\A/(\w{2})/committees/cipm/meeting/([0-9()I]+).html(#.*)?\z'
+                "cipm-decisions:#{$1}/#{$2}#{$3}"
+              else
+                URI(res.uri).merge(href).to_s # Relative -> absolute
+              end
 
-            a.set_attribute('href', href)
+            a.set_attribute("href", href)
           end
         end
 
-        def replace_centers ps
-          centers = ps.css('center').to_a
+        def replace_centers(ps)
+          centers = ps.css("center").to_a
           while centers.length > 0
             center = centers.first
             current = center
@@ -133,7 +132,7 @@ module Bipm
               break unless current.next
               while Nokogiri::XML::Text === current.next
                 current = current.next
-                break if current.text.strip != ''
+                break if current.text.strip != ""
               end
               break unless current.next
               break unless current.next.name == "center"
@@ -159,14 +158,14 @@ module Bipm
           end
 
           # Remove the remaining centers
-          ps.css('center').each do |i|
+          ps.css("center").each do |i|
             i.replace i.inner_html
           end
         end
 
-        def format_message part
+        def format_message(part)
           AsciiMath.asciidoc_extract_math(
-            Coradoc::Input::HTML.convert(part).strip.gsub("&nbsp;", ' ').gsub(" \n", "\n")
+            Coradoc::Input::HTML.convert(part).strip.gsub("&nbsp;", " ").gsub(" \n", "\n")
           )
         rescue
           warn "Bug in Coradoc, couldn't parse the following document:"
@@ -175,36 +174,36 @@ module Bipm
           raise
         end
 
-        def ng_to_string ps
-          ps.inner_html.encode('utf-8').gsub("\r", '').gsub(%r'</?nobr>','')
+        def ng_to_string(ps)
+          ps.inner_html.encode("utf-8").gsub("\r", "").gsub(%r'</?nobr>', "")
         end
 
-        def parse_resolution res, res_id, date, type = :cgpm, lang = 'en', rec_type = nil
+        def parse_resolution(res, res_id, date, type = :cgpm, lang = "en", rec_type = nil)
           # Reparse the document after fixing upstream syntax
           fixed_body = res.body.gsub("<name=", "<a name=")
-          fixed_body = fixed_body.force_encoding('utf-8')
-          fixed_body = fixed_body.gsub('&Eacute;', 'É')
-          fixed_body = fixed_body.gsub('&#171;&#032;', '« ')
-          fixed_body = fixed_body.gsub('&#032;&#187;', ' »')
-          fixed_body = fixed_body.sub(%r'<h1>(.*?)</h1>'m, '')
+          fixed_body = fixed_body.force_encoding("utf-8")
+          fixed_body = fixed_body.gsub("&Eacute;", "É")
+          fixed_body = fixed_body.gsub("&#171;&#032;", "« ")
+          fixed_body = fixed_body.gsub("&#032;&#187;", " »")
+          fixed_body = fixed_body.sub(%r'<h1>(.*?)</h1>'m, "")
           supertitle = $1.strip
-          fixed_body = fixed_body.sub(%r'<h2>(.*?)</h2>'m, '')
+          fixed_body = fixed_body.sub(%r'<h2>(.*?)</h2>'m, "")
           title = $1.strip
           fixed_body = fixed_body.sub(/(="web-content">)\s*<p>\s*(<p)/, '\1\2')
           fixed_body = fixed_body.gsub(%r"<a name=\"haut\">(.*?)</a>"m, '\1')
           ng = Nokogiri::HTML(fixed_body, res.uri.to_s, "utf-8", Nokogiri::XML::ParseOptions.new.default_html.noent)
 
-          refs = ng.css('.publication-card_reference a')
+          refs = ng.css(".publication-card_reference a")
 
           if rec_type.end_with? "?"
             rec_type = case supertitle
-                       when /\AD[eé]claration/
-                         "declaration"
-                       when /\AR[eé]solution/
-                         "resolution"
-                       else
-                         rec_type[..-2]
-                       end
+              when /\AD[eé]claration/
+                "statement"
+              when /\AR[eé]solution/
+                "resolution"
+              else
+                rec_type[..-2]
+              end
           end
 
           r = {
@@ -227,7 +226,7 @@ module Bipm
           r.delete("type") unless r["type"]
 
           if refs.length > 0
-            r["reference"] = res.uri.merge(refs.first.attr('href')).to_s.split('?').first
+            r["reference"] = res.uri.merge(refs.first.attr("href")).to_s.split("?").first
             name, page = refs.first.text.strip.split(/, p(?=[0-9])/)
             r["reference_name"] = name
             if page
@@ -241,7 +240,7 @@ module Bipm
             r.delete("reference_page")
           end
 
-          ps = ng.css('div.journal-content-article').first
+          ps = ng.css("div.journal-content-article").first
 
           #binding.pry if ps.count != 1
 
@@ -255,7 +254,7 @@ module Bipm
           # doc = AsciiMath.html_to_asciimath(doc)
 
           if doc.match? DOIREGEX
-            doc = doc.sub(DOIREGEX, '')
+            doc = doc.sub(DOIREGEX, "")
             r["doi"] = $1
           end
 
@@ -279,13 +278,13 @@ module Bipm
               next
             end
 
-            if parse.start_with? 'NOTE'
-              part = part.sub('<h3>NOTE</h3>', '')
+            if parse.start_with? "NOTE"
+              part = part.sub("<h3>NOTE</h3>", "")
               r["notes"] = Common.format_message(part)
               next
             end
 
-            CONSIDERATIONS.any? do |k,v|
+            CONSIDERATIONS.any? do |k, v|
               if parse =~ /\A#{PREFIX}#{k}\b/i
                 r["considerations"] << prev = {
                   "type" => v,
@@ -295,7 +294,7 @@ module Bipm
               end
             end && next
 
-            ACTIONS.any? do |k,v|
+            ACTIONS.any? do |k, v|
               if parse =~ /\A#{PREFIX}#{k}\b/i
                 r["actions"] << prev = {
                   "type" => v,
@@ -326,13 +325,13 @@ module Bipm
           end
 
           %w[considerations actions].each do |type|
-            map = type == 'actions' ? ACTIONS : CONSIDERATIONS
+            map = type == "actions" ? ACTIONS : CONSIDERATIONS
             r[type] = r[type].map do |i|
               islist = false
 
               kk = nil
 
-              if map.any? { |k,v| (i["message"].split("\n").first =~ /\A\s*([*_]?)(#{PREFIX}#{k})\1?(#{SUFFIX})\1?\s*\z/i) && (kk = k) }
+              if map.any? { |k, v| (i["message"].split("\n").first =~ /\A\s*([*_]?)(#{PREFIX}#{k})\1?(#{SUFFIX})\1?\s*\z/i) && (kk = k) }
                 prefix = $2
                 suffix = $3
                 subject = $4
@@ -359,15 +358,15 @@ module Bipm
 
               if subject
                 #p subject
-                r['subject'] ||= []
-                r['subject'] << subject
+                r["subject"] ||= []
+                r["subject"] << subject
               end
 
               if islist
                 suffix = suffix.strip
-                suffix = nil if suffix == ''
+                suffix = nil if suffix == ""
                 listitems.map do |li|
-                  i.merge 'message' => [prefix, suffix, li].compact.join(" ")
+                  i.merge "message" => [prefix, suffix, li].compact.join(" ")
                 end
               else
                 i
@@ -375,13 +374,13 @@ module Bipm
             end.flatten
           end
 
-          if r['subject']
-            r['subject'] = r['subject'].uniq.join(" and ")
+          if r["subject"]
+            r["subject"] = r["subject"].uniq.join(" and ")
           end
 
           # Note: we replace the previously set r['subject'].
-          r['subject'] = type.to_s.upcase.gsub("-", ' ')
-          r['subject'] = 'CCDS' if type == :cctf && supertitle.include?("CCDS")
+          r["subject"] = type.to_s.upcase.gsub("-", " ")
+          r["subject"] = "CCDS" if type == :cctf && supertitle.include?("CCDS")
 
           r
         end
@@ -389,11 +388,11 @@ module Bipm
         def extract_pdf(meeting, lang)
           pdfs = meeting.css('a.title-third[href*=".pdf"]')
                         .map { |i| i.attr("href") }
-                        .map { |i| i.split('?').first }          
+                        .map { |i| i.split("?").first }
                         .select do |i|
-                          i.downcase.include?("-#{lang}.pdf") ||
-                          %w[en fr].none? { |l| i.downcase.include? "-#{l}.pdf" }
-                        end
+            i.downcase.include?("-#{lang}.pdf") ||
+            %w[en fr].none? { |l| i.downcase.include? "-#{l}.pdf" }
+          end
 
           pdfs = pdfs.first if pdfs.length <= 1
 
@@ -404,7 +403,7 @@ module Bipm
           return nil unless date_str
 
           date = date_str.strip
-                         .gsub(/\s+/, ' ')
+                         .gsub(/\s+/, " ")
                          .gsub("février", "february") # 3 first letters must match English
                          .gsub("juin", "june")
                          .gsub("avril", "april")
@@ -425,7 +424,6 @@ module Bipm
 
         extend self
       end
-
     end
   end
 end
