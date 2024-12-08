@@ -96,7 +96,7 @@ module Bipm
           ps.css("a[href]").each do |a|
             href = a.attr("href")
 
-            href = href.gsub(%r'\Ahttps://www.bipm.org/', "")
+            href = href.gsub(%r'\Ahttps://www\.bipm\.org/', "")
 
             # Correct links
             href = href.gsub("/web/guest/", "/#{lang}/")
