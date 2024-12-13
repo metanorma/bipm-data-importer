@@ -338,7 +338,7 @@ module Bipm
 
                 listmarker = nil
                 listitems = []
-                if (i["message"].split(/(?<!\+)\n/).all? { |j|
+                if (i["message"].split(/(?<!\+)\n(?!\+)/).all? { |j|
                   case j
                   when /\A\s*[*_]?#{PREFIX}#{kk}/i
                     true

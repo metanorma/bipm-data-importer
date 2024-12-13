@@ -9,10 +9,10 @@ module Bipm
         SPACE_AFTER=/(?:\Z|(?=&nbsp;|\s|[,()\/.~"^]))/
 
         PREFIXES = /m|c|d|k|M|G|T|/
-        UNITS = /t|m|mol|cal|µ|s|g|W|cd|Hz|J|K|N|V|H|A|C|F|T|Wb|sr|lx|lm|bar|sb|h|rad|°C|°F|°K/
+        UNITS = /t|m|mol|cal|µ|s|g|W|cd|Hz|J|K|N|V|H|A|C|F|T|Wb|sr|lx|lm|bar|sb|h|rad|fm|°C|°F|°K/
 
         def asciidoc_extract_math str
-          str.gsub(/\b_(#{MATH}{1,3})_/, 'stem:[\1]')
+          str.gsub(/\b_?_(#{MATH}{1,3})_?_/, 'stem:[\1]')
             .gsub("_,_", ',') # Some mistake in formatting
             .gsub("^er^", 'ESCUPerESCUP') # French specialities
             .gsub(/(bar|A) (table|of|key|de|being|full|1)( |,)/, 'ESC\1 \2\3') # A is Ampere, but also a particle, bar is a bar but also a bar
