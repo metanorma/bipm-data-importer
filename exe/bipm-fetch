@@ -29,22 +29,6 @@ bodies.each do |bodyid, bodyurl|
 
   body = bodyid.to_s.downcase.gsub(" ", "-").to_sym
 
-  meetings_en = VCR.use_cassette "#{body}/#{body}-meetings" do
-    a.get "#{bodyurl}/meetings"
-  end
-  
-  meetings_fr = VCR.use_cassette "#{body}/#{body}-meetings-fr" do
-    a.get "#{bodyurl.gsub("/en/", "/fr/")}/meetings"
-  end
-
-  publications_en = VCR.use_cassette "#{body}/#{body}-publications" do
-    a.get "#{bodyurl}/publications"
-  end
-
-  publications_fr = VCR.use_cassette "#{body}/#{body}-publications-fr" do
-    a.get "#{bodyurl.gsub("/en/", "/fr/")}/publications"
-  end
-
   resolutions = {}
   %w[en fr].each do |meeting_lang|
     next if ARGV[0] == '--fork' && fork
@@ -52,8 +36,45 @@ bodies.each do |bodyid, bodyurl|
     meeting_lang_sfx     = (meeting_lang == 'fr') ? "-fr" : ""
     meeting_lang_sfx_dir = (meeting_lang == 'fr') ? "-fr" : "-en"
 
-    meetings = (meeting_lang == 'en') ? meetings_en : meetings_fr
-    publications = (meeting_lang == 'en') ? publications_en : publications_fr
+    bodyurl_local = meeting_lang == "en" ? bodyurl : bodyurl.gsub("/en/", "/fr/")
+
+    cassfx = meeting_lang == "en" ? "" : "-fr"
+
+    pages = {}
+
+    pages[:index] = VCR.use_cassette "#{body}/#{body}-index#{meeting_lang_sfx}" do
+      a.get "#{bodyurl_local}"
+    end
+
+    pages[:meetings] = VCR.use_cassette "#{body}/#{body}-meetings#{meeting_lang_sfx}" do
+      a.get "#{bodyurl_local}/meetings"
+    end
+
+    pages[:publications] = VCR.use_cassette "#{body}/#{body}-publications#{meeting_lang_sfx}" do
+      a.get "#{bodyurl_local}/publications"
+    end
+
+    # CIPM
+    pages[:recommendations] = VCR.use_cassette "#{body}/#{body}-recommendations#{meeting_lang_sfx}" do
+      a.get "#{bodyurl_local}/recommendations"
+    rescue Mechanize::ResponseCodeError
+      nil
+    end
+
+    # CIPM has outcomes, JCRB has meeting-outcomes
+    # As of 2024-12, no other body has this special case.
+    outcomes_path = bodyid == :CIPM ? "outcomes" : "meeting-outcomes"
+
+    pages[:outcomes] = VCR.use_cassette "#{body}/#{body}-outcomes#{meeting_lang_sfx}" do
+      a.get "#{bodyurl_local}/#{outcomes_path}"
+    rescue Mechanize::ResponseCodeError
+      nil
+    end
+
+    meetings = pages[:meetings]
+    publications = pages[:publications]
+    recommendations = pages[:recommendations]
+    outcomes = pages[:outcomes]
 
     index = {
               "meetings" => {"fr" => [], "en" => []}, 
@@ -116,6 +137,17 @@ bodies.each do |bodyid, bodyurl|
           res_div.at_css('a').attr('href')
         end
 
+        resolutions_additional = recommendations&.css(".bipm-resolutions .publications__content")&.map do |res_div|
+          href = res_div.at_css('a').attr('href')
+
+          # bad case of french data...
+          href = href.gsub('/106-2017/', '/104-_1-2015/') if href =~ %r"/ci/cipm/106-2017/resolution-[12]\z"
+
+          href
+        end&.select do |href|
+          href.include? "/#{ident}/"
+        end || []
+
         # A mistake on a website, resolution 2 listed twice...
         # https://www.bipm.org/fr/committees/ci/cipm/94-2005/
         if [bodyid, meeting_lang, meeting_id] == [:CIPM, 'fr', '94'] && resolutions.sort.uniq != resolutions.sort
@@ -123,6 +155,8 @@ bodies.each do |bodyid, bodyurl|
             "https://www.bipm.org/fr/committees/ci/cipm/94-2005/resolution-#{i}"
           end
         end
+
+        resolutions = (resolutions + resolutions_additional).uniq
 
         h["resolutions"] = resolutions.map do |href|
           href = href.gsub('/web/guest/', "/#{meeting_lang}/")
@@ -160,7 +194,31 @@ bodies.each do |bodyid, bodyurl|
 
         h["metadata"]["workgroup"] = wg if wg
 
-        h["resolutions"] = meeting.css('.bipm-decisions .decisions').map do |titletr|
+        decisions = meeting.css('.bipm-decisions .decisions')
+
+        # For some bodies, decisions/outcomes are on a different page altogether.
+        # But then we must select only decisions pertaining to our meeting.
+        if outcomes
+          decisions_additional = outcomes.css('.bipm-decisions .decisions')
+
+          decisions_additional = decisions_additional.select do |i|
+            pass = true if i["data-meeting_key"] == meeting_id
+            pass = true if i["data-meeting_key"] == "#{meeting_id}-0" # Some are with a 0, some without
+            pass = true if i["data-meeting"] == meeting_id # Some don't have meeting_key set, but have meeting set
+
+            pass
+          end
+
+          decisions = decisions.to_a + decisions_additional.to_a
+
+          # duplicates check...
+          duplicates = decisions.map{|i|i.at_css('.title-third').text}
+          if duplicates != duplicates.uniq
+            pp [:duplicates_found, decisions]
+          end
+        end
+
+        h["resolutions"] = decisions.map do |titletr|
           title = titletr.at_css('.title-third').text.strip
 
           type = case title
@@ -176,6 +234,9 @@ bodies.each do |bodyid, bodyurl|
             "decision"
           end
 
+          categories = titletr.attr('data-decisioncategories')
+          categories ||= "[]"
+
           r = {
             "dates" => [date.to_s],
             "subject" => bodyid.to_s,
@@ -185,7 +246,7 @@ bodies.each do |bodyid, bodyurl|
             "url" => meeting.uri.to_s,
             #TODO: "reference" => meeting.uri.merge(titletr.attr('data-link')).to_s,
 
-            "categories" => JSON.parse(titletr.attr('data-decisioncategories')).map(&:strip).uniq,
+            "categories" => JSON.parse(categories).map(&:strip).uniq,
 
             "considerations" => [],
             "actions" => [],
@@ -329,6 +390,9 @@ bodies.each do |bodyid, bodyurl|
       wg = hs.first["metadata"]["workgroup"]
       if wg
         fn = "#{BASE_DIR}/#{body}/workgroups/#{wg}/meetings#{meeting_lang_sfx_dir}/meeting-#{mid}.yml"
+      elsif body == :cgpm
+        # CGPM old script used numbering like 00, 01, ..., 11, ...
+        fn = "#{BASE_DIR}/#{body}/meetings#{meeting_lang_sfx_dir}/meeting-#{"%02d" % mid}.yml"
       else
         fn = "#{BASE_DIR}/#{body}/meetings#{meeting_lang_sfx_dir}/meeting-#{mid}.yml"
       end
