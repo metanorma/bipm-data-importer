@@ -9,6 +9,7 @@ require_relative "asciimath"
 VCR.configure do |c|
   c.cassette_library_dir = __dir__ + "/../../../../cassettes"
   c.hook_into :webmock
+  c.allow_http_connections_when_no_cassette = true
 end
 
 module Bipm
@@ -165,7 +166,7 @@ module Bipm
 
         def format_message(part)
           AsciiMath.asciidoc_extract_math(
-            Coradoc::Input::HTML.convert(part).strip.gsub("&nbsp;", " ").gsub(" \n", "\n")
+            Coradoc::Input::Html.convert(part).strip.gsub("&nbsp;", " ").gsub(" \n", "\n")
           )
         rescue
           warn "Bug in Coradoc, couldn't parse the following document:"
@@ -420,6 +421,18 @@ module Bipm
           date
         rescue Date::Error
           binding.pry
+        end
+
+        def deep_merge_hashes(hash1, hash2)
+          hash1.merge(hash2) do |key, oldval, newval|
+            if oldval.is_a?(Hash) && newval.is_a?(Hash)
+              deep_merge_hashes(oldval, newval)
+            elsif oldval.is_a?(Array) && newval.is_a?(Array)
+              (oldval + newval).uniq
+            else
+              newval
+            end
+          end
         end
 
         extend self

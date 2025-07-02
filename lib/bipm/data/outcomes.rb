@@ -42,6 +42,8 @@ module Bipm
       # It may be possible, that we don't have the BIPM data loaded.
       def self.ensure_downloaded
         if File.exist?(file_path)
+          system("git", "-C", file_path, "pull") or
+            raise "Updating bipm-data-outcomes failed: possibly git not available"
           return
         elsif !File.writable?(File.dirname(file_path))
           require "fileutils"

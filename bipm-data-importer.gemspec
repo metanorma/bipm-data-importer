@@ -33,10 +33,10 @@ Gem::Specification.new do |spec|
   spec.add_dependency "coradoc"
   spec.add_dependency "pry"
 
-  spec.add_dependency "vcr"
   spec.add_development_dependency "webmock"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rubocop", "~> 1.21"
   spec.add_development_dependency "rdoc"
+  spec.add_development_dependency "vcr"
 end

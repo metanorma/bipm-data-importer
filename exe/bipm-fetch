@@ -2,6 +2,8 @@
 
 require_relative '../lib/bipm-data-importer'
 
+Bipm::Data::Outcomes.ensure_downloaded
+
 bodies = {
   "JCRB":      'https://www.bipm.org/en/committees/jc/jcrb',
   "JCGM":      'https://www.bipm.org/en/committees/jc/jcgm',
@@ -42,33 +44,27 @@ bodies.each do |bodyid, bodyurl|
 
     pages = {}
 
-    pages[:index] = VCR.use_cassette "#{body}/#{body}-index#{meeting_lang_sfx}" do
-      a.get "#{bodyurl_local}"
-    end
+    pages[:index] = a.get "#{bodyurl_local}"
 
-    pages[:meetings] = VCR.use_cassette "#{body}/#{body}-meetings#{meeting_lang_sfx}" do
-      a.get "#{bodyurl_local}/meetings"
-    end
+    pages[:meetings] = a.get "#{bodyurl_local}/meetings"
 
-    pages[:publications] = VCR.use_cassette "#{body}/#{body}-publications#{meeting_lang_sfx}" do
-      a.get "#{bodyurl_local}/publications"
-    end
+    pages[:publications] = a.get "#{bodyurl_local}/publications"
 
     # CIPM
-    pages[:recommendations] = VCR.use_cassette "#{body}/#{body}-recommendations#{meeting_lang_sfx}" do
-      a.get "#{bodyurl_local}/recommendations"
+    begin
+      pages[:recommendations] = a.get "#{bodyurl_local}/recommendations"
     rescue Mechanize::ResponseCodeError
-      nil
+      pages[:recommendations] = nil
     end
 
     # CIPM has outcomes, JCRB has meeting-outcomes
     # As of 2024-12, no other body has this special case.
     outcomes_path = bodyid == :CIPM ? "outcomes" : "meeting-outcomes"
 
-    pages[:outcomes] = VCR.use_cassette "#{body}/#{body}-outcomes#{meeting_lang_sfx}" do
-      a.get "#{bodyurl_local}/#{outcomes_path}"
+    begin
+      pages[:outcomes] = a.get "#{bodyurl_local}/#{outcomes_path}"
     rescue Mechanize::ResponseCodeError
-      nil
+      pages[:outcomes] = nil
     end
 
     meetings = pages[:meetings]
@@ -77,7 +73,7 @@ bodies.each do |bodyid, bodyurl|
     outcomes = pages[:outcomes]
 
     index = {
-              "meetings" => {"fr" => [], "en" => []}, 
+              "meetings" => {"fr" => [], "en" => []},
               "decisions" => {"fr" => [], "en" => []},
             }
 
@@ -104,9 +100,7 @@ bodies.each do |bodyid, bodyurl|
         end
       end
 
-      meeting = VCR.use_cassette "#{body}/#{body}-meeting-#{ident}#{meeting_lang_sfx}" do
-        a.get href
-      end
+      meeting = a.get href
 
       # Duplicate data upstream:
       # - https://www.bipm.org/en/committees/ci/cipm/104-_1-2015
@@ -166,9 +160,7 @@ bodies.each do |bodyid, bodyurl|
           href = href.gsub('/104-2015/', '/104-_1-2015/')
 
           res_id = href.split("-").last.to_i
-          res = VCR.use_cassette("#{body}/#{body}-recommendation-#{yr}-#{res_id}#{meeting_lang_sfx}") do
-            a.get href
-          end
+          res = a.get href
 
           has_recommendations = true
 
@@ -266,7 +258,7 @@ bodies.each do |bodyid, bodyurl|
           part = part.gsub(%r"<a name=\"haut\">(.*?)</a>"m, '\1')
           parse = Nokogiri::HTML(part).text.strip
 
-          parse =~ /\A(((the|le|la|Le secrétaire du|Le président du|Les membres du|Le directeur du) +[BC][IG]PM( Director| President| Secretary| members)?|Dr May|W\.E\. May)[, ]+)/i
+          parse =~ /\A(((the|le|la|Le secrétaire du|Le président du|Les membres du|Le directeur du) +[BC][IG]PM( Director| President| Secretary| members)?|Dr May|W\\.E\\. May)[, ]+)/i
           subject = $1
           if subject
             parse = parse[subject.length..-1]
@@ -347,10 +339,9 @@ bodies.each do |bodyid, bodyurl|
 
           {
             "title" => d.at_css('.title-third').text.strip,
-            "pdf" => d.at_css('.title-third').attr('href'),
-            "description" => d.css('.publications__body').first.text.strip,
-            "author" => d.css('.publications__body').last.text.strip,
-            "date" => date_str,
+            "pdf" => d.at_css('.title-third')&.attr("href")&.split('?')&.first,
+            # "description" => d.css('.publications__body')[0]&.text&.strip,
+            # "author" => d.css('.publications__body')[1]&.text&.strip,
           }.compact
         end
 
@@ -381,7 +372,7 @@ bodies.each do |bodyid, bodyurl|
         "metadata" => hs.first["metadata"],
         "pdf" => hs.first["pdf"],
         "resolutions" => hs.map { |i| i["resolutions"] }.sum([]),
-        "working_documents" => hs.map { |i| i["working_documents"] || [] }.sum([])        
+        "working_documents" => hs.map { |i| i["working_documents"] || [] }.sum([])
       }
 
       h.delete("pdf") unless h["pdf"]
@@ -398,6 +389,10 @@ bodies.each do |bodyid, bodyurl|
       end
 
       FileUtils.mkdir_p(File.dirname(fn))
+      if File.exist?(fn)
+        existing_data = YAML.load_file(fn)
+        h = Bipm::Data::Importer::Common.deep_merge_hashes(existing_data, h)
+      end
       File.write(fn, YAML.dump(h))
     end
 

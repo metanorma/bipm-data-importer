@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../lib/bipm/data/importer"
+require "bipm-data-importer"
 require_relative "../lib/bipm/data/outcomes"
 
 RSpec.configure do |config|
