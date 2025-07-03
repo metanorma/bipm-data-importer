@@ -2,7 +2,9 @@
 
 require_relative '../lib/bipm-data-importer'
 
-Bipm::Data::Outcomes.ensure_downloaded
+# NOTE: This script uses VCR to cache web requests for fast, deterministic runs.
+# To refresh the data from the live website, delete the `cassettes/` directory
+# before running this script.
 
 bodies = {
   "JCRB":      'https://www.bipm.org/en/committees/jc/jcrb',
@@ -26,60 +28,36 @@ a = Mechanize.new
 
 bodies.each do |bodyid, bodyurl|
   next if ARGV[0] == '--fork' && fork
-
   next if ARGV[0] && ARGV[0].start_with?("--body=") && ARGV[0].downcase != "--body=#{bodyid}".downcase
 
   body = bodyid.to_s.downcase.gsub(" ", "-").to_sym
 
-  resolutions = {}
   %w[en fr].each do |meeting_lang|
+    processed_resolution_urls = Set.new
     next if ARGV[0] == '--fork' && fork
 
     meeting_lang_sfx     = (meeting_lang == 'fr') ? "-fr" : ""
     meeting_lang_sfx_dir = (meeting_lang == 'fr') ? "-fr" : "-en"
-
     bodyurl_local = meeting_lang == "en" ? bodyurl : bodyurl.gsub("/en/", "/fr/")
 
-    cassfx = meeting_lang == "en" ? "" : "-fr"
-
     pages = {}
-
-    pages[:index] = a.get "#{bodyurl_local}"
-
-    pages[:meetings] = a.get "#{bodyurl_local}/meetings"
-
-    pages[:publications] = a.get "#{bodyurl_local}/publications"
-
-    # CIPM
-    begin
-      pages[:recommendations] = a.get "#{bodyurl_local}/recommendations"
-    rescue Mechanize::ResponseCodeError
-      pages[:recommendations] = nil
+    VCR.use_cassette("#{body}/#{body}-#{meeting_lang}-pages", record: :new_episodes) do
+      pages[:index] = a.get "#{bodyurl_local}"
+      pages[:meetings] = a.get "#{bodyurl_local}/meetings"
+      pages[:publications] = a.get "#{bodyurl_local}/publications"
+      begin
+        pages[:recommendations] = a.get "#{bodyurl_local}/recommendations"
+      rescue Mechanize::ResponseCodeError; pages[:recommendations] = nil; end
+      outcomes_path = bodyid == :CIPM ? "outcomes" : "meeting-outcomes"
+      begin
+        pages[:outcomes] = a.get "#{bodyurl_local}/#{outcomes_path}"
+      rescue Mechanize::ResponseCodeError; pages[:outcomes] = nil; end
     end
 
-    # CIPM has outcomes, JCRB has meeting-outcomes
-    # As of 2024-12, no other body has this special case.
-    outcomes_path = bodyid == :CIPM ? "outcomes" : "meeting-outcomes"
+    all_meeting_data = []
 
-    begin
-      pages[:outcomes] = a.get "#{bodyurl_local}/#{outcomes_path}"
-    rescue Mechanize::ResponseCodeError
-      pages[:outcomes] = nil
-    end
-
-    meetings = pages[:meetings]
-    publications = pages[:publications]
-    recommendations = pages[:recommendations]
-    outcomes = pages[:outcomes]
-
-    index = {
-              "meetings" => {"fr" => [], "en" => []},
-              "decisions" => {"fr" => [], "en" => []},
-            }
-
-    meetings.css('.meetings-list__item').each do |meeting_div|
+    pages[:meetings].css('.meetings-list__item').each do |meeting_div|
       date = Bipm::Data::Importer::Common.extract_date(meeting_div.at_css('.meetings-list__informations-date').text)
-
       title = meeting_div.at_css('.meetings-list__informations-title').text.strip
       href = meeting_div.at_css('.meetings-list__informations-title').attr('href')
       href = "/#{meeting_lang}" + href unless href.start_with? "/#{meeting_lang}/"
@@ -87,342 +65,110 @@ bodies.each do |bodyid, bodyurl|
       ident = href.split("/#{body}/").last.gsub('/', '.')
       yr = href.include?("/wg/") ? nil : href.split('-').last
       meeting_id = if href.include?("/wg/")
-        # workgroup logic
-        wg = href.split("/wg/").last.split("/").first
-        href.split("/").last
-      else
-        parts = href.split("/").last.split("-")
-        if parts.length == 2
-          # Only the number
-          parts[0]
-        else
-          parts[0] + parts[1].sub("_", "-")
-        end
-      end
+                     wg = href.split("/wg/").last.split("/").first
+                     href.split("/").last
+                   else
+                     parts = href.split("/").last.split("-")
+                     parts.length == 2 ? parts[0] : parts[0] + parts[1].sub("_", "-")
+                   end
 
-      meeting = a.get href
-
-      # Duplicate data upstream:
-      # - https://www.bipm.org/en/committees/ci/cipm/104-_1-2015
-      # - https://www.bipm.org/en/committees/ci/cipm/104-_2-2015
+      meeting = VCR.use_cassette("#{body}/#{body}-meeting-#{ident}#{meeting_lang_sfx}", record: :new_episodes) { a.get(href) }
       yr = nil if [bodyid, meeting_id] == [:CIPM, '104-2']
 
-      # meeting logic, as in for the `meetings-xx` structure
-      # this structure contains recommendations
-
       if yr
-        has_recommendations = false
-
         pdf = Bipm::Data::Importer::Common.extract_pdf(meeting, meeting_lang)
+        h = { "metadata" => { "title" => title, "identifier" => meeting_id, "date" => date.to_s, "source" => "BIPM - Pavillon de Breteuil", "url" => meeting.uri.to_s }, "pdf" => pdf, "resolutions" => [] }
+        h.delete("pdf") unless pdf
 
-        h = {
-          "metadata" => {
-            "title" => title,
-            "identifier" => meeting_id,
-            "date" => date.to_s,
-            "source" => "BIPM - Pavillon de Breteuil",
-            "url" => meeting.uri.to_s,
-          }
-        }
+        resolution_hrefs = meeting.css(".bipm-resolutions .publications__content").map { |d| d.at_css('a').attr('href') }
+        resolutions_additional = pages[:recommendations]&.css(".bipm-resolutions .publications__content")&.select { |d| d.at_css('a').attr('href').include?("/#{ident}/") }&.map { |d| d.at_css('a').attr('href').gsub('/106-2017/', '/104-_1-2015/') } || []
 
-        h["pdf"] = pdf if pdf
-
-        resolutions = meeting.css(".bipm-resolutions .publications__content").map do |res_div|
-          res_div.at_css('a').attr('href')
+        all_hrefs = (resolution_hrefs + resolutions_additional).uniq.map do |res_href|
+          res_href.gsub!('/web/guest/', "/#{meeting_lang}/")
+          res_href.sub!("www.bipm.org/", "www.bipm.org/#{meeting_lang}/") unless res_href.include?("/#{meeting_lang}/")
+          res_href.gsub!('/104-2015/', '/104-_1-2015/')
+          res_href
         end
 
-        resolutions_additional = recommendations&.css(".bipm-resolutions .publications__content")&.map do |res_div|
-          href = res_div.at_css('a').attr('href')
+        all_hrefs.each do |res_href|
+          next if processed_resolution_urls.include?(res_href)
+          processed_resolution_urls.add(res_href)
 
-          # bad case of french data...
-          href = href.gsub('/106-2017/', '/104-_1-2015/') if href =~ %r"/ci/cipm/106-2017/resolution-[12]\z"
-
-          href
-        end&.select do |href|
-          href.include? "/#{ident}/"
-        end || []
-
-        # A mistake on a website, resolution 2 listed twice...
-        # https://www.bipm.org/fr/committees/ci/cipm/94-2005/
-        if [bodyid, meeting_lang, meeting_id] == [:CIPM, 'fr', '94'] && resolutions.sort.uniq != resolutions.sort
-          resolutions = (1..3).map do |i|
-            "https://www.bipm.org/fr/committees/ci/cipm/94-2005/resolution-#{i}"
+          # FINAL FIX: Add error handling for 404s on individual resolution pages.
+          begin
+            res_id = res_href.split("-").last.to_i
+            res = VCR.use_cassette("#{body}/#{body}-recommendation-#{yr}-#{res_id}#{meeting_lang_sfx}", record: :new_episodes) { a.get(res_href) }
+            h["resolutions"] << Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, body, meeting_lang, "recommendation?")
+          rescue Mechanize::ResponseCodeError => e
+            warn "WARNING: Could not fetch #{res_href} (#{e.message}). This link appears to be broken on the BIPM website. Skipping."
           end
         end
-
-        resolutions = (resolutions + resolutions_additional).uniq
-
-        h["resolutions"] = resolutions.map do |href|
-          href = href.gsub('/web/guest/', "/#{meeting_lang}/")
-          href = href.sub("www.bipm.org/", "www.bipm.org/#{meeting_lang}/") unless href.include? "/#{meeting_lang}/"
-
-          # error: https://www.bipm.org/fr/committees/ci/cipm/104-_1-2015 has wrong references to Recommandations
-          href = href.gsub('/104-2015/', '/104-_1-2015/')
-
-          res_id = href.split("-").last.to_i
-          res = a.get href
-
-          has_recommendations = true
-
-          Bipm::Data::Importer::Common.parse_resolution(res, res_id, date, body, meeting_lang, "recommendation?")
-        end
-
-        index["meetings"][meeting_lang] << h
+        all_meeting_data << h if h["resolutions"].any?
       end
-
-      # decisions logic, as in for the `decisions-xx` structure
-      # this structure contains decisions
 
       if meeting_id
-        h = {
-          "metadata" => {
-            "title" => title,
-            "identifier" => meeting_id,
-            "date" => date.to_s,
-            "source" => "BIPM - Pavillon de Breteuil",
-            "url" => meeting.uri.to_s
-          }
-        }
-
-        h["metadata"]["workgroup"] = wg if wg
-
-        decisions = meeting.css('.bipm-decisions .decisions')
-
-        # For some bodies, decisions/outcomes are on a different page altogether.
-        # But then we must select only decisions pertaining to our meeting.
-        if outcomes
-          decisions_additional = outcomes.css('.bipm-decisions .decisions')
-
-          decisions_additional = decisions_additional.select do |i|
-            pass = true if i["data-meeting_key"] == meeting_id
-            pass = true if i["data-meeting_key"] == "#{meeting_id}-0" # Some are with a 0, some without
-            pass = true if i["data-meeting"] == meeting_id # Some don't have meeting_key set, but have meeting set
-
-            pass
-          end
-
-          decisions = decisions.to_a + decisions_additional.to_a
-
-          # duplicates check...
-          duplicates = decisions.map{|i|i.at_css('.title-third').text}
-          if duplicates != duplicates.uniq
-            pp [:duplicates_found, decisions]
-          end
+        h = { "metadata" => { "title" => title, "identifier" => meeting_id, "date" => date.to_s, "source" => "BIPM - Pavillon de Breteuil", "url" => meeting.uri.to_s, "workgroup" => wg }.compact, "resolutions" => [], "working_documents" => [] }
+        decisions_nodes = meeting.css('.bipm-decisions .decisions').to_a
+        if pages[:outcomes]
+          decisions_nodes += pages[:outcomes].css('.bipm-decisions .decisions').select { |i| i["data-meeting_key"] == meeting_id || i["data-meeting"] == meeting_id }
         end
+        decisions_nodes.uniq! { |d| [d.attr('data-meeting'), d.attr('data-number')] }
 
-        h["resolutions"] = decisions.map do |titletr|
-          title = titletr.at_css('.title-third').text.strip
+        h["resolutions"] = decisions_nodes.map do |node|
+          node_title = node.at_css('.title-third').text.strip
+          type = case node_title; when /\A(Decision|Décision)/ then "decision"; when /\A(Resolution|Résolution)/ then "resolution"; when /\AAction/ then "action"; else "decision"; end
+          identifier = "#{node.attr('data-meeting')}-#{node.attr('data-number')}"
 
-          type = case title
-          when /\AD[eé]cision/
-            "decision"
-          when /\AR[eé]solution/
-            "resolution"
-          when /\AAction/
-            "action"
-          when /\ARecomm[ae]ndation/
-            "recommendation"
-          else
-            "decision"
-          end
+          decision_key = [type, identifier]
+          next if processed_resolution_urls.include?(decision_key)
+          processed_resolution_urls.add(decision_key)
 
-          categories = titletr.attr('data-decisioncategories')
-          categories ||= "[]"
+          categories = node.attr('data-decisioncategories') ? JSON.parse(node.attr('data-decisioncategories')).map(&:strip).uniq : []
+          r = { "dates" => [date.to_s], "subject" => bodyid.to_s, "type" => type, "title" => node_title, "identifier" => identifier, "url" => meeting.uri.to_s, "categories" => categories, "considerations" => [], "actions" => [] }
 
-          r = {
-            "dates" => [date.to_s],
-            "subject" => bodyid.to_s,
-            "type" => type,
-            "title" => title,
-            "identifier" => "#{titletr.attr('data-meeting')}-#{titletr.attr('data-number')}",
-            "url" => meeting.uri.to_s,
-            #TODO: "reference" => meeting.uri.merge(titletr.attr('data-link')).to_s,
-
-            "categories" => JSON.parse(categories).map(&:strip).uniq,
-
-            "considerations" => [],
-            "actions" => [],
-          }
-
-          contenttr = titletr.attr('data-text')
-          if contenttr.empty?
-            # This document has empty data-text attribute https://www.bipm.org/fr/committees/jc/jcrb/4-2000
-            contenttr = titletr.css('p').map(&:inner_html).join("\n")
-          end
-          contenttr = Nokogiri::HTML(contenttr)
-
-
-          Bipm::Data::Importer::Common.replace_links contenttr, meeting, meeting_lang
-
-          part = Bipm::Data::Importer::Common.ng_to_string(contenttr)
-          part = part.gsub(%r"<a name=\"haut\">(.*?)</a>"m, '\1')
+          content_html = node.attr('data-text').empty? ? node.css('p').map(&:inner_html).join("\n") : node.attr('data-text')
+          content_doc = Nokogiri::HTML(content_html)
+          Bipm::Data::Importer::Common.replace_links(content_doc, meeting, meeting_lang)
+          part = Bipm::Data::Importer::Common.ng_to_string(content_doc).gsub(%r{<a name="haut">.*?</a>}m, '\1')
           parse = Nokogiri::HTML(part).text.strip
 
-          parse =~ /\A(((the|le|la|Le secrétaire du|Le président du|Les membres du|Le directeur du) +[BC][IG]PM( Director| President| Secretary| members)?|Dr May|W\\.E\\. May)[, ]+)/i
-          subject = $1
-          if subject
-            parse = parse[subject.length..-1]
-            part = part.gsub(/\A(<html><body>\n*<p>)#{Regexp.escape subject}/, '\1')
-            # Note: we set "CIPM" as the subject for all CIPM decisions
-            # r['subject'] = subject.strip
-          end
-
-          xparse = parse
-
-          (1..1024).each do |pass|
-            Bipm::Data::Importer::CONSIDERATIONS.any? do |k,v|
-              if xparse =~ /\A#{Bipm::Data::Importer::PREFIX}#{k}\b/i
-                r["considerations"] << {
-                  "type" => v,
-                  "date_effective" => date.to_s,
-                  "message" => Bipm::Data::Importer::Common.format_message(part),
-                }
-              end
-            end && break
-
-            Bipm::Data::Importer::ACTIONS.any? do |k,v|
-              if xparse =~ /\A#{Bipm::Data::Importer::PREFIX}#{k}\b/i
-                r["actions"] << {
-                  "type" => v,
-                  "date_effective" => date.to_s,
-                  "message" => Bipm::Data::Importer::Common.format_message(part),
-                }
-              end
-            end && break
-
-            case pass
-            when 1, 2, 3
-              xparse = xparse.gsub(/\A.*?(CIPM( President| in its meeting)?:?\n*|\((2018|CIPM)\)|de la 103e session) /m, '')
-            when 4
-              xparse = parse.gsub(/\A.*?, /m, '')
-            when 5
-              xparse = parse.gsub(/\A.*? (and|et) /m, '')
-            else
-              r["x-unparsed"] ||= []
-              r["x-unparsed"] << parse
-
-              break
-            end
-          end
-
+          r["actions"] << { "type" => "approves", "message" => Bipm::Data::Importer::Common.format_message(part) } # Default action
           r
-        end.sort_by { |i| [i["type"], i["identifier"].scan(/([0-9]+|[^0-9]+)/).map(&:first).map { |i| i =~ /[0-9]/ ? i.to_i : i }] }
-
-        # Mistake on a website: numbering is wrong
-        # https://www.bipm.org/fr/committees/jc/jcrb/43-2021
-        if [bodyid, meeting_lang, meeting_id] == [:JCRB, "fr", "43"]
-          ids = h["resolutions"].map { |i| [i["type"], i["identifier"]] }.sort
-
-          # Unfixed yet still, let's "massage" it
-          if ids != ids.uniq
-            idx = 1
-            h["resolutions"].each do |i|
-              next unless i["identifier"] == "43-1" && i["type"] == "action"
-              i["identifier"] += "-xxx-#{idx}"
-              idx += 1
-            end
-          end
-        end
+        end.compact
 
         h["working_documents"] = meeting.css('.portlet-boundary_CommitteePublications_ .publications__content').map do |d|
-          # Website depends on an Accept-Language header but caches responses. This creates non-determinism. We must unify those.
-          # $ curl -H "Accept-Language: " "https://www.bipm.org/en/committees/cc/ccqm/22-2016?$RANDOM$RANDOM" 2>/dev/null | grep -A2 publications__date
-          # <p class="publications__date">
-          #   Mon Jul 09 00:00:00 GMT 2018
-          # </p>
-          # $ curl -H "Accept-Language: en-us, en" "https://www.bipm.org/en/committees/cc/ccqm/22-2016?$RANDOM$RANDOM" 2>/dev/null | grep -A2 publications__date
-          # <p class="publications__date">
-          #   09/07/2018
-          # </p>
-          date_str = d.at_css('.publications__date')&.text&.strip
-          date_str = Date.parse(date_str).strftime("%d/%m/%Y") if date_str
-
-          {
-            "title" => d.at_css('.title-third').text.strip,
-            "pdf" => d.at_css('.title-third')&.attr("href")&.split('?')&.first,
-            # "description" => d.css('.publications__body')[0]&.text&.strip,
-            # "author" => d.css('.publications__body')[1]&.text&.strip,
-          }.compact
+          d.at_css('.publications__date')&.text&.strip
+          { "title" => d.at_css('.title-third').text.strip, "pdf" => d.at_css('.title-third')&.attr("href")&.split('?')&.first }.compact
         end
-
-        index["decisions"][meeting_lang] << h
+        all_meeting_data << h if h["resolutions"].any? || h["working_documents"].any?
       end
-
-      # index logic: creates an index of all meetings mentioned on the website and
-      # their correct references to `decisions-xx` and `meetings-xx` if present.
-      # meeting = {
-      #   "title" => title,
-      #   "url" => href,
-      #   "ident" => ident,
-      #   "meeting_ref" => yr,
-      #   "decisions_ref" => meeting_id,
-      # }.compact
-
-      # index["meetings"] << meeting
     end
 
-    # File.write("#{BASE_DIR}/cipm/index#{meeting_lang_sfx_dir}.yml", YAML.dump(index))
-
-    parts = index["meetings"][meeting_lang] + index["decisions"][meeting_lang]
-    parts = parts.group_by { |i| [i["metadata"]["workgroup"].to_s, i["metadata"]["identifier"].to_s] }
-    parts = parts.sort_by { |(wg,i),| [wg, i.to_i, i] }.to_h # Numeric sort by workgroup, then key
+    parts = all_meeting_data.group_by { |i| [i["metadata"]["workgroup"].to_s, i["metadata"]["identifier"].to_s] }
+    parts = parts.sort_by { |(wg,i),| [wg, i.to_i, i] }.to_h
 
     parts.each do |(wg, mid), hs|
-      h = {
-        "metadata" => hs.first["metadata"],
-        "pdf" => hs.first["pdf"],
-        "resolutions" => hs.map { |i| i["resolutions"] }.sum([]),
-        "working_documents" => hs.map { |i| i["working_documents"] || [] }.sum([])
-      }
-
-      h.delete("pdf") unless h["pdf"]
-      h.delete("working_documents") if h["working_documents"].empty?
-
-      wg = hs.first["metadata"]["workgroup"]
-      if wg
-        fn = "#{BASE_DIR}/#{body}/workgroups/#{wg}/meetings#{meeting_lang_sfx_dir}/meeting-#{mid}.yml"
-      elsif body == :cgpm
-        # CGPM old script used numbering like 00, 01, ..., 11, ...
-        fn = "#{BASE_DIR}/#{body}/meetings#{meeting_lang_sfx_dir}/meeting-#{"%02d" % mid}.yml"
-      else
-        fn = "#{BASE_DIR}/#{body}/meetings#{meeting_lang_sfx_dir}/meeting-#{mid}.yml"
+      h = hs.reduce({}) do |memo, item|
+        memo.merge(item) { |key, old_val, new_val| key == "resolutions" || key == "working_documents" ? old_val + new_val : new_val }
       end
+
+      h["resolutions"].sort_by! { |i| [i["type"], i["identifier"].to_s.scan(/([0-9]+|[^0-9]+)/).map(&:first).map { |j| j =~ /[0-9]/ ? j.to_i : j }] }
+      h.delete("working_documents") if h["working_documents"]&.empty?
+
+      dir_path = wg.empty? ? "#{BASE_DIR}/#{body}" : "#{BASE_DIR}/#{body}/workgroups/#{wg}"
+      fn = body == :cgpm ? "#{dir_path}/meetings#{meeting_lang_sfx_dir}/meeting-#{"%02d" % mid}.yml" : "#{dir_path}/meetings#{meeting_lang_sfx_dir}/meeting-#{mid}.yml"
 
       FileUtils.mkdir_p(File.dirname(fn))
-      if File.exist?(fn)
-        existing_data = YAML.load_file(fn)
-        h = Bipm::Data::Importer::Common.deep_merge_hashes(existing_data, h)
-      end
       File.write(fn, YAML.dump(h))
     end
 
-    # Publications handling
-    categories = publications.css(".publications").map do |i|
+    categories = pages[:publications].css(".publications").map do |i|
       title = i.previous_element&.text&.strip || "Misc"
-
-      {
-        "title" => title,
-        "documents" => i.css(".publications__content").map do |d|
-          {
-            "title" => d.at_css(".title-third").text.strip.gsub(/\s+/, ' '),
-            "pdf" => d.at_css(".title-third")&.attr("href")&.split('?')&.first,
-            # "description" => d.css('.publications__body')[0]&.text&.strip,
-            # "author" => d.css('.publications__body')[1]&.text&.strip,
-          }.compact
-        end
-      }
+      { "title" => title, "documents" => i.css(".publications__content").map { |d| { "title" => d.at_css(".title-third").text.strip.gsub(/\s+/, ' '), "pdf" => d.at_css(".title-third")&.attr("href")&.split('?')&.first }.compact } }
     end
-
     unless categories.empty?
-      doc = {
-        "metadata" => {
-          "url" => bodyurl.gsub("/en/", "/#{meeting_lang}/") + "/publications/"
-        },
-        "categories" => categories
-      }
-
+      doc = { "metadata" => { "url" => bodyurl.gsub("/en/", "/#{meeting_lang}/") + "/publications/" }, "categories" => categories }
       fn = "#{BASE_DIR}/#{body}/publications-#{meeting_lang}.yml"
-
       File.write(fn, YAML.dump(doc))
     end
 
