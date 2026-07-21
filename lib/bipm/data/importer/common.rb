@@ -9,6 +9,14 @@ require_relative "asciimath"
 VCR.configure do |c|
   c.cassette_library_dir = __dir__ + "/../../../../cassettes"
   c.hook_into :webmock
+  # Default: replay existing cassettes (deterministic, no network).
+  # Set BIPM_VCR_RECORD=all to overwrite cassettes with fresh responses
+  # from bipm.org; set BIPM_VCR_RECORD=new_episodes to record only URLs
+  # not already in a cassette. VCR's :once (default) raises if a request
+  # is missing from its cassette.
+  if ENV["BIPM_VCR_RECORD"]
+    c.default_cassette_options = { record: ENV["BIPM_VCR_RECORD"].to_sym }
+  end
 end
 
 module Bipm
