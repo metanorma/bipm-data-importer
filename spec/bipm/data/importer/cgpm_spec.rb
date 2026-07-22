@@ -1,5 +1,3 @@
-require_relative "../../../spec_helper"
-
 RSpec.describe "data" do
   $all_files = Dir[File.join(__dir__, '../../../../data/cgpm/meetings-*/*.yml')]
 
