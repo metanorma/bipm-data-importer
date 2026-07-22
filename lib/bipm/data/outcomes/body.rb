@@ -2,7 +2,7 @@ module Bipm
   module Data
     module Outcomes
       class Body
-        def initialize(body, locale = nil)
+        def initialize(body)
           @body = body
         end
 

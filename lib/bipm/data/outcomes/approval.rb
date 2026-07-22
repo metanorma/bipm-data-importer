@@ -10,7 +10,7 @@ module Bipm
         end
 
         def document
-          @resolution.document.dig("approvals", index)
+          @document ||= @resolution.document.dig("approvals", index)
         end
 
         attr_reader :resolution, :index

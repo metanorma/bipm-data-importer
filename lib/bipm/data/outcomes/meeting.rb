@@ -19,7 +19,7 @@ module Bipm
         end
 
         def document
-          YAML.load(File.open(file_path))
+          @document ||= YAML.load(File.open(file_path))
         end
 
 
@@ -36,7 +36,7 @@ module Bipm
         end
 
         def url
-          document["metadata"]["source"]
+          document["metadata"]["url"]
         end
 
         def pdf
