@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
-require_relative "../lib/bipm/data/importer"
-require_relative "../lib/bipm/data/outcomes"
+require "yaml"
+require "date"
+require "bipm/data/importer"
+require "bipm/data/outcomes"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

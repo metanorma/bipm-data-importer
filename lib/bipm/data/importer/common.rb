@@ -1,10 +1,11 @@
+# frozen_string_literal: true
+
 require "mechanize"
+require "nokogiri"
 require "coradoc/input/html"
 require "vcr"
 require "date"
 require "fileutils"
-require "pry"
-require_relative "asciimath"
 
 VCR.configure do |c|
   c.cassette_library_dir = __dir__ + "/../../../../cassettes"
@@ -22,80 +23,14 @@ end
 module Bipm
   module Data
     module Importer
-      CONSIDERATIONS = {
-        /(?:having(?: regard)?|ayant|concerne|vu la|agissant conformément|sachant|de porter)/i => "having / having regard",
-        /(?:noting|to note|took note|note[sd]?|taking note|takes note|constatant|constate|that|notant|notant que|note également|(?:prend|prenant) (?:acte|note))/i => "noting",
-        /(?:recognizing|recognizes|reconnaissant|reconnaît)/i => "recognizing",
-        /(?:acknowledging|admet|entendu|(?:and |)aware that|anticipa(?:ting|nt))/i => "acknowledging",
-        /(?:(?:further )?recall(?:ing|s|ed)|rappelant|rappelle|rappelantla)/i => "recalling / further recalling",
-        /(?:re-?affirm(?:ing|s)|réaffirme)/i => "reaffirming",
-        /(?:consid(?:er(?:ing|)|érant|ère|ers|ered|érantque|érantle)|après examen|estime|is of the opinion|examinera|en raison|by reason)/i => "considering",
-        /(?:The Consultative Committee for Time and Frequency \(CCTF\), at|Le Comité consultatif du temps et des fréquences \(CCTF\), à)/i => "considering",
-        /(?:taking into account|(prend|prenant) en considération|taking into consideration|tenant compte|envisager)/i => "taking into account",
-        "pursuant to" => "pursuant to",
-        /(?:bearing in mind)/i => "bearing in mind",
-        /(?:emphasizing|soulignant)/i => "emphasizing",
-        "concerned" => "concerned",
-        /(?:accept(?:s|ed|ing|e)|acceptant)/i => "accepts",
-        /(?:observing|observant que|r[ée]ali(?:zing|sant))/i => "observing",
-        /(?:referring|se référant)/i => "referring",
-        /(?:acting in accordance|agissant conformément|conformément)/i => "acting",
-        /(?:empowered by|habilité par)/i => "empowers",
-      }
-
-      ACTIONS = {
-        /(?:adopts|adopt[eé]d?|convient d'adopter)/ => "adopts",
-        /(?:thanks|thanked|expresse[sd](?:[ -]| its )appreciation|appréciant|pays tribute|rend hommage|remercie|support(?:ed|s))/i => "thanks / expresses-appreciation",
-        /(?:approu?v[eé][ds]?|approuv[ae]nt|approving|entérine|(?:It was )?agree[sd]?|soutient|exprime son accord|n'est pas d'accord|convient)/i => "approves",
-        /(?:d[eé]cid(?:e[ds]?|é)|ratifies?|r[eé]vised?)/i => "decides",
-        /(?:d[ée]clares?|d[ée]finition)/i => "declares",
-        /(?:The unit of length is|Supplementary units|Derived units|Principl?es|Les Délégués des États|Les v(?:œ|\u{9C})ux ou propositions)/i => "declares",
-        /(?:L'unité de longueur|Unités supplémentaires|Unités dérivées|(?:\*_)?New candle|(?:\*_)?New lumen|(?:A\) )?D[ée]finitions (?:of|des)|Cubic decimetre|Clarification of|Revision of)/i => "declares",
-        /(?:Unit of force|Définitions des|Décimètre cube|Étalons secondaires|Unité spéciale|Efficacités lumineuses|From three names|Entre les trois termes)/i => "declares",
-        /(?:Unité de force|(?:Joule|Watt|Volt|Ohm|Amp[eè]re|Coulomb|Farad|Henry|Weber) \(unité?|Bougie nouvelle|Lumen nouveau|announces that|annonce que)/i => "declares",
-        /(?:Les unités photométriques|\(A\) D[eé]finitions|The photometric units|will (?:provide|circulate|issue|identify|notify|contact|review))/i => "declares",
-        /(?:Appendix 1 of the|L'Annexe 1 de la|increased|a (?:examiné|préparé)|transmettra|fournira|increased|developed a document|prendra contact)/i => "declares",
-        /(?:Le Temps Atomique International |International Atomic Time \(TAI\) |will meet )/i => "declares",
-        /(?:ask[s ]|asked|souhaite|souhaiterait)/i => "asks",
-        /(?:(?:further |et )?invit(?:[ée][ds]?|era)|renouvelle en conséquence|convient d'inviter)/i => "invites / further invites",
-        /(?:resolve[sd]?)/i => "resolves",
-        /(?:confirms|confirmed?|confirme que|committed|s'engageant)/i => "confirms",
-        /(?:welcom(?:e[sd]?|ing)|accueille favorablement(?:les)?|salu(?:e|ant))/i => "welcomes",
-        /(?:recomm(?:ends?|ande(?:nt|)|ended)|endorsed|LISTE DES RADIATIONS|1 Radiations recommandées|LIST OF RECOMMENDED|1 Recommended radiations|aim(?:s|ing)|a pour objectif|should)/i => "recommends",
-        /(?:requests?|requested|demande(?:ra)?|requi[eè]r(?:en|)t|must)|l'intention d’examiner/ => "requests",
-        /(?:(?:is |are |)(?:to |)(?:re-?|)(?:amend|investigate|delete|help|present|develop|create|refer|add|formalise|update|collaborate|ensure|modify|prepare|look|report|consider|continue|make|bring|post|request|draw|raise|draft|circulate|arrange|provide|send|write|check|amend|forward|distribute|pursue|inform|coordinate|discuss|submit|ask|inquire|put)|will)/i => "requests",
-        /(?:congratulate[sd]?|félicite)/i => "congratulates",
-        /(?:instructs|instructed|inform[es]|intends to)/i => "instructs",
-        /(?:(?:strongly |)urges|prie instamment)/i => "urges",
-        /(?:appoints|(?:re)?appointed|granted|reconduit|commended|accorde)/i => "appoints",
-        /(?:donn(?:e|ées)|Pendant la période|voted|established a \w+ task group)/i => "appoints",
-        /(?:convient d'éablir|transfère|confie|établit|Étant donné que trois sièges|As there will be three vacancies)/i => "appoints",
-        /(?:La Recommandation 1 du Groupe|Recommendation 1 of the ad hoc)/i => "appoints",
-        /(?:élit|nomme|elected|nominated)/ => "elects",
-        /(?:gave the \w+ \w+ the authority|autorise|authorized)/ => "authorizes",
-        /(?:charged?)/ => "charges",
-        /(?:resolve[sd]? further)/i => "resolves further",
-        /(?:calls upon|draws the attention|attire l'attention|lance un appel|called upon)/i => "calls upon",
-        /(?:encourages?d?|espère|propose[ds]?)/i => "encourages",
-        /(?:affirms|reaffirming|réaffirmant|concurs)/i => "affirms / reaffirming",
-        /(?:states)/i => "states",
-        /(?:remarks|remarques)/i => "remarks",
-        /(?:judges)/i => "judges",
-        /(?:sanction(?:s|né?e))/i => "sanctions",
-        /(?:abrogates|abroge)/i => "abrogates",
-        /(?:empowers|habilite)/i => "empowers",
-      }
-
-      PREFIX1 = /(?:The|Le) CIPM |La Conférence |M. Volterra |M. le Président |unanimously |would |a |sont |will |were |did not |strongly |(?:La|The) (?:\d+(?:e|th)|Quinzième) Conférence Générale des Poids et Mesures(?: a |,\s+)?/i
-      PREFIX2 = /The \d+th Conférence Générale des Poids et Mesures |The Conference |and |et (?:en |)|has |renouvelle sa |renews its |further |and further |En ce qui |après avoir |\.\.\.\n+\t*/i
-      PREFIX3 = /Sur la proposition de M. le Président, la convocation de cette Conférence de Thermométrie est |Le texte corrigé, finalement |(?:The|Le) Comité International(?: des Poids et Mesures)?(?: \(CIPM\))?(?: a |,)?\s*/i
-      PREFIX4 = /(?:The |Le |)(?:JCRB|JCGM|CCU|CCTF|CCT|CCRI|CCPR|CCQM|CCM|CCL|CCEM|CCAUV|KCDB),? (?:also |)|Each RMO |fully |The JCRB Rules of Procedure are |Bob Watters and Claudine Thomas /
-      PREFIX5 = /(?:The |Le |All |)(?:incoming |)(?:JCRB |KCDB |)(?:documents|(?:Consultative |)Committees?|Office|Chairman(?: and Secretary|)|Joint BIPM[\/-]ILAC Working Group(?: \(see Action 22\))|RMO(?:[- ]JCRB|) Representatives(?: to the JRCB|)|(?:BIPM |)Director(?: of BIPM|)|SIM|(?:Exec(?:utive|) |)Secretary(?:\(ies\)|)|RMOs, except SIM,|RMOs|APMP|\(?(?:[MD]r|Prof) [A-Z][a-zR-]+\)?|CMCs|EUR[AO]MET|COOMET|GULFMET) |It was /
-      PREFIX6 = /“|"|« à |All RMO documents related to review procedures |Mr Lam and Dr Kühne |The Prof. Kühne, Mr Jones and the Executive Secretary |Ajchara Charoensook, from APMP, /
-
-      PREFIX = /(?:#{PREFIX1}|#{PREFIX2}|#{PREFIX3}|#{PREFIX4}|#{PREFIX5}|#{PREFIX6})?/i
-
-      SUFFIX = / (?:that|que)\b|(?: (?:the |that |le |que les )?((?:[A-Z]|national|laboratoires).{0,80}?)(?: to)?\b|)/
+      # @deprecated use Clauses::CONSIDERATIONS / Clauses::ACTIONS directly.
+      CONSIDERATIONS = Clauses::CONSIDERATIONS
+      # @deprecated use Clauses::ACTIONS directly.
+      ACTIONS = Clauses::ACTIONS
+      # @deprecated use Clauses::PREFIX directly.
+      PREFIX = Clauses::PREFIX
+      # @deprecated use Clauses::SUFFIX directly.
+      SUFFIX = Clauses::SUFFIX
 
       DOIREGEX = %r'\s+<p>\s+<b>DOI :</b> (.*?)\s+</p>\n\n'
 
@@ -103,16 +38,7 @@ module Bipm
         def replace_links(ps, res, lang)
           ps.css("a[href]").each do |a|
             href = a.attr("href")
-
-            href = href.gsub(%r'\Ahttps://www\.bipm\.org/', "")
-
-            # Correct links
-            href = href.gsub("/web/guest/", "/#{lang}/")
-
-            # Account for some mistakes from an upstream document
-            href = href.gsub(%r"\A/jen/", "/en/")
-            href = href.gsub(%r"\A/en/CGPM/jsp/", "/en/CGPM/db/")
-
+            href = Quirks.fix_href(href, language: lang)
             href = case href
               when %r'\A/(\w{2})/CGPM/db/(\d+)/(\d+)/(#.*)?\z',
                    %r'\A/jsp/(\w{2})/ViewCGPMResolution\.jsp\?CGPM=(\d+)&RES=(\d+)(#.*)?\z',
@@ -173,7 +99,7 @@ module Bipm
 
         def format_message(part)
           AsciiMath.asciidoc_extract_math(
-            Coradoc::Input::HTML.convert(part).strip.gsub("&nbsp;", " ").gsub(" \n", "\n")
+            Coradoc::Input::Html.convert(part).strip.gsub("&nbsp;", " ").gsub(" \n", "\n")
           )
         rescue
           warn "Bug in Coradoc, couldn't parse the following document:"
@@ -203,7 +129,7 @@ module Bipm
 
           refs = ng.css(".publication-card_reference a")
 
-          if rec_type.end_with? "?"
+          if rec_type&.end_with?("?")
             rec_type = case supertitle
               when /\AD[eé]claration/
                 "statement"
@@ -250,8 +176,6 @@ module Bipm
 
           ps = ng.css("div.journal-content-article").first
 
-          #binding.pry if ps.count != 1
-
           # Replace links
           Common.replace_links(ps, res, lang)
 
@@ -259,7 +183,6 @@ module Bipm
           Common.replace_centers(ps)
 
           doc = Common.ng_to_string(ps)
-          # doc = AsciiMath.html_to_asciimath(doc)
 
           if doc.match? DOIREGEX
             doc = doc.sub(DOIREGEX, "")
@@ -292,8 +215,8 @@ module Bipm
               next
             end
 
-            CONSIDERATIONS.any? do |k, v|
-              if parse =~ /\A#{PREFIX}#{k}\b/i
+            Clauses::CONSIDERATIONS.any? do |k, v|
+              if parse =~ /\A#{Clauses::PREFIX}#{k}\b/i
                 r["considerations"] << prev = {
                   "type" => v,
                   "date_effective" => date.to_s,
@@ -302,8 +225,8 @@ module Bipm
               end
             end && next
 
-            ACTIONS.any? do |k, v|
-              if parse =~ /\A#{PREFIX}#{k}\b/i
+            Clauses::ACTIONS.any? do |k, v|
+              if parse =~ /\A#{Clauses::PREFIX}#{k}\b/i
                 r["actions"] << prev = {
                   "type" => v,
                   "date_effective" => date.to_s,
@@ -329,17 +252,17 @@ module Bipm
             next if parse =~ /\A(|\[Cliquer ici\]|Click here|\.\.\.)\z/
 
             r["x-unparsed"] ||= []
-            r["x-unparsed"] << parse #ReverseAdoc.convert(part).strip
+            r["x-unparsed"] << parse
           end
 
           %w[considerations actions].each do |type|
-            map = type == "actions" ? ACTIONS : CONSIDERATIONS
+            map = type == "actions" ? Clauses::ACTIONS : Clauses::CONSIDERATIONS
             r[type] = r[type].map do |i|
               islist = false
 
               kk = nil
 
-              if map.any? { |k, v| (i["message"].split("\n").first =~ /\A\s*([*_]?)(#{PREFIX}#{k})\1?(#{SUFFIX})\1?\s*\z/i) && (kk = k) }
+              if map.any? { |k, v| (i["message"].split("\n").first =~ /\A\s*([*_]?)(#{Clauses::PREFIX}#{k})\1?(#{Clauses::SUFFIX})\1?\s*\z/i) && (kk = k) }
                 prefix = $2
                 suffix = $3
                 subject = $4
@@ -348,7 +271,7 @@ module Bipm
                 listitems = []
                 if (i["message"].split(/(?<!\+)\n(?!\+)/).all? { |j|
                   case j
-                  when /\A\s*[*_]?#{PREFIX}#{kk}/i
+                  when /\A\s*[*_]?#{Clauses::PREFIX}#{kk}/i
                     true
                   when /\A\s*\z/
                     true
@@ -365,7 +288,6 @@ module Bipm
               end
 
               if subject
-                #p subject
                 r["subject"] ||= []
                 r["subject"] << subject
               end
@@ -408,26 +330,7 @@ module Bipm
         end
 
         def extract_date(date_str)
-          return nil unless date_str
-
-          date = date_str.strip
-                         .gsub(/\s+/, " ")
-                         .gsub("février", "february") # 3 first letters must match English
-                         .gsub("juin", "june")
-                         .gsub("avril", "april")
-                         .gsub("mai", "may")
-                         .gsub("juillet", "july")
-                         .gsub(/ao[uû]t/, "august")
-                         .gsub("décembre", "december")
-                         .split(/, | to | au /) # Get last date
-                         .last
-          date = Date.parse(date)
-
-          binding.pry if date <= Date.parse("0000-01-01")
-
-          date
-        rescue Date::Error
-          binding.pry
+          Text::French.parse_date(date_str)
         end
 
         extend self
