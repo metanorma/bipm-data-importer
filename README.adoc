@@ -2,31 +2,90 @@
 
 == Purpose
 
-Provides executables that help fetch CIPM and CGPM outcomes from the official
-BIPM website.
+Provides a single executable, `bipm-fetch`, that fetches BIPM committee
+outcomes (CIPM, CGPM, and the consultative committees) from the official
+BIPM website into a local YAML tree.
+
+The gem also exposes a Ruby library API for programmatic use.
 
 
-== Usage
+== Command-line usage
 
-To fetch CGPM outcomes:
-
-[source,sh]
-----
-$ bipm-fetch-cgpm
-----
-
-To fetch CIPM outcomes:
+Fetch every body, every language:
 
 [source,sh]
 ----
-$ bipm-fetch-cipm
+$ bipm-fetch
 ----
 
-To fetch CIPM decisions:
+Fetch a single body (any of: `ccauv`, `ccem`, `ccl`, `ccm`, `ccpr`,
+`ccqm`, `ccri`, `cct`, `cctf`, `ccu`, `cgpm`, `cipm`, `jcgm`, `jcrb`):
 
 [source,sh]
 ----
-$ bipm-fetch-cipm-decisions
+$ bipm-fetch --body=cgpm
+----
+
+Restrict to one language (`en` or `fr`):
+
+[source,sh]
+----
+$ bipm-fetch --body=cgpm --language=fr
+----
+
+Run each body in a forked child process (parallel):
+
+[source,sh]
+----
+$ bipm-fetch --fork
+----
+
+Show help:
+
+[source,sh]
+----
+$ bipm-fetch --help
+----
+
+The default output directory is `./data`. Each body writes a
+`data/<body>/meetings-{en,fr}/meeting-<id>.yml` tree.
+
+
+== Library usage
+
+[source,ruby]
+----
+require "bipm/data/importer"
+
+agent = Mechanize.new
+Bipm::Data::Importer.fetch(:cgpm).call(agent:, base_dir: "data")
+Bipm::Data::Importer.fetch(:cipm, languages: %w[en]).call(agent:, base_dir: "data")
+
+# All bodies:
+Bipm::Data::Importer.fetch_all.each { |f| f.call(agent:, base_dir: "data") }
+----
+
+To read produced outcomes back:
+
+[source,ruby]
+----
+require "bipm/data/outcomes"
+
+Bipm::Data::Outcomes[:cgpm][:en].meetings.first.resolutions.values.first.actions
+----
+
+
+== Cassettes (test fixtures)
+
+Network requests are replayed from `cassettes/` (VCR). The CGPM scraper
+hits post-SPA URLs that have no cassettes and runs against the live site.
+
+To refresh cassettes:
+
+[source,sh]
+----
+$ BIPM_VCR_RECORD=all bundle exec rspec
+$ BIPM_VCR_RECORD=new_episodes bundle exec rspec
 ----
 
 
