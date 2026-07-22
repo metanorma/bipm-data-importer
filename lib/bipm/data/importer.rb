@@ -2,6 +2,7 @@
 
 require_relative "importer/asciimath"
 require_relative "importer/common"
+require_relative "importer/cgpm"
 require_relative "importer/version"
 require "date"
 
