@@ -29,6 +29,29 @@ bodies.each do |bodyid, bodyurl|
 
   body = bodyid.to_s.downcase.gsub(" ", "-").to_sym
 
+  if bodyid == :CGPM
+    # CGPM has a different page structure on bipm.org (SPA-rendered
+    # meeting pages; only the resolution index and per-resolution
+    # pages are static HTML). Delegate to the dedicated scraper, and
+    # disable VCR/WebMock for this body -- the new SPA URLs have no
+    # cassettes and we want live requests.
+    begin
+      require "vcr"
+      VCR.eject_cassette
+      VCR.turn_off!(ignore_cassettes: true)
+    rescue LoadError, VCR::Errors::Error
+      # VCR not loaded or no cassette in use; safe to ignore.
+    end
+    begin
+      require "webmock"
+      WebMock.disable!
+    rescue LoadError
+      # webmock not loaded; safe to ignore.
+    end
+    Bipm::Data::Importer::CGPM.run(a, BASE_DIR)
+    next
+  end
+
   resolutions = {}
   %w[en fr].each do |meeting_lang|
     next if ARGV[0] == '--fork' && fork
