@@ -3,7 +3,7 @@ module Bipm
     module Outcomes
       class LocalizedBody < Body
         def initialize(body, locale)
-          super
+          super(body)
           @locale = locale
         end
 

@@ -12,7 +12,7 @@ module Bipm
         end
 
         def document
-          @meeting.document["resolutions"][index]
+          @document ||= @meeting.document["resolutions"][index]
         end
 
         attr_reader :meeting, :index

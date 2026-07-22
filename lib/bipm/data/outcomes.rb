@@ -1,10 +1,16 @@
-require_relative "outcomes/body"
-require_relative "outcomes/localized_body"
-require_relative "outcomes/meeting"
+# frozen_string_literal: true
 
 module Bipm
   module Data
     module Outcomes
+      autoload :Body, "bipm/data/outcomes/body"
+      autoload :LocalizedBody, "bipm/data/outcomes/localized_body"
+      autoload :Meeting, "bipm/data/outcomes/meeting"
+      autoload :Resolution, "bipm/data/outcomes/resolution"
+      autoload :Approval, "bipm/data/outcomes/approval"
+      autoload :Action, "bipm/data/outcomes/action"
+      autoload :Consideration, "bipm/data/outcomes/consideration"
+
       def self.file_path
         @file_path ||= "#{__dir__}/../../../data/"
       end
@@ -30,16 +36,6 @@ module Bipm
       end
       singleton_class.include Enumerable
 
-
-      autoload :Body, "bipm/data/outcomes/body"
-      autoload :LocalizedBody, "bipm/data/outcomes/localized_body"
-      autoload :Meeting, "bipm/data/outcomes/meeting"
-      autoload :Resolution, "bipm/data/outcomes/resolution"
-      autoload :Approval, "bipm/data/outcomes/approval"
-      autoload :Consideration, "bipm/data/outcomes/consideration"
-      autoload :Action, "bipm/data/outcomes/action"
-
-      # It may be possible, that we don't have the BIPM data loaded.
       def self.ensure_downloaded
         if File.exist?(file_path)
           return
