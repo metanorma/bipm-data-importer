@@ -28,8 +28,8 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "nokogiri"
-  spec.add_dependency "mechanize"
+  spec.add_dependency "nokogiri", "~> 1.19"
+  spec.add_dependency "mechanize", "~> 2"
   # coradoc 2.0 removed `coradoc/input/html` (called in
   # lib/bipm/data/importer/common.rb) as part of a major refactor.
   # Pinned to 1.x until a follow-up ports the HTML input calls to the
