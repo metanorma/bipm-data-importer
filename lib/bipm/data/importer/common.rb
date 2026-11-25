@@ -2,7 +2,9 @@
 
 require "mechanize"
 require "nokogiri"
-require "coradoc/input/html"
+require "ceradoc"
+require "ceradoc/html"
+require "ceradoc/asciidoc"
 require "vcr"
 require "date"
 require "fileutils"
@@ -99,12 +101,12 @@ module Bipm
 
         def format_message(part)
           AsciiMath.asciidoc_extract_math(
-            Coradoc::Input::Html.convert(part).strip.gsub("&nbsp;", " ").gsub(" \n", "\n")
+            Ceradoc.convert(part, from: :html, to: :asciidoc).strip.gsub("&nbsp;", " ").gsub(" \n", "\n")
           )
         rescue
-          warn "Bug in Coradoc, couldn't parse the following document:"
+          warn "Bug in Ceradoc, couldn't parse the following document:"
           pp part
-          warn "Please report this as an issue to https://github.com/metanorma/coradoc"
+          warn "Please report this as an issue to https://github.com/ceradoc/ceradoc"
           raise
         end
 
