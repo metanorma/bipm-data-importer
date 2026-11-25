@@ -30,11 +30,14 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "nokogiri", "~> 1.19"
   spec.add_dependency "mechanize", "~> 2"
-  # coradoc 2.0 removed `coradoc/input/html` (called in
-  # lib/bipm/data/importer/common.rb) as part of a major refactor.
-  # Pinned to 1.x until a follow-up ports the HTML input calls to the
-  # coradoc 2.x API (or wherever that functionality has been extracted).
-  spec.add_dependency "coradoc", "~> 1.1"
+  # HTML→AsciiDoc conversion runs through the ceradoc monorepo (renamed
+  # coradoc → coridoc → ceradoc, 2026-11-25): the hub pipeline carries
+  # the html input (ceradoc-html) and the asciidoc writer (ceradoc-adoc);
+  # the coradoc 1.x `coradoc/input/html` API these replace was dropped
+  # from the hub line.
+  spec.add_dependency "ceradoc", "~> 3.0"
+  spec.add_dependency "ceradoc-html", "~> 1.1"
+  spec.add_dependency "ceradoc-adoc", "~> 2.0"
   spec.add_dependency "vcr"
 
   spec.add_development_dependency "pry"
